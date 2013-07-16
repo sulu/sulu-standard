@@ -7,3 +7,6 @@
 /vendor/
 /bin/
 /composer.phar
+
+# IDEs
+.idea/
