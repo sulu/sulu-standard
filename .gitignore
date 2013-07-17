@@ -9,4 +9,5 @@
 /composer.phar
 
 # IDEs
-.idea/
+.idea/*
+*.iml
