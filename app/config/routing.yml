@@ -1,0 +1,3 @@
+sulu_admin:
+    resource: "@SuluAdminBundle/Resources/config/routing.yml"
+    prefix: /
