@@ -20,7 +20,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/translate-bundle": "dev-develop",
-        "sulu/admin-bundle": "dev-master"
+        "sulu/admin-bundle": "dev-develop"
     },
     "scripts": {
         "post-install-cmd": [
@@ -49,7 +49,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "dev-master": "2.3-dev"
+            "dev-master": "2.0-dev"
         }
     }
 }
