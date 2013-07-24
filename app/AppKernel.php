@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
             new FOS\RestBundle\FOSRestBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
