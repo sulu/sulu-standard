@@ -3,8 +3,79 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e4d69e0aa3e9c5d071805848eb89eb05",
+    "hash": "9c40f9fb72bfcaa245fa4eed64a67a15",
     "packages": [
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "v1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1.2",
+                "reference": "v1.1.2",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Annotations\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2013-06-16 21:33:03"
+        },
         {
             "name": "doctrine/common",
             "version": "2.3.0",
@@ -269,6 +340,58 @@
                 "string"
             ],
             "time": "2013-01-10 21:49:15"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "v1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/doctrine/lexer/archive/v1.0.zip",
+                "reference": "v1.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2013-01-12 18:59:04"
         },
         {
             "name": "doctrine/orm",
@@ -715,22 +838,30 @@
         },
         {
             "name": "jms/metadata",
-            "version": "1.1.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/schmittjoh/metadata",
-                "reference": "1.1.1"
+                "url": "https://github.com/schmittjoh/metadata.git",
+                "reference": "1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/schmittjoh/metadata/zipball/1.1.1",
-                "reference": "1.1.1",
+                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/1.3.0",
+                "reference": "1.3.0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
+            "require-dev": {
+                "doctrine/common": ">=2.0,<2.4-dev"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Metadata\\": "src/"
@@ -755,7 +886,7 @@
                 "xml",
                 "yaml"
             ],
-            "time": "2012-01-02 13:32:49"
+            "time": "2013-01-22 12:51:18"
         },
         {
             "name": "jms/parser-lib",
@@ -794,21 +925,21 @@
         },
         {
             "name": "jms/serializer",
-            "version": "0.11.0",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "0.11.0"
+                "reference": "0.12.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/0.11.0",
-                "reference": "0.11.0",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/0.12.0",
+                "reference": "0.12.0",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "2.*",
-                "jms/metadata": ">=1.1.0,<1.3-dev",
+                "doctrine/annotations": "1.*",
+                "jms/metadata": ">=1.1,<2.0",
                 "jms/parser-lib": "1.*",
                 "php": ">=5.3.2",
                 "phpcollection/phpcollection": ">=0.1,<0.3-dev"
@@ -828,7 +959,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.12-dev"
                 }
             },
             "autoload": {
@@ -857,28 +988,28 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2013-01-29 10:56:07"
+            "time": "2013-03-28 16:41:24"
         },
         {
             "name": "jms/serializer-bundle",
-            "version": "0.11.0",
+            "version": "dev-master",
             "target-dir": "JMS/SerializerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "0.11.0"
+                "reference": "66d2fe197bacb82f7b476099144f03596719b24d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/0.11.0",
-                "reference": "0.11.0",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/66d2fe197bacb82f7b476099144f03596719b24d",
+                "reference": "66d2fe197bacb82f7b476099144f03596719b24d",
                 "shasum": ""
             },
             "require": {
-                "jms/di-extra-bundle": ">=1.3",
-                "jms/serializer": "0.11.*",
+                "jms/di-extra-bundle": "~1.3",
+                "jms/serializer": "~0.11",
                 "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.1,<3.0-dev"
+                "symfony/framework-bundle": "~2.1"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "*",
@@ -896,7 +1027,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "0.12-dev"
                 }
             },
             "autoload": {
@@ -925,7 +1056,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2013-02-12 08:32:04"
+            "time": "2013-06-10 06:27:25"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1340,17 +1471,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "dev-master",
+            "version": "dev-feature/registration",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "bd69dfe66bb5a0d1533f3947212376b9f5ca290a"
+                "reference": "77498ddfea8b97b676312e2b183c814c1516301a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/bd69dfe66bb5a0d1533f3947212376b9f5ca290a",
-                "reference": "bd69dfe66bb5a0d1533f3947212376b9f5ca290a",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/77498ddfea8b97b676312e2b183c814c1516301a",
+                "reference": "77498ddfea8b97b676312e2b183c814c1516301a",
                 "shasum": ""
             },
             "type": "library",
@@ -1376,7 +1507,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-07-18 14:52:08"
+            "time": "2013-07-24 09:06:43"
         },
         {
             "name": "sulu/translate-bundle",
@@ -1385,17 +1516,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluTranslateBundle.git",
-                "reference": "e17bd00de4cb2a3c9ca4e9a79bdde32605347856"
+                "reference": "1952699d6be22b14cb1d1d444641b269789ed4fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/e17bd00de4cb2a3c9ca4e9a79bdde32605347856",
-                "reference": "e17bd00de4cb2a3c9ca4e9a79bdde32605347856",
+                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/1952699d6be22b14cb1d1d444641b269789ed4fd",
+                "reference": "1952699d6be22b14cb1d1d444641b269789ed4fd",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/rest-bundle": "0.12.*",
-                "jms/serializer-bundle": "0.11.*"
+                "jms/serializer-bundle": "0.12.*@dev",
+                "sulu/admin-bundle": "dev-feature/registration"
             },
             "type": "library",
             "autoload": {
@@ -1419,7 +1551,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-07-18 06:51:23"
+            "time": "2013-07-24 09:13:54"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1908,7 +2040,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/translate-bundle": 20,
-        "sulu/admin-bundle": 20
+        "sulu/admin-bundle": 20,
+        "jms/serializer-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
