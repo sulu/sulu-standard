@@ -14,3 +14,10 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+
+doctrine:
+    dbal:
+        host: localhost
+        dbname: sulutest
+        user: sulu
+        password: sulu

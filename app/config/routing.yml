@@ -1,3 +1,7 @@
 sulu_admin:
     resource: "@SuluAdminBundle/Resources/config/routing.yml"
     prefix: /admin
+
+sulu_translate:
+    resource: "@SuluTranslateBundle/Resources/config/routing.yml"
+    prefix: /translate
