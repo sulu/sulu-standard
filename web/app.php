@@ -7,10 +7,9 @@ use Symfony\Component\Debug\Debug;
 // Define application environment
 defined('APP_ENV') || define('APP_ENV', (getenv('APP_ENV') ? getenv('APP_ENV') : 'prod'));
 
-$loader = require_once __DIR__.'/../app/bootstrap.php.cache';
+$loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-if(APP_ENV == 'dev')
-{
+if (APP_ENV == 'dev') {
     Debug::enable();
 }
 
@@ -22,10 +21,10 @@ $loader = new ApcClassLoader('sf2', $loader);
 $loader->register(true);
 */
 
-require_once __DIR__.'/../app/AppKernel.php';
+require_once __DIR__ . '/../app/AppKernel.php';
 //require_once __DIR__.'/../app/AppCache.php';
 
-$kernel = new AppKernel(APP_ENV, false);
+$kernel = new AppKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
 $kernel->loadClassCache();
 //$kernel = new AppCache($kernel);
 Request::enableHttpMethodParameterOverride();
