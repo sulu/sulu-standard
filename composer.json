@@ -22,7 +22,8 @@
         "sulu/core-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/admin-bundle": "dev-feature/registration",
-        "jms/serializer-bundle": "@dev"
+        "jms/serializer-bundle": "@dev",
+        "sulu/contact-bundle": "dev-develop"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",

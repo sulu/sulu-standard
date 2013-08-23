@@ -1,3 +1,7 @@
+sulu_contact_:
+    resource: "@SuluContactBundle/Resources/config/routing.yml"
+    prefix: /contact
+
 sulu_admin:
     resource: "@SuluAdminBundle/Resources/config/routing.yml"
     prefix: /admin
