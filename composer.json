@@ -24,6 +24,10 @@
         "sulu/admin-bundle": "dev-feature/registration",
         "jms/serializer-bundle": "@dev"
     },
+    "require-dev":{
+        "phpunit/phpunit": "3.7.*",
+        "sulu/generator-bundle": "dev-develop"
+    },
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
