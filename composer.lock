@@ -1468,12 +1468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "36d341b9656b9d5af11cfb2b6c423e8dd24dd8f6"
+                "reference": "6c028836aea451ef2e681a31b3e767545ebab8ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/36d341b9656b9d5af11cfb2b6c423e8dd24dd8f6",
-                "reference": "36d341b9656b9d5af11cfb2b6c423e8dd24dd8f6",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/6c028836aea451ef2e681a31b3e767545ebab8ae",
+                "reference": "6c028836aea451ef2e681a31b3e767545ebab8ae",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-08-28 14:31:08"
+            "time": "2013-09-02 14:44:24"
         },
         {
             "name": "sulu/contact-bundle",
@@ -1563,12 +1563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluCoreBundle.git",
-                "reference": "132fde8005dc6bbca817b924847ca2ecdfc7b010"
+                "reference": "b3b2b3ab556b4db85893dcde5427329144b52ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/132fde8005dc6bbca817b924847ca2ecdfc7b010",
-                "reference": "132fde8005dc6bbca817b924847ca2ecdfc7b010",
+                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/b3b2b3ab556b4db85893dcde5427329144b52ea8",
+                "reference": "b3b2b3ab556b4db85893dcde5427329144b52ea8",
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1605,7 @@
                 "core",
                 "symfony"
             ],
-            "time": "2013-08-27 15:55:28"
+            "time": "2013-08-30 14:51:52"
         },
         {
             "name": "sulu/translate-bundle",
@@ -1660,16 +1660,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "619aceb969f1e8759edc28fb22f9b64b3bddbc1e"
+                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/619aceb969f1e8759edc28fb22f9b64b3bddbc1e",
-                "reference": "619aceb969f1e8759edc28fb22f9b64b3bddbc1e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
                 "shasum": ""
             },
             "require": {
@@ -1705,7 +1705,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-06-17 13:32:32"
+            "time": "2013-08-30 12:35:21"
         },
         {
             "name": "symfony/assetic-bundle",

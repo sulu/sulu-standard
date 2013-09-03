@@ -81,4 +81,4 @@ fos_rest:
         default_format: json
 
 sulu_admin:
-    name: %sulu_admin_name%
+    name: SULU 2.0

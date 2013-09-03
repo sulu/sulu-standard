@@ -21,10 +21,10 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/core-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
-        "sulu/admin-bundle": "dev-feature/registration",
-        "jms/serializer-bundle": "@dev",
+        "sulu/admin-bundle": "dev-develop",
         "sulu/contact-bundle": "dev-develop",
-        "stof/doctrine-extensions-bundle": "1.1.*@dev"
+        "jms/serializer-bundle": "@dev",
+        "stof/doctrine-extensions-bundle": "@dev"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
