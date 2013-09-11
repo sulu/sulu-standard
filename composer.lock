@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "67dd9f539c7237bdbe145b8a71b8bc8b",
+    "hash": "cd3ee5eb659d6377b89e2b53a3a04f39",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -63,7 +63,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -130,7 +130,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -381,7 +381,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -801,9 +801,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -901,9 +901,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -973,7 +973,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1155,9 +1155,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1205,9 +1205,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1463,17 +1463,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "dev-feature/registration",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "6c028836aea451ef2e681a31b3e767545ebab8ae"
+                "reference": "f61ae726fa55ff9ef52b2931321deacdd8f1581f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/6c028836aea451ef2e681a31b3e767545ebab8ae",
-                "reference": "6c028836aea451ef2e681a31b3e767545ebab8ae",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/f61ae726fa55ff9ef52b2931321deacdd8f1581f",
+                "reference": "f61ae726fa55ff9ef52b2931321deacdd8f1581f",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-09-02 14:44:24"
+            "time": "2013-09-04 15:01:34"
         },
         {
             "name": "sulu/contact-bundle",
@@ -1511,12 +1511,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContactBundle.git",
-                "reference": "9b71c815cad47ce9a147247fed8c07ee1046b039"
+                "reference": "04ff2a78f9f747a6848f3a7578342816803ec5ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/9b71c815cad47ce9a147247fed8c07ee1046b039",
-                "reference": "9b71c815cad47ce9a147247fed8c07ee1046b039",
+                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/04ff2a78f9f747a6848f3a7578342816803ec5ae",
+                "reference": "04ff2a78f9f747a6848f3a7578342816803ec5ae",
                 "shasum": ""
             },
             "require": {
@@ -1524,7 +1524,7 @@
                 "friendsofsymfony/rest-bundle": "0.12.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "dev-feature/registration",
+                "sulu/admin-bundle": "dev-develop",
                 "sulu/core-bundle": "dev-develop"
             },
             "require-dev": {
@@ -1554,7 +1554,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2013-08-23 15:04:05"
+            "time": "2013-09-03 07:21:29"
         },
         {
             "name": "sulu/core-bundle",
@@ -1563,12 +1563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluCoreBundle.git",
-                "reference": "b3b2b3ab556b4db85893dcde5427329144b52ea8"
+                "reference": "4db407f6a7cbd3e156af71feaf7429ea6e8a8d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/b3b2b3ab556b4db85893dcde5427329144b52ea8",
-                "reference": "b3b2b3ab556b4db85893dcde5427329144b52ea8",
+                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/4db407f6a7cbd3e156af71feaf7429ea6e8a8d5f",
+                "reference": "4db407f6a7cbd3e156af71feaf7429ea6e8a8d5f",
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1605,59 @@
                 "core",
                 "symfony"
             ],
-            "time": "2013-08-30 14:51:52"
+            "time": "2013-09-05 06:08:18"
+        },
+        {
+            "name": "sulu/security-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/SecurityBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/massiveart/SuluSecurityBundle.git",
+                "reference": "4835d03fe6f47d7dd3328c2211f1159dae4fd21c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/4835d03fe6f47d7dd3328c2211f1159dae4fd21c",
+                "reference": "4835d03fe6f47d7dd3328c2211f1159dae4fd21c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "0.12.*",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/core-bundle": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/monolog-bundle": "2.3.*",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\SecurityBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluSecurityBundle/contributors"
+                }
+            ],
+            "description": "Security Bundle for the Sulu CMS",
+            "keywords": [
+                "security",
+                "sulu"
+            ],
+            "time": "2013-09-05 11:37:50"
         },
         {
             "name": "sulu/translate-bundle",
@@ -1614,12 +1666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluTranslateBundle.git",
-                "reference": "969b8be726276bbd351ea1f4005e22b6df89c98c"
+                "reference": "dd4992ef4e7c830283bb51cb674c1f450404dcf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/969b8be726276bbd351ea1f4005e22b6df89c98c",
-                "reference": "969b8be726276bbd351ea1f4005e22b6df89c98c",
+                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/dd4992ef4e7c830283bb51cb674c1f450404dcf6",
+                "reference": "dd4992ef4e7c830283bb51cb674c1f450404dcf6",
                 "shasum": ""
             },
             "require": {
@@ -1627,7 +1679,7 @@
                 "friendsofsymfony/rest-bundle": "0.12.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "dev-feature/registration",
+                "sulu/admin-bundle": "dev-develop",
                 "sulu/core-bundle": "dev-develop"
             },
             "require-dev": {
@@ -1656,7 +1708,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-08-23 14:50:04"
+            "time": "2013-09-03 12:07:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2511,12 +2563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluGeneratorBundle.git",
-                "reference": "d77c86987c399ab8165b4c8d7dbe064ceaf068cf"
+                "reference": "d56bf7779f6945ad11a8f8658ba99b3695053ea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluGeneratorBundle/zipball/d77c86987c399ab8165b4c8d7dbe064ceaf068cf",
-                "reference": "d77c86987c399ab8165b4c8d7dbe064ceaf068cf",
+                "url": "https://api.github.com/repos/massiveart/SuluGeneratorBundle/zipball/d56bf7779f6945ad11a8f8658ba99b3695053ea3",
+                "reference": "d56bf7779f6945ad11a8f8658ba99b3695053ea3",
                 "shasum": ""
             },
             "require": {
@@ -2550,7 +2602,7 @@
                 }
             ],
             "description": "This bundle generates sulu code for you",
-            "time": "2013-08-27 07:58:57"
+            "time": "2013-09-03 08:57:58"
         }
     ],
     "aliases": [
@@ -2561,8 +2613,9 @@
         "sulu/core-bundle": 20,
         "sulu/translate-bundle": 20,
         "sulu/admin-bundle": 20,
-        "jms/serializer-bundle": 20,
         "sulu/contact-bundle": 20,
+        "sulu/security-bundle": 20,
+        "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "sulu/generator-bundle": 20
     },
