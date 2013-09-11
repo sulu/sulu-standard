@@ -17,11 +17,11 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
-            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
+			new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
         );
