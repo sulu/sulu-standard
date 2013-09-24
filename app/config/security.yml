@@ -1,6 +1,9 @@
 security:
     encoders:
-        Sulu\Bundle\SecurityBundle\Entity\User: plaintext
+        Sulu\Bundle\SecurityBundle\Entity\User:
+            algorithm: sha1
+            iterations: 1
+            encode_as_base64: false
 
     providers:
         sulu:
@@ -9,14 +12,16 @@ security:
                 property: username
 
     access_control:
-        - { path: ^/, roles: ROLE_USER }
+        - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin, roles: ROLE_USER }
 
     firewalls:
         sulu:
-            pattern: (^/admin)|(^/security/login_check)|(^/security/logout)
+            pattern: ^/admin
+            anonymous: ~
             form_login:
-                login_path: sulu_security.login
-                check_path: sulu_security.login_check
+                login_path: sulu_admin.login
+                check_path: sulu_admin.login_check
             logout:
-                path: /security/logout
+                path: /admin/logout
                 target: /admin
