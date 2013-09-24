@@ -1,16 +1,15 @@
 security:
     encoders:
-        Symfony\Component\Security\Core\User\User: plaintext
+        Sulu\Bundle\SecurityBundle\Entity\User: plaintext
 
     providers:
-        in_memory:
-            memory:
-                users:
-                    daniel:  { password: daniel, roles: [ 'ROLE_ADMIN' ] }
+        sulu:
+            entity:
+                class: SuluSecurityBundle:User
+                property: username
 
     access_control:
-        - { path: ^/, roles: ROLE_ADMIN }
-        #- { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY, requires_channel: https }
+        - { path: ^/, roles: ROLE_USER }
 
     firewalls:
         sulu:
