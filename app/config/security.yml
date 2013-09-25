@@ -1,8 +1,8 @@
 security:
     encoders:
         Sulu\Bundle\SecurityBundle\Entity\User:
-            algorithm: sha1
-            iterations: 1
+            algorithm: sha512
+            iterations: 5000
             encode_as_base64: false
 
     providers:
