@@ -1609,12 +1609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "cc2d8d0a5886cbe6e80bd7598af2a252333b7079"
+                "reference": "6076f9aaf6c9f391cde9ee94a118094e5a8dcae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/cc2d8d0a5886cbe6e80bd7598af2a252333b7079",
-                "reference": "cc2d8d0a5886cbe6e80bd7598af2a252333b7079",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/6076f9aaf6c9f391cde9ee94a118094e5a8dcae6",
+                "reference": "6076f9aaf6c9f391cde9ee94a118094e5a8dcae6",
                 "shasum": ""
             },
             "require": {
@@ -1643,7 +1643,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-10-05 13:30:11"
+            "time": "2013-10-05 15:15:28"
         },
         {
             "name": "sulu/contact-bundle",
