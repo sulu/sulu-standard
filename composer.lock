@@ -197,7 +197,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -269,7 +269,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -579,7 +579,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1155,7 +1155,7 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1722,12 +1722,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "63bcf2c7b647b7ca6863538ed61d989718e28684"
+                "reference": "6076f9aaf6c9f391cde9ee94a118094e5a8dcae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/63bcf2c7b647b7ca6863538ed61d989718e28684",
-                "reference": "63bcf2c7b647b7ca6863538ed61d989718e28684",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/6076f9aaf6c9f391cde9ee94a118094e5a8dcae6",
+                "reference": "6076f9aaf6c9f391cde9ee94a118094e5a8dcae6",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1756,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-09-12 12:14:15"
+            "time": "2013-10-05 15:15:28"
         },
         {
             "name": "sulu/contact-bundle",
@@ -1818,12 +1818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluCoreBundle.git",
-                "reference": "599d77ea06cd008eb69d7ea5f340f80b4d1f67ec"
+                "reference": "14c3bb9712dab83af01a065afdd3a530dc03963f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/599d77ea06cd008eb69d7ea5f340f80b4d1f67ec",
-                "reference": "599d77ea06cd008eb69d7ea5f340f80b4d1f67ec",
+                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/14c3bb9712dab83af01a065afdd3a530dc03963f",
+                "reference": "14c3bb9712dab83af01a065afdd3a530dc03963f",
                 "shasum": ""
             },
             "require": {
@@ -1860,7 +1860,7 @@
                 "core",
                 "symfony"
             ],
-            "time": "2013-09-12 19:32:08"
+            "time": "2013-09-24 13:33:09"
         },
         {
             "name": "sulu/security-bundle",
@@ -1869,12 +1869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluSecurityBundle.git",
-                "reference": "4835d03fe6f47d7dd3328c2211f1159dae4fd21c"
+                "reference": "cea4b7192a553e656905ff5559504863a7ae29ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/4835d03fe6f47d7dd3328c2211f1159dae4fd21c",
-                "reference": "4835d03fe6f47d7dd3328c2211f1159dae4fd21c",
+                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/cea4b7192a553e656905ff5559504863a7ae29ab",
+                "reference": "cea4b7192a553e656905ff5559504863a7ae29ab",
                 "shasum": ""
             },
             "require": {
@@ -1883,6 +1883,7 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sulu/admin-bundle": "dev-develop",
+                "sulu/contact-bundle": "dev-develop",
                 "sulu/core-bundle": "dev-develop"
             },
             "require-dev": {
@@ -1912,7 +1913,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2013-09-05 11:37:50"
+            "time": "2013-10-05 09:04:20"
         },
         {
             "name": "sulu/translate-bundle",
@@ -2240,16 +2241,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.4",
+            "version": "v2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f"
+                "reference": "aa5626cd2a359567c948ebdeeca68d948640302f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f",
-                "reference": "4fb225f4e315c11aa6d8935b1c0ceaf48ba39f1f",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/aa5626cd2a359567c948ebdeeca68d948640302f",
+                "reference": "aa5626cd2a359567c948ebdeeca68d948640302f",
                 "shasum": ""
             },
             "require": {
@@ -2344,7 +2345,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-08-27 08:58:24"
+            "time": "2013-09-27 07:31:40"
         },
         {
             "name": "twig/extensions",
@@ -2395,16 +2396,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.13.2",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "v1.13.2"
+                "reference": "224fc55635d544a2ec8edb3592be18db5a093f59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/v1.13.2",
-                "reference": "v1.13.2",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/224fc55635d544a2ec8edb3592be18db5a093f59",
+                "reference": "224fc55635d544a2ec8edb3592be18db5a093f59",
                 "shasum": ""
             },
             "require": {
@@ -2413,7 +2414,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.13-dev"
+                    "dev-master": "1.14-dev"
                 }
             },
             "autoload": {
@@ -2440,7 +2441,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-08-03 15:35:31"
+            "time": "2013-10-03 06:41:20"
         }
     ],
     "packages-dev": [
@@ -2600,12 +2601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "1.0.5"
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/1.0.5",
-                "reference": "1.0.5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
                 "shasum": ""
             },
             "require": {
