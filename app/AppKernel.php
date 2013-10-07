@@ -24,6 +24,7 @@ class AppKernel extends Kernel
 			new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

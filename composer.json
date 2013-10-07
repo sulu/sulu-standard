@@ -25,7 +25,8 @@
         "sulu/contact-bundle": "dev-develop",
         "sulu/security-bundle": "dev-develop",
         "jms/serializer-bundle": "@dev",
-        "stof/doctrine-extensions-bundle": "@dev"
+        "stof/doctrine-extensions-bundle": "@dev",
+        "doctrine/doctrine-fixtures-bundle": "dev-master"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
