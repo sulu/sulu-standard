@@ -1,4 +1,7 @@
 security:
+    access_decision_manager:
+        strategy: affirmative
+
     encoders:
         Sulu\Bundle\SecurityBundle\Entity\User:
             algorithm: sha512
@@ -16,7 +19,7 @@ security:
 
     firewalls:
         sulu:
-            pattern: ^/admin
+            pattern: ^/
             anonymous: ~
             form_login:
                 login_path: sulu_admin.login
