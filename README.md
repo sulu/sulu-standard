@@ -7,6 +7,7 @@ sulu
 
 ```
 git clone git@github.com:massiveart/sulu.git
+cd sulu
 ```
 
 #### Checkout the develop-branch
@@ -20,6 +21,7 @@ git checkout develop
 ```
 composer install
 ```
+Answer the following questions to meet the installation of your system. Just use the standard value for the `jms_serializer.cache_naming_strategy.class`.
 
 #### Clear the caches and set the appropriate permissions
 
@@ -40,11 +42,17 @@ sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
 sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
 ```
 
+#### Create database and schema
+```
+app/console doctrine:database:create
+app/console doctrine:schema:create
+```
+
 #### Load database default values
 ```
 app/console doctrine:fixtures:load
 ```
-Answer the upcoming question with `Y`, to purge the database
+Answer the upcoming question with `Y`, to purge the entire database.
 
 #### Insert a new user
 ```
