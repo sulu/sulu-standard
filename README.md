@@ -1,2 +1,72 @@
 sulu
 ====
+
+## Installation
+
+#### Clone this repository
+
+```
+git clone git@github.com:massiveart/sulu.git
+```
+
+#### Checkout the develop-branch
+
+```
+git checkout develop
+```
+
+#### Install all the dependencies with composer
+
+```
+composer install
+```
+
+#### Clear the caches and set the appropriate permissions
+
+##### Mac OSX
+```
+rm -rf app/cache/*
+rm -rf app/logs/*
+APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
+sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+```
+
+##### Ubuntu
+```
+rm -rf app/cache/*
+rm -rf app/logs/*
+sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+```
+
+#### Load database default values
+```
+app/console doctrine:fixtures:load
+```
+Answer the upcoming question with `Y`, to purge the database
+
+#### Insert a new user
+```
+app/console sulu:security:user:create
+```
+Follow the instruction to create a new user
+
+## Configuration
+Sulu requires an installation of an apache webserver with PHP (>=5.4) and a mysql database. 
+
+Use the following template for your vhost-configuration
+```
+<VirtualHost *:80>
+    DocumentRoot "[path-to-your-workspace]/sulu/web"
+    ServerName sulu.local
+    <Directory "[path-to-your-workspace]/sulu/web">
+        Options Indexes FollowSymlinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
+```
+
+Don't forget to include `sulu.local` in your hosts-file, if you want to use Sulu on a local machine.
