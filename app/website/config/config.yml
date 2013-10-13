@@ -29,7 +29,7 @@ twig:
 assetic:
     debug:          %kernel.debug%
     use_controller: false
-    bundles:        [ SuluAdminBundle ]
+    bundles:        []
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
@@ -59,7 +59,7 @@ doctrine:
             gedmo_tree:
                 type: xml
                 prefix: Gedmo\Tree\Entity
-                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                dir: "%kernel.root_dir%/../../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
                 alias: GedmoTree # this one is optional and will default to the name set for the mapping
                 is_bundle: false
         resolve_target_entities:
@@ -81,6 +81,3 @@ swiftmailer:
 fos_rest:
     routing_loader:
         default_format: json
-
-sulu_admin:
-    name: SULU 2.0
