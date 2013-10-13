@@ -1773,12 +1773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContentBundle.git",
-                "reference": "8a9c989ef38620faa13ded521d90f9be085e14c4"
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/8a9c989ef38620faa13ded521d90f9be085e14c4",
-                "reference": "8a9c989ef38620faa13ded521d90f9be085e14c4",
+                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/65c672920ba6c882df3aa11cf5aa411c880ceccc",
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc",
                 "shasum": ""
             },
             "require": {
@@ -1815,7 +1815,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2013-10-13 18:28:41"
+            "time": "2013-10-13 18:39:14"
         },
         {
             "name": "sulu/core-bundle",
@@ -1875,12 +1875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluPortalBundle.git",
-                "reference": "525282124881af4ec214b2c37de978a546e31759"
+                "reference": "6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluPortalBundle/zipball/525282124881af4ec214b2c37de978a546e31759",
-                "reference": "525282124881af4ec214b2c37de978a546e31759",
+                "url": "https://api.github.com/repos/massiveart/SuluPortalBundle/zipball/6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd",
+                "reference": "6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd",
                 "shasum": ""
             },
             "require": {
@@ -1917,7 +1917,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2013-10-13 14:06:54"
+            "time": "2013-10-13 18:38:16"
         },
         {
             "name": "sulu/security-bundle",
