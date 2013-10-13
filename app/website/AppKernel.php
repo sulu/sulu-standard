@@ -20,7 +20,7 @@ class AppKernel extends Kernel
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
-			new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle()
