@@ -7,6 +7,7 @@ sulu_contact:
     prefix: /admin/contact
 
 sulu_contact_api:
+    type: rest
     resource: "@SuluContactBundle/Resources/config/routing_api.yml"
     prefix: /admin/api/contact
 
@@ -24,5 +25,6 @@ sulu_translate:
     prefix: /admin/translate
 
 sulu_translate_api:
+    type: rest
     resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
     prefix: /admin/api/translate
