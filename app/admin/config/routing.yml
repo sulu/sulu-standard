@@ -1,15 +1,28 @@
-sulu_security:
-    resource: "@SuluSecurityBundle/Resources/config/routing.yml"
-    prefix: /security
-
-sulu_contact_:
-    resource: "@SuluContactBundle/Resources/config/routing.yml"
-    prefix: /contact
-
 sulu_admin:
     resource: "@SuluAdminBundle/Resources/config/routing.yml"
     prefix: /admin
 
+sulu_contact:
+    resource: "@SuluContactBundle/Resources/config/routing.yml"
+    prefix: /admin/contact
+
+sulu_contact_api:
+    resource: "@SuluContactBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api/contact
+
+sulu_security:
+    resource: "@SuluSecurityBundle/Resources/config/routing.yml"
+    prefix: /admin/security
+
+sulu_security_api:
+    type: rest
+    resource: "@SuluSecurityBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api/security
+
 sulu_translate:
     resource: "@SuluTranslateBundle/Resources/config/routing.yml"
-    prefix: /translate
+    prefix: /admin/translate
+
+sulu_translate_api:
+    resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api/translate

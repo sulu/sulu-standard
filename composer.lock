@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d128db65918995c9fdfb340d0026cf67",
+    "hash": "5e15253a747c770f5f4d13cf35f042f1",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1615,12 +1615,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
-                "reference": "6e8dc798687963ffc4e4e0dfa687b361699855a9"
+                "reference": "9da4489322c5442ff021c4cd3f28dd79b2a8df07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/6e8dc798687963ffc4e4e0dfa687b361699855a9",
-                "reference": "6e8dc798687963ffc4e4e0dfa687b361699855a9",
+                "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/9da4489322c5442ff021c4cd3f28dd79b2a8df07",
+                "reference": "9da4489322c5442ff021c4cd3f28dd79b2a8df07",
                 "shasum": ""
             },
             "require": {
@@ -1668,7 +1668,7 @@
                 "translatable",
                 "tree"
             ],
-            "time": "2013-09-16 09:35:16"
+            "time": "2013-10-13 16:27:31"
         },
         {
             "name": "sulu/admin-bundle",
@@ -1720,12 +1720,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContactBundle.git",
-                "reference": "7f63aa10a488f7ee50f7f643a9fe065528092751"
+                "reference": "8b80511d9b6391371dd5336a88739c02e4fcc8e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/7f63aa10a488f7ee50f7f643a9fe065528092751",
-                "reference": "7f63aa10a488f7ee50f7f643a9fe065528092751",
+                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/8b80511d9b6391371dd5336a88739c02e4fcc8e1",
+                "reference": "8b80511d9b6391371dd5336a88739c02e4fcc8e1",
                 "shasum": ""
             },
             "require": {
@@ -1764,7 +1764,58 @@
                 "contact",
                 "crm"
             ],
-            "time": "2013-10-13 14:01:01"
+            "time": "2013-10-13 15:52:29"
+        },
+        {
+            "name": "sulu/content-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/ContentBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/massiveart/SuluContentBundle.git",
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/65c672920ba6c882df3aa11cf5aa411c880ceccc",
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "1.0.*",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/core-bundle": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/monolog-bundle": "2.3.*",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\ContentBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluContentBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2013-10-13 18:39:14"
         },
         {
             "name": "sulu/core-bundle",
@@ -1816,6 +1867,57 @@
                 "symfony"
             ],
             "time": "2013-10-13 14:04:15"
+        },
+        {
+            "name": "sulu/portal-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/PortalBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/massiveart/SuluPortalBundle.git",
+                "reference": "6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/massiveart/SuluPortalBundle/zipball/6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd",
+                "reference": "6b2e9d4ab272b21af94b5f347e8fcc9369bf07fd",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "1.0.*",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/core-bundle": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/monolog-bundle": "2.3.*",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\PortalBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluPortalBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2013-10-13 18:38:16"
         },
         {
             "name": "sulu/security-bundle",
@@ -2876,6 +2978,8 @@
         "sulu/admin-bundle": 20,
         "sulu/contact-bundle": 20,
         "sulu/security-bundle": 20,
+        "sulu/portal-bundle": 20,
+        "sulu/content-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
