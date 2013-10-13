@@ -26,4 +26,4 @@ security:
                 check_path: sulu_admin.login_check
             logout:
                 path: /admin/logout
-                target: /admin
+                target: /admin/

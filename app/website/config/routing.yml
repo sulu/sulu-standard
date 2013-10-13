@@ -1,0 +1,11 @@
+sulu_security:
+    resource: "@SuluSecurityBundle/Resources/config/routing.yml"
+    prefix: /security
+
+sulu_contact_:
+    resource: "@SuluContactBundle/Resources/config/routing.yml"
+    prefix: /contact
+
+sulu_translate:
+    resource: "@SuluTranslateBundle/Resources/config/routing.yml"
+    prefix: /translate
