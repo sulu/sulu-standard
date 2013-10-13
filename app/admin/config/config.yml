@@ -1,5 +1,5 @@
 imports:
-    - { resource: ../../config/parameters.yml }
+    - { resource: ../../parameters.yml }
     - { resource: security.yml }
 
 framework:

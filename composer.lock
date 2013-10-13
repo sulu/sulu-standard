@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "20e9cde479d946544f6396c9fe22d4b7",
+    "hash": "d128db65918995c9fdfb340d0026cf67",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -718,93 +718,48 @@
             "time": "2013-05-11 07:51:12"
         },
         {
-            "name": "friendsofsymfony/rest",
-            "version": "0.8.0",
-            "target-dir": "FOS/Rest",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfSymfony/FOSRest.git",
-                "reference": "0.8.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRest/zipball/0.8.0",
-                "reference": "0.8.0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/http-foundation": ">=2.0,<3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "FOS\\Rest": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lukas Kahwe Smith",
-                    "email": "smith@pooteeweet.org"
-                },
-                {
-                    "name": "FriendsOfSymfony Community",
-                    "homepage": "https://github.com/FriendsOfSymfony/FOSRest/contributors"
-                }
-            ],
-            "description": "This library provides various tools to develop RESTful API's",
-            "homepage": "http://friendsofsymfony.github.com",
-            "keywords": [
-                "rest"
-            ],
-            "time": "2013-03-02 20:35:05"
-        },
-        {
             "name": "friendsofsymfony/rest-bundle",
-            "version": "0.12.0",
+            "version": "1.0.0",
             "target-dir": "FOS/RestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "0.12.0"
+                "reference": "8e0b02a3ea9cbb76b2043868796659c8f61af29b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/0.12.0",
-                "reference": "0.12.0",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/8e0b02a3ea9cbb76b2043868796659c8f61af29b",
+                "reference": "8e0b02a3ea9cbb76b2043868796659c8f61af29b",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "1.0.*",
-                "friendsofsymfony/rest": ">=0.7.0,<0.9.0-dev",
                 "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.1,<3.0"
+                "symfony/framework-bundle": "~2.1",
+                "willdurand/negotiation": "1.0.*"
+            },
+            "conflict": {
+                "jms/serializer": "<0.12",
+                "jms/serializer-bundle": "<0.11"
             },
             "require-dev": {
                 "jms/serializer-bundle": "0.12.*",
-                "sensio/framework-extra-bundle": ">=2.1,<3.0",
-                "symfony/form": ">=2.1,<3.0",
-                "symfony/security": ">=2.1,<3.0",
-                "symfony/yaml": ">=2.1,<3.0"
+                "sensio/framework-extra-bundle": "~2.1",
+                "symfony/form": "~2.1",
+                "symfony/security": "~2.1",
+                "symfony/serializer": "~2.1",
+                "symfony/validator": "~2.1",
+                "symfony/yaml": "~2.1"
             },
             "suggest": {
                 "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires 0.12.*",
                 "sensio/framework-extra-bundle": "Add support for route annotations and the view response listener",
-                "symfony/serializer": "Add support for basic serialization capabilities, requires >=2.0,<2.3-dev"
+                "symfony/serializer": "Add support for basic serialization capabilities and xml decoding, requires ~2.1"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.12.x-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
@@ -836,7 +791,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2013-05-06 10:33:17"
+            "time": "2013-10-11 14:23:24"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1722,12 +1677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluAdminBundle.git",
-                "reference": "55418ea38cbb236c31e9827822a947bdd34359ae"
+                "reference": "07c2fa702e3e2cabdcf3342a88c26e93c83f397f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/55418ea38cbb236c31e9827822a947bdd34359ae",
-                "reference": "55418ea38cbb236c31e9827822a947bdd34359ae",
+                "url": "https://api.github.com/repos/massiveart/SuluAdminBundle/zipball/07c2fa702e3e2cabdcf3342a88c26e93c83f397f",
+                "reference": "07c2fa702e3e2cabdcf3342a88c26e93c83f397f",
                 "shasum": ""
             },
             "require": {
@@ -1756,7 +1711,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-10-08 17:08:31"
+            "time": "2013-10-13 13:54:30"
         },
         {
             "name": "sulu/contact-bundle",
@@ -1765,17 +1720,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContactBundle.git",
-                "reference": "beb10ff45b1290f8849f4ab0e2bdfc86fd5532f7"
+                "reference": "7f63aa10a488f7ee50f7f643a9fe065528092751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/beb10ff45b1290f8849f4ab0e2bdfc86fd5532f7",
-                "reference": "beb10ff45b1290f8849f4ab0e2bdfc86fd5532f7",
+                "url": "https://api.github.com/repos/massiveart/SuluContactBundle/zipball/7f63aa10a488f7ee50f7f643a9fe065528092751",
+                "reference": "7f63aa10a488f7ee50f7f643a9fe065528092751",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "0.12.*",
+                "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
@@ -1809,7 +1764,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2013-10-08 12:41:54"
+            "time": "2013-10-13 14:01:01"
         },
         {
             "name": "sulu/core-bundle",
@@ -1818,17 +1773,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluCoreBundle.git",
-                "reference": "794246ad048ea9ef13d8ad5006016cfe8d2cd0ca"
+                "reference": "bedd44af9cc334b504c9b3da7f125e4c0d6b2eeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/794246ad048ea9ef13d8ad5006016cfe8d2cd0ca",
-                "reference": "794246ad048ea9ef13d8ad5006016cfe8d2cd0ca",
+                "url": "https://api.github.com/repos/massiveart/SuluCoreBundle/zipball/bedd44af9cc334b504c9b3da7f125e4c0d6b2eeb",
+                "reference": "bedd44af9cc334b504c9b3da7f125e4c0d6b2eeb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "0.12.*",
+                "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "symfony/framework-bundle": "2.3.*"
@@ -1860,7 +1815,7 @@
                 "core",
                 "symfony"
             ],
-            "time": "2013-10-08 14:17:40"
+            "time": "2013-10-13 14:04:15"
         },
         {
             "name": "sulu/security-bundle",
@@ -1869,17 +1824,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluSecurityBundle.git",
-                "reference": "a575365992de9e5cdcb845c6f2f17a05b19ecfbb"
+                "reference": "fd11e517eb78f88df22360b156c976c62204ded1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/a575365992de9e5cdcb845c6f2f17a05b19ecfbb",
-                "reference": "a575365992de9e5cdcb845c6f2f17a05b19ecfbb",
+                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/fd11e517eb78f88df22360b156c976c62204ded1",
+                "reference": "fd11e517eb78f88df22360b156c976c62204ded1",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "0.12.*",
+                "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sulu/admin-bundle": "dev-develop",
@@ -1913,7 +1868,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2013-10-08 14:25:27"
+            "time": "2013-10-13 14:06:13"
         },
         {
             "name": "sulu/translate-bundle",
@@ -1922,17 +1877,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluTranslateBundle.git",
-                "reference": "ec86c7e76e1a8f3c19163bf7d6f24924bb2bc90a"
+                "reference": "4c164a94fed9526c74ffa7e78da6fd813f2b32db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/ec86c7e76e1a8f3c19163bf7d6f24924bb2bc90a",
-                "reference": "ec86c7e76e1a8f3c19163bf7d6f24924bb2bc90a",
+                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/4c164a94fed9526c74ffa7e78da6fd813f2b32db",
+                "reference": "4c164a94fed9526c74ffa7e78da6fd813f2b32db",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "0.12.*",
+                "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sulu/admin-bundle": "dev-develop",
@@ -1964,7 +1919,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-10-08 12:59:17"
+            "time": "2013-10-13 14:07:10"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2442,6 +2397,56 @@
                 "templating"
             ],
             "time": "2013-10-03 06:41:20"
+        },
+        {
+            "name": "willdurand/negotiation",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/Negotiation.git",
+                "reference": "6021e6a9e14d6ab62dcd4f83364058d4978d6890"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/6021e6a9e14d6ab62dcd4f83364058d4978d6890",
+                "reference": "6021e6a9e14d6ab62dcd4f83364058d4978d6890",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Negotiation": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "Content Negotiation tools for PHP provided as a standalone library.",
+            "homepage": "http://williamdurand.fr/Negotiation/",
+            "keywords": [
+                "accept",
+                "content",
+                "format",
+                "header",
+                "negotiation"
+            ],
+            "time": "2013-08-01 14:42:09"
         }
     ],
     "packages-dev": [
