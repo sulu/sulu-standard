@@ -1,3 +1,7 @@
+sulu_content:
+    resource: "@SuluContentBundle/Resources/config/routing.yml"
+    prefix:   
+
 sulu_security:
     resource: "@SuluSecurityBundle/Resources/config/routing.yml"
     prefix: /security

@@ -24,6 +24,8 @@
         "sulu/admin-bundle": "dev-develop",
         "sulu/contact-bundle": "dev-develop",
         "sulu/security-bundle": "dev-develop",
+        "sulu/portal-bundle": "dev-develop",
+        "sulu/content-bundle": "dev-develop",
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
         "doctrine/doctrine-fixtures-bundle": "dev-master"
