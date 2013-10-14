@@ -26,6 +26,9 @@ class AppKernel extends Kernel
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
+
+            new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
