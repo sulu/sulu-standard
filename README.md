@@ -67,7 +67,7 @@ Use the following template for your vhost-configuration
 ```
 <VirtualHost *:80>
     DocumentRoot "[path-to-your-workspace]/sulu/web"
-    ServerName sulu.local
+    ServerName sulu.lo
     <Directory "[path-to-your-workspace]/sulu/web">
         Options Indexes FollowSymlinks
         AllowOverride All
@@ -77,4 +77,4 @@ Use the following template for your vhost-configuration
 </VirtualHost>
 ```
 
-Don't forget to include `sulu.local` in your hosts-file, if you want to use Sulu on a local machine.
+Don't forget to include `sulu.lo` in your hosts-file, if you want to use Sulu on a local machine.
