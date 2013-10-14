@@ -29,15 +29,15 @@ class AppKernel extends Kernel
             new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
+
             new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
 
             // enable cmf bundles
-            //new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
-            //new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
-            //new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
-
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+            new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
+            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
