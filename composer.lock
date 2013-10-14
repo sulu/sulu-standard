@@ -179,7 +179,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/"
                 },
@@ -197,7 +197,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -538,12 +538,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "54b8333d2a5682afdc690060c1cf384ba9f47f08"
+                "reference": "v1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/54b8333d2a5682afdc690060c1cf384ba9f47f08",
-                "reference": "54b8333d2a5682afdc690060c1cf384ba9f47f08",
+                "url": "https://github.com/doctrine/inflector/archive/v1.0.zip",
+                "reference": "v1.0",
                 "shasum": ""
             },
             "require": {
@@ -581,7 +581,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
-                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb"
+                "reference": "v1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/2f708a85bb3aab5d99dab8be435abd73e0b18acb",
-                "reference": "2f708a85bb3aab5d99dab8be435abd73e0b18acb",
+                "url": "https://github.com/doctrine/lexer/archive/v1.0.zip",
+                "reference": "v1.0",
                 "shasum": ""
             },
             "require": {
@@ -2149,12 +2149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContentBundle.git",
-                "reference": "31ddfca030a0233ee712f36f7bae14055355d559"
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/31ddfca030a0233ee712f36f7bae14055355d559",
-                "reference": "31ddfca030a0233ee712f36f7bae14055355d559",
+                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/65c672920ba6c882df3aa11cf5aa411c880ceccc",
+                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc",
                 "shasum": ""
             },
             "require": {
@@ -2191,7 +2191,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2013-10-14 10:55:29"
+            "time": "2013-10-13 18:39:14"
         },
         {
             "name": "sulu/core-bundle",
@@ -2516,12 +2516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "c268a6c297a07a96580a498ce34bc7e9e8df064a"
+                "reference": "dd9e8a26dcef15b2608955358b362a3cda1dcdd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/c268a6c297a07a96580a498ce34bc7e9e8df064a",
-                "reference": "c268a6c297a07a96580a498ce34bc7e9e8df064a",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/dd9e8a26dcef15b2608955358b362a3cda1dcdd3",
+                "reference": "dd9e8a26dcef15b2608955358b362a3cda1dcdd3",
                 "shasum": ""
             },
             "require": {
@@ -2566,7 +2566,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 12:32:43"
+            "time": "2013-09-30 13:01:30"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -2575,12 +2575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "c07633830699d1dfc95ee710cac3e441ab4d041a"
+                "reference": "7962e2bead1b856a20947d27254617b2efcbae62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/c07633830699d1dfc95ee710cac3e441ab4d041a",
-                "reference": "c07633830699d1dfc95ee710cac3e441ab4d041a",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/7962e2bead1b856a20947d27254617b2efcbae62",
+                "reference": "7962e2bead1b856a20947d27254617b2efcbae62",
                 "shasum": ""
             },
             "require": {
@@ -2630,7 +2630,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 10:06:46"
+            "time": "2013-10-11 10:57:41"
         },
         {
             "name": "symfony/assetic-bundle",

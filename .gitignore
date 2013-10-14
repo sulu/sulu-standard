@@ -10,6 +10,7 @@
 /vendor/
 /bin/
 /composer.phar
+/jackrabbit
 
 # IDEs
 .idea/*
