@@ -1926,12 +1926,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluSecurityBundle.git",
-                "reference": "fd11e517eb78f88df22360b156c976c62204ded1"
+                "reference": "29a9428868ed8a013ec1715721b425320166df6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/fd11e517eb78f88df22360b156c976c62204ded1",
-                "reference": "fd11e517eb78f88df22360b156c976c62204ded1",
+                "url": "https://api.github.com/repos/massiveart/SuluSecurityBundle/zipball/29a9428868ed8a013ec1715721b425320166df6b",
+                "reference": "29a9428868ed8a013ec1715721b425320166df6b",
                 "shasum": ""
             },
             "require": {
@@ -1970,7 +1970,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2013-10-13 14:06:13"
+            "time": "2013-10-13 21:25:27"
         },
         {
             "name": "sulu/translate-bundle",
@@ -1979,12 +1979,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluTranslateBundle.git",
-                "reference": "4c164a94fed9526c74ffa7e78da6fd813f2b32db"
+                "reference": "075355cdab4100545657b8a6197992bd2259bca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/4c164a94fed9526c74ffa7e78da6fd813f2b32db",
-                "reference": "4c164a94fed9526c74ffa7e78da6fd813f2b32db",
+                "url": "https://api.github.com/repos/massiveart/SuluTranslateBundle/zipball/075355cdab4100545657b8a6197992bd2259bca3",
+                "reference": "075355cdab4100545657b8a6197992bd2259bca3",
                 "shasum": ""
             },
             "require": {
@@ -2021,7 +2021,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-10-13 14:07:10"
+            "time": "2013-10-13 19:06:06"
         },
         {
             "name": "swiftmailer/swiftmailer",
