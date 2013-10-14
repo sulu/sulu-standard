@@ -30,16 +30,16 @@ Answer the following questions to meet the installation of your system. Just use
 rm -rf app/cache/*
 rm -rf app/logs/*
 APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
-sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
-sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs
+sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs
 ```
 
 ##### Ubuntu
 ```
 rm -rf app/cache/*
 rm -rf app/logs/*
-sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
-sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs
+sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs
+sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs
 ```
 
 #### Create database and schema
