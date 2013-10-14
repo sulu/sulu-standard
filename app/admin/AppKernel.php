@@ -8,6 +8,7 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
+            // enable symfony-standard bundles
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
@@ -16,19 +17,27 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
-            new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
+
+            // enable helper bundles
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
-            new Sulu\Bundle\ContactBundle\SuluContactBundle(),
-			new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
-            new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+
+            // enable sulu bundles
+            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
+            new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
+            new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
 
+            new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
+            new Sulu\Bundle\ContactBundle\SuluContactBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+
+            // enable cmf bundles
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
-            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle()
+            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
