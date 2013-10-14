@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6982dcdb37d24bb83ad0e2cbd9bd8bce",
+    "hash": "4769b8543a4a2bdc412c4e4128c88645",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2149,12 +2149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/SuluContentBundle.git",
-                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc"
+                "reference": "31ddfca030a0233ee712f36f7bae14055355d559"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/65c672920ba6c882df3aa11cf5aa411c880ceccc",
-                "reference": "65c672920ba6c882df3aa11cf5aa411c880ceccc",
+                "url": "https://api.github.com/repos/massiveart/SuluContentBundle/zipball/31ddfca030a0233ee712f36f7bae14055355d559",
+                "reference": "31ddfca030a0233ee712f36f7bae14055355d559",
                 "shasum": ""
             },
             "require": {
@@ -2191,7 +2191,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2013-10-13 18:39:14"
+            "time": "2013-10-14 10:55:29"
         },
         {
             "name": "sulu/core-bundle",
@@ -2516,12 +2516,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "dd9e8a26dcef15b2608955358b362a3cda1dcdd3"
+                "reference": "c268a6c297a07a96580a498ce34bc7e9e8df064a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/dd9e8a26dcef15b2608955358b362a3cda1dcdd3",
-                "reference": "dd9e8a26dcef15b2608955358b362a3cda1dcdd3",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/c268a6c297a07a96580a498ce34bc7e9e8df064a",
+                "reference": "c268a6c297a07a96580a498ce34bc7e9e8df064a",
                 "shasum": ""
             },
             "require": {
@@ -2566,7 +2566,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-09-30 13:01:30"
+            "time": "2013-10-14 12:32:43"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -2575,12 +2575,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "7962e2bead1b856a20947d27254617b2efcbae62"
+                "reference": "c07633830699d1dfc95ee710cac3e441ab4d041a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/7962e2bead1b856a20947d27254617b2efcbae62",
-                "reference": "7962e2bead1b856a20947d27254617b2efcbae62",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/c07633830699d1dfc95ee710cac3e441ab4d041a",
+                "reference": "c07633830699d1dfc95ee710cac3e441ab4d041a",
                 "shasum": ""
             },
             "require": {
@@ -2630,7 +2630,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-11 10:57:41"
+            "time": "2013-10-14 10:06:46"
         },
         {
             "name": "symfony/assetic-bundle",
