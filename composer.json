@@ -1,5 +1,5 @@
 {
-    "name": "sulu/sulu",
+    "name": "sulu/sulu-standard",
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
@@ -20,7 +20,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/core-bundle": "dev-develop",
+        "sulu/sulu": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/admin-bundle": "dev-develop",
         "sulu/contact-bundle": "dev-develop",

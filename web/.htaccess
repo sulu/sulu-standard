@@ -51,7 +51,7 @@ SetEnv APP_ENV dev
         # When mod_rewrite is not available, we instruct a temporary redirect of
         # the startpage to the front controller explicitly so that the website
         # and the generated links can still be used.
-        RedirectMatch 302 ^/$ /admin.php/
+        RedirectMatch 302 ^/$ /website.php/
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
