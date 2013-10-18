@@ -6,8 +6,8 @@ sulu
 #### Clone this repository
 
 ```
-git clone git@github.com:massiveart/sulu.git
-cd sulu
+git clone git@github.com:sulu-cmf/sulu-standard.git
+cd sulu-standard
 ```
 
 #### Checkout the develop-branch
@@ -70,9 +70,9 @@ Sulu requires an installation of an apache webserver with PHP (>=5.4) and a mysq
 Use the following template for your vhost-configuration
 ```
 <VirtualHost *:80>
-    DocumentRoot "[path-to-your-workspace]/sulu/web"
+    DocumentRoot "[path-to-your-workspace]/sulu-standard/web"
     ServerName sulu.lo
-    <Directory "[path-to-your-workspace]/sulu/web">
+    <Directory "[path-to-your-workspace]/sulu-standard/web">
         Options Indexes FollowSymlinks
         AllowOverride All
         Order allow,deny
@@ -81,4 +81,5 @@ Use the following template for your vhost-configuration
 </VirtualHost>
 ```
 
+Of course you also have to make sure that your webserver user has permission to access your installation folder.
 Don't forget to include `sulu.lo` in your hosts-file, if you want to use Sulu on a local machine.
