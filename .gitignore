@@ -2,10 +2,9 @@
 /web/js
 /app/bootstrap.php.cache
 /app/admin/cache/*
-/app/admin/Resources/config/parameters.yml
+/app/Resources/config/parameters.yml
 /app/admin/logs/*
 /app/website/cache/*
-/app/website/Resources/config/parameters.yml
 /app/website/logs/*
 /build/
 /vendor/
