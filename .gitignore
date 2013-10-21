@@ -1,10 +1,11 @@
 /web/bundles/
+/web/js
 /app/bootstrap.php.cache
 /app/admin/cache/*
-/app/admin/config/parameters.yml
+/app/admin/Resources/config/parameters.yml
 /app/admin/logs/*
 /app/website/cache/*
-/app/website/config/parameters.yml
+/app/website/Resources/config/parameters.yml
 /app/website/logs/*
 /build/
 /vendor/
