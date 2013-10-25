@@ -19,6 +19,7 @@ class AdminBundleTest extends WebDriverTestCase
         array(
             'browserName' => 'firefox',
             'desiredCapabilities' => array(
+                'host' => 'localhost',
                 'port' => '4445',
                 'platform' => 'Windows 2012',
             )
@@ -26,6 +27,7 @@ class AdminBundleTest extends WebDriverTestCase
         array(
             'browserName' => 'chrome',
             'desiredCapabilities' => array(
+                'host' => 'localhost',
                 'port' => '4445',
                 'platform' => 'Windows 2012'
             )
