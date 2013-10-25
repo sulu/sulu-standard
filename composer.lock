@@ -2053,12 +2053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "eeaf44ba4543f3b573d352818935e94bc86746f3"
+                "reference": "0cd5a84d4852eb320806459591ff6dcab7d9276f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/eeaf44ba4543f3b573d352818935e94bc86746f3",
-                "reference": "eeaf44ba4543f3b573d352818935e94bc86746f3",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/0cd5a84d4852eb320806459591ff6dcab7d9276f",
+                "reference": "0cd5a84d4852eb320806459591ff6dcab7d9276f",
                 "shasum": ""
             },
             "require": {
@@ -2087,7 +2087,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-10-25 08:09:26"
+            "time": "2013-10-25 12:27:45"
         },
         {
             "name": "sulu/contact-bundle",
