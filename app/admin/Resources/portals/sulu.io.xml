@@ -11,7 +11,12 @@
         <language fallback="en">de</language>
     </languages>
 
-    <theme>sulu</theme>
+    <theme>
+        <key>sulu</key>
+        <excluded>
+            <template>overview</template>
+        </excluded>
+    </theme>
 
     <environments>
         <environment type="prod">

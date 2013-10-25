@@ -42,6 +42,7 @@
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
+        "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop"
     },
     "scripts": {
