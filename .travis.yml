@@ -1,7 +1,6 @@
 language: php
 
 php:
-  - 5.5
   - 5.4
 
 env:
@@ -10,7 +9,6 @@ env:
     - secure: "UmFds85SDbGAGgayw75iXegyElb68BVjT+rwwaUDtokreSgUytnj6+puFcomYtE5SiHmhZbcDZs2f4jBh0GlmDCULBIsj2i3B+qUdt0S3k6yNUhqEM6FoEmrFeiD0hK3PUW267LJEhZjgQfjkAhRGoF6RpLQFrvZFi9ldbS207c="
 
 before_script:
-  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
   - composer self-update
   - composer install
   - php app/console doctrine:database:create
@@ -18,5 +16,6 @@ before_script:
   - php app/console doctrine:fixtures:load --no-interaction
   - php app/console sulu:security:user:create admin Sulu Admin cmf@sulu.io en admin
   - php app/console server:run localhost:80 &
+  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
 
 script: phpunit
