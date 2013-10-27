@@ -78,7 +78,7 @@ class AdminBundleTest extends WebDriverTestCase
 
     public function setUpPage()
     {
-        $this->url('http://localhost/admin/login');
+        $this->url('http://localhost:8000/admin/login');
     }
 
     public function testLoginFail()
