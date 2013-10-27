@@ -19,16 +19,16 @@ class AdminBundleTest extends WebDriverTestCase
     public static $browsers = array(
         array(
             'browserName' => 'firefox',
-            'host' => '%s:%s@localhost',
-            'port' => 4445,
+            //'host' => '%s:%s@localhost',
+            //'port' => 4445,
             'desiredCapabilities' => array(
                 'platform' => 'Windows 2012',
             )
         ),
         array(
             'browserName' => 'chrome',
-            'host' => '%s:%s@localhost',
-            'port' => 4445,
+            //'host' => '%s:%s@localhost',
+            //'port' => 4445,
             'desiredCapabilities' => array(
                 'platform' => 'Windows 2012',
             )
