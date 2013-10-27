@@ -18,4 +18,4 @@ before_script:
   - php app/console server:run localhost:80 &
   - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
 
-script: phpunit
+script: bin/paratest -p 2 -f
