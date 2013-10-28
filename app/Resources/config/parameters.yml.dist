@@ -6,6 +6,10 @@ parameters:
     database_user:      root
     database_password:  ~
 
+    phpcr_url: http://localhost:8080/server
+    phpcr_username: admin
+    phpcr_password: admin
+
     mailer_transport:   smtp
     mailer_host:        127.0.0.1
     mailer_user:        ~
