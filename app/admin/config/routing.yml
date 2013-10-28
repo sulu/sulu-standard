@@ -28,3 +28,12 @@ sulu_translate_api:
     type: rest
     resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
     prefix: /admin/api/translate
+
+sulu_content:
+    resource: "@SuluContentBundle/Resources/config/routing.yml"
+    prefix: /admin/content
+
+#sulu_content_api:
+#    type: rest
+#    resource: "@SuluContentBundle/Resources/config/routing_api.yml"
+#    prefix: /admin/api/content
