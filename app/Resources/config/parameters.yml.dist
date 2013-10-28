@@ -14,5 +14,3 @@ parameters:
     locale:             en
     secret:             ThisTokenIsNotSoSecretChangeIt
     sulu_admin_name:    SULU 2.0
-
-    jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
