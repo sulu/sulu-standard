@@ -1,5 +1,6 @@
-sulu
-====
+Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf)
+============================================================================================================
+
 
 ## Installation
 
