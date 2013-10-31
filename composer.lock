@@ -2057,12 +2057,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "0cd5a84d4852eb320806459591ff6dcab7d9276f"
+                "reference": "8bf352d18c74e0c2004401a96929abe1216dd7db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/0cd5a84d4852eb320806459591ff6dcab7d9276f",
-                "reference": "0cd5a84d4852eb320806459591ff6dcab7d9276f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/8bf352d18c74e0c2004401a96929abe1216dd7db",
+                "reference": "8bf352d18c74e0c2004401a96929abe1216dd7db",
                 "shasum": ""
             },
             "require": {
@@ -2091,7 +2091,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-10-25 12:27:45"
+            "time": "2013-10-28 09:31:23"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2255,12 +2255,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "c613a6073e39319c89f38dc2b26597302c7ff432"
+                "reference": "d849a96e8b96ae91c818febebb40a967e55a4210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/c613a6073e39319c89f38dc2b26597302c7ff432",
-                "reference": "c613a6073e39319c89f38dc2b26597302c7ff432",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/d849a96e8b96ae91c818febebb40a967e55a4210",
+                "reference": "d849a96e8b96ae91c818febebb40a967e55a4210",
                 "shasum": ""
             },
             "require": {
@@ -2299,7 +2299,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2013-10-21 16:13:09"
+            "time": "2013-10-29 08:43:20"
         },
         {
             "name": "sulu/sulu",
@@ -2307,26 +2307,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "4df8ad7dd63aeb7a95b4abb540b53521309fc185"
+                "reference": "5092a127b1e9f8d68c519accf0a90aa1591fbafc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/4df8ad7dd63aeb7a95b4abb540b53521309fc185",
-                "reference": "4df8ad7dd63aeb7a95b4abb540b53521309fc185",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/5092a127b1e9f8d68c519accf0a90aa1591fbafc",
+                "reference": "5092a127b1e9f8d68c519accf0a90aa1591fbafc",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "friendsofsymfony/rest-bundle": "1.0.*",
+                "jackalope/jackalope-jackrabbit": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "2.3.*",
                 "symfony/framework-bundle": "2.3.*"
             },
             "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
             "type": "library",
@@ -2350,7 +2349,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2013-10-22 07:25:53"
+            "time": "2013-10-31 16:12:33"
         },
         {
             "name": "sulu/translate-bundle",
@@ -2520,12 +2519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "9f8607950cbf888ec678713a35f3d0088857c85f"
+                "reference": "f69b8adacda79cbee7f91c18ebeb16669ef7a0eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/9f8607950cbf888ec678713a35f3d0088857c85f",
-                "reference": "9f8607950cbf888ec678713a35f3d0088857c85f",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/f69b8adacda79cbee7f91c18ebeb16669ef7a0eb",
+                "reference": "f69b8adacda79cbee7f91c18ebeb16669ef7a0eb",
                 "shasum": ""
             },
             "require": {
@@ -2569,7 +2568,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 15:32:46"
+            "time": "2013-10-28 17:40:51"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -2578,12 +2577,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "176e082769afa2b69400cebfd5e0bb22a8536d97"
+                "reference": "2ce67148c17af62a50f49757a8fe18f843a896fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/176e082769afa2b69400cebfd5e0bb22a8536d97",
-                "reference": "176e082769afa2b69400cebfd5e0bb22a8536d97",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/2ce67148c17af62a50f49757a8fe18f843a896fd",
+                "reference": "2ce67148c17af62a50f49757a8fe18f843a896fd",
                 "shasum": ""
             },
             "require": {
@@ -2633,7 +2632,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 15:34:10"
+            "time": "2013-10-29 15:58:16"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2969,20 +2968,20 @@
         },
         {
             "name": "twig/extensions",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig-extensions.git",
-                "reference": "v1.0.0"
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/v1.0.0",
-                "reference": "v1.0.0",
+                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
                 "shasum": ""
             },
             "require": {
-                "twig/twig": "1.*"
+                "twig/twig": "~1.0"
             },
             "type": "library",
             "extra": {
@@ -3012,20 +3011,20 @@
                 "i18n",
                 "text"
             ],
-            "time": "2013-02-28 14:21:30"
+            "time": "2013-10-18 19:37:15"
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.1",
+            "version": "v1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb"
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8873d7593ad7c120004f177c0fd01459b383c9cb",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
                 "shasum": ""
             },
             "require": {
@@ -3061,7 +3060,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-15 19:17:38"
+            "time": "2013-10-30 08:20:53"
         },
         {
             "name": "willdurand/negotiation",
