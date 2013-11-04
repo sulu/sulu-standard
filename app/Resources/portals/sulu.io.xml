@@ -7,8 +7,8 @@
     <key>sulu_io</key>
 
     <languages>
-        <language main="true">en</language>
-        <language fallback="en">de</language>
+        <language main="true" fallback="true">en</language>
+        <language>de</language>
     </languages>
 
     <theme>
