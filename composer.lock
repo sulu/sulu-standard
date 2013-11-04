@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "61011b46ad1a0049b982cf1259bf9602",
+    "hash": "762108aa2f08d2162a244530e6c6dc9d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -78,16 +78,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "d0e4447707a064a5814b18cb0dcc2f24185f6179"
+                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/d0e4447707a064a5814b18cb0dcc2f24185f6179",
-                "reference": "d0e4447707a064a5814b18cb0dcc2f24185f6179",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/e16d7adf45664a50fa86f515b6d5e7f670130449",
+                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449",
                 "shasum": ""
             },
             "require": {
@@ -95,6 +95,10 @@
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.7",
+                "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
@@ -143,7 +147,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2013-09-26 19:23:25"
+            "time": "2013-10-25 19:04:14"
         },
         {
             "name": "doctrine/collections",
@@ -2053,12 +2057,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "d57203d2280354d4f607fd4c93a0d053aeec7202"
+                "reference": "8bf352d18c74e0c2004401a96929abe1216dd7db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d57203d2280354d4f607fd4c93a0d053aeec7202",
-                "reference": "d57203d2280354d4f607fd4c93a0d053aeec7202",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/8bf352d18c74e0c2004401a96929abe1216dd7db",
+                "reference": "8bf352d18c74e0c2004401a96929abe1216dd7db",
                 "shasum": ""
             },
             "require": {
@@ -2087,7 +2091,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-10-22 10:49:17"
+            "time": "2013-10-28 09:31:23"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2096,12 +2100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "99593b48dcf0f072889e9af4499ea8935c1ac700"
+                "reference": "716b7971966ec8a6fca54fdda2b4f5c7b94fde91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/99593b48dcf0f072889e9af4499ea8935c1ac700",
-                "reference": "99593b48dcf0f072889e9af4499ea8935c1ac700",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/716b7971966ec8a6fca54fdda2b4f5c7b94fde91",
+                "reference": "716b7971966ec8a6fca54fdda2b4f5c7b94fde91",
                 "shasum": ""
             },
             "require": {
@@ -2140,7 +2144,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2013-10-22 11:05:40"
+            "time": "2013-10-25 08:09:32"
         },
         {
             "name": "sulu/content-bundle",
@@ -2251,12 +2255,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "c613a6073e39319c89f38dc2b26597302c7ff432"
+                "reference": "d849a96e8b96ae91c818febebb40a967e55a4210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/c613a6073e39319c89f38dc2b26597302c7ff432",
-                "reference": "c613a6073e39319c89f38dc2b26597302c7ff432",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/d849a96e8b96ae91c818febebb40a967e55a4210",
+                "reference": "d849a96e8b96ae91c818febebb40a967e55a4210",
                 "shasum": ""
             },
             "require": {
@@ -2295,7 +2299,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2013-10-21 16:13:09"
+            "time": "2013-10-29 08:43:20"
         },
         {
             "name": "sulu/sulu",
@@ -2303,26 +2307,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "4df8ad7dd63aeb7a95b4abb540b53521309fc185"
+                "reference": "5092a127b1e9f8d68c519accf0a90aa1591fbafc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/4df8ad7dd63aeb7a95b4abb540b53521309fc185",
-                "reference": "4df8ad7dd63aeb7a95b4abb540b53521309fc185",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/5092a127b1e9f8d68c519accf0a90aa1591fbafc",
+                "reference": "5092a127b1e9f8d68c519accf0a90aa1591fbafc",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "friendsofsymfony/rest-bundle": "1.0.*",
+                "jackalope/jackalope-jackrabbit": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "2.3.*",
                 "symfony/framework-bundle": "2.3.*"
             },
             "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
             "type": "library",
@@ -2346,7 +2349,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2013-10-22 07:25:53"
+            "time": "2013-10-31 16:12:33"
         },
         {
             "name": "sulu/translate-bundle",
@@ -2355,12 +2358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
-                "reference": "4271714850cfaecf8a51d88536cb1164e621aac7"
+                "reference": "499aefed8caf759962f27a278b74dce416edb8c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/4271714850cfaecf8a51d88536cb1164e621aac7",
-                "reference": "4271714850cfaecf8a51d88536cb1164e621aac7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/499aefed8caf759962f27a278b74dce416edb8c0",
+                "reference": "499aefed8caf759962f27a278b74dce416edb8c0",
                 "shasum": ""
             },
             "require": {
@@ -2397,7 +2400,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-10-18 15:39:03"
+            "time": "2013-11-04 10:19:23"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2516,12 +2519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "9f8607950cbf888ec678713a35f3d0088857c85f"
+                "reference": "dc1ea2694ab209e67f1c471a3a1ba8ab4fa5a968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/9f8607950cbf888ec678713a35f3d0088857c85f",
-                "reference": "9f8607950cbf888ec678713a35f3d0088857c85f",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/dc1ea2694ab209e67f1c471a3a1ba8ab4fa5a968",
+                "reference": "dc1ea2694ab209e67f1c471a3a1ba8ab4fa5a968",
                 "shasum": ""
             },
             "require": {
@@ -2565,7 +2568,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 15:32:46"
+            "time": "2013-11-01 09:24:47"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -2574,12 +2577,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "176e082769afa2b69400cebfd5e0bb22a8536d97"
+                "reference": "2ce67148c17af62a50f49757a8fe18f843a896fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/176e082769afa2b69400cebfd5e0bb22a8536d97",
-                "reference": "176e082769afa2b69400cebfd5e0bb22a8536d97",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/2ce67148c17af62a50f49757a8fe18f843a896fd",
+                "reference": "2ce67148c17af62a50f49757a8fe18f843a896fd",
                 "shasum": ""
             },
             "require": {
@@ -2629,7 +2632,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-10-14 15:34:10"
+            "time": "2013-10-29 15:58:16"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2965,20 +2968,20 @@
         },
         {
             "name": "twig/extensions",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig-extensions.git",
-                "reference": "v1.0.0"
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/v1.0.0",
-                "reference": "v1.0.0",
+                "url": "https://api.github.com/repos/fabpot/Twig-extensions/zipball/f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
+                "reference": "f91a82ec225e5bb108e01a0f93c9be04f84dcfa0",
                 "shasum": ""
             },
             "require": {
-                "twig/twig": "1.*"
+                "twig/twig": "~1.0"
             },
             "type": "library",
             "extra": {
@@ -3008,20 +3011,20 @@
                 "i18n",
                 "text"
             ],
-            "time": "2013-02-28 14:21:30"
+            "time": "2013-10-18 19:37:15"
         },
         {
             "name": "twig/twig",
-            "version": "v1.14.1",
+            "version": "v1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb"
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8873d7593ad7c120004f177c0fd01459b383c9cb",
-                "reference": "8873d7593ad7c120004f177c0fd01459b383c9cb",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/ca445842fcea4f844d68203ffa2d00f5e3cdea64",
+                "reference": "ca445842fcea4f844d68203ffa2d00f5e3cdea64",
                 "shasum": ""
             },
             "require": {
@@ -3057,7 +3060,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-10-15 19:17:38"
+            "time": "2013-10-30 08:20:53"
         },
         {
             "name": "willdurand/negotiation",
@@ -3111,6 +3114,107 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "brianium/habitat",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brianium/habitat.git",
+                "reference": "d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brianium/habitat/zipball/d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96",
+                "reference": "d0979e3bb379cbc78ecb42b3ac171bc2b7e06d96",
+                "shasum": ""
+            },
+            "require-dev": {
+                "monolog/monolog": ">=1.5.0",
+                "phpunit/phpunit": ">=3.7.21"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Habitat": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Scaturro",
+                    "email": "scaturrob@gmail.com",
+                    "homepage": "http://brianscaturro.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "A dependable php environment",
+            "time": "2013-06-08 04:42:29"
+        },
+        {
+            "name": "brianium/paratest",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brianium/paratest.git",
+                "reference": "defa0aab8326ecaa9426bd392777a9527d84a68b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/defa0aab8326ecaa9426bd392777a9527d84a68b",
+                "reference": "defa0aab8326ecaa9426bd392777a9527d84a68b",
+                "shasum": ""
+            },
+            "require": {
+                "brianium/habitat": "1.0.0",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.3.0",
+                "phpunit/php-timer": ">=1.0.4",
+                "phpunit/phpunit": ">=3.7.8",
+                "symfony/console": "2.3.*",
+                "symfony/process": "2.3.*"
+            },
+            "bin": [
+                "bin/paratest"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParaTest": [
+                        "src/",
+                        "test/",
+                        "it/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Scaturro",
+                    "email": "scaturrob@gmail.com",
+                    "homepage": "http://brianscaturro.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Parallel testing for PHP",
+            "homepage": "https://github.com/brianium/paratest",
+            "keywords": [
+                "concurrent",
+                "parallel",
+                "phpunit",
+                "testing"
+            ],
+            "time": "2013-07-25 08:22:55"
+        },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.13",
@@ -3477,6 +3581,154 @@
                 "xunit"
             ],
             "time": "2013-01-13 10:24:48"
+        },
+        {
+            "name": "phpunit/phpunit-selenium",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-selenium.git",
+                "reference": "ba8ab98699dc07ede1b9e80a0523238cb5cec3d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-selenium/zipball/ba8ab98699dc07ede1b9e80a0523238cb5cec3d5",
+                "reference": "ba8ab98699dc07ede1b9e80a0523238cb5cec3d5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "php": ">=5.3.3",
+                "phpunit/phpunit": ">=3.7.0@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                },
+                {
+                    "name": "Giorgio Sironi",
+                    "email": "info@giorgiosironi.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Selenium Server integration for PHPUnit",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "selenium",
+                "testing",
+                "xunit"
+            ],
+            "time": "2013-08-25 12:29:25"
+        },
+        {
+            "name": "sauce/sausage",
+            "version": "v0.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jlipps/sausage.git",
+                "reference": "1259bc9855402760287b35a8281a146c4846a66e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jlipps/sausage/zipball/1259bc9855402760287b35a8281a146c4846a66e",
+                "reference": "1259bc9855402760287b35a8281a146c4846a66e",
+                "shasum": ""
+            },
+            "require": {
+                "brianium/paratest": ">=0.5.0",
+                "php": ">=5.3.0",
+                "phpunit/phpunit-selenium": ">=1.3.2",
+                "sauce/sausage-installer": ">=0.1.0"
+            },
+            "suggest": {
+                "sauce/connect": ">=3.0"
+            },
+            "bin": [
+                "bin/sauce_config"
+            ],
+            "type": "sauce-sausage",
+            "autoload": {
+                "psr-0": {
+                    "Sauce": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Lipps",
+                    "email": "jlipps@saucelabs.com",
+                    "homepage": "http://www.saucelabs.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "PHP version of the Sauce Labs API",
+            "homepage": "http://github.com/jlipps/sausage",
+            "keywords": [
+                "Sauce",
+                "SauceLabs",
+                "api",
+                "phpunit",
+                "selenium",
+                "testing"
+            ],
+            "time": "2013-09-24 10:45:24"
+        },
+        {
+            "name": "sauce/sausage-installer",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jlipps/sausage-installer.git",
+                "reference": "5435cadb3ef1cec77218814af3c121b3556a5444"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jlipps/sausage-installer/zipball/5435cadb3ef1cec77218814af3c121b3556a5444",
+                "reference": "5435cadb3ef1cec77218814af3c121b3556a5444",
+                "shasum": ""
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Sauce\\Composer\\SausageInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sauce": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Lipps",
+                    "email": "jlipps@saucelabs.com",
+                    "homepage": "http://www.saucelabs.com",
+                    "role": "Lead"
+                }
+            ],
+            "homepage": "http://github.com/jlipps/sausage-installer",
+            "time": "2012-09-28 18:41:38"
         },
         {
             "name": "sulu/generator-bundle",
