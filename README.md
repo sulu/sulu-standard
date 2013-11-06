@@ -1,6 +1,14 @@
 Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf)
 ============================================================================================================
 
+## Usage
+
+At the moment there is only one functional route.
+
+```
+sulu.lo/admin/
+```
+
 
 ## Installation
 
