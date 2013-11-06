@@ -59,6 +59,22 @@ app/console doctrine:fixtures:load
 ```
 Answer the upcoming question with `Y`, to purge the entire database.
 
+#### Download and install Jackrabbit
+
+Download the jar file into a Folder of your choice.
+
+```
+wget http://archive.apache.org/dist/jackrabbit/2.6.3/jackrabbit-standalone-2.6.3.jar
+java -jar jackrabbit-standalone-2.6.3.jar
+```
+
+#### Init Content Repository
+
+```
+app/console sulu:phpcr:init
+```
+
+
 #### Insert a new user
 ```
 app/console sulu:security:user:create
