@@ -82,6 +82,12 @@ fos_rest:
     routing_loader:
         default_format: json
 
+sulu_core:
+    phpcr:
+        url: %phpcr_url%
+        username: %phpcr_username%
+        password: %phpcr_password%
+
 sulu_admin:
     name: SULU 2.0
 
@@ -93,6 +99,7 @@ sulu_admin:
 parameters:
     jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
 
+# TODO check if is still necessary?
 doctrine_phpcr:
     session:
         backend:
