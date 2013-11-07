@@ -1237,16 +1237,16 @@
         },
         {
             "name": "jms/metadata",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/metadata.git",
-                "reference": "246d7096801ce29b5aea30a1abf0277ccfb9f055"
+                "reference": "88ffa28bc987e4c26229fc84a2e541b6ed4e1459"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/246d7096801ce29b5aea30a1abf0277ccfb9f055",
-                "reference": "246d7096801ce29b5aea30a1abf0277ccfb9f055",
+                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/88ffa28bc987e4c26229fc84a2e541b6ed4e1459",
+                "reference": "88ffa28bc987e4c26229fc84a2e541b6ed4e1459",
                 "shasum": ""
             },
             "require": {
@@ -1258,7 +1258,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -1285,7 +1285,7 @@
                 "xml",
                 "yaml"
             ],
-            "time": "2013-09-13 09:05:44"
+            "time": "2013-11-05 23:02:36"
         },
         {
             "name": "jms/parser-lib",
@@ -2310,12 +2310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "486d9acb2e7db468d3022152cdd2d557c9af596d"
+                "reference": "67bc83f3437419098c6f2966f471d2c8b8311760"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/486d9acb2e7db468d3022152cdd2d557c9af596d",
-                "reference": "486d9acb2e7db468d3022152cdd2d557c9af596d",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/67bc83f3437419098c6f2966f471d2c8b8311760",
+                "reference": "67bc83f3437419098c6f2966f471d2c8b8311760",
                 "shasum": ""
             },
             "require": {
@@ -2352,7 +2352,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2013-11-05 10:43:16"
+            "time": "2013-11-07 08:54:39"
         },
         {
             "name": "sulu/translate-bundle",
