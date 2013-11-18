@@ -87,12 +87,13 @@ sulu_core:
         url: %phpcr_url%
         username: %phpcr_username%
         password: %phpcr_password%
+    portal:
+        config_dir: "%kernel.root_dir%/../Resources/portals"
+    content:
+        ~
 
 sulu_admin:
     name: SULU 2.0
-
-#sulu_portal:
-#    config_path: "%kernel.root_dir%/../Resources/portals"
 
 # Just a dirty hack to get the jms serializer bundle correctly working
 # https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
