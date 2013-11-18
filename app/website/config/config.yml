@@ -90,3 +90,8 @@ cmf_routing:
     dynamic:
         enabled: true
         route_provider_service_id: sulu_website.provider.portal
+
+liip_theme:
+    themes: ["default"]
+    active_theme: "default"
+    load_controllers: false

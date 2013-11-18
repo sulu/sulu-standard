@@ -16,7 +16,7 @@
     </languages>
 
     <theme>
-        <key>sulu</key>
+        <key>default</key>
         <excluded>
             <template>overview</template>
         </excluded>
