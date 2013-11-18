@@ -32,6 +32,7 @@
         <environment type="dev">
             <urls>
                 <url main="true">sulu.lo</url>
+                <url>localhost</url>
             </urls>
         </environment>
     </environments>
