@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "eea57dbe5289aaf52aff4a3b2394aabd",
+    "hash": "274dd2ce594ea6b4f6934b81cf581f0d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2377,12 +2377,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "7693b0042187ae34bc495edca327852631fcf5b7"
+                "reference": "5eab09cbbd8d54da5a7e33f4a326b1d106369efa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7693b0042187ae34bc495edca327852631fcf5b7",
-                "reference": "7693b0042187ae34bc495edca327852631fcf5b7",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/5eab09cbbd8d54da5a7e33f4a326b1d106369efa",
+                "reference": "5eab09cbbd8d54da5a7e33f4a326b1d106369efa",
                 "shasum": ""
             },
             "require": {
@@ -2419,55 +2419,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2013-11-12 16:38:01"
-        },
-        {
-            "name": "sulu/theme-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/ThemeBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluThemeBundle.git",
-                "reference": "72fb25aff32a5fed3e5af46b4fba01920ede780f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluThemeBundle/zipball/72fb25aff32a5fed3e5af46b4fba01920ede780f",
-                "reference": "72fb25aff32a5fed3e5af46b4fba01920ede780f",
-                "shasum": ""
-            },
-            "require": {
-                "liip/theme-bundle": "1.0.*@dev",
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "symfony/monolog-bundle": "2.3.*",
-                "symfony/symfony": "2.3.*"
-            },
-            "type": "sulu-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\ThemeBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluThemeBundle/contributors"
-                }
-            ],
-            "description": "This bundle contains the default theme of sulu",
-            "keywords": [
-                "sulu",
-                "template",
-                "theme"
-            ],
-            "time": "2013-11-18 06:36:01"
+            "time": "2013-11-18 15:18:33"
         },
         {
             "name": "sulu/translate-bundle",
@@ -2527,19 +2479,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "cd2daf3f09fe899d44f1e4eebbd4c5a8b368c018"
+                "reference": "0d54e15b5a9c2e122e680bb1972163a0762c4bb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/cd2daf3f09fe899d44f1e4eebbd4c5a8b368c018",
-                "reference": "cd2daf3f09fe899d44f1e4eebbd4c5a8b368c018",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/0d54e15b5a9c2e122e680bb1972163a0762c4bb9",
+                "reference": "0d54e15b5a9c2e122e680bb1972163a0762c4bb9",
                 "shasum": ""
             },
             "require": {
-                "liip/theme-bundle": "@dev",
+                "liip/theme-bundle": "1.0.*@dev",
                 "php": ">=5.4",
                 "sulu/sulu": "dev-develop",
-                "sulu/theme-bundle": "dev-develop"
+                "symfony-cmf/routing-bundle": "1.1.*"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -2567,7 +2519,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2013-11-18 06:42:30"
+            "time": "2013-11-18 16:10:59"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3966,7 +3918,6 @@
         "symfony-cmf/routing-bundle": 20,
         "symfony-cmf/routing": 20,
         "liip/theme-bundle": 20,
-        "sulu/theme-bundle": 20,
         "sulu/generator-bundle": 20
     },
     "platform": {
