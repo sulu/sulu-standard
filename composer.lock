@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d9a67d73038cd609db1e3269e597c8e5",
+    "hash": "274dd2ce594ea6b4f6934b81cf581f0d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1070,16 +1070,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "7bb631536adf3264a4a745499edcb7bda13310e3"
+                "reference": "605a3fb6d83c906d19ad88b2347be9453c96a19f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/7bb631536adf3264a4a745499edcb7bda13310e3",
-                "reference": "7bb631536adf3264a4a745499edcb7bda13310e3",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/605a3fb6d83c906d19ad88b2347be9453c96a19f",
+                "reference": "605a3fb6d83c906d19ad88b2347be9453c96a19f",
                 "shasum": ""
             },
             "require": {
@@ -1119,7 +1119,7 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2013-10-10 19:57:47"
+            "time": "2013-11-06 10:28:46"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
@@ -1531,17 +1531,71 @@
             "time": "2013-07-19 00:03:27"
         },
         {
-            "name": "monolog/monolog",
-            "version": "1.6.0",
+            "name": "liip/theme-bundle",
+            "version": "dev-master",
+            "target-dir": "Liip/ThemeBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1.6.0"
+                "url": "https://github.com/liip/LiipThemeBundle.git",
+                "reference": "fa7f7851e1b9b12b9a7c9f6bcbbc24a23aba05aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1.6.0",
-                "reference": "1.6.0",
+                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/fa7f7851e1b9b12b9a7c9f6bcbbc24a23aba05aa",
+                "reference": "fa7f7851e1b9b12b9a7c9f6bcbbc24a23aba05aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.0"
+            },
+            "require-dev": {
+                "symfony/console": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Liip\\ThemeBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/liip/LiipThemeBundle/contributors"
+                },
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                }
+            ],
+            "description": "Provides theming support for #Symfony2 Bundles",
+            "keywords": [
+                "themes",
+                "theming"
+            ],
+            "time": "2013-09-30 12:47:45"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6225b22de9dcf36546be3a0b2fa8e3d986153f57",
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57",
                 "shasum": ""
             },
             "require": {
@@ -1549,21 +1603,26 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "aws/aws-sdk-php": "~2.4.8",
                 "doctrine/couchdb": "dev-master",
                 "mlehner/gelf-php": "1.0.*",
-                "raven/raven": "0.5.*"
+                "phpunit/phpunit": "~3.7.0",
+                "raven/raven": "0.5.*",
+                "ruflin/elastica": "0.90.*"
             },
             "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "raven/raven": "Allow sending log messages to a Sentry server"
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -1590,7 +1649,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-07-28 22:38:30"
+            "time": "2013-11-14 19:48:31"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -2310,12 +2369,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "4ea909bbc1284bb8f3a3c4bcfb2b6915cf7c1430"
+                "reference": "7693b0042187ae34bc495edca327852631fcf5b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/4ea909bbc1284bb8f3a3c4bcfb2b6915cf7c1430",
-                "reference": "4ea909bbc1284bb8f3a3c4bcfb2b6915cf7c1430",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7693b0042187ae34bc495edca327852631fcf5b7",
+                "reference": "7693b0042187ae34bc495edca327852631fcf5b7",
                 "shasum": ""
             },
             "require": {
@@ -2352,7 +2411,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2013-11-07 13:21:48"
+            "time": "2013-11-12 16:38:01"
         },
         {
             "name": "sulu/translate-bundle",
@@ -2910,16 +2969,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.6",
+            "version": "v2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "d0597156c4c03ceca039f6b7770a47397ba295f0"
+                "reference": "2829b471871c2564228fe9f0832a0f928a8ffaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/d0597156c4c03ceca039f6b7770a47397ba295f0",
-                "reference": "d0597156c4c03ceca039f6b7770a47397ba295f0",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/2829b471871c2564228fe9f0832a0f928a8ffaa1",
+                "reference": "2829b471871c2564228fe9f0832a0f928a8ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -3014,7 +3073,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-10-10 13:24:22"
+            "time": "2013-11-14 07:58:51"
         },
         {
             "name": "twig/extensions",
@@ -3787,12 +3846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluGeneratorBundle.git",
-                "reference": "6cb778506a99aa5ecfe1ce311d9e8681aad7e4aa"
+                "reference": "34368c0bfc60fa21389afd437200b9f793d4db91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluGeneratorBundle/zipball/6cb778506a99aa5ecfe1ce311d9e8681aad7e4aa",
-                "reference": "6cb778506a99aa5ecfe1ce311d9e8681aad7e4aa",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluGeneratorBundle/zipball/34368c0bfc60fa21389afd437200b9f793d4db91",
+                "reference": "34368c0bfc60fa21389afd437200b9f793d4db91",
                 "shasum": ""
             },
             "require": {
@@ -3826,7 +3885,7 @@
                 }
             ],
             "description": "This bundle generates sulu code for you",
-            "time": "2013-10-15 09:03:28"
+            "time": "2013-11-12 16:21:22"
         }
     ],
     "aliases": [
@@ -3848,6 +3907,7 @@
         "symfony-cmf/core-bundle": 20,
         "symfony-cmf/routing-bundle": 20,
         "symfony-cmf/routing": 20,
+        "liip/theme-bundle": 20,
         "sulu/generator-bundle": 20
     },
     "platform": {

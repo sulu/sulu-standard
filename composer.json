@@ -27,6 +27,7 @@
         "sulu/security-bundle": "dev-develop",
         "sulu/portal-bundle": "dev-develop",
         "sulu/content-bundle": "dev-develop",
+        "sulu/website-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -37,8 +38,8 @@
 
         "symfony-cmf/core-bundle": "@dev",
         "symfony-cmf/routing-bundle": "@dev",
-        "symfony-cmf/routing": "@dev"
-
+        "symfony-cmf/routing": "@dev",
+        "liip/theme-bundle": "@dev"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
