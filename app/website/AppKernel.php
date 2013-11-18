@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Liip\ThemeBundle\LiipThemeBundle(),
 
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
@@ -28,6 +29,8 @@ class AppKernel extends Kernel
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\ThemeBundle\SuluThemeBundle(),
+
+            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
