@@ -98,27 +98,3 @@ sulu_admin:
 # https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
 parameters:
     jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
-
-# TODO check if is still necessary?
-doctrine_phpcr:
-    session:
-        backend:
-            type: jackrabbit
-            url: http://localhost:8080/server/
-        workspace: default
-        username: admin
-        password: admin
-    odm:
-        auto_mapping: true
-
-cmf_routing:
-    chain:
-        routers_by_id:
-            cmf_routing.dynamic_router: 20
-            router.default: 100
-    dynamic:
-        persistence:
-            phpcr:
-                enabled: true
-                route_basepath: /cmf/routes
-                content_basepath: /cmf/contents

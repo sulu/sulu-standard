@@ -81,3 +81,12 @@ swiftmailer:
 fos_rest:
     routing_loader:
         default_format: json
+
+cmf_routing:
+    chain:
+        routers_by_id:
+            router.default: 100
+            cmf_routing.dynamic_router: 20
+    dynamic:
+        enabled: true
+        route_provider_service_id: sulu_website.provider.portal
