@@ -35,8 +35,7 @@ class AppKernel extends Kernel
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
-            new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
-            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
+            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
