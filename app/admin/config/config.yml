@@ -115,3 +115,11 @@ cmf_routing:
                 enabled: true
                 route_basepath: /cmf/routes
                 content_basepath: /cmf/contents
+
+sulu_core:
+    phpcr:
+        ~
+    portal:
+        ~
+    content:
+
