@@ -95,3 +95,13 @@ liip_theme:
     themes: ["default"]
     active_theme: "default"
     load_controllers: false
+
+sulu_core:
+    phpcr:
+        url: %phpcr_url%
+        username: %phpcr_username%
+        password: %phpcr_password%
+    portal:
+        config_dir: "%kernel.root_dir%/../Resources/portals"
+    content:
+        ~
