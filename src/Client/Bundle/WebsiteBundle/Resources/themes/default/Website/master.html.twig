@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ content.title }}</title>
+        <title>{% block title %} {% endblock %}</title>
     </head>
     <body>
         {% block content %} {% endblock %}

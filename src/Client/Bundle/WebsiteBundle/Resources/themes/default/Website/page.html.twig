@@ -1,5 +1,7 @@
 {% extends "ClientWebsiteBundle:Website:master.html.twig" %}
 
+{% block title %}{{ content.title }}{% endblock %}
+
 {% block content %}
 <h1>{{ content.title }}</h1>
 <p>{{ content.article }}</p>
