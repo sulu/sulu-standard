@@ -9,7 +9,7 @@ sulu_contact:
 sulu_contact_api:
     type: rest
     resource: "@SuluContactBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api/contact
+    prefix: /admin/api
 
 sulu_security:
     resource: "@SuluSecurityBundle/Resources/config/routing.yml"
@@ -18,7 +18,7 @@ sulu_security:
 sulu_security_api:
     type: rest
     resource: "@SuluSecurityBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api/security
+    prefix: /admin/api
 
 sulu_translate:
     resource: "@SuluTranslateBundle/Resources/config/routing.yml"
@@ -27,7 +27,7 @@ sulu_translate:
 sulu_translate_api:
     type: rest
     resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api/translate
+    prefix: /admin/api
 
 sulu_content:
     resource: "@SuluContentBundle/Resources/config/routing.yml"
@@ -36,4 +36,4 @@ sulu_content:
 sulu_content_api:
     type: rest
     resource: "@SuluContentBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api/content
+    prefix: /admin/api
