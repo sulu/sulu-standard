@@ -2124,12 +2124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "1ac3752e99939488e78b1b08edbabaede6e6b986"
+                "reference": "67489c171d6b5ebe22f95515d7220d3245c8ce1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/1ac3752e99939488e78b1b08edbabaede6e6b986",
-                "reference": "1ac3752e99939488e78b1b08edbabaede6e6b986",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/67489c171d6b5ebe22f95515d7220d3245c8ce1c",
+                "reference": "67489c171d6b5ebe22f95515d7220d3245c8ce1c",
                 "shasum": ""
             },
             "require": {
@@ -2158,7 +2158,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2013-11-21 09:28:03"
+            "time": "2013-12-03 14:54:55"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2167,12 +2167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "60269fc653df8793165c20ddc5d0fe679bfb0153"
+                "reference": "e6d6ba122c743d92210eb66b2d5f4d8e9069ef55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/60269fc653df8793165c20ddc5d0fe679bfb0153",
-                "reference": "60269fc653df8793165c20ddc5d0fe679bfb0153",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/e6d6ba122c743d92210eb66b2d5f4d8e9069ef55",
+                "reference": "e6d6ba122c743d92210eb66b2d5f4d8e9069ef55",
                 "shasum": ""
             },
             "require": {
@@ -2211,7 +2211,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2013-11-19 09:44:36"
+            "time": "2013-12-03 14:35:15"
         },
         {
             "name": "sulu/content-bundle",
