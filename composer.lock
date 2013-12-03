@@ -592,7 +592,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2220,12 +2220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "5561bd51fb00c5275f1254a9802ee7765fce31cf"
+                "reference": "8e121080a41de778b2674f9b0fa565393caeeb1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/5561bd51fb00c5275f1254a9802ee7765fce31cf",
-                "reference": "5561bd51fb00c5275f1254a9802ee7765fce31cf",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8e121080a41de778b2674f9b0fa565393caeeb1b",
+                "reference": "8e121080a41de778b2674f9b0fa565393caeeb1b",
                 "shasum": ""
             },
             "require": {
@@ -2265,7 +2265,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2013-11-18 17:21:08"
+            "time": "2013-12-03 14:50:29"
         },
         {
             "name": "sulu/portal-bundle",
@@ -2428,12 +2428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
-                "reference": "4adce079b0d38bbea69548c72e336efc6c2501f9"
+                "reference": "f01230164a942a94e6d5db1ebe146806a3c2d1aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/4adce079b0d38bbea69548c72e336efc6c2501f9",
-                "reference": "4adce079b0d38bbea69548c72e336efc6c2501f9",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/f01230164a942a94e6d5db1ebe146806a3c2d1aa",
+                "reference": "f01230164a942a94e6d5db1ebe146806a3c2d1aa",
                 "shasum": ""
             },
             "require": {
@@ -2470,7 +2470,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2013-11-05 15:05:57"
+            "time": "2013-12-03 14:38:46"
         },
         {
             "name": "sulu/website-bundle",
