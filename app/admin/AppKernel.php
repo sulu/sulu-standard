@@ -32,10 +32,11 @@ class AppKernel extends Kernel
             new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+            new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
-            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle()
+            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
