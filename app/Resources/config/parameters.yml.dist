@@ -17,4 +17,4 @@ parameters:
 
     locale:             en
     secret:             ThisTokenIsNotSoSecretChangeIt
-    sulu_admin_name:    SULU 2.0
+    sulu_admin.name:    SULU 2.0
