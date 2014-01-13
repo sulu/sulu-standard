@@ -2331,12 +2331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "93c54d04ce2cf09d46bca28df08e003fbf92a7f8"
+                "reference": "61f1c36898392a0370f871dfbc85a90d87919673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/93c54d04ce2cf09d46bca28df08e003fbf92a7f8",
-                "reference": "93c54d04ce2cf09d46bca28df08e003fbf92a7f8",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/61f1c36898392a0370f871dfbc85a90d87919673",
+                "reference": "61f1c36898392a0370f871dfbc85a90d87919673",
                 "shasum": ""
             },
             "require": {
@@ -2376,7 +2376,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-01-13 15:05:52"
+            "time": "2014-01-13 15:38:20"
         },
         {
             "name": "sulu/sulu",
