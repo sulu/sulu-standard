@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "274dd2ce594ea6b4f6934b81cf581f0d",
+    "hash": "2ddc60ec469f6fd3fc59b5514665790d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2429,6 +2429,58 @@
             "time": "2014-01-07 12:28:24"
         },
         {
+            "name": "sulu/tag-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/TagBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
+                "reference": "121c0454d6b1be0ec66145d286b3978c11f8c290"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/121c0454d6b1be0ec66145d286b3978c11f8c290",
+                "reference": "121c0454d6b1be0ec66145d286b3978c11f8c290",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "1.0.*",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/monolog-bundle": "2.3.*",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\TagBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluTagBundle/contributors"
+                }
+            ],
+            "description": "The Sulu Bundle for managing tags",
+            "keywords": [
+                "sulu",
+                "tags"
+            ],
+            "time": "2014-01-09 09:48:55"
+        },
+        {
             "name": "sulu/translate-bundle",
             "version": "dev-develop",
             "target-dir": "Sulu/Bundle/TranslateBundle",
@@ -3920,6 +3972,7 @@
         "sulu/portal-bundle": 20,
         "sulu/content-bundle": 20,
         "sulu/website-bundle": 20,
+        "sulu/tag-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,

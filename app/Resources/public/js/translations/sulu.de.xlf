@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="9055acd6577ed6a6fb7c625afcaff86f" resname="translate.package.title">
         <source>translate.package.title</source>
-        <target>Packet</target>
+        <target>Paket</target>
       </trans-unit>
       <trans-unit id="a0ff6dd7ef4022e0b90d8176c6ed89b0" resname="translate.package.catalogues">
         <source>translate.package.catalogues</source>
@@ -100,7 +100,7 @@
       </trans-unit>
       <trans-unit id="d981f062a65f15748ceda92a2fa42466" resname="contact.contacts.lastName">
         <source>contact.contacts.lastName</source>
-        <target>Lastname</target>
+        <target>Nachname</target>
       </trans-unit>
       <trans-unit id="03b430a05634e102e66cdadae27d1e70" resname="contact.contacts.position">
         <source>contact.contacts.position</source>
@@ -144,7 +144,7 @@
       </trans-unit>
       <trans-unit id="20b094e3c0a7fb6f474e86ec3a960507" resname="contact.address.state">
         <source>contact.address.state</source>
-        <target>Staat</target>
+        <target>Region</target>
       </trans-unit>
       <trans-unit id="9b5759b2b50bb1c9148289636b579c41" resname="contact.address.country">
         <source>contact.address.country</source>
@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="21739fb59ce76aa58404d9fc613ba40d" resname="email.home">
         <source>email.home</source>
-        <target>Persöhnlich</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="9c0bd43954c93c8e2cbfe94ecdd649c7" resname="email.work">
         <source>email.work</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="1eddecabfe3e3149071096c39a2069b1" resname="phone.home">
         <source>phone.home</source>
-        <target>Persöhnlich</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="2ae8f62c2530b4303646d95f70bfa62e" resname="phone.work">
         <source>phone.work</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="e7f59f60cc850de26922b29a1dcc3826" resname="address.home">
         <source>address.home</source>
-        <target>Persöhnlich</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="4b006ce36bf3e4f6bb24fd13e8dc29a9" resname="address.work">
         <source>address.work</source>
@@ -196,7 +196,7 @@
       </trans-unit>
       <trans-unit id="690fa3a0e9c39771d51fd5e8a8ae8a04" resname="contact.accounts.title">
         <source>contact.accounts.title</source>
-        <target>Account</target>
+        <target>Organisation</target>
       </trans-unit>
       <trans-unit id="a4190eb0ddea6a4a416c5568a137c6f6" resname="contact.accounts.name">
         <source>contact.accounts.name</source>
@@ -285,6 +285,90 @@
       <trans-unit id="1cbc7d24ab0a482414bc0685517c236b" resname="security.permission.role.allLanguages">
         <source>security.permission.role.allLanguages</source>
         <target>Alle ausgewählt</target>
+      </trans-unit>
+      <trans-unit id="9853c3be2382e817827644509ac88293" resname="sulu.edit-toolbar.delete">
+        <source>sulu.edit-toolbar.delete</source>
+        <target>Löschen</target>
+      </trans-unit>
+      <trans-unit id="b0e756e39c8e2107ac4461ba08222b46" resname="sulu.list-toolbar.import">
+        <source>sulu.list-toolbar.import</source>
+        <target>Importieren</target>
+      </trans-unit>
+      <trans-unit id="cfa5e5c51304396fa907ae54c84ab855" resname="sulu.list-toolbar.export">
+        <source>sulu.list-toolbar.export</source>
+        <target>Exportieren</target>
+      </trans-unit>
+      <trans-unit id="a945ccdbf95d2852ab6390cea24ebb6f" resname="content.contents.title">
+        <source>content.contents.title</source>
+        <target>Inhalte</target>
+      </trans-unit>
+      <trans-unit id="305f571ce8dc8b08470285f8a990899a" resname="navigation.tools">
+        <source>navigation.tools</source>
+        <target>Werkzeuge</target>
+      </trans-unit>
+      <trans-unit id="435b1473d76660a3ea27a2e9335a8d5d" resname="navigation.settings">
+        <source>navigation.settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="8820ed397e9ac260b8f232dd6815e8b3" resname="navigation.settings.roles">
+        <source>navigation.settings.roles</source>
+        <target>Rollen &amp; Berechtigungen</target>
+      </trans-unit>
+      <trans-unit id="a4e5be148f7d93a106d468391b00d055" resname="navigation.settings.translate">
+        <source>navigation.settings.translate</source>
+        <target>Übersetzungen</target>
+      </trans-unit>
+      <trans-unit id="61788b1f08f29f6e5f1cb4076fd81272" resname="navigation.contacts">
+        <source>navigation.contacts</source>
+        <target>Kontakte</target>
+      </trans-unit>
+      <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
+        <source>navigation.contacts.people</source>
+        <target>Kontakt</target>
+      </trans-unit>
+      <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
+        <source>navigation.contacts.companies</source>
+        <target>Organisation</target>
+      </trans-unit>
+      <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
+        <source>navigation.webspaces</source>
+        <target>Web-Spaces</target>
+      </trans-unit>
+      <trans-unit id="eefab6371eb9c8bb5457d1f5e35014a2" resname="navigation.webspaces.pages">
+        <source>navigation.webspaces.pages</source>
+        <target>Seiten</target>
+      </trans-unit>
+      <trans-unit id="da096463200e2c1bd9bdd1321852e268" resname="content-navigation.security.permissions">
+        <source>content-navigation.security.permissions</source>
+        <target>Berechtigungen</target>
+      </trans-unit>
+      <trans-unit id="fd444a99cbd01ff26a3efa16ff6da07e" resname="content-navigation.security.details">
+        <source>content-navigation.security.details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="5b3bf4af63094914b22eb76ed9c43a30" resname="content-navigation.contacts.details">
+        <source>content-navigation.contacts.details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="faab8145a3d2ff0d3b2f8a8cdf552ae6" resname="content-navigation.contents.details">
+        <source>content-navigation.contents.details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="208ce313bf52378e0d6891d69ffcddd4" resname="public.search">
+        <source>public.search</source>
+        <target>Suchen ...</target>
+      </trans-unit>
+      <trans-unit id="5e151909a6ee7c2c566d068d611a848b" resname="navigation.hide">
+        <source>navigation.hide</source>
+        <target>Verstecken</target>
+      </trans-unit>
+      <trans-unit id="0b7fef1b3b6a056c4a7b4a9fb6901586" resname="navigation.show">
+        <source>navigation.show</source>
+        <target>Anzeigen</target>
+      </trans-unit>
+      <trans-unit id="8c16a1fe6abba7701446e0f4515e096b" resname="security.permission.locale">
+        <source>security.permission.locale</source>
+        <target>Sprache</target>
       </trans-unit>
     </body>
   </file>
