@@ -366,6 +366,10 @@
         <source>navigation.show</source>
         <target>Anzeigen</target>
       </trans-unit>
+      <trans-unit id="8c16a1fe6abba7701446e0f4515e096b" resname="security.permission.locale">
+        <source>security.permission.locale</source>
+        <target>Sprache</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
