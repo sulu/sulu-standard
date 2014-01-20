@@ -370,6 +370,10 @@
         <source>security.permission.locale</source>
         <target>Sprache</target>
       </trans-unit>
+      <trans-unit id="84e007577e7329f1ac8509c8e6b6e038" resname="navigation.settings.tags">
+        <source>navigation.settings.tags</source>
+        <target>Tags</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
