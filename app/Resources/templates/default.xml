@@ -3,7 +3,7 @@
 <template>
     <key>default</key>
 
-    <view>page.html.twig</view>
+    <view>ClientWebsiteBundle:Website:page.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
