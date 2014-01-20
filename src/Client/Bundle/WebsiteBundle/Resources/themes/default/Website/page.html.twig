@@ -6,6 +6,6 @@
     <h1 property="title">{{ content.title }}</h1>
     <p property="article">{{ content.article }}</p>
     {% autoescape false %}
-    <p property="texteditor">{{ content.texteditor }}</p>
+    <div property="texteditor">{{ content.texteditor }}</div>
     {% endautoescape %}
 {% endblock %}
