@@ -398,6 +398,10 @@
         <source>public.id</source>
         <target>ID</target>
       </trans-unit>
+      <trans-unit id="aa1e276ea5cedf84599572e2dcf07f28" resname="list-toolbar.column-options">
+        <source>list-toolbar.column-options</source>
+        <target>Spalten Optionen</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
