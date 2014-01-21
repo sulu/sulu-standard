@@ -372,23 +372,35 @@
       </trans-unit>
       <trans-unit id="ba94026d08c4e74cc8d19436f7838a95" resname="pagination.page">
         <source>pagination.page</source>
-        <target>Page</target>
+        <target>Seite</target>
       </trans-unit>
       <trans-unit id="dc473bd06017432f7b455dc710046d13" resname="pagination.of">
         <source>pagination.of</source>
-        <target>of</target>
+        <target>von</target>
       </trans-unit>
       <trans-unit id="0da8d22272f30674643e1c0215b1e74e" resname="pagination.showAll">
         <source>pagination.showAll</source>
-        <target>show all</target>
+        <target>Alle anzeigen</target>
       </trans-unit>
       <trans-unit id="317132c150958a110ab6c49ea2f99dee" resname="pagination.elements">
         <source>pagination.elements</source>
-        <target>Elements</target>
+        <target>Elemente</target>
       </trans-unit>
       <trans-unit id="84e007577e7329f1ac8509c8e6b6e038" resname="navigation.settings.tags">
         <source>navigation.settings.tags</source>
         <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="05c8870c540da81249840418b8c4ed3a" resname="sulu.edit-toolbar.new-window">
+        <source>sulu.edit-toolbar.new-window</source>
+        <target>Vorschau in neuem Fenster</target>
+      </trans-unit>
+      <trans-unit id="72e14b96918d836a8db5575ca94133a8" resname="public.id">
+        <source>public.id</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="aa1e276ea5cedf84599572e2dcf07f28" resname="list-toolbar.column-options">
+        <source>list-toolbar.column-options</source>
+        <target>Spalten Optionen</target>
       </trans-unit>
     </body>
   </file>

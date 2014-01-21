@@ -390,6 +390,18 @@
         <source>navigation.settings.tags</source>
         <target>Tags</target>
       </trans-unit>
+      <trans-unit id="05c8870c540da81249840418b8c4ed3a" resname="sulu.edit-toolbar.new-window">
+        <source>sulu.edit-toolbar.new-window</source>
+        <target>Preview in new window</target>
+      </trans-unit>
+      <trans-unit id="72e14b96918d836a8db5575ca94133a8" resname="public.id">
+        <source>public.id</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="aa1e276ea5cedf84599572e2dcf07f28" resname="list-toolbar.column-options">
+        <source>list-toolbar.column-options</source>
+        <target>Column options</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
