@@ -2,8 +2,24 @@
 <html>
     <head>
         <title>{% block title %} {% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/style.css') }}"/>
     </head>
     <body>
-        {% block content %} {% endblock %}
+        <div id="container">
+            <div id="header">
+                <h1>Header</h1>
+            </div>
+            <div id="outer" class="clearfix">
+                <div id="navigation">
+                    Navigation
+                </div>
+                <div id="content" vocab="http://schema.org/" typeof="Content">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+            <div id="footer">
+                &copy; 2014: Massiveart
+            </div>
+        </div>
     </body>
 </html>

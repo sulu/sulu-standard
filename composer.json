@@ -40,7 +40,9 @@
         "symfony-cmf/core-bundle": "@dev",
         "symfony-cmf/routing-bundle": "@dev",
         "symfony-cmf/routing": "@dev",
-        "liip/theme-bundle": "@dev"
+        "liip/theme-bundle": "@dev",
+
+        "cboden/ratchet": "dev-master"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",

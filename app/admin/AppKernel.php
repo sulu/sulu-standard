@@ -37,6 +37,11 @@ class AppKernel extends Kernel
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
             new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
+
+            // Preview
+            new Liip\ThemeBundle\LiipThemeBundle(),
+            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+            new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
