@@ -16,6 +16,6 @@
         <property name="article" type="text_area"/>
         <property name="texteditor" type="text_editor"/>
 
-        <property name="tags" type="text_line" minOccurs="2" maxOccurs="4"/>
+        <property name="tags" type="tag_list"/>
     </properties>
 </template>
