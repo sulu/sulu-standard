@@ -414,6 +414,10 @@
         <source>tags.changed</source>
         <target>Zuletzt geändert</target>
       </trans-unit>
+      <trans-unit id="2c5d2006332615c94e53762ecf089bdc" resname="sulu.edit-toolbar.split-screen">
+        <source>sulu.edit-toolbar.split-screen</source>
+        <target>Geteilte Ansicht</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
