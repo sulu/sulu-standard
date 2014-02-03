@@ -402,6 +402,22 @@
         <source>list-toolbar.column-options</source>
         <target>Spalten Optionen</target>
       </trans-unit>
+      <trans-unit id="2b8871c8001f2c3566269f5ad4515b89" resname="tags.name">
+        <source>tags.name</source>
+        <target>Bezeichnung</target>
+      </trans-unit>
+      <trans-unit id="3e0f7ed3323ebf452bdbd57f077e6347" resname="tags.author">
+        <source>tags.author</source>
+        <target>Author</target>
+      </trans-unit>
+      <trans-unit id="414427d622e07cebcb5f315c2e926b53" resname="tags.changed">
+        <source>tags.changed</source>
+        <target>Zuletzt geändert</target>
+      </trans-unit>
+      <trans-unit id="2c5d2006332615c94e53762ecf089bdc" resname="sulu.edit-toolbar.split-screen">
+        <source>sulu.edit-toolbar.split-screen</source>
+        <target>Geteilte Ansicht</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
