@@ -402,6 +402,18 @@
         <source>list-toolbar.column-options</source>
         <target>Column options</target>
       </trans-unit>
+      <trans-unit id="2b8871c8001f2c3566269f5ad4515b89" resname="tags.name">
+        <source>tags.name</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="3e0f7ed3323ebf452bdbd57f077e6347" resname="tags.author">
+        <source>tags.author</source>
+        <target>Author</target>
+      </trans-unit>
+      <trans-unit id="414427d622e07cebcb5f315c2e926b53" resname="tags.changed">
+        <source>tags.changed</source>
+        <target>Last changed</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
