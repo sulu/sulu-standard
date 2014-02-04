@@ -2644,12 +2644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "6bb6fd6caf9f8f204952ed2db7c3dff28e9efbe8"
+                "reference": "6a8dc58078df729db70a04cb9f712ae45649d93e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/6bb6fd6caf9f8f204952ed2db7c3dff28e9efbe8",
-                "reference": "6bb6fd6caf9f8f204952ed2db7c3dff28e9efbe8",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/6a8dc58078df729db70a04cb9f712ae45649d93e",
+                "reference": "6a8dc58078df729db70a04cb9f712ae45649d93e",
                 "shasum": ""
             },
             "require": {
@@ -2693,7 +2693,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-02-04 12:58:22"
+            "time": "2014-02-04 15:35:24"
         },
         {
             "name": "sulu/portal-bundle",
