@@ -418,6 +418,26 @@
         <source>sulu.edit-toolbar.split-screen</source>
         <target>Geteilte Ansicht</target>
       </trans-unit>
+      <trans-unit id="da7c493010f2c3545706969e142d0749" resname="public.changed">
+        <source>public.changed</source>
+        <target>Zuletzt geändert</target>
+      </trans-unit>
+      <trans-unit id="892cc3ad5bdba41fcf1b98298a4aee6a" resname="public.created">
+        <source>public.created</source>
+        <target>Erstellt am</target>
+      </trans-unit>
+      <trans-unit id="16a5444f8a5aca84bec03721b231b3a7" resname="contact.contacts.birthday">
+        <source>contact.contacts.birthday</source>
+        <target>Geburtstag</target>
+      </trans-unit>
+      <trans-unit id="f34bfecf79a539b6592fb2f2ec1135ef" resname="contact.contacts.middleName">
+        <source>contact.contacts.middleName</source>
+        <target>Zwischenname</target>
+      </trans-unit>
+      <trans-unit id="4ea635d980999da6a15ef3782d251878" resname="public.title">
+        <source>public.title</source>
+        <target>Titel</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
