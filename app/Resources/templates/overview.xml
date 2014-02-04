@@ -12,10 +12,12 @@
 
     <properties>
         <property name="title" type="text_line" mandatory="true"/>
+
+        <property name="tags" type="tag_list"/>
+
         <property name="url" type="resource_locator" mandatory="true"/>
         <property name="article" type="text_area"/>
         <property name="texteditor" type="text_editor"/>
 
-        <property name="tags" type="tag_list"/>
     </properties>
 </template>
