@@ -253,7 +253,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -695,7 +695,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2551,12 +2551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "f2b8897fbeb99c7643935dadef63c33ef0832992"
+                "reference": "68e48c544f3e22326ae5020aa7fdbba70908cfc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/f2b8897fbeb99c7643935dadef63c33ef0832992",
-                "reference": "f2b8897fbeb99c7643935dadef63c33ef0832992",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/68e48c544f3e22326ae5020aa7fdbba70908cfc5",
+                "reference": "68e48c544f3e22326ae5020aa7fdbba70908cfc5",
                 "shasum": ""
             },
             "require": {
@@ -2585,7 +2585,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2014-02-07 14:20:16"
+            "time": "2014-02-07 15:36:23"
         },
         {
             "name": "sulu/contact-bundle",
