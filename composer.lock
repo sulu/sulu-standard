@@ -11,18 +11,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "aec39c3498435ce636fbb4f88d591bc6eb19fb32"
+                "reference": "3dc69de9d31612e6fe45e2755deb3605ce94dc5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/aec39c3498435ce636fbb4f88d591bc6eb19fb32",
-                "reference": "aec39c3498435ce636fbb4f88d591bc6eb19fb32",
+                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/3dc69de9d31612e6fe45e2755deb3605ce94dc5e",
+                "reference": "3dc69de9d31612e6fe45e2755deb3605ce94dc5e",
                 "shasum": ""
             },
             "require": {
                 "guzzle/http": ">=3.6.0,<3.9.0-dev",
                 "php": ">=5.3.9",
-                "react/socket": "0.3.*",
+                "react/socket": ">=0.3.0,<0.5-dev",
                 "symfony/http-foundation": "~2.2",
                 "symfony/routing": "~2.2"
             },
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-02-01 21:57:14"
+            "time": "2014-02-06 12:54:56"
         },
         {
             "name": "doctrine/annotations",
@@ -922,22 +922,27 @@
         },
         {
             "name": "evenement/evenement",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
-                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d"
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
-                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -954,11 +959,12 @@
                     "homepage": "http://wiedler.ch/igor/"
                 }
             ],
-            "description": "Événement is a very simple event dispatching library for PHP 5.3",
+            "description": "Événement is a very simple event dispatching library for PHP",
             "keywords": [
-                "event-dispatcher"
+                "event-dispatcher",
+                "event-emitter"
             ],
-            "time": "2012-05-30 15:01:08"
+            "time": "2012-11-02 14:49:47"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -2209,35 +2215,35 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.3.3",
-            "target-dir": "React/EventLoop",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "49208fa3a15c9eae4adf8351ee9caa4064fe550d"
+                "reference": "fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/49208fa3a15c9eae4adf8351ee9caa4064fe550d",
-                "reference": "49208fa3a15c9eae4adf8351ee9caa4064fe550d",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e",
+                "reference": "fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.4.0"
             },
             "suggest": {
+                "ext-event": "~1.0",
                 "ext-libev": "*",
-                "ext-libevent": ">=0.0.5"
+                "ext-libevent": ">=0.1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3-dev"
+                    "dev-master": "0.4-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "React\\EventLoop": ""
+                "psr-4": {
+                    "React\\EventLoop\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2248,38 +2254,37 @@
             "keywords": [
                 "event-loop"
             ],
-            "time": "2013-07-08 22:38:22"
+            "time": "2014-02-02 21:27:39"
         },
         {
             "name": "react/socket",
-            "version": "v0.3.2",
-            "target-dir": "React/Socket",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "9cc32838d25a934ce950d2662cce2ff1b9e9f8aa"
+                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/9cc32838d25a934ce950d2662cce2ff1b9e9f8aa",
-                "reference": "9cc32838d25a934ce950d2662cce2ff1b9e9f8aa",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
+                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "1.0.*",
-                "php": ">=5.3.3",
-                "react/event-loop": "0.3.*",
-                "react/stream": "0.3.*"
+                "evenement/evenement": "~2.0",
+                "php": ">=5.4.0",
+                "react/event-loop": "0.4.*",
+                "react/stream": "0.4.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3-dev"
+                    "dev-master": "0.4-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "React\\Socket": ""
+                "psr-4": {
+                    "React\\Socket\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2290,40 +2295,39 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2013-04-26 20:23:10"
+            "time": "2014-02-02 01:11:26"
         },
         {
             "name": "react/stream",
-            "version": "v0.3.3",
-            "target-dir": "React/Stream",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "b72900ab00513b591fb101faecad38f9c8eab8da"
+                "reference": "42bd0edc641901e6265a98aa84042b8e95e19540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/b72900ab00513b591fb101faecad38f9c8eab8da",
-                "reference": "b72900ab00513b591fb101faecad38f9c8eab8da",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/42bd0edc641901e6265a98aa84042b8e95e19540",
+                "reference": "42bd0edc641901e6265a98aa84042b8e95e19540",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "1.0.*",
-                "php": ">=5.3.3"
+                "evenement/evenement": "~2.0",
+                "php": ">=5.4.0"
             },
             "suggest": {
-                "react/event-loop": "0.3.*",
-                "react/promise": "~1.0"
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.3-dev"
+                    "dev-master": "0.4-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "React\\Stream": ""
+                "psr-4": {
+                    "React\\Stream\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2335,7 +2339,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2013-07-09 00:44:12"
+            "time": "2014-02-02 16:21:45"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2547,12 +2551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "790a63ef728a6189df4491448d6c802dc79892c1"
+                "reference": "f2b8897fbeb99c7643935dadef63c33ef0832992"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/790a63ef728a6189df4491448d6c802dc79892c1",
-                "reference": "790a63ef728a6189df4491448d6c802dc79892c1",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/f2b8897fbeb99c7643935dadef63c33ef0832992",
+                "reference": "f2b8897fbeb99c7643935dadef63c33ef0832992",
                 "shasum": ""
             },
             "require": {
@@ -2581,7 +2585,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2014-02-04 14:46:18"
+            "time": "2014-02-07 14:20:16"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2644,12 +2648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "6a8dc58078df729db70a04cb9f712ae45649d93e"
+                "reference": "290ec5f0877022121f936c0aa0fa0ee0d1342905"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/6a8dc58078df729db70a04cb9f712ae45649d93e",
-                "reference": "6a8dc58078df729db70a04cb9f712ae45649d93e",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/290ec5f0877022121f936c0aa0fa0ee0d1342905",
+                "reference": "290ec5f0877022121f936c0aa0fa0ee0d1342905",
                 "shasum": ""
             },
             "require": {
@@ -2693,7 +2697,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-02-04 15:35:24"
+            "time": "2014-02-07 14:20:34"
         },
         {
             "name": "sulu/portal-bundle",
@@ -2753,12 +2757,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "4d45a9bfe79310cd2898bcce4f642cbdc67c8af7"
+                "reference": "241beba1f1af5f2f75e2222267390c767314d1c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/4d45a9bfe79310cd2898bcce4f642cbdc67c8af7",
-                "reference": "4d45a9bfe79310cd2898bcce4f642cbdc67c8af7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/241beba1f1af5f2f75e2222267390c767314d1c5",
+                "reference": "241beba1f1af5f2f75e2222267390c767314d1c5",
                 "shasum": ""
             },
             "require": {
@@ -2799,7 +2803,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-02-04 09:02:18"
+            "time": "2014-02-07 14:20:27"
         },
         {
             "name": "sulu/sulu",
@@ -3671,16 +3675,16 @@
         },
         {
             "name": "willdurand/negotiation",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Negotiation.git",
-                "reference": "366e31cfc247946dfe8c622bc00041964e9b294f"
+                "reference": "8f8c85f6845fbdfc827bedf5bf9315ddaefd8295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/366e31cfc247946dfe8c622bc00041964e9b294f",
-                "reference": "366e31cfc247946dfe8c622bc00041964e9b294f",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/8f8c85f6845fbdfc827bedf5bf9315ddaefd8295",
+                "reference": "8f8c85f6845fbdfc827bedf5bf9315ddaefd8295",
                 "shasum": ""
             },
             "require": {
@@ -3717,7 +3721,7 @@
                 "header",
                 "negotiation"
             ],
-            "time": "2013-11-26 14:42:16"
+            "time": "2014-02-06 13:57:08"
         }
     ],
     "packages-dev": [
