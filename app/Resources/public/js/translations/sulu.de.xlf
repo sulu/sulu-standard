@@ -438,6 +438,94 @@
         <source>public.title</source>
         <target>Titel</target>
       </trans-unit>
+      <trans-unit id="92762f7528ee1cbcd85bf435fd03c846" resname="smart-content.nocontent-found">
+        <source>smart-content.nocontent-found</source>
+        <target>Keinen Inhalt gefunden</target>
+      </trans-unit>
+      <trans-unit id="eabf67921221f58698ecdb840eceb15f" resname="smart-content.nocontent-selected">
+        <source>smart-content.nocontent-selected</source>
+        <target>Nichts ausgewählt</target>
+      </trans-unit>
+      <trans-unit id="7ed9c6dfa56487c35fa173d0a750d1e8" resname="smart-content.visible">
+        <source>smart-content.visible</source>
+        <target>sichtbar</target>
+      </trans-unit>
+      <trans-unit id="3dbb6bd1426dd22f15726e31904a77dd" resname="smart-content.of">
+        <source>smart-content.of</source>
+        <target>von</target>
+      </trans-unit>
+      <trans-unit id="f85e55126a0ec3ab6617b52fc033bc18" resname="smart-content.configure-smart-content">
+        <source>smart-content.configure-smart-content</source>
+        <target>Smart-content konfigurieren</target>
+      </trans-unit>
+      <trans-unit id="7a9bd49b2b4443383bff6eb67dd0afb6" resname="smart-content.data-source">
+        <source>smart-content.data-source</source>
+        <target>Datenquelle</target>
+      </trans-unit>
+      <trans-unit id="66f18ec54ed3b6a089ee3712167c4e87" resname="smart-content.include-sub-folders">
+        <source>smart-content.include-sub-folders</source>
+        <target>Unterordner inkludieren</target>
+      </trans-unit>
+      <trans-unit id="4cf5babee84aa0eef15db3ce11648b35" resname="smart-content.filter-by-category">
+        <source>smart-content.filter-by-category</source>
+        <target>Nach Kategorie filtern</target>
+      </trans-unit>
+      <trans-unit id="ea58ee4521c5fe65055dc05092ea8d08" resname="smart-content.filter-by-tags">
+        <source>smart-content.filter-by-tags</source>
+        <target>Nach Tags filtern</target>
+      </trans-unit>
+      <trans-unit id="7e3c491707f805797c98a366cf0c28e2" resname="smart-content.sort-by">
+        <source>smart-content.sort-by</source>
+        <target>Sortieren nach</target>
+      </trans-unit>
+      <trans-unit id="831eaac1fa8a279d10e452f59e716b35" resname="smart-content.no-sorting">
+        <source>smart-content.no-sorting</source>
+        <target>Keine Sortierung</target>
+      </trans-unit>
+      <trans-unit id="fc27db8368ee8e93b0432c6f929eb22c" resname="smart-content.ascending">
+        <source>smart-content.ascending</source>
+        <target>Aufsteigend</target>
+      </trans-unit>
+      <trans-unit id="71c74b6461ba3ba4613e1ac306a55f82" resname="smart-content.descending">
+        <source>smart-content.descending</source>
+        <target>Absteigend</target>
+      </trans-unit>
+      <trans-unit id="6574850a4e95ff29395d3078b5e4ea74" resname="smart-content.present-as">
+        <source>smart-content.present-as</source>
+        <target>Darstellen als</target>
+      </trans-unit>
+      <trans-unit id="a9097de27632b967cec91eb705ac82ad" resname="smart-content.limit-result-to">
+        <source>smart-content.limit-result-to</source>
+        <target>Ergebnis limitieren auf</target>
+      </trans-unit>
+      <trans-unit id="48c38a0436a34817dcc6a358d39f9262" resname="smart-content.no-category">
+        <source>smart-content.no-category</source>
+        <target>Keine Kategorie</target>
+      </trans-unit>
+      <trans-unit id="f033dcd178a34ec4932e49f1dfeea02f" resname="smart-content.choose-present-as">
+        <source>smart-content.choose-present-as</source>
+        <target>auswählen..</target>
+      </trans-unit>
+      <trans-unit id="1dbb7db699bba74e52807fbbccbb91d7" resname="smart-content.choose-data-source">
+        <source>smart-content.choose-data-source</source>
+        <target>auswählen..</target>
+      </trans-unit>
+      <trans-unit id="5ff9374232125b7f296a3e4cd9dc0bfe" resname="smart-content.from">
+        <source>smart-content.from</source>
+        <target>Von</target>
+      </trans-unit>
+      <trans-unit id="475db242975e3fbfd85d008cede565bc" resname="smart-content.sub-folders-inclusive">
+        <source>smart-content.sub-folders-inclusive</source>
+        <target>inkl. Unterordner</target>
+      </trans-unit>
+      <trans-unit id="30092dd4c161f141539f1802e8da02a8" resname="smart-content.view-all">
+        <source>smart-content.view-all</source>
+        <target>alle ansehen</target>
+      </trans-unit>
+      <trans-unit id="cc88fcd370c8ff1d96f0b9f99adb8316" resname="smart-content.view-less">
+        <source>smart-content.view-less</source>
+        <target>weniger ansehen</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
