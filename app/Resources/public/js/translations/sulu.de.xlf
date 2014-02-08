@@ -526,6 +526,10 @@
         <source>smart-content.view-less</source>
         <target>weniger ansehen</target>
       </trans-unit>
+      <trans-unit id="cc88fcd370c8ff1123f0b9f99adb8316" resname="tag.tags.title">
+        <source>tag.tags.title</source>
+        <target>Tags</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
