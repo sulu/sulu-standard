@@ -18,7 +18,6 @@
         <property name="url" type="resource_locator" mandatory="true"/>
         <property name="article" type="text_area"/>
         <property name="texteditor" type="text_editor"/>
-        <property name="smartcontent" type="smart_content"/>
 
     </properties>
 </template>
