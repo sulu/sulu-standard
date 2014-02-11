@@ -29,6 +29,8 @@ class AppKernel extends Kernel
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
+            new Sulu\Bundle\ContentBundle\SuluContentBundle(),
+            new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
 
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
         );
