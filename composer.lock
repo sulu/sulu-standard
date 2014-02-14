@@ -2600,12 +2600,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "0122cb2d8a3fe4093b165477623128c0e260bc49"
+                "reference": "56d3878ae014d5db9ecea0d8421e9ff60a7d7bac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/0122cb2d8a3fe4093b165477623128c0e260bc49",
-                "reference": "0122cb2d8a3fe4093b165477623128c0e260bc49",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/56d3878ae014d5db9ecea0d8421e9ff60a7d7bac",
+                "reference": "56d3878ae014d5db9ecea0d8421e9ff60a7d7bac",
                 "shasum": ""
             },
             "require": {
@@ -2645,7 +2645,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-02-14 13:44:32"
+            "time": "2014-02-14 14:20:02"
         },
         {
             "name": "sulu/content-bundle",
@@ -2654,12 +2654,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "010dd29f8191a770e76690ced0fb02d8f8d0edcf"
+                "reference": "894227da70b4469d60754a558c747c9e667c6f1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/010dd29f8191a770e76690ced0fb02d8f8d0edcf",
-                "reference": "010dd29f8191a770e76690ced0fb02d8f8d0edcf",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/894227da70b4469d60754a558c747c9e667c6f1b",
+                "reference": "894227da70b4469d60754a558c747c9e667c6f1b",
                 "shasum": ""
             },
             "require": {
@@ -2703,7 +2703,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-02-14 10:28:57"
+            "time": "2014-02-14 14:14:40"
         },
         {
             "name": "sulu/portal-bundle",
