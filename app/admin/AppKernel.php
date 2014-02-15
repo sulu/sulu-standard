@@ -33,10 +33,16 @@ class AppKernel extends Kernel
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
+            new Sulu\Bundle\TagBundle\SuluTagBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
             new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
+
+            // Preview
+            new Liip\ThemeBundle\LiipThemeBundle(),
+            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+            new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -44,6 +50,7 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
+            $bundles[] = new \Sulu\Bundle\TestBundle\SuluTestBundle();
         }
 
         return $bundles;

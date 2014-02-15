@@ -82,6 +82,12 @@ java -jar jackrabbit-standalone-2.6.3.jar
 app/console sulu:phpcr:init
 ```
 
+#### Init Webspaces
+
+```
+app/console sulu:webspaces:init
+```
+
 
 #### Insert a new user
 ```

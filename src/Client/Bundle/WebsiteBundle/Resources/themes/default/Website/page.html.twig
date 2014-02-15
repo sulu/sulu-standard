@@ -3,6 +3,9 @@
 {% block title %}{{ content.title }}{% endblock %}
 
 {% block content %}
-<h1>{{ content.title }}</h1>
-<p>{{ content.article }}</p>
+    <h1 property="title">{{ content.title }}</h1>
+    <p property="article">{{ content.article }}</p>
+    {% autoescape false %}
+    <div property="texteditor">{{ content.texteditor }}</div>
+    {% endautoescape %}
 {% endblock %}
