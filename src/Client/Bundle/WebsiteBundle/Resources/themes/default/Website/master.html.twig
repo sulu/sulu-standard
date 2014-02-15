@@ -11,7 +11,12 @@
             </div>
             <div id="outer" class="clearfix">
                 <div id="navigation">
-                    Navigation
+                    <h3>Navigation</h3>
+                    <ul>
+                    {% for item in navigation %}
+                        <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.content }}</a></li>
+                    {% endfor %}
+                    </ul>
                 </div>
                 <div id="content" vocab="http://schema.org/" typeof="Content">
                     {% block content %}{% endblock %}
