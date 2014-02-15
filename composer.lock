@@ -92,7 +92,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -512,9 +512,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -574,9 +572,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -699,7 +695,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1685,7 +1681,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2381,9 +2377,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "The base bundle for the Symfony Distributions",
@@ -2557,15 +2551,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "3d7453c86a3707c520dfbb8b04967269ba30047e"
+                "reference": "aa89a3854ac6de0704094eb34202c2b806dd2093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/3d7453c86a3707c520dfbb8b04967269ba30047e",
-                "reference": "3d7453c86a3707c520dfbb8b04967269ba30047e",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/aa89a3854ac6de0704094eb34202c2b806dd2093",
+                "reference": "aa89a3854ac6de0704094eb34202c2b806dd2093",
                 "shasum": ""
             },
             "require": {
+                "php": ">=5.4",
                 "sulu/sulu": "dev-develop"
             },
             "type": "library",
@@ -2580,9 +2575,8 @@
             ],
             "authors": [
                 {
-                    "name": "Daniel Rotter",
-                    "email": "daniel.rotter@massiveart.com",
-                    "role": "developer"
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2591,7 +2585,7 @@
                 "cms",
                 "symfony"
             ],
-            "time": "2014-02-14 13:44:03"
+            "time": "2014-02-15 11:45:14"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2600,12 +2594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "56d3878ae014d5db9ecea0d8421e9ff60a7d7bac"
+                "reference": "94404b58741d1d70a55898c655af62d9a3fcd405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/56d3878ae014d5db9ecea0d8421e9ff60a7d7bac",
-                "reference": "56d3878ae014d5db9ecea0d8421e9ff60a7d7bac",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/94404b58741d1d70a55898c655af62d9a3fcd405",
+                "reference": "94404b58741d1d70a55898c655af62d9a3fcd405",
                 "shasum": ""
             },
             "require": {
@@ -2645,7 +2639,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-02-14 14:20:02"
+            "time": "2014-02-15 11:19:21"
         },
         {
             "name": "sulu/content-bundle",
@@ -3073,12 +3067,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "6e7e8481e0c688bde4a79f77f5517ac202c601b1"
+                "reference": "eecf39e89b29c223d18b7eee463a4ee4cd55207d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/6e7e8481e0c688bde4a79f77f5517ac202c601b1",
-                "reference": "6e7e8481e0c688bde4a79f77f5517ac202c601b1",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/eecf39e89b29c223d18b7eee463a4ee4cd55207d",
+                "reference": "eecf39e89b29c223d18b7eee463a4ee4cd55207d",
                 "shasum": ""
             },
             "require": {
@@ -3087,7 +3081,7 @@
             },
             "require-dev": {
                 "sonata-project/admin-bundle": "~2.2",
-                "symfony-cmf/routing-bundle": "1.1.*",
+                "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony-cmf/testing": "1.1.*"
             },
             "suggest": {
@@ -3102,7 +3096,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -3125,7 +3119,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2014-01-30 10:32:53"
+            "time": "2014-02-15 10:17:16"
         },
         {
             "name": "symfony-cmf/routing",
@@ -3464,9 +3458,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
