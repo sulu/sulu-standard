@@ -41,7 +41,7 @@
                 <environment type="dev">
                     <urls>
                         <url language="en" country="us">sulu.lo</url>
-                        <url language="en" country="us">localhost</url>
+                        <url language="de" country="at">localhost</url>
                         <url redirect="sulu.lo">sulu-redirect.lo</url>
                     </urls>
                 </environment>
