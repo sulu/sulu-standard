@@ -31,7 +31,7 @@
             </resource-locator>
 
             <localizations>
-                <localization language="de" country="at"/>
+                <localization language="en" country="us"/>
             </localizations>
 
             <environments>
@@ -43,7 +43,7 @@
                 </environment>
                 <environment type="dev">
                     <urls>
-                        <url language="de" country="at">sulu.lo</url>
+                        <url language="en" country="us">sulu.lo</url>
                         <url language="de" country="at">localhost</url>
                     </urls>
                 </environment>
