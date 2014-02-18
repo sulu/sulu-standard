@@ -15,7 +15,7 @@
                     <ul>
                         {% if navigation is defined %}
                             {% for item in navigation %}
-                                <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.content }}</a></li>
+                                <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.content.title }}</a></li>
                             {% endfor %}
                         {% endif %}
                     </ul>
