@@ -12,13 +12,9 @@
             <div id="outer" class="clearfix">
                 <div id="navigation">
                     <h3><a href="/">Navigation</a></h3>
-                    <ul>
-                        {% if navigation is defined %}
-                            {% for item in navigation %}
-                                <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.content.title }}</a></li>
-                            {% endfor %}
-                        {% endif %}
-                    </ul>
+                    {% if navigation is defined %}
+                        {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
+                    {% endif %}
                 </div>
                 <div id="content" vocab="http://schema.org/" typeof="Content">
                     {% block content %}{% endblock %}
