@@ -4,14 +4,18 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
 
-    <key>simple</key>
+    <key>default</key>
 
-    <view>ClientWebsiteBundle:Website:simple.html.twig</view>
+    <view>ClientWebsiteBundle:Website:default.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
         <property name="title" type="text_line" mandatory="true"/>
         <property name="url" type="resource_locator" mandatory="true"/>
+
+        <property name="tags" type="tag_list" />
+
+        <property name="article" type="text_editor" />
     </properties>
 </template>
