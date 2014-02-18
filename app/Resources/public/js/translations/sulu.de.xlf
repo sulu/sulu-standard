@@ -570,6 +570,26 @@
         <source>content.template.dialog.cancel-button</source>
         <target>Cancel</target>
       </trans-unit>
+      <trans-unit id="86af3110f256ebb55f9c5599aa146ab6" resname="public.published">
+        <source>public.published</source>
+        <target>Veröffenticht am</target>
+      </trans-unit>
+      <trans-unit id="12e2b116387febb55f9c550d4d146ab6" resname="labels.state-changed.success-desc">
+        <source>labels.state-changed.success-desc</source>
+        <target>Status geändert</target>
+      </trans-unit>
+      <trans-unit id="12e2af10f256ebb59876540d4d146ab6" resname="labels.state-changed.success">
+        <source>labels.state-changed.success</source>
+        <target>Erfolgreich</target>
+      </trans-unit>
+      <trans-unit id="1325467ff256ebb55f9c550d4d146ab6" resname="labels.state-changed.error-desc">
+        <source>labels.state-changed.error-desc</source>
+        <target>Status konnte noch geändert werden</target>
+      </trans-unit>
+      <trans-unit id="543fb110f256ebb55abc550d4d146ab6" resname="labels.state-changed.error">
+        <source>labels.state-changed.error</source>
+        <target>Fehler</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
