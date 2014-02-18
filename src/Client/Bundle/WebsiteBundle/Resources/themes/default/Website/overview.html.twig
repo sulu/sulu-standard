@@ -9,10 +9,13 @@
     <div property="texteditor">{{ content.texteditor }}</div>
     {% endautoescape %}
 
+    <h2>Smart-Content</h2>
     <div property="smartcontent">
         {% for smartcontent in content.smartcontent.data %}
         <h2><a href="{{ smartcontent.url }}">{{ smartcontent.title }}</a></h2>
-        <p>{{ smartcontent.article }}</p>
+        {% autoescape false %}
+        {{ smartcontent.article }}
+        {% endautoescape %}
         {% endfor %}
     </div>
 {% endblock %}
