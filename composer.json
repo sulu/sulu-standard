@@ -21,7 +21,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
 
         "sulu/sulu": "dev-develop",
-        "sulu/translate-bundle": "dev-develop",
         "sulu/admin-bundle": "dev-develop",
         "sulu/contact-bundle": "dev-develop",
         "sulu/security-bundle": "dev-develop",
