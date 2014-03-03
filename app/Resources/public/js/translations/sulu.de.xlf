@@ -600,11 +600,11 @@
       </trans-unit>
       <trans-unit id="18ffe800b505f7d878907c67d7fb1be4" resname="content.delete.dialog.cancel">
         <source>content.delete.dialog.cancel</source>
-        <target>Abbrechen</target>
+        <target>Lieber nicht</target>
       </trans-unit>
       <trans-unit id="4688b62de10bced4621f963565894a4f" resname="content.delete.dialog.submit">
         <source>content.delete.dialog.submit</source>
-        <target>Ja</target>
+        <target>Passt</target>
       </trans-unit>
     </body>
   </file>
