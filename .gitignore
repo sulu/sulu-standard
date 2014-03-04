@@ -1,0 +1,20 @@
+/web/bundles/
+/web/js
+/app/bootstrap.php.cache
+/app/admin/cache/*
+/app/Resources/config/parameters.yml
+/app/admin/logs/*
+/app/website/cache/*
+/app/website/logs/*
+/build/
+/vendor/
+/bin/
+/composer.phar
+/jackrabbit
+
+# IDEs
+.idea/*
+*.iml
+
+# System files
+.DS_Store

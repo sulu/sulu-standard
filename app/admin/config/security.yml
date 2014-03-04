@@ -1,0 +1,29 @@
+security:
+    access_decision_manager:
+        strategy: affirmative
+
+    encoders:
+        Sulu\Bundle\SecurityBundle\Entity\User:
+            algorithm: sha512
+            iterations: 5000
+            encode_as_base64: false
+
+    providers:
+        sulu:
+            entity:
+                class: SuluSecurityBundle:User
+
+    access_control:
+        - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin, roles: ROLE_USER }
+
+    firewalls:
+        sulu:
+            pattern: ^/
+            anonymous: ~
+            form_login:
+                login_path: sulu_admin.login
+                check_path: sulu_admin.login_check
+            logout:
+                path: /admin/logout
+                target: /admin/

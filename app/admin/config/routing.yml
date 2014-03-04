@@ -1,0 +1,38 @@
+sulu_tag:
+    resource: "@SuluTagBundle/Resources/config/routing.yml"
+    prefix:   /admin/tag
+
+sulu_tag_api:
+    resource: "@SuluTagBundle/Resources/config/routing_api.yml"
+    prefix:   /admin/api
+
+sulu_admin:
+    resource: "@SuluAdminBundle/Resources/config/routing.yml"
+    prefix: /admin
+
+sulu_contact:
+    resource: "@SuluContactBundle/Resources/config/routing.yml"
+    prefix: /admin/contact
+
+sulu_contact_api:
+    type: rest
+    resource: "@SuluContactBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
+
+sulu_security:
+    resource: "@SuluSecurityBundle/Resources/config/routing.yml"
+    prefix: /admin/security
+
+sulu_security_api:
+    type: rest
+    resource: "@SuluSecurityBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
+
+sulu_content:
+    resource: "@SuluContentBundle/Resources/config/routing.yml"
+    prefix: /admin/content
+
+sulu_content_api:
+    type: rest
+    resource: "@SuluContentBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api

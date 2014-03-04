@@ -1,0 +1,84 @@
+{
+    "name": "sulu/sulu-standard",
+    "license": "MIT",
+    "type": "project",
+    "description": "The sulu content management framework",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.3.*",
+        "doctrine/orm": ">=2.2.3,<2.4-dev",
+        "doctrine/doctrine-bundle": "1.2.*",
+        "twig/extensions": "1.0.*",
+        "symfony/assetic-bundle": "2.3.*",
+        "symfony/swiftmailer-bundle": "2.3.*",
+        "symfony/monolog-bundle": "2.3.*",
+        "sensio/distribution-bundle": "2.3.*",
+        "sensio/framework-extra-bundle": "2.3.*",
+        "sensio/generator-bundle": "2.3.*",
+        "incenteev/composer-parameter-handler": "~2.0",
+
+        "sulu/sulu": "0.1.*",
+        "sulu/admin-bundle": "0.1.*",
+        "sulu/contact-bundle": "0.1.*",
+        "sulu/security-bundle": "0.1.*",
+        "sulu/portal-bundle": "0.1.*",
+        "sulu/content-bundle": "0.1.*",
+        "sulu/website-bundle": "0.1.*",
+        "sulu/tag-bundle": "0.1.*",
+
+        "jms/serializer-bundle": "@dev",
+        "stof/doctrine-extensions-bundle": "@dev",
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "jackalope/jackalope-jackrabbit": "1.0.*",
+        "doctrine/phpcr-bundle": "1.0.*",
+        "doctrine/phpcr-odm": "1.0.*",
+
+        "symfony-cmf/core-bundle": "@dev",
+        "symfony-cmf/routing-bundle": "@dev",
+        "symfony-cmf/routing": "@dev",
+        "liip/theme-bundle": "@dev",
+	    "cboden/ratchet": "@dev"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "3.7.*",
+        "sauce/sausage": "0.9.*",
+        "sulu/generator-bundle": "dev-develop",
+        "sulu/test-bundle": "0.1.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+        ],
+        "post-update-cmd": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+        ]
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "incenteev-parameters": {
+            "file": "app/Resources/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
+}
