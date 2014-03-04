@@ -8,63 +8,63 @@
       </trans-unit>
       <trans-unit id="e4b14069a8a085ede200b7f5acb2d39e" resname="public.edit">
         <source>public.edit</source>
-        <target>Edit</target>
+        <target>Editieren</target>
       </trans-unit>
       <trans-unit id="a10bd71863ade53bc0e1bd8822e8bdbc" resname="header.add">
         <source>header.add</source>
-        <target>Add</target>
+        <target>Hinzufügen</target>
       </trans-unit>
       <trans-unit id="4190dab27f368a8a2e5f4f20f8aec708" resname="header.save">
         <source>header.save</source>
-        <target>Save</target>
+        <target>Speichern</target>
       </trans-unit>
       <trans-unit id="307fb80b1557fd5a20078b81d3315516" resname="header.saved">
         <source>header.saved</source>
-        <target>Saved</target>
+        <target>Gespeichert</target>
       </trans-unit>
       <trans-unit id="732b6d11a1ea5b3a2155a4b9e7340af4" resname="header.delete">
         <source>header.delete</source>
-        <target>Delete</target>
+        <target>Löschen</target>
       </trans-unit>
       <trans-unit id="77bd83ff9256e9f3a39136fc93557c51" resname="navigation.list">
         <source>navigation.list</source>
-        <target>Back to list</target>
+        <target>Zurück zur Liste</target>
       </trans-unit>
       <trans-unit id="9055acd6577ed6a6fb7c625afcaff86f" resname="translate.package.title">
         <source>translate.package.title</source>
-        <target>Package</target>
+        <target>Paket</target>
       </trans-unit>
       <trans-unit id="a0ff6dd7ef4022e0b90d8176c6ed89b0" resname="translate.package.catalogues">
         <source>translate.package.catalogues</source>
-        <target>Language Catalogues</target>
+        <target>Sprachen Kataloge</target>
       </trans-unit>
       <trans-unit id="b0a7a12cf626e2af8f2d747e10805dda" resname="translate.package.settings.locale">
         <source>translate.package.settings.locale</source>
-        <target>Locale</target>
+        <target>Region</target>
       </trans-unit>
       <trans-unit id="effc1e2fb2feae3c2dd8cb28cce0e0fa" resname="translate.package.settings.addCatalogue">
         <source>translate.package.settings.addCatalogue</source>
-        <target>Add Catalogue</target>
+        <target>Region hinzufügen</target>
       </trans-unit>
       <trans-unit id="364906a0b1507d380e04114b14ab6ccf" resname="translate.package.details.key">
         <source>translate.package.details.key</source>
-        <target>Key</target>
+        <target>Code</target>
       </trans-unit>
       <trans-unit id="f4bbd008d107977776f2c941372ac49d" resname="translate.package.details.translation">
         <source>translate.package.details.translation</source>
-        <target>Translation</target>
+        <target>Übersetzung</target>
       </trans-unit>
       <trans-unit id="88e1528289c61505fab3bf4918c63940" resname="translate.package.details.suggestion">
         <source>translate.package.details.suggestion</source>
-        <target>Suggestion</target>
+        <target>Vorschlag</target>
       </trans-unit>
       <trans-unit id="2390c5e7e1e39575faf1d4560233b254" resname="translate.package.details.maxLength">
         <source>translate.package.details.maxLength</source>
-        <target>Maximum length</target>
+        <target>Maximale Länge</target>
       </trans-unit>
       <trans-unit id="ff58c981a4179edc0054ab79f2139419" resname="translate.package.details.length">
         <source>translate.package.details.length</source>
-        <target>Length</target>
+        <target>Länge</target>
       </trans-unit>
       <trans-unit id="2c54260ae1ff88b98bc26f899039de1b" resname="translate.package.details.frontend">
         <source>translate.package.details.frontend</source>
@@ -76,31 +76,31 @@
       </trans-unit>
       <trans-unit id="5302353bfd4da5508f093bb893147557" resname="translate.package.details.addElement">
         <source>translate.package.details.addElement</source>
-        <target>Add element</target>
+        <target>Element Hinzufügen</target>
       </trans-unit>
       <trans-unit id="ebee6be3618fa603188921cf16eedb1c" resname="public.delete">
         <source>public.delete</source>
-        <target>Delete</target>
+        <target>Löschen</target>
       </trans-unit>
       <trans-unit id="6603511ae852ff46c20147528150e4b1" resname="translate.package.settings.title">
         <source>translate.package.settings.title</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="2745c23db7c8055c84ecba422b39e8e6" resname="contact.contacts.title">
         <source>contact.contacts.title</source>
-        <target>Contact</target>
+        <target>Kontakt</target>
       </trans-unit>
       <trans-unit id="bce12aa0a40b4a95a3bfc133a6bf286f" resname="contact.contacts.contactTitle">
         <source>contact.contacts.contactTitle</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="b24511ddcc2d8dd9a49c68974cab6566" resname="contact.contacts.firstName">
         <source>contact.contacts.firstName</source>
-        <target>FirstName</target>
+        <target>Vorname</target>
       </trans-unit>
       <trans-unit id="d981f062a65f15748ceda92a2fa42466" resname="contact.contacts.lastName">
         <source>contact.contacts.lastName</source>
-        <target>LastName</target>
+        <target>Nachname</target>
       </trans-unit>
       <trans-unit id="03b430a05634e102e66cdadae27d1e70" resname="contact.contacts.position">
         <source>contact.contacts.position</source>
@@ -108,39 +108,39 @@
       </trans-unit>
       <trans-unit id="df7167eb3863f47cc66e7541f97cbd68" resname="contact.contacts.company">
         <source>contact.contacts.company</source>
-        <target>Company</target>
+        <target>Unternehmen</target>
       </trans-unit>
       <trans-unit id="404f1373fa1b569869be6f77a3cf1430" resname="contact.form.addEmail">
         <source>contact.form.addEmail</source>
-        <target>Add E-Mail</target>
+        <target>E-Mail hinzufügen</target>
       </trans-unit>
       <trans-unit id="6db6e588c3df474917225bb25fb8a5c0" resname="contact.form.addPhone">
         <source>contact.form.addPhone</source>
-        <target>Add Phone</target>
+        <target>Telefon hinzufügen</target>
       </trans-unit>
       <trans-unit id="ebf22850aedc95a2e1f2bc0aee88e202" resname="contact.form.addAddress">
         <source>contact.form.addAddress</source>
-        <target>Add Address</target>
+        <target>Addresse hinzufügen</target>
       </trans-unit>
       <trans-unit id="fe67e0959383f98a37831a9a41534c9e" resname="contact.address.street">
         <source>contact.address.street</source>
-        <target>Street</target>
+        <target>Straße</target>
       </trans-unit>
       <trans-unit id="588849ca29af69fb52e87e00fc749ede" resname="contact.address.number">
         <source>contact.address.number</source>
-        <target>Number</target>
+        <target>Nummer</target>
       </trans-unit>
       <trans-unit id="892c81dcb8e0d2de200e48faa929bff2" resname="contact.address.additional">
         <source>contact.address.additional</source>
-        <target>Additional</target>
+        <target>Haus, Stock, etc.</target>
       </trans-unit>
       <trans-unit id="00b38c566108f89bff15e8738ed312d4" resname="contact.address.zip">
         <source>contact.address.zip</source>
-        <target>Postal Code</target>
+        <target>Postleitzahl</target>
       </trans-unit>
       <trans-unit id="9dc2ecd9f28d79e1a41998d972350aa0" resname="contact.address.city">
         <source>contact.address.city</source>
-        <target>City</target>
+        <target>Stadt</target>
       </trans-unit>
       <trans-unit id="20b094e3c0a7fb6f474e86ec3a960507" resname="contact.address.state">
         <source>contact.address.state</source>
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="9b5759b2b50bb1c9148289636b579c41" resname="contact.address.country">
         <source>contact.address.country</source>
-        <target>Country</target>
+        <target>Land</target>
       </trans-unit>
       <trans-unit id="7a842ee77239dc1f4f19f06e46a89125" resname="public.email">
         <source>public.email</source>
@@ -156,47 +156,47 @@
       </trans-unit>
       <trans-unit id="0b5526f6b188d3fa7c6bfb36813bb77f" resname="public.phone">
         <source>public.phone</source>
-        <target>Phone</target>
+        <target>Telefon</target>
       </trans-unit>
       <trans-unit id="f87ae60abcd8be768e4315c9bb0497a5" resname="public.address">
         <source>public.address</source>
-        <target>Address</target>
+        <target>Adresse</target>
       </trans-unit>
       <trans-unit id="21739fb59ce76aa58404d9fc613ba40d" resname="email.home">
         <source>email.home</source>
-        <target>Home</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="9c0bd43954c93c8e2cbfe94ecdd649c7" resname="email.work">
         <source>email.work</source>
-        <target>Business</target>
+        <target>Geschäftlich</target>
       </trans-unit>
       <trans-unit id="1eddecabfe3e3149071096c39a2069b1" resname="phone.home">
         <source>phone.home</source>
-        <target>Home</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="2ae8f62c2530b4303646d95f70bfa62e" resname="phone.work">
         <source>phone.work</source>
-        <target>Business</target>
+        <target>Geschäftlich</target>
       </trans-unit>
       <trans-unit id="e7f59f60cc850de26922b29a1dcc3826" resname="address.home">
         <source>address.home</source>
-        <target>Home</target>
+        <target>Privat</target>
       </trans-unit>
       <trans-unit id="4b006ce36bf3e4f6bb24fd13e8dc29a9" resname="address.work">
         <source>address.work</source>
-        <target>Business</target>
+        <target>Geschäftlich</target>
       </trans-unit>
       <trans-unit id="a6287b824eeb3893ce4ef15ee503f47d" resname="country.austria">
         <source>country.austria</source>
-        <target>Austria</target>
+        <target>Österreich</target>
       </trans-unit>
       <trans-unit id="78faa530839099878354d0f97c165f67" resname="country.germany">
         <source>country.germany</source>
-        <target>Germany</target>
+        <target>Deutschland</target>
       </trans-unit>
       <trans-unit id="690fa3a0e9c39771d51fd5e8a8ae8a04" resname="contact.accounts.title">
         <source>contact.accounts.title</source>
-        <target>Account</target>
+        <target>Organisation</target>
       </trans-unit>
       <trans-unit id="a4190eb0ddea6a4a416c5568a137c6f6" resname="contact.accounts.name">
         <source>contact.accounts.name</source>
@@ -204,19 +204,19 @@
       </trans-unit>
       <trans-unit id="201e6a9adc585674ad3871e2ed7425a0" resname="contact.accounts.website">
         <source>contact.accounts.website</source>
-        <target>Website</target>
+        <target>Internetseite</target>
       </trans-unit>
       <trans-unit id="4318cb1df244d69cdc8af5b6408329d1" resname="contact.accounts.company">
         <source>contact.accounts.company</source>
-        <target>Company</target>
+        <target>Übergeordnetes Unternehmen</target>
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
-        <target>Roles and permissions</target>
+        <target>Rollen &amp; Berechtigungen</target>
       </trans-unit>
       <trans-unit id="ae201470bf51b79a16ef61543d22b1df" resname="security.roles.name">
         <source>security.roles.name</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="37a1d19f7da5a16c77f7d87b2609ec53" resname="security.roles.system">
         <source>security.roles.system</source>
@@ -224,111 +224,115 @@
       </trans-unit>
       <trans-unit id="ad4157632cc1c2a49777905f21888c34" resname="security.roles.godMode">
         <source>security.roles.godMode</source>
-        <target>God Mode</target>
+        <target>Gott Modus</target>
       </trans-unit>
       <trans-unit id="28cf83ef8f64bc60c4d3f4f12a6de93c" resname="security.roles.godModeDescription">
         <source>security.roles.godModeDescription</source>
-        <target>Thats the god mode</target>
+        <target>Das ist der Gott Modus</target>
       </trans-unit>
       <trans-unit id="7bfc288be43d60933cc73693762f7bbf" resname="security.roles.section">
         <source>security.roles.section</source>
-        <target>Section</target>
+        <target>Sektion</target>
       </trans-unit>
       <trans-unit id="01692babbb244c70554f6be226a8b8d4" resname="security.roles.permissions">
         <source>security.roles.permissions</source>
-        <target>Permissions</target>
+        <target>Berechtigungen</target>
       </trans-unit>
       <trans-unit id="aa9d596361fe589c984464479c6198cb" resname="security.roles.all">
         <source>security.roles.all</source>
-        <target>All</target>
+        <target>Alle</target>
+      </trans-unit>
+      <trans-unit id="630afebcb7daa7f0a5addd4a3c76fff0" resname="security.roles.none">
+        <source>security.roles.none</source>
+        <target>Keine</target>
       </trans-unit>
       <trans-unit id="564c871c3fda868b7f35e81724359618" resname="security.permission.title">
         <source>security.permission.title</source>
-        <target>Username and Password</target>
+        <target>Benutzername &amp; Passwort</target>
       </trans-unit>
       <trans-unit id="d1dc8a9e6998e85b5dbd655d00c40567" resname="security.permission.username">
         <source>security.permission.username</source>
-        <target>Username</target>
+        <target>Benutzername</target>
       </trans-unit>
       <trans-unit id="1c6ee1fe132b430a6577ba498fb8cf6f" resname="security.permission.password">
         <source>security.permission.password</source>
-        <target>Password</target>
+        <target>Passwort</target>
       </trans-unit>
       <trans-unit id="2d8a20af61e1b0e697a5d14721fcb4c9" resname="security.permission.passwordRepeat">
         <source>security.permission.passwordRepeat</source>
-        <target>Repeat password</target>
+        <target>Passwort wiederholen</target>
       </trans-unit>
       <trans-unit id="bd6071cc375280e4ef2f080de41d62f0" resname="security.permission.email">
         <source>security.permission.email</source>
-        <target>Default E-Mail address</target>
+        <target>Primäre E-Mail-Adresse</target>
       </trans-unit>
       <trans-unit id="335eed3524bda024ac06455fc22da0e1" resname="security.permission.titlePermissions">
         <source>security.permission.titlePermissions</source>
-        <target>Sulu permissions</target>
+        <target>Sulu Berechtigungen</target>
       </trans-unit>
       <trans-unit id="291bcdd38b7826cf6a0e3db88bdd0c2b" resname="security.permission.role.title">
         <source>security.permission.role.title</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="263162515a9c2bff928e4bedf2cf6e84" resname="security.permission.role.language">
         <source>security.permission.role.language</source>
-        <target>Language</target>
+        <target>Sprache</target>
       </trans-unit>
       <trans-unit id="eeada25e40399fda100459d5fc309eec" resname="security.permission.role.permissions">
         <source>security.permission.role.permissions</source>
-        <target>Permissions</target>
+        <target>Berechtigungen</target>
       </trans-unit>
       <trans-unit id="b0c24aad50f7c816c2e229ec47f754bc" resname="security.permission.role.chooseLanguage">
         <source>security.permission.role.chooseLanguage</source>
-        <target>Choose language</target>
+        <target>Sprache auswählen</target>
       </trans-unit>
       <trans-unit id="1cbc7d24ab0a482414bc0685517c236b" resname="security.permission.role.allLanguages">
         <source>security.permission.role.allLanguages</source>
-        <target>Choose all</target>
+        <target>Alle ausgewählt</target>
       </trans-unit>
       <trans-unit id="9853c3be2382e817827644509ac88293" resname="sulu.edit-toolbar.delete">
         <source>sulu.edit-toolbar.delete</source>
-        <target>Delete</target>
+        <target>Löschen</target>
       </trans-unit>
       <trans-unit id="b0e756e39c8e2107ac4461ba08222b46" resname="sulu.list-toolbar.import">
         <source>sulu.list-toolbar.import</source>
-        <target>Import</target>
+        <target>Importieren</target>
       </trans-unit>
       <trans-unit id="cfa5e5c51304396fa907ae54c84ab855" resname="sulu.list-toolbar.export">
         <source>sulu.list-toolbar.export</source>
-        <target>Export</target>
+        <target>Exportieren</target>
       </trans-unit>
       <trans-unit id="a945ccdbf95d2852ab6390cea24ebb6f" resname="content.contents.title">
         <source>content.contents.title</source>
-        <target>Content</target>
+        <target>Inhalte</target>
       </trans-unit>
       <trans-unit id="305f571ce8dc8b08470285f8a990899a" resname="navigation.tools">
         <source>navigation.tools</source>
-        <target>Tools</target>
+        <target>Werkzeuge</target>
       </trans-unit>
       <trans-unit id="435b1473d76660a3ea27a2e9335a8d5d" resname="navigation.settings">
         <source>navigation.settings</source>
-        <target>Settings</target>
+        <target>Einstellungen</target>
       </trans-unit>
       <trans-unit id="8820ed397e9ac260b8f232dd6815e8b3" resname="navigation.settings.roles">
         <source>navigation.settings.roles</source>
-        <target>Roles &amp; Permissions</target>
+        <target>Rollen &amp; Berechtigungen</target>
       </trans-unit>
       <trans-unit id="a4e5be148f7d93a106d468391b00d055" resname="navigation.settings.translate">
         <source>navigation.settings.translate</source>
-        <target>Translate</target>
+        <target>Übersetzungen</target>
       </trans-unit>
       <trans-unit id="61788b1f08f29f6e5f1cb4076fd81272" resname="navigation.contacts">
         <source>navigation.contacts</source>
-        <target>Contact</target>
+        <target>Kontakte</target>
       </trans-unit>
       <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
         <source>navigation.contacts.people</source>
-        <target>Contact</target>
+        <target>Kontakt</target>
       </trans-unit>
       <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
         <source>navigation.contacts.companies</source>
-        <target>Account</target>
+        <target>Organisation</target>
       </trans-unit>
       <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
         <source>navigation.webspaces</source>
@@ -336,11 +340,11 @@
       </trans-unit>
       <trans-unit id="eefab6371eb9c8bb5457d1f5e35014a2" resname="navigation.webspaces.pages">
         <source>navigation.webspaces.pages</source>
-        <target>Pages</target>
+        <target>Seiten</target>
       </trans-unit>
       <trans-unit id="da096463200e2c1bd9bdd1321852e268" resname="content-navigation.security.permissions">
         <source>content-navigation.security.permissions</source>
-        <target>Permissions</target>
+        <target>Berechtigungen</target>
       </trans-unit>
       <trans-unit id="fd444a99cbd01ff26a3efa16ff6da07e" resname="content-navigation.security.details">
         <source>content-navigation.security.details</source>
@@ -356,35 +360,35 @@
       </trans-unit>
       <trans-unit id="208ce313bf52378e0d6891d69ffcddd4" resname="public.search">
         <source>public.search</source>
-        <target>Search ...</target>
+        <target>Suchen ...</target>
       </trans-unit>
       <trans-unit id="5e151909a6ee7c2c566d068d611a848b" resname="navigation.hide">
         <source>navigation.hide</source>
-        <target>HIDE</target>
+        <target>Verstecken</target>
       </trans-unit>
       <trans-unit id="0b7fef1b3b6a056c4a7b4a9fb6901586" resname="navigation.show">
         <source>navigation.show</source>
-        <target>SHOW</target>
+        <target>Anzeigen</target>
       </trans-unit>
       <trans-unit id="8c16a1fe6abba7701446e0f4515e096b" resname="security.permission.locale">
         <source>security.permission.locale</source>
-        <target>Language</target>
+        <target>Sprache</target>
       </trans-unit>
       <trans-unit id="ba94026d08c4e74cc8d19436f7838a95" resname="pagination.page">
         <source>pagination.page</source>
-        <target>Page</target>
+        <target>Seite</target>
       </trans-unit>
       <trans-unit id="dc473bd06017432f7b455dc710046d13" resname="pagination.of">
         <source>pagination.of</source>
-        <target>of</target>
+        <target>von</target>
       </trans-unit>
       <trans-unit id="0da8d22272f30674643e1c0215b1e74e" resname="pagination.showAll">
         <source>pagination.showAll</source>
-        <target>show all</target>
+        <target>Alle anzeigen</target>
       </trans-unit>
       <trans-unit id="317132c150958a110ab6c49ea2f99dee" resname="pagination.elements">
         <source>pagination.elements</source>
-        <target>Elements</target>
+        <target>Elemente</target>
       </trans-unit>
       <trans-unit id="84e007577e7329f1ac8509c8e6b6e038" resname="navigation.settings.tags">
         <source>navigation.settings.tags</source>
@@ -392,7 +396,7 @@
       </trans-unit>
       <trans-unit id="05c8870c540da81249840418b8c4ed3a" resname="sulu.edit-toolbar.new-window">
         <source>sulu.edit-toolbar.new-window</source>
-        <target>Preview in new window</target>
+        <target>Vorschau in neuem Fenster</target>
       </trans-unit>
       <trans-unit id="72e14b96918d836a8db5575ca94133a8" resname="public.id">
         <source>public.id</source>
@@ -400,11 +404,11 @@
       </trans-unit>
       <trans-unit id="aa1e276ea5cedf84599572e2dcf07f28" resname="list-toolbar.column-options">
         <source>list-toolbar.column-options</source>
-        <target>Column options</target>
+        <target>Spalten Optionen</target>
       </trans-unit>
       <trans-unit id="2b8871c8001f2c3566269f5ad4515b89" resname="tags.name">
         <source>tags.name</source>
-        <target>Title</target>
+        <target>Bezeichnung</target>
       </trans-unit>
       <trans-unit id="3e0f7ed3323ebf452bdbd57f077e6347" resname="tags.author">
         <source>tags.author</source>
@@ -412,119 +416,119 @@
       </trans-unit>
       <trans-unit id="414427d622e07cebcb5f315c2e926b53" resname="tags.changed">
         <source>tags.changed</source>
-        <target>Last changed</target>
+        <target>Zuletzt geändert</target>
       </trans-unit>
       <trans-unit id="2c5d2006332615c94e53762ecf089bdc" resname="sulu.edit-toolbar.split-screen">
         <source>sulu.edit-toolbar.split-screen</source>
-        <target>Split view</target>
+        <target>Geteilte Ansicht</target>
       </trans-unit>
       <trans-unit id="da7c493010f2c3545706969e142d0749" resname="public.changed">
         <source>public.changed</source>
-        <target>Last changed</target>
+        <target>Zuletzt geändert</target>
       </trans-unit>
       <trans-unit id="892cc3ad5bdba41fcf1b98298a4aee6a" resname="public.created">
         <source>public.created</source>
-        <target>Created on</target>
+        <target>Erstellt am</target>
       </trans-unit>
       <trans-unit id="16a5444f8a5aca84bec03721b231b3a7" resname="contact.contacts.birthday">
         <source>contact.contacts.birthday</source>
-        <target>Birthday</target>
+        <target>Geburtstag</target>
       </trans-unit>
       <trans-unit id="f34bfecf79a539b6592fb2f2ec1135ef" resname="contact.contacts.middleName">
         <source>contact.contacts.middleName</source>
-        <target>Middle Name</target>
+        <target>Zwischenname</target>
       </trans-unit>
       <trans-unit id="4ea635d980999da6a15ef3782d251878" resname="public.title">
         <source>public.title</source>
-        <target>Title</target>
+        <target>Titel</target>
       </trans-unit>
       <trans-unit id="92762f7528ee1cbcd85bf435fd03c846" resname="smart-content.nocontent-found">
         <source>smart-content.nocontent-found</source>
-        <target>No content found</target>
+        <target>Keinen Inhalt gefunden</target>
       </trans-unit>
       <trans-unit id="eabf67921221f58698ecdb840eceb15f" resname="smart-content.nocontent-selected">
         <source>smart-content.nocontent-selected</source>
-        <target>No content selected</target>
+        <target>Nichts ausgewählt</target>
       </trans-unit>
       <trans-unit id="7ed9c6dfa56487c35fa173d0a750d1e8" resname="smart-content.visible">
         <source>smart-content.visible</source>
-        <target>visible</target>
+        <target>sichtbar</target>
       </trans-unit>
       <trans-unit id="3dbb6bd1426dd22f15726e31904a77dd" resname="smart-content.of">
         <source>smart-content.of</source>
-        <target>of</target>
+        <target>von</target>
       </trans-unit>
       <trans-unit id="f85e55126a0ec3ab6617b52fc033bc18" resname="smart-content.configure-smart-content">
         <source>smart-content.configure-smart-content</source>
-        <target>Configure smart content</target>
+        <target>Smart-content konfigurieren</target>
       </trans-unit>
       <trans-unit id="7a9bd49b2b4443383bff6eb67dd0afb6" resname="smart-content.data-source">
         <source>smart-content.data-source</source>
-        <target>Data source</target>
+        <target>Datenquelle</target>
       </trans-unit>
       <trans-unit id="66f18ec54ed3b6a089ee3712167c4e87" resname="smart-content.include-sub-folders">
         <source>smart-content.include-sub-folders</source>
-        <target>Include Sub folders</target>
+        <target>Unterordner inkludieren</target>
       </trans-unit>
       <trans-unit id="4cf5babee84aa0eef15db3ce11648b35" resname="smart-content.filter-by-category">
         <source>smart-content.filter-by-category</source>
-        <target>Filter by category</target>
+        <target>Nach Kategorie filtern</target>
       </trans-unit>
       <trans-unit id="ea58ee4521c5fe65055dc05092ea8d08" resname="smart-content.filter-by-tags">
         <source>smart-content.filter-by-tags</source>
-        <target>Filter by tags</target>
+        <target>Nach Tags filtern</target>
       </trans-unit>
       <trans-unit id="7e3c491707f805797c98a366cf0c28e2" resname="smart-content.sort-by">
         <source>smart-content.sort-by</source>
-        <target>Sort by</target>
+        <target>Sortieren nach</target>
       </trans-unit>
       <trans-unit id="831eaac1fa8a279d10e452f59e716b35" resname="smart-content.no-sorting">
         <source>smart-content.no-sorting</source>
-        <target>No sorting</target>
+        <target>Keine Sortierung</target>
       </trans-unit>
       <trans-unit id="fc27db8368ee8e93b0432c6f929eb22c" resname="smart-content.ascending">
         <source>smart-content.ascending</source>
-        <target>Ascending</target>
+        <target>Aufsteigend</target>
       </trans-unit>
       <trans-unit id="71c74b6461ba3ba4613e1ac306a55f82" resname="smart-content.descending">
         <source>smart-content.descending</source>
-        <target>Descending</target>
+        <target>Absteigend</target>
       </trans-unit>
       <trans-unit id="6574850a4e95ff29395d3078b5e4ea74" resname="smart-content.present-as">
         <source>smart-content.present-as</source>
-        <target>Present as</target>
+        <target>Darstellen als</target>
       </trans-unit>
       <trans-unit id="a9097de27632b967cec91eb705ac82ad" resname="smart-content.limit-result-to">
         <source>smart-content.limit-result-to</source>
-        <target>Limit result to</target>
+        <target>Ergebnis limitieren auf</target>
       </trans-unit>
       <trans-unit id="48c38a0436a34817dcc6a358d39f9262" resname="smart-content.no-category">
         <source>smart-content.no-category</source>
-        <target>No category</target>
+        <target>Keine Kategorie</target>
       </trans-unit>
       <trans-unit id="f033dcd178a34ec4932e49f1dfeea02f" resname="smart-content.choose-present-as">
         <source>smart-content.choose-present-as</source>
-        <target>Choose..</target>
+        <target>auswählen..</target>
       </trans-unit>
       <trans-unit id="1dbb7db699bba74e52807fbbccbb91d7" resname="smart-content.choose-data-source">
         <source>smart-content.choose-data-source</source>
-        <target>Choose..</target>
+        <target>auswählen..</target>
       </trans-unit>
       <trans-unit id="5ff9374232125b7f296a3e4cd9dc0bfe" resname="smart-content.from">
         <source>smart-content.from</source>
-        <target>From</target>
+        <target>Von</target>
       </trans-unit>
       <trans-unit id="475db242975e3fbfd85d008cede565bc" resname="smart-content.sub-folders-inclusive">
         <source>smart-content.sub-folders-inclusive</source>
-        <target>incl. sub folders</target>
+        <target>inkl. Unterordner</target>
       </trans-unit>
       <trans-unit id="30092dd4c161f141539f1802e8da02a8" resname="smart-content.view-all">
         <source>smart-content.view-all</source>
-        <target>view all</target>
+        <target>alle ansehen</target>
       </trans-unit>
       <trans-unit id="cc88fcd370c8ff1d96f0b9f99adb8316" resname="smart-content.view-less">
         <source>smart-content.view-less</source>
-        <target>view less</target>
+        <target>weniger ansehen</target>
       </trans-unit>
       <trans-unit id="574466b8b3f0b6830dc2e83f5a8c4726" resname="tag.tags.title">
         <source>tag.tags.title</source>
@@ -532,11 +536,11 @@
       </trans-unit>
       <trans-unit id="50cb9458e1fbafb5728c35ee68d84d2e" resname="edit-toolbar.state-publish">
         <source>edit-toolbar.state-publish</source>
-        <target>Publish</target>
+        <target>Veröffentlichen</target>
       </trans-unit>
       <trans-unit id="0cfc2141daf51832879b183706c23eb3" resname="edit-toolbar.state-unpublish">
         <source>edit-toolbar.state-unpublish</source>
-        <target>Unpublish</target>
+        <target>Verstecken</target>
       </trans-unit>
       <trans-unit id="47f368b119097acd0e86dc2224927e08" resname="edit-toolbar.state-test">
         <source>edit-toolbar.state-test</source>
@@ -544,51 +548,67 @@
       </trans-unit>
       <trans-unit id="dc28c61f746b3a3f606aa4b24724d5c6" resname="template.default">
         <source>template.default</source>
-        <target>Default</target>
+        <target>Standard</target>
       </trans-unit>
       <trans-unit id="02b4d013de976ab3f59f84e9106c0175" resname="template.simple">
         <source>template.simple</source>
-        <target>Simple</target>
+        <target>Einfach</target>
       </trans-unit>
       <trans-unit id="24291c9e058f4e7ee3f959ac29f5d970" resname="template.overview">
         <source>template.overview</source>
-        <target>Overview</target>
+        <target>Überblick</target>
       </trans-unit>
       <trans-unit id="ad64f69edc5ce6dae6033001f5d01b6e" resname="content.template.dialog.titile">
         <source>content.template.dialog.titile</source>
-        <target>Change Template</target>
+        <target>Template ändern</target>
       </trans-unit>
       <trans-unit id="f6fca7ef129af3eac26919260b73ebf5" resname="content.template.dialog.content">
         <source>content.template.dialog.content</source>
-        <target>You have unchanged Data.&lt;br/&gt;Do you want to leave this site?</target>
+        <target>Es gibt veränderte Daten.&lt;br/&gt;Die Seite trotzdem verlassen?</target>
       </trans-unit>
       <trans-unit id="19931932279c1626435d623b80e5439d" resname="content.template.dialog.submit-button">
         <source>content.template.dialog.submit-button</source>
-        <target>Yes</target>
+        <target>Ja</target>
       </trans-unit>
       <trans-unit id="12e2b110f256ebb55f9c550d4d146ab6" resname="content.template.dialog.cancel-button">
         <source>content.template.dialog.cancel-button</source>
-        <target>Cancel</target>
+        <target>Abbrechen</target>
       </trans-unit>
-      <trans-unit id="86af3110f256ebb55f9c5599aa146ab6" resname="public.published">
+      <trans-unit id="9b9f05a3f23cb61902773ac06161f04d" resname="public.published">
         <source>public.published</source>
-        <target>Veröffenticht am</target>
+        <target>Veröffentlicht</target>
       </trans-unit>
-      <trans-unit id="12e2b116387febb55f9c550d4d146ab6" resname="labels.state-changed.success-desc">
+      <trans-unit id="cdae7f0dde969793a5e8be3c6afc2c3b" resname="labels.state-changed.success-desc">
         <source>labels.state-changed.success-desc</source>
         <target>Status geändert</target>
       </trans-unit>
-      <trans-unit id="12e2af10f256ebb59876540d4d146ab6" resname="labels.state-changed.success">
+      <trans-unit id="b07c514688c4db3760781f5608d9b5af" resname="labels.state-changed.success">
         <source>labels.state-changed.success</source>
-        <target>Erfolgreich</target>
+        <target>Erfolg</target>
       </trans-unit>
-      <trans-unit id="1325467ff256ebb55f9c550d4d146ab6" resname="labels.state-changed.error-desc">
+      <trans-unit id="cb650d8a319e35b49d7e146b13f194ee" resname="labels.state-changed.error-desc">
         <source>labels.state-changed.error-desc</source>
-        <target>Status konnte noch geändert werden</target>
+        <target>Status konnte nicht geändert werden</target>
       </trans-unit>
-      <trans-unit id="543fb110f256ebb55abc550d4d146ab6" resname="labels.state-changed.error">
+      <trans-unit id="ac3d960c5813c03f18eed5865fbe84b0" resname="labels.state-changed.error">
         <source>labels.state-changed.error</source>
         <target>Fehler</target>
+      </trans-unit>
+      <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
+        <source>content.delete.dialog.title</source>
+        <target>Knoten löschen</target>
+      </trans-unit>
+      <trans-unit id="0c64601205aa73314446c02e5a3dd4c8" resname="content.delete.dialog.content">
+        <source>content.delete.dialog.content</source>
+        <target>Soll der ausgewählte Knoten wirklich gelöscht werden?</target>
+      </trans-unit>
+      <trans-unit id="18ffe800b505f7d878907c67d7fb1be4" resname="content.delete.dialog.cancel">
+        <source>content.delete.dialog.cancel</source>
+        <target>Lieber nicht</target>
+      </trans-unit>
+      <trans-unit id="4688b62de10bced4621f963565894a4f" resname="content.delete.dialog.submit">
+        <source>content.delete.dialog.submit</source>
+        <target>Passt</target>
       </trans-unit>
     </body>
   </file>

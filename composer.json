@@ -3,6 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
+    "version": "0.1.0",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -21,7 +22,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
 
         "sulu/sulu": "dev-develop",
-        "sulu/translate-bundle": "dev-develop",
         "sulu/admin-bundle": "dev-develop",
         "sulu/contact-bundle": "dev-develop",
         "sulu/security-bundle": "dev-develop",
@@ -29,6 +29,7 @@
         "sulu/content-bundle": "dev-develop",
         "sulu/website-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
+        "sulu/translate-bundle": "dev-develop",
         "sulu/product-base-bundle": "dev-develop",
         "sulu/product-advanced-bundle": "dev-develop",
 

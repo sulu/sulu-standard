@@ -37,6 +37,7 @@
             <environments>
                 <environment type="prod">
                     <urls>
+                        <url language="en" country="us">sulu.lo</url>
                         <url language="de" country="at">www.sulu.io</url>
                         <url redirect="www.sulu.io">sulu.io</url>
                     </urls>
