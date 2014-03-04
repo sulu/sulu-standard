@@ -1,5 +1,9 @@
-Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf)
+Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf) [![](https://travis-ci.org/sulu-cmf/SuluContentBundle.png)](https://travis-ci.org/sulu-cmf/SuluContentBundle)
 ============================================================================================================
+
+Welcome to Sulu - a fully-functional  Content Management Framework (CMF) based on Symfony2.
+
+Licensed under the [MIT License](https://github.com/sulu-cmf/SuluContentBundle/blob/develop/LICENSE).
 
 ## Usage
 
@@ -30,7 +34,6 @@ git checkout develop
 ```
 composer install
 ```
-Answer the following questions to meet the installation of your system. Just use the standard value for the `jms_serializer.cache_naming_strategy.class`.
 
 #### Clear the caches and set the appropriate permissions
 

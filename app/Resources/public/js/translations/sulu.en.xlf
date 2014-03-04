@@ -96,11 +96,11 @@
       </trans-unit>
       <trans-unit id="b24511ddcc2d8dd9a49c68974cab6566" resname="contact.contacts.firstName">
         <source>contact.contacts.firstName</source>
-        <target>FirstName</target>
+        <target>First Name</target>
       </trans-unit>
       <trans-unit id="d981f062a65f15748ceda92a2fa42466" resname="contact.contacts.lastName">
         <source>contact.contacts.lastName</source>
-        <target>LastName</target>
+        <target>Last Name</target>
       </trans-unit>
       <trans-unit id="03b430a05634e102e66cdadae27d1e70" resname="contact.contacts.position">
         <source>contact.contacts.position</source>
@@ -284,7 +284,7 @@
       </trans-unit>
       <trans-unit id="1cbc7d24ab0a482414bc0685517c236b" resname="security.permission.role.allLanguages">
         <source>security.permission.role.allLanguages</source>
-        <target>Choose all</target>
+        <target>all selected</target>
       </trans-unit>
       <trans-unit id="9853c3be2382e817827644509ac88293" resname="sulu.edit-toolbar.delete">
         <source>sulu.edit-toolbar.delete</source>
@@ -570,25 +570,41 @@
         <source>content.template.dialog.cancel-button</source>
         <target>Cancel</target>
       </trans-unit>
-      <trans-unit id="86af3110f256ebb55f9c5599aa146ab6" resname="public.published">
+      <trans-unit id="9b9f05a3f23cb61902773ac06161f04d" resname="public.published">
         <source>public.published</source>
         <target>Published</target>
       </trans-unit>
-      <trans-unit id="12e2b116387febb55f9c550d4d146ab6" resname="labels.state-changed.success-desc">
+      <trans-unit id="cdae7f0dde969793a5e8be3c6afc2c3b" resname="labels.state-changed.success-desc">
         <source>labels.state-changed.success-desc</source>
         <target>state changed</target>
       </trans-unit>
-      <trans-unit id="12e2af10f256ebb59876540d4d146ab6" resname="labels.state-changed.success">
+      <trans-unit id="b07c514688c4db3760781f5608d9b5af" resname="labels.state-changed.success">
         <source>labels.state-changed.success</source>
         <target>Success</target>
       </trans-unit>
-      <trans-unit id="1325467ff256ebb55f9c550d4d146ab6" resname="labels.state-changed.error-desc">
+      <trans-unit id="cb650d8a319e35b49d7e146b13f194ee" resname="labels.state-changed.error-desc">
         <source>labels.state-changed.error-desc</source>
         <target>state could not be changed</target>
       </trans-unit>
-      <trans-unit id="543fb110f256ebb55abc550d4d146ab6" resname="labels.state-changed.error">
+      <trans-unit id="ac3d960c5813c03f18eed5865fbe84b0" resname="labels.state-changed.error">
         <source>labels.state-changed.error</source>
         <target>Error</target>
+      </trans-unit>
+      <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
+        <source>content.delete.dialog.title</source>
+        <target>Delete Node</target>
+      </trans-unit>
+      <trans-unit id="0c64601205aa73314446c02e5a3dd4c8" resname="content.delete.dialog.content">
+        <source>content.delete.dialog.content</source>
+        <target>Do you realy want to delete the selected node?</target>
+      </trans-unit>
+      <trans-unit id="18ffe800b505f7d878907c67d7fb1be4" resname="content.delete.dialog.cancel">
+        <source>content.delete.dialog.cancel</source>
+        <target>Don't do it</target>
+      </trans-unit>
+      <trans-unit id="4688b62de10bced4621f963565894a4f" resname="content.delete.dialog.submit">
+        <source>content.delete.dialog.submit</source>
+        <target>Do it, I understand</target>
       </trans-unit>
     </body>
   </file>
