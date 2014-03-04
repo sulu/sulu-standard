@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b232f319979dbbe7e4292ba213c86a27",
+    "hash": "801364fc8565e9a42dfa3a0919fddfe2",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2556,22 +2556,22 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "238db3fa79e1c65b097e73d3f316ca9c2f4facdd"
+                "reference": "9ea6787647760900b5b5464f1e604a38dc2f381e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/238db3fa79e1c65b097e73d3f316ca9c2f4facdd",
-                "reference": "238db3fa79e1c65b097e73d3f316ca9c2f4facdd",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/9ea6787647760900b5b5464f1e604a38dc2f381e",
+                "reference": "9ea6787647760900b5b5464f1e604a38dc2f381e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "sulu/sulu": "dev-develop"
+                "sulu/sulu": "0.1.*"
             },
             "type": "library",
             "autoload": {
@@ -2586,30 +2586,30 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
             "keywords": [
                 "admin",
-                "cms",
+                "cmf",
                 "symfony"
             ],
-            "time": "2014-02-21 15:17:41"
+            "time": "2014-03-04 16:31:25"
         },
         {
             "name": "sulu/contact-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/ContactBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "94404b58741d1d70a55898c655af62d9a3fcd405"
+                "reference": "ce62c6a0a1010b42128300b739c6efd1220b813e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/94404b58741d1d70a55898c655af62d9a3fcd405",
-                "reference": "94404b58741d1d70a55898c655af62d9a3fcd405",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/ce62c6a0a1010b42128300b739c6efd1220b813e",
+                "reference": "ce62c6a0a1010b42128300b739c6efd1220b813e",
                 "shasum": ""
             },
             "require": {
@@ -2618,13 +2618,13 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
+                "sulu/admin-bundle": "0.1.*",
+                "sulu/sulu": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2649,21 +2649,21 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-02-15 11:19:21"
+            "time": "2014-03-04 16:51:24"
         },
         {
             "name": "sulu/content-bundle",
-            "version": "dev-develop",
+            "version": "0.1.1",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "5772dad5695f940a35ecdeb728d915f90afacf73"
+                "reference": "6e8db56d44416e1dedcff5d7c03e6532a738a329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/5772dad5695f940a35ecdeb728d915f90afacf73",
-                "reference": "5772dad5695f940a35ecdeb728d915f90afacf73",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/6e8db56d44416e1dedcff5d7c03e6532a738a329",
+                "reference": "6e8db56d44416e1dedcff5d7c03e6532a738a329",
                 "shasum": ""
             },
             "require": {
@@ -2674,17 +2674,17 @@
                 "jms/serializer-bundle": "@dev",
                 "liip/theme-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/contact-bundle": "dev-develop",
-                "sulu/security-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop",
-                "sulu/tag-bundle": "dev-develop",
-                "sulu/website-bundle": "dev-develop"
+                "sulu/admin-bundle": "0.1.*",
+                "sulu/contact-bundle": "0.1.*",
+                "sulu/security-bundle": "0.1.*",
+                "sulu/sulu": "0.1.*",
+                "sulu/tag-bundle": "0.1.*",
+                "sulu/website-bundle": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2706,23 +2706,24 @@
             ],
             "description": "TODO",
             "keywords": [
-                "todo"
+                "cmf",
+                "content"
             ],
-            "time": "2014-02-20 08:41:20"
+            "time": "2014-03-04 17:08:53"
         },
         {
             "name": "sulu/portal-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/PortalBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluPortalBundle.git",
-                "reference": "00335e1b5c67c7a8d737bc37806c91a80e0f6d41"
+                "reference": "ed74d3f5c75a2e22842fa2a4604865deee269773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluPortalBundle/zipball/00335e1b5c67c7a8d737bc37806c91a80e0f6d41",
-                "reference": "00335e1b5c67c7a8d737bc37806c91a80e0f6d41",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluPortalBundle/zipball/ed74d3f5c75a2e22842fa2a4604865deee269773",
+                "reference": "ed74d3f5c75a2e22842fa2a4604865deee269773",
                 "shasum": ""
             },
             "require": {
@@ -2730,8 +2731,8 @@
                 "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
+                "sulu/admin-bundle": "0.1.*",
+                "sulu/sulu": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -2759,21 +2760,21 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-03 16:36:40"
+            "time": "2014-03-04 16:39:10"
         },
         {
             "name": "sulu/security-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/SecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "931c6cc8d1f32644369782e8e260974a0514895f"
+                "reference": "ea99a61639292318af85958563e9efadd84fc204"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/931c6cc8d1f32644369782e8e260974a0514895f",
-                "reference": "931c6cc8d1f32644369782e8e260974a0514895f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/ea99a61639292318af85958563e9efadd84fc204",
+                "reference": "ea99a61639292318af85958563e9efadd84fc204",
                 "shasum": ""
             },
             "require": {
@@ -2782,14 +2783,14 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/contact-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
+                "sulu/admin-bundle": "0.1.*",
+                "sulu/contact-bundle": "0.1.*",
+                "sulu/sulu": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2814,20 +2815,20 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-02-21 13:15:39"
+            "time": "2014-03-04 16:38:25"
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "c93458bbd5d5686dc4143d911aa250542ed73e63"
+                "reference": "2fbb8cd2d032dcdb63bd4dfc4683c00df4731cd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c93458bbd5d5686dc4143d911aa250542ed73e63",
-                "reference": "c93458bbd5d5686dc4143d911aa250542ed73e63",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/2fbb8cd2d032dcdb63bd4dfc4683c00df4731cd3",
+                "reference": "2fbb8cd2d032dcdb63bd4dfc4683c00df4731cd3",
                 "shasum": ""
             },
             "require": {
@@ -2841,7 +2842,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/symfony": "2.3.*"
             },
             "type": "library",
@@ -2865,21 +2866,21 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-02-21 15:26:00"
+            "time": "2014-03-04 17:06:18"
         },
         {
             "name": "sulu/tag-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/TagBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
-                "reference": "2bcb38b74f4b077e1059d26afcde2181995ad3cc"
+                "reference": "8c1bfb4fdb0da8e84041f42b4f1d7536c327091d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/2bcb38b74f4b077e1059d26afcde2181995ad3cc",
-                "reference": "2bcb38b74f4b077e1059d26afcde2181995ad3cc",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/8c1bfb4fdb0da8e84041f42b4f1d7536c327091d",
+                "reference": "8c1bfb4fdb0da8e84041f42b4f1d7536c327091d",
                 "shasum": ""
             },
             "require": {
@@ -2887,15 +2888,15 @@
                 "friendsofsymfony/rest-bundle": "1.0.*",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/contact-bundle": "@dev",
-                "sulu/security-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
+                "sulu/admin-bundle": "0.1.*",
+                "sulu/contact-bundle": "0.1.*",
+                "sulu/security-bundle": "0.1.*",
+                "sulu/sulu": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2920,32 +2921,32 @@
                 "sulu",
                 "tags"
             ],
-            "time": "2014-03-03 16:30:38"
+            "time": "2014-03-04 16:35:04"
         },
         {
             "name": "sulu/website-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "ff974fc3c7f420378bc040568149959cf24306cc"
+                "reference": "11d0bff1e9e2b3d2af9c5beb182c955875261f22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/ff974fc3c7f420378bc040568149959cf24306cc",
-                "reference": "ff974fc3c7f420378bc040568149959cf24306cc",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/11d0bff1e9e2b3d2af9c5beb182c955875261f22",
+                "reference": "11d0bff1e9e2b3d2af9c5beb182c955875261f22",
                 "shasum": ""
             },
             "require": {
                 "liip/theme-bundle": "1.0.*@dev",
                 "php": ">=5.4",
-                "sulu/sulu": "dev-develop",
+                "sulu/sulu": "0.1.*",
                 "symfony-cmf/routing-bundle": "1.1.*"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2970,7 +2971,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-03-03 16:27:33"
+            "time": "2014-03-04 16:33:33"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4370,22 +4371,22 @@
         },
         {
             "name": "sulu/test-bundle",
-            "version": "dev-develop",
+            "version": "0.1.0",
             "target-dir": "Sulu/Bundle/TestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "fdc2d3800a8c8ef798a44186d0c7958c6ae562a0"
+                "reference": "6f7bf6f05fc9a24207496e2794bf66d837cf587e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/fdc2d3800a8c8ef798a44186d0c7958c6ae562a0",
-                "reference": "fdc2d3800a8c8ef798a44186d0c7958c6ae562a0",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/6f7bf6f05fc9a24207496e2794bf66d837cf587e",
+                "reference": "6f7bf6f05fc9a24207496e2794bf66d837cf587e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "sulu/sulu": "dev-develop"
+                "sulu/sulu": "0.1.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -4414,7 +4415,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-03-03 16:20:20"
+            "time": "2014-03-04 16:34:22"
         }
     ],
     "aliases": [
@@ -4422,14 +4423,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
-        "sulu/admin-bundle": 20,
-        "sulu/contact-bundle": 20,
-        "sulu/security-bundle": 20,
-        "sulu/portal-bundle": 20,
-        "sulu/content-bundle": 20,
-        "sulu/website-bundle": 20,
-        "sulu/tag-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
@@ -4438,8 +4431,7 @@
         "symfony-cmf/routing": 20,
         "liip/theme-bundle": 20,
         "cboden/ratchet": 20,
-        "sulu/generator-bundle": 20,
-        "sulu/test-bundle": 20
+        "sulu/generator-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"
