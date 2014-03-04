@@ -5,13 +5,33 @@ Welcome to Sulu - a fully-functional  Content Management Framework (CMF) based o
 
 Licensed under the [MIT License](https://github.com/sulu-cmf/SuluContentBundle/blob/develop/LICENSE).
 
-## Usage
+##Prerequisites
 
-At the moment there is only one functional route.
+- webserver with PHP (>=5.4) and a mysql database
+- [composer](https://getcomposer.org/)
+- [grunt-cli](http://gruntjs.com/getting-started)
+- [nodejs and npm](http://nodejs.org/)
+- [ruby](https://www.ruby-lang.org/en/downloads/) & [compass](http://compass-style.org/install/) (3.2.13)
 
+
+#### Configuration
+
+Use the following template for your vhost-configuration
 ```
-sulu.lo/admin/
+<VirtualHost *:80>
+    DocumentRoot "[path-to-your-workspace]/sulu-standard/web"
+    ServerName sulu.lo
+    <Directory "[path-to-your-workspace]/sulu-standard/web">
+        Options Indexes FollowSymlinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
 ```
+
+Of course you also have to make sure that your webserver user has permission to access your installation folder.
+Don't forget to include `sulu.lo` in your hosts-file, if you want to use Sulu on a local machine.
 
 
 ## Installation
@@ -98,22 +118,27 @@ app/console sulu:security:user:create
 ```
 Follow the instruction to create a new user
 
-## Configuration
-Sulu requires an installation of an apache webserver with PHP (>=5.4) and a mysql database. 
+## What's inside?
 
-Use the following template for your vhost-configuration
+- [admin-bundle](https://github.com/sulu-cmf/SuluAdminBundle)
+- [contact-bundle](https://github.com/sulu-cmf/SuluContactBundle)
+- [content-bundle](https://github.com/sulu-cmf/SuluContentBundle)
+- [generator-bundle](https://github.com/sulu-cmf/SuluGeneratorBundle)
+- [portal-bundle](https://github.com/sulu-cmf/SuluPortalBundle)
+- [security-bundle](https://github.com/sulu-cmf/SuluSecurityBundle) (included but not integrated in other bundles)
+- [sulu-core](https://github.com/sulu-cmf/sulu)
+- [tag-bundle](https://github.com/sulu-cmf/SuluTagBundle)
+- [test-bundle](https://github.com/sulu-cmf/SuluTestBundle)
+- [website-bundle](https://github.com/sulu-cmf/SuluWebsiteBundle)
+
+## Usage
+
+The route to the backend login is:
+
 ```
-<VirtualHost *:80>
-    DocumentRoot "[path-to-your-workspace]/sulu-standard/web"
-    ServerName sulu.lo
-    <Directory "[path-to-your-workspace]/sulu-standard/web">
-        Options Indexes FollowSymlinks
-        AllowOverride All
-        Order allow,deny
-        Allow from all
-    </Directory>
-</VirtualHost>
+sulu.lo/admin/
 ```
 
-Of course you also have to make sure that your webserver user has permission to access your installation folder.
-Don't forget to include `sulu.lo` in your hosts-file, if you want to use Sulu on a local machine.
+## Documentation
+
+Documentation can be found here: [https://github.com/sulu-cmf/docs](https://github.com/sulu-cmf/docs)
