@@ -1,4 +1,4 @@
-Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf) [![](https://travis-ci.org/sulu-cmf/SuluContentBundle.png)](https://travis-ci.org/sulu-cmf/SuluContentBundle)
+Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf) [![](https://travis-ci.org/sulu-cmf/sulu-standard.png)](https://travis-ci.org/sulu-cmf/sulu-standard)
 ============================================================================================================
 
 Welcome to Sulu - a fully-functional  Content Management Framework (CMF) based on Symfony2.
