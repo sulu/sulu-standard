@@ -1,3 +1,7 @@
+sulu_product_advanced:
+    resource: "@SuluProductAdvancedBundle/Resources/config/routing.yml"
+    prefix:   /sulu_product_advanced
+
 sulu_tag:
     resource: "@SuluTagBundle/Resources/config/routing.yml"
     prefix:   /admin/tag
