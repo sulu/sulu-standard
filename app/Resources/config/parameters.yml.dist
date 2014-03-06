@@ -9,6 +9,7 @@ parameters:
     phpcr_url: http://localhost:8080/server
     phpcr_username: admin
     phpcr_password: admin
+    phpcr_workspace: default
 
     mailer_transport:   smtp
     mailer_host:        127.0.0.1
