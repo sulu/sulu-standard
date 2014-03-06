@@ -542,12 +542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "351bcc4de9ff58bac8d72bb3ef0b7481377bb25e"
+                "reference": "ccd69d9ec90013955a412a21125672afc09738dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/351bcc4de9ff58bac8d72bb3ef0b7481377bb25e",
-                "reference": "351bcc4de9ff58bac8d72bb3ef0b7481377bb25e",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/ccd69d9ec90013955a412a21125672afc09738dc",
+                "reference": "ccd69d9ec90013955a412a21125672afc09738dc",
                 "shasum": ""
             },
             "require": {
@@ -593,7 +593,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2014-02-22 15:01:12"
+            "time": "2014-03-05 01:11:31"
         },
         {
             "name": "doctrine/inflector",
@@ -2653,17 +2653,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "6e8db56d44416e1dedcff5d7c03e6532a738a329"
+                "reference": "b3c78958ae2059a6c0eeaf177b41c1bc04ad746f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/6e8db56d44416e1dedcff5d7c03e6532a738a329",
-                "reference": "6e8db56d44416e1dedcff5d7c03e6532a738a329",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/b3c78958ae2059a6c0eeaf177b41c1bc04ad746f",
+                "reference": "b3c78958ae2059a6c0eeaf177b41c1bc04ad746f",
                 "shasum": ""
             },
             "require": {
@@ -2709,7 +2709,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-03-04 17:08:53"
+            "time": "2014-03-06 19:24:37"
         },
         {
             "name": "sulu/portal-bundle",
