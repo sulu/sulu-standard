@@ -2927,12 +2927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "13d6a87fd7043e81f6d1cbd92eb47cff0f81b4b5"
+                "reference": "81e8fe39e8e246de21813f1cb8f546a6cdfd8ce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/13d6a87fd7043e81f6d1cbd92eb47cff0f81b4b5",
-                "reference": "13d6a87fd7043e81f6d1cbd92eb47cff0f81b4b5",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/81e8fe39e8e246de21813f1cb8f546a6cdfd8ce2",
+                "reference": "81e8fe39e8e246de21813f1cb8f546a6cdfd8ce2",
                 "shasum": ""
             },
             "require": {
@@ -2946,7 +2946,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
+                "sulu/test-bundle": "0.1.*|dev-develop",
                 "symfony/symfony": "2.3.*"
             },
             "type": "library",
@@ -2970,7 +2970,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-03-04 17:52:34"
+            "time": "2014-03-06 21:43:50"
         },
         {
             "name": "sulu/tag-bundle",
