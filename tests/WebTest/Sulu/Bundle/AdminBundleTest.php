@@ -103,7 +103,7 @@ class AdminBundleTest extends WebDriverTestCase
         $driver = $this;
 
         $header = function () use ($driver) {
-            return $driver->byClassName('header')->displayed();
+            return $driver->byClassName('navigation')->displayed();
         };
 
         $this->spinAssert("Header never showed up!", $header);
