@@ -32,18 +32,13 @@ sulu_security_api:
     resource: "@SuluSecurityBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
-sulu_translate:
-    resource: "@SuluTranslateBundle/Resources/config/routing.yml"
-    prefix: /admin/translate
-
-sulu_translate_api:
-    type: rest
-    resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
-    prefix: /admin/api
-
 sulu_content:
     resource: "@SuluContentBundle/Resources/config/routing.yml"
     prefix: /admin/content
+
+sulu_productbase:
+    resource: "@SuluProductBaseBundle/Resources/config/routing.yml"
+    prefix: /admin/productbase
 
 sulu_content_api:
     type: rest
