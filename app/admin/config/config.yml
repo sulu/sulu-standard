@@ -90,7 +90,8 @@ sulu_core:
         workspace: %phpcr_workspace%
     webspace:
         config_dir: "%kernel.root_dir%/../Resources/webspaces"
-        enable_request_analyzer: false
+        request_analyzer:
+            enabled: false
     content:
         ~
 
