@@ -44,7 +44,7 @@
                 </environment>
                 <environment type="dev">
                     <urls>
-                        <url language="en" country="us">sulu.lo</url>
+                        <url>sulu.lo/{localization}</url>
                         <url language="de" country="at">localhost</url>
                     </urls>
                 </environment>
