@@ -18,6 +18,7 @@ before_script:
   - ./tests/sauce/connect_setup.sh
   - composer self-update
   - composer install --prefer-dist --no-interaction
+  - cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
   - php app/console doctrine:database:create
   - php app/console doctrine:schema:create
   - php app/console doctrine:fixtures:load --no-interaction
