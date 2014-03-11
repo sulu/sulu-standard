@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="ae201470bf51b79a16ef61543d22b1df" resname="security.roles.name">
         <source>security.roles.name</source>
-        <target>Titel</target>
+        <target>Rollen Titel</target>
       </trans-unit>
       <trans-unit id="37a1d19f7da5a16c77f7d87b2609ec53" resname="security.roles.system">
         <source>security.roles.system</source>
