@@ -212,7 +212,7 @@
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
-        <target>Roles and permissions</target>
+        <target>Permissions</target>
       </trans-unit>
       <trans-unit id="ae201470bf51b79a16ef61543d22b1df" resname="security.roles.name">
         <source>security.roles.name</source>
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="8820ed397e9ac260b8f232dd6815e8b3" resname="navigation.settings.roles">
         <source>navigation.settings.roles</source>
-        <target>Roles &amp; Permissions</target>
+        <target>Permissions</target>
       </trans-unit>
       <trans-unit id="a4e5be148f7d93a106d468391b00d055" resname="navigation.settings.translate">
         <source>navigation.settings.translate</source>
