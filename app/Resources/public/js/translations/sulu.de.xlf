@@ -212,11 +212,11 @@
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
-        <target>Rollen &amp; Berechtigungen</target>
+        <target>Berechtigungen</target>
       </trans-unit>
       <trans-unit id="ae201470bf51b79a16ef61543d22b1df" resname="security.roles.name">
         <source>security.roles.name</source>
-        <target>Titel</target>
+        <target>Rollen Titel</target>
       </trans-unit>
       <trans-unit id="37a1d19f7da5a16c77f7d87b2609ec53" resname="security.roles.system">
         <source>security.roles.system</source>
@@ -240,11 +240,11 @@
       </trans-unit>
       <trans-unit id="aa9d596361fe589c984464479c6198cb" resname="security.roles.all">
         <source>security.roles.all</source>
-        <target>Alle</target>
+        <target>Alle auswählen</target>
       </trans-unit>
       <trans-unit id="630afebcb7daa7f0a5addd4a3c76fff0" resname="security.roles.none">
         <source>security.roles.none</source>
-        <target>Keine</target>
+        <target>Keine auswählen</target>
       </trans-unit>
       <trans-unit id="564c871c3fda868b7f35e81724359618" resname="security.permission.title">
         <source>security.permission.title</source>
@@ -316,7 +316,7 @@
       </trans-unit>
       <trans-unit id="8820ed397e9ac260b8f232dd6815e8b3" resname="navigation.settings.roles">
         <source>navigation.settings.roles</source>
-        <target>Rollen &amp; Berechtigungen</target>
+        <target>Berechtigungen</target>
       </trans-unit>
       <trans-unit id="a4e5be148f7d93a106d468391b00d055" resname="navigation.settings.translate">
         <source>navigation.settings.translate</source>
@@ -594,6 +594,126 @@
         <source>labels.state-changed.error</source>
         <target>Fehler</target>
       </trans-unit>
+      <trans-unit id="58b06d6f4d02d93226d543aa6df546cc" resname="sulu.matcher.unmatched-column">
+        <source>sulu.matcher.unmatched-column</source>
+        <target>Nicht zugeordnete Spalte</target>
+      </trans-unit>
+      <trans-unit id="88a3440757127accbe0f8aefa78de0f5" resname="sulu.matcher.matched-column">
+        <source>sulu.matcher.matched-column</source>
+        <target>Zugeordnete Spalte</target>
+      </trans-unit>
+      <trans-unit id="f10513fb27976295fe1f7186e5fa40a9" resname="sulu.matcher.edit">
+        <source>sulu.matcher.edit</source>
+        <target>Bearbeiten</target>
+      </trans-unit>
+      <trans-unit id="f48bae00ed524529404524a247120cf8" resname="sulu.matcher.skip">
+        <source>sulu.matcher.skip</source>
+        <target>Überspringen</target>
+      </trans-unit>
+      <trans-unit id="5af9c8fc4bcece63d07861c08f88f85e" resname="sulu.matcher.skipped">
+        <source>sulu.matcher.skipped</source>
+        <target>Übersprungen</target>
+      </trans-unit>
+      <trans-unit id="3c8b6b82809d03e6d6f26d0e402817da" resname="sulu.matcher.column">
+        <source>sulu.matcher.column</source>
+        <target>Spalte</target>
+      </trans-unit>
+      <trans-unit id="0f9a2fc219bd75f314c1ab6eef4e0820" resname="sulu.matcher.please-choose">
+        <source>sulu.matcher.please-choose</source>
+        <target>Bitte wählen..</target>
+      </trans-unit>
+      <trans-unit id="03588f70b26be004afd6ea794c008e8f" resname="navigation.pim">
+        <source>navigation.pim</source>
+        <target>PIM</target>
+      </trans-unit>
+      <trans-unit id="58cb513981ea607cf0fb3db202368f0e" resname="navigation.pim.products">
+        <source>navigation.pim.products</source>
+        <target>Produkte</target>
+      </trans-unit>
+      <trans-unit id="de3e19c8588a08fe9f82442df794228d" resname="pim.products.title">
+        <source>pim.products.title</source>
+        <target>Produkte</target>
+      </trans-unit>
+      <trans-unit id="ebe90aa605a30f7e0209542e24978b90" resname="products.key">
+        <source>products.key</source>
+        <target>Schlüssel</target>
+      </trans-unit>
+      <trans-unit id="40e391d7afad26a01d92dbc7b38c3e54" resname="products.contractual-article">
+        <source>products.contractual-article</source>
+        <target>Vertraglicher Artikel</target>
+      </trans-unit>
+      <trans-unit id="50b38cc2bbdde289f67a22b86ccb6aee" resname="products.name">
+        <source>products.name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="ce420acf4b9e355e02abf093b1937ce5" resname="products.article-number">
+        <source>products.article-number</source>
+        <target>Artikelnummer</target>
+      </trans-unit>
+      <trans-unit id="73f857fb4aec3a9b7848fcd5826b3326" resname="products.manufacturer">
+        <source>products.manufacturer</source>
+        <target>Hersteller</target>
+      </trans-unit>
+      <trans-unit id="09d4af2742da58c78360f2e22a0d5e1a" resname="products.categories">
+        <source>products.categories</source>
+        <target>Kategorien</target>
+      </trans-unit>
+      <trans-unit id="0948dff11d35dcbad5b69e0e1b979fc3" resname="products.last-imported">
+        <source>products.last-imported</source>
+        <target>Zuletzt importiert</target>
+      </trans-unit>
+      <trans-unit id="51780238a1c0fa9ed158a47e2feede05" resname="sulu.products.import">
+        <source>sulu.products.import</source>
+        <target>Import</target>
+      </trans-unit>
+      <trans-unit id="3bfe10cbcfef0e1626de1015d91bbb1d" resname="sulu.products.map-header">
+        <source>sulu.products.map-header</source>
+        <target>Header zuordnen</target>
+      </trans-unit>
+      <trans-unit id="36a03673d868140980e8e2ec60baf4b4" resname="sulu.products.map-header-desc">
+        <source>sulu.products.map-header-desc</source>
+        <target>Bitte Spalten der existierenden Datenstruktur zuordnen.</target>
+      </trans-unit>
+      <trans-unit id="536fa243219a2512816261794df3121c" resname="sulu.products.unmatched-columns">
+        <source>sulu.products.unmatched-columns</source>
+        <target>Nicht zugeordnete Spalten</target>
+      </trans-unit>
+      <trans-unit id="fee413c552881531c70b1ac61da07738" resname="public.deactivate">
+        <source>public.deactivate</source>
+        <target>Deaktivieren</target>
+      </trans-unit>
+      <trans-unit id="685fdb78d9f1bdff9bf26ece5dfcee6d" resname="contact.account.type.basic">
+        <source>contact.account.type.basic</source>
+        <target>Kontakt</target>
+      </trans-unit>
+      <trans-unit id="2935695d2d6378e8dfdcc0f9d2d63ddd" resname="contact.account.type.lead">
+        <source>contact.account.type.lead</source>
+        <target>Interessent</target>
+      </trans-unit>
+      <trans-unit id="8fdb51021529466148c851a4724fbc6a" resname="contact.account.type.customer">
+        <source>contact.account.type.customer</source>
+        <target>Kunde</target>
+      </trans-unit>
+      <trans-unit id="128c73540d2e4643177375cde1b5a44c" resname="contact.account.type.supplier">
+        <source>contact.account.type.supplier</source>
+        <target>Lieferant</target>
+      </trans-unit>
+      <trans-unit id="4926f85302370f0c0e5381e2c08797d8" resname="contact.account.add-basic">
+        <source>contact.account.add-basic</source>
+        <target>neuer Kontakt erstellen</target>
+      </trans-unit>
+      <trans-unit id="88eebe41010b0d017b51a2d8aa74d91d" resname="contact.account.add-lead">
+        <source>contact.account.add-lead</source>
+        <target>neuer Interessent erstellen</target>
+      </trans-unit>
+      <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="account.type.add-customer">
+        <source>account.type.add-customer</source>
+        <target>neuer Kunde erstellen</target>
+      </trans-unit>
+      <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="account.type.add-supplier">
+        <source>account.type.add-supplier</source>
+        <target>neuer Lieferant erstellen</target>
+      </trans-unit>
       <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
         <source>content.delete.dialog.title</source>
         <target>Knoten löschen</target>
@@ -609,6 +729,30 @@
       <trans-unit id="4688b62de10bced4621f963565894a4f" resname="content.delete.dialog.submit">
         <source>content.delete.dialog.submit</source>
         <target>Passt</target>
+      </trans-unit>
+      <trans-unit id="4688b62deAF91ed4621f963565894a4f" resname="public.add-fields">
+        <source>public.add-fields</source>
+        <target>Neue Felder hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="3188b62deAF91ed4621f963565894a4f" resname="public.edit-fields">
+        <source>public.edit-fields</source>
+        <target>Felder editieren</target>
+      </trans-unit>
+      <trans-unit id="3A88b62deAF91ed4621f963565894a4f" resname="public.fax">
+        <source>public.fax</source>
+        <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="9988b62deAF91ed4621f963565894a4f" resname="public.comments">
+        <source>public.comments</source>
+        <target>Kommentare</target>
+      </trans-unit>
+      <trans-unit id="9988b62deAF988d4621f963565894a4f" resname="contact.add.address">
+        <source>contact.add.address</source>
+        <target>Adresse hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="9988b62deA6743d4621f963565894a4f" resname="dropdown.please-choose">
+        <source>dropdown.please-choose</source>
+        <target>Bitte wählen..</target>
       </trans-unit>
     </body>
   </file>
