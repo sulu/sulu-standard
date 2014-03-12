@@ -18,3 +18,8 @@
 
 # System files
 .DS_Store
+
+
+# webspaces
+/app/Resources/webspaces
+!/app/Resources/webspaces/sulu.io.xml.dist
