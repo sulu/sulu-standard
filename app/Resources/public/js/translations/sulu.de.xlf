@@ -382,13 +382,25 @@
         <source>pagination.of</source>
         <target>von</target>
       </trans-unit>
-      <trans-unit id="0da8d22272f30674643e1c0215b1e74e" resname="pagination.showAll">
-        <source>pagination.showAll</source>
-        <target>Alle anzeigen</target>
-      </trans-unit>
       <trans-unit id="317132c150958a110ab6c49ea2f99dee" resname="pagination.elements">
         <source>pagination.elements</source>
         <target>Elemente</target>
+      </trans-unit>
+      <trans-unit id="3171643AF0958a110ab6c49ea2f99dee" resname="pagination.show">
+        <source>pagination.show</source>
+        <target>Zeige</target>
+      </trans-unit>
+      <trans-unit id="3171643AF0958a110ab6c49ea2f99843" resname="pagination.elements-of">
+        <source>pagination.elements-of</source>
+        <target>Elemente von</target>
+      </trans-unit>
+      <trans-unit id="2171643AF0958a110ab6c49ea2f99843" resname="pagination.elements-per-page">
+        <source>pagination.elements-per-page</source>
+        <target>Elemente pro Seite</target>
+      </trans-unit>
+      <trans-unit id="3171643AF09588810ab6c49ea2f99843" resname="pagination.show-all-elements">
+        <source>pagination.show-all-elements</source>
+        <target>Alle Elemente anzeigen</target>
       </trans-unit>
       <trans-unit id="84e007577e7329f1ac8509c8e6b6e038" resname="navigation.settings.tags">
         <source>navigation.settings.tags</source>
