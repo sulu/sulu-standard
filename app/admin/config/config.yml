@@ -87,8 +87,11 @@ sulu_core:
         url: %phpcr_url%
         username: %phpcr_username%
         password: %phpcr_password%
-    portal:
-        config_dir: "%kernel.root_dir%/../Resources/portals"
+        workspace: %phpcr_workspace%
+    webspace:
+        config_dir: "%kernel.root_dir%/../Resources/webspaces"
+        request_analyzer:
+            enabled: false
     content:
         ~
 

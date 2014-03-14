@@ -4,5 +4,7 @@
 
 {% block content %}
     <h1 property="title">{{ content.title }}</h1>
-    <p>That`s a simple theme!</p>
+    {% autoescape false %}
+    <div property="article">{{ content.article }}</div>
+    {% endautoescape %}
 {% endblock %}
