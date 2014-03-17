@@ -2561,12 +2561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "c74a85fcd34fe2c55e4bffc6b59a44214b7a9013"
+                "reference": "f159ece75d79dd05e03846e99995bca242dfeadd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/c74a85fcd34fe2c55e4bffc6b59a44214b7a9013",
-                "reference": "c74a85fcd34fe2c55e4bffc6b59a44214b7a9013",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/f159ece75d79dd05e03846e99995bca242dfeadd",
+                "reference": "f159ece75d79dd05e03846e99995bca242dfeadd",
                 "shasum": ""
             },
             "require": {
@@ -2586,7 +2586,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2595,7 +2595,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-03-17 10:29:36"
+            "time": "2014-03-17 10:54:33"
         },
         {
             "name": "sulu/contact-bundle",
