@@ -92,7 +92,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -2824,12 +2824,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "0d23c4125749013cbd44a0513cc06ba18420f018"
+                "reference": "9901fca43fb2ce75b7ae5622e833da544fee9101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/0d23c4125749013cbd44a0513cc06ba18420f018",
-                "reference": "0d23c4125749013cbd44a0513cc06ba18420f018",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/9901fca43fb2ce75b7ae5622e833da544fee9101",
+                "reference": "9901fca43fb2ce75b7ae5622e833da544fee9101",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-17 10:33:16"
+            "time": "2014-03-17 12:20:50"
         },
         {
             "name": "sulu/security-bundle",
@@ -2931,12 +2931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "a9a0213144ce39fa7f45923282f27a6b7c7664a6"
+                "reference": "f3c39ad7749e842f351f80422b0ffc69f1d23ba5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/a9a0213144ce39fa7f45923282f27a6b7c7664a6",
-                "reference": "a9a0213144ce39fa7f45923282f27a6b7c7664a6",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/f3c39ad7749e842f351f80422b0ffc69f1d23ba5",
+                "reference": "f3c39ad7749e842f351f80422b0ffc69f1d23ba5",
                 "shasum": ""
             },
             "require": {
@@ -2974,7 +2974,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-03-12 14:06:54"
+            "time": "2014-03-17 16:17:59"
         },
         {
             "name": "sulu/tag-bundle",
@@ -3847,7 +3847,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
