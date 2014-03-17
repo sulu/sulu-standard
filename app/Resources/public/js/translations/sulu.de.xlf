@@ -354,9 +354,13 @@
         <source>content-navigation.contacts.details</source>
         <target>Details</target>
       </trans-unit>
-      <trans-unit id="faab8145a3d2ff0d3b2f8a8cdf552ae6" resname="content-navigation.contents.details">
-        <source>content-navigation.contents.details</source>
-        <target>Details</target>
+      <trans-unit id="faab8145a3d2ff0d3b2f8a8cdf552ae6" resname="content-navigation.contents.content">
+        <source>content-navigation.contents.content</source>
+        <target>Inhalt</target>
+      </trans-unit>
+      <trans-unit id="faab81faa3d2ff0d3b2f8a8cdf565438" resname="content-navigation.contents.settings">
+        <source>content-navigation.contents.settings</source>
+        <target>Einstellungen</target>
       </trans-unit>
       <trans-unit id="208ce313bf52378e0d6891d69ffcddd4" resname="public.search">
         <source>public.search</source>
