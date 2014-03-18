@@ -354,11 +354,11 @@
         <source>content-navigation.contacts.details</source>
         <target>Details</target>
       </trans-unit>
-      <trans-unit id="faab8145a3d2ff0d3b2f8a8cdf552ae6" resname="content-navigation.contents.content">
+      <trans-unit id="4a89b50039803b376bde5c46837b91a4" resname="content-navigation.contents.content">
         <source>content-navigation.contents.content</source>
         <target>Content</target>
       </trans-unit>
-      <trans-unit id="faab81faa3d2ff0d3b2f8a8cdf565438" resname="content-navigation.contents.settings">
+      <trans-unit id="ecfca947639c0251512a8c1990132da0" resname="content-navigation.contents.settings">
         <source>content-navigation.contents.settings</source>
         <target>Settings</target>
       </trans-unit>
@@ -390,19 +390,19 @@
         <source>pagination.elements</source>
         <target>Elements</target>
       </trans-unit>
-      <trans-unit id="3171643AF0958a110ab6c49ea2f99dee" resname="pagination.show">
+      <trans-unit id="f293f6bd000d7e96b51c24c6e4b22e59" resname="pagination.show">
         <source>pagination.show</source>
         <target>Show</target>
       </trans-unit>
-      <trans-unit id="3171643AF0958a110ab6c49ea2f99843" resname="pagination.elements-of">
+      <trans-unit id="611c731dd700d92d4246a4dc57996bec" resname="pagination.elements-of">
         <source>pagination.elements-of</source>
         <target>elements of</target>
       </trans-unit>
-      <trans-unit id="2171643AF0958a110ab6c49ea2f99843" resname="pagination.elements-per-page">
+      <trans-unit id="a8930b800abe85d3b19da82ca85dc4c0" resname="pagination.elements-per-page">
         <source>pagination.elements-per-page</source>
         <target>elements per page</target>
       </trans-unit>
-      <trans-unit id="3171643AF09588810ab6c49ea2f99843" resname="pagination.show-all-elements">
+      <trans-unit id="ab31942997c01851a4e84e476882c5bc" resname="pagination.show-all-elements">
         <source>pagination.show-all-elements</source>
         <target>Show all elements</target>
       </trans-unit>
@@ -746,29 +746,45 @@
         <source>content.delete.dialog.submit</source>
         <target>Do it, I understand</target>
       </trans-unit>
-      <trans-unit id="4688b62deAF91ed4621f963565894a4f" resname="public.add-fields">
+      <trans-unit id="d2d787cf3136eff4a01713ab1fb3580b" resname="public.add-fields">
         <source>public.add-fields</source>
         <target>Add new fields</target>
       </trans-unit>
-      <trans-unit id="3188b62deAF91ed4621f963565894a4f" resname="public.edit-fields">
+      <trans-unit id="1b176c832ae286918c40fdf57483b459" resname="public.edit-fields">
         <source>public.edit-fields</source>
         <target>Edit fields</target>
       </trans-unit>
-      <trans-unit id="3A88b62deAF91ed4621f963565894a4f" resname="public.fax">
+      <trans-unit id="19be38e89ee7f37a396474cf1ead3669" resname="public.fax">
         <source>public.fax</source>
         <target>Fax</target>
       </trans-unit>
-      <trans-unit id="9988b62deAF91ed4621f963565894a4f" resname="public.comments">
+      <trans-unit id="e63a6f1eeec7841c91164669e7c4a420" resname="public.comments">
         <source>public.comments</source>
         <target>Comments</target>
       </trans-unit>
-      <trans-unit id="9988b62deAF988d4621f963565894a4f" resname="contact.add.address">
+      <trans-unit id="fe0771440b9c4b41f82d5ae509fb3897" resname="contact.add.address">
         <source>contact.add.address</source>
         <target>Add address</target>
       </trans-unit>
-      <trans-unit id="9988b62deA6743d4621f963565894a4f" resname="dropdown.please-choose">
+      <trans-unit id="3a355674907a96d3e74f6c0efd33acbf" resname="dropdown.please-choose">
         <source>dropdown.please-choose</source>
         <target>Please choose..</target>
+      </trans-unit>
+      <trans-unit id="f94b6c9be6a0ff700e3acdf6fd987af6" resname="navigation.webspaces.content">
+        <source>navigation.webspaces.content</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="f03b39fa050b422d85db9d84cd54fee3" resname="navigation.webspaces.index-page">
+        <source>navigation.webspaces.index-page</source>
+        <target>Homepage</target>
+      </trans-unit>
+      <trans-unit id="e8a77e532dfb3d0614824b7349d7b680" resname="content.contents.show-ghost-pages">
+        <source>content.contents.show-ghost-pages</source>
+        <target>Show ghosts and shadow pages</target>
+      </trans-unit>
+      <trans-unit id="9d6ff6ec28392e6c52d795266f34743e" resname="content.preview.resolutions">
+        <source>content.preview.resolutions</source>
+        <target>Screenresolutions</target>
       </trans-unit>
     </body>
   </file>
