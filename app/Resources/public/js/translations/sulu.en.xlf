@@ -722,13 +722,17 @@
         <source>contact.account.add-lead</source>
         <target>create new lead</target>
       </trans-unit>
-      <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="account.type.add-customer">
-        <source>account.type.add-customer</source>
+      <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="contact.account.add-customer">
+        <source>contact.account.add-customer</source>
         <target>create new customer</target>
       </trans-unit>
-      <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="account.type.add-supplier">
-        <source>account.type.add-supplier</source>
+      <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="contact.account.add-supplier">
+        <source>contact.account.add-supplier</source>
         <target>create new supplier</target>
+      </trans-unit>
+      <trans-unit id="a6ba6e7ec1734jhe3963f5ed4a8c5f28" resname="contact.account.type">
+        <source>contact.account.type</source>
+        <target>Type</target>
       </trans-unit>
       <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
         <source>content.delete.dialog.title</source>
@@ -757,6 +761,14 @@
       <trans-unit id="19be38e89ee7f37a396474cf1ead3669" resname="public.fax">
         <source>public.fax</source>
         <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="19be38e89ee7f3a8d96474cf1ead3669" resname="public.note">
+        <source>public.notes</source>
+        <target>Note</target>
+      </trans-unit>
+      <trans-unit id="19de38e89ee7f37a396474cf1ead3669" resname="public.all">
+        <source>public.all</source>
+        <target>All</target>
       </trans-unit>
       <trans-unit id="e63a6f1eeec7841c91164669e7c4a420" resname="public.comments">
         <source>public.comments</source>
