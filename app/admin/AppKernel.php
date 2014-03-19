@@ -31,9 +31,11 @@ class AppKernel extends Kernel
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
-            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+            new Sulu\Bundle\Product\BaseBundle\SuluProductBaseBundle(),
+            new Sulu\Bundle\Product\AdvancedBundle\SuluProductAdvancedBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
@@ -50,7 +52,6 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
-            $bundles[] = new \Sulu\Bundle\TestBundle\SuluTestBundle();
         }
 
         return $bundles;

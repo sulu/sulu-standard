@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>{% block title %} {% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/style.css') }}"/>
     </head>
@@ -11,7 +12,10 @@
             </div>
             <div id="outer" class="clearfix">
                 <div id="navigation">
-                    Navigation
+                    <h3><a href="/">Navigation</a></h3>
+                    {% if navigation is defined %}
+                        {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
+                    {% endif %}
                 </div>
                 <div id="content" vocab="http://schema.org/" typeof="Content">
                     {% block content %}{% endblock %}

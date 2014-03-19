@@ -2,6 +2,8 @@ language: php
 
 php:
   - 5.4
+  - 5.5
+  - hhvm
 
 env:
   global:
@@ -9,12 +11,14 @@ env:
     - secure: "UmFds85SDbGAGgayw75iXegyElb68BVjT+rwwaUDtokreSgUytnj6+puFcomYtE5SiHmhZbcDZs2f4jBh0GlmDCULBIsj2i3B+qUdt0S3k6yNUhqEM6FoEmrFeiD0hK3PUW267LJEhZjgQfjkAhRGoF6RpLQFrvZFi9ldbS207c="
     - SAUCE_CONNECT_READY_FILE=/tmp/sauce-connect-ready
     - LOGS_DIR=/tmp/sulu/logs
+    - DB=mysql
 
 before_script:
   - mkdir -p $LOGS_DIR
   - ./tests/sauce/connect_setup.sh
   - composer self-update
   - composer install --prefer-dist --no-interaction
+  - cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
   - php app/console doctrine:database:create
   - php app/console doctrine:schema:create
   - php app/console doctrine:fixtures:load --no-interaction
@@ -23,6 +27,13 @@ before_script:
   - ./tests/sauce/connect_block.sh
 
 script: bin/paratest -p 2 -f
+
+notifications:
+  irc: "irc.freenode.org#sulu-cmf"
+
+matrix:
+  allow_failures:
+    - php: hhvm
 
 after_script:
   - ./tests/travis_print_logs.sh

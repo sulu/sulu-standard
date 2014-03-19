@@ -1,0 +1,20 @@
+{% extends "ClientWebsiteBundle:Website:master.html.twig" %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block content %}
+    <h1 property="title">{{ content.title }}</h1>
+    {% autoescape false %}
+    <div property="article">{{ content.article }}</div>
+    {% endautoescape %}
+
+    <h2>Smart-Content</h2>
+    <div property="smartcontent">
+        {% for smartcontent in content.smartcontent.data %}
+        <h2><a href="{{ smartcontent.url }}">{{ smartcontent.title }}</a></h2>
+        {% autoescape false %}
+        {{ smartcontent.article }}
+        {% endautoescape %}
+        {% endfor %}
+    </div>
+{% endblock %}

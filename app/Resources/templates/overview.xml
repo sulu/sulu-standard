@@ -6,7 +6,7 @@
 
     <key>overview</key>
 
-    <view>ClientWebsiteBundle:Website:page.html.twig</view>
+    <view>ClientWebsiteBundle:Website:overview.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
@@ -16,8 +16,8 @@
         <property name="tags" type="tag_list"/>
 
         <property name="url" type="resource_locator" mandatory="true"/>
-        <property name="article" type="text_area"/>
-        <property name="texteditor" type="text_editor"/>
+        <property name="article" type="text_editor"/>
 
+        <property name="smartcontent" type="smart_content"/>
     </properties>
 </template>
