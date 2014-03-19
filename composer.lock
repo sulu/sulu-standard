@@ -2769,12 +2769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductAdvancedBundle.git",
-                "reference": "c251f469769fa813054ac2293426f610695fc2e7"
+                "reference": "f5375a95f34333425df2dffa4cb8f1ffa012bb8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/c251f469769fa813054ac2293426f610695fc2e7",
-                "reference": "c251f469769fa813054ac2293426f610695fc2e7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/f5375a95f34333425df2dffa4cb8f1ffa012bb8b",
+                "reference": "f5375a95f34333425df2dffa4cb8f1ffa012bb8b",
                 "shasum": ""
             },
             "require": {
@@ -2785,11 +2785,13 @@
                 "sulu/admin-bundle": "dev-develop",
                 "sulu/contact-bundle": "dev-develop",
                 "sulu/product-base-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
                 "sulu/sulu": "dev-develop"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2815,7 +2817,7 @@
                 "sulu",
                 "supplier"
             ],
-            "time": "2014-03-11 08:47:24"
+            "time": "2014-03-19 18:46:07"
         },
         {
             "name": "sulu/product-base-bundle",
@@ -2824,12 +2826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "8be3b2a662811d81c4c1ef690cd27f302a7fabfb"
+                "reference": "1f4823aae086f9f6bcf4b42d02975d42f2c0cd99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/8be3b2a662811d81c4c1ef690cd27f302a7fabfb",
-                "reference": "8be3b2a662811d81c4c1ef690cd27f302a7fabfb",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/1f4823aae086f9f6bcf4b42d02975d42f2c0cd99",
+                "reference": "1f4823aae086f9f6bcf4b42d02975d42f2c0cd99",
                 "shasum": ""
             },
             "require": {
@@ -2838,8 +2840,6 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sulu/admin-bundle": "dev-develop",
-                "sulu/product-base-bundle": "dev-develop",
-                "sulu/security-bundle": "dev-develop",
                 "sulu/sulu": "dev-develop"
             },
             "require-dev": {
@@ -2868,7 +2868,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-19 14:08:12"
+            "time": "2014-03-19 18:30:39"
         },
         {
             "name": "sulu/security-bundle",
