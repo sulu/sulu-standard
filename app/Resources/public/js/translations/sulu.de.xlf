@@ -798,6 +798,10 @@
         <source>content.preview.resolutions</source>
         <target>Bildschirmaufösungen</target>
       </trans-unit>
+      <trans-unit id="9d6ff6ec7654ae6c52d966266f34743e" resname="url.home">
+        <source>url.home</source>
+        <target>Privat</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
