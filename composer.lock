@@ -2826,12 +2826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "1f4823aae086f9f6bcf4b42d02975d42f2c0cd99"
+                "reference": "a32c2b48164860f80ad556fc8421b02d2bd90755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/1f4823aae086f9f6bcf4b42d02975d42f2c0cd99",
-                "reference": "1f4823aae086f9f6bcf4b42d02975d42f2c0cd99",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/a32c2b48164860f80ad556fc8421b02d2bd90755",
+                "reference": "a32c2b48164860f80ad556fc8421b02d2bd90755",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-19 18:30:39"
+            "time": "2014-03-19 18:48:54"
         },
         {
             "name": "sulu/security-bundle",
