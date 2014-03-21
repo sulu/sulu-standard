@@ -328,11 +328,11 @@
       </trans-unit>
       <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
         <source>navigation.contacts.people</source>
-        <target>Kontakt</target>
+        <target>Kontakte</target>
       </trans-unit>
       <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
         <source>navigation.contacts.companies</source>
-        <target>Organisation</target>
+        <target>Organisationen</target>
       </trans-unit>
       <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
         <source>navigation.webspaces</source>
