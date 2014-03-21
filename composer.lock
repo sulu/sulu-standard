@@ -253,7 +253,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -434,7 +434,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -512,7 +512,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -2379,7 +2381,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "The base bundle for the Symfony Distributions",
@@ -2426,7 +2430,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "This bundle provides a way to configure your controllers with annotations",
@@ -2478,7 +2484,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "This bundle generates code for you",
@@ -2553,12 +2561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "2c8038fee5e7b26c85a38d427fed63eece9fab58"
+                "reference": "74fc25e4d50b8431c7a7303ad76c599d4c30ba88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/2c8038fee5e7b26c85a38d427fed63eece9fab58",
-                "reference": "2c8038fee5e7b26c85a38d427fed63eece9fab58",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/74fc25e4d50b8431c7a7303ad76c599d4c30ba88",
+                "reference": "74fc25e4d50b8431c7a7303ad76c599d4c30ba88",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2595,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-03-19 10:18:51"
+            "time": "2014-03-19 20:27:34"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2596,12 +2604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "631c9079533a2895517a7be725edc5666fc7d20c"
+                "reference": "0338e58dade956263956c94e4b487da4cb7e0b98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/631c9079533a2895517a7be725edc5666fc7d20c",
-                "reference": "631c9079533a2895517a7be725edc5666fc7d20c",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/0338e58dade956263956c94e4b487da4cb7e0b98",
+                "reference": "0338e58dade956263956c94e4b487da4cb7e0b98",
                 "shasum": ""
             },
             "require": {
@@ -2641,7 +2649,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-03-17 10:31:17"
+            "time": "2014-03-19 19:47:20"
         },
         {
             "name": "sulu/content-bundle",
@@ -2650,12 +2658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "df32373d403fb53ef1f0a8976c1765be26b95bd7"
+                "reference": "ac1ac32f717cecfb66c39da92da82678f4183dc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/df32373d403fb53ef1f0a8976c1765be26b95bd7",
-                "reference": "df32373d403fb53ef1f0a8976c1765be26b95bd7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/ac1ac32f717cecfb66c39da92da82678f4183dc4",
+                "reference": "ac1ac32f717cecfb66c39da92da82678f4183dc4",
                 "shasum": ""
             },
             "require": {
@@ -2701,7 +2709,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-03-19 08:34:51"
+            "time": "2014-03-19 19:39:37"
         },
         {
             "name": "sulu/portal-bundle",
@@ -2761,12 +2769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductAdvancedBundle.git",
-                "reference": "c251f469769fa813054ac2293426f610695fc2e7"
+                "reference": "f5375a95f34333425df2dffa4cb8f1ffa012bb8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/c251f469769fa813054ac2293426f610695fc2e7",
-                "reference": "c251f469769fa813054ac2293426f610695fc2e7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/f5375a95f34333425df2dffa4cb8f1ffa012bb8b",
+                "reference": "f5375a95f34333425df2dffa4cb8f1ffa012bb8b",
                 "shasum": ""
             },
             "require": {
@@ -2777,11 +2785,13 @@
                 "sulu/admin-bundle": "dev-develop",
                 "sulu/contact-bundle": "dev-develop",
                 "sulu/product-base-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
                 "sulu/sulu": "dev-develop"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.3.*",
                 "symfony/symfony": "2.3.*"
             },
@@ -2807,7 +2817,7 @@
                 "sulu",
                 "supplier"
             ],
-            "time": "2014-03-11 08:47:24"
+            "time": "2014-03-19 18:46:07"
         },
         {
             "name": "sulu/product-base-bundle",
@@ -2816,12 +2826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "9901fca43fb2ce75b7ae5622e833da544fee9101"
+                "reference": "d848365570b36d94de792b8f4e2061d70509d7d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/9901fca43fb2ce75b7ae5622e833da544fee9101",
-                "reference": "9901fca43fb2ce75b7ae5622e833da544fee9101",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/d848365570b36d94de792b8f4e2061d70509d7d1",
+                "reference": "d848365570b36d94de792b8f4e2061d70509d7d1",
                 "shasum": ""
             },
             "require": {
@@ -2830,8 +2840,6 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "sulu/admin-bundle": "dev-develop",
-                "sulu/product-base-bundle": "dev-develop",
-                "sulu/security-bundle": "dev-develop",
                 "sulu/sulu": "dev-develop"
             },
             "require-dev": {
@@ -2860,7 +2868,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-17 12:20:50"
+            "time": "2014-03-19 20:15:05"
         },
         {
             "name": "sulu/security-bundle",
@@ -3160,7 +3168,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Chris Corbyn"
@@ -3513,7 +3523,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -3572,7 +3584,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -3728,7 +3742,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "Common additional features for Twig that do not directly belong in core",

@@ -118,6 +118,10 @@ app/console sulu:security:user:create
 ```
 Follow the instruction to create a new user
 
+#### Setup webspace
+Finally copy the file sulu.io.xml.dist from app/Resources/Webspaces/ and remove the '.dist' suffix. Adjustments to the file contents are optionally.
+
+
 ## What's inside?
 
 - [admin-bundle](https://github.com/sulu-cmf/SuluAdminBundle)

@@ -716,19 +716,19 @@
       </trans-unit>
       <trans-unit id="4926f85302370f0c0e5381e2c08797d8" resname="contact.account.add-basic">
         <source>contact.account.add-basic</source>
-        <target>create new contact</target>
+        <target>Create new contact</target>
       </trans-unit>
       <trans-unit id="88eebe41010b0d017b51a2d8aa74d91d" resname="contact.account.add-lead">
         <source>contact.account.add-lead</source>
-        <target>create new lead</target>
+        <target>Create new lead</target>
       </trans-unit>
       <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="contact.account.add-customer">
         <source>contact.account.add-customer</source>
-        <target>create new customer</target>
+        <target>Create new customer</target>
       </trans-unit>
       <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="contact.account.add-supplier">
         <source>contact.account.add-supplier</source>
-        <target>create new supplier</target>
+        <target>Create new supplier</target>
       </trans-unit>
       <trans-unit id="a6ba6e7ec1734jhe3963f5ed4a8c5f28" resname="contact.account.type">
         <source>contact.account.type</source>
