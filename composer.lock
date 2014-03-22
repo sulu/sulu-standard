@@ -2586,7 +2586,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2826,12 +2826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "d848365570b36d94de792b8f4e2061d70509d7d1"
+                "reference": "6772406cc93fc9fc62b8a44dea99093d61710e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/d848365570b36d94de792b8f4e2061d70509d7d1",
-                "reference": "d848365570b36d94de792b8f4e2061d70509d7d1",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/6772406cc93fc9fc62b8a44dea99093d61710e88",
+                "reference": "6772406cc93fc9fc62b8a44dea99093d61710e88",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-19 20:15:05"
+            "time": "2014-03-20 13:55:46"
         },
         {
             "name": "sulu/security-bundle",
@@ -3434,17 +3434,17 @@
         },
         {
             "name": "symfony/icu",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "target-dir": "Symfony/Component/Icu",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Icu.git",
-                "reference": "7299cd3d8d6602103d1ebff5d0a9917b7bc6de72"
+                "reference": "98e197da54df1f966dd5e8a4992135703569c987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Icu/zipball/7299cd3d8d6602103d1ebff5d0a9917b7bc6de72",
-                "reference": "7299cd3d8d6602103d1ebff5d0a9917b7bc6de72",
+                "url": "https://api.github.com/repos/symfony/Icu/zipball/98e197da54df1f966dd5e8a4992135703569c987",
+                "reference": "98e197da54df1f966dd5e8a4992135703569c987",
                 "shasum": ""
             },
             "require": {
@@ -3478,7 +3478,7 @@
                 "icu",
                 "intl"
             ],
-            "time": "2013-06-03 18:32:58"
+            "time": "2013-10-04 10:06:38"
         },
         {
             "name": "symfony/monolog-bundle",
