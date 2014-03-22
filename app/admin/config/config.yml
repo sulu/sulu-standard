@@ -84,7 +84,8 @@ fos_rest:
 
 sulu_core:
     phpcr:
-        url: %phpcr_url%
+        backend:
+            type: doctrinedbal
         username: %phpcr_username%
         password: %phpcr_password%
         workspace: %phpcr_workspace%
