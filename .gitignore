@@ -27,3 +27,4 @@
 # templates
 /app/Resources/templates/*
 !/app/Resources/templates/default.xml.dist
+!/app/Resources/templates/overview.xml.dist
