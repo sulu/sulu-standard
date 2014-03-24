@@ -117,7 +117,7 @@ cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
 ```
 You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
 
-#### Setup PHPCR Session
+##### Setup PHPCR Session
 Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
 
 #### Init Content Repository
