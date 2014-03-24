@@ -328,11 +328,11 @@
       </trans-unit>
       <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
         <source>navigation.contacts.people</source>
-        <target>Kontakt</target>
+        <target>Kontakte</target>
       </trans-unit>
       <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
         <source>navigation.contacts.companies</source>
-        <target>Organisation</target>
+        <target>Organisationen</target>
       </trans-unit>
       <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
         <source>navigation.webspaces</source>
@@ -341,6 +341,14 @@
       <trans-unit id="eefab6371eb9c8bb5457d1f5e35014a2" resname="navigation.webspaces.pages">
         <source>navigation.webspaces.pages</source>
         <target>Seiten</target>
+      </trans-unit>
+      <trans-unit id="eefaba371eb9c8bb5457d1f5e3554367" resname="navigation.version-history">
+        <source>navigation.version-history</source>
+        <target>Versionsverlauf</target>
+      </trans-unit>
+      <trans-unit id="eefab63b1eb9c8bb5457d1f5e3566689" resname="navigation.user">
+        <source>navigation.user</source>
+        <target>Benutzer</target>
       </trans-unit>
       <trans-unit id="da096463200e2c1bd9bdd1321852e268" resname="content-navigation.security.permissions">
         <source>content-navigation.security.permissions</source>
@@ -716,19 +724,19 @@
       </trans-unit>
       <trans-unit id="4926f85302370f0c0e5381e2c08797d8" resname="contact.account.add-basic">
         <source>contact.account.add-basic</source>
-        <target>neuen Account erstellen</target>
+        <target>Neuen Account erstellen</target>
       </trans-unit>
       <trans-unit id="88eebe41010b0d017b51a2d8aa74d91d" resname="contact.account.add-lead">
         <source>contact.account.add-lead</source>
-        <target>neuen Interessenten erstellen</target>
+        <target>Neuen Interessenten erstellen</target>
       </trans-unit>
       <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="contact.account.add-customer">
         <source>contact.account.add-customer</source>
-        <target>neuen Kunden erstellen</target>
+        <target>Neuen Kunden erstellen</target>
       </trans-unit>
       <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="contact.account.add-supplier">
         <source>contact.account.add-supplier</source>
-        <target>neuen Lieferanten erstellen</target>
+        <target>Neuen Lieferanten erstellen</target>
       </trans-unit>
       <trans-unit id="a6ba6e7ec1734jhe3963f5ed4a8c5f28" resname="contact.account.type">
         <source>contact.account.type</source>
@@ -797,6 +805,10 @@
       <trans-unit id="9d6ff6ec28392e6c52d795266f34743e" resname="content.preview.resolutions">
         <source>content.preview.resolutions</source>
         <target>Bildschirmaufösungen</target>
+      </trans-unit>
+      <trans-unit id="9d6ff6ec7654ae6c52d966266f34743e" resname="url.home">
+        <source>url.home</source>
+        <target>Privat</target>
       </trans-unit>
     </body>
   </file>
