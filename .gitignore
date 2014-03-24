@@ -22,9 +22,8 @@
 
 # webspaces
 /app/Resources/webspaces/*
-!/app/Resources/webspaces/sulu.io.xml.dist
+!/app/Resources/webspaces/*.dist
 
 # templates
 /app/Resources/templates/*
-!/app/Resources/templates/default.xml.dist
-!/app/Resources/templates/overview.xml.dist
+!/app/Resources/templates/*.dist
