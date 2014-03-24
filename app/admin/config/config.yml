@@ -1,5 +1,6 @@
 imports:
     - { resource: ../../Resources/config/parameters.yml }
+    - { resource: ../../Resources/config/phpcr.yml }
     - { resource: security.yml }
 
 framework:
@@ -84,11 +85,10 @@ fos_rest:
 
 sulu_core:
     phpcr:
-        backend:
-            type: doctrinedbal
-        username: %phpcr_username%
-        password: %phpcr_password%
+        backend: %phpcr_backend%
         workspace: %phpcr_workspace%
+        username: %phpcr_user%
+        password: %phpcr_pass%
     webspace:
         config_dir: "%kernel.root_dir%/../Resources/webspaces"
         request_analyzer:

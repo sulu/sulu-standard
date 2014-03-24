@@ -11,6 +11,7 @@
 /bin/
 /composer.phar
 /jackrabbit
+/app/Resources/config/phpcr.yml
 
 # IDEs
 .idea/*
