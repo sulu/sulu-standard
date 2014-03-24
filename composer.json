@@ -50,7 +50,8 @@
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
-        "sulu/test-bundle": "dev-develop"
+        "sulu/test-bundle": "dev-develop",
+        "jackalope/jackalope-doctrine-dbal": "@dev"
     },
     "scripts": {
         "post-install-cmd": [
