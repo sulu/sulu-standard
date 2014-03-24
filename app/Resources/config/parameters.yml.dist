@@ -14,3 +14,6 @@ parameters:
     locale:             en
     secret:             ThisTokenIsNotSoSecretChangeIt
     sulu_admin.name:    SULU 2.0
+
+    content_fallback_intervall: 5000
+    $content_preview_port: 9876

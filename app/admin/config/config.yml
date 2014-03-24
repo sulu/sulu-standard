@@ -96,6 +96,13 @@ sulu_core:
     content:
         ~
 
+sulu_content:
+    preview:
+        fallback:
+            interval: %content_fallback_intervall%
+        websocket:
+            port: $content_preview_port%
+
 sulu_admin:
     name: SULU 2.0
 
