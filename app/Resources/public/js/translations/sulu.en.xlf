@@ -342,6 +342,14 @@
         <source>navigation.webspaces.pages</source>
         <target>Pages</target>
       </trans-unit>
+      <trans-unit id="eefaba371eb9c8bb5457d1f5e3554367" resname="navigation.version-history">
+        <source>navigation.version-history</source>
+        <target>Version history</target>
+      </trans-unit>
+      <trans-unit id="eefab63b1eb9c8bb5457d1f5e3566689" resname="navigation.user">
+        <source>navigation.user</source>
+        <target>User</target>
+      </trans-unit>
       <trans-unit id="da096463200e2c1bd9bdd1321852e268" resname="content-navigation.security.permissions">
         <source>content-navigation.security.permissions</source>
         <target>Permissions</target>
