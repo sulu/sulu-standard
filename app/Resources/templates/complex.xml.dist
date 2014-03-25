@@ -16,8 +16,10 @@
         <property name="article" type="text_editor" mandatory="true"/>
 
         <block name="block1" minOccurs="2" maxOccurs="10" mandatory="true">
-            <property name="title" type="text_line" mandatory="true"/>
-            <property name="article" type="text_area" mandatory="true" minOccurs="2"/>
+            <properties>
+                <property name="title" type="text_line" mandatory="true"/>
+                <property name="article" type="text_area" mandatory="true"/>
+            </properties>
         </block>
     </properties>
 </template>
