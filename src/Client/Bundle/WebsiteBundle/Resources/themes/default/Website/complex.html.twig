@@ -1,0 +1,19 @@
+{% extends "ClientWebsiteBundle:Website:master.html.twig" %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block content %}
+    <h1 property="title">{{ content.title }}</h1>
+    {% autoescape false %}
+    <div property="article">{{ content.article }}</div>
+    {% endautoescape %}
+
+    <div id="block1" property="block1">
+        {% for block in content.block1 %}
+            <div class="block-item">
+                <h2>{{ block.title }}</h2>
+                <p>{{ block.article }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
