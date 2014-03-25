@@ -264,11 +264,11 @@
       </trans-unit>
       <trans-unit id="bd6071cc375280e4ef2f080de41d62f0" resname="security.permission.email">
         <source>security.permission.email</source>
-        <target>Default E-Mail address</target>
+        <target>Default email</target>
       </trans-unit>
       <trans-unit id="335eed3524bda024ac06455fc22da0e1" resname="security.permission.titlePermissions">
         <source>security.permission.titlePermissions</source>
-        <target>Sulu permissions</target>
+        <target>Permissions</target>
       </trans-unit>
       <trans-unit id="291bcdd38b7826cf6a0e3db88bdd0c2b" resname="security.permission.role.title">
         <source>security.permission.role.title</source>
@@ -384,7 +384,7 @@
       </trans-unit>
       <trans-unit id="8c16a1fe6abba7701446e0f4515e096b" resname="security.permission.locale">
         <source>security.permission.locale</source>
-        <target>Language</target>
+        <target>System language</target>
       </trans-unit>
       <trans-unit id="ba94026d08c4e74cc8d19436f7838a95" resname="pagination.page">
         <source>pagination.page</source>
