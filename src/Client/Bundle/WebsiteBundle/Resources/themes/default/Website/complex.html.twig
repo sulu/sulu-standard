@@ -8,11 +8,11 @@
     <div property="article">{{ content.article }}</div>
     {% endautoescape %}
 
-    <div id="block1" property="block1">
-        {% for block in content.block1 %}
+    <div id="block" property="block">
+        {% for block in content.block %}
             <div class="block-item">
-                <h2>{{ block.title }}</h2>
-                <p>{{ block.article }}</p>
+                <h2 property="title">{{ block.title }}</h2>
+                <p property="article">{{ block.article }}</p>
             </div>
         {% endfor %}
     </div>
