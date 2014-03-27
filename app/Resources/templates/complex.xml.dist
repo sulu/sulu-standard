@@ -15,7 +15,7 @@
         <property name="url" type="resource_locator" mandatory="true"/>
         <property name="article" type="text_editor" mandatory="true"/>
 
-        <block name="block1" minOccurs="2" maxOccurs="10" mandatory="true">
+        <block name="block" minOccurs="2" maxOccurs="10" mandatory="true">
             <properties>
                 <property name="title" type="text_line" mandatory="true"/>
                 <property name="article" type="text_area" mandatory="true"/>
