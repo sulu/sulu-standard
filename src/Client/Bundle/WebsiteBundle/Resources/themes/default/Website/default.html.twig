@@ -3,8 +3,10 @@
 {% block title %}{{ content.title }}{% endblock %}
 
 {% block content %}
-    <h1 property="title">{{ content.title }}</h1>
-    {% autoescape false %}
-    <div property="article">{{ content.article }}</div>
-    {% endautoescape %}
+    <div id="content" vocab="http://schema.org/" typeof="Content">
+        <h1 property="title">{{ content.title }}</h1>
+        {% autoescape false %}
+        <div property="article">{{ content.article }}</div>
+        {% endautoescape %}
+    </div>
 {% endblock %}
