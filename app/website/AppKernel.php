@@ -24,6 +24,7 @@ class AppKernel extends Kernel
 
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
+            // ebables sulu bundles
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
@@ -31,6 +32,10 @@ class AppKernel extends Kernel
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+
+            // enable cmf bundles
+            new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
