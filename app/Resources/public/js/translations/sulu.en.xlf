@@ -582,6 +582,10 @@
         <source>template.overview</source>
         <target>Overview</target>
       </trans-unit>
+      <trans-unit id="24291c9e0aff4e7ee3f959ac29f77653" resname="template.complex">
+        <source>template.complex</source>
+        <target>Complex</target>
+      </trans-unit>
       <trans-unit id="ad64f69edc5ce6dae6033001f5d01b6e" resname="content.template.dialog.titile">
         <source>content.template.dialog.titile</source>
         <target>Change Template</target>
