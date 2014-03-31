@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "f2c67b346084e70c66922cde6af909b74c2a1ca8"
+                "reference": "006a9573cee3d30a721f137facd5467f4e63bed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/f2c67b346084e70c66922cde6af909b74c2a1ca8",
-                "reference": "f2c67b346084e70c66922cde6af909b74c2a1ca8",
+                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/006a9573cee3d30a721f137facd5467f4e63bed8",
+                "reference": "006a9573cee3d30a721f137facd5467f4e63bed8",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-02-17 21:06:37"
+            "time": "2014-03-30 16:41:17"
         },
         {
             "name": "doctrine/annotations",
@@ -2562,12 +2562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "41648292052b9a69a92e8f30936f2e0aa5d2b4db"
+                "reference": "583674120dc534e4de57bae7a03348898b453f55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/41648292052b9a69a92e8f30936f2e0aa5d2b4db",
-                "reference": "41648292052b9a69a92e8f30936f2e0aa5d2b4db",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/583674120dc534e4de57bae7a03348898b453f55",
+                "reference": "583674120dc534e4de57bae7a03348898b453f55",
                 "shasum": ""
             },
             "require": {
@@ -2596,7 +2596,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-03-28 16:22:46"
+            "time": "2014-03-31 06:47:50"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3198,12 +3198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "a619d8398f5e3b1b78f3627138d2d8edcb015bf7"
+                "reference": "ea20e56a14c5efede381e1f4eff4e5a16a79edfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/a619d8398f5e3b1b78f3627138d2d8edcb015bf7",
-                "reference": "a619d8398f5e3b1b78f3627138d2d8edcb015bf7",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/ea20e56a14c5efede381e1f4eff4e5a16a79edfe",
+                "reference": "ea20e56a14c5efede381e1f4eff4e5a16a79edfe",
                 "shasum": ""
             },
             "require": {
@@ -3250,7 +3250,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2014-03-27 21:40:02"
+            "time": "2014-03-30 13:16:55"
         },
         {
             "name": "symfony-cmf/routing",
