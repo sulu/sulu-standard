@@ -774,6 +774,10 @@
         <source>public.fax</source>
         <target>Fax</target>
       </trans-unit>
+      <trans-unit id="19be38285ee7f37a396474cf1ead3669" resname="public.url">
+        <source>public.url</source>
+        <target>Website</target>
+      </trans-unit>
       <trans-unit id="19be38e89ee7f3a8d96474cf1ead3669" resname="public.note">
         <source>public.notes</source>
         <target>Note</target>
