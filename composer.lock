@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1755,7 +1755,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2605,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "52518305fce2ba274941d783be2243be1dcde301"
+                "reference": "868d31e84f2693ca3f1c59dc6b3f623232471111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/52518305fce2ba274941d783be2243be1dcde301",
-                "reference": "52518305fce2ba274941d783be2243be1dcde301",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/868d31e84f2693ca3f1c59dc6b3f623232471111",
+                "reference": "868d31e84f2693ca3f1c59dc6b3f623232471111",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-03-28 15:53:44"
+            "time": "2014-03-31 11:28:55"
         },
         {
             "name": "sulu/content-bundle",
@@ -2971,7 +2971,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides basic core functionality",
@@ -3198,12 +3198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "ea20e56a14c5efede381e1f4eff4e5a16a79edfe"
+                "reference": "fadc0d1e0590debed5e3d6ea3570ecf158cbdea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/ea20e56a14c5efede381e1f4eff4e5a16a79edfe",
-                "reference": "ea20e56a14c5efede381e1f4eff4e5a16a79edfe",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/fadc0d1e0590debed5e3d6ea3570ecf158cbdea8",
+                "reference": "fadc0d1e0590debed5e3d6ea3570ecf158cbdea8",
                 "shasum": ""
             },
             "require": {
@@ -3250,7 +3250,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2014-03-30 13:16:55"
+            "time": "2014-04-01 07:47:46"
         },
         {
             "name": "symfony-cmf/routing",
@@ -3854,7 +3854,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
