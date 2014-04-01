@@ -582,6 +582,10 @@
         <source>template.overview</source>
         <target>Überblick</target>
       </trans-unit>
+      <trans-unit id="24291c9e0aff4e7ee3f959ac29f77653" resname="template.complex">
+        <source>template.complex</source>
+        <target>Komplex</target>
+      </trans-unit>
       <trans-unit id="ad64f69edc5ce6dae6033001f5d01b6e" resname="content.template.dialog.titile">
         <source>content.template.dialog.titile</source>
         <target>Template ändern</target>
@@ -769,6 +773,10 @@
       <trans-unit id="19be38e89ee7f37a396474cf1ead3669" resname="public.fax">
         <source>public.fax</source>
         <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="19be38285ee7f37a396474cf1ead3669" resname="public.url">
+        <source>public.url</source>
+        <target>Website</target>
       </trans-unit>
       <trans-unit id="19be38e89ee7f3a8d96474cf1ead3669" resname="public.note">
         <source>public.notes</source>
