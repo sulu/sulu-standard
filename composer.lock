@@ -2605,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "52518305fce2ba274941d783be2243be1dcde301"
+                "reference": "868d31e84f2693ca3f1c59dc6b3f623232471111"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/52518305fce2ba274941d783be2243be1dcde301",
-                "reference": "52518305fce2ba274941d783be2243be1dcde301",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/868d31e84f2693ca3f1c59dc6b3f623232471111",
+                "reference": "868d31e84f2693ca3f1c59dc6b3f623232471111",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-03-28 15:53:44"
+            "time": "2014-03-31 11:28:55"
         },
         {
             "name": "sulu/content-bundle",
