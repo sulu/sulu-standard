@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1755,7 +1755,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2562,12 +2562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "583674120dc534e4de57bae7a03348898b453f55"
+                "reference": "a1e9870dc606c4870cb9c7259cc2c089e4602328"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/583674120dc534e4de57bae7a03348898b453f55",
-                "reference": "583674120dc534e4de57bae7a03348898b453f55",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/a1e9870dc606c4870cb9c7259cc2c089e4602328",
+                "reference": "a1e9870dc606c4870cb9c7259cc2c089e4602328",
                 "shasum": ""
             },
             "require": {
@@ -2596,7 +2596,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-03-31 06:47:50"
+            "time": "2014-04-01 08:49:16"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2971,7 +2971,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides basic core functionality",
@@ -3854,7 +3854,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
