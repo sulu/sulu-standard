@@ -1,7 +1,7 @@
 <ul>
     {% for item in navigation %}
         <li>
-            <a href="{{ item.url }}" title="{{ item.title }}">{{ item.content.title }}</a>
+            <a href="{{ content_path(item) }}" title="{{ item.title }}">{{ item.content.title }}</a>
             {% if item.children|length > 0 %}
                 {% include 'ClientWebsiteBundle:Website:navigation.html.twig' with {navigation: item.children} %}
             {% endif %}
