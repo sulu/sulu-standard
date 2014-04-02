@@ -13,7 +13,7 @@
 
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent.data %}
-                <h2><a href="{{ smartcontent.url }}">{{ smartcontent.title }}</a></h2>
+                <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
                 {% autoescape false %}
                 {{ smartcontent.article }}
                 {% endautoescape %}

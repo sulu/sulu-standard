@@ -12,7 +12,7 @@
             </div>
             <div id="outer" class="clearfix">
                 <div id="navigation">
-                    <h3><a href="/">Navigation</a></h3>
+                    <h3><a href="{{ content_root_path() }}">Navigation</a></h3>
                     {% if navigation is defined %}
                         {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
                     {% endif %}
