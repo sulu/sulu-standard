@@ -92,7 +92,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1051,12 +1051,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
+                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -2659,12 +2659,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "9720aa52674f55f3db90343eeeb3b1744aa377e1"
+                "reference": "bd4ffc9843065978a02c34709682c99818a1f71f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/9720aa52674f55f3db90343eeeb3b1744aa377e1",
-                "reference": "9720aa52674f55f3db90343eeeb3b1744aa377e1",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/bd4ffc9843065978a02c34709682c99818a1f71f",
+                "reference": "bd4ffc9843065978a02c34709682c99818a1f71f",
                 "shasum": ""
             },
             "require": {
@@ -2682,7 +2682,10 @@
                 "sulu/security-bundle": "dev-develop",
                 "sulu/sulu": "dev-develop",
                 "sulu/tag-bundle": "dev-develop",
-                "sulu/website-bundle": "dev-develop"
+                "sulu/website-bundle": "dev-develop",
+                "symfony-cmf/core-bundle": "1.1.*@dev",
+                "symfony-cmf/routing": "1.2.*@dev",
+                "symfony-cmf/routing-bundle": "1.2.*@dev"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -2712,7 +2715,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-04-02 14:42:31"
+            "time": "2014-04-02 16:03:32"
         },
         {
             "name": "sulu/portal-bundle",
@@ -3095,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "c029187d65730b19d2adb4cd151d94bfeb390183"
+                "reference": "fd0406e4eee438ebf2999f59c9484e52e4e2bc1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/c029187d65730b19d2adb4cd151d94bfeb390183",
-                "reference": "c029187d65730b19d2adb4cd151d94bfeb390183",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/fd0406e4eee438ebf2999f59c9484e52e4e2bc1b",
+                "reference": "fd0406e4eee438ebf2999f59c9484e52e4e2bc1b",
                 "shasum": ""
             },
             "require": {
@@ -3139,7 +3142,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-04-02 13:19:58"
+            "time": "2014-04-02 19:56:27"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3855,7 +3858,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
