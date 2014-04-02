@@ -2562,12 +2562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "6b81489573886c52b90b047adaae2531390f5dd4"
+                "reference": "d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/6b81489573886c52b90b047adaae2531390f5dd4",
-                "reference": "6b81489573886c52b90b047adaae2531390f5dd4",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2",
+                "reference": "d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2587,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2596,7 +2596,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-04-02 09:05:35"
+            "time": "2014-04-02 12:23:39"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2605,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "327838d1b2451f7b82fdd252cb23c641b6857abd"
+                "reference": "0879cdd01fab66a77c5d618993749c2f6cbbd4e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/327838d1b2451f7b82fdd252cb23c641b6857abd",
-                "reference": "327838d1b2451f7b82fdd252cb23c641b6857abd",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/0879cdd01fab66a77c5d618993749c2f6cbbd4e1",
+                "reference": "0879cdd01fab66a77c5d618993749c2f6cbbd4e1",
                 "shasum": ""
             },
             "require": {
@@ -2650,7 +2650,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-04-02 09:56:24"
+            "time": "2014-04-02 12:26:39"
         },
         {
             "name": "sulu/content-bundle",
@@ -3095,12 +3095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "ac049c133c624554102b005e3205e9121df1da69"
+                "reference": "e86162e2a18f85d901f9adfb903868bc7ddee5cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/ac049c133c624554102b005e3205e9121df1da69",
-                "reference": "ac049c133c624554102b005e3205e9121df1da69",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/e86162e2a18f85d901f9adfb903868bc7ddee5cd",
+                "reference": "e86162e2a18f85d901f9adfb903868bc7ddee5cd",
                 "shasum": ""
             },
             "require": {
@@ -3109,6 +3109,7 @@
                 "liip/theme-bundle": "1.0.*@dev",
                 "php": ">=5.4",
                 "sulu/sulu": "dev-develop",
+                "symfony-cmf/routing": "1.2.*@dev",
                 "symfony-cmf/routing-bundle": "1.2.*@dev"
             },
             "require-dev": {
@@ -3138,7 +3139,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-04-02 11:43:25"
+            "time": "2014-04-02 11:55:27"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3317,12 +3318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "9075b780f8d88480fd0149b58e3685ac116f15d2"
+                "reference": "63e9b66cdcd8c5fb33131903f8dcb44e8662d464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/9075b780f8d88480fd0149b58e3685ac116f15d2",
-                "reference": "9075b780f8d88480fd0149b58e3685ac116f15d2",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/63e9b66cdcd8c5fb33131903f8dcb44e8662d464",
+                "reference": "63e9b66cdcd8c5fb33131903f8dcb44e8662d464",
                 "shasum": ""
             },
             "require": {
@@ -3374,7 +3375,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2014-04-02 06:07:43"
+            "time": "2014-04-02 11:48:38"
         },
         {
             "name": "symfony/assetic-bundle",
