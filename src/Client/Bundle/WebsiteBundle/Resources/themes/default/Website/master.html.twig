@@ -17,9 +17,7 @@
                         {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
                     {% endif %}
                 </div>
-                <div id="content" vocab="http://schema.org/" typeof="Content">
-                    {% block content %}{% endblock %}
-                </div>
+                {% block content %}{% endblock %}
             </div>
             <div id="footer">
                 &copy; 2014: Massiveart

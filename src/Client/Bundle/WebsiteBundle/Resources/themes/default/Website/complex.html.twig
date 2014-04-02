@@ -9,14 +9,15 @@
         <div property="article">{{ content.article }}</div>
         {% endautoescape %}
 
-        <h2>Smart-Content</h2>
+        <div property="block" typeof="collection">
+            {% set i = 0 %}
+            {% for block in content.block %}
+                <div rel="block" typeof="block">
+                    <h2 property="title">{{ block.title|default('')|nl2br }}</h2>
 
-        <div property="smartcontent">
-            {% for smartcontent in content.smartcontent.data %}
-                <h2><a href="{{ smartcontent.url }}">{{ smartcontent.title }}</a></h2>
-                {% autoescape false %}
-                {{ smartcontent.article }}
-                {% endautoescape %}
+                    <p property="article">{{ block.article|default('')|nl2br }}</p>
+                </div>
+                {% set i = i+1 %}
             {% endfor %}
         </div>
     </div>
