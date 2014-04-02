@@ -40,9 +40,9 @@
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/phpcr-odm": "1.0.*",
 
-        "symfony-cmf/core-bundle": "@dev",
-        "symfony-cmf/routing-bundle": "@dev",
-        "symfony-cmf/routing": "@dev",
+        "symfony-cmf/core-bundle": "1.1.*@dev",
+        "symfony-cmf/routing-bundle": "1.2.*@dev",
+        "symfony-cmf/routing": "1.2.*@dev",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev"
     },
