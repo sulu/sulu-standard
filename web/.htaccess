@@ -5,7 +5,7 @@
 # to each configured DirectoryIndex file (e.g. index.php, index.html, index.pl).
 DirectoryIndex app.php
 
-SetEnv APP_ENV prod
+SetEnv APP_ENV dev
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
