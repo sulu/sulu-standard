@@ -2562,12 +2562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2"
+                "reference": "3d84b7045fdad2f25751def20f857a9d7d052e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2",
-                "reference": "d7ae49b66c79d46b36681b8f2a9aa9f801f5e1b2",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/3d84b7045fdad2f25751def20f857a9d7d052e1d",
+                "reference": "3d84b7045fdad2f25751def20f857a9d7d052e1d",
                 "shasum": ""
             },
             "require": {
@@ -2587,7 +2587,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2596,7 +2596,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-04-02 12:23:39"
+            "time": "2014-04-02 12:44:15"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3095,12 +3095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "e86162e2a18f85d901f9adfb903868bc7ddee5cd"
+                "reference": "0ccac7352cc2abfc412a5e5d7d35aed0ba2c0375"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/e86162e2a18f85d901f9adfb903868bc7ddee5cd",
-                "reference": "e86162e2a18f85d901f9adfb903868bc7ddee5cd",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/0ccac7352cc2abfc412a5e5d7d35aed0ba2c0375",
+                "reference": "0ccac7352cc2abfc412a5e5d7d35aed0ba2c0375",
                 "shasum": ""
             },
             "require": {
@@ -3139,7 +3139,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-04-02 11:55:27"
+            "time": "2014-04-02 12:29:18"
         },
         {
             "name": "swiftmailer/swiftmailer",
