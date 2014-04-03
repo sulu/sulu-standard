@@ -4,20 +4,34 @@
 
 {% block content %}
     <div id="content" vocab="http://schema.org/" typeof="Content">
-        <h1 property="title">{{ content.title }}</h1>
-        {% autoescape false %}
-        <div property="article">{{ content.article }}</div>
-        {% endautoescape %}
 
-        <h2>Smart-Content</h2>
-
-        <div property="smartcontent">
-            {% for smartcontent in content.smartcontent.data %}
-                <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header" property="title">{{ content.title }}</h1>
                 {% autoescape false %}
-                {{ smartcontent.article }}
+                <div property="article">{{ content.article }}</div>
                 {% endautoescape %}
-            {% endfor %}
+            </div>
         </div>
+
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h2>Smart-Content</h2>
+            </div>
+
+            <div property="smartcontent">
+                {% for smartcontent in content.smartcontent.data %}
+                    <div class="col-lg-4">
+                        <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                        {% autoescape false %}
+                        {{ smartcontent.article }}
+                        {% endautoescape %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
     </div>
 {% endblock %}
