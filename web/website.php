@@ -22,7 +22,7 @@ $loader->register(true);
 */
 
 require_once __DIR__ . '/../app/website/AppKernel.php';
-require_once __DIR__.'/../app/website/AppCache.php';
+require_once __DIR__ . '/../app/website/AppCache.php';
 
 $kernel = new AppKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
 $kernel->loadClassCache();
