@@ -178,6 +178,10 @@
         <source>phone.work</source>
         <target>Business</target>
       </trans-unit>
+      <trans-unit id="2ae8f62c2530b4303646d958874aa62e" resname="phone.fax">
+        <source>phone.fax</source>
+        <target>Fax</target>
+      </trans-unit>
       <trans-unit id="e7f59f60cc850de26922b29a1dcc3826" resname="address.home">
         <source>address.home</source>
         <target>Home</target>
@@ -336,7 +340,7 @@
       </trans-unit>
       <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
         <source>navigation.webspaces</source>
-        <target>Web-Spaces</target>
+        <target>Web-spaces</target>
       </trans-unit>
       <trans-unit id="eefab6371eb9c8bb5457d1f5e35014a2" resname="navigation.webspaces.pages">
         <source>navigation.webspaces.pages</source>
