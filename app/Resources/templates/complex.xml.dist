@@ -18,7 +18,7 @@
         <block name="block" minOccurs="2" maxOccurs="10" mandatory="true">
             <properties>
                 <property name="title" type="text_line" mandatory="true"/>
-                <property name="article" type="text_area" mandatory="true"/>
+                <property name="article" type="text_editor" mandatory="true"/>
             </properties>
         </block>
     </properties>
