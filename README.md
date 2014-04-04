@@ -114,6 +114,8 @@ Templates are configured in the `app/Resources/templates`-folder. Copying the ex
 
 ```
 cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
+cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml
+cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml
 ```
 You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
 
