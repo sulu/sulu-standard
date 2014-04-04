@@ -99,6 +99,29 @@ wget http://archive.apache.org/dist/jackrabbit/2.6.3/jackrabbit-standalone-2.6.3
 java -jar jackrabbit-standalone-2.6.3.jar
 ```
 
+#### Create required configuration files
+Before you go on with the initialization of the content repository, you have to make sure that all required configuration files exist.
+
+##### Webspaces
+Webspaces are configured in the `app/Resources/webspaces`-folder. Copying the existing example should be enough for a local installation:
+```
+cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
+```
+On an online installation you have to adjust the URLs in this file.
+
+##### Templates
+Templates are configured in the `app/Resources/templates`-folder. Copying the existing default template should be enough for a simple page containing a title, a link and a texteditor:
+
+```
+cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
+cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml
+cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml
+```
+You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
+
+##### Setup PHPCR Session
+Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
+
 #### Init Content Repository
 
 ```
@@ -117,6 +140,7 @@ app/console sulu:webspaces:init
 app/console sulu:security:user:create
 ```
 Follow the instruction to create a new user
+
 
 ## What's inside?
 

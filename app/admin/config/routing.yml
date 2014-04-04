@@ -40,6 +40,14 @@ sulu_productbase:
     resource: "@SuluProductBaseBundle/Resources/config/routing.yml"
     prefix: /admin/productbase
 
+sulu_product_advanced:
+    resource: "@SuluProductAdvancedBundle/Resources/config/routing.yml"
+    prefix: /admin
+
+sulu_product_advanced_api:
+    resource: "@SuluProductAdvancedBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
+
 sulu_content_api:
     type: rest
     resource: "@SuluContentBundle/Resources/config/routing_api.yml"

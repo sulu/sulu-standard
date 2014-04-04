@@ -11,6 +11,7 @@
 /bin/
 /composer.phar
 /jackrabbit
+/app/Resources/config/phpcr.yml
 
 # IDEs
 .idea/*
@@ -21,5 +22,9 @@
 
 
 # webspaces
-/app/Resources/webspaces
-!/app/Resources/webspaces/sulu.io.xml.dist
+/app/Resources/webspaces/*
+!/app/Resources/webspaces/*.dist
+
+# templates
+/app/Resources/templates/*
+!/app/Resources/templates/*.dist

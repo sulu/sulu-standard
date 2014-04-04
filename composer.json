@@ -41,9 +41,9 @@
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/phpcr-odm": "1.0.*",
 
-        "symfony-cmf/core-bundle": "@dev",
-        "symfony-cmf/routing-bundle": "@dev",
-        "symfony-cmf/routing": "@dev",
+        "symfony-cmf/core-bundle": "1.1.*@dev",
+        "symfony-cmf/routing-bundle": "1.2.*@dev",
+        "symfony-cmf/routing": "1.2.*@dev",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev"
     },
@@ -51,7 +51,8 @@
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
-        "sulu/test-bundle": "dev-develop"
+        "sulu/test-bundle": "dev-develop",
+        "jackalope/jackalope-doctrine-dbal": "@dev"
     },
     "scripts": {
         "post-install-cmd": [
