@@ -23,7 +23,16 @@
 
             <!-- header -->
             <div class="masthead">
-                <h3 class="text-muted"><a href="{{ content_root_path() }}">SULU CMF</a></h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="text-muted">
+                            <a href="{{ content_root_path() }}">SULU CMF</a></h3>
+                    </div>
+                    <div class="col-lg-6 text-right">
+                        <a href="/de">de</a> |
+                        <a href="/en">en</a>
+                    </div>
+                </div>
                 <br/>
                 {% if navigation is defined %}
                     {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
