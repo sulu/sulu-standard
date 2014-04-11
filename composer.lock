@@ -2659,12 +2659,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "f6289655e6410cb4a77854e1e4a528dbbfa4fabd"
+                "reference": "be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/f6289655e6410cb4a77854e1e4a528dbbfa4fabd",
-                "reference": "f6289655e6410cb4a77854e1e4a528dbbfa4fabd",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3",
+                "reference": "be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3",
                 "shasum": ""
             },
             "require": {
@@ -2715,7 +2715,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-04-11 08:01:12"
+            "time": "2014-04-11 09:59:19"
         },
         {
             "name": "sulu/portal-bundle",
@@ -3321,12 +3321,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "eb68f214b4c9e19d5defa11db2215dfdcc8946d0"
+                "reference": "0870e64ed4068ee703531be729ce4a15bd32d827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/eb68f214b4c9e19d5defa11db2215dfdcc8946d0",
-                "reference": "eb68f214b4c9e19d5defa11db2215dfdcc8946d0",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/0870e64ed4068ee703531be729ce4a15bd32d827",
+                "reference": "0870e64ed4068ee703531be729ce4a15bd32d827",
                 "shasum": ""
             },
             "require": {
@@ -3378,7 +3378,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2014-04-07 17:05:14"
+            "time": "2014-04-11 10:55:27"
         },
         {
             "name": "symfony/assetic-bundle",
