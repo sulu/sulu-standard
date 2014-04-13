@@ -1848,12 +1848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipThemeBundle.git",
-                "reference": "d80100fccb93155fcafb026aff23c26912b250f9"
+                "reference": "20bd3424f31fc9e2b66651b4ab54c024f1c434fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/d80100fccb93155fcafb026aff23c26912b250f9",
-                "reference": "d80100fccb93155fcafb026aff23c26912b250f9",
+                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/20bd3424f31fc9e2b66651b4ab54c024f1c434fd",
+                "reference": "20bd3424f31fc9e2b66651b4ab54c024f1c434fd",
                 "shasum": ""
             },
             "require": {
@@ -1893,7 +1893,7 @@
                 "themes",
                 "theming"
             ],
-            "time": "2014-04-02 22:26:59"
+            "time": "2014-04-11 19:02:07"
         },
         {
             "name": "monolog/monolog",
@@ -2775,12 +2775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductAdvancedBundle.git",
-                "reference": "6090359f77707631547124bd6c194a7b47175815"
+                "reference": "91fb6b501b78098cae826e7e4b7c1d484e225407"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/6090359f77707631547124bd6c194a7b47175815",
-                "reference": "6090359f77707631547124bd6c194a7b47175815",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/91fb6b501b78098cae826e7e4b7c1d484e225407",
+                "reference": "91fb6b501b78098cae826e7e4b7c1d484e225407",
                 "shasum": ""
             },
             "require": {
@@ -2823,7 +2823,7 @@
                 "sulu",
                 "supplier"
             ],
-            "time": "2014-04-04 08:07:02"
+            "time": "2014-04-12 15:37:57"
         },
         {
             "name": "sulu/product-base-bundle",
