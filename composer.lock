@@ -11,18 +11,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "006a9573cee3d30a721f137facd5467f4e63bed8"
+                "reference": "67cedf0ce6b6c7fbb5e305e0667ac219e655d561"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/006a9573cee3d30a721f137facd5467f4e63bed8",
-                "reference": "006a9573cee3d30a721f137facd5467f4e63bed8",
+                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/67cedf0ce6b6c7fbb5e305e0667ac219e655d561",
+                "reference": "67cedf0ce6b6c7fbb5e305e0667ac219e655d561",
                 "shasum": ""
             },
             "require": {
-                "guzzle/http": ">=3.6.0,<3.9.0-dev",
+                "guzzle/http": "~3.6",
                 "php": ">=5.3.9",
-                "react/socket": ">=0.3.0,<0.5-dev",
+                "react/socket": "0.3.*|0.4.*",
                 "symfony/http-foundation": "~2.2",
                 "symfony/routing": "~2.2"
             },
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-03-30 16:41:17"
+            "time": "2014-04-13 16:21:08"
         },
         {
             "name": "doctrine/annotations",
@@ -92,7 +92,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -234,7 +234,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -1051,12 +1051,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -2220,16 +2220,16 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e"
+                "reference": "a0777e79535e49759be8f141538edba65e99f183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e",
-                "reference": "fd0986dfd8814dd92a05e6481ba6c4b6ca54cf3e",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/a0777e79535e49759be8f141538edba65e99f183",
+                "reference": "a0777e79535e49759be8f141538edba65e99f183",
                 "shasum": ""
             },
             "require": {
@@ -2259,20 +2259,20 @@
             "keywords": [
                 "event-loop"
             ],
-            "time": "2014-02-02 21:27:39"
+            "time": "2014-02-26 17:36:58"
         },
         {
             "name": "react/socket",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e"
+                "reference": "34bf64f9bed060b5e2e33bb890502edc74b060cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
-                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/34bf64f9bed060b5e2e33bb890502edc74b060cb",
+                "reference": "34bf64f9bed060b5e2e33bb890502edc74b060cb",
                 "shasum": ""
             },
             "require": {
@@ -2300,20 +2300,20 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2014-02-02 01:11:26"
+            "time": "2014-04-13 16:32:50"
         },
         {
             "name": "react/stream",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "42bd0edc641901e6265a98aa84042b8e95e19540"
+                "reference": "da7bb5db007d98a5541323480d325215e57231e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/42bd0edc641901e6265a98aa84042b8e95e19540",
-                "reference": "42bd0edc641901e6265a98aa84042b8e95e19540",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/da7bb5db007d98a5541323480d325215e57231e6",
+                "reference": "da7bb5db007d98a5541323480d325215e57231e6",
                 "shasum": ""
             },
             "require": {
@@ -2344,7 +2344,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2014-02-02 16:21:45"
+            "time": "2014-03-30 17:19:02"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3858,7 +3858,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
