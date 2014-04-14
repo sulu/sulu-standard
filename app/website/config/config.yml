@@ -1,5 +1,6 @@
 imports:
     - { resource: ../../Resources/config/parameters.yml }
+    - { resource: ../../Resources/config/phpcr.yml }
     - { resource: security.yml }
 
 framework:
@@ -98,10 +99,11 @@ liip_theme:
 
 sulu_core:
     phpcr:
-        url: %phpcr_url%
-        username: %phpcr_username%
-        password: %phpcr_password%
-    portal:
-        config_dir: "%kernel.root_dir%/../Resources/portals"
+        backend: %phpcr_backend%
+        workspace: %phpcr_workspace%
+        username: %phpcr_user%
+        password: %phpcr_pass%
+    webspace:
+        ~
     content:
         ~

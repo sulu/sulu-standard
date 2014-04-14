@@ -27,11 +27,11 @@ class AppKernel extends Kernel
             // enable sulu bundles
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\AdminBundle\SuluAdminBundle(),
-            new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
-            new Sulu\Bundle\ContentBundle\SuluContentBundle(),
-            new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
+            new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
+            new Sulu\Bundle\PortalBundle\SuluPortalBundle(),
+            new Sulu\Bundle\ContentBundle\SuluContentBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),

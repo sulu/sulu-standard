@@ -85,11 +85,11 @@ class AdminBundleTest extends WebDriverTestCase
     {
         $this->byId('username')->value('admin');
         $this->byId('password')->value('...');
-        $this->byTag('button')->click();
+        $this->byId('submit')->click();
         $driver = $this;
 
         $badCredentials = function () use ($driver) {
-            return ($driver->byCssSelector('#login > div')->text() == 'Bad credentials');
+            return ($driver->byCssSelector('#login .error')->displayed());
         };
 
         $this->spinAssert('Bad credentials info never showed up!', $badCredentials);
@@ -99,7 +99,7 @@ class AdminBundleTest extends WebDriverTestCase
     {
         $this->byId('username')->value('admin');
         $this->byId('password')->value('admin');
-        $this->byTag('button')->click();
+        $this->byId('submit')->click();
         $driver = $this;
 
         $header = function () use ($driver) {
@@ -108,4 +108,5 @@ class AdminBundleTest extends WebDriverTestCase
 
         $this->spinAssert("Header never showed up!", $header);
     }
+
 }

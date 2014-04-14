@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -21,14 +21,14 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "0.1.*",
-        "sulu/admin-bundle": "0.1.*",
-        "sulu/contact-bundle": "0.1.*",
-        "sulu/security-bundle": "0.1.*",
-        "sulu/portal-bundle": "0.1.*",
-        "sulu/content-bundle": "0.1.*",
-        "sulu/website-bundle": "0.1.*",
-        "sulu/tag-bundle": "0.1.*",
+        "sulu/sulu": "0.2.*",
+        "sulu/admin-bundle": "0.2.*",
+        "sulu/contact-bundle": "0.2.*",
+        "sulu/security-bundle": "0.2.*",
+        "sulu/portal-bundle": "0.2.*",
+        "sulu/content-bundle": "0.2.*",
+        "sulu/website-bundle": "0.2.*",
+        "sulu/tag-bundle": "0.2.*",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -37,17 +37,18 @@
         "doctrine/phpcr-bundle": "1.0.*",
         "doctrine/phpcr-odm": "1.0.*",
 
-        "symfony-cmf/core-bundle": "@dev",
-        "symfony-cmf/routing-bundle": "@dev",
-        "symfony-cmf/routing": "@dev",
+        "symfony-cmf/core-bundle": "1.1.*@dev",
+        "symfony-cmf/routing-bundle": "1.2.*@dev",
+        "symfony-cmf/routing": "1.2.*@dev",
         "liip/theme-bundle": "@dev",
-	    "cboden/ratchet": "@dev"
+        "cboden/ratchet": "@dev"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
-        "sulu/test-bundle": "0.1.*"
+        "sulu/test-bundle": "0.2.*",
+        "jackalope/jackalope-doctrine-dbal": "@dev"
     },
     "scripts": {
         "post-install-cmd": [

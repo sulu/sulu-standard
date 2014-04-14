@@ -11,6 +11,7 @@
 /bin/
 /composer.phar
 /jackrabbit
+/app/Resources/config/phpcr.yml
 
 # IDEs
 .idea/*
@@ -18,3 +19,12 @@
 
 # System files
 .DS_Store
+
+
+# webspaces
+/app/Resources/webspaces/*
+!/app/Resources/webspaces/*.dist
+
+# templates
+/app/Resources/templates/*
+!/app/Resources/templates/*.dist
