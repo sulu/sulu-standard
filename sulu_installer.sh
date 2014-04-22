@@ -243,6 +243,7 @@ composer_get() {
 }
 
 composer_install_dependencies() {
+	cd ${SULU_PROJECT_ABSOLUTE_PATH}
 	echo "Installing all project dependencies may take a while."
 	echo "So, keep calm dude..."
 	say "Downloading and installing project dependencies..."
@@ -552,7 +553,6 @@ phpcr_setup
 
 # download and install dependencies
 section "Dependencies"
-cd ${SULU_PROJECT_ABSOLUTE_PATH}
 composer_install_dependencies
 
 
