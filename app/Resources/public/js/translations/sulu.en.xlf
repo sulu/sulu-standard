@@ -294,8 +294,8 @@
         <source>security.permission.role.allLanguages</source>
         <target>all selected</target>
       </trans-unit>
-      <trans-unit id="9853c3be2382e817827644509ac88293" resname="sulu.edit-toolbar.delete">
-        <source>sulu.edit-toolbar.delete</source>
+      <trans-unit id="9853c3be2382e817827644509ac88293" resname="toolbar.delete">
+        <source>toolbar.delete</source>
         <target>Delete</target>
       </trans-unit>
       <trans-unit id="b0e756e39c8e2107ac4461ba08222b46" resname="sulu.list-toolbar.import">
@@ -422,10 +422,6 @@
         <source>navigation.settings.tags</source>
         <target>Tags</target>
       </trans-unit>
-      <trans-unit id="05c8870c540da81249840418b8c4ed3a" resname="sulu.edit-toolbar.new-window">
-        <source>sulu.edit-toolbar.new-window</source>
-        <target>Preview in new window</target>
-      </trans-unit>
       <trans-unit id="72e14b96918d836a8db5575ca94133a8" resname="public.id">
         <source>public.id</source>
         <target>ID</target>
@@ -445,10 +441,6 @@
       <trans-unit id="414427d622e07cebcb5f315c2e926b53" resname="tags.changed">
         <source>tags.changed</source>
         <target>Last changed</target>
-      </trans-unit>
-      <trans-unit id="2c5d2006332615c94e53762ecf089bdc" resname="sulu.edit-toolbar.split-screen">
-        <source>sulu.edit-toolbar.split-screen</source>
-        <target>Split view</target>
       </trans-unit>
       <trans-unit id="da7c493010f2c3545706969e142d0749" resname="public.changed">
         <source>public.changed</source>
@@ -562,16 +554,16 @@
         <source>tag.tags.title</source>
         <target>Tags</target>
       </trans-unit>
-      <trans-unit id="50cb9458e1fbafb5728c35ee68d84d2e" resname="edit-toolbar.state-publish">
-        <source>edit-toolbar.state-publish</source>
+      <trans-unit id="50cb9458e1fbafb5728c35ee68d84d2e" resname="toolbar.state-publish">
+        <source>toolbar.state-publish</source>
         <target>Publish</target>
       </trans-unit>
-      <trans-unit id="0cfc2141daf51832879b183706c23eb3" resname="edit-toolbar.state-unpublish">
-        <source>edit-toolbar.state-unpublish</source>
+      <trans-unit id="0cfc2141daf51832879b183706c23eb3" resname="toolbar.state-unpublish">
+        <source>toolbar.state-unpublish</source>
         <target>Unpublish</target>
       </trans-unit>
-      <trans-unit id="47f368b119097acd0e86dc2224927e08" resname="edit-toolbar.state-test">
-        <source>edit-toolbar.state-test</source>
+      <trans-unit id="47f368b119097acd0e86dc2224927e08" resname="toolbar.state-test">
+        <source>toolbar.state-test</source>
         <target>Test</target>
       </trans-unit>
       <trans-unit id="dc28c61f746b3a3f606aa4b24724d5c6" resname="template.default">
@@ -614,7 +606,7 @@
         <source>labels.state-changed.success-desc</source>
         <target>state changed</target>
       </trans-unit>
-      <trans-unit id="b07c514688c4db3760781f5608d9b5af" resname="labels.state-changed.success">
+      <trans-unit id="b07c514688c4db3760781f5608d9b5af" resname="labels.success">
         <source>labels.state-changed.success</source>
         <target>Success</target>
       </trans-unit>
@@ -622,9 +614,25 @@
         <source>labels.state-changed.error-desc</source>
         <target>state could not be changed</target>
       </trans-unit>
-      <trans-unit id="ac3d960c5813c03f18eed5865fbe84b0" resname="labels.state-changed.error">
-        <source>labels.state-changed.error</source>
+      <trans-unit id="ac3d960c5813c03f18eed5865fbe84b0" resname="labels.error">
+        <source>labels.error</source>
         <target>Error</target>
+      </trans-unit>
+      <trans-unit id="ac3d96765a13c03f18eed5865fbe84b0" resname="labels.warning">
+        <source>labels.warning</source>
+        <target>Warning</target>
+      </trans-unit>
+      <trans-unit id="ac3d96765a13c03f18eed5865fbe84ff" resname="labels.success.content-deleted-desc">
+        <source>labels.success.content-deleted-desc</source>
+        <target>Node successfully deleted.</target>
+      </trans-unit>
+      <trans-unit id="ac3d96765a13c03f181ed5865fbe84ff" resname="labels.success.content-save-desc">
+        <source>labels.success.content-save-desc</source>
+        <target>Node sucessfully saved</target>
+      </trans-unit>
+      <trans-unit id="123d96765a13c03f18eed5865fbe84ff" resname="labels.error.content-save-desc">
+        <source>labels.error.content-save-desc</source>
+        <target>Node could not be saved.</target>
       </trans-unit>
       <trans-unit id="58b06d6f4d02d93226d543aa6df546cc" resname="sulu.matcher.unmatched-column">
         <source>sulu.matcher.unmatched-column</source>
