@@ -8,6 +8,7 @@
 # with this source code in the file LICENSE.
 #
 
+
 # Installation note:
 # To install SULU 2 by using this installer script without downloading you can
 # execute it by using its URL:
