@@ -82,6 +82,10 @@
         <source>public.delete</source>
         <target>Delete</target>
       </trans-unit>
+      <trans-unit id="ebee6be3618fa7642a8921cf16eedb1c" resname="public.no-pages">
+        <source>public.no-pages</source>
+        <target>No Pages</target>
+      </trans-unit>
       <trans-unit id="6603511ae852ff46c20147528150e4b1" resname="translate.package.settings.title">
         <source>translate.package.settings.title</source>
         <target>Title</target>
