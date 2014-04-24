@@ -25,8 +25,8 @@ SULU_INSTALLER_NAME="${SULU_PROJECT} Installer"
 SULU_INSTALLER_VERSION="0.1.2"
 SULU_INSTALLER_AUTHOR="MASSIVE ART WebServices GmbH"
 
-SULU_PROJECT_INSTALL_PATH='.'
-SULU_PROJECT_CLONE_NAME='sulu-standard'
+SULU_PROJECT_INSTALL_PATH="."
+SULU_PROJECT_CLONE_NAME="sulu-standard"
 SULU_PROJECT_ABSOLUTE_PATH="${SULU_PROJECT_INSTALL_PATH}/${SULU_PROJECT_CLONE_NAME}"
 
 # some colors
@@ -40,19 +40,19 @@ COLOR_BLACK_BOLD='\033[1;30m'
 CMD_COMPOSER=$( type -P composer )
 CMD_GIT=$( type -P git )
 CMD_PHP=$( type -P php )
-CMD_APP_CONSOLE='app/console'
+CMD_APP_CONSOLE="app/console"
 
 # some defaults
-DB_CREATE='no'
-PLATTFORM=''
-MYSQL_INSTALL_PATH=''
+DB_CREATE="no"
+PLATTFORM=""
+MYSQL_INSTALL_PATH=""
 TMP_FILE=$( mktemp -q /tmp/sulu_instaler.XXXXXXXXXXXXXXXXXXXXXXX )
-PARAMETERS_YML='/tmp/parameters.yml'
+PARAMETERS_YML="/tmp/parameters.yml"
 
 
 # installation user
 INSTALL_USER=$USER
-SULU_DBAL='mysql'
+SULU_DBAL="mysql"
 
 
 # Reset terminal to current state when we exit.
@@ -67,7 +67,7 @@ say() {
 }
 
 say_error() {
-	printf '\033[0;31m%s\033[0m: %-s\n' "ERROR" "$1" 
+	printf "\033[0;31m%s\033[0m: %-s\n" "ERROR" "$1" 
 	if [[ ! -z $2 ]]; then
 		printf "%-7s%-s\n" " " "$2"
 	fi
@@ -118,7 +118,6 @@ OPTIONS:
     -m MYSQL_BINARY_PATH    Specifies the path where your MySQL binaries are installed
 
 EOT
-
 }
 
 # console_input() accepts 4 parameters:
@@ -177,8 +176,8 @@ console_input() {
 }
 
 php_check() {
-	PHP_MAYOR_MIN_VERSION='5'
-	PHP_MINOR_MIN_VERSION='4'
+	PHP_MAYOR_MIN_VERSION="5"
+	PHP_MINOR_MIN_VERSION="4"
 
 	say "Checking PHP..."
 	
@@ -357,11 +356,11 @@ parameters:" > ${PARAMETERS_YML}
 	# -----------------------------------------------------------------------------
 
 	case ${SULU_DBAL} in
-		mysql)	DB_DRIVER='pdo_mysql'
+		mysql)	DB_DRIVER="pdo_mysql"
 				DB_PORT="3306"
 				;;
 
-		pgsql)	DB_DRIVER='pdo_pgsql'
+		pgsql)	DB_DRIVER="pdo_pgsql"
 				DB_PORT="5432"
 				;;
 	esac
@@ -482,7 +481,7 @@ cache_reset() {
 }
 
 database_create() {
-	if [ ${DB_CREATE} = 'yes' ]; then
+	if [ ${DB_CREATE} = "yes" ]; then
 		# we need to drain the cache since 'app/console' is using
 		# the cached 'parameters.yml' instead of our own!
 		rm -rf app/admin/cache/* >/dev/null 2>&1 
@@ -574,7 +573,7 @@ closing_remarks() {
 	printf "\n"
 	FIGLET=$( type -P figlet )
 	if [ ! -z FIGLET ];
-		then ${FIGLET} -w 75 -c '\o/ Hurray \o/'
+		then ${FIGLET} -w 75 -c "\o/ Hurray \o/"
 	else
 		printf "                              ${COLOR_BLACK_BOLD}\o/ Hurray \o/${COLOR_NONE}\n"
 	fi
@@ -630,10 +629,10 @@ do
 		n)	SULU_PROJECT_CLONE_NAME=${OPTARG%/}
 			;;
 			
-		d)	DB_CREATE='yes'
+		d)	DB_CREATE="yes"
 			;;
 			
-		P)	SULU_DBAL='pgsql'
+		P)	SULU_DBAL="pgsql"
 			if [ ! -z ${MYSQL_INSTALL_PATH} ]; then
 				error_msg_db_ambiguity
 			fi
