@@ -263,7 +263,6 @@ function php_check() {
 function mysql_check() {
 	say "Checking MySQL..."
 
-	CMD_MYSQL=$( type -P mysql )
 	if [ -z ${CMD_MYSQL} ]; then
 		task_failed
 		say_error "It seems there is no MySQL installed. Please install MySQL first and try again." \
@@ -706,6 +705,8 @@ do
 			else
 				CMD_MYSQL="${MYSQL_INSTALL_PATH}/mysql"
 				if [ ! -f ${CMD_MYSQL} ]; then
+					show_version
+					echo
 					say_error "The mysql binary doesn't exists at: ${MYSQL_INSTALL_PATH}/"
 					abort
 				fi
