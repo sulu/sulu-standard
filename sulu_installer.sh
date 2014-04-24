@@ -57,6 +57,7 @@ PLATTFORM=""
 MYSQL_INSTALL_PATH=""
 TMP_FILE=$( mktemp -q /tmp/sulu_installer.XXXXXXXXXXXXXXXXXXXXXXX )
 PARAMETERS_YML="/tmp/parameters.yml"
+TEST_SERVER_NAME="sulu.lo"
 
 
 # installation user
@@ -321,7 +322,7 @@ function composer_get() {
 }
 
 function composer_install_dependencies() {
-	cd ${SULU_PROJECT_ABSOLUTE_PATH}
+	cd "${SULU_PROJECT_ABSOLUTE_PATH}"
 	printf "${COLOR_BLACK_BOLD}Note:${COLOR_NONE} Installing all project dependencies may take a while.\n"
 	printf "So, keep calm dude...\n\n"
 	say "Downloading and installing project dependencies..."
@@ -602,7 +603,7 @@ function local_test_host() {
 	reset_tmp_file
 	
 	echo "In case of this is a local development installation '${SULU_PROJECT}' uses a"
-	echo "special localhost alias named ${COLOR_BLACK_BOLD}sulu.lo${COLOR_NONE}."
+	echo "special localhost alias named ${COLOR_BLACK_BOLD}${TEST_SERVER_NAME}${COLOR_NONE}."
 	echo
 	echo "This alias must be added in '/etc/hosts'."
 	echo
@@ -619,11 +620,11 @@ function local_test_host() {
 }
 
 function local_test_host_add() {
-	say "Adding 'sulu.lo' alias to '/etc/hosts'"
-	TESTHOST=$( cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
+	say "Adding '${TEST_SERVER_NAME}' alias to '/etc/hosts'"
+	TESTHOST=$( cat /etc/hosts | grep '${TEST_SERVER_NAME}' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
 	if [ -z ${TESTHOST} ]; then
 		printf "\n# ${SULU_PROJECT} test host alias\n" >> /etc/hosts
-		printf "127.0.0.1	sulu.lo\n" >> /etc/hosts
+		printf "127.0.0.1	${TEST_SERVER_NAME}\n" >> /etc/hosts
 	fi
 	task_done
 }
@@ -648,7 +649,7 @@ You may use this template:
 
 <VirtualHost *:80>
     DocumentRoot "${SULU_PROJECT_ABSOLUTE_PATH}/web"
-    ServerName sulu.lo
+    ServerName ${TEST_SERVER_NAME}
     <Directory "${SULU_PROJECT_ABSOLUTE_PATH}/web">
         Options Indexes FollowSymlinks
         AllowOverride All
