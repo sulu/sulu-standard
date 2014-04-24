@@ -87,8 +87,14 @@ section() {
 }
 
 abort() {
+	cleanup
 	echo
 	exit 1
+}
+
+cleanup() {
+	echo "${COLOR_NONE}"
+	rm -f "${TMP_FILE}"
 }
 
 show_version() {
@@ -614,13 +620,13 @@ error_msg_db_ambiguity() {
 while getopts hvp:n:dPm: option
 do
 	case $option in
-		h)	usage; abort
+		h)	usage; cleanup; exit 0
 			;;
 			
-		\?)	usage; abort
+		\?)	usage; cleanup; exit 0
 			;;
 			
-		v)	show_version; exit
+		v)	show_version; cleanup; exit 0
 			;;
 			
 		p)	SULU_PROJECT_INSTALL_PATH=${OPTARG%/}
