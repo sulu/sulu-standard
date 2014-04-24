@@ -20,9 +20,13 @@
 # bash <(wget -q0- https://raw.githubusercontent.com/sulu-cmf/sulu-standard/sulu_installer.sh) ARG1 ARG2 ...
 #
 #
-# TODO
-# - if MySQL is used, check if it's running (on local installation)
-# - if PostgreSQL is used, check if it's running  (on local installation)
+#
+# TODO and BUGS
+# -------------
+#    - If MySQL is used, check if the server is running (in case of a local installation)
+#    - If PostgreSQL is used, check if the server is running  (in case of a local installation)
+#    - If PostgreSQL is running and the user gives a wrong role or wrong password, the installer isn't able
+#      to catch the error. An error will be shown and the script continues mistakenly.
 
 
 SULU_PROJECT="SULU 2"
