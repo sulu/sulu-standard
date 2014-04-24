@@ -27,7 +27,7 @@ SULU_INSTALLER_AUTHOR="MASSIVE ART WebServices GmbH"
 
 SULU_PROJECT_INSTALL_PATH='.'
 SULU_PROJECT_CLONE_NAME='sulu-standard'
-SULU_PROJECT_ABSOLUTE_PATH=${SULU_PROJECT_INSTALL_PATH}/${SULU_PROJECT_CLONE_NAME}
+SULU_PROJECT_ABSOLUTE_PATH="${SULU_PROJECT_INSTALL_PATH}/${SULU_PROJECT_CLONE_NAME}"
 
 # some colors
 COLOR_RED='\033[0;31m'
@@ -37,21 +37,21 @@ COLOR_NONE='\033[0m'
 COLOR_BLACK_BOLD='\033[1;30m'
 
 # some commands
-CMD_COMPOSER=`type -P composer`
-CMD_GIT=`type -P git`
-CMD_PHP=`type -P php`
+CMD_COMPOSER=$( type -P composer )
+CMD_GIT=$( type -P git )
+CMD_PHP=$( type -P php )
 CMD_APP_CONSOLE='app/console'
 
 # some defaults
 DB_CREATE='no'
 PLATTFORM=''
 MYSQL_INSTALL_PATH=''
-TMP_FILE='/tmp/sulu_installer.tmp'
+TMP_FILE=$( mktemp -q /tmp/sulu_instaler.XXXXXXXXXXXXXXXXXXXXXXX )
 PARAMETERS_YML='/tmp/parameters.yml'
 
 
-# instalation user
-INSTALL_USER=`whoami`
+# installation user
+INSTALL_USER=$USER
 SULU_DBAL='mysql'
 
 
@@ -82,7 +82,7 @@ task_failed() {
 }
 
 section() {
-	SECTION=`echo $1 | awk '{ print toupper($0) }'`
+	SECTION=$( echo $1 | awk '{ print toupper($0) }' )
 	printf "\n${COLOR_BLACK_BOLD}%-s${COLOR_NONE}\n" "${SECTION}"
 }
 
@@ -96,12 +96,12 @@ show_version() {
 }
 
 reset_tmp_file() {
-	rm ${TMP_FILE} >/dev/null 2>&1 
-	touch ${TMP_FILE} >/dev/null 2>&1 
+	rm -f "${TMP_FILE}"
+	touch "${TMP_FILE}" >/dev/null 2>&1 
 }
 
 usage() {
-	SCRIPT_NAME=`basename ${0}`
+	SCRIPT_NAME=$( basename ${0} )
 	show_version
 	echo
 	cat <<EOT
@@ -170,9 +170,9 @@ console_input() {
 
 	# write value to file
 	if [ ${APPEND} -eq 1 ]; then
-		echo "${INPUT_VALUE}" >> ${TMP_FILE}
+		echo "${INPUT_VALUE}" >> "${TMP_FILE}"
 	else
-		echo "${INPUT_VALUE}" > ${TMP_FILE}
+		echo "${INPUT_VALUE}" > "${TMP_FILE}"
 	fi
 }
 
@@ -188,9 +188,9 @@ php_check() {
 		abort
 	fi
 	
-	PHP_VERSION=`${CMD_PHP} --version 2>&1 |grep '^PHP [0-9]\.*'| awk -F' ' '{ print $2 }'`
-	PHP_VERSION_MAJOR=`echo ${PHP_VERSION} | awk -F'.' '{ print $1 }'`
-	PHP_VERSION_MINOR=`echo ${PHP_VERSION} | awk -F'.' '{ print $2 }'`
+	PHP_VERSION=$( ${CMD_PHP} --version 2>&1 |grep '^PHP [0-9]\.*'| awk -F' ' '{ print $2 }' )
+	PHP_VERSION_MAJOR=$( echo ${PHP_VERSION} | awk -F'.' '{ print $1 }' )
+	PHP_VERSION_MINOR=$( echo ${PHP_VERSION} | awk -F'.' '{ print $2 }' )
 
 	if [[ ((${PHP_VERSION_MAJOR} < ${PHP_MAYOR_MIN_VERSION})) || ((${PHP_VERSION_MINOR} < ${PHP_MINOR_MIN_VERSION})) ]]; then
 		task_failed
@@ -205,7 +205,7 @@ php_check() {
 mysql_check() {
 	say "Checking MySQL..."
 
-	CMD_MYSQL=`type -P mysql`
+	CMD_MYSQL=$( type -P mysql )
 	if [ -z ${CMD_MYSQL} ]; then
 		task_failed
 		say_error "It seems there is no MySQL installed. Please install MySQL first and try again." \
@@ -218,8 +218,6 @@ mysql_check() {
 
 pgsql_check() {
 	say "Checking PostgreSQL..."
-
-	CMD_PGSQL=`type -P mysql`
 
 	task_done
 }
@@ -259,9 +257,9 @@ composer_check() {
 composer_get() {
 	say "Downloading and installing Composer..."
 	cd /tmp
-	`which curl` -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
+	$( type -P curl ) -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
 	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1 
-	CMD_COMPOSER=`which composer`
+	CMD_COMPOSER=$( which composer )
 	task_done
 }
 
@@ -298,7 +296,7 @@ phpcr_setup() {
 phpcr_setup_interaction() {
 	reset_tmp_file
 	console_input "Do you want to use Doctrine-DBAL (d) or Jackrabbit (j)?" "d"
-	case `cat ${TMP_FILE}` in
+	case $( cat "${TMP_FILE}" ) in
 		[Dd]*)	PHPCR_SELECTION="doctrine"
 				;;
 				
@@ -325,7 +323,7 @@ sulu_get() {
 		reset_tmp_file
 		echo "The directory '${SULU_PROJECT_CLONE_NAME}' already exists."
 		console_input "Do you want to replace (r) it, use it (u) or abort (a)" ""
-		YesNo=`cat ${TMP_FILE} | sed s/\n//g`
+		YesNo=$( cat "${TMP_FILE}" | sed s/\n//g )
 		case ${YesNo} in
 			[Rr]*)	say "Removing existing installation..."
 					rm -rf ${SULU_PROJECT_ABSOLUTE_PATH}
@@ -468,7 +466,7 @@ sulu_user_new_questions() {
 
 sulu_user_create() {
 	say "Creating new user..."
-	${CMD_APP_CONSOLE} "sulu:security:user:create" < ${TMP_FILE} >/dev/null 2>&1 
+	${CMD_APP_CONSOLE} "sulu:security:user:create" < "${TMP_FILE}" >/dev/null 2>&1 
 	task_done
 }
 
@@ -504,10 +502,10 @@ database_create() {
 
 		# Loading default values normally requires user interaction.
 		# We will simulate it by writing the answer 'y' to a temp file...
-		echo 'y' > ${TMP_FILE}
+		echo 'y' > "${TMP_FILE}"
 
 		say "Loading database default values..."
-		ERROR="$( ${CMD_APP_CONSOLE} doctrine:fixtures:load < ${TMP_FILE} | sed s/\"/\'/g >/dev/null 2>&1 )"
+		ERROR="$( ${CMD_APP_CONSOLE} doctrine:fixtures:load < "${TMP_FILE}" | sed s/\"/\'/g >/dev/null 2>&1 )"
 		if [ ! -z "${ERROR}" ]; then echo; say_error "${ERROR}"; abort; fi
 		task_done
 	fi
@@ -516,7 +514,7 @@ database_create() {
 permissions_set() {
 	say "Setting up permissions..."
 
-	PLATTFORM=`uname | awk '{ print tolower($0) }'`
+	PLATTFORM=$( uname | awk '{ print tolower($0) }' )
 	case ${PLATTFORM} in
 		"darwin")	permissions_set_darwin
 					;;
@@ -530,7 +528,7 @@ permissions_set() {
 }
 
 permissions_set_darwin() {
-	APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
+	APACHEUSER=$( ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1 )
 	sudo chmod +a -R "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
 	sudo chmod +a -R "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
@@ -551,8 +549,7 @@ local_test_host() {
 	echo "This alias must be added in '/etc/hosts'."
 	echo
 	console_input "Should I do that for you (y/n)"
-
-	YesNo=`cat ${TMP_FILE} | sed s/\n//g`
+	YesNo=$( cat "${TMP_FILE}" | sed s/\n//g )
 	case ${YesNo} in
 		[Yy]*)	local_test_host_add
 				;;
@@ -564,7 +561,7 @@ local_test_host() {
 
 local_test_host_add() {
 	say "Adding 'sulu.lo' alias to '/etc/hosts'"
-	TESTHOST=`cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }'`
+	TESTHOST=$( cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
 	if [ -z ${TESTHOST} ]; then
 		printf "\n# ${SULU_PROJECT} test host alias\n" >> /etc/hosts
 		printf "127.0.0.1	sulu.lo" >> /etc/hosts
@@ -575,7 +572,7 @@ local_test_host_add() {
 closing_remarks() {
 	printf "=%.0s" {1..74}
 	printf "\n"
-	FIGLET=`type -P figlet`
+	FIGLET=$( type -P figlet )
 	if [ ! -z FIGLET ];
 		then ${FIGLET} -w 75 -c '\o/ Hurray \o/'
 	else
