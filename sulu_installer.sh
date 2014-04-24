@@ -53,10 +53,11 @@ PARAMETERS_YML="/tmp/parameters.yml"
 # installation user
 INSTALL_USER=$USER
 SULU_DBAL="mysql"
+TERMINAL_STATE="$( stty -g )"
 
 
 # Reset terminal to current state when we exit.
-trap "stty $(stty -g)" EXIT
+trap "stty ${TERMINAL_STATE}" EXIT
 
 
 #------------------------------------------------------------------------------
@@ -93,7 +94,7 @@ abort() {
 }
 
 cleanup() {
-	echo "${COLOR_NONE}"
+	stty "${TERMINAL_STATE}"
 	rm -f "${TMP_FILE}"
 }
 
