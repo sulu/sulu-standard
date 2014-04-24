@@ -21,7 +21,6 @@
 #
 #
 # TODO
-# - check if Apache is running
 # - if MySQL is used, check if it's running (on local installation)
 # - if PostgreSQL is used, check if it's running  (on local installation)
 
@@ -314,7 +313,7 @@ function composer_get() {
 	cd /tmp
 	$( type -P curl ) -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
 	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1 
-	CMD_COMPOSER=$( which composer )
+	CMD_COMPOSER=$( type -P composer )
 	task_done
 }
 
