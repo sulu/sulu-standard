@@ -13,11 +13,11 @@
 # To install SULU 2 by using this installer script without downloading you can
 # execute it by using its URL:
 #
-# bash <(curl -O https://raw.githubusercontent.com/sulu-cmf/sulu-standard/feature/installer-script/sulu_installer.sh) ARG1 ARG2 ...
+# bash <(curl -O https://raw.githubusercontent.com/sulu-cmf/sulu-standard/sulu_installer.sh) ARG1 ARG2 ...
 #
 # or
 # 
-# bash <(wget -q0- https://raw.githubusercontent.com/sulu-cmf/sulu-standard/feature/installer-script/sulu_installer.sh) ARG1 ARG2 ...
+# bash <(wget -q0- https://raw.githubusercontent.com/sulu-cmf/sulu-standard/sulu_installer.sh) ARG1 ARG2 ...
 #
 #
 # TODO
@@ -28,7 +28,7 @@
 
 SULU_PROJECT="SULU 2"
 SULU_INSTALLER_NAME="${SULU_PROJECT} Installer"
-SULU_INSTALLER_VERSION="0.1.2"
+SULU_INSTALLER_VERSION="0.2.4"
 SULU_INSTALLER_AUTHOR="MASSIVE ART WebServices GmbH"
 
 SULU_PROJECT_INSTALL_PATH="."
@@ -52,7 +52,7 @@ CMD_APP_CONSOLE="app/console"
 DB_CREATE="no"
 PLATTFORM=""
 MYSQL_INSTALL_PATH=""
-TMP_FILE=$( mktemp -q /tmp/sulu_instaler.XXXXXXXXXXXXXXXXXXXXXXX )
+TMP_FILE=$( mktemp -q /tmp/sulu_installer.XXXXXXXXXXXXXXXXXXXXXXX )
 PARAMETERS_YML="/tmp/parameters.yml"
 
 
@@ -116,7 +116,7 @@ function show_version() {
 
 function reset_tmp_file() {
 	rm -f "${TMP_FILE}"
-	touch "${TMP_FILE}" >/dev/null 2>&1 
+	TMP_FILE=$( mktemp -q /tmp/sulu_installer.XXXXXXXXXXXXXXXXXXXXXXX ) 
 }
 
 function usage() {
@@ -191,6 +191,43 @@ function console_input() {
 		echo "${INPUT_VALUE}" >> "${TMP_FILE}"
 	else
 		echo "${INPUT_VALUE}" > "${TMP_FILE}"
+	fi
+}
+
+function webserver_check() {
+	say "Checking WebServer..."
+
+	WEBSERVER_USER=$( ps aux | grep -E 'httpd|(php[5]?)-fpm|apache2' | grep -v root | grep -v grep | grep -v tomcat | head -1 | cut -d\  -f1 )
+	if [ -z ${WEBSERVER_USER} ]; then
+		task_failed
+		say_error "It seems there is actually no webserver running." "Therefore I can not determine the user it is running on to set proper permissions."
+		echo
+		webserver_check_ask_user
+	fi
+	
+	task_done
+}
+
+function webserver_check_ask_user() {
+	reset_tmp_file
+	console_input "Would you like to set it manually (m) or abort installation (a)?" ""
+	INPUT=$( cat "${TMP_FILE}" | sed s/\n//g )
+	case ${INPUT} in
+		[Mm]*)	webserver_check_ask_user_input; echo
+				;;
+		[Aa]*)	abort
+				;;
+			*)	printf "\033[1A"; webserver_check_ask_user
+				;;
+	esac
+}
+
+function webserver_check_ask_user_input() {
+	reset_tmp_file
+	console_input "Please enter the user name your webserver is running on" ""
+	WEBSERVER_USER=$( cat "${TMP_FILE}" | sed s/\n//g )
+	if [ -z ${WEBSERVER_USER} ]; then
+		printf "\033[1A"; webserver_check_ask_user_input
 	fi
 }
 
@@ -534,45 +571,47 @@ function permissions_set() {
 
 	PLATTFORM=$( uname | awk '{ print tolower($0) }' )
 	case ${PLATTFORM} in
-		"darwin")	permissions_set_darwin
+		"darwin")	permissions_darwin_set
 					;;
-		"linux")	permissions_set_linux
+		"linux")	permissions_linux_set
 					;;
-#		"freebsd")	permissions_set_freebsd
+#		"freebsd")	permissions_freebsd_set
 #					;;
 	esac
 
 	task_done
 }
 
-function permissions_set_darwin() {
-	APACHEUSER=$( ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1 )
-	sudo chmod +a -R "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
+function permissions_darwin_set() {
+	sudo chmod +a -R "${WEBSERVER_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
 	sudo chmod +a -R "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
 
-function permissions_set_linux() {
-	sudo setfacl -R -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
-	sudo setfacl -dR -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
+function permissions_linux_set() {
+	sudo setfacl -R -m u:${WEBSERVER_USER}:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
+	sudo setfacl -dR -m u:${WEBSERVER_USER}:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
 
-#permissions_set_freebsd() {
+#permissions_freebsd_set() {
 #
 #}
 
 function local_test_host() {
+	reset_tmp_file
+	
 	echo "In case of this is a local development installation '${SULU_PROJECT}' uses a"
-	echo "special localhost alias named 'sulu.lo'."
+	echo "special localhost alias named ${COLOR_BLACK_BOLD}sulu.lo${COLOR_NONE}."
 	echo
 	echo "This alias must be added in '/etc/hosts'."
 	echo
-	console_input "Should I do that for you (y/n)"
+	console_input "Should I do that for you (y/n)" ""
 	YesNo=$( cat "${TMP_FILE}" | sed s/\n//g )
 	case ${YesNo} in
-		[Yy]*)	local_test_host_add
+		[Yy]*)	echo; local_test_host_add
 				;;
-		[Nn]*)	;;
-			*)	printf "\033[1A\033[1A\033[1A\033[1A\033[1A"; local_test_host
+		[Nn]*)	echo
+				;;
+			*)	printf "\033[1A\033[1A\033[1A\033[1A\033[1A\033[1A"; local_test_host
 				;;
 	esac
 }
@@ -582,7 +621,7 @@ function local_test_host_add() {
 	TESTHOST=$( cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
 	if [ -z ${TESTHOST} ]; then
 		printf "\n# ${SULU_PROJECT} test host alias\n" >> /etc/hosts
-		printf "127.0.0.1	sulu.lo" >> /etc/hosts
+		printf "127.0.0.1	sulu.lo\n" >> /etc/hosts
 	fi
 	task_done
 }
@@ -602,7 +641,8 @@ function closing_remarks() {
 	printf "\n"
 	cat <<EOT
 	
-Please don't forget to setup your virtual host! You may use this template:
+Please don't forget to setup your virtual host!
+You may use this template:
 
 <VirtualHost *:80>
     DocumentRoot "${SULU_PROJECT_ABSOLUTE_PATH}/web"
@@ -683,7 +723,6 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 
-
 #------------------------------------------------------------------------------
 # Section: Installation process
 
@@ -694,6 +733,7 @@ show_version
 section "Requirements"
 php_check
 git_check
+webserver_check
 composer_check
 
 case ${SULU_DBAL} in
@@ -747,14 +787,13 @@ sulu_webspace_init
 
 
 # create a new user
-section "User Creation"
+section "User"
 sulu_user_new
 
 
 # manipulate /etc/hosts by inserting an alias for sulu.lo
 section "Local Test-Host"
 local_test_host
-
 
 
 # Write a bunch of 'last words'...
