@@ -55,6 +55,9 @@ INSTALL_USER=`whoami`
 SULU_DBAL='mysql'
 
 
+# Reset terminal to current state when we exit.
+trap "stty $(stty -g)" EXIT
+
 
 #------------------------------------------------------------------------------
 # Section: functions
@@ -118,10 +121,11 @@ EOT
 
 }
 
-# console_input() accepts 3 parameters:
+# console_input() accepts 4 parameters:
 # [1] the label (message) for the input
 # [2] a default value
 # [3] a flag that determines whether the input field is for a password (1) or not (0)
+# [4] a flag that determines whether the input should be concatenated (1) to the temp file or written as single value (0)
 console_input() {
 	MESSAGE=${1}
 	DEFAULT_VALUE=${2}
@@ -283,6 +287,7 @@ phpcr_setup() {
 	case ${PHPCR_SELECTION} in
 		doctrine)	cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
 					;;
+					
 		jackrabbit)	cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
 					;;
 	esac
@@ -296,8 +301,10 @@ phpcr_setup_interaction() {
 	case `cat ${TMP_FILE}` in
 		[Dd]*)	PHPCR_SELECTION="doctrine"
 				;;
+				
 		[Jj]*)	PHPCR_SELECTION="jackrabbit"
 				;;
+				
 			*)	printf "\033[1A"; phpcr_setup_interaction
 				;;
 	esac
@@ -305,8 +312,8 @@ phpcr_setup_interaction() {
 
 sulu_repo_clone() {
 	GIT_REPO="https://github.com/sulu-cmf/sulu-standard.git"
-
-	say "Getting '${SULU_PROJECT}' standard bundle..."
+	
+	say "Downloading '${SULU_PROJECT}' standard bundle..."
 	${CMD_GIT} clone ${GIT_REPO} ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
 	cd ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
 	${CMD_GIT} checkout develop >/dev/null 2>&1 
@@ -320,10 +327,16 @@ sulu_get() {
 		console_input "Do you want to replace (r) it, use it (u) or abort (a)" ""
 		YesNo=`cat ${TMP_FILE} | sed s/\n//g`
 		case ${YesNo} in
-			[Rr]*)	rm -rf ${SULU_PROJECT_ABSOLUTE_PATH}; sulu_repo_clone
+			[Rr]*)	say "Removing existing installation..."
+					rm -rf ${SULU_PROJECT_ABSOLUTE_PATH}
+					task_done
+					
+					sulu_repo_clone
 					;;
+					
 			[Aa]*)	abort
 					;;
+					
 			[Uu]*)	;;
 		esac
 	else
@@ -349,6 +362,7 @@ parameters:" > ${PARAMETERS_YML}
 		mysql)	DB_DRIVER='pdo_mysql'
 				DB_PORT="3306"
 				;;
+
 		pgsql)	DB_DRIVER='pdo_pgsql'
 				DB_PORT="5432"
 				;;
@@ -385,7 +399,7 @@ parameters:" > ${PARAMETERS_YML}
 	console_input "Language for your '${SULU_PROJECT}' installation" "en" 0 0
 	echo -n "   locale: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
 
-	console_input "Symfony 2 CSRF Secret" "ThisTokenIsNotSoSecretChangeIt" 0 0
+	console_input "Symfony 2 CSRF Secret" "ThisTokenIsNotSoSecretChangeIt" 1 0
 	echo -n "   secret: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
 
 	console_input "Full name of Sulu admin" "SULU 2" 0 0
@@ -429,11 +443,9 @@ sulu_user_new() {
 		[Yy]*)	sulu_user_new_questions
 				sulu_user_create
 				;;
-
 		[Nn]*)	echo
 				;;
-				
-			*)	sulu_user_new
+			*)	printf "\033[1A"; sulu_user_new
 				;;
 	esac
 	
@@ -532,12 +544,45 @@ permissions_set_linux() {
 #
 #}
 
+local_test_host() {
+	echo "In case of this is a local development installation '${SULU_PROJECT}' uses a"
+	echo "special localhost alias named 'sulu.lo'."
+	echo
+	echo "This alias must be added in '/etc/hosts'."
+	echo
+	console_input "Should I do that for you (y/n)"
+
+	YesNo=`cat ${TMP_FILE} | sed s/\n//g`
+	case ${YesNo} in
+		[Yy]*)	local_test_host_add
+				;;
+		[Nn]*)	;;
+			*)	printf "\033[1A\033[1A\033[1A\033[1A\033[1A"; local_test_host
+				;;
+	esac
+}
+
+local_test_host_add() {
+	say "Adding 'sulu.lo' alias to '/etc/hosts'"
+	TESTHOST=`cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }'`
+	if [ -z ${TESTHOST} ]; then
+		printf "\n# ${SULU_PROJECT} test host alias\n" >> /etc/hosts
+		printf "127.0.0.1	sulu.lo" >> /etc/hosts
+	fi
+	task_done
+}
+
 closing_remarks() {
 	printf "=%.0s" {1..74}
 	printf "\n"
-	printf "                              ${COLOR_BLACK_BOLD}\o/ Hurray \o/${COLOR_NONE}\n"
+	FIGLET=`type -P figlet`
+	if [ ! -z FIGLET ];
+		then ${FIGLET} -w 75 -c '\o/ Hurray \o/'
+	else
+		printf "                              ${COLOR_BLACK_BOLD}\o/ Hurray \o/${COLOR_NONE}\n"
+	fi
 	printf "\n"
-	printf "                 You have successfully installed '${SULU_PROJECT}'${COLOR_NONE}\n"
+	printf "                 You have successfully installed ${COLOR_BLACK_BOLD}'${SULU_PROJECT}'${COLOR_NONE}\n"
 	printf "=%.0s" {1..74}
 	printf "\n"
 	cat <<EOT
@@ -689,6 +734,12 @@ sulu_webspace_init
 # create a new user
 section "User Creation"
 sulu_user_new
+
+
+# manipulate /etc/hosts by inserting an alias for sulu.lo
+section "Local Test-Host"
+local_test_host
+
 
 
 # Write a bunch of 'last words'...
