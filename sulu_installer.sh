@@ -25,8 +25,8 @@
 # -------------
 #    - If MySQL is used, check if the server is running (in case of a local installation)
 #    - If PostgreSQL is used, check if the server is running  (in case of a local installation)
-#    - If PostgreSQL is running and the user gives a wrong role or wrong password, the installer isn't able
-#      to catch the error. An error will be shown and the script continues mistakenly.
+#    - On running MySQL/PostgreSQL the installer isn't able to catch the error if the user gives 
+#      a wrong role or wrong password. An error will be shown and the script continues mistakenly.
 
 
 SULU_PROJECT="SULU 2"
