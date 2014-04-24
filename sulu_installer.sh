@@ -9,15 +9,21 @@
 #
 
 
-# Installation note:
+# INSTALLATION NOTE
 # To install SULU 2 by using this installer script without downloading you can
 # execute it by using its URL:
 #
-# bash <(curl -s https://github.com/sulu-cmf/sulu-installer.sh) ARG1 ARG2 ...
+# bash <(curl -O https://raw.githubusercontent.com/sulu-cmf/sulu-standard/feature/installer-script/sulu_installer.sh) ARG1 ARG2 ...
 #
 # or
 # 
-# bash <(wget -q0- https://github.com/sulu-cmf/sulu-installer.sh) ARG1 ARG2 ...
+# bash <(wget -q0- https://raw.githubusercontent.com/sulu-cmf/sulu-standard/feature/installer-script/sulu_installer.sh) ARG1 ARG2 ...
+#
+#
+# TODO
+# - check if Apache is running
+# - if MySQL is used, check if it's running (on local installation)
+# - if PostgreSQL is used, check if it's running  (on local installation)
 
 
 SULU_PROJECT="SULU 2"
@@ -56,58 +62,64 @@ SULU_DBAL="mysql"
 TERMINAL_STATE="$( stty -g )"
 
 
-# Reset terminal to current state when we exit.
+# Reset terminal to current state when we exit
 trap "stty ${TERMINAL_STATE}" EXIT
+
+# trap ctrl-c and call ctrl_c()
+trap ctrl_c INT
+function ctrl_c() {
+	abort
+}
 
 
 #------------------------------------------------------------------------------
 # Section: functions
 
-say() {
+function say() {
 	printf "* %-68s" "$1"
 }
 
-say_error() {
+function say_error() {
 	printf "\033[0;31m%s\033[0m: %-s\n" "ERROR" "$1" 
 	if [[ ! -z $2 ]]; then
 		printf "%-7s%-s\n" " " "$2"
 	fi
 }
 
-task_done() {
+function task_done() {
 	printf "[${COLOR_GREEN}OK${COLOR_NONE}]\n"
 }
 
-task_failed() {
+function task_failed() {
 	printf "[${COLOR_RED}FAILED${COLOR_NONE}]\n"
 }
 
-section() {
+function section() {
 	SECTION=$( echo $1 | awk '{ print toupper($0) }' )
 	printf "\n${COLOR_BLACK_BOLD}%-s${COLOR_NONE}\n" "${SECTION}"
 }
 
-abort() {
+function abort() {
 	cleanup
 	echo
 	exit 1
 }
 
-cleanup() {
+function cleanup() {
 	stty "${TERMINAL_STATE}"
 	rm -f "${TMP_FILE}"
 }
 
-show_version() {
+function show_version() {
 	echo ${SULU_INSTALLER_NAME} v${SULU_INSTALLER_VERSION}, ${SULU_INSTALLER_AUTHOR}
 }
 
-reset_tmp_file() {
+function reset_tmp_file() {
 	rm -f "${TMP_FILE}"
 	touch "${TMP_FILE}" >/dev/null 2>&1 
 }
 
-usage() {
+function usage() {
 	SCRIPT_NAME=$( basename ${0} )
 	show_version
 	echo
@@ -132,7 +144,7 @@ EOT
 # [2] a default value
 # [3] a flag that determines whether the input field is for a password (1) or not (0)
 # [4] a flag that determines whether the input should be concatenated (1) to the temp file or written as single value (0)
-console_input() {
+function console_input() {
 	MESSAGE=${1}
 	DEFAULT_VALUE=${2}
 	
@@ -182,7 +194,7 @@ console_input() {
 	fi
 }
 
-php_check() {
+function php_check() {
 	PHP_MAYOR_MIN_VERSION="5"
 	PHP_MINOR_MIN_VERSION="4"
 
@@ -208,7 +220,7 @@ php_check() {
 	task_done
 }
 
-mysql_check() {
+function mysql_check() {
 	say "Checking MySQL..."
 
 	CMD_MYSQL=$( type -P mysql )
@@ -222,13 +234,13 @@ mysql_check() {
 	task_done
 }
 
-pgsql_check() {
+function pgsql_check() {
 	say "Checking PostgreSQL..."
 
 	task_done
 }
 
-git_check() {
+function git_check() {
 	say "Checking GIT..."
 
 	if [ -z ${CMD_GIT} ]; then
@@ -240,7 +252,7 @@ git_check() {
 	task_done
 }
 
-composer_check() {
+function composer_check() {
 	say "Checking Composer..."
 
 	if [ -z ${CMD_COMPOSER} ]; then
@@ -260,7 +272,7 @@ composer_check() {
 	task_done
 }
 
-composer_get() {
+function composer_get() {
 	say "Downloading and installing Composer..."
 	cd /tmp
 	$( type -P curl ) -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
@@ -269,7 +281,7 @@ composer_get() {
 	task_done
 }
 
-composer_install_dependencies() {
+function composer_install_dependencies() {
 	cd ${SULU_PROJECT_ABSOLUTE_PATH}
 	printf "${COLOR_BLACK_BOLD}Note:${COLOR_NONE} Installing all project dependencies may take a while.\n"
 	printf "So, keep calm dude...\n\n"
@@ -284,7 +296,7 @@ composer_install_dependencies() {
 	task_done
 }
 
-phpcr_setup() {
+function phpcr_setup() {
 	phpcr_setup_interaction
 
 	say "Setting up PHPCR..."
@@ -299,7 +311,7 @@ phpcr_setup() {
 	task_done
 }
 
-phpcr_setup_interaction() {
+function phpcr_setup_interaction() {
 	reset_tmp_file
 	console_input "Do you want to use Doctrine-DBAL (d) or Jackrabbit (j)?" "d"
 	case $( cat "${TMP_FILE}" ) in
@@ -314,7 +326,7 @@ phpcr_setup_interaction() {
 	esac
 }
 
-sulu_repo_clone() {
+function sulu_repo_clone() {
 	GIT_REPO="https://github.com/sulu-cmf/sulu-standard.git"
 	
 	say "Downloading '${SULU_PROJECT}' standard bundle..."
@@ -324,7 +336,7 @@ sulu_repo_clone() {
 	task_done
 }
 
-sulu_get() {
+function sulu_get() {
 	if [ -d ${SULU_PROJECT_ABSOLUTE_PATH} ]; then
 		reset_tmp_file
 		echo "The directory '${SULU_PROJECT_CLONE_NAME}' already exists."
@@ -348,7 +360,7 @@ sulu_get() {
 	fi
 }
 
-sulu_init() {
+function sulu_init() {
 	echo "Now '${SULU_PROJECT}' needs some parameters to process the installation:"
 	echo
 	
@@ -415,7 +427,7 @@ parameters:" > ${PARAMETERS_YML}
 	echo "   content_preview_port: 9876" >> ${PARAMETERS_YML}
 }
 
-sulu_configure() {
+function sulu_configure() {
 	say "Configuring Webspaces..."
 	cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml >/dev/null 2>&1 
 	task_done
@@ -427,19 +439,19 @@ sulu_configure() {
 	task_done
 }
 
-sulu_content_repo_init() {
+function sulu_content_repo_init() {
 	say "Initializing Content Repository..."
 	${CMD_APP_CONSOLE} "sulu:phpcr:init" >/dev/null 2>&1 
 	task_done
 }
 
-sulu_webspace_init() {
+function sulu_webspace_init() {
 	say "Initializing Webspace..."
 	${CMD_APP_CONSOLE} "sulu:webspaces:init" >/dev/null 2>&1 
 	task_done
 }
 
-sulu_user_new() {
+function sulu_user_new() {
 	printf "%-70s" "Do you want to create a new user (y/n): "
 	read -p "" YesNo
 
@@ -455,7 +467,7 @@ sulu_user_new() {
 	
 }
 
-sulu_user_new_questions() {
+function sulu_user_new_questions() {
 	reset_tmp_file
 	
 	# -----------------------------------------------------------------------------
@@ -470,13 +482,13 @@ sulu_user_new_questions() {
 	console_input "Please choose a password"			"" 1
 }
 
-sulu_user_create() {
+function sulu_user_create() {
 	say "Creating new user..."
 	${CMD_APP_CONSOLE} "sulu:security:user:create" < "${TMP_FILE}" >/dev/null 2>&1 
 	task_done
 }
 
-cache_reset() {
+function cache_reset() {
 	say "Initializing caches..."
 	
 	rm -rf app/admin/cache/* >/dev/null 2>&1 
@@ -487,7 +499,7 @@ cache_reset() {
 	task_done
 }
 
-database_create() {
+function database_create() {
 	if [ ${DB_CREATE} = "yes" ]; then
 		# we need to drain the cache since 'app/console' is using
 		# the cached 'parameters.yml' instead of our own!
@@ -517,7 +529,7 @@ database_create() {
 	fi
 }
 
-permissions_set() {
+function permissions_set() {
 	say "Setting up permissions..."
 
 	PLATTFORM=$( uname | awk '{ print tolower($0) }' )
@@ -533,13 +545,13 @@ permissions_set() {
 	task_done
 }
 
-permissions_set_darwin() {
+function permissions_set_darwin() {
 	APACHEUSER=$( ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1 )
 	sudo chmod +a -R "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
 	sudo chmod +a -R "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
 
-permissions_set_linux() {
+function permissions_set_linux() {
 	sudo setfacl -R -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 	sudo setfacl -dR -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
@@ -548,7 +560,7 @@ permissions_set_linux() {
 #
 #}
 
-local_test_host() {
+function local_test_host() {
 	echo "In case of this is a local development installation '${SULU_PROJECT}' uses a"
 	echo "special localhost alias named 'sulu.lo'."
 	echo
@@ -565,7 +577,7 @@ local_test_host() {
 	esac
 }
 
-local_test_host_add() {
+function local_test_host_add() {
 	say "Adding 'sulu.lo' alias to '/etc/hosts'"
 	TESTHOST=$( cat /etc/hosts | grep 'sulu.lo' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
 	if [ -z ${TESTHOST} ]; then
@@ -575,7 +587,7 @@ local_test_host_add() {
 	task_done
 }
 
-closing_remarks() {
+function closing_remarks() {
 	printf "=%.0s" {1..74}
 	printf "\n"
 	FIGLET=$( type -P figlet )
@@ -608,7 +620,7 @@ EOT
 	echo
 }
 
-error_msg_db_ambiguity() {
+function error_msg_db_ambiguity() {
 	say_error "Using both options '-P' and '-m' makes no sense because of they're addressing two different databases."
 	abort
 }
