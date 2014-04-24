@@ -22,7 +22,7 @@
 
 SULU_PROJECT="SULU 2"
 SULU_INSTALLER_NAME="${SULU_PROJECT} Installer"
-SULU_INSTALLER_VERSION="0.0.1"
+SULU_INSTALLER_VERSION="0.1.2"
 SULU_INSTALLER_AUTHOR="MASSIVE ART WebServices GmbH"
 
 SULU_PROJECT_INSTALL_PATH='.'
@@ -40,17 +40,19 @@ COLOR_BLACK_BOLD='\033[1;30m'
 CMD_COMPOSER=`type -P composer`
 CMD_GIT=`type -P git`
 CMD_PHP=`type -P php`
-CMD_MYSQL=`type -P mysql`
 CMD_APP_CONSOLE='app/console'
 
 # some defaults
 DB_CREATE='no'
 PLATTFORM=''
-TMP_FILE='/tmp/.sulu_installer'
+MYSQL_INSTALL_PATH=''
+TMP_FILE='/tmp/sulu_installer.tmp'
+PARAMETERS_YML='/tmp/parameters.yml'
 
-# instalation user:group
+
+# instalation user
 INSTALL_USER=`whoami`
-INSTALL_GROUP=`id -g -n ${INSTALL_USER}`
+SULU_DBAL='mysql'
 
 
 
@@ -90,6 +92,11 @@ show_version() {
 	echo ${SULU_INSTALLER_NAME} v${SULU_INSTALLER_VERSION}, ${SULU_INSTALLER_AUTHOR}
 }
 
+reset_tmp_file() {
+	rm ${TMP_FILE} >/dev/null 2>&1 
+	touch ${TMP_FILE} >/dev/null 2>&1 
+}
+
 usage() {
 	SCRIPT_NAME=`basename ${0}`
 	show_version
@@ -98,13 +105,14 @@ usage() {
 USAGE: ${SCRIPT_NAME} [OPTIONS]
 OPTIONS:
 
-    -h                      Show this help message.
-    -v                      Prints the installer version.
-    -p INSTALLATION_PATH    The path where you want to install '${SULU_PROJECT}'.
+    -h                      Show this help message
+    -v                      Prints the installer version
+    -p INSTALLATION_PATH    The path where you want to install '${SULU_PROJECT}' (default: ./)
     -n INSTALLATION_NAME    The clone name. Specify the name of the directory where the installer 
-                            should clone the Github repository into.
-    -d                      Create database and schema (default: no).
-    -m MYSQL_BINARY_PATH    Specifies the path where your MySQL binaries are installed.
+                            should clone the Github repository into (default: '${SULU_PROJECT_CLONE_NAME}')
+    -d                      Create database and schema (default: no)
+    -P                      Use PostgeSQL as database instead of MySQL (default: MySQL)
+    -m MYSQL_BINARY_PATH    Specifies the path where your MySQL binaries are installed
 
 EOT
 
@@ -119,17 +127,15 @@ console_input() {
 	DEFAULT_VALUE=${2}
 	
 	IS_PASSWORD=0
-	if [ ! -z ${3} ]; then
-		IS_PASSWORD=${3}
-		if [ ${IS_PASSWORD} -eq 1 ]; then
-			IS_PASSWORD=1
-		fi
-	fi
+	if [ ! -z ${3} ]; then IS_PASSWORD=${3}; fi
+	
+	APPEND=1
+	if [ ! -z ${4} ]; then APPEND=${4}; fi
 	
 	if [[ ${DEFAULT_VALUE} = "" ]]; then
-		printf "  * %-66s" "${MESSAGE}: "
+		printf "  %-68s" "${MESSAGE}: "
 	else
-		printf "  * %-66s" "${MESSAGE} (${DEFAULT_VALUE}): "
+		printf "  %-68s" "${MESSAGE} (${DEFAULT_VALUE}): "
 	fi
 	
 	if [ ${IS_PASSWORD} -eq 1 ]; then
@@ -148,18 +154,22 @@ console_input() {
 	fi
 
 	# terminal output
-	if [[ ${DEFAULT_VALUE} = "" ]]; then
-		printf "\033[1A  * %-66s${COLOR}%s${COLOR_NONE}\n" "${MESSAGE}: " "${INPUT_VALUE}"
+	if [ ${IS_PASSWORD} -eq 1 ]; then
+		printf "\033[1A  %-68s\n" "${MESSAGE} (${DEFAULT_VALUE}): "
 	else
-		if [ ${IS_PASSWORD} -eq 1 ]; then
-			printf "\033[1A  * %-66s\n" "${MESSAGE} (${DEFAULT_VALUE}): "
+		if [[ ${DEFAULT_VALUE} = "" ]]; then
+			printf "\033[1A  %-68s${COLOR}%s${COLOR_NONE}\n" "${MESSAGE}: " "${INPUT_VALUE}"
 		else
-			printf "\033[1A  * %-66s${COLOR}%s${COLOR_NONE}\n" "${MESSAGE} (${DEFAULT_VALUE}): " "${INPUT_VALUE}"
+			printf "\033[1A  %-68s${COLOR}%s${COLOR_NONE}\n" "${MESSAGE} (${DEFAULT_VALUE}): " "${INPUT_VALUE}"
 		fi
 	fi
 
 	# write value to file
-	printf "%s\n" ${INPUT_VALUE} >> ${TMP_FILE}
+	if [ ${APPEND} -eq 1 ]; then
+		echo "${INPUT_VALUE}" >> ${TMP_FILE}
+	else
+		echo "${INPUT_VALUE}" > ${TMP_FILE}
+	fi
 }
 
 php_check() {
@@ -191,12 +201,21 @@ php_check() {
 mysql_check() {
 	say "Checking MySQL..."
 
+	CMD_MYSQL=`type -P mysql`
 	if [ -z ${CMD_MYSQL} ]; then
 		task_failed
 		say_error "It seems there is no MySQL installed. Please install MySQL first and try again." \
 		          "If MySQL is already installed you can specify the path where the binary can be found using the command line option '-m'."
 		abort
 	fi
+
+	task_done
+}
+
+pgsql_check() {
+	say "Checking PostgreSQL..."
+
+	CMD_PGSQL=`type -P mysql`
 
 	task_done
 }
@@ -236,50 +255,76 @@ composer_check() {
 composer_get() {
 	say "Downloading and installing Composer..."
 	cd /tmp
-	`which curl` -sS http://getcomposer.org/installer | php >/dev/null 2>&1
-	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1
+	`which curl` -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
+	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1 
 	CMD_COMPOSER=`which composer`
 	task_done
 }
 
 composer_install_dependencies() {
 	cd ${SULU_PROJECT_ABSOLUTE_PATH}
-	echo "Installing all project dependencies may take a while."
-	echo "So, keep calm dude..."
+	printf "${COLOR_BLACK_BOLD}Note:${COLOR_NONE} Installing all project dependencies may take a while.\n"
+	printf "So, keep calm dude...\n\n"
 	say "Downloading and installing project dependencies..."
-	${CMD_COMPOSER} install < ${TMP_FILE} >/dev/null 2>&1
+	
+	${CMD_COMPOSER} update --no-interaction >/dev/null 2>&1 
+	
+	# Since we set the option '--no-interaction' on composer the 'parameters.yml' file will be
+	# auto generated using the 'parameters.yml.dist' file. We have to overide this file!
+	mv ${PARAMETERS_YML} 'app/Resources/config/parameters.yml'
+	
 	task_done
-	rm ${TMP_FILE}
 }
 
 phpcr_setup() {
+	phpcr_setup_interaction
+
 	say "Setting up PHPCR..."
-	
-	cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1
+	case ${PHPCR_SELECTION} in
+		doctrine)	cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
+					;;
+		jackrabbit)	cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
+					;;
+	esac
 	
 	task_done
+}
+
+phpcr_setup_interaction() {
+	reset_tmp_file
+	console_input "Do you want to use Doctrine-DBAL (d) or Jackrabbit (j)?" "d"
+	case `cat ${TMP_FILE}` in
+		[Dd]*)	PHPCR_SELECTION="doctrine"
+				;;
+		[Jj]*)	PHPCR_SELECTION="jackrabbit"
+				;;
+			*)	printf "\033[1A"; phpcr_setup_interaction
+				;;
+	esac
 }
 
 sulu_repo_clone() {
 	GIT_REPO="https://github.com/sulu-cmf/sulu-standard.git"
 
 	say "Getting '${SULU_PROJECT}' standard bundle..."
-	${CMD_GIT} clone ${GIT_REPO} ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1
-	cd ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1
-	${CMD_GIT} checkout develop >/dev/null 2>&1
+	${CMD_GIT} clone ${GIT_REPO} ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
+	cd ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
+	${CMD_GIT} checkout develop >/dev/null 2>&1 
 	task_done
 }
 
 sulu_get() {
 	if [ -d ${SULU_PROJECT_ABSOLUTE_PATH} ]; then
-		read -p "The directory '${SULU_PROJECT_CLONE_NAME}' already exists. Do you want to overide it (y/n): " YesNo
+		reset_tmp_file
+		echo "The directory '${SULU_PROJECT_CLONE_NAME}' already exists."
+		console_input "Do you want to replace (r) it, use it (u) or abort (a)" ""
+		YesNo=`cat ${TMP_FILE} | sed s/\n//g`
 		case ${YesNo} in
-			[Yy]*)	rm -rf ${SULU_PROJECT_ABSOLUTE_PATH}; sulu_repo_clone
+			[Rr]*)	rm -rf ${SULU_PROJECT_ABSOLUTE_PATH}; sulu_repo_clone
 					;;
-			[Nn]*)	abort
+			[Aa]*)	abort
 					;;
-				*)	sulu_get
-					;;
+			[Uu]*)	;;
 		esac
 	else
 		sulu_repo_clone
@@ -287,56 +332,92 @@ sulu_get() {
 }
 
 sulu_init() {
-	echo
 	echo "Now '${SULU_PROJECT}' needs some parameters to process the installation:"
+	echo
+	
+	# generate a custom 'parameters.yml' file
+	echo "# parameters.yml - auto generated file by SULU installer
+parameters:" > ${PARAMETERS_YML}
 
-	rm ${TMP_FILE} >/dev/null 2>&1
+	reset_tmp_file
 	
 	# -----------------------------------------------------------------------------
 	# PLEASE DO NOT CHANGE THE ORDER OF THE FOLLOWING ENTRIES!!!
 	# -----------------------------------------------------------------------------
 
-	console_input "Which database driver do you want to use"			"pdo_mysql"
-	console_input "Database host"										"127.0.0.1"
-	console_input "On which port your database will be listen to"		"3306"
-	console_input "Which database name do you want to use"				"sulu"
-	console_input "Database user"										"root"
-	console_input "Database password"									"null" 1
-	console_input "Mailer transprot protocoll"							"smtp"
-	console_input "Mail host ip address"								"127.0.0.1"
-	console_input "User to authenticate on mail host"					"null"
-	console_input "Password for mail host authentication"				"null"
-	console_input "Language for your '${SULU_PROJECT}' installation"	"en"
-	console_input "Symfony 2 CSRF Secret"								"ThisTokenIsNotSoSecretChangeIt"
-	console_input "Full name of Sulu admin"								"SULU 2"
+	case ${SULU_DBAL} in
+		mysql)	DB_DRIVER='pdo_mysql'
+				DB_PORT="3306"
+				;;
+		pgsql)	DB_DRIVER='pdo_pgsql'
+				DB_PORT="5432"
+				;;
+	esac
+	echo  "   database_driver: ${DB_DRIVER}" >> ${PARAMETERS_YML}
+	
+	console_input "Database host" "127.0.0.1" 0 0
+	echo -n "   database_host: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+	
+	console_input "On which port your database will be listen to" ${DB_PORT} 0 0
+	echo -n "   database_port: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Which database name do you want to use" "sulu" 0 0
+	echo -n "   database_name: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Database user" "root" 0 0
+	echo -n "   database_user: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Database password" "null" 1 0
+	echo -n "   database_password: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Mailer transprot protocoll" "smtp" 0 0
+	echo -n "   mailer_transport: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Mail host ip address" "127.0.0.1" 0 0
+	echo -n "   mailer_host: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "User to authenticate on mail host" "null" 0 0
+	echo -n "   mailer_user: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Password for mail host authentication" "null" 0 0
+	echo -n "   mailer_password: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Language for your '${SULU_PROJECT}' installation" "en" 0 0
+	echo -n "   locale: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Symfony 2 CSRF Secret" "ThisTokenIsNotSoSecretChangeIt" 0 0
+	echo -n "   secret: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
+
+	console_input "Full name of Sulu admin" "SULU 2" 0 0
+	echo -n "   sulu_admin.name: " >> ${PARAMETERS_YML}; cat ${TMP_FILE} >> ${PARAMETERS_YML}
 
 	# Content fallback intervall
-	echo 5000 >> ${TMP_FILE}
+	echo "   content_fallback_intervall: 5000" >> ${PARAMETERS_YML}
 	# Content preview port
-	echo 9876 >> ${TMP_FILE}
+	echo "   content_preview_port: 9876" >> ${PARAMETERS_YML}
 }
 
 sulu_configure() {
 	say "Configuring Webspaces..."
-	cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml >/dev/null 2>&1
+	cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml >/dev/null 2>&1 
 	task_done
 
 	say "Configuring Templates..."
-	cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml >/dev/null 2>&1
-	cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml >/dev/null 2>&1
-	cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml >/dev/null 2>&1
+	cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml >/dev/null 2>&1 
+	cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml >/dev/null 2>&1 
+	cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml >/dev/null 2>&1 
 	task_done
 }
 
 sulu_content_repo_init() {
 	say "Initializing Content Repository..."
-	${CMD_APP_CONSOLE} "sulu:phpcr:init" >/dev/null 2>&1
+	${CMD_APP_CONSOLE} "sulu:phpcr:init" >/dev/null 2>&1 
 	task_done
 }
 
 sulu_webspace_init() {
 	say "Initializing Webspace..."
-	${CMD_APP_CONSOLE} "sulu:webspaces:init" >/dev/null 2>&1
+	${CMD_APP_CONSOLE} "sulu:webspaces:init" >/dev/null 2>&1 
 	task_done
 }
 
@@ -359,52 +440,54 @@ sulu_user_new() {
 }
 
 sulu_user_new_questions() {
-	rm ${TMP_FILE} >/dev/null 2>&1
+	reset_tmp_file
 	
 	# -----------------------------------------------------------------------------
 	# PLEASE DO NOT CHANGE THE ORDER OF THE FOLLOWING ENTRIES!!!
 	# -----------------------------------------------------------------------------
 
-	console_input "Please choose a username"			""
+	console_input "Please choose an username"			""
 	console_input "Please choose a First Name"			""
 	console_input "Please choose a Last Name"			""
-	console_input "Please choose an email"				""
+	console_input "Please choose an email address"		""
 	console_input "Please choose a locale"				""
 	console_input "Please choose a password"			"" 1
 }
 
 sulu_user_create() {
 	say "Creating new user..."
-	${CMD_APP_CONSOLE} "sulu:security:user:create" < ${TMP_FILE} >/dev/null 2>&1
+	${CMD_APP_CONSOLE} "sulu:security:user:create" < ${TMP_FILE} >/dev/null 2>&1 
 	task_done
-	rm ${TMP_FILE} >/dev/null 2>&1
 }
 
 cache_reset() {
 	say "Initializing caches..."
 	
-	rm -rf app/admin/cache/* >/dev/null 2>&1
-	rm -rf app/admin/logs/* >/dev/null 2>&1
-	rm -rf app/website/cache/* >/dev/null 2>&1
-	rm -rf app/website/logs/* >/dev/null 2>&1
+	rm -rf app/admin/cache/* >/dev/null 2>&1 
+	rm -rf app/admin/logs/* >/dev/null 2>&1 
+	rm -rf app/website/cache/* >/dev/null 2>&1 
+	rm -rf app/website/logs/* >/dev/null 2>&1 
 	
 	task_done
 }
 
 database_create() {
-	DOCTRINE_CREATE_DB='doctrine:database:create'
-	DOCTRINE_CREATE_SCHEMA='doctrine:schema:create'
-	DOCTRINE_LOAD_FIXTURES='doctrine:fixtures:load'
-	DOCTRINE_DROP_DB='doctrine:database:drop --force'
-	
 	if [ ${DB_CREATE} = 'yes' ]; then
+		# we need to drain the cache since 'app/console' is using
+		# the cached 'parameters.yml' instead of our own!
+		rm -rf app/admin/cache/* >/dev/null 2>&1 
+		
 		say "Creating database..."
-		${CMD_APP_CONSOLE} ${DOCTRINE_DROP_DB} >/dev/null 2>&1
-		${CMD_APP_CONSOLE} ${DOCTRINE_CREATE_DB} >/dev/null 2>&1
-		task_done
+		ERROR="$( ${CMD_APP_CONSOLE} doctrine:database:drop --force | sed s/\"/\'/g >/dev/null 2>&1 )"
+		if [ ! -z "${ERROR}" ]; then echo; say_error "${ERROR}"; abort; fi
 
+		ERROR="$( ${CMD_APP_CONSOLE} doctrine:database:create | sed s/\"/\'/g >/dev/null 2>&1 )"
+		if [ ! -z "${ERROR}" ]; then echo; say_error "${ERROR}"; abort; fi
+		task_done
+		
 		say "Creating schema..."
-		${CMD_APP_CONSOLE} ${DOCTRINE_CREATE_SCHEMA} >/dev/null 2>&1
+		ERROR="$( ${CMD_APP_CONSOLE} doctrine:schema:create | sed s/\"/\'/g >/dev/null 2>&1 )"
+		if [ ! -z "${ERROR}" ]; then echo; say_error "${ERROR}"; abort; fi
 		task_done
 
 		# Loading default values normally requires user interaction.
@@ -412,8 +495,8 @@ database_create() {
 		echo 'y' > ${TMP_FILE}
 
 		say "Loading database default values..."
-		${CMD_APP_CONSOLE} ${DOCTRINE_LOAD_FIXTURES} < ${TMP_FILE} >/dev/null 2>&1
-		rm ${TMP_FILE} >/dev/null 2>&1
+		ERROR="$( ${CMD_APP_CONSOLE} doctrine:fixtures:load < ${TMP_FILE} | sed s/\"/\'/g >/dev/null 2>&1 )"
+		if [ ! -z "${ERROR}" ]; then echo; say_error "${ERROR}"; abort; fi
 		task_done
 	fi
 }
@@ -436,13 +519,13 @@ permissions_set() {
 
 permissions_set_darwin() {
 	APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
-	sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs
-	sudo chmod +a "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs
+	sudo chmod +a -R "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
+	sudo chmod +a -R "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
 
 permissions_set_linux() {
-	sudo setfacl -R -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs
-	sudo setfacl -dR -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs
+	sudo setfacl -R -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
+	sudo setfacl -dR -m u:www-data:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
 }
 
 #permissions_set_freebsd() {
@@ -452,7 +535,9 @@ permissions_set_linux() {
 closing_remarks() {
 	printf "=%.0s" {1..74}
 	printf "\n"
-	printf "${COLOR_BLACK_BOLD}\o/ Hurray \o/ - You have successfully installed '${SULU_PROJECT}'${COLOR_NONE}\n"
+	printf "                              ${COLOR_BLACK_BOLD}\o/ Hurray \o/${COLOR_NONE}\n"
+	printf "\n"
+	printf "                 You have successfully installed '${SULU_PROJECT}'${COLOR_NONE}\n"
 	printf "=%.0s" {1..74}
 	printf "\n"
 	cat <<EOT
@@ -475,12 +560,17 @@ EOT
 	echo
 }
 
+error_msg_db_ambiguity() {
+	say_error "Using both options '-P' and '-m' makes no sense because of they're addressing two different databases."
+	abort
+}
+
 
 
 #------------------------------------------------------------------------------
 # Section: Parameter parsing
 
-while getopts hvp:n:dm: option
+while getopts hvp:n:dPm: option
 do
 	case $option in
 		h)	usage; abort
@@ -501,11 +591,21 @@ do
 		d)	DB_CREATE='yes'
 			;;
 			
+		P)	SULU_DBAL='pgsql'
+			if [ ! -z ${MYSQL_INSTALL_PATH} ]; then
+				error_msg_db_ambiguity
+			fi
+			;;
+			
 		m)	MYSQL_INSTALL_PATH=${OPTARG%/}
-			CMD_MYSQL="${MYSQL_INSTALL_PATH}/mysql"
-			if [ ! -f ${CMD_MYSQL} ]; then
-				say_error "The mysql binary doesn't exists at: ${MYSQL_INSTALL_PATH}/"
-				abort
+			if [ "${SULU_DBAL}" = "pgsql" ]; then
+				error_msg_db_ambiguity
+			else
+				CMD_MYSQL="${MYSQL_INSTALL_PATH}/mysql"
+				if [ ! -f ${CMD_MYSQL} ]; then
+					say_error "The mysql binary doesn't exists at: ${MYSQL_INSTALL_PATH}/"
+					abort
+				fi
 			fi
 			;;
 	esac
@@ -533,22 +633,30 @@ show_version
 # first, let's make some checks...
 section "Requirements"
 php_check
-mysql_check
 git_check
 composer_check
 
+case ${SULU_DBAL} in
+	mysql)	mysql_check
+			;;
+	pgsql)	pgsql_check
+			;;
+esac
+
 
 # first, we have to grab the sulu-standard bundle
-section "Sulu Setup"
+section "Installation"
 sulu_get ${SULU_PROJECT_INSTALL_PATH} ${SULU_PROJECT_CLONE_NAME}
-
-# setting up basic application parameters
-sulu_init
 
 
 # setting up PHPCR session
-section "PHPCR Session"
+section "PHPCR"
 phpcr_setup
+
+
+# setting up basic application parameters
+section "Initialization"
+sulu_init
 
 
 # download and install dependencies
