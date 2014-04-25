@@ -49,6 +49,9 @@ cd sulu-standard
 git checkout develop
 ```
 
+##### Setup PHPCR Session
+Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
+
 #### Install all the dependencies with composer
 
 ```
@@ -118,9 +121,6 @@ cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xm
 cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml
 ```
 You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
-
-##### Setup PHPCR Session
-Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
 
 #### Init Content Repository
 

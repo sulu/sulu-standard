@@ -10,8 +10,7 @@ security:
 
     providers:
         sulu:
-            entity:
-                class: SuluSecurityBundle:User
+            id: sulu_security.user_repository
 
     access_control:
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
