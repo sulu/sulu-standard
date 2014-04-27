@@ -16,9 +16,9 @@ class AppCache extends HttpCache
 
         $response = new Response();
         if ($this->getStore()->purge($request->getUri())) {
-            $response->setStatusCode(Response::HTTP_OK, 'Purged');
+            $response->setStatusCode(200, 'Purged');
         } else {
-            $response->setStatusCode(Response::HTTP_NOT_FOUND, 'Not purged');
+            $response->setStatusCode(200, 'Not purged'); // 404 ???
         }
 
         return $response;
