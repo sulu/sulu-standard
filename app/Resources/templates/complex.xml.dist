@@ -11,14 +11,19 @@
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
-        <property name="title" type="text_line" mandatory="true"/>
-        <property name="url" type="resource_locator" mandatory="true"/>
-        <property name="article" type="text_editor" mandatory="true"/>
+        <property name="title" title="sulu.property.title" type="text_line" mandatory="true">
+            <tag name="sulu.node.name"/>
+            <tag name="sulu.rlp.part"/>
+        </property>
+        <property name="url" title="sulu.property.url" type="resource_locator" mandatory="true">
+            <tag name="sulu.rlp.input"/>
+        </property>
+        <property name="article" title="sulu.property.article" type="text_editor" mandatory="true"/>
 
-        <block name="block" minOccurs="2" maxOccurs="10" mandatory="true">
+        <block name="block" title="sulu.property.block" minOccurs="2" maxOccurs="10" mandatory="true">
             <properties>
-                <property name="title" type="text_line" mandatory="true"/>
-                <property name="article" type="text_editor" mandatory="true"/>
+                <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
+                <property name="article" title="sulu.property.block.article" type="text_editor" mandatory="true"/>
             </properties>
         </block>
     </properties>
