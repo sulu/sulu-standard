@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8a35991062e3840b9e67beeda9405a26",
+    "hash": "41b502b65c8b971e79689554b9e079e4",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -11,18 +11,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "1153cfc9d4471b81c24d0e1ba1782c1ff1cbac3a"
+                "reference": "f25e03077984728b88f3218642ebcbf3e32d4410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/1153cfc9d4471b81c24d0e1ba1782c1ff1cbac3a",
-                "reference": "1153cfc9d4471b81c24d0e1ba1782c1ff1cbac3a",
+                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/f25e03077984728b88f3218642ebcbf3e32d4410",
+                "reference": "f25e03077984728b88f3218642ebcbf3e32d4410",
                 "shasum": ""
             },
             "require": {
-                "guzzle/http": ">=3.6.0,<3.9.0-dev",
+                "guzzle/http": "~3.6",
                 "php": ">=5.3.9",
-                "react/socket": ">=0.3.0,<0.5-dev",
+                "react/socket": "0.3.*|0.4.*",
                 "symfony/http-foundation": "~2.2",
                 "symfony/routing": "~2.2"
             },
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-04-13 15:44:51"
+            "time": "2014-04-19 14:37:17"
         },
         {
             "name": "doctrine/annotations",
@@ -92,7 +92,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -113,7 +113,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -234,7 +234,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -1128,17 +1128,17 @@
         },
         {
             "name": "guzzle/common",
-            "version": "v3.8.1",
+            "version": "v3.9.0",
             "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/common.git",
-                "reference": "67f6c3fd04bae387d47c2a673fa623ed8f4189bb"
+                "reference": "ada14a205bf73d8b34e6af8bbe6c07d4edb3674e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/common/zipball/67f6c3fd04bae387d47c2a673fa623ed8f4189bb",
-                "reference": "67f6c3fd04bae387d47c2a673fa623ed8f4189bb",
+                "url": "https://api.github.com/repos/guzzle/common/zipball/ada14a205bf73d8b34e6af8bbe6c07d4edb3674e",
+                "reference": "ada14a205bf73d8b34e6af8bbe6c07d4edb3674e",
                 "shasum": ""
             },
             "require": {
@@ -1168,21 +1168,21 @@
                 "event",
                 "exception"
             ],
-            "time": "2014-01-28 22:29:15"
+            "time": "2014-04-23 20:33:31"
         },
         {
             "name": "guzzle/http",
-            "version": "v3.8.1",
+            "version": "v3.9.0",
             "target-dir": "Guzzle/Http",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/http.git",
-                "reference": "565fd64be16d91c840f497c5de76f86d54a822d8"
+                "reference": "9780379f23c99241bbe185c516d392d9d5d31e1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/http/zipball/565fd64be16d91c840f497c5de76f86d54a822d8",
-                "reference": "565fd64be16d91c840f497c5de76f86d54a822d8",
+                "url": "https://api.github.com/repos/guzzle/http/zipball/9780379f23c99241bbe185c516d392d9d5d31e1a",
+                "reference": "9780379f23c99241bbe185c516d392d9d5d31e1a",
                 "shasum": ""
             },
             "require": {
@@ -1225,21 +1225,21 @@
                 "http",
                 "http client"
             ],
-            "time": "2014-01-23 18:23:29"
+            "time": "2014-04-23 21:02:48"
         },
         {
             "name": "guzzle/parser",
-            "version": "v3.8.1",
+            "version": "v3.9.0",
             "target-dir": "Guzzle/Parser",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/parser.git",
-                "reference": "3f52387052f2e4ef083145a0f73c3654aa14e086"
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/parser/zipball/3f52387052f2e4ef083145a0f73c3654aa14e086",
-                "reference": "3f52387052f2e4ef083145a0f73c3654aa14e086",
+                "url": "https://api.github.com/repos/guzzle/parser/zipball/6874d171318a8e93eb6d224cf85e4678490b625c",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c",
                 "shasum": ""
             },
             "require": {
@@ -1269,11 +1269,11 @@
                 "message",
                 "url"
             ],
-            "time": "2013-10-24 00:04:09"
+            "time": "2014-02-05 18:29:46"
         },
         {
             "name": "guzzle/stream",
-            "version": "v3.8.1",
+            "version": "v3.9.0",
             "target-dir": "Guzzle/Stream",
             "source": {
                 "type": "git",
@@ -1685,7 +1685,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1848,12 +1848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipThemeBundle.git",
-                "reference": "20bd3424f31fc9e2b66651b4ab54c024f1c434fd"
+                "reference": "76ceadaae8632fbd1ee881d663ce011126bf2fa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/20bd3424f31fc9e2b66651b4ab54c024f1c434fd",
-                "reference": "20bd3424f31fc9e2b66651b4ab54c024f1c434fd",
+                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/76ceadaae8632fbd1ee881d663ce011126bf2fa0",
+                "reference": "76ceadaae8632fbd1ee881d663ce011126bf2fa0",
                 "shasum": ""
             },
             "require": {
@@ -1893,20 +1893,20 @@
                 "themes",
                 "theming"
             ],
-            "time": "2014-04-11 19:02:07"
+            "time": "2014-04-15 16:20:40"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.8.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "392ef35fd470638e08d0160d6b1cbab63cb23174"
+                "reference": "65026b610f8c19e61d7242f600530677b0466aac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/392ef35fd470638e08d0160d6b1cbab63cb23174",
-                "reference": "392ef35fd470638e08d0160d6b1cbab63cb23174",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/65026b610f8c19e61d7242f600530677b0466aac",
+                "reference": "65026b610f8c19e61d7242f600530677b0466aac",
                 "shasum": ""
             },
             "require": {
@@ -1934,7 +1934,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.9.x-dev"
                 }
             },
             "autoload": {
@@ -1961,7 +1961,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-03-23 19:50:26"
+            "time": "2014-04-24 13:29:03"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -2263,16 +2263,16 @@
         },
         {
             "name": "react/socket",
-            "version": "v0.4.0",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e"
+                "reference": "34bf64f9bed060b5e2e33bb890502edc74b060cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
-                "reference": "9d7af6c3b9367c6f5a506b9a6954d850a8fc2e4e",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/34bf64f9bed060b5e2e33bb890502edc74b060cb",
+                "reference": "34bf64f9bed060b5e2e33bb890502edc74b060cb",
                 "shasum": ""
             },
             "require": {
@@ -2300,7 +2300,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2014-02-02 01:11:26"
+            "time": "2014-04-13 16:32:50"
         },
         {
             "name": "react/stream",
@@ -2562,12 +2562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "beddc472ec5cfdf1e64c58fb46f1184c61a4f653"
+                "reference": "9ecc1eaa04379dc68aaaf12a26e09a9021d78e9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/beddc472ec5cfdf1e64c58fb46f1184c61a4f653",
-                "reference": "beddc472ec5cfdf1e64c58fb46f1184c61a4f653",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/9ecc1eaa04379dc68aaaf12a26e09a9021d78e9a",
+                "reference": "9ecc1eaa04379dc68aaaf12a26e09a9021d78e9a",
                 "shasum": ""
             },
             "require": {
@@ -2596,7 +2596,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-04-11 09:30:56"
+            "time": "2014-04-23 14:18:43"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2605,12 +2605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "88069b965cb6c04fe64eba99f38b9ba11abbfd06"
+                "reference": "2790db13d1b89c01fba7fd91ecea833f8998a663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/88069b965cb6c04fe64eba99f38b9ba11abbfd06",
-                "reference": "88069b965cb6c04fe64eba99f38b9ba11abbfd06",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/2790db13d1b89c01fba7fd91ecea833f8998a663",
+                "reference": "2790db13d1b89c01fba7fd91ecea833f8998a663",
                 "shasum": ""
             },
             "require": {
@@ -2642,7 +2642,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "The sulu bundle for managing contacts",
@@ -2650,7 +2650,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-04-09 14:31:04"
+            "time": "2014-04-22 09:16:33"
         },
         {
             "name": "sulu/content-bundle",
@@ -2659,12 +2659,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3"
+                "reference": "a1095fccfb3008a64beadef591e343a2b7700653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3",
-                "reference": "be5e2e3cf96f23c3a2c315f9bb6cb2ac2eedcec3",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/a1095fccfb3008a64beadef591e343a2b7700653",
+                "reference": "a1095fccfb3008a64beadef591e343a2b7700653",
                 "shasum": ""
             },
             "require": {
@@ -2715,7 +2715,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-04-11 09:59:19"
+            "time": "2014-04-24 09:22:26"
         },
         {
             "name": "sulu/portal-bundle",
@@ -2724,12 +2724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluPortalBundle.git",
-                "reference": "36967f7e66329d2cab298c5a15c21455c366a032"
+                "reference": "98e885caec898e9fa508f08a34baead641d4ac31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluPortalBundle/zipball/36967f7e66329d2cab298c5a15c21455c366a032",
-                "reference": "36967f7e66329d2cab298c5a15c21455c366a032",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluPortalBundle/zipball/98e885caec898e9fa508f08a34baead641d4ac31",
+                "reference": "98e885caec898e9fa508f08a34baead641d4ac31",
                 "shasum": ""
             },
             "require": {
@@ -2766,7 +2766,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-03-28 14:43:23"
+            "time": "2014-04-22 07:47:26"
         },
         {
             "name": "sulu/product-advanced-bundle",
@@ -2775,12 +2775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductAdvancedBundle.git",
-                "reference": "91fb6b501b78098cae826e7e4b7c1d484e225407"
+                "reference": "e9ba9ef9104a5a0eca9d226f8cc88e475fc23758"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/91fb6b501b78098cae826e7e4b7c1d484e225407",
-                "reference": "91fb6b501b78098cae826e7e4b7c1d484e225407",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/e9ba9ef9104a5a0eca9d226f8cc88e475fc23758",
+                "reference": "e9ba9ef9104a5a0eca9d226f8cc88e475fc23758",
                 "shasum": ""
             },
             "require": {
@@ -2823,7 +2823,7 @@
                 "sulu",
                 "supplier"
             ],
-            "time": "2014-04-12 15:37:57"
+            "time": "2014-04-22 08:11:53"
         },
         {
             "name": "sulu/product-base-bundle",
@@ -2832,12 +2832,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "4189bf0922579862d788d2f5ee357426e93dc8fc"
+                "reference": "1a97d4feb027f6b6b54709348ee1bc64cfc898a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/4189bf0922579862d788d2f5ee357426e93dc8fc",
-                "reference": "4189bf0922579862d788d2f5ee357426e93dc8fc",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/1a97d4feb027f6b6b54709348ee1bc64cfc898a6",
+                "reference": "1a97d4feb027f6b6b54709348ee1bc64cfc898a6",
                 "shasum": ""
             },
             "require": {
@@ -2874,7 +2874,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-04-09 08:39:11"
+            "time": "2014-04-22 07:48:59"
         },
         {
             "name": "sulu/security-bundle",
@@ -2883,12 +2883,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "0ca360f5458df0f3d3c2b0835a9315d63a727c90"
+                "reference": "d38a429c00b0546dfa74a3e3a7d54d4ac97299a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/0ca360f5458df0f3d3c2b0835a9315d63a727c90",
-                "reference": "0ca360f5458df0f3d3c2b0835a9315d63a727c90",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/d38a429c00b0546dfa74a3e3a7d54d4ac97299a6",
+                "reference": "d38a429c00b0546dfa74a3e3a7d54d4ac97299a6",
                 "shasum": ""
             },
             "require": {
@@ -2929,7 +2929,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-04-09 14:28:40"
+            "time": "2014-04-24 11:39:13"
         },
         {
             "name": "sulu/sulu",
@@ -2937,12 +2937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "76b10ea7dfa97721d7d0ad81a479efdc7547c384"
+                "reference": "f0b2ed0baee32aa27b6005191e8458cb4bb48e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/76b10ea7dfa97721d7d0ad81a479efdc7547c384",
-                "reference": "76b10ea7dfa97721d7d0ad81a479efdc7547c384",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/f0b2ed0baee32aa27b6005191e8458cb4bb48e79",
+                "reference": "f0b2ed0baee32aa27b6005191e8458cb4bb48e79",
                 "shasum": ""
             },
             "require": {
@@ -2982,7 +2982,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-04-11 08:03:29"
+            "time": "2014-04-27 11:48:17"
         },
         {
             "name": "sulu/tag-bundle",
@@ -2991,12 +2991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
-                "reference": "30fd97128e4c16f4c6dcb1bd007f3664f8039f5b"
+                "reference": "ef6366487490e0d41d3bac8545626856c9e5e898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/30fd97128e4c16f4c6dcb1bd007f3664f8039f5b",
-                "reference": "30fd97128e4c16f4c6dcb1bd007f3664f8039f5b",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/ef6366487490e0d41d3bac8545626856c9e5e898",
+                "reference": "ef6366487490e0d41d3bac8545626856c9e5e898",
                 "shasum": ""
             },
             "require": {
@@ -3037,7 +3037,7 @@
                 "sulu",
                 "tags"
             ],
-            "time": "2014-04-10 18:33:13"
+            "time": "2014-04-22 09:24:53"
         },
         {
             "name": "sulu/translate-bundle",
@@ -3046,12 +3046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
-                "reference": "c4ca3ef765eaa39dd1ef3dbfa2afaf20fe717584"
+                "reference": "1ddd9ae92969d05f6e839c30562349a4ec37150f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/c4ca3ef765eaa39dd1ef3dbfa2afaf20fe717584",
-                "reference": "c4ca3ef765eaa39dd1ef3dbfa2afaf20fe717584",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/1ddd9ae92969d05f6e839c30562349a4ec37150f",
+                "reference": "1ddd9ae92969d05f6e839c30562349a4ec37150f",
                 "shasum": ""
             },
             "require": {
@@ -3089,7 +3089,7 @@
                 "symfony",
                 "translate"
             ],
-            "time": "2014-04-04 06:45:05"
+            "time": "2014-04-22 09:26:11"
         },
         {
             "name": "sulu/website-bundle",
@@ -3098,12 +3098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "f04ce2b3e7c19e6612a708b87c30b3df9f9576d4"
+                "reference": "9054db4b7904b9d146b7f1ecedf2a2342d43b10a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/f04ce2b3e7c19e6612a708b87c30b3df9f9576d4",
-                "reference": "f04ce2b3e7c19e6612a708b87c30b3df9f9576d4",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/9054db4b7904b9d146b7f1ecedf2a2342d43b10a",
+                "reference": "9054db4b7904b9d146b7f1ecedf2a2342d43b10a",
                 "shasum": ""
             },
             "require": {
@@ -3142,7 +3142,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-04-03 06:18:25"
+            "time": "2014-04-22 07:50:04"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3202,17 +3202,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "12f7b1b8cc7dc9714bd68aac7a6283072428c165"
+                "reference": "1dffd2c86927732b8e056d878fada64d3f8fe378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/12f7b1b8cc7dc9714bd68aac7a6283072428c165",
-                "reference": "12f7b1b8cc7dc9714bd68aac7a6283072428c165",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/1dffd2c86927732b8e056d878fada64d3f8fe378",
+                "reference": "1dffd2c86927732b8e056d878fada64d3f8fe378",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.2"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "sonata-project/admin-bundle": "~2.2",
@@ -3254,7 +3254,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2014-04-07 17:03:47"
+            "time": "2014-04-15 11:40:25"
         },
         {
             "name": "symfony-cmf/routing",
@@ -3263,12 +3263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "81f23fddd7ed00b2dc5d185b23b017d4727b26d6"
+                "reference": "ca9b88d53a159c75d3a62a54934f0e170e21b0dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/81f23fddd7ed00b2dc5d185b23b017d4727b26d6",
-                "reference": "81f23fddd7ed00b2dc5d185b23b017d4727b26d6",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/ca9b88d53a159c75d3a62a54934f0e170e21b0dc",
+                "reference": "ca9b88d53a159c75d3a62a54934f0e170e21b0dc",
                 "shasum": ""
             },
             "require": {
@@ -3312,7 +3312,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2014-04-07 17:03:09"
+            "time": "2014-04-27 11:55:17"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -3321,18 +3321,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "0870e64ed4068ee703531be729ce4a15bd32d827"
+                "reference": "a3afe2fbc3835ecbb5d6c703da7a43810ce4f60b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/0870e64ed4068ee703531be729ce4a15bd32d827",
-                "reference": "0870e64ed4068ee703531be729ce4a15bd32d827",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/a3afe2fbc3835ecbb5d6c703da7a43810ce4f60b",
+                "reference": "a3afe2fbc3835ecbb5d6c703da7a43810ce4f60b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "symfony-cmf/routing": "~1.2.0",
-                "symfony/framework-bundle": "~2.2"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "doctrine/orm": "2.3.*",
@@ -3341,7 +3341,7 @@
                 "sonata-project/doctrine-phpcr-admin-bundle": "1.1.*",
                 "symfony-cmf/core-bundle": "~1.1",
                 "symfony-cmf/testing": "1.1.*",
-                "symfony/monolog-bundle": "2.2.*"
+                "symfony/monolog-bundle": "2.3.*"
             },
             "suggest": {
                 "doctrine/orm": "To enable support for the ORM entities",
@@ -3349,7 +3349,7 @@
                 "doctrine/phpcr-odm": "To enable support for the PHPCR ODM documents",
                 "sonata-project/doctrine-phpcr-admin-bundle": "To provide an admin interface for the PHPCR ODM documents",
                 "symfony-cmf/content-bundle": "To optionally use the configured value for 'content_basepath' from the CoreBundle",
-                "symfony-cmf/core-bundle": "For compatibility with Symfony 2.2 and easier configuration"
+                "symfony-cmf/core-bundle": "To use the provided Doctrine\\Phpcr documents and for easier configuration"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -3378,7 +3378,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2014-04-11 10:55:27"
+            "time": "2014-04-24 09:01:25"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -3610,16 +3610,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.3.12",
+            "version": "v2.3.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503"
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/3574df3d5e0039f3225007b8be534df5c4104503",
-                "reference": "3574df3d5e0039f3225007b8be534df5c4104503",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9c4b11915d7409a9cecd155d954f2ade273f3359",
+                "reference": "9c4b11915d7409a9cecd155d954f2ade273f3359",
                 "shasum": ""
             },
             "require": {
@@ -3716,7 +3716,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-04-03 05:42:39"
+            "time": "2014-04-27 08:34:33"
         },
         {
             "name": "twig/extensions",
@@ -3919,16 +3919,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "v0.6.1",
+            "version": "v0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "941182e0c1beef0639fef1029cf8560720f422e3"
+                "reference": "da81030376bfaa05e2fc83655b5e7ef57daceea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/941182e0c1beef0639fef1029cf8560720f422e3",
-                "reference": "941182e0c1beef0639fef1029cf8560720f422e3",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/da81030376bfaa05e2fc83655b5e7ef57daceea5",
+                "reference": "da81030376bfaa05e2fc83655b5e7ef57daceea5",
                 "shasum": ""
             },
             "require": {
@@ -3975,7 +3975,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2013-12-05 15:05:46"
+            "time": "2014-04-12 13:19:55"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
@@ -4284,16 +4284,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.34",
+            "version": "3.7.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "248d6ce95e6ca7f0e3135252c0b984bbe1f52f19"
+                "reference": "83f9537e46346f75ed6925441ac259453213c7cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/248d6ce95e6ca7f0e3135252c0b984bbe1f52f19",
-                "reference": "248d6ce95e6ca7f0e3135252c0b984bbe1f52f19",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/83f9537e46346f75ed6925441ac259453213c7cc",
+                "reference": "83f9537e46346f75ed6925441ac259453213c7cc",
                 "shasum": ""
             },
             "require": {
@@ -4354,7 +4354,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-03-28 11:04:36"
+            "time": "2014-04-21 06:25:54"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4608,12 +4608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "eb41499688fc70a5abf2122abafa432afa8607f3"
+                "reference": "f08657a9fa6c4466cacd006b3ebd6fb93280ec5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/eb41499688fc70a5abf2122abafa432afa8607f3",
-                "reference": "eb41499688fc70a5abf2122abafa432afa8607f3",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/f08657a9fa6c4466cacd006b3ebd6fb93280ec5b",
+                "reference": "f08657a9fa6c4466cacd006b3ebd6fb93280ec5b",
                 "shasum": ""
             },
             "require": {
@@ -4647,7 +4647,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-04-02 07:43:29"
+            "time": "2014-04-22 08:44:03"
         }
     ],
     "aliases": [
