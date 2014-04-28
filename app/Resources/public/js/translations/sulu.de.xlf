@@ -834,6 +834,14 @@
         <source>url.home</source>
         <target>Privat</target>
       </trans-unit>
+      <trans-unit id="ad6ff6ec7654ae6c52d978956f34743e" resname="sulu.overlay.be-careful">
+        <source>sulu.overlay.be-careful</source>
+        <target>Sei vorsichtig</target>
+      </trans-unit>
+      <trans-unit id="ad6946ec7654ae6c52d978956f34743e" resname="sulu.overlay.delete-desc">
+        <source>sulu.overlay.delete-desc</source>
+        <target>Die Operation die Sie machen möchten löscht Daten und lässt sich nicht rückgängig machen. Bitte denken Sie genau darüber nach und akzeptieren Sie oder brechen Sie ab.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

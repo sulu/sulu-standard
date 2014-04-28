@@ -834,6 +834,14 @@
         <source>url.home</source>
         <target>Home</target>
       </trans-unit>
+      <trans-unit id="ad6ff6ec7654ae6c52d978956f34743e" resname="sulu.overlay.be-careful">
+        <source>sulu.overlay.be-careful</source>
+        <target>Be careful</target>
+      </trans-unit>
+      <trans-unit id="ad6946ec7654ae6c52d978956f34743e" resname="sulu.overlay.delete-desc">
+        <source>sulu.overlay.delete-desc</source>
+        <target>The operation you are about to do will delete data. This is not undoable! Please think about it and accept or decline.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
