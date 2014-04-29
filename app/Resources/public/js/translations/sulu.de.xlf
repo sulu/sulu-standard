@@ -842,6 +842,42 @@
         <source>sulu.overlay.delete-desc</source>
         <target>Die Operation die Sie machen möchten löscht Daten und lässt sich nicht rückgängig machen. Bitte denken Sie genau darüber nach und akzeptieren Sie oder brechen Sie ab.</target>
       </trans-unit>
+      <trans-unit id="aa6946ec8654ae6c52d978956f34743e" resname="public.show-history">
+        <source>public.show-history</source>
+        <target>Verlauf anzeigen</target>
+      </trans-unit>
+      <trans-unit id="aa6946ec8654ae6c52d978956f347498" resname="public.url-history">
+        <source>public.url-history</source>
+        <target>Url Verlauf</target>
+      </trans-unit>
+      <trans-unit id="aa6946ea8654ae6c52d978956f347498" resname="sulu.property.title">
+        <source>sulu.property.title</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="aa6946ea8654ae6c851978956f347498" resname="sulu.property.url">
+        <source>sulu.property.url</source>
+        <target>Url</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae6c851978956f347498" resname="sulu.property.block.title">
+        <source>sulu.property.block.title</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae61851778956f347498" resname="sulu.property.block.article">
+        <source>sulu.property.block.article</source>
+        <target>Artikel</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae61851778956f34749f" resname="sulu.property.tags">
+        <source>sulu.property.tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654de61851778956f34749f" resname="sulu.property.article">
+        <source>sulu.property.article</source>
+        <target>Artikel</target>
+      </trans-unit>
+      <trans-unit id="aa6f64138654de61851778956f34749f" resname="sulu.property.smartcontent">
+        <source>sulu.property.smartcontent</source>
+        <target>Smart-content</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

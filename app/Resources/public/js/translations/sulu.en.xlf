@@ -842,6 +842,42 @@
         <source>sulu.overlay.delete-desc</source>
         <target>The operation you are about to do will delete data. This is not undoable! Please think about it and accept or decline.</target>
       </trans-unit>
+      <trans-unit id="aa6946ec8654ae6c52d978956f34743e" resname="public.show-history">
+        <source>public.show-history</source>
+        <target>Show history</target>
+      </trans-unit>
+      <trans-unit id="aa6946ec8654ae6c52d978956f347498" resname="public.url-history">
+        <source>public.url-history</source>
+        <target>Url history</target>
+      </trans-unit>
+      <trans-unit id="aa6946ea8654ae6c52d978956f347498" resname="sulu.property.title">
+        <source>sulu.property.title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="aa6946ea8654ae6c851978956f347498" resname="sulu.property.url">
+        <source>sulu.property.url</source>
+        <target>Url</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae6c851978956f347498" resname="sulu.property.block.title">
+        <source>sulu.property.block.title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae61851778956f347498" resname="sulu.property.block.article">
+        <source>sulu.property.block.article</source>
+        <target>Article</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654ae61851778956f34749f" resname="sulu.property.tags">
+        <source>sulu.property.tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="aa6ff6ea8654de61851778956f34749f" resname="sulu.property.article">
+        <source>sulu.property.article</source>
+        <target>Article</target>
+      </trans-unit>
+      <trans-unit id="aa6f64138654de61851778956f34749f" resname="sulu.property.smartcontent">
+        <source>sulu.property.smartcontent</source>
+        <target>Smart-content</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
