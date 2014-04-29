@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <webspace xmlns="http://schemas.sulu.io/webspace/webspace"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://schemas.sulu.io/webspace/webspace http://schemas.sulu.io/webspace/webspace-1.0.xsd">
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.sulu.io/webspace/webspace http://schemas.sulu.io/webspace/webspace-1.0.xsd">
 
     <name>sulu.io</name>
-    <key>sulu_demo</key>
+    <key>sulu_io</key>
 
     <localizations>
         <localization language="en" shadow="auto">
@@ -25,13 +25,14 @@
     <portals>
         <portal>
             <name>sulu.io</name>
-            <key>sulucmf_at</key>
+            <key>sulu_io</key>
             <resource-locator>
                 <strategy>tree</strategy>
             </resource-locator>
 
             <localizations>
-                <localization language="en" country="us" default="true"/>
+                <localization language="en" default="true"/>
+                <localization language="de"/>
             </localizations>
 
             <environments>
