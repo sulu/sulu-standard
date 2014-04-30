@@ -3159,12 +3159,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "5bd9d9d2cfd6713546f49078505c2dafd82d8354"
+                "reference": "a828d3d0c98aa5578e19e28c896bd1695bba5263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/5bd9d9d2cfd6713546f49078505c2dafd82d8354",
-                "reference": "5bd9d9d2cfd6713546f49078505c2dafd82d8354",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/a828d3d0c98aa5578e19e28c896bd1695bba5263",
+                "reference": "a828d3d0c98aa5578e19e28c896bd1695bba5263",
                 "shasum": ""
             },
             "require": {
@@ -3211,7 +3211,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2014-04-27 14:27:59"
+            "time": "2014-04-30 08:16:20"
         },
         {
             "name": "symfony-cmf/routing",
@@ -3278,12 +3278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "dd4e6a8fea3cd22f178e7d86a883b6311297ebfa"
+                "reference": "2b9900f442fccded407daebae0f3d98d3e4f11c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/dd4e6a8fea3cd22f178e7d86a883b6311297ebfa",
-                "reference": "dd4e6a8fea3cd22f178e7d86a883b6311297ebfa",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/2b9900f442fccded407daebae0f3d98d3e4f11c5",
+                "reference": "2b9900f442fccded407daebae0f3d98d3e4f11c5",
                 "shasum": ""
             },
             "require": {
@@ -3335,7 +3335,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2014-04-29 15:44:56"
+            "time": "2014-04-30 05:49:04"
         },
         {
             "name": "symfony/assetic-bundle",
