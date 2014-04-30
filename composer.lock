@@ -2840,12 +2840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "fd7e003b09e5cd26a2031737d845713a3e96dbe6"
+                "reference": "8caa25a3f67be5d340fad595ac0b32cdf7c6900f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/fd7e003b09e5cd26a2031737d845713a3e96dbe6",
-                "reference": "fd7e003b09e5cd26a2031737d845713a3e96dbe6",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/8caa25a3f67be5d340fad595ac0b32cdf7c6900f",
+                "reference": "8caa25a3f67be5d340fad595ac0b32cdf7c6900f",
                 "shasum": ""
             },
             "require": {
@@ -2886,7 +2886,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-04-29 15:54:36"
+            "time": "2014-04-30 13:24:49"
         },
         {
             "name": "sulu/sulu",
@@ -3055,12 +3055,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "46a96f64107a88f9362b800d3633152371fb8a43"
+                "reference": "0e99bf0dfb978000e035bfb41cba808deef5ecc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/46a96f64107a88f9362b800d3633152371fb8a43",
-                "reference": "46a96f64107a88f9362b800d3633152371fb8a43",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/0e99bf0dfb978000e035bfb41cba808deef5ecc8",
+                "reference": "0e99bf0dfb978000e035bfb41cba808deef5ecc8",
                 "shasum": ""
             },
             "require": {
@@ -3099,7 +3099,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-04-29 17:00:46"
+            "time": "2014-04-30 18:33:33"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4248,16 +4248,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.36",
+            "version": "3.7.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1735d588c9f35bd8686cae0208d8adde77b45365"
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1735d588c9f35bd8686cae0208d8adde77b45365",
-                "reference": "1735d588c9f35bd8686cae0208d8adde77b45365",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
                 "shasum": ""
             },
             "require": {
@@ -4317,7 +4317,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-04-29 07:24:10"
+            "time": "2014-04-30 12:24:19"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
