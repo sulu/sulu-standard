@@ -113,7 +113,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -1051,12 +1051,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -1685,7 +1685,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1755,7 +1755,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2613,12 +2613,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "714fc2527e153b841323caf6387879a6dd99d458"
+                "reference": "189ebbd210c508b78aa0cd6fff64193b4afb0425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/714fc2527e153b841323caf6387879a6dd99d458",
-                "reference": "714fc2527e153b841323caf6387879a6dd99d458",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/189ebbd210c508b78aa0cd6fff64193b4afb0425",
+                "reference": "189ebbd210c508b78aa0cd6fff64193b4afb0425",
                 "shasum": ""
             },
             "require": {
@@ -2658,7 +2658,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-04-29 15:51:45"
+            "time": "2014-05-02 10:26:18"
         },
         {
             "name": "sulu/content-bundle",
@@ -2840,12 +2840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "8caa25a3f67be5d340fad595ac0b32cdf7c6900f"
+                "reference": "be1b8aa73b50e81f180aee3c0913eb15c5bc1bac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/8caa25a3f67be5d340fad595ac0b32cdf7c6900f",
-                "reference": "8caa25a3f67be5d340fad595ac0b32cdf7c6900f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/be1b8aa73b50e81f180aee3c0913eb15c5bc1bac",
+                "reference": "be1b8aa73b50e81f180aee3c0913eb15c5bc1bac",
                 "shasum": ""
             },
             "require": {
@@ -2886,7 +2886,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-04-30 13:24:49"
+            "time": "2014-05-02 11:47:49"
         },
         {
             "name": "sulu/sulu",
@@ -2894,12 +2894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "484b81c0399a53f8c90d47e5c422307ebf886092"
+                "reference": "146ddf6f8a86c861ad0f1ef8da9d37a1dd3612e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/484b81c0399a53f8c90d47e5c422307ebf886092",
-                "reference": "484b81c0399a53f8c90d47e5c422307ebf886092",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/146ddf6f8a86c861ad0f1ef8da9d37a1dd3612e0",
+                "reference": "146ddf6f8a86c861ad0f1ef8da9d37a1dd3612e0",
                 "shasum": ""
             },
             "require": {
@@ -2939,7 +2939,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-04-29 16:32:49"
+            "time": "2014-05-02 11:53:58"
         },
         {
             "name": "sulu/tag-bundle",
