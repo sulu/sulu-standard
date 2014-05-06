@@ -1,4 +1,4 @@
-Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf) [![](https://travis-ci.org/sulu-cmf/sulu-standard.png)](https://travis-ci.org/sulu-cmf/sulu-standard)
+Sulu [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf) [![](https://travis-ci.org/sulu-cmf/sulu-standard.png)](https://travis-ci.org/sulu-cmf/sulu-standard) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sulu-cmf/sulu-standard/badges/quality-score.png?s=3039e48d6515ea846578ca06f3c5bd5442ad3c5b)](https://scrutinizer-ci.com/g/sulu-cmf/sulu-standard/)
 ============================================================================================================
 
 Welcome to Sulu - a fully-functional  Content Management Framework (CMF) based on Symfony2.
@@ -51,6 +51,13 @@ git checkout develop
 
 ##### Setup PHPCR Session
 Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
+```
+cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml
+```
+or
+```
+cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml
+```
 
 #### Install all the dependencies with composer
 

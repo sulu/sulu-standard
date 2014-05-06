@@ -65,6 +65,9 @@ doctrine:
                 is_bundle: false
         resolve_target_entities:
             Sulu\Component\Security\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
+        dql:
+            string_functions:
+                CAST: Sulu\Component\Rest\DQL\Cast
 
 stof_doctrine_extensions:
     orm:

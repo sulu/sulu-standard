@@ -82,7 +82,7 @@
         <source>public.delete</source>
         <target>Delete</target>
       </trans-unit>
-      <trans-unit id="ebee6be3618fa7642a8921cf16eedb1c" resname="public.no-pages">
+      <trans-unit id="d604cadd9da2288a7c6dedec8fe50b72" resname="public.no-pages">
         <source>public.no-pages</source>
         <target>No Pages</target>
       </trans-unit>
@@ -182,7 +182,7 @@
         <source>phone.work</source>
         <target>Business</target>
       </trans-unit>
-      <trans-unit id="2ae8f62c2530b4303646d958874aa62e" resname="phone.fax">
+      <trans-unit id="27b4428805be5d6c32f51fd103b76cef" resname="phone.fax">
         <source>phone.fax</source>
         <target>Fax</target>
       </trans-unit>
@@ -208,7 +208,7 @@
       </trans-unit>
       <trans-unit id="a4190eb0ddea6a4a416c5568a137c6f6" resname="contact.accounts.name">
         <source>contact.accounts.name</source>
-        <target>Name</target>
+        <target>Company</target>
       </trans-unit>
       <trans-unit id="201e6a9adc585674ad3871e2ed7425a0" resname="contact.accounts.website">
         <source>contact.accounts.website</source>
@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="4318cb1df244d69cdc8af5b6408329d1" resname="contact.accounts.company">
         <source>contact.accounts.company</source>
-        <target>Company</target>
+        <target>Parent company</target>
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
@@ -298,7 +298,7 @@
         <source>security.permission.role.allLanguages</source>
         <target>all selected</target>
       </trans-unit>
-      <trans-unit id="9853c3be2382e817827644509ac88293" resname="toolbar.delete">
+      <trans-unit id="769a438685ade58b963d872013c70edd" resname="toolbar.delete">
         <source>toolbar.delete</source>
         <target>Delete</target>
       </trans-unit>
@@ -350,11 +350,11 @@
         <source>navigation.webspaces.pages</source>
         <target>Pages</target>
       </trans-unit>
-      <trans-unit id="eefaba371eb9c8bb5457d1f5e3554367" resname="navigation.version-history">
+      <trans-unit id="565274b9a7087049d8d48e907c8971e8" resname="navigation.version-history">
         <source>navigation.version-history</source>
         <target>Version history</target>
       </trans-unit>
-      <trans-unit id="eefab63b1eb9c8bb5457d1f5e3566689" resname="navigation.user">
+      <trans-unit id="04dd24f22e20babfcfc76089b8caf841" resname="navigation.user">
         <source>navigation.user</source>
         <target>User</target>
       </trans-unit>
@@ -558,15 +558,15 @@
         <source>tag.tags.title</source>
         <target>Tags</target>
       </trans-unit>
-      <trans-unit id="50cb9458e1fbafb5728c35ee68d84d2e" resname="toolbar.state-publish">
+      <trans-unit id="5f5ac49151e05def2320eb2b8f72dc56" resname="toolbar.state-publish">
         <source>toolbar.state-publish</source>
         <target>Publish</target>
       </trans-unit>
-      <trans-unit id="0cfc2141daf51832879b183706c23eb3" resname="toolbar.state-unpublish">
+      <trans-unit id="fec4ff95aaa266783001a9aa4f4f8ef7" resname="toolbar.state-unpublish">
         <source>toolbar.state-unpublish</source>
         <target>Unpublish</target>
       </trans-unit>
-      <trans-unit id="47f368b119097acd0e86dc2224927e08" resname="toolbar.state-test">
+      <trans-unit id="c964185c0ace3c5ab313933e33bd5e4b" resname="toolbar.state-test">
         <source>toolbar.state-test</source>
         <target>Test</target>
       </trans-unit>
@@ -582,7 +582,7 @@
         <source>template.overview</source>
         <target>Overview</target>
       </trans-unit>
-      <trans-unit id="24291c9e0aff4e7ee3f959ac29f77653" resname="template.complex">
+      <trans-unit id="f387813a5748c1a5ca6f6394439f6d69" resname="template.complex">
         <source>template.complex</source>
         <target>Complex</target>
       </trans-unit>
@@ -610,31 +610,31 @@
         <source>labels.state-changed.success-desc</source>
         <target>state changed</target>
       </trans-unit>
-      <trans-unit id="b07c514688c4db3760781f5608d9b5af" resname="labels.success">
-        <source>labels.state-changed.success</source>
+      <trans-unit id="2e6ea49ed75467320c8fe78379b9fcff" resname="labels.success">
+        <source>labels.success</source>
         <target>Success</target>
       </trans-unit>
       <trans-unit id="cb650d8a319e35b49d7e146b13f194ee" resname="labels.state-changed.error-desc">
         <source>labels.state-changed.error-desc</source>
         <target>state could not be changed</target>
       </trans-unit>
-      <trans-unit id="ac3d960c5813c03f18eed5865fbe84b0" resname="labels.error">
+      <trans-unit id="fab30c862efedd8823650c0078a80eff" resname="labels.error">
         <source>labels.error</source>
         <target>Error</target>
       </trans-unit>
-      <trans-unit id="ac3d96765a13c03f18eed5865fbe84b0" resname="labels.warning">
+      <trans-unit id="289876c1d5db2938a83428a72a03d8fe" resname="labels.warning">
         <source>labels.warning</source>
         <target>Warning</target>
       </trans-unit>
-      <trans-unit id="ac3d96765a13c03f18eed5865fbe84ff" resname="labels.success.content-deleted-desc">
+      <trans-unit id="2647c238cae0fa45d7fbad336e43750f" resname="labels.success.content-deleted-desc">
         <source>labels.success.content-deleted-desc</source>
         <target>Node successfully deleted.</target>
       </trans-unit>
-      <trans-unit id="ac3d96765a13c03f181ed5865fbe84ff" resname="labels.success.content-save-desc">
+      <trans-unit id="487f946d51783a9899fa59d31dcfc3e8" resname="labels.success.content-save-desc">
         <source>labels.success.content-save-desc</source>
         <target>Node sucessfully saved</target>
       </trans-unit>
-      <trans-unit id="123d96765a13c03f18eed5865fbe84ff" resname="labels.error.content-save-desc">
+      <trans-unit id="75435af307a7ae8f965923968a0e0f94" resname="labels.error.content-save-desc">
         <source>labels.error.content-save-desc</source>
         <target>Node could not be saved.</target>
       </trans-unit>
@@ -744,21 +744,21 @@
       </trans-unit>
       <trans-unit id="4926f85302370f0c0e5381e2c08797d8" resname="contact.account.add-basic">
         <source>contact.account.add-basic</source>
-        <target>Create new contact</target>
+        <target>Create new account</target>
       </trans-unit>
       <trans-unit id="88eebe41010b0d017b51a2d8aa74d91d" resname="contact.account.add-lead">
         <source>contact.account.add-lead</source>
         <target>Create new lead</target>
       </trans-unit>
-      <trans-unit id="312baec82be54929e36c5f4dc6865d8a" resname="contact.account.add-customer">
+      <trans-unit id="7d8cd989345f70f053970f7d2e3fa260" resname="contact.account.add-customer">
         <source>contact.account.add-customer</source>
         <target>Create new customer</target>
       </trans-unit>
-      <trans-unit id="a6ba6e7ec1788fbe3963f5ed4a8c5f28" resname="contact.account.add-supplier">
+      <trans-unit id="1652bb0344288e4c4b003ddd4313ba49" resname="contact.account.add-supplier">
         <source>contact.account.add-supplier</source>
         <target>Create new supplier</target>
       </trans-unit>
-      <trans-unit id="a6ba6e7ec1734jhe3963f5ed4a8c5f28" resname="contact.account.type">
+      <trans-unit id="9e2ea0903c58af307e249455965b918b" resname="contact.account.type">
         <source>contact.account.type</source>
         <target>Type</target>
       </trans-unit>
@@ -790,15 +790,15 @@
         <source>public.fax</source>
         <target>Fax</target>
       </trans-unit>
-      <trans-unit id="19be38285ee7f37a396474cf1ead3669" resname="public.url">
+      <trans-unit id="1d091270adb3ddee0d6c25c251f1ebc3" resname="public.url">
         <source>public.url</source>
         <target>Website</target>
       </trans-unit>
-      <trans-unit id="19be38e89ee7f3a8d96474cf1ead3669" resname="public.note">
-        <source>public.notes</source>
+      <trans-unit id="3aeff9585c15e4e9ff463c01a84ddfe0" resname="public.note">
+        <source>public.note</source>
         <target>Note</target>
       </trans-unit>
-      <trans-unit id="19de38e89ee7f37a396474cf1ead3669" resname="public.all">
+      <trans-unit id="5e094185aac3985e962e3f53246d096e" resname="public.all">
         <source>public.all</source>
         <target>All</target>
       </trans-unit>
@@ -830,9 +830,53 @@
         <source>content.preview.resolutions</source>
         <target>Screenresolutions</target>
       </trans-unit>
-      <trans-unit id="9d6ff6ec7654ae6c52d966266f34743e" resname="url.home">
+      <trans-unit id="069f3fbf0731ab7dbc2d8627334aad5f" resname="url.home">
         <source>url.home</source>
         <target>Home</target>
+      </trans-unit>
+      <trans-unit id="57f4d7b8b30c684e992e01b8d1df4d90" resname="sulu.overlay.be-careful">
+        <source>sulu.overlay.be-careful</source>
+        <target>Be careful</target>
+      </trans-unit>
+      <trans-unit id="d5f4a99d54bb05a92a78146053c828d9" resname="sulu.overlay.delete-desc">
+        <source>sulu.overlay.delete-desc</source>
+        <target>The operation you are about to do will delete data. This is not undoable! Please think about it and accept or decline.</target>
+      </trans-unit>
+      <trans-unit id="deb752167002b44bbc2030c7f1c8250b" resname="public.show-history">
+        <source>public.show-history</source>
+        <target>Show history</target>
+      </trans-unit>
+      <trans-unit id="80e0a3efaeceebe465c1a679e89c5139" resname="public.url-history">
+        <source>public.url-history</source>
+        <target>Url history</target>
+      </trans-unit>
+      <trans-unit id="b3eabeaf680b421a9d705e5b069e8503" resname="sulu.property.title">
+        <source>sulu.property.title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="3254be45310f0bdfc2132b9826238bda" resname="sulu.property.url">
+        <source>sulu.property.url</source>
+        <target>Url</target>
+      </trans-unit>
+      <trans-unit id="bde9f2a43b131e7b10aae230895b34c4" resname="sulu.property.block.title">
+        <source>sulu.property.block.title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="0dd9dc67f11e38c557c2d7f175dc5b2a" resname="sulu.property.block.article">
+        <source>sulu.property.block.article</source>
+        <target>Article</target>
+      </trans-unit>
+      <trans-unit id="4beb88481f563a5f172342d48660ee8c" resname="sulu.property.tags">
+        <source>sulu.property.tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="9c56afd726b34f68697a1846e4e632de" resname="sulu.property.article">
+        <source>sulu.property.article</source>
+        <target>Article</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b5e2" resname="sulu.property.smartcontent">
+        <source>sulu.property.smartcontent</source>
+        <target>Smart-content</target>
       </trans-unit>
     </body>
   </file>
