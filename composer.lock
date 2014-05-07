@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2c89b9b8a0a0dc4c2dfd0db33f9d55cd",
+    "hash": "efea01e7c05884c9648cdd385dcbc67a",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -113,7 +113,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -186,7 +186,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -1051,12 +1051,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -1685,7 +1685,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2570,12 +2570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "4f730706e67ca4f16ecc563b606efdb29d28ea95"
+                "reference": "1bbf1590b3fc6a134694d715844c838657d3f2ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/4f730706e67ca4f16ecc563b606efdb29d28ea95",
-                "reference": "4f730706e67ca4f16ecc563b606efdb29d28ea95",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/1bbf1590b3fc6a134694d715844c838657d3f2ce",
+                "reference": "1bbf1590b3fc6a134694d715844c838657d3f2ce",
                 "shasum": ""
             },
             "require": {
@@ -2608,7 +2608,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-05-07 11:24:57"
+            "time": "2014-05-07 12:01:03"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2671,12 +2671,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "f62dc2d5fcdbeabd0ae0e791a13de0ac8190392c"
+                "reference": "2de75784a82808443f14b483eaea588c3e5479c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/f62dc2d5fcdbeabd0ae0e791a13de0ac8190392c",
-                "reference": "f62dc2d5fcdbeabd0ae0e791a13de0ac8190392c",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/2de75784a82808443f14b483eaea588c3e5479c7",
+                "reference": "2de75784a82808443f14b483eaea588c3e5479c7",
                 "shasum": ""
             },
             "require": {
@@ -2727,115 +2727,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-05-07 11:25:59"
-        },
-        {
-            "name": "sulu/product-advanced-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/Product/AdvancedBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluProductAdvancedBundle.git",
-                "reference": "59850d1b2331f3c77a6bc32735016f2976b0b523"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductAdvancedBundle/zipball/59850d1b2331f3c77a6bc32735016f2976b0b523",
-                "reference": "59850d1b2331f3c77a6bc32735016f2976b0b523",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "1.0.*",
-                "jms/serializer-bundle": "@dev",
-                "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/contact-bundle": "dev-develop",
-                "sulu/product-base-bundle": "dev-develop",
-                "sulu/security-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
-            },
-            "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
-                "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "dev-develop",
-                "symfony/monolog-bundle": "2.4.*",
-                "symfony/symfony": "2.4.*"
-            },
-            "type": "sulu-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\Product\\AdvancedBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluProductAdvancedBundle/contributors"
-                }
-            ],
-            "description": "Advanced product bundle for Sulu handling also suppliers",
-            "keywords": [
-                "product",
-                "sulu",
-                "supplier"
-            ],
-            "time": "2014-04-29 13:00:57"
-        },
-        {
-            "name": "sulu/product-base-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/Product/BaseBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluProductBaseBundle.git",
-                "reference": "f1c8035c274c3212b5df6f3a6ea0aa2ae52ef41e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluProductBaseBundle/zipball/f1c8035c274c3212b5df6f3a6ea0aa2ae52ef41e",
-                "reference": "f1c8035c274c3212b5df6f3a6ea0aa2ae52ef41e",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "1.0.*",
-                "jms/serializer-bundle": "@dev",
-                "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
-            },
-            "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
-                "phpunit/phpunit": "3.7.*",
-                "symfony/monolog-bundle": "2.4.*",
-                "symfony/symfony": "2.4.*"
-            },
-            "type": "sulu-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\Product\\BaseBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluProductBaseBundle/contributors"
-                }
-            ],
-            "description": "TODO",
-            "keywords": [
-                "todo"
-            ],
-            "time": "2014-04-29 12:55:08"
+            "time": "2014-05-07 11:51:03"
         },
         {
             "name": "sulu/security-bundle",
@@ -2999,58 +2891,6 @@
                 "tags"
             ],
             "time": "2014-05-06 12:16:46"
-        },
-        {
-            "name": "sulu/translate-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/TranslateBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
-                "reference": "b07e3ce050db8d74cbf01077c03272d95a56a1e6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/b07e3ce050db8d74cbf01077c03272d95a56a1e6",
-                "reference": "b07e3ce050db8d74cbf01077c03272d95a56a1e6",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/rest-bundle": "1.0.*",
-                "jms/serializer-bundle": "@dev",
-                "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
-            },
-            "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
-                "sulu/test-bundle": "dev-develop",
-                "symfony/monolog-bundle": "2.4.*",
-                "symfony/symfony": "2.4.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\TranslateBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluTranslateBundle/contributors"
-                }
-            ],
-            "description": "Symfony bundle that provides translate functionality",
-            "keywords": [
-                "symfony",
-                "translate"
-            ],
-            "time": "2014-05-06 12:17:23"
         },
         {
             "name": "sulu/website-bundle",
@@ -3826,7 +3666,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4629,9 +4469,6 @@
         "sulu/content-bundle": 20,
         "sulu/website-bundle": 20,
         "sulu/tag-bundle": 20,
-        "sulu/translate-bundle": 20,
-        "sulu/product-base-bundle": 20,
-        "sulu/product-advanced-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
