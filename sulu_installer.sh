@@ -31,7 +31,7 @@
 
 SULU_PROJECT="SULU 2"
 SULU_INSTALLER_NAME="${SULU_PROJECT} Installer"
-SULU_INSTALLER_VERSION="0.2.4"
+SULU_INSTALLER_VERSION="0.2.5"
 SULU_INSTALLER_AUTHOR="MASSIVE ART WebServices GmbH"
 
 SULU_PROJECT_INSTALL_PATH="."
@@ -58,6 +58,7 @@ MYSQL_INSTALL_PATH=""
 TMP_FILE=$( mktemp -q /tmp/sulu_installer.XXXXXXXXXXXXXXXXXXXXXXX )
 PARAMETERS_YML="/tmp/parameters.yml"
 TEST_SERVER_NAME="sulu.lo"
+CHECKOUT_TAG=""
 
 
 # installation user
@@ -139,6 +140,8 @@ OPTIONS:
     -d                      Create database and schema (default: no)
     -P                      Use PostgeSQL as database instead of MySQL (default: MySQL)
     -m MYSQL_BINARY_PATH    Specifies the path where your MySQL binaries are installed
+    -t RELEASE/TAG          The version that should be checked out. If this paramater isn't give the last
+                            tag will be checked out (default).
 
 EOT
 }
@@ -315,8 +318,8 @@ function composer_check() {
 function composer_get() {
 	say "Downloading and installing Composer..."
 	cd /tmp
-	$( type -P curl ) -sS http://getcomposer.org/installer | php >/dev/null 2>&1 
-	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1 
+	$( type -P curl ) -sS http://getcomposer.org/installer | php >/dev/null 2>&1
+	mv composer.phar /usr/local/bin/composer >/dev/null 2>&1
 	CMD_COMPOSER=$( type -P composer )
 	task_done
 }
@@ -327,7 +330,7 @@ function composer_install_dependencies() {
 	printf "So, keep calm dude...\n\n"
 	say "Downloading and installing project dependencies..."
 	
-	${CMD_COMPOSER} update --no-interaction >/dev/null 2>&1 
+	${CMD_COMPOSER} update --no-interaction >/dev/null 2>&1
 	
 	# Since we set the option '--no-interaction' on composer the 'parameters.yml' file will be
 	# auto generated using the 'parameters.yml.dist' file. We have to overide this file!
@@ -341,10 +344,10 @@ function phpcr_setup() {
 
 	say "Setting up PHPCR..."
 	case ${PHPCR_SELECTION} in
-		doctrine)	cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
+		doctrine)	cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1
 					;;
 					
-		jackrabbit)	cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1 
+		jackrabbit)	cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml >/dev/null 2>&1
 					;;
 	esac
 	
@@ -370,9 +373,22 @@ function sulu_repo_clone() {
 	GIT_REPO="https://github.com/sulu-cmf/sulu-standard.git"
 	
 	say "Downloading '${SULU_PROJECT}' standard bundle..."
-	${CMD_GIT} clone ${GIT_REPO} ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
-	cd ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1 
-	${CMD_GIT} checkout develop >/dev/null 2>&1 
+	${CMD_GIT} clone ${GIT_REPO} ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1
+	cd ${SULU_PROJECT_ABSOLUTE_PATH} >/dev/null 2>&1
+	
+	# deternine the last release/tag
+	if [ -z ${CHECKOUT_TAG} ]; then
+		CHECKOUT_TAG=$( git tag | tail -1 )
+	else
+		TAG_TEST=$( git tag | grep ${CHECKOUT_TAG} )
+		if [ -z ${TAG_TEST} ]; then
+			say_error "The given tag '${TAG_TEST}' doesn't exists."
+			abort
+		fi
+	fi
+	
+	${CMD_GIT} checkout ${CHECKOUT_TAG} >/dev/null 2>&1
+	
 	task_done
 }
 
@@ -469,25 +485,25 @@ parameters:" > ${PARAMETERS_YML}
 
 function sulu_configure() {
 	say "Configuring Webspaces..."
-	cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml >/dev/null 2>&1 
+	cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml >/dev/null 2>&1
 	task_done
 
 	say "Configuring Templates..."
-	cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml >/dev/null 2>&1 
-	cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml >/dev/null 2>&1 
-	cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml >/dev/null 2>&1 
+	cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml >/dev/null 2>&1
+	cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml >/dev/null 2>&1
+	cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml >/dev/null 2>&1
 	task_done
 }
 
 function sulu_content_repo_init() {
 	say "Initializing Content Repository..."
-	${CMD_APP_CONSOLE} "sulu:phpcr:init" >/dev/null 2>&1 
+	${CMD_APP_CONSOLE} "sulu:phpcr:init" >/dev/null 2>&1
 	task_done
 }
 
 function sulu_webspace_init() {
 	say "Initializing Webspace..."
-	${CMD_APP_CONSOLE} "sulu:webspaces:init" >/dev/null 2>&1 
+	${CMD_APP_CONSOLE} "sulu:webspaces:init" >/dev/null 2>&1
 	task_done
 }
 
@@ -524,17 +540,17 @@ function sulu_user_new_questions() {
 
 function sulu_user_create() {
 	say "Creating new user..."
-	${CMD_APP_CONSOLE} "sulu:security:user:create" < "${TMP_FILE}" >/dev/null 2>&1 
+	${CMD_APP_CONSOLE} "sulu:security:user:create" < "${TMP_FILE}" >/dev/null 2>&1
 	task_done
 }
 
 function cache_reset() {
 	say "Initializing caches..."
 	
-	rm -rf app/admin/cache/* >/dev/null 2>&1 
-	rm -rf app/admin/logs/* >/dev/null 2>&1 
-	rm -rf app/website/cache/* >/dev/null 2>&1 
-	rm -rf app/website/logs/* >/dev/null 2>&1 
+	rm -rf app/admin/cache/* >/dev/null 2>&1
+	rm -rf app/admin/logs/* >/dev/null 2>&1
+	rm -rf app/website/cache/* >/dev/null 2>&1
+	rm -rf app/website/logs/* >/dev/null 2>&1
 	
 	task_done
 }
@@ -543,7 +559,7 @@ function database_create() {
 	if [ ${DB_CREATE} = "yes" ]; then
 		# we need to drain the cache since 'app/console' is using
 		# the cached 'parameters.yml' instead of our own!
-		rm -rf app/admin/cache/* >/dev/null 2>&1 
+		rm -rf app/admin/cache/* >/dev/null 2>&1
 		
 		say "Creating database..."
 		ERROR="$( ${CMD_APP_CONSOLE} doctrine:database:drop --force | sed s/\"/\'/g >/dev/null 2>&1 )"
@@ -586,13 +602,19 @@ function permissions_set() {
 }
 
 function permissions_darwin_set() {
-	sudo chmod +a -R "${WEBSERVER_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1 
-	sudo chmod +a -R "${INSTALL_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
+	cd ${SULU_PROJECT_ABSOLUTE_PATH}
+	sudo chown -R ${SUDO_USER} .
+
+	sudo chmod +a -R "${WEBSERVER_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs>/dev/null 2>&1
+	sudo chmod +a -R "${SUDO_USER} allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1
 }
 
 function permissions_linux_set() {
-	sudo setfacl -R -m u:${WEBSERVER_USER}:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
-	sudo setfacl -dR -m u:${WEBSERVER_USER}:rwx -m u:${INSTALL_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1 
+	cd ${SULU_PROJECT_ABSOLUTE_PATH}
+	sudo chown -R ${SUDO_USER} .
+
+	sudo setfacl -R -m u:${WEBSERVER_USER}:rwx -m u:${SUDO_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1
+	sudo setfacl -dR -m u:${WEBSERVER_USER}:rwx -m u:${SUDO_USER}:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs >/dev/null 2>&1
 }
 
 #permissions_freebsd_set() {
@@ -602,13 +624,13 @@ function permissions_linux_set() {
 function local_test_host() {
 	reset_tmp_file
 	
-	echo "In case of this is a local development installation '${SULU_PROJECT}' uses a"
-	echo "special localhost alias named ${COLOR_BLACK_BOLD}${TEST_SERVER_NAME}${COLOR_NONE}."
-	echo
-	echo "This alias must be added in '/etc/hosts'."
-	echo
+	printf "In case of this is a local development installation '${SULU_PROJECT}' uses a\n"
+	printf "special localhost alias named ${COLOR_BLACK_BOLD}${TEST_SERVER_NAME}${COLOR_NONE}.\n"
+	printf "\n"
+	printf "This alias must be added in '/etc/hosts'.\n"
+	printf "\n"
 	console_input "Should I do that for you (y/n)" ""
-	YesNo=$( cat "${TMP_FILE}" | sed s/\n//g )
+	YesNo=$( cat "${TMP_FILE}" )
 	case ${YesNo} in
 		[Yy]*)	echo; local_test_host_add
 				;;
@@ -621,11 +643,15 @@ function local_test_host() {
 
 function local_test_host_add() {
 	say "Adding '${TEST_SERVER_NAME}' alias to '/etc/hosts'"
-	TESTHOST=$( cat /etc/hosts | grep '${TEST_SERVER_NAME}' | awk 'BEGIN { FS = "[ \t]+" } ; { print $2 }' )
+	
+	TESTHOST=$( cat /etc/hosts | grep '${TEST_SERVER_NAME}' | awk -F'[ |\t]+' '{ print $2 }' | head -1 )
+	echo $TESTHOST
+	exit
 	if [ -z ${TESTHOST} ]; then
 		printf "\n# ${SULU_PROJECT} test host alias\n" >> /etc/hosts
 		printf "127.0.0.1	${TEST_SERVER_NAME}\n" >> /etc/hosts
 	fi
+	
 	task_done
 }
 
@@ -673,7 +699,7 @@ function error_msg_db_ambiguity() {
 #------------------------------------------------------------------------------
 # Section: Parameter parsing
 
-while getopts hvp:n:dPm: option
+while getopts hvp:n:dPm:t option
 do
 	case $option in
 		h)	usage; cleanup; exit 0
@@ -712,6 +738,9 @@ do
 					abort
 				fi
 			fi
+			;;
+			
+		t)	CHECKOUT_TAG=${OPTARG}
 			;;
 	esac
 done
