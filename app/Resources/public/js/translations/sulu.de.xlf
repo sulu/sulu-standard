@@ -878,6 +878,42 @@
         <source>sulu.property.smartcontent</source>
         <target>Smart-content</target>
       </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b511" resname="sulu.property.block">
+        <source>sulu.property.block</source>
+        <target>Block</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b522" resname="sulu.type.editor">
+        <source>type.editor</source>
+        <target>Editor</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b533" resname="sulu.type.area">
+        <source>type.area</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b544" resname="sulu.type.title_only">
+        <source>type.title_only</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b555" resname="sulu.content.add-type">
+        <source>sulu.content.add-type</source>
+        <target>Block hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b566" resname="contacts.accounts.manage.categories.title">
+        <source>contacts.accounts.manage.categories.title</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b577" resname="contacts.accounts.manage.categories">
+        <source>contacts.accounts.manage.categories</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b588" resname="contacts.accounts.category.select">
+        <source>contacts.accounts.category.select</source>
+        <target>Kategorie auswählen</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b599" resname="contacts.accounts.category">
+        <source>contacts.accounts.category</source>
+        <target>Kategorie</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
