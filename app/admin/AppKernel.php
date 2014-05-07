@@ -31,6 +31,9 @@ class AppKernel extends Kernel
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+            new Sulu\Bundle\Product\BaseBundle\SuluProductBaseBundle(),
+            new Sulu\Bundle\Product\AdvancedBundle\SuluProductAdvancedBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
