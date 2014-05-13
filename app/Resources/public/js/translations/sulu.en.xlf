@@ -914,6 +914,46 @@
         <source>contacts.accounts.category</source>
         <target>Category</target>
       </trans-unit>
+      <trans-unit id="1001b96425b464e812cf979825d3b599" resname="sulu.overlay.delete-no-items">
+        <source>sulu.overlay.delete-no-items</source>
+        <target>No items for deletion selected.</target>
+      </trans-unit>
+      <trans-unit id="1010b96425b464e812cf979825d3b599" resname="sulu.overlay.error">
+        <source>sulu.overlay.error</source>
+        <target>Error!</target>
+      </trans-unit>
+      <trans-unit id="1002b96425b464e812cf979825d3b599" resname="contact.accounts.delete.sub-found">
+        <source>contact.accounts.delete.sub-found</source>
+        <target>One or more sub-companies found.</target>
+      </trans-unit>
+      <trans-unit id="1003b96425b464e812cf979825d3b599" resname="contact.accounts.delete.sub-found-desc">
+        <source>contact.accounts.delete.sub-found-desc</source>
+        <target>A company cannot be deleted as long as it has sub-companies. Please delete the sub-companies or remove the relation.</target>
+      </trans-unit>
+      <trans-unit id="1004b96425b464e812cf979825d3b599" resname="contact.accounts.delete.desc">
+        <source>contact.accounts.delete.desc</source>
+        <target>Do you really want to delete the selected company? All data is going to be lost.</target>
+      </trans-unit>
+      <trans-unit id="1005b96425b464e812cf979825d3b599" resname="public.and-number-more">
+        <source>public.and-number-more</source>
+        <target>and &lt;%= number %&gt; more</target>
+      </trans-unit>
+      <trans-unit id="1006b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts">
+        <source>contact.accounts.delete.contacts</source>
+        <target>Delete all &lt;%= number %&gt; related contacts.</target>
+      </trans-unit>
+      <trans-unit id="1007b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-found">
+        <source>contact.accounts.delete.contacts-found</source>
+        <target>Related contacts have been found.</target>
+      </trans-unit>
+      <trans-unit id="1008b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-question">
+        <source>contact.accounts.delete.contacts-question</source>
+        <target>Would you like to delete them together with the selected company?</target>
+      </trans-unit>
+      <trans-unit id="1009b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-checkbox">
+        <source>contact.accounts.delete.contacts-checkbox</source>
+        <target>Delete all &lt;%= number %&gt; related contacts.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
