@@ -878,6 +878,82 @@
         <source>sulu.property.smartcontent</source>
         <target>Smart-content</target>
       </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b511" resname="sulu.property.block">
+        <source>sulu.property.block</source>
+        <target>Block</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b522" resname="sulu.type.editor">
+        <source>type.editor</source>
+        <target>Editor</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b533" resname="sulu.type.area">
+        <source>type.area</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b544" resname="sulu.type.title_only">
+        <source>type.title_only</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b555" resname="sulu.content.add-type">
+        <source>sulu.content.add-type</source>
+        <target>Block hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b566" resname="contacts.accounts.manage.categories.title">
+        <source>contacts.accounts.manage.categories.title</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b577" resname="contacts.accounts.manage.categories">
+        <source>contacts.accounts.manage.categories</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b588" resname="contacts.accounts.category.select">
+        <source>contacts.accounts.category.select</source>
+        <target>Kategorie auswählen</target>
+      </trans-unit>
+      <trans-unit id="9377b96425b464e812cf979825d3b599" resname="contacts.accounts.category">
+        <source>contacts.accounts.category</source>
+        <target>Kategorie</target>
+      </trans-unit>
+      <trans-unit id="1001b96425b464e812cf979825d3b599" resname="sulu.overlay.delete-no-items">
+        <source>sulu.overlay.delete-no-items</source>
+        <target>Es wurden keine Felder ausgewählt.</target>
+      </trans-unit>
+      <trans-unit id="1010b96425b464e812cf979825d3b599" resname="sulu.overlay.error">
+        <source>sulu.overlay.error</source>
+        <target>Fehler!</target>
+      </trans-unit>
+      <trans-unit id="1002b96425b464e812cf979825d3b599" resname="contact.accounts.delete.sub-found">
+        <source>contact.accounts.delete.sub-found</source>
+        <target>Ein oder mehrere Tochterunternehmen gefunden.</target>
+      </trans-unit>
+      <trans-unit id="1003b96425b464e812cf979825d3b599" resname="contact.accounts.delete.sub-found-desc">
+        <source>contact.accounts.delete.sub-found-desc</source>
+        <target>Ein Unternehmen kann nicht gelöscht werden, solange es Tochterunternehmen hat. Bitte löschen sie das Tochterunternehmen oder entfernen sie die Relation.</target>
+      </trans-unit>
+      <trans-unit id="1004b96425b464e812cf979825d3b599" resname="contact.accounts.delete.desc">
+        <source>contact.accounts.delete.desc</source>
+        <target>Wollen Sie wirklich das ausgewählte Unternehmen löschen? Die gespeicherten Daten gehen dabei verloren.</target>
+      </trans-unit>
+      <trans-unit id="1005b96425b464e812cf979825d3b599" resname="public.and-number-more">
+        <source>public.and-number-more</source>
+        <target>und &lt;%= number %&gt; weitere</target>
+      </trans-unit>
+      <trans-unit id="1006b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts">
+        <source>contact.accounts.delete.contacts</source>
+        <target>Alle &lt;%= number %&gt; zugehörigen Kontakte entfernen.</target>
+      </trans-unit>
+      <trans-unit id="1007b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-found">
+        <source>contact.accounts.delete.contacts-found</source>
+        <target>Es wurden zugehörige Kontakte gefunden.</target>
+      </trans-unit>
+      <trans-unit id="1008b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-question">
+        <source>contact.accounts.delete.contacts-question</source>
+        <target>Wollen sie die zugehörigen Kontakte zusammen mit dem Unternehmen löschen?</target>
+      </trans-unit>
+      <trans-unit id="1009b96425b464e812cf979825d3b599" resname="contact.accounts.delete.contacts-checkbox">
+        <source>contact.accounts.delete.contacts-checkbox</source>
+        <target>Alle &lt;%= number %&gt; zugehörigen Kontakte löschen.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

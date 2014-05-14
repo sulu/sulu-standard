@@ -16,9 +16,13 @@
             <tag name="sulu.rlp.part"/>
         </property>
         <property name="url" title="sulu.property.url" type="resource_locator" mandatory="true">
-            <tag name="sulu.rlp.input"/>
+            <tag name="sulu.rlp"/>
         </property>
         <property name="tags" title="sulu.property.tags" type="tag_list"/>
-        <property name="article" title="sulu.property.article" type="text_editor"/>
+        <property name="article" title="sulu.property.article" type="text_editor">
+            <params>
+                <param name="godMode" value="true"/>
+            </params>
+        </property>
     </properties>
 </template>
