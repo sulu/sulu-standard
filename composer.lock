@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c3217ddeb741f21dff4d40ba328f75fd",
+    "hash": "019e8cb0153a31831cfb3f0698c6c570",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -113,7 +113,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -253,7 +253,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -434,7 +434,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -512,9 +512,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 },
                 {
                     "name": "Symfony Community",
@@ -1051,12 +1049,12 @@
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -1685,7 +1683,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1755,7 +1753,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2382,9 +2380,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "The base bundle for the Symfony Distributions",
@@ -2493,9 +2489,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "This bundle generates code for you",
@@ -2570,12 +2564,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
+<<<<<<< Updated upstream
                 "reference": "0b4f29115dda9f2b9fdd3267372ee8c4bee65c86"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/0b4f29115dda9f2b9fdd3267372ee8c4bee65c86",
                 "reference": "0b4f29115dda9f2b9fdd3267372ee8c4bee65c86",
+=======
+                "reference": "18b79a518279cf05ee648192818b6713b07f9ed1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/18b79a518279cf05ee648192818b6713b07f9ed1",
+                "reference": "18b79a518279cf05ee648192818b6713b07f9ed1",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -2608,7 +2611,11 @@
                 "cmf",
                 "symfony"
             ],
+<<<<<<< Updated upstream
             "time": "2014-05-14 09:09:46"
+=======
+            "time": "2014-05-13 10:01:03"
+>>>>>>> Stashed changes
         },
         {
             "name": "sulu/contact-bundle",
@@ -2617,12 +2624,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
+<<<<<<< Updated upstream
                 "reference": "b1e134f017acc3d67bba88cb7460890093f021c7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/b1e134f017acc3d67bba88cb7460890093f021c7",
                 "reference": "b1e134f017acc3d67bba88cb7460890093f021c7",
+=======
+                "reference": "839b4d197142fe290898dee1ca0a5500893d3e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/839b4d197142fe290898dee1ca0a5500893d3e4d",
+                "reference": "839b4d197142fe290898dee1ca0a5500893d3e4d",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -2662,7 +2678,11 @@
                 "contact",
                 "crm"
             ],
+<<<<<<< Updated upstream
             "time": "2014-05-14 06:54:31"
+=======
+            "time": "2014-05-12 08:32:27"
+>>>>>>> Stashed changes
         },
         {
             "name": "sulu/content-bundle",
@@ -2728,6 +2748,60 @@
                 "content"
             ],
             "time": "2014-05-13 14:15:56"
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "name": "sulu/media-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/MediaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
+                "reference": "606287b8daccd2bb96e080b054ed43a67a177102"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/606287b8daccd2bb96e080b054ed43a67a177102",
+                "reference": "606287b8daccd2bb96e080b054ed43a67a177102",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "1.0.*",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "3.7.*",
+                "symfony/monolog-bundle": "2.3.*",
+                "symfony/symfony": "2.3.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\MediaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluMediaBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2013-12-14 11:46:53"
+>>>>>>> Stashed changes
         },
         {
             "name": "sulu/product-advanced-bundle",
@@ -2844,12 +2918,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
+<<<<<<< Updated upstream
                 "reference": "56054762c5fda92a67e18b9318379b0d6f5b9631"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/56054762c5fda92a67e18b9318379b0d6f5b9631",
                 "reference": "56054762c5fda92a67e18b9318379b0d6f5b9631",
+=======
+                "reference": "5e210b76a9d20a1af8150ceee856037945987f05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/5e210b76a9d20a1af8150ceee856037945987f05",
+                "reference": "5e210b76a9d20a1af8150ceee856037945987f05",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -2890,7 +2973,11 @@
                 "security",
                 "sulu"
             ],
+<<<<<<< Updated upstream
             "time": "2014-05-14 06:54:15"
+=======
+            "time": "2014-05-08 15:46:53"
+>>>>>>> Stashed changes
         },
         {
             "name": "sulu/sulu",
@@ -3724,9 +3811,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Common additional features for Twig that do not directly belong in core",
