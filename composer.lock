@@ -2565,6 +2565,7 @@
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "reference": "0b4f29115dda9f2b9fdd3267372ee8c4bee65c86"
             },
             "dist": {
@@ -2572,12 +2573,17 @@
                 "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/0b4f29115dda9f2b9fdd3267372ee8c4bee65c86",
                 "reference": "0b4f29115dda9f2b9fdd3267372ee8c4bee65c86",
 =======
+=======
+>>>>>>> Stashed changes
                 "reference": "18b79a518279cf05ee648192818b6713b07f9ed1"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/18b79a518279cf05ee648192818b6713b07f9ed1",
                 "reference": "18b79a518279cf05ee648192818b6713b07f9ed1",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 "shasum": ""
             },
@@ -2612,7 +2618,11 @@
                 "symfony"
             ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "time": "2014-05-14 09:09:46"
+=======
+            "time": "2014-05-13 10:01:03"
+>>>>>>> Stashed changes
 =======
             "time": "2014-05-13 10:01:03"
 >>>>>>> Stashed changes
@@ -2625,12 +2635,21 @@
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "reference": "b1e134f017acc3d67bba88cb7460890093f021c7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/b1e134f017acc3d67bba88cb7460890093f021c7",
                 "reference": "b1e134f017acc3d67bba88cb7460890093f021c7",
+=======
+                "reference": "839b4d197142fe290898dee1ca0a5500893d3e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/839b4d197142fe290898dee1ca0a5500893d3e4d",
+                "reference": "839b4d197142fe290898dee1ca0a5500893d3e4d",
+>>>>>>> Stashed changes
 =======
                 "reference": "839b4d197142fe290898dee1ca0a5500893d3e4d"
             },
@@ -2679,7 +2698,11 @@
                 "crm"
             ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "time": "2014-05-14 06:54:31"
+=======
+            "time": "2014-05-12 08:32:27"
+>>>>>>> Stashed changes
 =======
             "time": "2014-05-12 08:32:27"
 >>>>>>> Stashed changes
@@ -2749,7 +2772,10 @@
             ],
             "time": "2014-05-13 14:15:56"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         },
         {
             "name": "sulu/media-bundle",
@@ -2801,6 +2827,9 @@
                 "todo"
             ],
             "time": "2013-12-14 11:46:53"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         },
         {
@@ -2919,12 +2948,21 @@
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 "reference": "56054762c5fda92a67e18b9318379b0d6f5b9631"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/56054762c5fda92a67e18b9318379b0d6f5b9631",
                 "reference": "56054762c5fda92a67e18b9318379b0d6f5b9631",
+=======
+                "reference": "5e210b76a9d20a1af8150ceee856037945987f05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/5e210b76a9d20a1af8150ceee856037945987f05",
+                "reference": "5e210b76a9d20a1af8150ceee856037945987f05",
+>>>>>>> Stashed changes
 =======
                 "reference": "5e210b76a9d20a1af8150ceee856037945987f05"
             },
@@ -2974,7 +3012,11 @@
                 "sulu"
             ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "time": "2014-05-14 06:54:15"
+=======
+            "time": "2014-05-08 15:46:53"
+>>>>>>> Stashed changes
 =======
             "time": "2014-05-08 15:46:53"
 >>>>>>> Stashed changes
