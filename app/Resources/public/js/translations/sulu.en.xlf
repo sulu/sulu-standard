@@ -1010,6 +1010,54 @@
         <source>sulu.list-toolbar.table</source>
         <target>Table</target>
       </trans-unit>
+      <trans-unit id="2000b96425b464e812cf979825d3b599" resname="contact.accounts.number">
+        <source>contact.accounts.number</source>
+        <target>Number</target>
+      </trans-unit>
+      <trans-unit id="2004b96425b464e812cf979825d3b599" resname="contact.accounts.register-number">
+        <source>contact.accounts.register-number</source>
+        <target>Register Number</target>
+      </trans-unit>
+      <trans-unit id="2001b96425b464e812cf979825d3b599" resname="contact.accounts.uid">
+        <source>contact.accounts.uid</source>
+        <target>UID</target>
+      </trans-unit>
+      <trans-unit id="2002b96425b464e812cf979825d3b599" resname="contact.accounts.division">
+        <source>contact.accounts.division</source>
+        <target>Division</target>
+      </trans-unit>
+      <trans-unit id="2003b96425b464e812cf979825d3b599" resname="public.disabled">
+        <source>public.disabled</source>
+        <target>Disabled</target>
+      </trans-unit>
+      <trans-unit id="2005b96425b464e812cf979825d3b599" resname="navigation.financials">
+        <source>navigation.financials</source>
+        <target>Financial Infos</target>
+      </trans-unit>
+      <trans-unit id="2006b96425b464e812cf979825d3b599" resname="contact.accounts.bank-name">
+        <source>contact.accounts.bank-name</source>
+        <target>Bank name</target>
+      </trans-unit>
+      <trans-unit id="2007b96425b464e812cf979825d3b599" resname="contact.accounts.bank-accounts">
+        <source>contact.accounts.bank-accounts</source>
+        <target>Bank Accounts</target>
+      </trans-unit>
+      <trans-unit id="2008b96425b464e812cf979825d3b599" resname="contact.accounts.add-bank-account">
+        <source>contact.accounts.add-bank-account</source>
+        <target>Add new bank account</target>
+      </trans-unit>
+      <trans-unit id="2009b96425b464e812cf979825d3b599" resname="public.public">
+        <source>public.public</source>
+        <target>Public</target>
+      </trans-unit>
+      <trans-unit id="3010b96425b464e812cf979825d3b599" resname="public.iban">
+        <source>public.iban</source>
+        <target>IBAN</target>
+      </trans-unit>
+      <trans-unit id="3011b96425b464e812cf979825d3b599" resname="public.bic">
+        <source>public.bic</source>
+        <target>BIC</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

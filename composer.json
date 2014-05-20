@@ -36,13 +36,12 @@
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
-        "jackalope/jackalope-jackrabbit": "1.0.*",
-        "doctrine/phpcr-bundle": "1.0.*",
-        "doctrine/phpcr-odm": "1.0.*",
+        "jackalope/jackalope-jackrabbit": "1.1.*",
+        "doctrine/phpcr-bundle": "1.1.*",
+        "doctrine/phpcr-odm": "1.1.*",
 
-        "symfony-cmf/core-bundle": "1.1.*@dev",
-        "symfony-cmf/routing-bundle": "1.2.*@dev",
-        "symfony-cmf/routing": "1.2.*@dev",
+        "symfony-cmf/core-bundle": "1.1.*",
+        "symfony-cmf/routing-bundle": "1.2.*",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev"
     },
@@ -51,7 +50,7 @@
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
         "sulu/test-bundle": "dev-develop",
-        "jackalope/jackalope-doctrine-dbal": "@dev"
+        "jackalope/jackalope-doctrine-dbal": "1.1.*"
     },
     "scripts": {
         "post-install-cmd": [
