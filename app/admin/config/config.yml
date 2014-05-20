@@ -85,6 +85,12 @@ swiftmailer:
 fos_rest:
     routing_loader:
         default_format: json
+    body_converter:
+        enabled: true
+        validate: true
+
+sensio_framework_extra:
+    request: { converters: true }
 
 sulu_core:
     phpcr:
