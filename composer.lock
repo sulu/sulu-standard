@@ -2622,12 +2622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "72f5f84ae705bef385e337b9434a2d2edf26ed00"
+                "reference": "63f6890d30f65926ae6ce8841d5392a4965e3e8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/72f5f84ae705bef385e337b9434a2d2edf26ed00",
-                "reference": "72f5f84ae705bef385e337b9434a2d2edf26ed00",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/63f6890d30f65926ae6ce8841d5392a4965e3e8f",
+                "reference": "63f6890d30f65926ae6ce8841d5392a4965e3e8f",
                 "shasum": ""
             },
             "require": {
@@ -2667,7 +2667,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-05-19 11:52:40"
+            "time": "2014-05-19 13:40:38"
         },
         {
             "name": "sulu/content-bundle",
@@ -3895,16 +3895,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "v0.7.0",
+            "version": "0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "da81030376bfaa05e2fc83655b5e7ef57daceea5"
+                "reference": "602f6a387b9b1439704936e76d5e772a5671e48e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/da81030376bfaa05e2fc83655b5e7ef57daceea5",
-                "reference": "da81030376bfaa05e2fc83655b5e7ef57daceea5",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/602f6a387b9b1439704936e76d5e772a5671e48e",
+                "reference": "602f6a387b9b1439704936e76d5e772a5671e48e",
                 "shasum": ""
             },
             "require": {
@@ -3951,7 +3951,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2014-04-12 13:19:55"
+            "time": "2014-04-30 14:57:59"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
