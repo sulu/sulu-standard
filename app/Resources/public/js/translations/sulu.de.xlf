@@ -758,8 +758,8 @@
         <source>contact.account.add-supplier</source>
         <target>Neuen Lieferanten erstellen</target>
       </trans-unit>
-      <trans-unit id="9e2ea0903c58af307e249455965b918b" resname="contact.account.type">
-        <source>contact.account.type</source>
+      <trans-unit id="9e2ea0903c58af307e249455965b918b" resname="contact.accounts.type">
+        <source>contact.accounts.type</source>
         <target>Typ</target>
       </trans-unit>
       <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
@@ -958,8 +958,8 @@
         <source>contact.accounts.number</source>
         <target>Nummber</target>
       </trans-unit>
-      <trans-unit id="2004b96425b464e812cf979825d3b599" resname="contact.accounts.register-number">
-        <source>contact.accounts.register-number</source>
+      <trans-unit id="2004b96425b464e812cf979825d3b599" resname="contact.accounts.registerNumber">
+        <source>contact.accounts.registerNumber</source>
         <target>Firmenbuchnummer</target>
       </trans-unit>
       <trans-unit id="2001b96425b464e812cf979825d3b599" resname="contact.accounts.uid">
@@ -978,8 +978,8 @@
         <source>navigation.financials</source>
         <target>Finanz Infos</target>
       </trans-unit>
-      <trans-unit id="2006b96425b464e812cf979825d3b599" resname="contact.accounts.bank-name">
-        <source>contact.accounts.bank-name</source>
+      <trans-unit id="2006b96425b464e812cf979825d3b599" resname="contact.accounts.bankName">
+        <source>contact.accounts.bankName</source>
         <target>Bank Name</target>
       </trans-unit>
       <trans-unit id="2007b96425b464e812cf979825d3b599" resname="contact.accounts.bank-accounts">
@@ -1001,6 +1001,30 @@
       <trans-unit id="3011b96425b464e812cf979825d3b599" resname="public.bic">
         <source>public.bic</source>
         <target>BIC</target>
+      </trans-unit>
+      <trans-unit id="5000196425b464e812cf979825d3b599" resname="public.please-choose">
+        <source>public.please-choose</source>
+        <target>Please choose</target>
+      </trans-unit>
+      <trans-unit id="5000296425b464e812cf979825d3b599" resname="contacts.edit-address">
+        <source>contacts.edit-address</source>
+        <target>Edit Address</target>
+      </trans-unit>
+      <trans-unit id="5000396425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusSettlement">
+        <source>poolalpin.supplier.bonusSettlement</source>
+        <target>Bonus-settlement</target>
+      </trans-unit>
+      <trans-unit id="5000496425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusConditions">
+        <source>poolalpin.supplier.bonusConditions</source>
+        <target>Bonus-conditions</target>
+      </trans-unit>
+      <trans-unit id="5000596425b464e812cf979825d3b599" resname="poolalpin.supplier.correspondence">
+        <source>poolalpin.supplier.correspondence</source>
+        <target>Correspondence via</target>
+      </trans-unit>
+      <trans-unit id="5000696425b464e812cf979825d3b599" resname="poolalpin.supplier-internal">
+        <source>poolalpin.supplier.supplier-internal</source>
+        <target>Internal</target>
       </trans-unit>
     </body>
   </file>
