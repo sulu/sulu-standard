@@ -1010,16 +1010,16 @@
         <source>contacts.edit-address</source>
         <target>Edit Address</target>
       </trans-unit>
-      <trans-unit id="5000396425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusSettlement">
-        <source>poolalpin.supplier.bonusSettlement</source>
+      <trans-unit id="5000396425b464e812cf979825d3b599" resname="contact.accounts.bonusSettlement">
+        <source>contact.accounts.bonusSettlement</source>
         <target>Bonus-settlement</target>
       </trans-unit>
-      <trans-unit id="5000496425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusConditions">
-        <source>poolalpin.supplier.bonusConditions</source>
+      <trans-unit id="5000496425b464e812cf979825d3b599" resname="contact.accounts.bonusConditions">
+        <source>contact.accounts.bonusConditions</source>
         <target>Bonus-conditions</target>
       </trans-unit>
-      <trans-unit id="5000596425b464e812cf979825d3b599" resname="poolalpin.supplier.correspondence">
-        <source>poolalpin.supplier.correspondence</source>
+      <trans-unit id="5000596425b464e812cf979825d3b599" resname="contact.accounts.correspondence">
+        <source>contact.accounts.correspondence</source>
         <target>Correspondence via</target>
       </trans-unit>
       <trans-unit id="5000696425b464e812cf979825d3b599" resname="poolalpin.supplier-internal">
