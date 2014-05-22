@@ -954,6 +954,62 @@
         <source>contact.accounts.delete.contacts-checkbox</source>
         <target>Alle &lt;%= number %&gt; zugehörigen Kontakte löschen.</target>
       </trans-unit>
+      <trans-unit id="1009b96425b464e812cf979825d3b512" resname="navigation.media">
+        <source>navigation.media</source>
+        <target>Medien</target>
+      </trans-unit>
+      <trans-unit id="1009b96425ff64e812cf979825d3b512" resname="navigation.media.collections">
+        <source>navigation.media.collections</source>
+        <target>Kollektionen</target>
+      </trans-unit>
+      <trans-unit id="1009b96425bcc4e812cf979825d3b512" resname="media.collections.title">
+        <source>media.collections.title</source>
+        <target>Kollektionen</target>
+      </trans-unit>
+      <trans-unit id="1009b96425bcc4e812cf979645d3b512" resname="public.open-all">
+        <source>public.open-all</source>
+        <target>Alle öffnen</target>
+      </trans-unit>
+      <trans-unit id="1009b9325bc9c4e812cf979825d3b512" resname="public.close-all">
+        <source>public.close-all</source>
+        <target>Alle schließen</target>
+      </trans-unit>
+      <trans-unit id="1009b9325bc9c4e812cf979825d3b5ff" resname="pagination.show-all">
+        <source>pagination.show-all</source>
+        <target>Zeige alle</target>
+      </trans-unit>
+      <trans-unit id="1009b9325bc9c4e812cf979825d3b5aa" resname="pagination.elements">
+        <source>pagination.elements</source>
+        <target>Elemente</target>
+      </trans-unit>
+      <trans-unit id="1009b9327bc9c4e82cf9729825d3b5aa" resname="public.elements">
+        <source>public.elements</source>
+        <target>Elemente</target>
+      </trans-unit>
+      <trans-unit id="1009b93255c9c4e812cf975825d3b5aa" resname="content-navigation.media.files">
+        <source>content-navigation.media.files</source>
+        <target>Dateiend</target>
+      </trans-unit>
+      <trans-unit id="1009b93c55c9c4f812cf975825d3b5aa" resname="sulu.upload.dropzone-title">
+        <source>sulu.upload.dropzone-title</source>
+        <target>Files hierher ziehen um hochzuladen</target>
+      </trans-unit>
+      <trans-unit id="1009b9d255c9c4e812cf975825e3b5aa" resname="sulu.upload.dropzone-desc">
+        <source>sulu.upload.dropzone-desc</source>
+        <target>oder klicken um hinzuzufügen</target>
+      </trans-unit>
+      <trans-unit id="1009b9d255c934e899cf975825e3b5aa" resname="sulu.list-toolbar.small-thumbnails">
+        <source>sulu.list-toolbar.small-thumbnails</source>
+        <target>Kleine Vorschaubilder</target>
+      </trans-unit>
+      <trans-unit id="1009b3d255c9c4e812cf97582fe3b5aa" resname="sulu.list-toolbar.big-thumbnails">
+        <source>sulu.list-toolbar.big-thumbnails</source>
+        <target>Große Vorschaubilder</target>
+      </trans-unit>
+      <trans-unit id="1009b3d255c4c4e812cf97582fe3b5aa" resname="sulu.list-toolbar.table">
+        <source>sulu.list-toolbar.table</source>
+        <target>Tabelle</target>
+      </trans-unit>
       <trans-unit id="2000b96425b464e812cf979825d3b599" resname="contact.accounts.number">
         <source>contact.accounts.number</source>
         <target>Nummber</target>
@@ -1025,6 +1081,18 @@
       <trans-unit id="5000696425b464e812cf979825d3b599" resname="poolalpin.supplier-internal">
         <source>poolalpin.supplier.supplier-internal</source>
         <target>Intern</target>
+      </trans-unit>
+      <trans-unit id="5064a96425b464e812cf979825d3b599" resname="media.media.description">
+        <source>media.media.description</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="5064a96422d464e812cf979825d3b599" resname="media.media.size">
+        <source>media.media.size</source>
+        <target>Dateigröße</target>
+      </trans-unit>
+      <trans-unit id="1064a96425b464e812cf979825d3c599" resname="sulu.media.new-collection">
+        <source>sulu.media.new-collection</source>
+        <target>Neue Kollektion</target>
       </trans-unit>
     </body>
   </file>
