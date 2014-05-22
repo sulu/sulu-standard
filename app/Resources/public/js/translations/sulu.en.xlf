@@ -1004,27 +1004,27 @@
       </trans-unit>
       <trans-unit id="5000196425b464e812cf979825d3b599" resname="public.please-choose">
         <source>public.please-choose</source>
-        <target>Bitte wählen</target>
+        <target>Please choose</target>
       </trans-unit>
       <trans-unit id="5000296425b464e812cf979825d3b599" resname="contacts.edit-address">
         <source>contacts.edit-address</source>
-        <target>Adresse editieren</target>
+        <target>Edit Address</target>
       </trans-unit>
       <trans-unit id="5000396425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusSettlement">
         <source>poolalpin.supplier.bonusSettlement</source>
-        <target>Bonusabrechnung</target>
+        <target>Bonus-settlement</target>
       </trans-unit>
       <trans-unit id="5000496425b464e812cf979825d3b599" resname="poolalpin.supplier.bonusConditions">
         <source>poolalpin.supplier.bonusConditions</source>
-        <target>Bonuskonditionen</target>
+        <target>Bonus-conditions</target>
       </trans-unit>
       <trans-unit id="5000596425b464e812cf979825d3b599" resname="poolalpin.supplier.correspondence">
         <source>poolalpin.supplier.correspondence</source>
-        <target>Korrespondenz per</target>
+        <target>Correspondence via</target>
       </trans-unit>
       <trans-unit id="5000696425b464e812cf979825d3b599" resname="poolalpin.supplier-internal">
         <source>poolalpin.supplier.supplier-internal</source>
-        <target>Intern</target>
+        <target>Internal</target>
       </trans-unit>
     </body>
   </file>
