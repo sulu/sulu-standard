@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "d6a6d725b7162b84097d89a5d76593a4",
+    "hash": "45aa8f1fee59df7a2e66b0a44feb9c53",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2796,12 +2796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "22c7b9cd7802b6cfd5c7a299485d4547b8a99bef"
+                "reference": "3247de57d7e0f5d06b8458cb67e3accc51f9919a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/22c7b9cd7802b6cfd5c7a299485d4547b8a99bef",
-                "reference": "22c7b9cd7802b6cfd5c7a299485d4547b8a99bef",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/3247de57d7e0f5d06b8458cb67e3accc51f9919a",
+                "reference": "3247de57d7e0f5d06b8458cb67e3accc51f9919a",
                 "shasum": ""
             },
             "require": {
@@ -2846,7 +2846,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-05-23 12:05:18"
+            "time": "2014-05-23 13:35:38"
         },
         {
             "name": "sulu/product-advanced-bundle",
