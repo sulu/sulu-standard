@@ -1090,6 +1090,10 @@
         <source>media.media.size</source>
         <target>Filesize</target>
       </trans-unit>
+      <trans-unit id="5064a44422d464e812cf979823d3b599" resname="media.media.thumbnails">
+        <source>media.media.thumbnails</source>
+        <target>Thumbnail</target>
+      </trans-unit>
       <trans-unit id="1064a96425b464e812cf979825d3c599" resname="sulu.media.new-collection">
         <source>sulu.media.new-collection</source>
         <target>New collection</target>
