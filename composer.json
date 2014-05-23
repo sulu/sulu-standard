@@ -27,6 +27,7 @@
         "sulu/security-bundle": "dev-develop",
         "sulu/content-bundle": "dev-develop",
         "sulu/website-bundle": "dev-develop",
+        "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/product-base-bundle": "dev-develop",
