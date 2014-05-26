@@ -151,8 +151,8 @@ sulu_contact:
         male:
             id: 0
             name: male
-            translation: contact.contact.formOfAddress.male
+            translation: contact.contacts.formOfAddress.male
         female:
             id: 1
             name: female
-            translation: contact.contact.formOfAddress.female
+            translation: contact.contacts.formOfAddress.female
