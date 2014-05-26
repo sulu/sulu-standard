@@ -1110,6 +1110,14 @@
         <source>sulu.media.new-collection</source>
         <target>New collection</target>
       </trans-unit>
+      <trans-unit id="6f2c89033621ffebd6cfde33bdf16455" resname="sulu.media.add-collection">
+        <source>sulu.media.add-collection</source>
+        <target>Add new collection</target>
+      </trans-unit>
+      <trans-unit id="6f2c89033621ffebd6cfde33bdf16444" resname="public.color">
+        <source>public.color</source>
+        <target>Color</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
