@@ -253,7 +253,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -515,7 +515,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1643,7 +1645,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2443,7 +2445,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "The base bundle for the Symfony Distributions",
@@ -2552,7 +2556,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "This bundle generates code for you",
@@ -2627,21 +2633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-<<<<<<< HEAD
-                "reference": "92d4c0264d8d87ff79fd097031c99c4d2b85b931"
+                "reference": "347b9af2a779bcf63961b598a99b63b041951d47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/92d4c0264d8d87ff79fd097031c99c4d2b85b931",
-                "reference": "92d4c0264d8d87ff79fd097031c99c4d2b85b931",
-=======
-                "reference": "2e175ba71ce3008c8cb66c55554a55217de44aca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/2e175ba71ce3008c8cb66c55554a55217de44aca",
-                "reference": "2e175ba71ce3008c8cb66c55554a55217de44aca",
->>>>>>> 3fc540a879264696d8be02fce40cb25f4b2c0b5d
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/347b9af2a779bcf63961b598a99b63b041951d47",
+                "reference": "347b9af2a779bcf63961b598a99b63b041951d47",
                 "shasum": ""
             },
             "require": {
@@ -2674,11 +2671,7 @@
                 "cmf",
                 "symfony"
             ],
-<<<<<<< HEAD
-            "time": "2014-05-26 06:37:26"
-=======
-            "time": "2014-05-26 07:05:00"
->>>>>>> 3fc540a879264696d8be02fce40cb25f4b2c0b5d
+            "time": "2014-05-26 15:02:50"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3858,7 +3851,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "Common additional features for Twig that do not directly belong in core",
