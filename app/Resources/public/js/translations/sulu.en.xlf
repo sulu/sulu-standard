@@ -404,7 +404,7 @@
       </trans-unit>
       <trans-unit id="317132c150958a110ab6c49ea2f99dee" resname="pagination.elements">
         <source>pagination.elements</source>
-        <target>Elements</target>
+        <target>elements</target>
       </trans-unit>
       <trans-unit id="f293f6bd000d7e96b51c24c6e4b22e59" resname="pagination.show">
         <source>pagination.show</source>
@@ -758,8 +758,8 @@
         <source>contact.account.add-supplier</source>
         <target>Create new supplier</target>
       </trans-unit>
-      <trans-unit id="9e2ea0903c58af307e249455965b918b" resname="contact.account.type">
-        <source>contact.account.type</source>
+      <trans-unit id="8f6cabe97b1f83bec94b4e7b78348e0c" resname="contact.accounts.type">
+        <source>contact.accounts.type</source>
         <target>Type</target>
       </trans-unit>
       <trans-unit id="18fe4f5f2d5a25f1a9b5360e0bd18bfa" resname="content.delete.dialog.title">
@@ -954,12 +954,64 @@
         <source>contact.accounts.delete.contacts-checkbox</source>
         <target>Delete all &lt;%= number %&gt; related contacts.</target>
       </trans-unit>
+      <trans-unit id="95f5d305ecefcbf58dcdd387ba6bce6c" resname="navigation.media">
+        <source>navigation.media</source>
+        <target>Assets</target>
+      </trans-unit>
+      <trans-unit id="3fd1f800bd2ecfb6af0abf749b716788" resname="navigation.media.collections">
+        <source>navigation.media.collections</source>
+        <target>Collections</target>
+      </trans-unit>
+      <trans-unit id="2ed2e1bec2480b32fd6f8022a857c080" resname="media.collections.title">
+        <source>media.collections.title</source>
+        <target>Collections</target>
+      </trans-unit>
+      <trans-unit id="03d0a7c832c6c581e97fcf01aea8a30b" resname="public.open-all">
+        <source>public.open-all</source>
+        <target>Open all</target>
+      </trans-unit>
+      <trans-unit id="51b5233b5b7bbe1e1c7a6fbde4035d62" resname="public.close-all">
+        <source>public.close-all</source>
+        <target>Close all</target>
+      </trans-unit>
+      <trans-unit id="08f6ef9c711e42e2a336883a2f9e528e" resname="pagination.show-all">
+        <source>pagination.show-all</source>
+        <target>Show all</target>
+      </trans-unit>
+      <trans-unit id="6c01dbc259d279576ab8d385c110e66c" resname="public.elements">
+        <source>public.elements</source>
+        <target>elements</target>
+      </trans-unit>
+      <trans-unit id="ed961112240c7d99faeacb57a28aa6f6" resname="content-navigation.media.files">
+        <source>content-navigation.media.files</source>
+        <target>Files</target>
+      </trans-unit>
+      <trans-unit id="5ce49fa74807f040dd27e417751cb9e1" resname="sulu.upload.dropzone-title">
+        <source>sulu.upload.dropzone-title</source>
+        <target>Drag and drop assets here to upload</target>
+      </trans-unit>
+      <trans-unit id="ab1a58cd4f177db063487ed70698126a" resname="sulu.upload.dropzone-desc">
+        <source>sulu.upload.dropzone-desc</source>
+        <target>Or click to add</target>
+      </trans-unit>
+      <trans-unit id="2e3b70e82001f5bfc22e941e65376ee6" resname="sulu.list-toolbar.small-thumbnails">
+        <source>sulu.list-toolbar.small-thumbnails</source>
+        <target>Small thumbnails</target>
+      </trans-unit>
+      <trans-unit id="8c04c5d1dbf406f6222a2c4338e26663" resname="sulu.list-toolbar.big-thumbnails">
+        <source>sulu.list-toolbar.big-thumbnails</source>
+        <target>Large thumbnails</target>
+      </trans-unit>
+      <trans-unit id="aa005e19189f861dc79bc978a5caa663" resname="sulu.list-toolbar.table">
+        <source>sulu.list-toolbar.table</source>
+        <target>Table</target>
+      </trans-unit>
       <trans-unit id="2193fee100102d3c2f87ec9828dc3bab" resname="contact.accounts.number">
         <source>contact.accounts.number</source>
         <target>Number</target>
       </trans-unit>
-      <trans-unit id="5c57ad51d9f184de7efabfe2be3d58e7" resname="contact.accounts.register-number">
-        <source>contact.accounts.register-number</source>
+      <trans-unit id="792da838c3130e338d9c5cb5e277469e" resname="contact.accounts.registerNumber">
+        <source>contact.accounts.registerNumber</source>
         <target>Register Number</target>
       </trans-unit>
       <trans-unit id="5d5f771c4109de372c712d2759f8a205" resname="contact.accounts.uid">
@@ -978,8 +1030,8 @@
         <source>navigation.financials</source>
         <target>Financial Infos</target>
       </trans-unit>
-      <trans-unit id="e1e73ee09916575fcbeed2da7cc809e9" resname="contact.accounts.bank-name">
-        <source>contact.accounts.bank-name</source>
+      <trans-unit id="bf746deceecc14117cee98a6dee9621e" resname="contact.accounts.bankName">
+        <source>contact.accounts.bankName</source>
         <target>Bank name</target>
       </trans-unit>
       <trans-unit id="1172f8b447c7e3c041f39dd32ccc9f1a" resname="contact.accounts.bank-accounts">
@@ -1017,6 +1069,46 @@
       <trans-unit id="a48f27ebd46344b265095d9c2f6e7a27" resname="contact.accounts.category">
         <source>contact.accounts.category</source>
         <target>Category</target>
+      </trans-unit>
+      <trans-unit id="c9276aa93501d9bd79d95617a0687c61" resname="public.please-choose">
+        <source>public.please-choose</source>
+        <target>Please choose</target>
+      </trans-unit>
+      <trans-unit id="79d68f4ec8392a1f07b99dddc6e48a22" resname="contacts.edit-address">
+        <source>contacts.edit-address</source>
+        <target>Edit Address</target>
+      </trans-unit>
+      <trans-unit id="57000f1907b8c8548d35699790a3552d" resname="contact.accounts.bonusSettlement">
+        <source>contact.accounts.bonusSettlement</source>
+        <target>Bonus-settlement</target>
+      </trans-unit>
+      <trans-unit id="116dd2324c3e200fe70e6672107c0423" resname="contact.accounts.bonusConditions">
+        <source>contact.accounts.bonusConditions</source>
+        <target>Bonus-conditions</target>
+      </trans-unit>
+      <trans-unit id="4ced7e7729c9114bf64ce5a936d6b1f2" resname="contact.accounts.correspondence">
+        <source>contact.accounts.correspondence</source>
+        <target>Correspondence via</target>
+      </trans-unit>
+      <trans-unit id="ebc1d1f4df64e6f9b1da751d60e4807b" resname="poolalpin.supplier-internal">
+        <source>poolalpin.supplier-internal</source>
+        <target>Internal</target>
+      </trans-unit>
+      <trans-unit id="2f58801f9b542aed46820bf42ee5cd53" resname="media.media.description">
+        <source>media.media.description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="3c8f1c7c02abd468cc0794e987e2b2cf" resname="media.media.size">
+        <source>media.media.size</source>
+        <target>Filesize</target>
+      </trans-unit>
+      <trans-unit id="6f5e8f5b65fd4e7ae7ec509e742cc85f" resname="media.media.thumbnails">
+        <source>media.media.thumbnails</source>
+        <target>Thumbnail</target>
+      </trans-unit>
+      <trans-unit id="6f2c89027621ffebd6cfbe33bdf16455" resname="sulu.media.new-collection">
+        <source>sulu.media.new-collection</source>
+        <target>New collection</target>
       </trans-unit>
     </body>
   </file>

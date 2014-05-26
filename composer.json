@@ -5,7 +5,9 @@
     "description": "The sulu content management framework",
     "version": "0.3.0",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+            "": "src/"
+        }
     },
     "require": {
         "php": ">=5.3.3",
@@ -27,6 +29,7 @@
         "sulu/security-bundle": "dev-develop",
         "sulu/content-bundle": "dev-develop",
         "sulu/website-bundle": "dev-develop",
+        "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/product-base-bundle": "dev-develop",
@@ -44,7 +47,7 @@
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev"
     },
-    "require-dev":{
+    "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
@@ -58,7 +61,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -66,7 +70,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ]
     },
     "config": {
