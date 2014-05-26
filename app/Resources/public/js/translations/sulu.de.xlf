@@ -984,7 +984,7 @@
       </trans-unit>
       <trans-unit id="ed961112240c7d99faeacb57a28aa6f6" resname="content-navigation.media.files">
         <source>content-navigation.media.files</source>
-        <target>Dateiend</target>
+        <target>Dateien</target>
       </trans-unit>
       <trans-unit id="5ce49fa74807f040dd27e417751cb9e1" resname="sulu.upload.dropzone-title">
         <source>sulu.upload.dropzone-title</source>
@@ -1054,6 +1054,22 @@
         <source>public.bic</source>
         <target>BIC</target>
       </trans-unit>
+      <trans-unit id="b50e54392bb7da978e9a2cf49c4fa8fc" resname="contact.accounts.manage.categories.title">
+        <source>contact.accounts.manage.categories.title</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="742e8b76d3297cc60d49b6da002cadf6" resname="contact.accounts.manage.categories">
+        <source>contact.accounts.manage.categories</source>
+        <target>Kategorien verwalten</target>
+      </trans-unit>
+      <trans-unit id="35ac1a3024f2eb490134c3c0b2c2c540" resname="contact.accounts.category.select">
+        <source>contact.accounts.category.select</source>
+        <target>Kategorie auswählen</target>
+      </trans-unit>
+      <trans-unit id="a48f27ebd46344b265095d9c2f6e7a27" resname="contact.accounts.category">
+        <source>contact.accounts.category</source>
+        <target>Kategorie</target>
+      </trans-unit>
       <trans-unit id="c9276aa93501d9bd79d95617a0687c61" resname="public.please-choose">
         <source>public.please-choose</source>
         <target>Bitte wählen</target>
@@ -1113,6 +1129,14 @@
       <trans-unit id="cb106dadb34469a52f67b087c579f37a" resname="contact.contacts.formOfAddress.female">
         <source>contact.contacts.formOfAddress.female</source>
         <target>Frau</target>
+      </trans-unit>
+      <trans-unit id="71491ef900232b8755bf0842292e1ff4" resname="sulu.media.add-collection">
+        <source>sulu.media.add-collection</source>
+        <target>Neue Kollektion hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="68f3cef76066b2a5ee8da26341eb373b" resname="public.color">
+        <source>public.color</source>
+        <target>Farbe</target>
       </trans-unit>
     </body>
   </file>
