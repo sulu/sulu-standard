@@ -5,7 +5,9 @@
     "description": "The sulu content management framework",
     "version": "0.3.0",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+            "": "src/"
+        }
     },
     "require": {
         "php": ">=5.3.3",
@@ -27,6 +29,7 @@
         "sulu/security-bundle": "dev-develop",
         "sulu/content-bundle": "dev-develop",
         "sulu/website-bundle": "dev-develop",
+        "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/product-base-bundle": "dev-develop",
@@ -35,23 +38,22 @@
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
-        "jackalope/jackalope-jackrabbit": "1.0.*",
-        "doctrine/phpcr-bundle": "1.0.*",
-        "doctrine/phpcr-odm": "1.0.*",
+        "jackalope/jackalope-jackrabbit": "1.1.*",
+        "doctrine/phpcr-bundle": "1.1.*",
+        "doctrine/phpcr-odm": "1.1.*",
 
-        "symfony-cmf/core-bundle": "1.1.*@dev",
-        "symfony-cmf/routing-bundle": "1.2.*@dev",
-        "symfony-cmf/routing": "1.2.*@dev",
+        "symfony-cmf/core-bundle": "1.1.*",
+        "symfony-cmf/routing-bundle": "1.2.*",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev",
         "friendsofsymfony/rest-bundle": "@dev"
     },
-    "require-dev":{
+    "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
         "sulu/test-bundle": "dev-develop",
-        "jackalope/jackalope-doctrine-dbal": "@dev"
+        "jackalope/jackalope-doctrine-dbal": "1.1.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -60,7 +62,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -68,7 +71,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp"
+            "Sulu\\Component\\Composer\\SuluScriptHandler::installApp",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ]
     },
     "config": {
