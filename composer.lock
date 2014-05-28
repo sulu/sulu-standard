@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "208555082681512658151f472e688d9376613d3a"
+                "reference": "e1dba722549186de5d887624e18f20894d5417cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/208555082681512658151f472e688d9376613d3a",
-                "reference": "208555082681512658151f472e688d9376613d3a",
+                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/e1dba722549186de5d887624e18f20894d5417cd",
+                "reference": "e1dba722549186de5d887624e18f20894d5417cd",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-05-22 01:08:24"
+            "time": "2014-05-27 02:38:42"
         },
         {
             "name": "doctrine/annotations",
@@ -113,7 +113,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -167,7 +167,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "b1304871830f9059b22118a3ab93d1e8cdd3674f"
+                "reference": "6b384c108fa89a5ace02124d200bd916ab5ac380"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/b1304871830f9059b22118a3ab93d1e8cdd3674f",
-                "reference": "b1304871830f9059b22118a3ab93d1e8cdd3674f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/6b384c108fa89a5ace02124d200bd916ab5ac380",
+                "reference": "6b384c108fa89a5ace02124d200bd916ab5ac380",
                 "shasum": ""
             },
             "require": {
@@ -1054,19 +1054,19 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-05-21 20:42:38"
+            "time": "2014-05-27 08:47:40"
         },
         {
             "name": "gedmo/doctrine-extensions",
             "version": "v2.3.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
+                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "reference": "35adcaae1a3f50d0d5b73aa50ed8fd28ee35ce54",
                 "shasum": ""
             },
@@ -1748,7 +1748,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1818,7 +1818,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2633,12 +2633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "347b9af2a779bcf63961b598a99b63b041951d47"
+                "reference": "aceab17a83a63e488c020dbc9a9854e809ec4bd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/347b9af2a779bcf63961b598a99b63b041951d47",
-                "reference": "347b9af2a779bcf63961b598a99b63b041951d47",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/aceab17a83a63e488c020dbc9a9854e809ec4bd0",
+                "reference": "aceab17a83a63e488c020dbc9a9854e809ec4bd0",
                 "shasum": ""
             },
             "require": {
@@ -2662,7 +2662,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides administration functionality",
@@ -2671,7 +2671,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-05-26 15:02:50"
+            "time": "2014-05-27 07:50:26"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2680,12 +2680,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "69334336ab18e7bb6f19e34ea81cf7650d685b98"
+                "reference": "5bfcf09286bc59e5e53734048a176ea18181af54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/69334336ab18e7bb6f19e34ea81cf7650d685b98",
-                "reference": "69334336ab18e7bb6f19e34ea81cf7650d685b98",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/5bfcf09286bc59e5e53734048a176ea18181af54",
+                "reference": "5bfcf09286bc59e5e53734048a176ea18181af54",
                 "shasum": ""
             },
             "require": {
@@ -2695,12 +2695,14 @@
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
                 "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop"
+                "sulu/sulu": "dev-develop",
+                "sulu/tag-bundle": "dev-develop"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "4.0.*",
                 "sensio/framework-extra-bundle": "~3.0",
+                "sulu/security-bundle": "dev-develop",
                 "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.4.*"
@@ -2726,7 +2728,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-05-26 12:54:59"
+            "time": "2014-05-27 08:04:11"
         },
         {
             "name": "sulu/content-bundle",
