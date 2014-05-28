@@ -92,7 +92,7 @@
       </trans-unit>
       <trans-unit id="2745c23db7c8055c84ecba422b39e8e6" resname="contact.contacts.title">
         <source>contact.contacts.title</source>
-        <target>Contact</target>
+        <target>Person</target>
       </trans-unit>
       <trans-unit id="bce12aa0a40b4a95a3bfc133a6bf286f" resname="contact.contacts.contactTitle">
         <source>contact.contacts.contactTitle</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="9c0bd43954c93c8e2cbfe94ecdd649c7" resname="email.work">
         <source>email.work</source>
-        <target>Business</target>
+        <target>Work</target>
       </trans-unit>
       <trans-unit id="1eddecabfe3e3149071096c39a2069b1" resname="phone.home">
         <source>phone.home</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="2ae8f62c2530b4303646d95f70bfa62e" resname="phone.work">
         <source>phone.work</source>
-        <target>Business</target>
+        <target>Work</target>
       </trans-unit>
       <trans-unit id="27b4428805be5d6c32f51fd103b76cef" resname="phone.fax">
         <source>phone.fax</source>
@@ -192,7 +192,7 @@
       </trans-unit>
       <trans-unit id="4b006ce36bf3e4f6bb24fd13e8dc29a9" resname="address.work">
         <source>address.work</source>
-        <target>Business</target>
+        <target>Work</target>
       </trans-unit>
       <trans-unit id="a6287b824eeb3893ce4ef15ee503f47d" resname="country.austria">
         <source>country.austria</source>
@@ -332,11 +332,11 @@
       </trans-unit>
       <trans-unit id="61788b1f08f29f6e5f1cb4076fd81272" resname="navigation.contacts">
         <source>navigation.contacts</source>
-        <target>Contacts</target>
+        <target>CRM</target>
       </trans-unit>
       <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
         <source>navigation.contacts.people</source>
-        <target>Contacts</target>
+        <target>People</target>
       </trans-unit>
       <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
         <source>navigation.contacts.companies</source>
@@ -1141,6 +1141,52 @@
       <trans-unit id="0501e263af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.details">
         <source>contact.contacts.details</source>
         <target>Contact details</target>
+      </trans-unit>
+      <trans-unit id="9050263af3ba0f52ef7a4d3c0298d50" resname="url.work">
+        <source>url.work</source>
+        <target>Work</target>
+      </trans-unit>
+      <trans-unit id="9051263af3ba0f52ef7a4d3c0298d50" resname="fax.work">
+        <source>fax.work</source>
+        <target>Work</target>
+      </trans-unit>
+      <trans-unit id="9051363af3ba0f52ef7a4d3c0298d50" resname="public.internal">
+        <source>public.internal</source>
+        <target>Internal</target>
+      </trans-unit>
+      <trans-unit id="9051563af3ba0f52ef7a4d3c0298d50" resname="address.delivery">
+        <source>address.delivery</source>
+        <target>Delivery address</target>
+      </trans-unit>
+      <trans-unit id="9051663af3ba0f52ef7a4d3c0298d50" resname="address.invoice">
+        <source>address.invoice</source>
+        <target>Invoice address</target>
+      </trans-unit>
+      <trans-unit id="9052063af3ba0f52ef7a4d3c0298d50" resname="phone.mobile">
+        <source>phone.mobile</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <!-- POOL-ALPIN_SPEZIFISCH -->
+      <trans-unit id="9051763af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.hobbies">
+        <source>contact.contacts.hobbies</source>
+        <target>Hobbies</target>
+      </trans-unit>
+      <trans-unit id="9051863af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.partner">
+        <source>contact.contacts.partner</source>
+        <target>Partner</target>
+      </trans-unit>
+      <trans-unit id="9051963af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.aviso">
+        <source>contact.contacts.aviso</source>
+        <target>Aviso to</target>
+      </trans-unit>
+      <!-- end -->
+      <trans-unit id="9052263af3ba0f52ef7a4d3c0298d50" resname="public.add-entry">
+        <source>public.add-entry</source>
+        <target>Add new Entry</target>
+      </trans-unit>
+      <trans-unit id="9052264af3ba0f52ef7a4d3c0298d50" resname="public.edit-entries">
+        <source>public.edit-entries</source>
+        <target>Edit entries</target>
       </trans-unit>
     </body>
   </file>

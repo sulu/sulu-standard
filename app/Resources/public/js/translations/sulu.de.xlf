@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="a0ff6dd7ef4022e0b90d8176c6ed89b0" resname="translate.package.catalogues">
         <source>translate.package.catalogues</source>
-        <target>Sprachen Kataloge</target>
+        <target>Sprachkataloge</target>
       </trans-unit>
       <trans-unit id="b0a7a12cf626e2af8f2d747e10805dda" resname="translate.package.settings.locale">
         <source>translate.package.settings.locale</source>
@@ -172,7 +172,7 @@
       </trans-unit>
       <trans-unit id="9c0bd43954c93c8e2cbfe94ecdd649c7" resname="email.work">
         <source>email.work</source>
-        <target>Geschäftlich</target>
+        <target>Arbeit</target>
       </trans-unit>
       <trans-unit id="1eddecabfe3e3149071096c39a2069b1" resname="phone.home">
         <source>phone.home</source>
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="2ae8f62c2530b4303646d95f70bfa62e" resname="phone.work">
         <source>phone.work</source>
-        <target>Geschäftlich</target>
+        <target>Arbeit</target>
       </trans-unit>
       <trans-unit id="27b4428805be5d6c32f51fd103b76cef" resname="phone.fax">
         <source>phone.fax</source>
@@ -192,7 +192,7 @@
       </trans-unit>
       <trans-unit id="4b006ce36bf3e4f6bb24fd13e8dc29a9" resname="address.work">
         <source>address.work</source>
-        <target>Geschäftlich</target>
+        <target>Arbeit</target>
       </trans-unit>
       <trans-unit id="a6287b824eeb3893ce4ef15ee503f47d" resname="country.austria">
         <source>country.austria</source>
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="690fa3a0e9c39771d51fd5e8a8ae8a04" resname="contact.accounts.title">
         <source>contact.accounts.title</source>
-        <target>Organisation</target>
+        <target>Unternehmen</target>
       </trans-unit>
       <trans-unit id="a4190eb0ddea6a4a416c5568a137c6f6" resname="contact.accounts.name">
         <source>contact.accounts.name</source>
@@ -216,7 +216,7 @@
       </trans-unit>
       <trans-unit id="4318cb1df244d69cdc8af5b6408329d1" resname="contact.accounts.company">
         <source>contact.accounts.company</source>
-        <target>Übergeordnetes Unternehmen</target>
+        <target>Gehört zu</target>
       </trans-unit>
       <trans-unit id="5637f41956c2f7c9c1fbf0728db058cc" resname="security.roles.title">
         <source>security.roles.title</source>
@@ -332,15 +332,15 @@
       </trans-unit>
       <trans-unit id="61788b1f08f29f6e5f1cb4076fd81272" resname="navigation.contacts">
         <source>navigation.contacts</source>
-        <target>Kontakte</target>
+        <target>CRM</target>
       </trans-unit>
       <trans-unit id="a5483734334073f618ff019ef3a41470" resname="navigation.contacts.people">
         <source>navigation.contacts.people</source>
-        <target>Kontakte</target>
+        <target>Personen</target>
       </trans-unit>
       <trans-unit id="b819087c400da29fa73c69eb259d6fbe" resname="navigation.contacts.companies">
         <source>navigation.contacts.companies</source>
-        <target>Organisationen</target>
+        <target>Unternehmen</target>
       </trans-unit>
       <trans-unit id="883c0562a1ae3578239d1803dfe61292" resname="navigation.webspaces">
         <source>navigation.webspaces</source>
@@ -900,11 +900,11 @@
       </trans-unit>
       <trans-unit id="73f08bc1e1576fe835885fccd00abaeb" resname="contacts.accounts.manage.categories.title">
         <source>contacts.accounts.manage.categories.title</source>
-        <target>Kategorien verwalten</target>
+        <target>Kategorien</target>
       </trans-unit>
       <trans-unit id="b7a4aa666805f63aa7a28f4c18f99ed0" resname="contacts.accounts.manage.categories">
         <source>contacts.accounts.manage.categories</source>
-        <target>Kategorien verwalten</target>
+        <target>Einträge editieren</target>
       </trans-unit>
       <trans-unit id="3113e12e2fbe9b9a8b569a0bb9ba6a44" resname="contacts.accounts.category.select">
         <source>contacts.accounts.category.select</source>
@@ -1028,7 +1028,7 @@
       </trans-unit>
       <trans-unit id="750e61b7718d049c72a2ec09d96df2ad" resname="navigation.financials">
         <source>navigation.financials</source>
-        <target>Finanz Infos</target>
+        <target>Finanzdaten</target>
       </trans-unit>
       <trans-unit id="bf746deceecc14117cee98a6dee9621e" resname="contact.accounts.bankName">
         <source>contact.accounts.bankName</source>
@@ -1141,6 +1141,52 @@
       <trans-unit id="0501e263af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.details">
         <source>contact.contacts.details</source>
         <target>Kontaktdetails</target>
+      </trans-unit>
+      <trans-unit id="9050263af3ba0f52ef7a4d3c0298d50" resname="url.work">
+        <source>url.work</source>
+        <target>Arbeit</target>
+      </trans-unit>
+      <trans-unit id="9051263af3ba0f52ef7a4d3c0298d50" resname="fax.work">
+        <source>fax.work</source>
+        <target>Arbeit</target>
+      </trans-unit>
+      <trans-unit id="9051463af3ba0f52ef7a4d3c0298d50" resname="public.internal">
+        <source>public.internal</source>
+        <target>Intern</target>
+      </trans-unit>
+      <trans-unit id="9051563af3ba0f52ef7a4d3c0298d50" resname="address.delivery">
+        <source>address.delivery</source>
+        <target>Lieferadresse</target>
+      </trans-unit>
+      <trans-unit id="9051663af3ba0f52ef7a4d3c0298d50" resname="address.invoice">
+        <source>address.invoice</source>
+        <target>Rechnungsadresse</target>
+      </trans-unit>
+      <trans-unit id="9052063af3ba0f52ef7a4d3c0298d50" resname="phone.mobile">
+        <source>phone.mobile</source>
+        <target>Mobil</target>
+      </trans-unit>
+      <!-- POOL-ALPIN_SPEZIFISCH -->
+      <trans-unit id="9051763af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.hobbies">
+        <source>contact.contacts.hobbies</source>
+        <target>Hobbies</target>
+      </trans-unit>
+      <trans-unit id="9051863af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.partner">
+        <source>contact.contacts.partner</source>
+        <target>Partner</target>
+      </trans-unit>
+      <trans-unit id="9051963af3ba0f52ef7a4d3c0298d50" resname="contact.contacts.aviso">
+        <source>contact.contacts.aviso</source>
+        <target>Aviso an</target>
+      </trans-unit>
+      <!-- end -->
+      <trans-unit id="9052263af3ba0f52ef7a4d3c0298d50" resname="public.add-entry">
+        <source>public.add-entry</source>
+        <target>Neuen Eintrag erstellen</target>
+      </trans-unit>
+      <trans-unit id="9052264af3ba0f52ef7a4d3c0298d50" resname="public.edit-entries">
+        <source>public.edit-entries</source>
+        <target>Einträge editieren</target>
       </trans-unit>
     </body>
   </file>
