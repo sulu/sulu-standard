@@ -129,12 +129,17 @@ sulu_contact:
             translation: contact.account.type.basic
             tabs:
                 financials: false
+            convertableTo:
+                lead: true
+                customer: true
         lead:
             id: 1
             name: lead
             translation: contact.account.type.lead
             tabs:
                 financials: false
+            convertableTo:
+                customer: true
         customer:
             id: 2
             name: customer
