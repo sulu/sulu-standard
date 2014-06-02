@@ -2455,22 +2455,22 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "2016a90bd032248e7d6e9da29def4959821127c8"
+                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/2016a90bd032248e7d6e9da29def4959821127c8",
-                "reference": "2016a90bd032248e7d6e9da29def4959821127c8",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/dbc1e5aa830f3bf8063b29102add3c1e476d616e",
+                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
-                "symfony/framework-bundle": "~2.4"
+                "symfony/framework-bundle": "~2.5"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4",
@@ -2508,7 +2508,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2013-12-03 07:53:39"
+            "time": "2014-05-22 23:27:44"
         },
         {
             "name": "sensio/generator-bundle",
@@ -2797,12 +2797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "378ca3eab00d4114f4b9fd5b4b05effeb42aac03"
+                "reference": "0610267d77103f1b1e124e962992f1c379ffc710"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/378ca3eab00d4114f4b9fd5b4b05effeb42aac03",
-                "reference": "378ca3eab00d4114f4b9fd5b4b05effeb42aac03",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/0610267d77103f1b1e124e962992f1c379ffc710",
+                "reference": "0610267d77103f1b1e124e962992f1c379ffc710",
                 "shasum": ""
             },
             "require": {
@@ -2848,7 +2848,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-06-02 14:24:07"
+            "time": "2014-06-02 15:13:29"
         },
         {
             "name": "sulu/product-advanced-bundle",
