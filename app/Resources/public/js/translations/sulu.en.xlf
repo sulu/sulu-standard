@@ -254,6 +254,10 @@
         <source>security.roles.none</source>
         <target>Select none</target>
       </trans-unit>
+      <trans-unit id="630afebcb7daa7f0a5addd4a3c76fff1" resname="security.roles.security-type">
+        <source>security.roles.security-type</source>
+        <target>Type</target>
+      </trans-unit>
       <trans-unit id="564c871c3fda868b7f35e81724359618" resname="security.permission.title">
         <source>security.permission.title</source>
         <target>Username and Password</target>
