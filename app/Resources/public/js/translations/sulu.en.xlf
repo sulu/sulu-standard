@@ -1236,6 +1236,38 @@
         <source>contact.contacts.isPoolAlpinEmployee</source>
         <target>PA-Employee</target>
       </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22193" resname="contact.address.primaryAddress">
+          <source>contact.address.primaryAddress</source>
+          <target>Primary address</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22194" resname="contact.address.deliveryAddress">
+          <source>contact.address.deliveryAddress</source>
+          <target>Delivery address</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22195" resname="contact.address.billingAddress">
+          <source>contact.address.billingAddress</source>
+          <target>Billing address</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22196" resname="contact.address.type">
+          <source>contact.address.type</source>
+          <target>Address type</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22197" resname="contact.address.postbox.number">
+          <source>contact.address.postbox.number</source>
+          <target>Postbox #</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22198" resname="contact.address.postbox.postcode">
+          <source>contact.address.postbox.postcode</source>
+          <target>Postbox ZIP</target>
+      </trans-unit>
+      <trans-unit id="642c992f1929c9e633a5ce2178d22199" resname="contact.address.postbox.city">
+          <source>contact.address.postbox.city</source>
+          <target>Postbox city</target>
+      </trans-unit>
+      <trans-unit id="po642c992f1929c9e633a5ce2178d22200" resname="contact.address.type.select">
+          <source>contact.address.type.select</source>
+          <target>Choose address type</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
