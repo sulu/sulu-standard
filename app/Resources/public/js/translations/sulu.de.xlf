@@ -1268,6 +1268,10 @@
           <source>contact.address.type.select</source>
           <target>Adresstyp auswählen</target>
       </trans-unit>
+      <trans-unit id="po642c992f1929c9e633a5ce2178d22201" resname="contact.address.add.label">
+          <source>contact.address.add.label</source>
+          <target>Adresse hinzufügen</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
