@@ -1276,6 +1276,20 @@
                 <source>contact.address.add.label</source>
                 <target>Add address</target>
             </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219c" resname="contact.accounts.type.conversion.message">
+                <source>contact.accounts.type.conversion.message</source>
+                <target>The operation you are about to do will convert this account. This is not undoable! Please think
+                    about it and accept or decline.
+                </target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219b" resname="contact.account.type.customer.conversion">
+                <source>contact.account.type.customer.conversion</source>
+                <target>Convert to customer</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219a" resname="contact.account.type.lead.conversion">
+                <source>contact.account.type.lead.conversion</source>
+                <target>Convert to lead</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
