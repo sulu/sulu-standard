@@ -1254,6 +1254,22 @@
                 <source>contact.account.type.lead.conversion</source>
                 <target>Convert to lead</target>
             </trans-unit>
+            <trans-unit id="642c992f1929652633a5ce2178d22192" resname="sulu.upload.small-dropzone-title">
+                <source>sulu.upload.small-dropzone-title</source>
+                <target>Click or drag and drop new version</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929652633a5ce2178d2219f" resname="sulu.media.multiple-edit.title">
+                <source>sulu.media.multiple-edit.title</source>
+                <target>Edit medias</target>
+            </trans-unit>
+            <trans-unit id="643c992f1929652633a5ca2178d2219f" resname="public.show-descriptions">
+                <source>public.show-descriptions</source>
+                <target>Show descriptions</target>
+            </trans-unit>
+            <trans-unit id="643c99ff1964652633a5ca2178d2219f" resname="labels.success.media-save-desc">
+                <source>labels.success.media-save-desc</source>
+                <target>Media successfully saved</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
