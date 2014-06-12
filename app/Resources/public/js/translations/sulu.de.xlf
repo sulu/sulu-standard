@@ -1242,17 +1242,53 @@
                 <source>contact.contacts.isPoolAlpinEmployee</source>
                 <target>PA-Mitarbeiter</target>
             </trans-unit>
-            <trans-unit id="642c992f1929c9e633a5ce2178d22193" resname="contact.accounts.type.conversion.message">
+            <trans-unit id="642c992f1929c9e633a5ce2178d22193" resname="contact.address.primaryAddress">
+                <source>contact.address.primaryAddress</source>
+                <target>Primäre Adresse</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d22194" resname="contact.address.deliveryAddress">
+                <source>contact.address.deliveryAddress</source>
+                <target>Lieferadresse</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d22195" resname="contact.address.billingAddress">
+                <source>contact.address.billingAddress</source>
+                <target>Rechnungsadresse</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d22196" resname="contact.address.type">
+                <source>contact.address.type</source>
+                <target>Adresstyp</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d22197" resname="contact.address.postbox.number">
+                <source>contact.address.postbox.number</source>
+                <target>Postfach #</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d22198" resname="contact.address.postbox.postcode">
+                <source>contact.address.postbox.postcode</source>
+                <target>Postfach PLZ</target>
+            </trans-unit>
+            <trans-unit id="po642c992f1929c9e633a5ce2178d22199" resname="contact.address.postbox.city">
+                <source>contact.address.postbox.city</source>
+                <target>Postfach Stadt</target>
+            </trans-unit>
+            <trans-unit id="po642c992f1929c9e633a5ce2178d22200" resname="contact.address.type.select">
+                <source>contact.address.type.select</source>
+                <target>Adresstyp auswählen</target>
+            </trans-unit>
+            <trans-unit id="po642c992f1929c9e633a5ce2178d22201" resname="contact.address.add.label">
+                <source>contact.address.add.label</source>
+                <target>Adresse hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219c" resname="contact.accounts.type.conversion.message">
                 <source>contact.accounts.type.conversion.message</source>
                 <target>Die Operation die Sie machen möchten konvertiert dieses Unternehmen und lässt sich nicht rückgängig machen. Bitte
                     denken Sie genau darüber nach und akzeptieren Sie oder brechen Sie ab.
                 </target>
             </trans-unit>
-            <trans-unit id="642c992f1929c9e633a5ce2178d22194" resname="contact.account.type.customer.conversion">
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219b" resname="contact.account.type.customer.conversion">
                 <source>contact.account.type.customer.conversion</source>
                 <target>Zu Kunde konvertieren</target>
             </trans-unit>
-            <trans-unit id="642c992f1929c9e633a5ce2178d22195" resname="contact.account.type.lead.conversion">
+            <trans-unit id="642c992f1929c9e633a5ce2178d2219a" resname="contact.account.type.lead.conversion">
                 <source>contact.account.type.lead.conversion</source>
                 <target>Zu Interessent konvertieren</target>
             </trans-unit>
