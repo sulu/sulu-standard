@@ -1308,6 +1308,42 @@
                 <source>labels.success.media-save-desc</source>
                 <target>Medien erfolgreich gespeichert</target>
             </trans-unit>
+            <trans-unit id="243c99ff1964652633a5ca2178d2219f" resname="template.example">
+                <source>template.example</source>
+                <target>Beispiel</target>
+            </trans-unit>
+            <trans-unit id="623c99ff1964652633a5ca2178d2219f" resname="sulu.property.phone">
+                <source>sulu.property.phone</source>
+                <target>Telefon</target>
+            </trans-unit>
+            <trans-unit id="642c99ff1964652633a5ca2178d2219f" resname="sulu.property.password">
+                <source>sulu.property.password</source>
+                <target>Passwort</target>
+            </trans-unit>
+            <trans-unit id="643299ff1964652633a5ca2178d2219f" resname="sulu.property.link">
+                <source>sulu.property.link</source>
+                <target>Link</target>
+            </trans-unit>
+            <trans-unit id="643c29ff1964652633a5ca2178d2219f" resname="sulu.property.email">
+                <source>sulu.property.email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="643c92ff1964652633a5ca2178d2219f" resname="sulu.property.color">
+                <source>sulu.property.color</source>
+                <target>Farbe</target>
+            </trans-unit>
+            <trans-unit id="643c992f1964652633a5ca2178d2219f" resname="sulu.property.date">
+                <source>sulu.property.date</source>
+                <target>Datum</target>
+            </trans-unit>
+            <trans-unit id="643c99f21964652633a5ca2178d2219f" resname="sulu.property.time">
+                <source>sulu.property.time</source>
+                <target>Zeit</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d2219f" resname="sulu.property.note">
+                <source>sulu.property.note</source>
+                <target>Notiz</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
