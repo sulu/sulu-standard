@@ -1236,18 +1236,6 @@
         <source>contact.contacts.isPoolAlpinEmployee</source>
         <target>PA-Mitarbeiter</target>
       </trans-unit>
-      <trans-unit id="642c992f1929652633a5ce2178d22192" resname="sulu.upload.small-dropzone-title">
-        <source>sulu.upload.small-dropzone-title</source>
-        <target>Klicken oder neue Version hierher ziehen</target>
-      </trans-unit>
-      <trans-unit id="642c992f1929652633a5ce2178d2219f" resname="sulu.media.multiple-edit.title">
-        <source>sulu.media.multiple-edit.title</source>
-        <target>Medien bearbeiten</target>
-      </trans-unit>
-      <trans-unit id="643c992f1929652633a5ca2178d2219f" resname="public.show-descriptions">
-        <source>public.show-descriptions</source>
-        <target>Beschreibungen anzeigen</target>
-      </trans-unit>
     </body>
   </file>
 </xliff>
