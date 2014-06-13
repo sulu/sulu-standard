@@ -6,7 +6,7 @@
 
     <key>example</key>
 
-    <view>ClientWebsiteBundle:Website:complex.html.twig</view>
+    <view>ClientWebsiteBundle:Website:example.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
@@ -30,5 +30,34 @@
         <property name="color" title="sulu.property.color" type="color" mandatory="true"/>
         <property name="date" title="sulu.property.date" type="date" mandatory="false"/>
         <property name="time" title="sulu.property.time" type="time" mandatory="true"/>
+
+        <block name="block"
+               title="sulu.property.block"
+               default-type="editor"
+               minOccurs="2"
+               maxOccurs="10"
+               mandatory="true">
+            <types>
+                <type name="editor" title="type.editor">
+                    <properties>
+                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
+                        <property name="article" title="sulu.property.block.article" type="text_editor"
+                                  mandatory="true"/>
+                    </properties>
+                </type>
+                <type name="textarea" title="type.area">
+                    <properties>
+                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
+                        <property name="article" title="sulu.property.block.article" type="text_area" mandatory="true"/>
+                    </properties>
+                </type>
+                <type name="title_only" title="type.title_only">
+                    <properties>
+                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
+                    </properties>
+                </type>
+            </types>
+        </block>
+
     </properties>
 </template>
