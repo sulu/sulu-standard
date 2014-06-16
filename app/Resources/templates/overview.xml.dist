@@ -11,15 +11,44 @@
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
-        <property name="title" title="sulu.property.title" type="text_line" mandatory="true">
+        <property name="title" type="text_line" mandatory="true">
+            <meta>
+                <title lang="de">Titel</title>
+                <title lang="en">Title</title>
+            </meta>
+
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
         </property>
-        <property name="url" title="sulu.property.url" type="resource_locator" mandatory="true">
+
+        <property name="url" type="resource_locator" mandatory="true">
+            <meta>
+                <title lang="de">Adresse</title>
+                <title lang="en">Resourcelocator</title>
+            </meta>
+
             <tag name="sulu.rlp"/>
         </property>
-        <property name="tags" title="sulu.property.tags" type="tag_list"/>
-        <property name="smartcontent" title="sulu.property.smartcontent" type="smart_content"/>
-        <property name="article" title="sulu.property.article" type="text_editor"/>
+
+        <property name="tags" type="tag_list">
+            <meta>
+                <title lang="de">Tags</title>
+                <title lang="en">Tags</title>
+            </meta>
+        </property>
+
+        <property name="smartcontent" type="smart_content">
+            <meta>
+                <title lang="de">Smart-Content</title>
+                <title lang="en">Smart-Content</title>
+            </meta>
+        </property>
+
+        <property name="article" type="text_editor">
+            <meta>
+                <title lang="de">Artikel</title>
+                <title lang="en">Article</title>
+            </meta>
+        </property>
     </properties>
 </template>

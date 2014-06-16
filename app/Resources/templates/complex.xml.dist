@@ -11,43 +11,113 @@
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
-        <property name="title" title="sulu.property.title" type="text_line" mandatory="true">
+        <property name="title" type="text_line" mandatory="true">
+            <meta>
+                <title lang="de">Titel</title>
+                <title lang="en">Title</title>
+            </meta>
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
         </property>
-        <property name="url" title="sulu.property.url" type="resource_locator" mandatory="true">
+        <property name="url" type="resource_locator" mandatory="true">
+            <meta>
+                <title lang="de">Adresse</title>
+                <title lang="en">Resourcelocator</title>
+            </meta>
             <tag name="sulu.rlp"/>
         </property>
-        <property name="article" title="sulu.property.article" type="text_editor" mandatory="true"/>
 
-        <property name="name" type="text_line" mandatory="false" minOccurs="2" maxOccurs="5"/>
+        <section name="content">
+            <meta>
+                <title lang="de">Inhalt</title>
+                <title lang="en">Content</title>
 
-        <block name="block"
-               title="sulu.property.block"
-               default-type="editor"
-               minOccurs="2"
-               maxOccurs="10"
-               mandatory="true">
-            <types>
-                <type name="editor" title="type.editor">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                        <property name="article" title="sulu.property.block.article" type="text_editor"
-                                  mandatory="true"/>
-                    </properties>
-                </type>
-                <type name="textarea" title="type.area">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                        <property name="article" title="sulu.property.block.article" type="text_area" mandatory="true"/>
-                    </properties>
-                </type>
-                <type name="title_only" title="type.title_only">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                    </properties>
-                </type>
-            </types>
-        </block>
+                <info_text lang="de">Bereich für den Inhalt</info_text>
+                <info_text lang="en">Content Section</info_text>
+            </meta>
+            <properties>
+                <property name="article" type="text_editor" mandatory="true">
+                    <meta>
+                        <title lang="de">Artikel</title>
+                        <title lang="en">Article</title>
+                    </meta>
+                </property>
+
+                <block name="block"
+                       default-type="editor"
+                       minOccurs="2"
+                       maxOccurs="10"
+                       mandatory="true">
+                    <meta>
+                        <title lang="de">Block</title>
+                        <title lang="en">Block</title>
+                    </meta>
+                    <types>
+                        <type name="editor">
+                            <meta>
+                                <title lang="de">Texteditor</title>
+                                <title lang="en">Text editor</title>
+                            </meta>
+                            <properties>
+                                <property name="title" type="text_line" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
+                                    </meta>
+                                </property>
+                                <property name="article" type="text_editor"
+                                          mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="textarea">
+                            <meta>
+                                <title lang="de">Texteingabe</title>
+                                <title lang="en">Text area</title>
+                            </meta>
+                            <properties>
+                                <property name="title" type="text_line" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
+                                    </meta>
+                                </property>
+                                <property name="article" type="text_area" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="title_only">
+                            <meta>
+                                <title lang="de">Nur Titel</title>
+                                <title lang="en">Title Only</title>
+                            </meta>
+                            <properties>
+                                <property name="title" type="text_line" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                    </types>
+                </block>
+
+                <property name="name" type="text_line" mandatory="false" minOccurs="2" maxOccurs="5">
+                    <meta>
+                        <title lang="de">Name</title>
+                        <title lang="en">Name</title>
+                    </meta>
+                </property>
+            </properties>
+        </section>
     </properties>
 </template>
