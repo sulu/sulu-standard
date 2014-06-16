@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7caeb94d27265962a676d331206caaa",
+    "hash": "4d5df2a3b880d0c6a948c6faa11e0149",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -93,7 +93,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -114,7 +114,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2288,12 +2288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "a0777e79535e49759be8f141538edba65e99f183"
+                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/a0777e79535e49759be8f141538edba65e99f183",
-                "reference": "a0777e79535e49759be8f141538edba65e99f183",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
+                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
                 "shasum": ""
             },
             "require": {
@@ -2372,12 +2372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "da7bb5db007d98a5541323480d325215e57231e6"
+                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/da7bb5db007d98a5541323480d325215e57231e6",
-                "reference": "da7bb5db007d98a5541323480d325215e57231e6",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
+                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
                 "shasum": ""
             },
             "require": {
@@ -2674,6 +2674,60 @@
                 "symfony"
             ],
             "time": "2014-06-13 16:36:26"
+        },
+        {
+            "name": "sulu/category-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/CategoryBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
+                "reference": "bd4e54dfa0ee619e7e06dc584682848778457ec8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/bd4e54dfa0ee619e7e06dc584682848778457ec8",
+                "reference": "bd4e54dfa0ee619e7e06dc584682848778457ec8",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "dev-master",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "stof/doctrine-extensions-bundle": "1.1.*@dev",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "phpunit/phpunit": "4.0.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/test-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\CategoryBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluCategoryBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2014-06-16 13:11:05"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3961,7 +4015,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4056,7 +4110,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "A dependable php environment",
@@ -4812,6 +4866,7 @@
         "sulu/translate-bundle": 20,
         "sulu/product-base-bundle": 20,
         "sulu/product-advanced-bundle": 20,
+        "sulu/category-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
