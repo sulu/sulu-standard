@@ -65,6 +65,7 @@ doctrine:
                 is_bundle: false
         resolve_target_entities:
             Sulu\Component\Security\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
+            Sulu\Bundle\ProductBundle\Entity\ProductInterface: Sulu\Bundle\ProductBundle\Entity\Product
         dql:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast

@@ -8,8 +8,8 @@
 
         <title>{% block title %} {% endblock %}</title>
 
-        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/justified-nav.css') }}">
+        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/default/css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/default/css/justified-nav.css') }}" />
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -36,7 +36,7 @@
                 </div>
                 <br/>
                 {% if navigation is defined %}
-                    {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
+                    {% include 'ClientWebsiteBundle:views:navigation.html.twig' %}
                 {% endif %}
             </div>
             <!-- /header -->
