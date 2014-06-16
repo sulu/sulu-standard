@@ -17,7 +17,7 @@ security:
         - { path: ^/admin, roles: ROLE_USER }
 
     firewalls:
-        sulu:
+        admin:
             pattern: ^/
             anonymous: ~
             form_login:

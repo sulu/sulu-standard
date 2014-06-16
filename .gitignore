@@ -6,6 +6,7 @@
 /app/admin/logs/*
 /app/website/cache/*
 /app/website/logs/*
+/uploads/sulumedia/*
 /build/
 /vendor/
 /bin/

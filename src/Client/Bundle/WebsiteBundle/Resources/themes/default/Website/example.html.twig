@@ -12,16 +12,47 @@
             {% endautoescape %}
         </div>
 
-        <hr/>
-
-        <ul property="name">
-            {% for name in content.name %}
-                <li>{{ name }}</li>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Phone</td><td property="phone">{{ content.phone }}</td>
+                </tr>
+                <tr>
+                    <td>Password</td><td property="password">{{ content.password }}</td>
+                </tr>
+                <tr>
+                    <td>Link</td><td property="link">{{ content.link }}</td>
+                </tr>
+                <tr>
+                    <td>Email</td><td property="email">{{ content.email }}</td>
+                </tr>
+                <tr>
+                    <td>Color</td><td property="color">{{ content.color }}</td>
+                </tr>
+                <tr>
+                    <td>Date</td><td property="date">{{ content.date }}</td>
+                </tr>
+                <tr>
+                    <td>Time</td><td property="time">{{ content.time }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Note:</h3>
+                <p property="note">{{ content.note }}</p>
+            </div>
+        </div>
+        <div property="smartcontent">
+            {% for smartcontent in content.smartcontent.data %}
+                <div class="col-lg-4">
+                    <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                    {% autoescape false %}
+                    {{ smartcontent.article }}
+                    {% endautoescape %}
+                </div>
             {% endfor %}
-        </ul>
-
-        <hr/>
-
+        </div>
         <div class="row" property="block" typeof="collection">
             {% set i = 0 %}
             {% for block in content.block %}
@@ -48,6 +79,5 @@
                 {% set i = i+1 %}
             {% endfor %}
         </div>
-
     </div>
 {% endblock %}
