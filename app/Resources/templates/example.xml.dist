@@ -11,13 +11,12 @@
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
-
         <section name="simple">
             <meta>
                 <title lang="de">Einfache Content Typen</title>
                 <title lang="en">Simple Contenttypes</title>
             </meta>
-            
+
             <properties>
                 <property name="title" type="text_line" mandatory="true">
                     <meta>
@@ -121,6 +120,13 @@
                     <meta>
                         <title lang="de">Smart-Content auswahl</title>
                         <title lang="en">Smart-Content selection</title>
+                    </meta>
+                </property>
+
+                <property name="images" type="media_selection">
+                    <meta>
+                        <title lang="de">Bilder</title>
+                        <title lang="en">Images</title>
                     </meta>
                 </property>
 
