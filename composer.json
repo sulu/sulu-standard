@@ -46,7 +46,8 @@
         "symfony-cmf/routing-bundle": "1.2.*",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev",
-        "friendsofsymfony/rest-bundle": "@dev"
+        "friendsofsymfony/rest-bundle": "@dev",
+        "friendsofsymfony/http-cache": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",

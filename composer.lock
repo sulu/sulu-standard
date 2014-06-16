@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7caeb94d27265962a676d331206caaa",
+    "hash": "f26fd01766b269d31330906270b62e41",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -977,6 +977,76 @@
                 "event-emitter"
             ],
             "time": "2012-11-02 14:49:47"
+        },
+        {
+            "name": "friendsofsymfony/http-cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
+                "reference": "ee8a227f5383c59836b284d65d88e82c04ceab64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/ee8a227f5383c59836b284d65d88e82c04ceab64",
+                "reference": "ee8a227f5383c59836b284d65d88e82c04ceab64",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "3.*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": "~2.3"
+            },
+            "require-dev": {
+                "guzzle/plugin-mock": "*",
+                "mockery/mockery": "*",
+                "monolog/monolog": "*"
+            },
+            "suggest": {
+                "monolog/monolog": "For logging issues while invalidating"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\HttpCache\\": "src/",
+                    "FOS\\HttpCache\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Driebit",
+                    "email": "tech@driebit.nl",
+                    "homepage": "http://www.driebit.nl"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/friendsofsymfony/FOSHttpCache/contributors"
+                }
+            ],
+            "description": "Tools to manage cache invalidation",
+            "homepage": "https://github.com/friendsofsymfony/FOSHttpCache",
+            "keywords": [
+                "caching",
+                "http",
+                "invalidation",
+                "nginx",
+                "purge",
+                "varnish"
+            ],
+            "time": "2014-06-11 08:50:13"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -4818,6 +4888,7 @@
         "liip/theme-bundle": 20,
         "cboden/ratchet": 20,
         "friendsofsymfony/rest-bundle": 20,
+        "friendsofsymfony/http-cache": 20,
         "sulu/generator-bundle": 20,
         "sulu/test-bundle": 20
     },
