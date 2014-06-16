@@ -1360,6 +1360,10 @@
                 <source>public.locked</source>
                 <target>Gesperrt</target>
             </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22195" resname="contact.accounts.placeOfJurisdiction">
+                <source>contact.accounts.placeOfJurisdiction</source>
+                <target>Gerrichtsstand</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
