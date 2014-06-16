@@ -44,7 +44,6 @@ class AppKernel extends Kernel
             new Liip\ThemeBundle\LiipThemeBundle(),
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
-            new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
