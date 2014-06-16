@@ -1044,7 +1044,7 @@
             </trans-unit>
             <trans-unit id="1172f8b447c7e3c041f39dd32ccc9f1a" resname="contact.accounts.bank-accounts">
                 <source>contact.accounts.bank-accounts</source>
-                <target>Bank Accounts</target>
+                <target>Bank accounts</target>
             </trans-unit>
             <trans-unit id="8d73384b25d38a5f32ab5169afd75e60" resname="contact.accounts.add-bank-account">
                 <source>contact.accounts.add-bank-account</source>
@@ -1341,6 +1341,22 @@
             <trans-unit id="643c99ff2964652633a5ca2178d2219f" resname="sulu.property.note">
                 <source>sulu.property.note</source>
                 <target>Note</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22191" resname="contact.accounts.bankAccount.label">
+                <source>contact.accounts.bankAccount.label</source>
+                <target>Bank account</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22192" resname="contact.accounts.bankAccounts.add.label">
+                <source>contact.accounts.bankAccounts.add.label</source>
+                <target>Add bank account</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22193" resname="contact.accounts.bankAccounts.edit.label">
+                <source>contact.accounts.bankAccounts.edit.label</source>
+                <target>Edit bank account</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22194" resname="public.locked">
+                <source>public.locked</source>
+                <target>Locked</target>
             </trans-unit>
         </body>
     </file>
