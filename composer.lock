@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7caeb94d27265962a676d331206caaa",
+    "hash": "f26fd01766b269d31330906270b62e41",
     "packages": [
         {
             "name": "cboden/ratchet",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cboden/Ratchet.git",
-                "reference": "d36a8699df04354147a4f47845035b1ea8239189"
+                "url": "https://github.com/ratchetphp/Ratchet.git",
+                "reference": "d00102cb3926a5731b73c5878ec7beafb9dc4a93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cboden/Ratchet/zipball/d36a8699df04354147a4f47845035b1ea8239189",
-                "reference": "d36a8699df04354147a4f47845035b1ea8239189",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/d00102cb3926a5731b73c5878ec7beafb9dc4a93",
+                "reference": "d00102cb3926a5731b73c5878ec7beafb9dc4a93",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-06-08 15:19:45"
+            "time": "2014-06-15 15:27:15"
         },
         {
             "name": "doctrine/annotations",
@@ -977,6 +977,76 @@
                 "event-emitter"
             ],
             "time": "2012-11-02 14:49:47"
+        },
+        {
+            "name": "friendsofsymfony/http-cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
+                "reference": "ee8a227f5383c59836b284d65d88e82c04ceab64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/ee8a227f5383c59836b284d65d88e82c04ceab64",
+                "reference": "ee8a227f5383c59836b284d65d88e82c04ceab64",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "3.*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": "~2.3"
+            },
+            "require-dev": {
+                "guzzle/plugin-mock": "*",
+                "mockery/mockery": "*",
+                "monolog/monolog": "*"
+            },
+            "suggest": {
+                "monolog/monolog": "For logging issues while invalidating"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FOS\\HttpCache\\": "src/",
+                    "FOS\\HttpCache\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Driebit",
+                    "email": "tech@driebit.nl",
+                    "homepage": "http://www.driebit.nl"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/friendsofsymfony/FOSHttpCache/contributors"
+                }
+            ],
+            "description": "Tools to manage cache invalidation",
+            "homepage": "https://github.com/friendsofsymfony/FOSHttpCache",
+            "keywords": [
+                "caching",
+                "http",
+                "invalidation",
+                "nginx",
+                "purge",
+                "varnish"
+            ],
+            "time": "2014-06-11 08:50:13"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -2634,12 +2704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "5e1a4d34b52837f37e0adaa6afe5346af03b4ac5"
+                "reference": "d7b50e631287d47858d8148065e20659e7cd22eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/5e1a4d34b52837f37e0adaa6afe5346af03b4ac5",
-                "reference": "5e1a4d34b52837f37e0adaa6afe5346af03b4ac5",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d7b50e631287d47858d8148065e20659e7cd22eb",
+                "reference": "d7b50e631287d47858d8148065e20659e7cd22eb",
                 "shasum": ""
             },
             "require": {
@@ -2673,7 +2743,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-06-13 10:01:25"
+            "time": "2014-06-13 16:36:26"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2682,12 +2752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "bc3ff32d591f8652e4d08d82b34b2853d7cd10ac"
+                "reference": "aa28311329c5505dc02e3ebe11edb4119bd52c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/bc3ff32d591f8652e4d08d82b34b2853d7cd10ac",
-                "reference": "bc3ff32d591f8652e4d08d82b34b2853d7cd10ac",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/aa28311329c5505dc02e3ebe11edb4119bd52c2d",
+                "reference": "aa28311329c5505dc02e3ebe11edb4119bd52c2d",
                 "shasum": ""
             },
             "require": {
@@ -2730,7 +2800,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-06-12 14:27:33"
+            "time": "2014-06-13 19:53:10"
         },
         {
             "name": "sulu/content-bundle",
@@ -2972,12 +3042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "d15c07080caede968983a6d68ea5d2bc26db5a50"
+                "reference": "eebb6a61720d52fb98979e39b396841c595b1084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/d15c07080caede968983a6d68ea5d2bc26db5a50",
-                "reference": "d15c07080caede968983a6d68ea5d2bc26db5a50",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/eebb6a61720d52fb98979e39b396841c595b1084",
+                "reference": "eebb6a61720d52fb98979e39b396841c595b1084",
                 "shasum": ""
             },
             "require": {
@@ -3021,7 +3091,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-06-13 07:05:21"
+            "time": "2014-06-13 15:55:56"
         },
         {
             "name": "sulu/sulu",
@@ -3029,18 +3099,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "10e7a9b92ab6db880fe97dec47f23fedf0fe8687"
+                "reference": "34417bdbda6e5ace09a8130bef6aae33b2253568"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/10e7a9b92ab6db880fe97dec47f23fedf0fe8687",
-                "reference": "10e7a9b92ab6db880fe97dec47f23fedf0fe8687",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/34417bdbda6e5ace09a8130bef6aae33b2253568",
+                "reference": "34417bdbda6e5ace09a8130bef6aae33b2253568",
                 "shasum": ""
             },
             "require": {
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "doctrine/phpcr-bundle": "1.1.*",
                 "doctrine/phpcr-odm": "1.1.*",
+                "friendsofsymfony/http-cache": "dev-master",
                 "friendsofsymfony/rest-bundle": "dev-master",
                 "jackalope/jackalope-jackrabbit": "1.1.*",
                 "php": ">=5.4",
@@ -3074,7 +3145,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-06-12 16:39:11"
+            "time": "2014-06-16 15:16:24"
         },
         {
             "name": "sulu/tag-bundle",
@@ -3240,16 +3311,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48"
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/043e336b871f17a117f76ef8e190eddfc04c8d48",
-                "reference": "043e336b871f17a117f76ef8e190eddfc04c8d48",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/2b9af56cc676c338d52fca4c657e5bdff73bb7af",
+                "reference": "2b9af56cc676c338d52fca4c657e5bdff73bb7af",
                 "shasum": ""
             },
             "require": {
@@ -3290,7 +3361,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-05-08 08:11:19"
+            "time": "2014-06-13 11:44:54"
         },
         {
             "name": "symfony-cmf/core-bundle",
@@ -3961,7 +4032,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4818,6 +4889,7 @@
         "liip/theme-bundle": 20,
         "cboden/ratchet": 20,
         "friendsofsymfony/rest-bundle": 20,
+        "friendsofsymfony/http-cache": 20,
         "sulu/generator-bundle": 20,
         "sulu/test-bundle": 20
     },
