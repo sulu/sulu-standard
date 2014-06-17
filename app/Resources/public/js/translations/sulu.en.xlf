@@ -1360,7 +1360,23 @@
             </trans-unit>
             <trans-unit id="643c99ff2964652633a5ca2178d22195" resname="contact.accounts.placeOfJurisdiction">
                 <source>contact.accounts.placeOfJurisdiction</source>
-                <target>Place of Jurisdiction</target>
+                <target>Jurisdiction</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22196" resname="contact.termsOfPayment">
+                <source>contact.termsOfPayment</source>
+                <target>Terms of payment</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22197" resname="contact.termsOfDelivery">
+                <source>contact.termsOfDelivery</source>
+                <target>Terms of delivery</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22198" resname="contact.accounts.termsOfDelivery.select">
+                <source>contact.accounts.termsOfDelivery.select</source>
+                <target>Please choose ...</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22199" resname="contact.accounts.termsOfPayment.select">
+                <source>contact.accounts.termsOfPayment.select</source>
+                <target>Please choose ...</target>
             </trans-unit>
         </body>
     </file>

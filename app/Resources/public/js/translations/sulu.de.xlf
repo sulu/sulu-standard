@@ -1280,7 +1280,8 @@
             </trans-unit>
             <trans-unit id="642c992f1929c9e633a5ce2178d2219c" resname="contact.accounts.type.conversion.message">
                 <source>contact.accounts.type.conversion.message</source>
-                <target>Die Operation die Sie machen möchten konvertiert dieses Unternehmen und lässt sich nicht rückgängig machen. Bitte
+                <target>Die Operation die Sie machen möchten konvertiert dieses Unternehmen und lässt sich nicht
+                    rückgängig machen. Bitte
                     denken Sie genau darüber nach und akzeptieren Sie oder brechen Sie ab.
                 </target>
             </trans-unit>
@@ -1363,6 +1364,22 @@
             <trans-unit id="643c99ff2964652633a5ca2178d22195" resname="contact.accounts.placeOfJurisdiction">
                 <source>contact.accounts.placeOfJurisdiction</source>
                 <target>Gerrichtsstand</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22196" resname="contact.termsOfPayment">
+                <source>contact.termsOfPayment</source>
+                <target>Zahlungsbedingungen</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22197" resname="contact.termsOfDelivery">
+                <source>contact.termsOfDelivery</source>
+                <target>Lieferbedingungen</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22198" resname="contact.accounts.termsOfDelivery.select">
+                <source>contact.accounts.termsOfDelivery.select</source>
+                <target>Bitte wählen ...</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2178d22199" resname="contact.accounts.termsOfPayment.select">
+                <source>contact.accounts.termsOfPayment.select</source>
+                <target>Bitte wählen ...</target>
             </trans-unit>
         </body>
     </file>
