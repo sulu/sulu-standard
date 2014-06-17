@@ -1,0 +1,83 @@
+{% extends "ClientWebsiteBundle:Website:master.html.twig" %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block content %}
+    <div id="content" vocab="http://schema.org/" typeof="Content">
+
+        <div class="jumbotron">
+            <h1 property="title">{{ content.title }}</h1>
+            {% autoescape false %}
+            <div class="lead" property="article">{{ content.article }}</div>
+            {% endautoescape %}
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Phone</td><td property="phone">{{ content.phone }}</td>
+                </tr>
+                <tr>
+                    <td>Password</td><td property="password">{{ content.password }}</td>
+                </tr>
+                <tr>
+                    <td>Link</td><td property="link">{{ content.link }}</td>
+                </tr>
+                <tr>
+                    <td>Email</td><td property="email">{{ content.email }}</td>
+                </tr>
+                <tr>
+                    <td>Color</td><td property="color">{{ content.color }}</td>
+                </tr>
+                <tr>
+                    <td>Date</td><td property="date">{{ content.date }}</td>
+                </tr>
+                <tr>
+                    <td>Time</td><td property="time">{{ content.time }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Note:</h3>
+                <p property="note">{{ content.note }}</p>
+            </div>
+        </div>
+        <div property="smartcontent">
+            {% for smartcontent in content.smartcontent.data %}
+                <div class="col-lg-4">
+                    <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                    {% autoescape false %}
+                    {{ smartcontent.article }}
+                    {% endautoescape %}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row" property="block" typeof="collection">
+            {% set i = 0 %}
+            {% for block in content.block %}
+                <div class="col-lg-4" rel="block" typeof="block">
+                    {% if block.type == 'editor' %}
+                        <h2 property="title">{{ block.title|default('') }}</h2>
+
+                        <b>{{ block.type }}</b>
+                        {% autoescape false %}
+                        <div property="article">{{ block.article|default('') }}</div>
+                        {% endautoescape %}
+                    {% elseif block.type == 'textarea' %}
+                        <h2 property="title">{{ block.title|default('') }}</h2>
+                        <b>{{ block.type }}</b>
+
+                        <p>
+                            {{ block.article|default('')|nl2br }}
+                        </p>
+                    {% elseif block.type == 'title_only' %}
+                        <h1 property="title">{{ block.title|default('') }}</h1>
+                        <b>{{ block.type }}</b>
+                    {% endif %}
+                </div>
+                {% set i = i+1 %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
