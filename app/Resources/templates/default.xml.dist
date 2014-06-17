@@ -6,7 +6,7 @@
 
     <key>default</key>
 
-    <view>ClientWebsiteBundle:Website:default.html.twig</view>
+    <view>ClientWebsiteBundle:templates:default.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
@@ -49,12 +49,6 @@
                     <params>
                         <param name="godMode" value="true"/>
                     </params>
-                </property>
-                <property name="images" type="media_selection">
-                    <meta>
-                        <title lang="de">Bilder</title>
-                        <title lang="en">Images</title>
-                    </meta>
                 </property>
             </properties>
         </section>
