@@ -30,7 +30,8 @@ twig:
 assetic:
     debug:          %kernel.debug%
     use_controller: false
-    bundles:        [ SuluAdminBundle ]
+    bundles:        [ ClientWebsiteBundle ]
+    read_from: "%kernel.root_dir%/../../web"
     #java: /usr/bin/java
     filters:
         cssrewrite: ~
@@ -65,6 +66,7 @@ doctrine:
                 is_bundle: false
         resolve_target_entities:
             Sulu\Component\Security\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
+            Sulu\Bundle\ProductBundle\Entity\ProductInterface: Sulu\Bundle\ProductBundle\Entity\Product
         dql:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast
