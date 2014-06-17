@@ -25,6 +25,8 @@ sulu_core:
     webspace:
         request_analyzer:
             enabled: false
+    http_cache:
+        ~
 
 sulu_content:
     preview:
