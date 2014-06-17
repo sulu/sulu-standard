@@ -45,6 +45,15 @@ sulu_media_api:
     resource: "@SuluMediaBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
+sulu_product:
+    resource: "@SuluProductBundle/Resources/config/routing.yml"
+    prefix: /admin/product
+
+sulu_product_api:
+    type: rest
+    resource: "@SuluProductBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
+
 sulu_translate:
     resource: "@SuluTranslateBundle/Resources/config/routing.yml"
     prefix: /admin/translate
