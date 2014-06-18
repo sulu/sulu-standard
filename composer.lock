@@ -3092,7 +3092,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides basic core functionality",
