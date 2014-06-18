@@ -8,8 +8,12 @@
 
         <title>{% block title %} {% endblock %}</title>
 
-        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('bundles/clientwebsite/css/justified-nav.css') }}">
+        {% stylesheets
+            '@ClientWebsiteBundle/Resources/public/default/css/bootstrap.min.css'
+            '@ClientWebsiteBundle/Resources/public/default/css/justified-nav.css'
+        %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -26,6 +30,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h3 class="text-muted">
+                            <img height="20" src="{{ asset('bundles/clientwebsite/default/images/sulu.png') }}" />
                             <a href="{{ content_root_path() }}">SULU CMF</a>
                         </h3>
                         <div>
@@ -36,7 +41,7 @@
                 </div>
                 <br/>
                 {% if navigation is defined %}
-                    {% include 'ClientWebsiteBundle:Website:navigation.html.twig' %}
+                    {% include 'ClientWebsiteBundle:views:navigation.html.twig' %}
                 {% endif %}
             </div>
             <!-- /header -->
@@ -59,5 +64,11 @@
 
         <a href="https://github.com/sulu-cmf/sulu-standard" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
 
+        {% javascripts
+            'http://code.jquery.com/jquery-1.11.0.min.js'
+            '@ClientWebsiteBundle/Resources/public/default/js/bootstrap.js'
+        %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
     </body>
 </html>
