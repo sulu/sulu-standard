@@ -4,4 +4,3 @@ liip_theme:
 
 sulu_media:
     resource: "@SuluMediaBundle/Resources/config/routing_website.yml"
-    prefix: /media
