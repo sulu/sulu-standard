@@ -11,53 +11,178 @@
     <cacheLifetime>2400</cacheLifetime>
 
     <properties>
-        <property name="title" title="sulu.property.title" type="text_line" mandatory="true">
-            <tag name="sulu.node.name"/>
-            <tag name="sulu.rlp.part"/>
-        </property>
-        <property name="note" title="sulu.property.note" type="text_area" mandatory="true"/>
-        <property name="url" title="sulu.property.url" type="resource_locator" mandatory="true">
-            <tag name="sulu.rlp"/>
-        </property>
-        <property name="article" title="sulu.property.article" type="text_editor" mandatory="true"/>
-        <property name="tags" title="sulu.property.tags" type="tag_list"/>
-        <property name="smartcontent" title="sulu.property.smartcontent" type="smart_content"/>
-        <property name="article" title="sulu.property.article" type="text_editor"/>
-        <property name="phone" title="sulu.property.phone" type="phone" mandatory="true"/>
-        <property name="password" title="sulu.property.password" type="password" mandatory="false"/>
-        <property name="link" title="sulu.property.link" type="url" mandatory="true"/>
-        <property name="email" title="sulu.property.email" type="email" mandatory="false"/>
-        <property name="color" title="sulu.property.color" type="color" mandatory="true"/>
-        <property name="date" title="sulu.property.date" type="date" mandatory="false"/>
-        <property name="time" title="sulu.property.time" type="time" mandatory="true"/>
 
-        <block name="block"
-               title="sulu.property.block"
-               default-type="editor"
-               minOccurs="2"
-               maxOccurs="10"
-               mandatory="true">
-            <types>
-                <type name="editor" title="type.editor">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                        <property name="article" title="sulu.property.block.article" type="text_editor"
-                                  mandatory="true"/>
-                    </properties>
-                </type>
-                <type name="textarea" title="type.area">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                        <property name="article" title="sulu.property.block.article" type="text_area" mandatory="true"/>
-                    </properties>
-                </type>
-                <type name="title_only" title="type.title_only">
-                    <properties>
-                        <property name="title" title="sulu.property.block.title" type="text_line" mandatory="true"/>
-                    </properties>
-                </type>
-            </types>
-        </block>
+        <section name="simple">
+            <meta>
+                <title lang="de">Einfache Content Typen</title>
+                <title lang="en">Simple Contenttypes</title>
+            </meta>
+            
+            <properties>
+                <property name="title" type="text_line" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Zeile</title>
+                        <title lang="en">Textline</title>
+                    </meta>
 
+                    <tag name="sulu.node.name"/>
+                    <tag name="sulu.rlp.part"/>
+                </property>
+
+                <property name="note" type="text_area" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Bereich</title>
+                        <title lang="en">Textarea</title>
+                    </meta>
+                </property>
+
+                <property name="article" type="text_editor" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Editor</title>
+                        <title lang="en">Text editor</title>
+                    </meta>
+                </property>
+
+                <property name="phone" type="phone" mandatory="true">
+                    <meta>
+                        <title lang="de">Telefon Eingabefeld</title>
+                        <title lang="en">Telefon input</title>
+                    </meta>
+                </property>
+
+                <property name="password" type="password" mandatory="false">
+                    <meta>
+                        <title lang="de">Passwort Eingabefeld</title>
+                        <title lang="en">Password input</title>
+                    </meta>
+                </property>
+
+                <property name="link" type="url" mandatory="true">
+                    <meta>
+                        <title lang="de">Link Eingabefeld</title>
+                        <title lang="en">Link input</title>
+                    </meta>
+                </property>
+
+                <property name="email" type="email" mandatory="false">
+                    <meta>
+                        <title lang="de">Email Eingabefeld</title>
+                        <title lang="en">Email input</title>
+                    </meta>
+                </property>
+
+                <property name="color" type="color" mandatory="true">
+                    <meta>
+                        <title lang="de">Farb Eingabefeld</title>
+                        <title lang="en">Color input</title>
+                    </meta>
+                </property>
+
+                <property name="date" type="date" mandatory="false">
+                    <meta>
+                        <title lang="de">Datum Eingabefeld</title>
+                        <title lang="en">Date input</title>
+                    </meta>
+                </property>
+
+                <property name="time" type="time" mandatory="true">
+                    <meta>
+                        <title lang="de">Zeit Eingabefeld</title>
+                        <title lang="en">Time input</title>
+                    </meta>
+                </property>
+            </properties>
+        </section>
+
+        <section name="complex">
+            <meta>
+                <title lang="de">Komplexe Content Typen</title>
+                <title lang="en">Complex Contenttypes</title>
+            </meta>
+
+            <properties>
+                <property name="url" type="resource_locator" mandatory="true">
+                    <meta>
+                        <title lang="de">Resource Locator</title>
+                        <title lang="en">Resource locator</title>
+                    </meta>
+
+                    <tag name="sulu.rlp"/>
+                </property>
+
+                <property name="tags" type="tag_list">
+                    <meta>
+                        <title lang="de">Tag auswahl</title>
+                        <title lang="en">Tag selection</title>
+                    </meta>
+                </property>
+
+                <property name="smartcontent" type="smart_content">
+                    <meta>
+                        <title lang="de">Smart-Content auswahl</title>
+                        <title lang="en">Smart-Content selection</title>
+                    </meta>
+                </property>
+
+                <block name="block"
+                       default-type="editor"
+                       minOccurs="2"
+                       maxOccurs="10"
+                       mandatory="true">
+                    <meta>
+                        <title lang="de">Block</title>
+                        <title lang="en">Block</title>
+                    </meta>
+
+                    <types>
+                        <type name="editor">
+                            <meta>
+                                <title lang="de">Block Typ Editor</title>
+                                <title lang="en">Block Type Editor</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_editor" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="textarea">
+                            <meta>
+                                <title lang="de">Block Typ Textarea</title>
+                                <title lang="en">Block Type Textarea</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_area" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="input">
+                            <meta>
+                                <title lang="de">Block Typ Eingabefeld</title>
+                                <title lang="en">Block Type Input</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_line" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                    </types>
+                </block>
+            </properties>
+        </section>
     </properties>
 </template>

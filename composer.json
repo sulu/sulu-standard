@@ -32,9 +32,8 @@
         "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
-        "sulu/product-base-bundle": "dev-develop",
-        "sulu/product-advanced-bundle": "dev-develop",
         "sulu/category-bundle": "dev-develop",
+        "sulu/product-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -47,7 +46,8 @@
         "symfony-cmf/routing-bundle": "1.2.*",
         "liip/theme-bundle": "@dev",
         "cboden/ratchet": "@dev",
-        "friendsofsymfony/rest-bundle": "@dev"
+        "friendsofsymfony/rest-bundle": "@dev",
+        "friendsofsymfony/http-cache": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
