@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82"
+                "reference": "fa42b7cfb09de29d802911274d314b78c2ccb69e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/99fa173e729091a979e5bf119d1bedbdf3f7bb82",
-                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/fa42b7cfb09de29d802911274d314b78c2ccb69e",
+                "reference": "fa42b7cfb09de29d802911274d314b78c2ccb69e",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1000,8 @@
             "require-dev": {
                 "guzzle/plugin-mock": "*",
                 "mockery/mockery": "*",
-                "monolog/monolog": "*"
+                "monolog/monolog": "*",
+                "symfony/process": "~2.3"
             },
             "suggest": {
                 "monolog/monolog": "For logging issues while invalidating"
@@ -1046,7 +1047,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-06-19 20:32:58"
+            "time": "2014-06-20 12:20:35"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -2704,12 +2705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "7580ed4f4b932ac5268b5994952b335cea9e85d1"
+                "reference": "847d394e7b5ca871619d5f6529ca53bcb7746704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/7580ed4f4b932ac5268b5994952b335cea9e85d1",
-                "reference": "7580ed4f4b932ac5268b5994952b335cea9e85d1",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/847d394e7b5ca871619d5f6529ca53bcb7746704",
+                "reference": "847d394e7b5ca871619d5f6529ca53bcb7746704",
                 "shasum": ""
             },
             "require": {
@@ -2744,7 +2745,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-06-18 13:59:04"
+            "time": "2014-06-20 11:53:06"
         },
         {
             "name": "sulu/category-bundle",
@@ -3051,12 +3052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "130db0bd1c870a1c1bbe24d2af05d036750090ad"
+                "reference": "1ade0c47d425b66473112c7d078075b6fe7d9305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/130db0bd1c870a1c1bbe24d2af05d036750090ad",
-                "reference": "130db0bd1c870a1c1bbe24d2af05d036750090ad",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/1ade0c47d425b66473112c7d078075b6fe7d9305",
+                "reference": "1ade0c47d425b66473112c7d078075b6fe7d9305",
                 "shasum": ""
             },
             "require": {
@@ -3101,7 +3102,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-06-17 09:44:28"
+            "time": "2014-06-20 12:59:57"
         },
         {
             "name": "sulu/sulu",
@@ -3109,12 +3110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "34b57f7658295708c9381c2725b59b76302579ff"
+                "reference": "58424f5f60510434d80567cd2cad03adc9b78881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/34b57f7658295708c9381c2725b59b76302579ff",
-                "reference": "34b57f7658295708c9381c2725b59b76302579ff",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/58424f5f60510434d80567cd2cad03adc9b78881",
+                "reference": "58424f5f60510434d80567cd2cad03adc9b78881",
                 "shasum": ""
             },
             "require": {
@@ -3147,7 +3148,7 @@
             "authors": [
                 {
                     "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluAdminBundle/contributors"
+                    "homepage": "https://github.com/massiveart/SuluContactBundle/contributors"
                 }
             ],
             "description": "Symfony bundle that provides basic core functionality",
@@ -3155,7 +3156,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-06-17 19:05:19"
+            "time": "2014-06-20 09:50:34"
         },
         {
             "name": "sulu/tag-bundle",
