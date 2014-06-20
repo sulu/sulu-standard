@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82"
+                "reference": "fa42b7cfb09de29d802911274d314b78c2ccb69e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/99fa173e729091a979e5bf119d1bedbdf3f7bb82",
-                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/fa42b7cfb09de29d802911274d314b78c2ccb69e",
+                "reference": "fa42b7cfb09de29d802911274d314b78c2ccb69e",
                 "shasum": ""
             },
             "require": {
@@ -1000,7 +1000,8 @@
             "require-dev": {
                 "guzzle/plugin-mock": "*",
                 "mockery/mockery": "*",
-                "monolog/monolog": "*"
+                "monolog/monolog": "*",
+                "symfony/process": "~2.3"
             },
             "suggest": {
                 "monolog/monolog": "For logging issues while invalidating"
@@ -1046,7 +1047,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-06-19 20:32:58"
+            "time": "2014-06-20 12:20:35"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -2996,12 +2997,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "130db0bd1c870a1c1bbe24d2af05d036750090ad"
+                "reference": "1ade0c47d425b66473112c7d078075b6fe7d9305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/130db0bd1c870a1c1bbe24d2af05d036750090ad",
-                "reference": "130db0bd1c870a1c1bbe24d2af05d036750090ad",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/1ade0c47d425b66473112c7d078075b6fe7d9305",
+                "reference": "1ade0c47d425b66473112c7d078075b6fe7d9305",
                 "shasum": ""
             },
             "require": {
@@ -3046,7 +3047,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-06-17 09:44:28"
+            "time": "2014-06-20 12:59:57"
         },
         {
             "name": "sulu/sulu",
