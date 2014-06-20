@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "962ffc5b41028ea83779531d72b9b1bfa802bb13"
+                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/962ffc5b41028ea83779531d72b9b1bfa802bb13",
-                "reference": "962ffc5b41028ea83779531d72b9b1bfa802bb13",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/99fa173e729091a979e5bf119d1bedbdf3f7bb82",
+                "reference": "99fa173e729091a979e5bf119d1bedbdf3f7bb82",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1046,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-06-17 19:04:22"
+            "time": "2014-06-19 20:32:58"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -3054,12 +3054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "34b57f7658295708c9381c2725b59b76302579ff"
+                "reference": "58424f5f60510434d80567cd2cad03adc9b78881"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/34b57f7658295708c9381c2725b59b76302579ff",
-                "reference": "34b57f7658295708c9381c2725b59b76302579ff",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/58424f5f60510434d80567cd2cad03adc9b78881",
+                "reference": "58424f5f60510434d80567cd2cad03adc9b78881",
                 "shasum": ""
             },
             "require": {
@@ -3100,7 +3100,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-06-17 19:05:19"
+            "time": "2014-06-20 09:50:34"
         },
         {
             "name": "sulu/tag-bundle",
