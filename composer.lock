@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f62ced288c16532e543646ec6fd6379f",
+    "hash": "5510019290cc65d8edd4f01f933d4bdd",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2748,6 +2748,61 @@
             "time": "2014-06-20 11:53:06"
         },
         {
+            "name": "sulu/category-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/CategoryBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
+                "reference": "3bcd46ad57bb98fcc0a42011082f73822a7f369b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/3bcd46ad57bb98fcc0a42011082f73822a7f369b",
+                "reference": "3bcd46ad57bb98fcc0a42011082f73822a7f369b",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/rest-bundle": "dev-master",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "stof/doctrine-extensions-bundle": "1.1.*@dev",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "friendsofsymfony/http-cache": "@dev",
+                "phpunit/phpunit": "4.0.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/test-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\CategoryBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluCategoryBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2014-06-17 06:46:15"
+        },
+        {
             "name": "sulu/contact-bundle",
             "version": "dev-develop",
             "target-dir": "Sulu/Bundle/ContactBundle",
@@ -3991,7 +4046,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4840,6 +4895,7 @@
         "sulu/media-bundle": 20,
         "sulu/tag-bundle": 20,
         "sulu/translate-bundle": 20,
+        "sulu/category-bundle": 20,
         "sulu/product-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
