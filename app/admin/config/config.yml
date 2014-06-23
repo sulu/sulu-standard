@@ -12,7 +12,7 @@ twig:
 
 # Assetic Configuration
 assetic:
-    bundles:        [ SuluAdminBundle ]
+    bundles:        [ ClientWebsiteBundle ]
 
 # Doctrine Configuration
 doctrine:

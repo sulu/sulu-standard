@@ -4,7 +4,7 @@ imports:
 
 # Assetic Configuration
 assetic:
-    bundles:        []
+    bundles:        [ ClientWebsiteBundle ]
 
 cmf_routing:
     chain:
