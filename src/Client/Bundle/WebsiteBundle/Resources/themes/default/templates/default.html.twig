@@ -5,15 +5,26 @@
 {% block content %}
     <div id="content">
         <div class="row" vocab="http://schema.org/" typeof="Content">
-
             <div class="col-lg-12">
                 <h1 class="page-header" property="title">{{ content.title }}</h1>
 
                 {% autoescape false %}
                 <div property="article">{{ content.article }}</div>
                 {% endautoescape %}
-            </div>
 
+                <h3>Images</h3>
+
+                <div class="row {{ content.images.displayOption }}" property="images" typeof="collection">
+                    {% for image in content.images.data %}
+                        <div class="col-lg-4" rel="images" typeof="images">
+                            <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}"/>
+
+                            <p class="text-primary">{{ image.title }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+
+            </div>
         </div>
     </div>
 {% endblock %}
