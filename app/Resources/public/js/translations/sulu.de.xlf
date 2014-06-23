@@ -1351,7 +1351,7 @@
             </trans-unit>
             <trans-unit id="643c99ff2964652633a5ca2178d22192" resname="contact.accounts.bankAccounts.add.label">
                 <source>contact.accounts.bankAccounts.add.label</source>
-                <target>Bankverbindung hinzufügen</target>
+                <target>Verbindung hinzuf.</target>
             </trans-unit>
             <trans-unit id="643c99ff2964652633a5ca2178d22193" resname="contact.accounts.bankAccounts.edit.label">
                 <source>contact.accounts.bankAccounts.edit.label</source>
@@ -1484,6 +1484,10 @@
             <trans-unit id="643c99ff2964652633a5ca2178d22235" resname="poolalpin.condition.mode.percentage">
                 <source>poolalpin.condition.mode.percentage</source>
                 <target>Prozent</target>
+            </trans-unit>
+            <trans-unit id="643c99ff2964652633a5ca2169f22236" resname="labels.success.media-upload-desc">
+                <source>labels.success.media-upload-desc</source>
+                <target>Medien erfolgreich hochgeladen.</target>
             </trans-unit>
         </body>
     </file>
