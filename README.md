@@ -73,9 +73,11 @@ rm -rf app/admin/cache/*
 rm -rf app/admin/logs/*
 rm -rf app/website/cache/*
 rm -rf app/website/logs/*
+rm -rf uploads/media/*
+rm -rf web/uploads/media/*
 APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
-sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs
-sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs
+sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
+sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
 ```
 
 ##### Ubuntu
@@ -84,8 +86,10 @@ rm -rf app/admin/cache/*
 rm -rf app/admin/logs/*
 rm -rf app/website/cache/*
 rm -rf app/website/logs/*
-sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs
-sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs
+rm -rf uploads/media/*
+rm -rf web/uploads/media/*
+sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
+sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
 ```
 
 #### Create database and schema
