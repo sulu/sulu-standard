@@ -53,6 +53,17 @@
                 </div>
             {% endfor %}
         </div>
+
+        <h3>Images (display-options: {{ content.images.displayOption }})</h3>
+        <div class="row" property="images" typeof="collection">
+            {% for image in content.images.data %}
+                <div class="col-lg-4" rel="images" typeof="images">
+                    <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}" />
+                    <p class="text-primary">{{ image.title }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
         <div class="row" property="block" typeof="collection">
             {% set i = 0 %}
             {% for block in content.block %}

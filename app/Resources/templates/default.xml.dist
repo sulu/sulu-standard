@@ -29,7 +29,15 @@
 
             <tag name="sulu.rlp"/>
         </property>
+
         <property name="tags" type="tag_list"/>
+
+        <property name="images" type="media_selection">
+            <meta>
+                <title lang="de">Bilder</title>
+                <title lang="en">Images</title>
+            </meta>
+        </property>
 
         <section name="content">
             <meta>
