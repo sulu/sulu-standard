@@ -113,6 +113,39 @@ wget http://archive.apache.org/dist/jackrabbit/2.6.3/jackrabbit-standalone-2.6.3
 java -jar jackrabbit-standalone-2.6.3.jar
 ```
 
+#### Optional
+
+##### Imagick - for better Image handling
+
+###### Mac OSX
+```
+brew install imagemagick
+brew install php55-imagick
+```
+add `extension=/path/to/Imagick.so` to `php.ini`
+
+###### Ubuntu
+```
+sudo apt-get install imagemagick
+sudo apt-get install php5-imagick
+```
+
+add `extension=/path/to/Imagick.so` to `php.ini`
+
+##### GhostScript - PDF previews
+
+###### Mac OSX
+```
+brew install ghostscript
+```
+configurate the path to `ghostscript` in the media bundle
+
+###### Ubuntu
+```
+sudo apt-get install ghostscript
+```
+configurate the path to `ghostscript` in the media bundle
+
 #### Create required configuration files
 Before you go on with the initialization of the content repository, you have to make sure that all required configuration files exist.
 
