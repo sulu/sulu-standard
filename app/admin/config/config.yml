@@ -1,0 +1,85 @@
+imports:
+    - { resource: ../../Resources/config/config.yml }
+    - { resource: security.yml }
+
+framework:
+    translator:      { fallback: %locale% }
+
+# Twig Configuration
+twig:
+    debug:            %kernel.debug%
+    strict_variables: %kernel.debug%
+
+# Assetic Configuration
+assetic:
+    bundles:        [ ClientWebsiteBundle ]
+
+# Doctrine Configuration
+doctrine:
+    orm:
+        dql:
+            string_functions:
+                CAST: Sulu\Component\Rest\DQL\Cast
+
+sulu_core:
+    webspace:
+        request_analyzer:
+            enabled: false
+
+sulu_content:
+    preview:
+        fallback:
+            interval: %content_fallback_intervall%
+        websocket:
+            port: %content_preview_port%
+
+sulu_admin:
+    name: SULU 2.0
+
+# Just a dirty hack to get the jms serializer bundle correctly working
+# https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
+parameters:
+    jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
+
+# define the account types and form of address
+# tabs key must match tab-id specified in content-navigation
+sulu_contact:
+    account_types:
+        basic:
+            id: 0
+            name: basic
+            translation: contact.account.type.basic
+            tabs:
+                financials: false
+            convertableTo:
+                lead: true
+                customer: true
+        lead:
+            id: 1
+            name: lead
+            translation: contact.account.type.lead
+            tabs:
+                financials: false
+            convertableTo:
+                customer: true
+        customer:
+            id: 2
+            name: customer
+            translation: contact.account.type.customer
+            tabs:
+                financials: true
+        supplier:
+            id: 3
+            name: supplier
+            translation: contact.account.type.supplier
+            tabs:
+                financials: true
+    form_of_address:
+        male:
+            id: 0
+            name: male
+            translation: contact.contacts.formOfAddress.male
+        female:
+            id: 1
+            name: female
+            translation: contact.contacts.formOfAddress.female

@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+
+<template xmlns="http://schemas.sulu.io/template/template"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
+
+    <key>example</key>
+
+    <view>ClientWebsiteBundle:Website:example.html.twig</view>
+    <controller>SuluWebsiteBundle:Default:index</controller>
+    <cacheLifetime>2400</cacheLifetime>
+
+    <properties>
+        <section name="simple">
+            <meta>
+                <title lang="de">Einfache Content Typen</title>
+                <title lang="en">Simple Contenttypes</title>
+            </meta>
+
+            <properties>
+                <property name="title" type="text_line" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Zeile</title>
+                        <title lang="en">Textline</title>
+                    </meta>
+
+                    <tag name="sulu.node.name"/>
+                    <tag name="sulu.rlp.part"/>
+                </property>
+
+                <property name="note" type="text_area" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Bereich</title>
+                        <title lang="en">Textarea</title>
+                    </meta>
+                </property>
+
+                <property name="article" type="text_editor" mandatory="true">
+                    <meta>
+                        <title lang="de">Text Editor</title>
+                        <title lang="en">Text editor</title>
+                    </meta>
+                </property>
+
+                <property name="phone" type="phone" mandatory="true">
+                    <meta>
+                        <title lang="de">Telefon Eingabefeld</title>
+                        <title lang="en">Telefon input</title>
+                    </meta>
+                </property>
+
+                <property name="password" type="password" mandatory="false">
+                    <meta>
+                        <title lang="de">Passwort Eingabefeld</title>
+                        <title lang="en">Password input</title>
+                    </meta>
+                </property>
+
+                <property name="link" type="url" mandatory="true">
+                    <meta>
+                        <title lang="de">Link Eingabefeld</title>
+                        <title lang="en">Link input</title>
+                    </meta>
+                </property>
+
+                <property name="email" type="email" mandatory="false">
+                    <meta>
+                        <title lang="de">Email Eingabefeld</title>
+                        <title lang="en">Email input</title>
+                    </meta>
+                </property>
+
+                <property name="color" type="color" mandatory="true">
+                    <meta>
+                        <title lang="de">Farb Eingabefeld</title>
+                        <title lang="en">Color input</title>
+                    </meta>
+                </property>
+
+                <property name="date" type="date" mandatory="false">
+                    <meta>
+                        <title lang="de">Datum Eingabefeld</title>
+                        <title lang="en">Date input</title>
+                    </meta>
+                </property>
+
+                <property name="time" type="time" mandatory="true">
+                    <meta>
+                        <title lang="de">Zeit Eingabefeld</title>
+                        <title lang="en">Time input</title>
+                    </meta>
+                </property>
+            </properties>
+        </section>
+
+        <section name="complex">
+            <meta>
+                <title lang="de">Komplexe Content Typen</title>
+                <title lang="en">Complex Contenttypes</title>
+            </meta>
+
+            <properties>
+                <property name="url" type="resource_locator" mandatory="true">
+                    <meta>
+                        <title lang="de">Resource Locator</title>
+                        <title lang="en">Resource locator</title>
+                    </meta>
+
+                    <tag name="sulu.rlp"/>
+                </property>
+
+                <property name="tags" type="tag_list">
+                    <meta>
+                        <title lang="de">Tag auswahl</title>
+                        <title lang="en">Tag selection</title>
+                    </meta>
+                </property>
+
+                <property name="smartcontent" type="smart_content">
+                    <meta>
+                        <title lang="de">Smart-Content auswahl</title>
+                        <title lang="en">Smart-Content selection</title>
+                    </meta>
+                </property>
+
+                <property name="images" type="media_selection">
+                    <meta>
+                        <title lang="de">Bilder</title>
+                        <title lang="en">Images</title>
+                    </meta>
+                </property>
+
+                <block name="block"
+                       default-type="editor"
+                       minOccurs="2"
+                       maxOccurs="10"
+                       mandatory="true">
+                    <meta>
+                        <title lang="de">Block</title>
+                        <title lang="en">Block</title>
+                    </meta>
+
+                    <types>
+                        <type name="editor">
+                            <meta>
+                                <title lang="de">Block Typ Editor</title>
+                                <title lang="en">Block Type Editor</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_editor" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="textarea">
+                            <meta>
+                                <title lang="de">Block Typ Textarea</title>
+                                <title lang="en">Block Type Textarea</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_area" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="input">
+                            <meta>
+                                <title lang="de">Block Typ Eingabefeld</title>
+                                <title lang="en">Block Type Input</title>
+                            </meta>
+
+                            <properties>
+                                <property name="article" type="text_line" mandatory="true">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                    </types>
+                </block>
+            </properties>
+        </section>
+    </properties>
+</template>

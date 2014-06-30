@@ -1,0 +1,53 @@
+{% extends "ClientWebsiteBundle:views:master.html.twig" %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block content %}
+    <div id="content" vocab="http://schema.org/" typeof="Content">
+
+        <div class="jumbotron">
+            <h1 property="title">{{ content.title }}</h1>
+            {% autoescape false %}
+            <div class="lead" property="article">{{ content.article }}</div>
+            {% endautoescape %}
+        </div>
+
+        <hr/>
+
+        <ul property="name">
+            {% for name in content.name %}
+                <li>{{ name }}</li>
+            {% endfor %}
+        </ul>
+
+        <hr/>
+
+        <div class="row" property="block" typeof="collection">
+            {% set i = 0 %}
+            {% for block in content.block %}
+                <div class="col-lg-4" rel="block" typeof="block">
+                    {% if block.type == 'editor' %}
+                        <h2 property="title">{{ block.title|default('') }}</h2>
+
+                        <b>{{ block.type }}</b>
+                        {% autoescape false %}
+                        <div property="article">{{ block.article|default('') }}</div>
+                        {% endautoescape %}
+                    {% elseif block.type == 'textarea' %}
+                        <h2 property="title">{{ block.title|default('') }}</h2>
+                        <b>{{ block.type }}</b>
+
+                        <p>
+                            {{ block.article|default('')|nl2br }}
+                        </p>
+                    {% elseif block.type == 'title_only' %}
+                        <h1 property="title">{{ block.title|default('') }}</h1>
+                        <b>{{ block.type }}</b>
+                    {% endif %}
+                </div>
+                {% set i = i+1 %}
+            {% endfor %}
+        </div>
+
+    </div>
+{% endblock %}
