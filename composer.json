@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.4.0",
+    "version": "dev-develop",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -23,14 +23,14 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "0.4.*",
-        "sulu/admin-bundle": "0.4.*",
-        "sulu/contact-bundle": "0.4.*",
-        "sulu/security-bundle": "0.4.*",
-        "sulu/content-bundle": "0.4.*",
-        "sulu/website-bundle": "0.4.*",
-        "sulu/media-bundle": "0.1.*",
-        "sulu/tag-bundle": "0.4.*",
+        "sulu/sulu": "dev-develop",
+        "sulu/admin-bundle": "dev-develop",
+        "sulu/contact-bundle": "dev-develop",
+        "sulu/security-bundle": "dev-develop",
+        "sulu/content-bundle": "dev-develop",
+        "sulu/website-bundle": "dev-develop",
+        "sulu/media-bundle": "dev-develop",
+        "sulu/tag-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -50,7 +50,7 @@
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
-        "sulu/test-bundle": "0.4.*",
+        "sulu/test-bundle": "dev-develop",
         "jackalope/jackalope-doctrine-dbal": "1.1.*"
     },
     "scripts": {
