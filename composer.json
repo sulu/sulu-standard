@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.3.0",
+    "version": "dev-develop",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -31,9 +31,6 @@
         "sulu/website-bundle": "dev-develop",
         "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
-        "sulu/translate-bundle": "dev-develop",
-        "sulu/category-bundle": "dev-develop",
-        "sulu/product-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
