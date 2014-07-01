@@ -122,6 +122,13 @@
                     </meta>
                 </property>
 
+                <property name="links" type="internal_links">
+                    <meta>
+                        <title lang="de">Interne Links</title>
+                        <title lang="en">Internal links</title>
+                    </meta>
+                </property>
+
                 <property name="smartcontent" type="smart_content">
                     <meta>
                         <title lang="de">Smart-Content auswahl</title>
