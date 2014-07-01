@@ -1018,7 +1018,7 @@
             </trans-unit>
             <trans-unit id="2193fee100102d3c2f87ec9828dc3bab" resname="contact.accounts.number">
                 <source>contact.accounts.number</source>
-                <target>Nummber</target>
+                <target>Nummer</target>
             </trans-unit>
             <trans-unit id="792da838c3130e338d9c5cb5e277469e" resname="contact.accounts.registerNumber">
                 <source>contact.accounts.registerNumber</source>
@@ -1548,6 +1548,74 @@
             <trans-unit id="643d99ff2964652633a5ca2169f22236" resname="labels.success.category-delete-desc">
                 <source>labels.success.category-delete-desc</source>
                 <target>Kategorie erfolgreich gelöscht</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22237" resname="content-navigation.contact.accounts.contacts">
+                <source>content-navigation.contact.accounts.contacts</source>
+                <target>Ansprechpersonen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22238" resname="fax.home">
+                <source>fax.home</source>
+                <target>Privat</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22239" resname="contact.accounts.contact-remove">
+                <source>contact.accounts.contact-remove</source>
+                <target>Kontakt vom Unternehmen entfernen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22240" resname="contact.accounts.add-contact">
+                <source>contact.accounts.add-contact</source>
+                <target>Kontakt hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22241" resname="contact.accounts.corporation">
+                <source>labels.success.category-delete-desc</source>
+                <target>Gesellschaft</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22242" resname="dropdown.no-selection">
+                <source>labels.success.category-delete-desc</source>
+                <target>Keine Angabe</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22243" resname="poolalpin.contact.condition.discount">
+                <source>poolalpin.contact.condition.discount</source>
+                <target>DLH Rabatt</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22244" resname="poolalpin.contact.condition.quantity-base">
+                <source>poolalpin.contact.condition.quantity-base</source>
+                <target>DLH Basis</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22245" resname="poolalpin.customer-internal">
+                <source>poolalpin.customer-internal</source>
+                <target>DLH</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22246" resname="poolalpin.contact.notes">
+                <source>poolalpin.contact.notes</source>
+                <target>Notizen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22247" resname="poolalpin.contact.noticeInquiry">
+                <source>poolalpin.contact.noticeInquiry</source>
+                <target>Anfrage</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22248" resname="poolalpin.contact.noticeOrder">
+                <source>poolalpin.contact.noticeOrder</source>
+                <target>Bestellung</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22249" resname="poolalpin.contact.noticeCorporation">
+                <source>poolalpin.contact.noticeCorporation</source>
+                <target>Unternehmen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22250" resname="poolalpin.contact.noticeDelivery">
+                <source>poolalpin.contact.noticeDelivery</source>
+                <target>Anlieferung</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22251" resname="poolalpin.contact.noticeConditions">
+                <source>poolalpin.contact.noticeConditions</source>
+                <target>Bedingungen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22252" resname="poolalpin.contact.service-fee.add.label">
+                <source>poolalpin.contact.service-fee.add.label</source>
+                <target>DLH hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="poolalpin.contact.service-fee.label">
+                <source>poolalpin.contact.service-fee.label</source>
+                <target>DLH</target>
             </trans-unit>
         </body>
     </file>
