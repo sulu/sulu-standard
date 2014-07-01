@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
 
             // enable sulu bundles
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
