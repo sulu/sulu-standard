@@ -31,6 +31,7 @@
         "sulu/website-bundle": "dev-develop",
         "sulu/media-bundle": "dev-develop",
         "sulu/tag-bundle": "dev-develop",
+        "sulu/category-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
