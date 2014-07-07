@@ -52,7 +52,7 @@
                 <p property="note">{{ content.note }}</p>
             </div>
         </div>
-
+        {% if content.links is defined %}
         <h3>Links:</h3>
         <div property="links">
             <ul>
@@ -64,6 +64,7 @@
                 {% endfor %}
             </ul>
         </div>
+        {% endif %}
 
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent.data %}
