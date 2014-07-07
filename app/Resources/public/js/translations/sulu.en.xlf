@@ -1618,6 +1618,46 @@
                 <source>poolalpin.contact.service-fee.label</source>
                 <target>Service fee</target>
             </trans-unit>
+            <trans-unit id="343d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.seo">
+                <source>content-navigation.contents.seo</source>
+                <target>SEO</target>
+            </trans-unit>
+            <trans-unit id="143d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.excerpt">
+                <source>content-navigation.contents.excerpt</source>
+                <target>Excerpt</target>
+            </trans-unit>
+            <trans-unit id="243d99ff2f64652633a5ca2169f22254" resname="media-selection.nomedia-selected">
+                <source>media-selection.nomedia-selected</source>
+                <target>No media selected</target>
+            </trans-unit>
+            <trans-unit id="443d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.title">
+                <source>sulu.content.seo.title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.description">
+                <source>sulu.content.seo.description</source>
+                <target>Description</target>
+            </trans-unit>         
+            <trans-unit id="442d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.keywords">
+                <source>sulu.content.seo.keywords</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.canonical">
+                <source>sulu.content.seo.canonical</source>
+                <target>Canonical</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22256" resname="sulu.content.seo.robots">
+                <source>sulu.content.seo.robots</source>
+                <target>Robots</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f2225c" resname="sulu.content.seo.robots.no-index">
+                <source>sulu.content.seo.robots.no-index</source>
+                <target>No-index</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22252" resname="sulu.content.seo.robots.no-follow">
+                <source>sulu.content.seo.robots.no-follow</source>
+                <target>No-follow</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

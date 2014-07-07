@@ -1616,6 +1616,46 @@
             <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="poolalpin.contact.service-fee.label">
                 <source>poolalpin.contact.service-fee.label</source>
                 <target>DLH</target>
+            </trans-unit>           
+            <trans-unit id="343d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.seo">
+                <source>content-navigation.contents.seo</source>
+                <target>SEO</target>
+            </trans-unit>
+            <trans-unit id="143d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.excerpt">
+                <source>content-navigation.contents.excerpt</source>
+                <target>Auszug</target>
+            </trans-unit>
+            <trans-unit id="243d99ff2f64652633a5ca2169f22254" resname="media-selection.nomedia-selected">
+                <source>media-selection.nomedia-selected</source>
+                <target>Keine Medien ausgewählt</target>
+            </trans-unit>
+            <trans-unit id="443d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.title">
+                <source>sulu.content.seo.title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.description">
+                <source>sulu.content.seo.description</source>
+                <target>Beschreibung</target>
+            </trans-unit>         
+            <trans-unit id="442d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.keywords">
+                <source>sulu.content.seo.keywords</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.canonical">
+                <source>sulu.content.seo.canonical</source>
+                <target>Canonical</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22256" resname="sulu.content.seo.robots">
+                <source>sulu.content.seo.robots</source>
+                <target>Robots</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f2225c" resname="sulu.content.seo.robots.no-index">
+                <source>sulu.content.seo.robots.no-index</source>
+                <target>No-Index</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22252" resname="sulu.content.seo.robots.no-follow">
+                <source>sulu.content.seo.robots.no-follow</source>
+                <target>No-Follow</target>
             </trans-unit>
         </body>
     </file>
