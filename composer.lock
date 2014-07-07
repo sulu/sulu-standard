@@ -2711,12 +2711,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "98a14f8aa03fb1ce2d183cee309cb4f826a61bae"
+                "reference": "10c5e82976f58f73928a89428e75e6e359921f0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/98a14f8aa03fb1ce2d183cee309cb4f826a61bae",
-                "reference": "98a14f8aa03fb1ce2d183cee309cb4f826a61bae",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/10c5e82976f58f73928a89428e75e6e359921f0a",
+                "reference": "10c5e82976f58f73928a89428e75e6e359921f0a",
                 "shasum": ""
             },
             "require": {
@@ -2751,7 +2751,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-07-04 13:47:28"
+            "time": "2014-07-07 08:36:57"
         },
         {
             "name": "sulu/category-bundle",
@@ -2873,12 +2873,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "8ccce2d03fb4797e234b211813b7ce8a9dca8a73"
+                "reference": "553527f0bec58f0a9f0e535e206cb12b9c61df32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8ccce2d03fb4797e234b211813b7ce8a9dca8a73",
-                "reference": "8ccce2d03fb4797e234b211813b7ce8a9dca8a73",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/553527f0bec58f0a9f0e535e206cb12b9c61df32",
+                "reference": "553527f0bec58f0a9f0e535e206cb12b9c61df32",
                 "shasum": ""
             },
             "require": {
@@ -2930,7 +2930,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-07-01 18:55:54"
+            "time": "2014-07-07 08:36:17"
         },
         {
             "name": "sulu/media-bundle",
@@ -3940,7 +3940,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
