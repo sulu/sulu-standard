@@ -1658,6 +1658,10 @@
                 <source>sulu.content.seo.robots.no-follow</source>
                 <target>No-follow</target>
             </trans-unit>
+            <trans-unit id="642c992f1929c9e456a5ce2178d22192" resname="contact.contacts.main-contact">
+                <source>contact.contacts.main-contact</source>
+                <target>Main contact</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
