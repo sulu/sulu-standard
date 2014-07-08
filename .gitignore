@@ -7,6 +7,7 @@
 /app/admin/logs/*
 /app/website/cache/*
 /app/website/logs/*
+/uploads/*
 /uploads/media/*
 /web/uploads/media/*
 /build/
