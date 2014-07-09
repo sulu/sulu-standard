@@ -2873,12 +2873,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "89d8bbc3de176b4f1102baceae3dcb3e3fe3f924"
+                "reference": "dbba14b16677b38583409559832f2a2b5d0b7f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/89d8bbc3de176b4f1102baceae3dcb3e3fe3f924",
-                "reference": "89d8bbc3de176b4f1102baceae3dcb3e3fe3f924",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/dbba14b16677b38583409559832f2a2b5d0b7f56",
+                "reference": "dbba14b16677b38583409559832f2a2b5d0b7f56",
                 "shasum": ""
             },
             "require": {
@@ -2930,7 +2930,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-07-07 09:10:12"
+            "time": "2014-07-09 16:35:31"
         },
         {
             "name": "sulu/media-bundle",
