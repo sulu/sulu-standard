@@ -1690,6 +1690,10 @@
                 <source>sulu.preview.smartphone</source>
                 <target>Smartphone</target>
             </trans-unit>
+            <trans-unit id="c50af528fc331350142c0b4720e29a8a" resname="contact.accounts.responsiblePerson">
+                <source>contact.accounts.responsiblePerson</source>
+                <target>Responsible</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
