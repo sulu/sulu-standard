@@ -1550,6 +1550,102 @@
                 <source>labels.success.category-delete-desc</source>
                 <target>Category successfully deleted</target>
             </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22237" resname="content-navigation.contacts.activities">
+                <source>content-navigation.contacts.activities</source>
+                <target>Activities</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22238" resname="contact.activities.remove">
+                <source>contact.activities.remove</source>
+                <target>Remove activity</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22239" resname="contact.activities.type">
+                <source>contact.activities.type</source>
+                <target>Type</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22241" resname="contact.activities.priority">
+                <source>contact.activities.priority</source>
+                <target>Priority</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22242" resname="contact.activities.status">
+                <source>contact.activities.status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22243" resname="contact.activities.subject">
+                <source>contact.activities.subject</source>
+                <target>Subject</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22244" resname="contact.activities.note">
+                <source>contact.activities.note</source>
+                <target>Note</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22245" resname="contact.activities.dueDate">
+                <source>contact.activities.dueDate</source>
+                <target>Duedate</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22246" resname="contact.activities.assignedContact">
+                <source>contact.activities.assignedContact</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22247" resname="contact.contacts.activities.edit">
+                <source>contact.contacts.activities.edit</source>
+                <target>Edit activity</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22248" resname="contact.contacts.activities.add">
+                <source>contact.contacts.activities.add</source>
+                <target>Add activity</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22249" resname="contact.activity.type.phone.intern">
+                <source>contact.activity.type.phone.intern</source>
+                <target>Phone intern</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22250" resname="contact.activity.type.phone.extern">
+                <source>contact.activity.type.phone.extern</source>
+                <target>Phone extern</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22251" resname="contact.activity.type.mail.intern">
+                <source>contact.activity.type.mail.intern</source>
+                <target>Mail intern</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22252" resname="contact.activity.type.mail.extern">
+                <source>contact.activity.type.mail.extern</source>
+                <target>Mail extern</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="contact.activity.type.appointment">
+                <source>contact.activity.type.appointment</source>
+                <target>Appointment</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22254" resname="contact.activity.type.noInterest">
+                <source>contact.activity.type.noInterest</source>
+                <target>No interest</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22255" resname="contact.activity.type.recall">
+                <source>contact.activity.type.recall</source>
+                <target>Recall</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22256" resname="contact.activity.state.open">
+                <source>contact.activity.state.open</source>
+                <target>Open</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22257" resname="contact.activity.state.closed">
+                <source>contact.activity.state.closed</source>
+                <target>Closed</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22258" resname="contact.activity.state.inProgress">
+                <source>contact.activity.state.inProgress</source>
+                <target>In progress</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22259" resname="contact.activity.priority.low">
+                <source>contact.activity.priority.low</source>
+                <target>Low</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f2224860" resname="contact.activity.priority.mid">
+                <source>contact.activity.priority.mid</source>
+                <target>Mid</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22261" resname="contact.activity.priority.high">
+                <source>contact.activity.priority.high</source>
+                <target>High</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
