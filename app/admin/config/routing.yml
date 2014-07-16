@@ -45,13 +45,12 @@ sulu_media_api:
     resource: "@SuluMediaBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
-sulu_product:
-    resource: "@SuluProductBundle/Resources/config/routing.yml"
-    prefix: /admin/product
+sulu_category:
+    resource: "@SuluCategoryBundle/Resources/config/routing.yml"
+    prefix: /admin/category
 
-sulu_product_api:
-    type: rest
-    resource: "@SuluProductBundle/Resources/config/routing_api.yml"
+sulu_category_api:
+    resource: "@SuluCategoryBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
 sulu_translate:
@@ -59,7 +58,6 @@ sulu_translate:
     prefix: /admin/translate
 
 sulu_translate_api:
-    type: rest
     resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 

@@ -832,7 +832,7 @@
             </trans-unit>
             <trans-unit id="9d6ff6ec28392e6c52d795266f34743e" resname="content.preview.resolutions">
                 <source>content.preview.resolutions</source>
-                <target>Screenresolutions</target>
+                <target>Resolutions</target>
             </trans-unit>
             <trans-unit id="069f3fbf0731ab7dbc2d8627334aad5f" resname="url.home">
                 <source>url.home</source>
@@ -1549,6 +1549,150 @@
             <trans-unit id="643d99ff2964652633a5ca2169f22236" resname="labels.success.category-delete-desc">
                 <source>labels.success.category-delete-desc</source>
                 <target>Category successfully deleted</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22237" resname="content-navigation.contact.accounts.contacts">
+                <source>content-navigation.contact.accounts.contacts</source>
+                <target>Contacts</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22238" resname="fax.home">
+                <source>fax.home</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22239" resname="contact.accounts.contact-remove">
+                <source>contact.accounts.contact-remove</source>
+                <target>Remove contacts from company</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22240" resname="contact.accounts.add-contact">
+                <source>contact.accounts.add-contact</source>
+                <target>Add contact to company</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22241" resname="contact.accounts.corporation">
+                <source>labels.success.category-delete-desc</source>
+                <target>Corporation</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22242" resname="dropdown.no-selection">
+                <source>labels.success.category-delete-desc</source>
+                <target>No selection</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22243" resname="poolalpin.contact.condition.discount">
+                <source>poolalpin.contact.condition.discount</source>
+                <target>Service fee discount</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22244" resname="poolalpin.contact.condition.quantity-base">
+                <source>poolalpin.contact.condition.quantity-base</source>
+                <target>Service fee base</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22245" resname="poolalpin.customer-internal">
+                <source>poolalpin.customer-internal</source>
+                <target>Service fee</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22246" resname="poolalpin.contact.notes">
+                <source>poolalpin.contact.notes</source>
+                <target>Notes</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22247" resname="poolalpin.contact.noticeInquiry">
+                <source>poolalpin.contact.noticeInquiry</source>
+                <target>Inquiry</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22248" resname="poolalpin.contact.noticeOrder">
+                <source>poolalpin.contact.noticeOrder</source>
+                <target>Order</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22249" resname="poolalpin.contact.noticeCorporation">
+                <source>poolalpin.contact.noticeCorporation</source>
+                <target>Corporation</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22250" resname="poolalpin.contact.noticeDelivery">
+                <source>poolalpin.contact.noticeDelivery</source>
+                <target>Delivery</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22251" resname="poolalpin.contact.noticeConditions">
+                <source>poolalpin.contact.noticeConditions</source>
+                <target>Conditions</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22252" resname="poolalpin.contact.service-fee.add.label">
+                <source>poolalpin.contact.service-fee.add.label</source>
+                <target>Add service fee</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="poolalpin.contact.service-fee.label">
+                <source>poolalpin.contact.service-fee.label</source>
+                <target>Service fee</target>
+            </trans-unit>
+            <trans-unit id="343d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.seo">
+                <source>content-navigation.contents.seo</source>
+                <target>SEO</target>
+            </trans-unit>
+            <trans-unit id="143d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.excerpt">
+                <source>content-navigation.contents.excerpt</source>
+                <target>Excerpt</target>
+            </trans-unit>
+            <trans-unit id="243d99ff2f64652633a5ca2169f22254" resname="media-selection.nomedia-selected">
+                <source>media-selection.nomedia-selected</source>
+                <target>No media selected</target>
+            </trans-unit>
+            <trans-unit id="443d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.title">
+                <source>sulu.content.seo.title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.description">
+                <source>sulu.content.seo.description</source>
+                <target>Description</target>
+            </trans-unit>         
+            <trans-unit id="442d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.keywords">
+                <source>sulu.content.seo.keywords</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.canonical">
+                <source>sulu.content.seo.canonical</source>
+                <target>Canonical</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22256" resname="sulu.content.seo.robots">
+                <source>sulu.content.seo.robots</source>
+                <target>Robots</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f2225c" resname="sulu.content.seo.robots.no-index">
+                <source>sulu.content.seo.robots.no-index</source>
+                <target>No-index</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22252" resname="sulu.content.seo.robots.no-follow">
+                <source>sulu.content.seo.robots.no-follow</source>
+                <target>No-follow</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e456a5ce2178d22192" resname="contact.contacts.main-contact">
+                <source>contact.contacts.main-contact</source>
+                <target>Main contact</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22192" resname="sulu.content.excerpt.title">
+                <source>sulu.content.excerpt.title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22196" resname="sulu.content.excerpt.description">
+                <source>sulu.content.excerpt.description</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22197" resname="sulu.content.excerpt.images">
+                <source>sulu.content.excerpt.images</source>
+                <target>Images</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.auto">
+                <source>sulu.preview.auto</source>
+                <target>Auto</target>
+            </trans-unit>
+            <trans-unit id="c42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.desktop">
+                <source>sulu.preview.desktop</source>
+                <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="f42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.tablet">
+                <source>sulu.preview.tablet</source>
+                <target>Tablet</target>
+            </trans-unit>
+            <trans-unit id="d42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.smartphone">
+                <source>sulu.preview.smartphone</source>
+                <target>Smartphone</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc331350142c0b4720e29a8a" resname="contact.accounts.responsiblePerson">
+                <source>contact.accounts.responsiblePerson</source>
+                <target>Responsible</target>
             </trans-unit>
         </body>
     </file>
