@@ -1790,6 +1790,14 @@
                 <source>contact.accounts.responsiblePerson</source>
                 <target>Responsible</target>
             </trans-unit>
+            <trans-unit id="c964588d92c25e70ec2d7f9be4e28ebc" resname="select.edit-entries">
+                <source>select.edit-entries</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="c364388d92823e70ec2d8f9be4e88ebc" resname="select.no-choice">
+                <source>select.no-choice</source>
+                <target>No Selection</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
