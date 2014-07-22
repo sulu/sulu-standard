@@ -1797,6 +1797,26 @@
                 <source>select.no-choice</source>
                 <target>Keine Auswahl</target>
             </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8a" resname="media-selection.add-images">
+                <source>media-selection.add-images</source>
+                <target>Bilder hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8c" resname="public.choose">
+                <source>public.choose</source>
+                <target>Auswählen</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8d" resname="public.visible">
+                <source>public.visible</source>
+                <target>sichtbar</target>
+            </trans-unit>
+            <trans-unit id="c58af528fc121350142c0b4720e29a8a" resname="public.of">
+                <source>public.of</source>
+                <target>von</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac121350142c0b4720e29a8a" resname="media-selection.collections">
+                <source>media-selection.collections</source>
+                <target>Kollektionen</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
