@@ -1,5 +1,7 @@
 {% extends "ClientWebsiteBundle:views:master.html.twig" %}
 
+{% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
+
 {% block title %}{{ content.title }}{% endblock %}
 
 {% block content %}
