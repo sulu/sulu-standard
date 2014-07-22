@@ -1798,6 +1798,26 @@
                 <source>select.no-choice</source>
                 <target>No Selection</target>
             </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8a" resname="media-selection.add-images">
+                <source>media-selection.add-images</source>
+                <target>Add images</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8c" resname="public.choose">
+                <source>public.choose</source>
+                <target>Choose</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8d" resname="public.visible">
+                <source>public.visible</source>
+                <target>visible</target>
+            </trans-unit>
+            <trans-unit id="c58af528fc121350142c0b4720e29a8a" resname="public.of">
+                <source>public.of</source>
+                <target>of</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac121350142c0b4720e29a8a" resname="media-selection.collections">
+                <source>media-selection.collections</source>
+                <target>Collections</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
