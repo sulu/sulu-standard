@@ -2941,12 +2941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "ca0c9f3f70a43ff1b5c24d35e8d61426b7fe5744"
+                "reference": "9945d5a71ca8b232433a711b507c8d2ef87a9c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/ca0c9f3f70a43ff1b5c24d35e8d61426b7fe5744",
-                "reference": "ca0c9f3f70a43ff1b5c24d35e8d61426b7fe5744",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/9945d5a71ca8b232433a711b507c8d2ef87a9c12",
+                "reference": "9945d5a71ca8b232433a711b507c8d2ef87a9c12",
                 "shasum": ""
             },
             "require": {
@@ -2955,6 +2955,7 @@
                 "friendsofsymfony/rest-bundle": "@dev",
                 "imagine/imagine": "~0.6.1",
                 "jms/serializer-bundle": "@dev",
+                "liip/theme-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
                 "sulu/admin-bundle": "dev-develop",
@@ -2994,7 +2995,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-07-22 17:55:12"
+            "time": "2014-07-22 19:07:54"
         },
         {
             "name": "sulu/security-bundle",
@@ -3003,12 +3004,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "cd550d5c6954263fc65c1487d2e2d28dc0819c54"
+                "reference": "f1bd59503974b355f9aecfc8947cec7857c4443f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/cd550d5c6954263fc65c1487d2e2d28dc0819c54",
-                "reference": "cd550d5c6954263fc65c1487d2e2d28dc0819c54",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/f1bd59503974b355f9aecfc8947cec7857c4443f",
+                "reference": "f1bd59503974b355f9aecfc8947cec7857c4443f",
                 "shasum": ""
             },
             "require": {
@@ -3054,7 +3055,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-07-17 13:34:02"
+            "time": "2014-07-22 19:00:40"
         },
         {
             "name": "sulu/sulu",
