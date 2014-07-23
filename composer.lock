@@ -2875,12 +2875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "01629e58dd78c6d41cf7a4c4e3035862395eb73d"
+                "reference": "b6ec7beece6b2e0692031f38a3b378cabe9688d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/01629e58dd78c6d41cf7a4c4e3035862395eb73d",
-                "reference": "01629e58dd78c6d41cf7a4c4e3035862395eb73d",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/b6ec7beece6b2e0692031f38a3b378cabe9688d4",
+                "reference": "b6ec7beece6b2e0692031f38a3b378cabe9688d4",
                 "shasum": ""
             },
             "require": {
@@ -2932,7 +2932,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-07-22 20:16:41"
+            "time": "2014-07-23 07:21:26"
         },
         {
             "name": "sulu/media-bundle",
@@ -4911,12 +4911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "faf01a97b50e3975cb477d4d6279614a9c2550ad"
+                "reference": "204d90e934ec3d40feac05df00b49f4990366ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/faf01a97b50e3975cb477d4d6279614a9c2550ad",
-                "reference": "faf01a97b50e3975cb477d4d6279614a9c2550ad",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/204d90e934ec3d40feac05df00b49f4990366ab3",
+                "reference": "204d90e934ec3d40feac05df00b49f4990366ab3",
                 "shasum": ""
             },
             "require": {
@@ -4951,7 +4951,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-07-22 20:11:43"
+            "time": "2014-07-23 06:53:01"
         }
     ],
     "aliases": [
