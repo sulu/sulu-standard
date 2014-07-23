@@ -6,7 +6,7 @@
 
     <key>example</key>
 
-    <view>ClientWebsiteBundle:Website:example.html.twig</view>
+    <view>ClientWebsiteBundle:templates:example.html.twig</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
@@ -111,8 +111,21 @@
 
                 <property name="tags" type="tag_list">
                     <meta>
-                        <title lang="de">Tag auswahl</title>
+                        <title lang="de">Tag Auswahl</title>
                         <title lang="en">Tag selection</title>
+                    </meta>
+                </property>
+                <property name="categories" type="category_list">
+                    <meta>
+                        <title lang="de">Kategorien</title>
+                        <title lang="en">Categories</title>
+                    </meta>
+                </property>
+
+                <property name="links" type="internal_links">
+                    <meta>
+                        <title lang="de">Interne Links</title>
+                        <title lang="en">Internal links</title>
                     </meta>
                 </property>
 

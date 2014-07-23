@@ -1,4 +1,6 @@
-{% extends "ClientWebsiteBundle:Website:master.html.twig" %}
+{% extends "ClientWebsiteBundle:views:master.html.twig" %}
+
+{% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
 
 {% block title %}{{ content.title }}{% endblock %}
 
@@ -15,34 +17,54 @@
         <table class="table">
             <tbody>
                 <tr>
-                    <td>Phone</td><td property="phone">{{ content.phone }}</td>
+                    <td>Phone</td>
+                    <td property="phone">{{ content.phone }}</td>
                 </tr>
                 <tr>
-                    <td>Password</td><td property="password">{{ content.password }}</td>
+                    <td>Password</td>
+                    <td property="password">{{ content.password }}</td>
                 </tr>
                 <tr>
-                    <td>Link</td><td property="link">{{ content.link }}</td>
+                    <td>Link</td>
+                    <td property="link">{{ content.link }}</td>
                 </tr>
                 <tr>
-                    <td>Email</td><td property="email">{{ content.email }}</td>
+                    <td>Email</td>
+                    <td property="email">{{ content.email }}</td>
                 </tr>
                 <tr>
-                    <td>Color</td><td property="color">{{ content.color }}</td>
+                    <td>Color</td>
+                    <td property="color">{{ content.color }}</td>
                 </tr>
                 <tr>
-                    <td>Date</td><td property="date">{{ content.date }}</td>
+                    <td>Date</td>
+                    <td property="date">{{ content.date }}</td>
                 </tr>
                 <tr>
-                    <td>Time</td><td property="time">{{ content.time }}</td>
+                    <td>Time</td>
+                    <td property="time">{{ content.time }}</td>
                 </tr>
             </tbody>
         </table>
+
         <div class="row">
             <div class="col-lg-4">
                 <h3>Note:</h3>
+
                 <p property="note">{{ content.note }}</p>
             </div>
         </div>
+        {% if content.links is defined %}
+            <h3>Links:</h3>
+            <ul property="links">
+                {% for link in content.links.data %}
+                    <li>
+                        <a href="{{ content_path(link) }}">{{ link['title']|default('No Title') }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent.data %}
                 <div class="col-lg-4">
@@ -55,10 +77,12 @@
         </div>
 
         <h3>Images (display-options: {{ content.images.displayOption }})</h3>
+
         <div class="row" property="images" typeof="collection">
             {% for image in content.images.data %}
                 <div class="col-lg-4" rel="images" typeof="images">
-                    <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}" />
+                    <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}"/>
+
                     <p class="text-primary">{{ image.title }}</p>
                 </div>
             {% endfor %}
