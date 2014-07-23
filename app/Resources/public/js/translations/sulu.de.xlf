@@ -1739,19 +1739,19 @@
             </trans-unit>
             <trans-unit id="445d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.canonical">
                 <source>sulu.content.seo.canonical</source>
-                <target>Canonical</target>
+                <target>Canonical (Canonical Tag)</target>
             </trans-unit>
             <trans-unit id="445d99ff2f64652633a5ca2169f22256" resname="sulu.content.seo.robots">
                 <source>sulu.content.seo.robots</source>
-                <target>Robots</target>
+                <target>Robots Einstellungen (robots.txt)</target>
             </trans-unit>
             <trans-unit id="445d99ff2f64652633a5ca2169f2225c" resname="sulu.content.seo.robots.no-index">
                 <source>sulu.content.seo.robots.no-index</source>
-                <target>No-Index</target>
+                <target>no-index (Seite wird nicht von Suchmaschinen indiziert)</target>
             </trans-unit>
             <trans-unit id="445d99ff2f64652633a5ca2169f22252" resname="sulu.content.seo.robots.no-follow">
                 <source>sulu.content.seo.robots.no-follow</source>
-                <target>No-Follow</target>
+                <target>no-follow (Links auf der Seite wird von Suchmaschinen nicht gefolgt)</target>
             </trans-unit>
             <trans-unit id="642c992f1929c9e456a5ce2178d22192" resname="contact.contacts.main-contact">
                 <source>contact.contacts.main-contact</source>
@@ -1816,6 +1816,31 @@
             <trans-unit id="c50af521ac121350142c0b4720e29a8a" resname="media-selection.collections">
                 <source>media-selection.collections</source>
                 <target>Kollektionen</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac121350142c0b4720e29a2f" resname="internal-links.add">
+                <source>internal-links.add</source>
+                <target>Interne Links hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac181350142c0b4720e29a2f" resname="internal-links.nolinks-selected">
+                <source>internal-links.nolinks-selected</source>
+                <target>Keine internen Links ausgewählt</target>
+            </trans-unit>
+            <trans-unit id="c50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.descriptions.note">
+                <source>sulu.content.seo.descriptions.note</source>
+                <target>Die Meta-Beschreibung ist auf 155 Zeichen limitiert.</target>
+            </trans-unit>
+            <trans-unit id="e50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.characters-left">
+                <source>sulu.content.seo.characters-left</source>
+                <target>Zeichen übrig</target>
+            </trans-unit>
+            <trans-unit id="b50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords.note">
+                <source>sulu.content.seo.keywords.note</source>
+                <target>Please use a max. of 5 keywords, dependend from the content of the page, seperated by commas.</target>
+                <target>Bitte benutze max. 5 Keywords, abhängig vom Inhalt der Seite, getrennt durch Kommas.</target>
+            </trans-unit>
+            <trans-unit id="a50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords-left">
+                <source>sulu.content.seo.keywords-left</source>
+                <target></target>
             </trans-unit>
         </body>
     </file>

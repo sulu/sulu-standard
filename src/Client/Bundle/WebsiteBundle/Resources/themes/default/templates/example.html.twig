@@ -55,17 +55,14 @@
             </div>
         </div>
         {% if content.links is defined %}
-        <h3>Links:</h3>
-        <div property="links">
-            <ul>
+            <h3>Links:</h3>
+            <ul property="links">
                 {% for link in content.links.data %}
                     <li>
-                        <a href="{{ content_path(link) }}"
-                           title="{{ link.title }}">{{ link.title|default('No Title') }}</a>
+                        <a href="{{ content_path(link) }}">{{ link['title']|default('No Title') }}</a>
                     </li>
                 {% endfor %}
             </ul>
-        </div>
         {% endif %}
 
         <div property="smartcontent">

@@ -26,6 +26,17 @@
                     {% endfor %}
                 </div>
 
+                <h3>Internal Links</h3>
+
+                {% if content.links is defined %}
+                    <ul property="links">
+                        {% for link in content.links.data %}
+                            <li>
+                                <a href="{{ content_path(link) }}">{{ link['title']|default('No Title') }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </div>
         </div>
     </div>
