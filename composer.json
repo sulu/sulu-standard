@@ -33,6 +33,8 @@
         "sulu/tag-bundle": "dev-develop",
         "sulu/category-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
+        "sulu/sales-core-bundle": "dev-develop",
+        "sulu/product-bundle": "dev-develop",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
