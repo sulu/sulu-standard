@@ -1798,6 +1798,10 @@
                 <source>select.no-choice</source>
                 <target>No Selection</target>
             </trans-unit>
+            <trans-unit id="c364388d91823e70cc7d829be1e81abc" resname="select.add-item">
+                <source>select.add-item</source>
+                <target>New Entry</target>
+            </trans-unit>
             <trans-unit id="c50af528fc121350142c0b4720e29a8a" resname="media-selection.add-images">
                 <source>media-selection.add-images</source>
                 <target>Add images</target>
