@@ -1839,7 +1839,6 @@
             </trans-unit>
             <trans-unit id="b50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords.note">
                 <source>sulu.content.seo.keywords.note</source>
-                <target>Please use a max. of 5 keywords, dependend from the content of the page, seperated by commas.</target>
                 <target>Bitte benutze max. 5 Keywords, abhängig vom Inhalt der Seite, getrennt durch Kommas.</target>
             </trans-unit>
             <trans-unit id="a50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords-left">
