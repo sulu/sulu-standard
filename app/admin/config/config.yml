@@ -2,9 +2,6 @@ imports:
     - { resource: ../../Resources/config/config.yml }
     - { resource: security.yml }
 
-framework:
-    translator:      { fallback: %locale% }
-
 # Twig Configuration
 twig:
     debug:            %kernel.debug%

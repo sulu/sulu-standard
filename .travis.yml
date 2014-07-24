@@ -32,9 +32,6 @@ before_script:
 
 script: bin/paratest -p 2 -f
 
-notifications:
-  irc: "irc.freenode.org#sulu-cmf"
-
 matrix:
   allow_failures:
     - php: hhvm
