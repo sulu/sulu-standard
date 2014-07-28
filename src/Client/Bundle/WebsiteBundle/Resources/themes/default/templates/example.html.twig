@@ -1,5 +1,7 @@
 {% extends "ClientWebsiteBundle:views:master.html.twig" %}
 
+{% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
+
 {% block title %}{{ content.title }}{% endblock %}
 
 {% block content %}
@@ -52,18 +54,26 @@
                 <p property="note">{{ content.note }}</p>
             </div>
         </div>
-
-        <h3>Links:</h3>
-        <div property="links">
-            <ul>
+        {% if content.links is defined %}
+            <h3>Links:</h3>
+            <ul property="links">
                 {% for link in content.links.data %}
                     <li>
-                        <a href="{{ content_path(link) }}"
-                           title="{{ link.title }}">{{ link.title|default('No Title') }}</a>
+                        <a href="{{ content_path(link) }}">{{ link['title']|default('No Title') }}</a>
                     </li>
                 {% endfor %}
             </ul>
-        </div>
+        {% endif %}
+
+        {% if content.categories is defined %}
+            <h3>Categories</h3>
+
+            <ul property="categories">
+                {% for category in content.categories %}
+                    <li>{{ category.id }} - {{ category.name }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
 
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent.data %}

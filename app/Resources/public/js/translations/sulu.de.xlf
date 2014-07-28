@@ -1549,73 +1549,301 @@
                 <source>labels.success.category-delete-desc</source>
                 <target>Kategorie erfolgreich gelöscht</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22237" resname="content-navigation.contact.accounts.contacts">
+            <trans-unit id="643d99ff2964652633a5ca2169f22237" resname="content-navigation.contacts.activities">
+                <source>content-navigation.contacts.activities</source>
+                <target>Aktivitäten</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22238" resname="contact.activities.remove">
+                <source>contact.activities.remove</source>
+                <target>Aktivität entfernen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22239" resname="contact.activities.type">
+                <source>contact.activities.type</source>
+                <target>Typ</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22241" resname="contact.activities.priority">
+                <source>contact.activities.priority</source>
+                <target>Priorität</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22242" resname="contact.activities.status">
+                <source>contact.activities.status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22243" resname="contact.activities.subject">
+                <source>contact.activities.subject</source>
+                <target>Betreff</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22244" resname="contact.activities.note">
+                <source>contact.activities.note</source>
+                <target>Bemerkung</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22245" resname="contact.activities.dueDate">
+                <source>contact.activities.dueDate</source>
+                <target>Fälligkeitsdatum</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22246" resname="contact.activities.assignedContact">
+                <source>contact.activities.assignedContact</source>
+                <target>Verantwortlicher</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22247" resname="contact.contacts.activities.edit">
+                <source>contact.contacts.activities.edit</source>
+                <target>Aktivität editieren</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22248" resname="contact.contacts.activities.add">
+                <source>contact.contacts.activities.add</source>
+                <target>Aktivität hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22249" resname="contact.activity.type.phone.intern">
+                <source>contact.activity.type.phone.intern</source>
+                <target>Ausgehender Anruf</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22250" resname="contact.activity.type.phone.extern">
+                <source>contact.activity.type.phone.extern</source>
+                <target>Eingehender Anruf</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22251" resname="contact.activity.type.mail.intern">
+                <source>contact.activity.type.mail.intern</source>
+                <target>Eingehende Mail</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22252" resname="contact.activity.type.mail.extern">
+                <source>contact.activity.type.mail.extern</source>
+                <target>Ausgehende Mail</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="contact.activity.type.appointment">
+                <source>contact.activity.type.appointment</source>
+                <target>Termin</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22254" resname="contact.activity.type.noInterest">
+                <source>contact.activity.type.noInterest</source>
+                <target>Kein Interesse</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22255" resname="contact.activity.type.recall">
+                <source>contact.activity.type.recall</source>
+                <target>Erneuter Anruf</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22256" resname="contact.activity.state.open">
+                <source>contact.activity.state.open</source>
+                <target>Offen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22257" resname="contact.activity.state.closed">
+                <source>contact.activity.state.closed</source>
+                <target>Abgeschlossen</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22258" resname="contact.activity.state.inProgress">
+                <source>contact.activity.state.inProgress</source>
+                <target>In Arbeit</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22259" resname="contact.activity.priority.low">
+                <source>contact.activity.priority.low</source>
+                <target>Niedrig</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f2224860" resname="contact.activity.priority.mid">
+                <source>contact.activity.priority.mid</source>
+                <target>Mittel</target>
+            </trans-unit>
+            <trans-unit id="643d99ff2964652633a5ca2169f22261" resname="contact.activity.priority.high">
+                <source>contact.activity.priority.high</source>
+                <target>Hoch</target>
+            </trans-unit>
+            <trans-unit id="643d99fa2964652633a5ca2169f22237" resname="content-navigation.contact.accounts.contacts">
                 <source>content-navigation.contact.accounts.contacts</source>
                 <target>Ansprechpersonen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22238" resname="fax.home">
+            <trans-unit id="643d99fa2964652633a5ca2169f22238" resname="fax.home">
                 <source>fax.home</source>
                 <target>Privat</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22239" resname="contact.accounts.contact-remove">
+            <trans-unit id="643d99fa2964652633a5ca2169f22239" resname="contact.accounts.contact-remove">
                 <source>contact.accounts.contact-remove</source>
                 <target>Kontakt vom Unternehmen entfernen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22240" resname="contact.accounts.add-contact">
+            <trans-unit id="643d99fa2964652633a5ca2169f22240" resname="contact.accounts.add-contact">
                 <source>contact.accounts.add-contact</source>
                 <target>Kontakt hinzufügen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22241" resname="contact.accounts.corporation">
+            <trans-unit id="643d99fa2964652633a5ca2169f22241" resname="contact.accounts.corporation">
                 <source>labels.success.category-delete-desc</source>
                 <target>Gesellschaft</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22242" resname="dropdown.no-selection">
+            <trans-unit id="643d99fa2964652633a5ca2169f22242" resname="dropdown.no-selection">
                 <source>labels.success.category-delete-desc</source>
                 <target>Keine Angabe</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22243" resname="poolalpin.contact.condition.discount">
+            <trans-unit id="643d99fa2964652633a5ca2169f22243" resname="poolalpin.contact.condition.discount">
                 <source>poolalpin.contact.condition.discount</source>
                 <target>DLH Rabatt</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22244" resname="poolalpin.contact.condition.quantity-base">
+            <trans-unit id="643d99fa2964652633a5ca2169f22244" resname="poolalpin.contact.condition.quantity-base">
                 <source>poolalpin.contact.condition.quantity-base</source>
                 <target>DLH Basis</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22245" resname="poolalpin.customer-internal">
+            <trans-unit id="643d99fa2964652633a5ca2169f22245" resname="poolalpin.customer-internal">
                 <source>poolalpin.customer-internal</source>
                 <target>DLH</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22246" resname="poolalpin.contact.notes">
+            <trans-unit id="643d99fa2964652633a5ca2169f22246" resname="poolalpin.contact.notes">
                 <source>poolalpin.contact.notes</source>
                 <target>Notizen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22247" resname="poolalpin.contact.noticeInquiry">
+            <trans-unit id="643d99fa2964652633a5ca2169f22247" resname="poolalpin.contact.noticeInquiry">
                 <source>poolalpin.contact.noticeInquiry</source>
                 <target>Anfrage</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22248" resname="poolalpin.contact.noticeOrder">
+            <trans-unit id="643d99fa2964652633a5ca2169f22248" resname="poolalpin.contact.noticeOrder">
                 <source>poolalpin.contact.noticeOrder</source>
                 <target>Bestellung</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22249" resname="poolalpin.contact.noticeCorporation">
+            <trans-unit id="643d99fa2964652633a5ca2169f22249" resname="poolalpin.contact.noticeCorporation">
                 <source>poolalpin.contact.noticeCorporation</source>
                 <target>Unternehmen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22250" resname="poolalpin.contact.noticeDelivery">
+            <trans-unit id="643d99fa2964652633a5ca2169f22250" resname="poolalpin.contact.noticeDelivery">
                 <source>poolalpin.contact.noticeDelivery</source>
                 <target>Anlieferung</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22251" resname="poolalpin.contact.noticeConditions">
+            <trans-unit id="643d99fa2964652633a5ca2169f22251" resname="poolalpin.contact.noticeConditions">
                 <source>poolalpin.contact.noticeConditions</source>
                 <target>Bedingungen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22252" resname="poolalpin.contact.service-fee.add.label">
+            <trans-unit id="643d99fa2964652633a5ca2169f22252" resname="poolalpin.contact.service-fee.add.label">
                 <source>poolalpin.contact.service-fee.add.label</source>
                 <target>DLH hinzufügen</target>
             </trans-unit>
-            <trans-unit id="643d99ff2964652633a5ca2169f22253" resname="poolalpin.contact.service-fee.label">
+            <trans-unit id="643d99fa2964652633a5ca2169f22253" resname="poolalpin.contact.service-fee.label">
                 <source>poolalpin.contact.service-fee.label</source>
                 <target>DLH</target>
+            </trans-unit>           
+            <trans-unit id="343d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.seo">
+                <source>content-navigation.contents.seo</source>
+                <target>SEO</target>
+            </trans-unit>
+            <trans-unit id="143d99ff2f64652633a5ca2169f22254" resname="content-navigation.contents.excerpt">
+                <source>content-navigation.contents.excerpt</source>
+                <target>Auszug</target>
+            </trans-unit>
+            <trans-unit id="243d99ff2f64652633a5ca2169f22254" resname="media-selection.nomedia-selected">
+                <source>media-selection.nomedia-selected</source>
+                <target>Keine Medien ausgewählt</target>
+            </trans-unit>
+            <trans-unit id="443d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.title">
+                <source>sulu.content.seo.title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.description">
+                <source>sulu.content.seo.description</source>
+                <target>Beschreibung</target>
+            </trans-unit>         
+            <trans-unit id="442d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.keywords">
+                <source>sulu.content.seo.keywords</source>
+                <target>Keywords</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.canonical">
+                <source>sulu.content.seo.canonical</source>
+                <target>Canonical (Canonical Tag)</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22256" resname="sulu.content.seo.robots">
+                <source>sulu.content.seo.robots</source>
+                <target>Robots Einstellungen (robots.txt)</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f2225c" resname="sulu.content.seo.robots.no-index">
+                <source>sulu.content.seo.robots.no-index</source>
+                <target>no-index (Seite wird nicht von Suchmaschinen indiziert)</target>
+            </trans-unit>
+            <trans-unit id="445d99ff2f64652633a5ca2169f22252" resname="sulu.content.seo.robots.no-follow">
+                <source>sulu.content.seo.robots.no-follow</source>
+                <target>no-follow (Links auf der Seite wird von Suchmaschinen nicht gefolgt)</target>
+            </trans-unit>
+            <trans-unit id="642c992f1929c9e456a5ce2178d22192" resname="contact.contacts.main-contact">
+                <source>contact.contacts.main-contact</source>
+                <target>Hauptansprechpartner</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22192" resname="sulu.content.excerpt.title">
+                <source>sulu.content.excerpt.title</source>
+                <target>Titel</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22196" resname="sulu.content.excerpt.description">
+                <source>sulu.content.excerpt.description</source>
+                <target>Beschreibung</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22197" resname="sulu.content.excerpt.images">
+                <source>sulu.content.excerpt.images</source>
+                <target>Bilder</target>
+            </trans-unit>
+            <trans-unit id="142cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.auto">
+                <source>sulu.preview.auto</source>
+                <target>Auto</target>
+            </trans-unit>
+            <trans-unit id="c42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.desktop">
+                <source>sulu.preview.desktop</source>
+                <target>Desktop</target>
+            </trans-unit>
+            <trans-unit id="f42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.tablet">
+                <source>sulu.preview.tablet</source>
+                <target>Tablet</target>
+            </trans-unit>
+            <trans-unit id="d42cd92f1c29c9e456a5ce2178d22198" resname="sulu.preview.smartphone">
+                <source>sulu.preview.smartphone</source>
+                <target>Smartphone</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc331350142c0b4720e29a8a" resname="contact.accounts.responsiblePerson">
+                <source>contact.accounts.responsiblePerson</source>
+                <target>Verantwortlicher</target>
+            </trans-unit>
+            <trans-unit id="c964588d92c25e70ec2d7f9be4e28ebc" resname="select.edit-entries">
+                <source>select.edit-entries</source>
+                <target>Bearbeiten</target>
+            </trans-unit>
+            <trans-unit id="c364388d92823e70ec2d8f9be4e88ebc" resname="select.no-choice">
+                <source>select.no-choice</source>
+                <target>Keine Auswahl</target>
+            </trans-unit>
+            <trans-unit id="c364388d91823e70cc7d829be1e81abc" resname="select.add-item">
+                <source>select.add-item</source>
+                <target>Neuer Eintrag</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8a" resname="media-selection.add-images">
+                <source>media-selection.add-images</source>
+                <target>Bilder hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8c" resname="public.choose">
+                <source>public.choose</source>
+                <target>Auswählen</target>
+            </trans-unit>
+            <trans-unit id="c50af528fc121350142c0b4720e29a8d" resname="public.visible">
+                <source>public.visible</source>
+                <target>sichtbar</target>
+            </trans-unit>
+            <trans-unit id="c58af528fc121350142c0b4720e29a8a" resname="public.of">
+                <source>public.of</source>
+                <target>von</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac121350142c0b4720e29a8a" resname="media-selection.collections">
+                <source>media-selection.collections</source>
+                <target>Kollektionen</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac121350142c0b4720e29a2f" resname="internal-links.add">
+                <source>internal-links.add</source>
+                <target>Interne Links hinzufügen</target>
+            </trans-unit>
+            <trans-unit id="c50af521ac181350142c0b4720e29a2f" resname="internal-links.nolinks-selected">
+                <source>internal-links.nolinks-selected</source>
+                <target>Keine internen Links ausgewählt</target>
+            </trans-unit>
+            <trans-unit id="c50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.descriptions.note">
+                <source>sulu.content.seo.descriptions.note</source>
+                <target>Die Meta-Beschreibung ist auf 155 Zeichen limitiert.</target>
+            </trans-unit>
+            <trans-unit id="e50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.characters-left">
+                <source>sulu.content.seo.characters-left</source>
+                <target>Zeichen übrig</target>
+            </trans-unit>
+            <trans-unit id="b50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords.note">
+                <source>sulu.content.seo.keywords.note</source>
+                <target>Bitte benutze max. 5 Keywords, abhängig vom Inhalt der Seite, getrennt durch Kommas.</target>
+            </trans-unit>
+            <trans-unit id="a50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.keywords-left">
+                <source>sulu.content.seo.keywords-left</source>
+                <target></target>
             </trans-unit>
         </body>
     </file>
