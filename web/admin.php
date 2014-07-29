@@ -22,7 +22,7 @@ $loader->unregister();
 $apcLoader->register(true);
 */
 
-require_once __DIR__ . '/../app/admin/AppKernel.php';
+require_once __DIR__ . '/../app/AdminKernel.php';
 
 $kernel = new AppKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
 $kernel->loadClassCache();

@@ -17,7 +17,7 @@ if (!in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', 'fe80::1', '::1'))) {
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 Debug::enable();
 
-require_once __DIR__ . '/../app/admin/AppKernel.php';
+require_once __DIR__ . '/../app/AdminKernel.php';
 
 $kernel = new AppKernel('dev', true);
 $kernel->loadClassCache();
