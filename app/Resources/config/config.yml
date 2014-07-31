@@ -100,7 +100,7 @@ sulu_core:
         ~
     content:
         templates:
-            pathes:
+            paths:
                 app:
                     path: "%kernel.root_dir%/../Resources/templates"
                     internal: false
