@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "autoload": {
         "psr-0": {
             "": "src/"
