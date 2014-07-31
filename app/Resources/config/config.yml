@@ -99,6 +99,13 @@ sulu_core:
     webspace:
         ~
     content:
-        ~
+        templates:
+            paths:
+                app:
+                    path: "%kernel.root_dir%/../Resources/templates"
+                    internal: false
+                content:
+                    path: "%kernel.root_dir%/../../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
+                    internal: true
     http_cache:
         ~

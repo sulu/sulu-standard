@@ -91,7 +91,7 @@
         <div class="row" property="images" typeof="collection">
             {% for image in content.images.data %}
                 <div class="col-lg-4" rel="images" typeof="images">
-                    <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}"/>
+                    <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>
 
                     <p class="text-primary">{{ image.title }}</p>
                 </div>
