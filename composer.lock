@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b981b9c48781ffb8de98ff306fdb1a7",
+    "hash": "3bbdb05cfe1cd93c1eb3c1713e3ac714",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -985,12 +985,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "657b8c642faa3bdc5201cdcaadcaf9c3b4d2948a"
+                "reference": "c63e30e74ac71a2854a7f5bcd8ffe940fed427ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/657b8c642faa3bdc5201cdcaadcaf9c3b4d2948a",
-                "reference": "657b8c642faa3bdc5201cdcaadcaf9c3b4d2948a",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/c63e30e74ac71a2854a7f5bcd8ffe940fed427ac",
+                "reference": "c63e30e74ac71a2854a7f5bcd8ffe940fed427ac",
                 "shasum": ""
             },
             "require": {
@@ -1048,7 +1048,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-07-30 09:41:27"
+            "time": "2014-07-31 21:31:27"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
