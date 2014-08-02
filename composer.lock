@@ -4,7 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "b842d80d2241cb4e8afb96e59d567923",
+=======
+    "hash": "0524a5a206ea2af2f2776d239013511c",
+>>>>>>> fixed #147
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2369,8 +2373,348 @@
             "time": "2014-03-28 10:53:45"
         },
         {
+<<<<<<< HEAD
             "name": "phpunit/php-file-iterator",
             "version": "1.3.4",
+=======
+            "name": "ptachoire/cssembed",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krichprollsch/phpCssEmbed.git",
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krichprollsch/phpCssEmbed/zipball/406c6d5b846cafa9186f9944a6210d0e6fed154b",
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CssEmbed": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Tachoire",
+                    "email": "pierre.tachoire@gmail.com"
+                }
+            ],
+            "description": "Css url embed library.",
+            "homepage": "https://github.com/krichprollsch/phpCssEmbed",
+            "keywords": [
+                "css",
+                "url"
+            ],
+            "time": "2013-07-22 20:01:48"
+        },
+        {
+            "name": "raulfraile/ladybug",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug.git",
+                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
+                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "ptachoire/cssembed": "v1.0.2",
+                "raulfraile/ladybug-plugin-extra": "~1.0.0",
+                "raulfraile/ladybug-theme-modern": "~1.0.0",
+                "symfony/config": ">=2.0",
+                "symfony/console": ">=2.0",
+                "symfony/dependency-injection": ">=2.0",
+                "symfony/finder": ">=2.0",
+                "twig/twig": ">=1.7.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "0.2.0",
+                "jms/serializer": ">=0.11.0",
+                "mockery/mockery": "0.8.0",
+                "phpdocumentor/reflection-docblock": "2.0.0",
+                "symfony/dom-crawler": ">=2.0.4"
+            },
+            "suggest": {
+                "jms/serializer": "Required to serialize data to XML and JSON",
+                "phpdocumentor/reflection-docblock": "Required to display object methods description",
+                "symfony/yaml": "Required to serialize data to YAML format"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Theme": [
+                        "../ladybug-themes",
+                        "data/themes"
+                    ],
+                    "Ladybug\\Plugin": [
+                        "../ladybug-plugins",
+                        "data/plugins"
+                    ],
+                    "Ladybug": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple and Extensible PHP Dumper",
+            "homepage": "https://github.com/raulfraile/ladybug",
+            "keywords": [
+                "dump",
+                "dumper",
+                "ladybug",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2013-10-15 09:36:24"
+        },
+        {
+            "name": "raulfraile/ladybug-bundle",
+            "version": "v1.0.3",
+            "target-dir": "RaulFraile/Bundle/LadybugBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/LadybugBundle.git",
+                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/f668d76b12ceb39317077fd3a1a2a7be022a0428",
+                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "raulfraile/ladybug": "~1.0.0",
+                "raulfraile/ladybug-plugin-symfony2": "~1.0.0",
+                "symfony/framework-bundle": ">=2.0.0"
+            },
+            "replace": {
+                "raulfraile/ladybugbundle": "dev-master"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "RaulFraile\\Bundle\\LadybugBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Symfony2 bundle for Ladybug library (Simple and Extensible PHP Dumper)",
+            "homepage": "https://github.com/raulfraile/LadybugBundle",
+            "keywords": [
+                "dump",
+                "ladybug",
+                "tree",
+                "twig"
+            ],
+            "time": "2014-07-03 22:36:20"
+        },
+        {
+            "name": "raulfraile/ladybug-installer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-installer.git",
+                "reference": "04f38f50cac673d3ca93de9c0805889e37804b33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-installer/zipball/04f38f50cac673d3ca93de9c0805889e37804b33",
+                "reference": "04f38f50cac673d3ca93de9c0805889e37804b33",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.*",
+                "mockery/mockery": "0.8.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "\\Ladybug\\LadybugPlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Unified installer for ladybug addons",
+            "keywords": [
+                "installer",
+                "ladybug",
+                "plugins",
+                "themes"
+            ],
+            "time": "2013-09-21 23:28:23"
+        },
+        {
+            "name": "raulfraile/ladybug-plugin-extra",
+            "version": "v1.0.1",
+            "target-dir": "Ladybug/Plugin/Extra",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-plugin-extra.git",
+                "reference": "d240770a4c610e26657e5edc0edaace6d07187b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-plugin-extra/zipball/d240770a4c610e26657e5edc0edaace6d07187b2",
+                "reference": "d240770a4c610e26657e5edc0edaace6d07187b2",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.8.0",
+                "raulfraile/ladybug": "~1.0.0"
+            },
+            "type": "ladybug-plugin",
+            "extra": {
+                "ladybug_name": "Extra"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Plugin\\Extra\\": ""
+                },
+                "files": [
+                    "Resources/php/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Extra plugin for ladybug",
+            "keywords": [
+                "ladybug",
+                "plugin"
+            ],
+            "time": "2013-09-29 10:19:08"
+        },
+        {
+            "name": "raulfraile/ladybug-plugin-symfony2",
+            "version": "v1.0.1",
+            "target-dir": "Ladybug/Plugin/Symfony2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-plugin-symfony2.git",
+                "reference": "81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-plugin-symfony2/zipball/81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84",
+                "reference": "81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.8.0",
+                "raulfraile/ladybug": "~1.0.0",
+                "symfony/http-foundation": "*"
+            },
+            "type": "ladybug-plugin",
+            "extra": {
+                "ladybug_name": "Symfony2"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Plugin\\Symfony2\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Symfony2 plugin for ladybug",
+            "keywords": [
+                "ladybug",
+                "plugin"
+            ],
+            "time": "2013-09-29 09:17:09"
+        },
+        {
+            "name": "raulfraile/ladybug-theme-modern",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-theme-modern.git",
+                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-theme-modern/zipball/528c9114ca1a82860e8b7025d1fe4f64dc728b72",
+                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0.0"
+            },
+            "type": "ladybug-theme",
+            "extra": {
+                "ladybug_name": "Modern"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Theme 'modern' for ladybug",
+            "keywords": [
+                "dump",
+                "ladybug",
+                "print_r",
+                "theme",
+                "var_dump"
+            ],
+            "time": "2013-10-07 21:55:38"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v0.4.1",
+>>>>>>> fixed #147
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
@@ -2716,6 +3060,7 @@
             "version": "v0.4.1",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/reactphp/event-loop.git",
                 "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
             },
@@ -2723,6 +3068,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
                 "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+=======
+                "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
+                "reference": "ada7c378a907b0a0e70785cf23be6d8c182d5069"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/ada7c378a907b0a0e70785cf23be6d8c182d5069",
+                "reference": "ada7c378a907b0a0e70785cf23be6d8c182d5069",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -2752,13 +3106,18 @@
             "keywords": [
                 "event-loop"
             ],
+<<<<<<< HEAD
             "time": "2014-02-26 17:36:58"
+=======
+            "time": "2014-08-01 13:31:08"
+>>>>>>> fixed #147
         },
         {
             "name": "react/socket",
             "version": "v0.4.2",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/reactphp/socket.git",
                 "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc"
             },
@@ -2766,6 +3125,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/reactphp/socket/zipball/a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
                 "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+=======
+                "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
+                "reference": "e70e5050cb16c8c11bed2e4f313c907c72b56755"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/e70e5050cb16c8c11bed2e4f313c907c72b56755",
+                "reference": "e70e5050cb16c8c11bed2e4f313c907c72b56755",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -2793,13 +3161,18 @@
             "keywords": [
                 "Socket"
             ],
+<<<<<<< HEAD
             "time": "2014-05-25 17:02:16"
+=======
+            "time": "2014-08-01 11:51:12"
+>>>>>>> fixed #147
         },
         {
             "name": "react/stream",
             "version": "v0.4.1",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/reactphp/stream.git",
                 "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60"
             },
@@ -2807,6 +3180,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/reactphp/stream/zipball/9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
                 "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
+=======
+                "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
+                "reference": "70fe27e3043d3c5f0003b9829c7d88d3592b4175"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/70fe27e3043d3c5f0003b9829c7d88d3592b4175",
+                "reference": "70fe27e3043d3c5f0003b9829c7d88d3592b4175",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -2837,13 +3219,18 @@
                 "pipe",
                 "stream"
             ],
+<<<<<<< HEAD
             "time": "2014-03-30 17:19:02"
+=======
+            "time": "2014-08-01 11:51:33"
+>>>>>>> fixed #147
         },
         {
             "name": "sebastian/exporter",
             "version": "1.0.1",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sebastianbergmann/exporter.git",
                 "reference": "1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529"
             },
@@ -2851,6 +3238,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529",
                 "reference": "1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529",
+=======
+                "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
+                "reference": "4200835c0bdab109e60767b4a15a218f7f4fdaa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/4200835c0bdab109e60767b4a15a218f7f4fdaa0",
+                "reference": "4200835c0bdab109e60767b4a15a218f7f4fdaa0",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -2904,7 +3300,11 @@
                 "export",
                 "exporter"
             ],
+<<<<<<< HEAD
             "time": "2014-02-16 08:26:31"
+=======
+            "time": "2014-08-01 11:51:54"
+>>>>>>> fixed #147
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2912,6 +3312,7 @@
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
                 "reference": "66df91b4bd637a83299d8072aed3658bfd3b3021"
             },
@@ -2919,6 +3320,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/66df91b4bd637a83299d8072aed3658bfd3b3021",
                 "reference": "66df91b4bd637a83299d8072aed3658bfd3b3021",
+=======
+                "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
+                "reference": "fedfa20e2343f7978e1b4f7885e10b1ced8bec9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/fedfa20e2343f7978e1b4f7885e10b1ced8bec9e",
+                "reference": "fedfa20e2343f7978e1b4f7885e10b1ced8bec9e",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -2952,7 +3362,11 @@
                 "configuration",
                 "distribution"
             ],
+<<<<<<< HEAD
             "time": "2013-08-22 05:04:53"
+=======
+            "time": "2014-08-01 11:53:03"
+>>>>>>> fixed #147
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2960,6 +3374,7 @@
             "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
                 "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e"
             },
@@ -2967,6 +3382,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/dbc1e5aa830f3bf8063b29102add3c1e476d616e",
                 "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e",
+=======
+                "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
+                "reference": "0b61b0e83cd79086e1387d0ed98ff5e749e0c05b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/0b61b0e83cd79086e1387d0ed98ff5e749e0c05b",
+                "reference": "0b61b0e83cd79086e1387d0ed98ff5e749e0c05b",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -3009,7 +3433,11 @@
                 "annotations",
                 "controllers"
             ],
+<<<<<<< HEAD
             "time": "2014-05-22 23:27:44"
+=======
+            "time": "2014-08-01 11:53:21"
+>>>>>>> fixed #147
         },
         {
             "name": "sensio/generator-bundle",
@@ -3017,6 +3445,7 @@
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
                 "reference": "8b7a33aa3d22388443b6de0b0cf184122e9f60d2"
             },
@@ -3024,6 +3453,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/8b7a33aa3d22388443b6de0b0cf184122e9f60d2",
                 "reference": "8b7a33aa3d22388443b6de0b0cf184122e9f60d2",
+=======
+                "url": "https://github.com/sulu-cmf/sulu.git",
+                "reference": "0e70b8e13a343fdaa9049b1d3ff3d060c11455cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/0e70b8e13a343fdaa9049b1d3ff3d060c11455cb",
+                "reference": "0e70b8e13a343fdaa9049b1d3ff3d060c11455cb",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -3121,7 +3559,11 @@
                 "translatable",
                 "tree"
             ],
+<<<<<<< HEAD
             "time": "2014-07-08 17:06:10"
+=======
+            "time": "2014-08-01 11:53:40"
+>>>>>>> fixed #147
         },
         {
             "name": "sulu/admin-bundle",
@@ -3129,6 +3571,7 @@
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
                 "reference": "ada7c378a907b0a0e70785cf23be6d8c182d5069"
             },
@@ -3136,6 +3579,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/ada7c378a907b0a0e70785cf23be6d8c182d5069",
                 "reference": "ada7c378a907b0a0e70785cf23be6d8c182d5069",
+=======
+                "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
+                "reference": "30e696a9442d57f4931e19fc6884095e1fa852fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/30e696a9442d57f4931e19fc6884095e1fa852fa",
+                "reference": "30e696a9442d57f4931e19fc6884095e1fa852fa",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -3170,7 +3622,11 @@
                 "cmf",
                 "symfony"
             ],
+<<<<<<< HEAD
             "time": "2014-08-01 13:31:08"
+=======
+            "time": "2014-08-01 11:54:05"
+>>>>>>> fixed #147
         },
         {
             "name": "sulu/category-bundle",
@@ -3178,6 +3634,7 @@
             "target-dir": "Sulu/Bundle/CategoryBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
                 "reference": "e70e5050cb16c8c11bed2e4f313c907c72b56755"
             },
@@ -3185,6 +3642,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/e70e5050cb16c8c11bed2e4f313c907c72b56755",
                 "reference": "e70e5050cb16c8c11bed2e4f313c907c72b56755",
+=======
+                "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
+                "reference": "fba2d2a245046ecb10aea41b1462731eeedc922c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/fba2d2a245046ecb10aea41b1462731eeedc922c",
+                "reference": "fba2d2a245046ecb10aea41b1462731eeedc922c",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -3227,7 +3693,11 @@
                 "categories",
                 "sulu"
             ],
+<<<<<<< HEAD
             "time": "2014-08-01 11:51:12"
+=======
+            "time": "2014-08-01 11:54:37"
+>>>>>>> fixed #147
         },
         {
             "name": "sulu/contact-bundle",
@@ -3235,6 +3705,7 @@
             "target-dir": "Sulu/Bundle/ContactBundle",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
                 "reference": "70fe27e3043d3c5f0003b9829c7d88d3592b4175"
             },
@@ -3242,6 +3713,15 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/70fe27e3043d3c5f0003b9829c7d88d3592b4175",
                 "reference": "70fe27e3043d3c5f0003b9829c7d88d3592b4175",
+=======
+                "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
+                "reference": "528989729b1b9f0c537466915420df99406f6cbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/528989729b1b9f0c537466915420df99406f6cbf",
+                "reference": "528989729b1b9f0c537466915420df99406f6cbf",
+>>>>>>> fixed #147
                 "shasum": ""
             },
             "require": {
@@ -3286,7 +3766,11 @@
                 "contact",
                 "crm"
             ],
+<<<<<<< HEAD
             "time": "2014-08-01 11:51:33"
+=======
+            "time": "2014-08-01 11:58:52"
+>>>>>>> fixed #147
         },
         {
             "name": "sulu/content-bundle",
