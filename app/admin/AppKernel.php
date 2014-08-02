@@ -45,9 +45,6 @@ class AppKernel extends Kernel
             new Liip\ThemeBundle\LiipThemeBundle(),
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
-
-            // Debug
-            new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -55,6 +52,9 @@ class AppKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
             $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
+
+            // Debug
+            $bundles[] = new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle();
         }
 
         return $bundles;
