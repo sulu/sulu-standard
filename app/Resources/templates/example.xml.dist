@@ -136,11 +136,31 @@
                     </meta>
                 </property>
 
+                <property name="downloads" type="media_selection">
+                    <meta>
+                        <title lang="de">Downloads</title>
+                        <title lang="en">Downloads</title>
+                    </meta>
+                </property>
+
                 <property name="images" type="media_selection">
                     <meta>
                         <title lang="de">Bilder</title>
                         <title lang="en">Images</title>
                     </meta>
+                    <params>
+                        <param name="types" value="image"/>
+                    </params>
+                </property>
+
+                <property name="multimedia" type="media_selection">
+                    <meta>
+                        <title lang="de">Video, Audio</title>
+                        <title lang="en">Video, Audio</title>
+                    </meta>
+                    <params>
+                        <param name="types" value="video,audio"/>
+                    </params>
                 </property>
 
                 <block name="block"

@@ -186,6 +186,16 @@ app/console sulu:security:user:create
 Follow the instruction to create a new user
 
 
+
+#### Generate translations
+```
+app/console sulu:translate:import en
+app/console sulu:translate:import de
+app/console sulu:translate:export en
+app/console sulu:translate:export de
+```
+
+
 ## What's inside?
 
 - [admin-bundle](https://github.com/sulu-cmf/SuluAdminBundle)
