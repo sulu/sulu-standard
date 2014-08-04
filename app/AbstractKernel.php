@@ -3,6 +3,10 @@
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
+/**
+ * The abstract kernel holds everything that is common between
+ * AdminKernel and WebsiteKernel
+ */
 abstract class AbstractKernel extends Kernel
 {
     private $context = null;
@@ -10,6 +14,9 @@ abstract class AbstractKernel extends Kernel
     const CONTEXT_ADMIN = 'admin';
     const CONTEXT_WEBSITE = 'website';
 
+    /**
+     * {@inheritDoc}
+     */
     public function registerBundles()
     {
         $bundles = array(
@@ -62,16 +69,28 @@ abstract class AbstractKernel extends Kernel
         return $bundles;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__ . '/config/' . $this->getContext() . '/config_' . $this->getEnvironment() . '.yml');
     }
 
+    /**
+     * {@inheritDoc}
+     */
     public function getCacheDir()
     {
         return $this->rootDir.'/cache/' . $this->getContext() . '/'.$this->environment;
     }
 
+    /**
+     * Return the application context.
+     *
+     * The context indicates to the runtime code which
+     * front controller has been accessed (e.g. website or admin)
+     */
     protected function getContext()
     {
         if (null === $this->context) {
@@ -83,6 +102,9 @@ abstract class AbstractKernel extends Kernel
         return $this->context;
     }
 
+    /**
+     * Set the context
+     */
     protected function setContext($context)
     {
         $this->context = $context;
