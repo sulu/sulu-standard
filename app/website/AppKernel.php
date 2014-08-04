@@ -24,7 +24,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
 
-            // ebables sulu bundles
+            // enables sulu bundles
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+            new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
 
             // enable cmf bundles
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),

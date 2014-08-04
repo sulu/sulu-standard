@@ -64,3 +64,7 @@ sulu_translate_api:
     resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
     type: rest
     prefix: /admin/api
+
+sulu_location:
+    resource: "@SuluLocationBundle/Resources/config/routing.yml"
+    prefix: /admin/location

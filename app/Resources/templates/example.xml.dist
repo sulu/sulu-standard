@@ -28,14 +28,14 @@
                     <tag name="sulu.rlp.part"/>
                 </property>
 
-                <property name="note" type="text_area" mandatory="true">
+                <property name="note" type="text_area">
                     <meta>
                         <title lang="de">Text Bereich</title>
                         <title lang="en">Textarea</title>
                     </meta>
                 </property>
 
-                <property name="article" type="text_editor" mandatory="true">
+                <property name="article" type="text_editor">
                     <meta>
                         <title lang="de">Text Editor</title>
                         <title lang="en">Text editor</title>
@@ -56,7 +56,7 @@
                     </meta>
                 </property>
 
-                <property name="link" type="url" mandatory="true">
+                <property name="link" type="url">
                     <meta>
                         <title lang="de">Link Eingabefeld</title>
                         <title lang="en">Link input</title>
@@ -70,21 +70,21 @@
                     </meta>
                 </property>
 
-                <property name="color" type="color" mandatory="true">
+                <property name="color" type="color">
                     <meta>
                         <title lang="de">Farb Eingabefeld</title>
                         <title lang="en">Color input</title>
                     </meta>
                 </property>
 
-                <property name="date" type="date" mandatory="false">
+                <property name="date" type="date">
                     <meta>
                         <title lang="de">Datum Eingabefeld</title>
                         <title lang="en">Date input</title>
                     </meta>
                 </property>
 
-                <property name="time" type="time" mandatory="true">
+                <property name="time" type="time">
                     <meta>
                         <title lang="de">Zeit Eingabefeld</title>
                         <title lang="en">Time input</title>
@@ -100,7 +100,7 @@
             </meta>
 
             <properties>
-                <property name="url" type="resource_locator" mandatory="true">
+                <property name="url" type="resource_locator">
                     <meta>
                         <title lang="de">Resource Locator</title>
                         <title lang="en">Resource locator</title>
@@ -163,11 +163,17 @@
                     </params>
                 </property>
 
+                <property name="location" type="location">
+                    <meta>
+                        <title lang="de">Ort</title>
+                        <title lang="en">Place</title>
+                    </meta>
+                </property>
+
                 <block name="block"
                        default-type="editor"
                        minOccurs="2"
-                       maxOccurs="10"
-                       mandatory="true">
+                       maxOccurs="10">
                     <meta>
                         <title lang="de">Block</title>
                         <title lang="en">Block</title>
@@ -181,7 +187,7 @@
                             </meta>
 
                             <properties>
-                                <property name="article" type="text_editor" mandatory="true">
+                                <property name="article" type="text_editor">
                                     <meta>
                                         <title lang="de">Artikel</title>
                                         <title lang="en">Article</title>
@@ -196,7 +202,7 @@
                             </meta>
 
                             <properties>
-                                <property name="article" type="text_area" mandatory="true">
+                                <property name="article" type="text_area">
                                     <meta>
                                         <title lang="de">Artikel</title>
                                         <title lang="en">Article</title>
@@ -211,7 +217,7 @@
                             </meta>
 
                             <properties>
-                                <property name="article" type="text_line" mandatory="true">
+                                <property name="article" type="text_line">
                                     <meta>
                                         <title lang="de">Artikel</title>
                                         <title lang="en">Article</title>
