@@ -109,4 +109,18 @@ abstract class AbstractKernel extends Kernel
     {
         $this->context = $context;
     }
+
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getKernelParameters()
+    {
+        return array_merge(
+            parent::getKernelParameters(),
+            array(
+                'sulu.context' => $this->getContext(),
+            )
+        );
+    }
 }
