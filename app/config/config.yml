@@ -95,15 +95,15 @@ sulu_core:
         username: %phpcr_user%
         password: %phpcr_pass%
     webspace:
-        ~
+        config_dir: %kernel.root_dir%/Resources/webspaces
     content:
         templates:
             paths:
                 app:
-                    path: "%kernel.root_dir%/../Resources/templates"
+                    path: "%kernel.root_dir%/Resources/templates"
                     internal: false
                 content:
-                    path: "%kernel.root_dir%/../../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
+                    path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
                     internal: true
     http_cache:
         ~
