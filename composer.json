@@ -55,7 +55,8 @@
         "sauce/sausage": "0.9.*",
         "sulu/generator-bundle": "dev-develop",
         "sulu/test-bundle": "dev-develop",
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "1.1.*",
+        "raulfraile/ladybug-bundle": "1.0.*"
     },
     "scripts": {
         "post-install-cmd": [
