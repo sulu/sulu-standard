@@ -24,6 +24,7 @@ framework:
 twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
+    exception_controller: sulu_website.exception.controller:showAction
 
 # Assetic Configuration
 assetic:
