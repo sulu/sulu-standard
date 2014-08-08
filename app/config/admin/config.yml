@@ -7,10 +7,6 @@ framework:
         resource: "%kernel.root_dir%/config/website/routing.yml"
         strict_requirements: ~
 
-cmf_routing:
-    dynamic:
-        enabled: false
-
 # Twig Configuration
 twig:
     debug:            %kernel.debug%
