@@ -87,8 +87,8 @@ sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit
 ```
 rm -rf app/cache/*
 rm -rf app/logs/*
-rm -rf uploads/media/*
-rm -rf web/uploads/media/*
+mkdir uploads && mkdir uploads/media/
+mkdir web/uploads && mkdir web/uploads/media/*
 sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/media web/uploads/media
 sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/media web/uploads/media
 ```
