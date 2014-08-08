@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3bbdb05cfe1cd93c1eb3c1713e3ac714",
+    "hash": "45704bc1fc1fae09b6a6e6cef65d0876",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "6841917fc4ca11a9cd1ba48fd039038f772db971"
+                "reference": "4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/6841917fc4ca11a9cd1ba48fd039038f772db971",
-                "reference": "6841917fc4ca11a9cd1ba48fd039038f772db971",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec",
+                "reference": "4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-08-06 06:11:40"
+            "time": "2014-08-06 15:19:33"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -1056,12 +1056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "5e91023b941cb11d8ac09c46405a4aa1920ca217"
+                "reference": "dcd601879b2e03c9615dfc2455d5bd70f59f9fb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5e91023b941cb11d8ac09c46405a4aa1920ca217",
-                "reference": "5e91023b941cb11d8ac09c46405a4aa1920ca217",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/dcd601879b2e03c9615dfc2455d5bd70f59f9fb6",
+                "reference": "dcd601879b2e03c9615dfc2455d5bd70f59f9fb6",
                 "shasum": ""
             },
             "require": {
@@ -1077,7 +1077,7 @@
                 "jms/serializer-bundle": "<0.11"
             },
             "require-dev": {
-                "jms/serializer-bundle": "0.12.*",
+                "jms/serializer-bundle": "~0.12",
                 "sensio/framework-extra-bundle": "~2.2",
                 "symfony/form": "~2.2",
                 "symfony/security": "~2.2",
@@ -1086,7 +1086,7 @@
                 "symfony/yaml": "~2.2"
             },
             "suggest": {
-                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires 0.12.*",
+                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires ~0.12",
                 "sensio/framework-extra-bundle": "Add support for route annotations and the view response listener",
                 "symfony/serializer": "Add support for basic serialization capabilities and xml decoding, requires ~2.2",
                 "symfony/validator": "Add support for validation capabilities in the ParamFetcher, requires ~2.2"
@@ -1125,7 +1125,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-02 13:36:07"
+            "time": "2014-08-07 11:22:31"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1846,12 +1846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "55bb8fc449c626ab8d47d58fa13fd37f84376dfc"
+                "reference": "3a980e5409aa3d143534e68a72895e7e33b64c75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/55bb8fc449c626ab8d47d58fa13fd37f84376dfc",
-                "reference": "55bb8fc449c626ab8d47d58fa13fd37f84376dfc",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/3a980e5409aa3d143534e68a72895e7e33b64c75",
+                "reference": "3a980e5409aa3d143534e68a72895e7e33b64c75",
                 "shasum": ""
             },
             "require": {
@@ -1892,10 +1892,8 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Allows you to easily serialize, and deserialize data of any complexity",
@@ -1907,7 +1905,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2014-07-08 16:41:25"
+            "time": "2014-08-07 13:20:59"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -2704,17 +2702,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "eb5aa4f3bb1e696c4e91e8ee29707826097ff41e"
+                "reference": "3358aa1275a5020b0be8abff54e81210eca63556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/eb5aa4f3bb1e696c4e91e8ee29707826097ff41e",
-                "reference": "eb5aa4f3bb1e696c4e91e8ee29707826097ff41e",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/3358aa1275a5020b0be8abff54e81210eca63556",
+                "reference": "3358aa1275a5020b0be8abff54e81210eca63556",
                 "shasum": ""
             },
             "require": {
@@ -2749,21 +2747,21 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-01 06:23:58"
+            "time": "2014-08-07 16:11:25"
         },
         {
             "name": "sulu/category-bundle",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "target-dir": "Sulu/Bundle/CategoryBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "4f12b2299188f2b011ccd3a366ae5d1758134efa"
+                "reference": "1b1d83ecc2fe6d075d816ce9649d2930a0543887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/4f12b2299188f2b011ccd3a366ae5d1758134efa",
-                "reference": "4f12b2299188f2b011ccd3a366ae5d1758134efa",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/1b1d83ecc2fe6d075d816ce9649d2930a0543887",
+                "reference": "1b1d83ecc2fe6d075d816ce9649d2930a0543887",
                 "shasum": ""
             },
             "require": {
@@ -2806,7 +2804,7 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-07-28 12:30:46"
+            "time": "2014-08-07 16:24:00"
         },
         {
             "name": "sulu/contact-bundle",
@@ -2869,17 +2867,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.5.3",
+            "version": "0.5.4",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "e0c518c412afc7b2969a1ec76ce568ab00be257f"
+                "reference": "b190e255165b55c5bab95f0e672c8a11d5fec03b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/e0c518c412afc7b2969a1ec76ce568ab00be257f",
-                "reference": "e0c518c412afc7b2969a1ec76ce568ab00be257f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/b190e255165b55c5bab95f0e672c8a11d5fec03b",
+                "reference": "b190e255165b55c5bab95f0e672c8a11d5fec03b",
                 "shasum": ""
             },
             "require": {
@@ -2931,7 +2929,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-06 11:00:15"
+            "time": "2014-08-07 16:15:21"
         },
         {
             "name": "sulu/media-bundle",
@@ -4225,30 +4223,31 @@
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "571f54f95f46bc8b0608d87886ba17906685edf1"
+                "reference": "3eff08407163449d33779500bbe6c7c3087bc400"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/571f54f95f46bc8b0608d87886ba17906685edf1",
-                "reference": "571f54f95f46bc8b0608d87886ba17906685edf1",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/3eff08407163449d33779500bbe6c7c3087bc400",
+                "reference": "3eff08407163449d33779500bbe6c7c3087bc400",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": ">=2.2.0,<2.5",
+                "doctrine/dbal": ">=2.2.0,<2.6",
                 "jackalope/jackalope": "~1.1.1",
                 "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.0",
-                "phpcr/phpcr-utils": "~1.1.0"
+                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
             },
             "require-dev": {
                 "phpcr/phpcr-api-tests": "2.1.0",
+                "phpunit/dbunit": "~1.3",
                 "psr/log": "~1.0"
             },
             "bin": [
@@ -4283,7 +4282,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2014-04-04 12:08:19"
+            "time": "2014-08-07 19:23:14"
         },
         {
             "name": "phpunit/php-code-coverage",
