@@ -52,16 +52,16 @@ git checkout develop
 
 ##### Setup PHPCR Session
 
-Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist}
-or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config
+Copy the one of the files app/config/{phpcr_doctrine_dbal.yml.dist}
+or {phpcr_jackrabbit.yml.dist} to app/config/phpcr.yml. The config
 is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox).
 Adjustments to the file contents are optionally.
 ```
-cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml
+cp app/config/phpcr_jackrabbit.yml.dist app/config/phpcr.yml
 ```
 or
 ```
-cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml
+cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
 ```
 
 #### Install all the dependencies with composer
@@ -79,7 +79,7 @@ rm -rf app/logs/*
 rm -rf uploads/media/*
 rm -rf web/uploads/media/*
 APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
-sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs app/e uploads/media web/uploads/media
+sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs uploads/media web/uploads/media
 sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs uploads/media web/uploads/media
 ```
 
