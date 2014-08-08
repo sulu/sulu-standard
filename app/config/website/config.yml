@@ -4,7 +4,7 @@ imports:
 
 framework:
     router:
-        resource: "%kernel.root_dir%/config/admin/routing.yml"
+        resource: "%kernel.root_dir%/config/website/routing.yml"
         strict_requirements: ~
 
 # Assetic Configuration

@@ -50,6 +50,7 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
 
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+            new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

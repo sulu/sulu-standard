@@ -4,7 +4,7 @@ imports:
 
 framework:
     router:
-        resource: "%kernel.root_dir%/config/website/routing.yml"
+        resource: "%kernel.root_dir%/config/admin/routing.yml"
         strict_requirements: ~
 
 # Twig Configuration
