@@ -8,7 +8,7 @@
 set_time_limit(0);
 
 require_once __DIR__.'/bootstrap.php.cache';
-require_once __DIR__.'/website/AppKernel.php';
+require_once __DIR__.'/WebsiteKernel.php';
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Input\ArgvInput;
@@ -22,7 +22,7 @@ if ($debug) {
     Debug::enable();
 }
 
-$kernel = new AppKernel($env, $debug);
+$kernel = new WebsiteKernel($env, $debug);
 $application = new Application($kernel);
 $application->run($input);
 

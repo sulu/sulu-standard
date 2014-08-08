@@ -30,8 +30,9 @@ Use the following template for your vhost-configuration
 </VirtualHost>
 ```
 
-Of course you also have to make sure that your webserver user has permission to access your installation folder.
-Don't forget to include `sulu.lo` in your hosts-file, if you want to use Sulu on a local machine.
+Of course you also have to make sure that your webserver user has permission
+to access your installation folder.  Don't forget to include `sulu.lo` in your
+hosts-file, if you want to use Sulu on a local machine.
 
 
 ## Installation
@@ -50,13 +51,17 @@ git checkout develop
 ```
 
 ##### Setup PHPCR Session
-Copy the one of the files app/Resources/config/{phpcr_doctrine_dbal.yml.dist} or {phpcr_jackrabbit.yml.dist} to app/Resources/config/phpcr.yml. The config is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox). Adjustments to the file contents are optionally.
+
+Copy the one of the files app/config/{phpcr_doctrine_dbal.yml.dist}
+or {phpcr_jackrabbit.yml.dist} to app/config/phpcr.yml. The config
+is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox).
+Adjustments to the file contents are optionally.
 ```
-cp app/Resources/config/phpcr_jackrabbit.yml.dist app/Resources/config/phpcr.yml
+cp app/config/phpcr_jackrabbit.yml.dist app/config/phpcr.yml
 ```
 or
 ```
-cp app/Resources/config/phpcr_doctrine_dbal.yml.dist app/Resources/config/phpcr.yml
+cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
 ```
 
 #### Install all the dependencies with composer
@@ -69,27 +74,23 @@ composer install
 
 ##### Mac OSX
 ```
-rm -rf app/admin/cache/*
-rm -rf app/admin/logs/*
-rm -rf app/website/cache/*
-rm -rf app/website/logs/*
-rm -rf uploads/media/*
-rm -rf web/uploads/media/*
+rm -rf app/cache/*
+rm -rf app/logs/*
+mkdir uploads/media
+mkdir web/uploads/media
 APACHEUSER=`ps aux | grep -E '[a]pache|[h]ttpd' | grep -v root | head -1 | cut -d\  -f1`
-sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
-sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
+sudo chmod +a "$APACHEUSER allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs uploads/media web/uploads/media
+sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs uploads/media web/uploads/media
 ```
 
 ##### Ubuntu
 ```
-rm -rf app/admin/cache/*
-rm -rf app/admin/logs/*
-rm -rf app/website/cache/*
-rm -rf app/website/logs/*
-rm -rf uploads/media/*
-rm -rf web/uploads/media/*
-sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
-sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/admin/cache app/admin/logs app/website/cache app/website/logs uploads/media web/uploads/media
+rm -rf app/cache/*
+rm -rf app/logs/*
+mkdir uploads && mkdir uploads/media/
+mkdir web/uploads && mkdir web/uploads/media/*
+sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/media web/uploads/media
+sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/media web/uploads/media
 ```
 
 #### Create database and schema

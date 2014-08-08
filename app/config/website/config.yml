@@ -1,6 +1,14 @@
 imports:
-    - { resource: ../../Resources/config/config.yml }
+    - { resource: ../config.yml }
     - { resource: security.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/website/routing.yml"
+        strict_requirements: ~
+
+twig:
+    exception_controller: sulu_website.exception.controller:showAction
 
 # Assetic Configuration
 assetic:
