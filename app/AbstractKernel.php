@@ -115,7 +115,6 @@ abstract class AbstractKernel extends Kernel
         $this->context = $context;
     }
 
-
     /**
      * {@inheritDoc}
      */
