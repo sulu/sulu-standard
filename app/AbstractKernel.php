@@ -86,6 +86,14 @@ abstract class AbstractKernel extends Kernel
     }
 
     /**
+     * {@inheritDoc}
+     */
+    public function getLogDir()
+    {
+        return $this->rootDir.'/logs/' . $this->getContext() . '/'.$this->environment;
+    }
+
+    /**
      * Return the application context.
      *
      * The context indicates to the runtime code which
