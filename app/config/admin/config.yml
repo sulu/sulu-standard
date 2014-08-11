@@ -1,6 +1,11 @@
 imports:
-    - { resource: ../../Resources/config/config.yml }
+    - { resource: ../config.yml }
     - { resource: security.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/admin/routing.yml"
+        strict_requirements: ~
 
 # Twig Configuration
 twig:

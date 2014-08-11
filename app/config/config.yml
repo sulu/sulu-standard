@@ -1,14 +1,11 @@
 imports:
-    - { resource: ../../Resources/config/parameters.yml }
-    - { resource: ../../Resources/config/phpcr.yml }
+    - { resource: parameters.yml }
+    - { resource: phpcr.yml }
 
 framework:
     #esi:             ~
     translator:      { fallback: %locale% }
     secret:          %secret%
-    router:
-        resource: "%kernel.root_dir%/config/routing.yml"
-        strict_requirements: ~
     form:            ~
     csrf_protection: ~
     validation:      { enable_annotations: true }
@@ -29,7 +26,7 @@ twig:
 assetic:
     debug:          %kernel.debug%
     use_controller: false
-    write_to:            "%kernel.root_dir%/../../web"
+    write_to:            "%kernel.root_dir%/../web"
     #bundles:        []
     #java: /usr/bin/java
     filters:
@@ -60,7 +57,7 @@ doctrine:
             gedmo_tree:
                 type: xml
                 prefix: Gedmo\Tree\Entity
-                dir: "%kernel.root_dir%/../../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
                 alias: GedmoTree # this one is optional and will default to the name set for the mapping
                 is_bundle: false
         resolve_target_entities:
@@ -97,15 +94,15 @@ sulu_core:
         username: %phpcr_user%
         password: %phpcr_pass%
     webspace:
-        ~
+        config_dir: %kernel.root_dir%/Resources/webspaces
     content:
         templates:
             paths:
                 app:
-                    path: "%kernel.root_dir%/../Resources/templates"
+                    path: "%kernel.root_dir%/Resources/templates"
                     internal: false
                 content:
-                    path: "%kernel.root_dir%/../../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
+                    path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
                     internal: true
     http_cache:
         ~

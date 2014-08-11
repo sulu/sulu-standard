@@ -22,9 +22,9 @@ $loader->unregister();
 $apcLoader->register(true);
 */
 
-require_once __DIR__ . '/../app/admin/AppKernel.php';
+require_once __DIR__ . '/../app/AdminKernel.php';
 
-$kernel = new AppKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
+$kernel = new AdminKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
 $kernel->loadClassCache();
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
