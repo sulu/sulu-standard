@@ -3436,12 +3436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "e1e0d0adb949e3cec2b2a6f99b36331af3345ca9"
+                "reference": "bccea731ea386d1093e29ea3fa01a83b997f6c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/e1e0d0adb949e3cec2b2a6f99b36331af3345ca9",
-                "reference": "e1e0d0adb949e3cec2b2a6f99b36331af3345ca9",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/bccea731ea386d1093e29ea3fa01a83b997f6c25",
+                "reference": "bccea731ea386d1093e29ea3fa01a83b997f6c25",
                 "shasum": ""
             },
             "require": {
@@ -3484,7 +3484,7 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-08-07 16:24:21"
+            "time": "2014-08-11 14:49:22"
         },
         {
             "name": "sulu/contact-bundle",
