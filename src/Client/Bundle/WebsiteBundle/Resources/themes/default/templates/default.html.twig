@@ -26,16 +26,6 @@
                     {% endfor %}
                 </div>
 
-                {% if content.categories is defined %}
-                    <h3>Categories</h3>
-
-                    <ul property="categories">
-                        {% for category in content.categories %}
-                            <li>{{ category.id }} - {{ category.name }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-
                 <h3>Internal Links</h3>
 
                 {% if content.links is defined %}
