@@ -14,6 +14,16 @@
                 <div property="article">{{ content.article }}</div>
                 {% endautoescape %}
 
+                {% if content.ext.excerpt.categories is defined %}
+                    <h3>Categories</h3>
+
+                    <ul property="categories">
+                        {% for category in content.ext.excerpt.categories %}
+                            <li>{{ category.id }} - {{ category.name }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
                 <h3>Images</h3>
 
                 <div class="row {{ content.images.displayOption }}" property="images" typeof="collection">
@@ -25,16 +35,6 @@
                         </div>
                     {% endfor %}
                 </div>
-
-                {% if content.categories is defined %}
-                    <h3>Categories</h3>
-
-                    <ul property="categories">
-                        {% for category in content.categories %}
-                            <li>{{ category.id }} - {{ category.name }}</li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
 
                 <h3>Internal Links</h3>
 
