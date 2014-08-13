@@ -93,19 +93,21 @@ sudo setfacl -R -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/m
 sudo setfacl -dR -m u:www-data:rwx -m u:`whoami`:rwx app/cache app/logs uploads/media web/uploads/media
 ```
 
-#### Create database and schema
-```
-app/console doctrine:database:create
-app/console doctrine:schema:create
-```
+#### Build Sulu
 
-#### Load database default values
-```
-app/console doctrine:fixtures:load
-```
-Answer the upcoming question with `Y`, to purge the entire database.
+The following command will intiaialize the database, load the fixtures and do
+other things required to intiialize your Sulu CMF installation:
 
-#### Download and install Jackrabbit
+````
+app/console sulu:build
+````
+
+#### Optional
+
+##### Download and install Jackrabbit
+
+Use Apache Jackrabbit as a content repository (as an alternative to
+doctrine-dbal (i.e. storing the data in a relational database).
 
 Download the jar file into a Folder of your choice.
 
@@ -113,9 +115,6 @@ Download the jar file into a Folder of your choice.
 wget http://archive.apache.org/dist/jackrabbit/2.6.3/jackrabbit-standalone-2.6.3.jar
 java -jar jackrabbit-standalone-2.6.3.jar
 ```
-
-#### Optional
-
 ##### Imagick - for better Image handling
 
 ###### Mac OSX
