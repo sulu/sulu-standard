@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "80f145c2f3ea17bc2450bc50dbd11bf4fba8509a"
+                "reference": "7dea24064193569b847cfe29dfbb65cc9bc99523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/80f145c2f3ea17bc2450bc50dbd11bf4fba8509a",
-                "reference": "80f145c2f3ea17bc2450bc50dbd11bf4fba8509a",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/7dea24064193569b847cfe29dfbb65cc9bc99523",
+                "reference": "7dea24064193569b847cfe29dfbb65cc9bc99523",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-08-12 11:22:09"
+            "time": "2014-08-13 09:56:19"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -3554,12 +3554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "75e8b7ece814326371e8c23d34e20b7b63f54dd3"
+                "reference": "d146c77ee19e2d4df6680a8526e9ffd9351a35be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/75e8b7ece814326371e8c23d34e20b7b63f54dd3",
-                "reference": "75e8b7ece814326371e8c23d34e20b7b63f54dd3",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/d146c77ee19e2d4df6680a8526e9ffd9351a35be",
+                "reference": "d146c77ee19e2d4df6680a8526e9ffd9351a35be",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3614,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-13 06:48:22"
+            "time": "2014-08-13 09:48:29"
         },
         {
             "name": "sulu/location-bundle",
@@ -3812,12 +3812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "1ec574b8897f0c8fbd4705a6bd240f7f0651c7fb"
+                "reference": "bd99ddb84e7bd6007d16ca5e21b3f423aa947df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1ec574b8897f0c8fbd4705a6bd240f7f0651c7fb",
-                "reference": "1ec574b8897f0c8fbd4705a6bd240f7f0651c7fb",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/bd99ddb84e7bd6007d16ca5e21b3f423aa947df8",
+                "reference": "bd99ddb84e7bd6007d16ca5e21b3f423aa947df8",
                 "shasum": ""
             },
             "require": {
@@ -3859,7 +3859,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-12 16:47:14"
+            "time": "2014-08-13 09:17:43"
         },
         {
             "name": "sulu/tag-bundle",
