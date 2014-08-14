@@ -25,7 +25,7 @@
 
         "sulu/sulu": "0.6.*",
         "sulu/admin-bundle": "0.6.*",
-        "sulu/contact-bundle": "0.5.*",
+        "sulu/contact-bundle": "0.6.*",
         "sulu/security-bundle": "0.6.*",
         "sulu/content-bundle": "0.6.*",
         "sulu/website-bundle": "0.6.*",
