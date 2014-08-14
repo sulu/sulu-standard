@@ -8,3 +8,5 @@
   - change twig variables for seo and excerpt from `content.extensions.seo.data.title` to `content.ext.seo.title`
 * Tags or categories which were used in xml-template should be removed and the data should be stored in excerpt tab
   - change twig variables from `content.categories` to `content.ext.excerpt.categories` same for tags
+* Navigation
+  - Use the `root_navigation` twig extension instead of the `navigation` variable in the twig templates
