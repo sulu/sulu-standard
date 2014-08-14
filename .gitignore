@@ -1,21 +1,19 @@
-/web/bundles/
-/web/js
-/web/css
 /app/bootstrap.php.cache
-/app/admin/cache/*
-/app/Resources/config/parameters.yml
-/app/admin/logs/*
-/app/website/cache/*
-/app/website/logs/*
-/uploads/*
-/uploads/media/*
-/web/uploads/media/*
-/build/
-/vendor/
+/app/cache/*
+/app/config/parameters.yml
+/app/config/phpcr.yml
+/app/logs/*
 /bin/
+/build/
 /composer.phar
 /jackrabbit
-/app/Resources/config/phpcr.yml
+/uploads/*
+/uploads/media/*
+/vendor/
+/web/bundles/
+/web/css
+/web/js
+/web/uploads/media/*
 
 # IDEs
 .idea/*
@@ -26,7 +24,7 @@
 
 
 # webspaces
-/app/Resources/webspaces/*
+/app/Resources/webspaces
 !/app/Resources/webspaces/*.dist
 
 # templates

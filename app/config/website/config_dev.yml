@@ -3,7 +3,7 @@ imports:
 
 framework:
     router:
-        resource: "%kernel.root_dir%/config/routing_dev.yml"
+        resource: "%kernel.root_dir%/config/website/routing_dev.yml"
         strict_requirements: true
     profiler: { only_exceptions: false }
 
@@ -26,6 +26,13 @@ monolog:
 
 assetic:
     use_controller: true
+
+# Debug in php and twig
+raul_fraile_ladybug:
+    array_max_nesting_level: 9 # maximum depth of dump in arrays
+    object_max_nesting_level: 3 # maximum depth of dump in objects
+    expanded: false # true to expand all the variables tree by default
+    silenced: false # true to ignore all ladybug calls
 
 #swiftmailer:
 #    delivery_address: me@example.com

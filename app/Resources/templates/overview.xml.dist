@@ -30,13 +30,6 @@
             <tag name="sulu.rlp"/>
         </property>
 
-        <property name="tags" type="tag_list">
-            <meta>
-                <title lang="de">Tags</title>
-                <title lang="en">Tags</title>
-            </meta>
-        </property>
-
         <property name="smartcontent" type="smart_content">
             <meta>
                 <title lang="de">Smart-Content</title>

@@ -30,14 +30,6 @@
             <tag name="sulu.rlp"/>
         </property>
 
-        <property name="tags" type="tag_list"/>
-        <property name="categories" type="category_list">
-            <meta>
-                <title lang="de">Kategorien</title>
-                <title lang="en">Categories</title>
-            </meta>
-        </property>
-
          <property name="links" type="internal_links">
             <meta>
                 <title lang="de">Interne Links</title>

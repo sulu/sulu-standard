@@ -65,6 +65,16 @@
             </ul>
         {% endif %}
 
+        {% if content.categories is defined %}
+            <h3>Categories</h3>
+
+            <ul property="categories">
+                {% for category in content.categories %}
+                    <li>{{ category.id }} - {{ category.name }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent.data %}
                 <div class="col-lg-4">
@@ -81,11 +91,31 @@
         <div class="row" property="images" typeof="collection">
             {% for image in content.images.data %}
                 <div class="col-lg-4" rel="images" typeof="images">
-                    <img src="{{ image.thumbnails['170x170'].url }}" alt="{{ image.name }}"/>
+                    <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>
 
                     <p class="text-primary">{{ image.title }}</p>
                 </div>
             {% endfor %}
+        </div>
+
+        <h3>Location:</h3>
+
+        <div id="location" class="row" property="location">
+            <dl>
+                <dt>Title:</dt>
+                <dd>{{ content.location.title }}</dd>
+
+                <dt>Address:</dt>
+                <dd>
+                    {{ content.location.street }} {{ content.location.number }}<br/>
+                    {{ content.location.code }} {{ content.location.town }}<br/>
+                    {{ content.location.country }}
+                </dd>
+
+            </dl>
+
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ content.location.street }},{{ content.location.number }},{{ content.location.code }} {{ content.location.town }},{{ content.location.country }}&zoom={{ content.location.zoom }}&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C{{ content.location.lat }},{{ content.location.long }}&sensor=false">
         </div>
 
         <div class="row" property="block" typeof="collection">

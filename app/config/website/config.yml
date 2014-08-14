@@ -1,0 +1,24 @@
+imports:
+    - { resource: ../config.yml }
+    - { resource: security.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/website/routing.yml"
+        strict_requirements: ~
+
+twig:
+    exception_controller: sulu_website.exception.controller:showAction
+
+# Assetic Configuration
+assetic:
+    bundles:        [ ClientWebsiteBundle ]
+
+cmf_routing:
+    chain:
+        routers_by_id:
+            router.default: 100
+            cmf_routing.dynamic_router: 20
+    dynamic:
+        enabled: true
+        route_provider_service_id: sulu_website.provider.content

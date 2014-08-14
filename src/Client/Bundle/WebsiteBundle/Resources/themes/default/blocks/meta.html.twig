@@ -1,7 +1,5 @@
-    <meta name="title" content="{{ content.extensions.seo.data.title|default('') }}">
-    <meta name="keywords" content="{{ content.extensions.seo.data.keywords|default('') }}">
-    <meta name="description" content="{{ content.extensions.seo.data.keywords|default('') }}">
-    {% if content.extensions.seo.data is not null %}
-    <meta name="robots" content="{{ content.extensions.seo.data.noIndex ? 'noIndex' : 'index' }}">
-    <meta name="robots" content="{{ content.extensions.seo.data.noFollow ? 'nofollow' : 'follow' }}">
-    {% endif %}
+    <meta name="title" content="{{ content.ext.seo.title|default('') }}">
+    <meta name="keywords" content="{{ content.ext.seo.keywords|default('') }}">
+    <meta name="description" content="{{ content.ext.seo.keywords|default('') }}">
+    <meta name="robots" content="{{ content.ext.seo.noIndex ? 'noIndex' : 'index' }}">
+    <meta name="robots" content="{{ content.ext.seo.noFollow ? 'nofollow' : 'follow' }}">

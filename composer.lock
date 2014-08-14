@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45704bc1fc1fae09b6a6e6cef65d0876",
+    "hash": "cb6e411cb0aa20301eb9e2dd3a7eb56c",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -114,7 +114,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -189,7 +189,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -256,7 +256,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -332,7 +332,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -649,7 +649,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -703,7 +703,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -984,12 +984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec"
+                "reference": "7dea24064193569b847cfe29dfbb65cc9bc99523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec",
-                "reference": "4d6ec3bed6916a356be4602ea13d4d4b5e6b93ec",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/7dea24064193569b847cfe29dfbb65cc9bc99523",
+                "reference": "7dea24064193569b847cfe29dfbb65cc9bc99523",
                 "shasum": ""
             },
             "require": {
@@ -1047,7 +1047,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-08-06 15:19:33"
+            "time": "2014-08-13 09:56:19"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -1056,12 +1056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "dcd601879b2e03c9615dfc2455d5bd70f59f9fb6"
+                "reference": "4df33da7dfdad1d6721ef56a770bb9d691c44fd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/dcd601879b2e03c9615dfc2455d5bd70f59f9fb6",
-                "reference": "dcd601879b2e03c9615dfc2455d5bd70f59f9fb6",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/4df33da7dfdad1d6721ef56a770bb9d691c44fd5",
+                "reference": "4df33da7dfdad1d6721ef56a770bb9d691c44fd5",
                 "shasum": ""
             },
             "require": {
@@ -1125,7 +1125,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-07 11:22:31"
+            "time": "2014-08-13 05:52:08"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1209,17 +1209,17 @@
         },
         {
             "name": "guzzle/common",
-            "version": "v3.9.1",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/common.git",
-                "reference": "707428cd8a99486418a66c859777b56194d67d6c"
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/common/zipball/707428cd8a99486418a66c859777b56194d67d6c",
-                "reference": "707428cd8a99486418a66c859777b56194d67d6c",
+                "url": "https://api.github.com/repos/guzzle/common/zipball/2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
                 "shasum": ""
             },
             "require": {
@@ -1249,21 +1249,21 @@
                 "event",
                 "exception"
             ],
-            "time": "2014-05-07 17:04:22"
+            "time": "2014-08-11 04:32:36"
         },
         {
             "name": "guzzle/http",
-            "version": "v3.9.1",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Http",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/http.git",
-                "reference": "222c4e7bccb945c612283d1dd81762f2a20a4efc"
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/http/zipball/222c4e7bccb945c612283d1dd81762f2a20a4efc",
-                "reference": "222c4e7bccb945c612283d1dd81762f2a20a4efc",
+                "url": "https://api.github.com/repos/guzzle/http/zipball/1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
                 "shasum": ""
             },
             "require": {
@@ -1306,11 +1306,63 @@
                 "http",
                 "http client"
             ],
-            "time": "2014-05-01 21:56:28"
+            "time": "2014-08-11 04:32:36"
+        },
+        {
+            "name": "guzzle/log",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Log",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/log.git",
+                "reference": "679d41f51bbd65d3868eeedfa33235039a57f6ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/log/zipball/679d41f51bbd65d3868eeedfa33235039a57f6ab",
+                "reference": "679d41f51bbd65d3868eeedfa33235039a57f6ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "guzzle/http": "v3.9.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Log": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle log adapter component",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "adapter",
+                "log"
+            ],
+            "time": "2014-03-26 17:15:28"
         },
         {
             "name": "guzzle/parser",
-            "version": "v3.9.1",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Parser",
             "source": {
                 "type": "git",
@@ -1353,8 +1405,109 @@
             "time": "2014-02-05 18:29:46"
         },
         {
+            "name": "guzzle/plugin-log",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Plugin/Log",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/plugin-log.git",
+                "reference": "499132cb94017cff2b498c3cf2dcf2f46bb89b1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/plugin-log/zipball/499132cb94017cff2b498c3cf2dcf2f46bb89b1d",
+                "reference": "499132cb94017cff2b498c3cf2dcf2f46bb89b1d",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "self.version",
+                "guzzle/log": "self.version",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Plugin\\Log": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle log plugin for over the wire logging",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "log",
+                "plugin"
+            ],
+            "time": "2014-01-08 21:45:39"
+        },
+        {
+            "name": "guzzle/plugin-mock",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Plugin/Mock",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/plugin-mock.git",
+                "reference": "36efdbf98fb3fbffb0942bc91fad749fbcffe0a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/plugin-mock/zipball/36efdbf98fb3fbffb0942bc91fad749fbcffe0a6",
+                "reference": "36efdbf98fb3fbffb0942bc91fad749fbcffe0a6",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "self.version",
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Plugin\\Mock": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle Mock plugin",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "mock",
+                "plugin"
+            ],
+            "time": "2014-02-25 04:11:22"
+        },
+        {
             "name": "guzzle/stream",
-            "version": "v3.9.1",
+            "version": "v3.9.2",
             "target-dir": "Guzzle/Stream",
             "source": {
                 "type": "git",
@@ -1822,9 +1975,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2033,6 +2186,100 @@
             "time": "2014-07-30 06:34:10"
         },
         {
+            "name": "matthiasnoback/symfony-config-test",
+            "version": "v0.1.1",
+            "target-dir": "Matthias/SymfonyConfigTest",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasnoback/SymfonyConfigTest.git",
+                "reference": "0a89a9d4aebf3bde3b6e8468828f1b146b49d4fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasnoback/SymfonyConfigTest/zipball/0a89a9d4aebf3bde3b6e8468828f1b146b49d4fc",
+                "reference": "0a89a9d4aebf3bde3b6e8468828f1b146b49d4fc",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/config": "2.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Matthias\\SymfonyConfigTest": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Noback",
+                    "email": "matthiasnoback@gmail.com",
+                    "homepage": "http://php-and-symfony.matthiasnoback.nl"
+                }
+            ],
+            "description": "Library for testing user classes related to the Symfony Config Component",
+            "homepage": "https://github.com/matthiasnoback/SymfonyConfigTest",
+            "keywords": [
+                "config",
+                "phpunit",
+                "symfony"
+            ],
+            "time": "2013-10-20 15:43:47"
+        },
+        {
+            "name": "matthiasnoback/symfony-dependency-injection-test",
+            "version": "v0.7.1",
+            "target-dir": "Matthias/SymfonyDependencyInjectionTest",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthiasnoback/SymfonyDependencyInjectionTest.git",
+                "reference": "807c4374a7d65e7fd07f1383d3260c9178cb41d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthiasnoback/SymfonyDependencyInjectionTest/zipball/807c4374a7d65e7fd07f1383d3260c9178cb41d4",
+                "reference": "807c4374a7d65e7fd07f1383d3260c9178cb41d4",
+                "shasum": ""
+            },
+            "require": {
+                "matthiasnoback/symfony-config-test": "0.*",
+                "phpunit/phpunit": ">=3",
+                "sebastian/exporter": "~1",
+                "symfony/dependency-injection": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Matthias\\SymfonyDependencyInjectionTest\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthias Noback",
+                    "email": "matthiasnoback@gmail.com",
+                    "homepage": "http://php-and-symfony.matthiasnoback.nl"
+                }
+            ],
+            "description": "Library for testing user classes related to the Symfony Dependency Injection Component",
+            "homepage": "http://github.com/matthiasnoback/SymfonyDependencyInjectionTest",
+            "keywords": [
+                "Symfony2",
+                "dependency injection",
+                "phpunit"
+            ],
+            "time": "2014-07-07 07:35:26"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.10.0",
             "source": {
@@ -2134,9 +2381,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2302,9 +2549,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2316,6 +2563,372 @@
                 "type"
             ],
             "time": "2014-01-09 22:37:17"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "1.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": ">=1.3.0@stable",
+                "phpunit/php-text-template": ">=1.2.0@stable",
+                "phpunit/php-token-stream": ">=1.1.3@stable"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@dev"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-03-28 10:53:45"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2013-10-10 15:34:57"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2014-01-30 17:20:04"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2013-08-02 07:42:54"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2014-03-03 05:10:30"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "3.7.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.3",
+                "phpunit/php-code-coverage": "~1.2",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.1",
+                "phpunit/php-timer": "~1.0",
+                "phpunit/phpunit-mock-objects": "~1.2",
+                "symfony/yaml": "~2.0"
+            },
+            "require-dev": {
+                "pear-pear.php.net/pear": "1.9.4"
+            },
+            "suggest": {
+                "phpunit/php-invoker": "~1.1"
+            },
+            "bin": [
+                "composer/bin/phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "",
+                "../../symfony/yaml/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-04-30 12:24:19"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-text-template": ">=1.1.1@stable"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ],
+            "time": "2013-01-13 10:24:48"
         },
         {
             "name": "psr/log",
@@ -2482,6 +3095,73 @@
                 "stream"
             ],
             "time": "2014-03-30 17:19:02"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529",
+                "reference": "1f9a98e6f5dfe0524cb8c6166f7c82f3e9ae1529",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                },
+                {
+                    "name": "Jeff Welch",
+                    "email": "whatthejeff@gmail.com"
+                },
+                {
+                    "name": "Volker Dusch",
+                    "email": "github@wallbash.com"
+                },
+                {
+                    "name": "Adam Harvey",
+                    "email": "aharvey@php.net",
+                    "role": "Lead"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@2bepublished.at"
+                }
+            ],
+            "description": "Provides the functionality to export PHP variables for visualization",
+            "homepage": "http://www.github.com/sebastianbergmann/exporter",
+            "keywords": [
+                "export",
+                "exporter"
+            ],
+            "time": "2014-02-16 08:26:31"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -2702,22 +3382,22 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.5.3",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "3358aa1275a5020b0be8abff54e81210eca63556"
+                "reference": "8d4c183f70cb696eb4b8ea15d0dd6c9e82b4339c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/3358aa1275a5020b0be8abff54e81210eca63556",
-                "reference": "3358aa1275a5020b0be8abff54e81210eca63556",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/8d4c183f70cb696eb4b8ea15d0dd6c9e82b4339c",
+                "reference": "8d4c183f70cb696eb4b8ea15d0dd6c9e82b4339c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "sulu/sulu": "0.5.*"
+                "sulu/sulu": "dev-develop"
             },
             "require-dev": {
                 "friendsofsymfony/http-cache": "@dev",
@@ -2747,21 +3427,21 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-07 16:11:25"
+            "time": "2014-08-13 13:23:52"
         },
         {
             "name": "sulu/category-bundle",
-            "version": "0.2.2",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/CategoryBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "1b1d83ecc2fe6d075d816ce9649d2930a0543887"
+                "reference": "bccea731ea386d1093e29ea3fa01a83b997f6c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/1b1d83ecc2fe6d075d816ce9649d2930a0543887",
-                "reference": "1b1d83ecc2fe6d075d816ce9649d2930a0543887",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/bccea731ea386d1093e29ea3fa01a83b997f6c25",
+                "reference": "bccea731ea386d1093e29ea3fa01a83b997f6c25",
                 "shasum": ""
             },
             "require": {
@@ -2770,8 +3450,8 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "0.5.*",
-                "sulu/sulu": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "require-dev": {
@@ -2779,7 +3459,7 @@
                 "friendsofsymfony/http-cache": "@dev",
                 "phpunit/phpunit": "4.0.*",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -2804,21 +3484,21 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-08-07 16:24:00"
+            "time": "2014-08-11 14:49:22"
         },
         {
             "name": "sulu/contact-bundle",
-            "version": "0.5.1",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/ContactBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "bd79d1c2f587706905ee37df860ab86dfd204dce"
+                "reference": "539a17e7fe80dd5e74592e6d16a31c4532402945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/bd79d1c2f587706905ee37df860ab86dfd204dce",
-                "reference": "bd79d1c2f587706905ee37df860ab86dfd204dce",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/539a17e7fe80dd5e74592e6d16a31c4532402945",
+                "reference": "539a17e7fe80dd5e74592e6d16a31c4532402945",
                 "shasum": ""
             },
             "require": {
@@ -2828,17 +3508,19 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "0.5.*",
-                "sulu/sulu": "0.5.*",
-                "sulu/tag-bundle": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/category-bundle": "dev-develop",
+                "sulu/media-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
+                "sulu/tag-bundle": "dev-develop",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "4.0.*",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sulu/security-bundle": "0.5.*",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -2863,21 +3545,21 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-07-31 12:16:40"
+            "time": "2014-08-12 08:52:49"
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.5.4",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "b190e255165b55c5bab95f0e672c8a11d5fec03b"
+                "reference": "a4045e86b11cf6fd1d31478f949c862717bed43b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/b190e255165b55c5bab95f0e672c8a11d5fec03b",
-                "reference": "b190e255165b55c5bab95f0e672c8a11d5fec03b",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/a4045e86b11cf6fd1d31478f949c862717bed43b",
+                "reference": "a4045e86b11cf6fd1d31478f949c862717bed43b",
                 "shasum": ""
             },
             "require": {
@@ -2891,12 +3573,14 @@
                 "jms/serializer-bundle": "@dev",
                 "liip/theme-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "0.5.*",
-                "sulu/contact-bundle": "0.5.*",
-                "sulu/security-bundle": "0.5.*",
-                "sulu/sulu": "0.5.*",
-                "sulu/tag-bundle": "0.5.*",
-                "sulu/website-bundle": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/category-bundle": "@dev",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/media-bundle": "@dev",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
+                "sulu/tag-bundle": "dev-develop",
+                "sulu/website-bundle": "dev-develop",
                 "symfony-cmf/core-bundle": "1.1.*@dev",
                 "symfony-cmf/routing": "1.2.*@dev",
                 "symfony-cmf/routing-bundle": "1.2.*@dev"
@@ -2904,7 +3588,8 @@
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "0.5.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -2929,21 +3614,87 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-07 16:15:21"
+            "time": "2014-08-13 15:33:09"
+        },
+        {
+            "name": "sulu/location-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/LocationBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluLocationBundle.git",
+                "reference": "4513eac2aa827c1a04e369ccba81aaf4593b9b73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluLocationBundle/zipball/4513eac2aa827c1a04e369ccba81aaf4593b9b73",
+                "reference": "4513eac2aa827c1a04e369ccba81aaf4593b9b73",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/http-cache": "1.0.*@dev",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "guzzle/http": "3.*",
+                "guzzle/plugin-log": "*",
+                "guzzle/plugin-mock": "*",
+                "jms/serializer-bundle": "@dev",
+                "matthiasnoback/symfony-config-test": "v0.1.1",
+                "matthiasnoback/symfony-dependency-injection-test": "v0.7.1",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop"
+            },
+            "require-dev": {
+                "cboden/ratchet": "dev-master",
+                "doctrine/doctrine-bundle": "1.2.*",
+                "guzzle/plugin-mock": "*",
+                "phpunit/phpunit": "4.1.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/content-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/tag-bundle": "dev-develop",
+                "sulu/test-bundle": "dev-develop",
+                "sulu/website-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\LocationBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluLocationBundle/contributors"
+                }
+            ],
+            "description": "TODO",
+            "keywords": [
+                "todo"
+            ],
+            "time": "2014-08-04 09:46:28"
         },
         {
             "name": "sulu/media-bundle",
-            "version": "0.2.1",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/MediaBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "eea5801ae9f809fc3164f42ea201d76495040fa2"
+                "reference": "790e5abc453050ad0594b309e1f998e4a24d543c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/eea5801ae9f809fc3164f42ea201d76495040fa2",
-                "reference": "eea5801ae9f809fc3164f42ea201d76495040fa2",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/790e5abc453050ad0594b309e1f998e4a24d543c",
+                "reference": "790e5abc453050ad0594b309e1f998e4a24d543c",
                 "shasum": ""
             },
             "require": {
@@ -2955,18 +3706,19 @@
                 "liip/theme-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/category-bundle": "@dev",
                 "sulu/contact-bundle": "@dev",
                 "sulu/security-bundle": "@dev",
-                "sulu/sulu": "0.5.*",
-                "sulu/tag-bundle": "0.5.*",
+                "sulu/sulu": "dev-develop",
+                "sulu/tag-bundle": "dev-develop",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "4.0.*",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -2992,21 +3744,21 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-07-31 15:26:37"
+            "time": "2014-08-13 15:32:25"
         },
         {
             "name": "sulu/security-bundle",
-            "version": "0.5.1",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/SecurityBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "3c54164e349fcef3f609261c950861fcaee64fa6"
+                "reference": "b9694e95a26c5bf6e6d83e1f5a23006b0859b6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/3c54164e349fcef3f609261c950861fcaee64fa6",
-                "reference": "3c54164e349fcef3f609261c950861fcaee64fa6",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/b9694e95a26c5bf6e6d83e1f5a23006b0859b6d1",
+                "reference": "b9694e95a26c5bf6e6d83e1f5a23006b0859b6d1",
                 "shasum": ""
             },
             "require": {
@@ -3016,9 +3768,9 @@
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
                 "stof/doctrine-extensions-bundle": "1.1.*@dev",
-                "sulu/admin-bundle": "0.5.*",
-                "sulu/contact-bundle": "0.5.*",
-                "sulu/sulu": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
                 "sulu/tag-bundle": "@dev",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
@@ -3027,7 +3779,7 @@
                 "doctrine/doctrine-fixtures-bundle": "dev-master",
                 "phpunit/phpunit": "3.7.*",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -3052,20 +3804,20 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-07-24 09:32:02"
+            "time": "2014-08-12 09:29:21"
         },
         {
             "name": "sulu/sulu",
-            "version": "0.5.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "af29eb52a5e696f9e2c7a65623ddc58198b989fb"
+                "reference": "9c012396ff78262353b4af786d2f0fbe3643f4d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/af29eb52a5e696f9e2c7a65623ddc58198b989fb",
-                "reference": "af29eb52a5e696f9e2c7a65623ddc58198b989fb",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/9c012396ff78262353b4af786d2f0fbe3643f4d2",
+                "reference": "9c012396ff78262353b4af786d2f0fbe3643f4d2",
                 "shasum": ""
             },
             "require": {
@@ -3083,7 +3835,7 @@
             "require-dev": {
                 "jackalope/jackalope-doctrine-dbal": "1.1.*",
                 "phpunit/phpunit": "4.0.*",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/symfony": "2.5.*"
             },
             "type": "library",
@@ -3107,21 +3859,21 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-07-23 15:31:14"
+            "time": "2014-08-13 13:31:21"
         },
         {
             "name": "sulu/tag-bundle",
-            "version": "0.5.0",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/TagBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
-                "reference": "3ee5efe22e11a3495d1d327fd1d10041ecf9befc"
+                "reference": "30e696a9442d57f4931e19fc6884095e1fa852fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/3ee5efe22e11a3495d1d327fd1d10041ecf9befc",
-                "reference": "3ee5efe22e11a3495d1d327fd1d10041ecf9befc",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/30e696a9442d57f4931e19fc6884095e1fa852fa",
+                "reference": "30e696a9442d57f4931e19fc6884095e1fa852fa",
                 "shasum": ""
             },
             "require": {
@@ -3130,17 +3882,17 @@
                 "friendsofsymfony/rest-bundle": "@dev",
                 "jms/serializer-bundle": "@dev",
                 "php": ">=5.4",
-                "sulu/admin-bundle": "0.5.*",
-                "sulu/contact-bundle": "0.5.*",
-                "sulu/security-bundle": "0.5.*",
-                "sulu/sulu": "0.5.*",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/contact-bundle": "dev-develop",
+                "sulu/security-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
                 "phpunit/phpunit": "3.7.*",
                 "sensio/framework-extra-bundle": "~3.0",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -3165,21 +3917,76 @@
                 "sulu",
                 "tags"
             ],
-            "time": "2014-07-23 15:10:45"
+            "time": "2014-08-01 11:54:05"
+        },
+        {
+            "name": "sulu/translate-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/TranslateBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
+                "reference": "9a55f2db186bf80454cb0d566e421d610e5e42d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/9a55f2db186bf80454cb0d566e421d610e5e42d9",
+                "reference": "9a55f2db186bf80454cb0d566e421d610e5e42d9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/orm": ">=2.2.3,<2.4-dev",
+                "friendsofsymfony/http-cache": "@dev",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "jms/serializer-bundle": "@dev",
+                "php": ">=5.4",
+                "sulu/admin-bundle": "dev-develop",
+                "sulu/sulu": "dev-develop",
+                "willdurand/hateoas-bundle": "0.3.*"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "1.2.*",
+                "sensio/framework-extra-bundle": "~3.0",
+                "sulu/test-bundle": "dev-develop",
+                "symfony/monolog-bundle": "2.4.*",
+                "symfony/symfony": "2.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\TranslateBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluTranslateBundle/contributors"
+                }
+            ],
+            "description": "Symfony bundle that provides translate functionality",
+            "keywords": [
+                "symfony",
+                "translate"
+            ],
+            "time": "2014-08-13 13:23:57"
         },
         {
             "name": "sulu/website-bundle",
-            "version": "0.5.0",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "a80edabff85735dbe116df3221e47ac77b314c67"
+                "reference": "210991b4a3527852800929a5d96c0faf3cb9343a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/a80edabff85735dbe116df3221e47ac77b314c67",
-                "reference": "a80edabff85735dbe116df3221e47ac77b314c67",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/210991b4a3527852800929a5d96c0faf3cb9343a",
+                "reference": "210991b4a3527852800929a5d96c0faf3cb9343a",
                 "shasum": ""
             },
             "require": {
@@ -3188,13 +3995,14 @@
                 "friendsofsymfony/rest-bundle": "@dev",
                 "liip/theme-bundle": "1.0.*@dev",
                 "php": ">=5.4",
-                "sulu/sulu": "0.5.*",
+                "sulu/sulu": "dev-develop",
                 "symfony-cmf/routing": "1.2.*@dev",
                 "symfony-cmf/routing-bundle": "1.2.*@dev"
             },
             "require-dev": {
+                "phpspec/prophecy-phpunit": "1.0.*",
                 "phpunit/phpunit": "3.7.*",
-                "sulu/test-bundle": "0.5.*",
+                "sulu/test-bundle": "dev-develop",
                 "symfony/monolog-bundle": "2.4.*",
                 "symfony/symfony": "2.5.*"
             },
@@ -3219,7 +4027,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-07-23 15:10:54"
+            "time": "2014-08-12 11:12:55"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4060,7 +4868,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4152,10 +4960,10 @@
             ],
             "authors": [
                 {
-                    "name": "Brian",
+                    "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "A dependable php environment",
@@ -4208,7 +5016,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -4285,372 +5093,6 @@
             "time": "2014-08-07 19:23:14"
         },
         {
-            "name": "phpunit/php-code-coverage",
-            "version": "1.2.17",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "phpunit/php-file-iterator": ">=1.3.0@stable",
-                "phpunit/php-text-template": ">=1.2.0@stable",
-                "phpunit/php-token-stream": ">=1.1.3@stable"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*@dev"
-            },
-            "suggest": {
-                "ext-dom": "*",
-                "ext-xdebug": ">=2.0.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "PHP/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
-            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
-            "keywords": [
-                "coverage",
-                "testing",
-                "xunit"
-            ],
-            "time": "2014-03-28 10:53:45"
-        },
-        {
-            "name": "phpunit/php-file-iterator",
-            "version": "1.3.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
-                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "File/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
-            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
-            "keywords": [
-                "filesystem",
-                "iterator"
-            ],
-            "time": "2013-10-10 15:34:57"
-        },
-        {
-            "name": "phpunit/php-text-template",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
-                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "Text/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Simple template engine.",
-            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
-            "keywords": [
-                "template"
-            ],
-            "time": "2014-01-30 17:20:04"
-        },
-        {
-            "name": "phpunit/php-timer",
-            "version": "1.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
-                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "PHP/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Utility class for timing",
-            "homepage": "https://github.com/sebastianbergmann/php-timer/",
-            "keywords": [
-                "timer"
-            ],
-            "time": "2013-08-02 07:42:54"
-        },
-        {
-            "name": "phpunit/php-token-stream",
-            "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
-                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "PHP/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Wrapper around PHP's tokenizer extension.",
-            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
-            "keywords": [
-                "tokenizer"
-            ],
-            "time": "2014-03-03 05:10:30"
-        },
-        {
-            "name": "phpunit/phpunit",
-            "version": "3.7.37",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-dom": "*",
-                "ext-json": "*",
-                "ext-pcre": "*",
-                "ext-reflection": "*",
-                "ext-spl": "*",
-                "php": ">=5.3.3",
-                "phpunit/php-code-coverage": "~1.2",
-                "phpunit/php-file-iterator": "~1.3",
-                "phpunit/php-text-template": "~1.1",
-                "phpunit/php-timer": "~1.0",
-                "phpunit/phpunit-mock-objects": "~1.2",
-                "symfony/yaml": "~2.0"
-            },
-            "require-dev": {
-                "pear-pear.php.net/pear": "1.9.4"
-            },
-            "suggest": {
-                "phpunit/php-invoker": "~1.1"
-            },
-            "bin": [
-                "composer/bin/phpunit"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.7.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "PHPUnit/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "",
-                "../../symfony/yaml/"
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "The PHP Unit Testing framework.",
-            "homepage": "http://www.phpunit.de/",
-            "keywords": [
-                "phpunit",
-                "testing",
-                "xunit"
-            ],
-            "time": "2014-04-30 12:24:19"
-        },
-        {
-            "name": "phpunit/phpunit-mock-objects",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
-                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "phpunit/php-text-template": ">=1.1.1@stable"
-            },
-            "suggest": {
-                "ext-soap": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "PHPUnit/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Mock Object library for PHPUnit",
-            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
-            "keywords": [
-                "mock",
-                "xunit"
-            ],
-            "time": "2013-01-13 10:24:48"
-        },
-        {
             "name": "phpunit/phpunit-selenium",
             "version": "1.4.0",
             "source": {
@@ -4703,6 +5145,341 @@
                 "xunit"
             ],
             "time": "2014-08-03 09:40:17"
+        },
+        {
+            "name": "ptachoire/cssembed",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krichprollsch/phpCssEmbed.git",
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krichprollsch/phpCssEmbed/zipball/406c6d5b846cafa9186f9944a6210d0e6fed154b",
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CssEmbed": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre Tachoire",
+                    "email": "pierre.tachoire@gmail.com"
+                }
+            ],
+            "description": "Css url embed library.",
+            "homepage": "https://github.com/krichprollsch/phpCssEmbed",
+            "keywords": [
+                "css",
+                "url"
+            ],
+            "time": "2013-07-22 20:01:48"
+        },
+        {
+            "name": "raulfraile/ladybug",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug.git",
+                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
+                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "ptachoire/cssembed": "v1.0.2",
+                "raulfraile/ladybug-plugin-extra": "~1.0.0",
+                "raulfraile/ladybug-theme-modern": "~1.0.0",
+                "symfony/config": ">=2.0",
+                "symfony/console": ">=2.0",
+                "symfony/dependency-injection": ">=2.0",
+                "symfony/finder": ">=2.0",
+                "twig/twig": ">=1.7.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "0.2.0",
+                "jms/serializer": ">=0.11.0",
+                "mockery/mockery": "0.8.0",
+                "phpdocumentor/reflection-docblock": "2.0.0",
+                "symfony/dom-crawler": ">=2.0.4"
+            },
+            "suggest": {
+                "jms/serializer": "Required to serialize data to XML and JSON",
+                "phpdocumentor/reflection-docblock": "Required to display object methods description",
+                "symfony/yaml": "Required to serialize data to YAML format"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Theme": [
+                        "../ladybug-themes",
+                        "data/themes"
+                    ],
+                    "Ladybug\\Plugin": [
+                        "../ladybug-plugins",
+                        "data/plugins"
+                    ],
+                    "Ladybug": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple and Extensible PHP Dumper",
+            "homepage": "https://github.com/raulfraile/ladybug",
+            "keywords": [
+                "dump",
+                "dumper",
+                "ladybug",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2013-10-15 09:36:24"
+        },
+        {
+            "name": "raulfraile/ladybug-bundle",
+            "version": "v1.0.3",
+            "target-dir": "RaulFraile/Bundle/LadybugBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/LadybugBundle.git",
+                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/f668d76b12ceb39317077fd3a1a2a7be022a0428",
+                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "raulfraile/ladybug": "~1.0.0",
+                "raulfraile/ladybug-plugin-symfony2": "~1.0.0",
+                "symfony/framework-bundle": ">=2.0.0"
+            },
+            "replace": {
+                "raulfraile/ladybugbundle": "dev-master"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "RaulFraile\\Bundle\\LadybugBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Symfony2 bundle for Ladybug library (Simple and Extensible PHP Dumper)",
+            "homepage": "https://github.com/raulfraile/LadybugBundle",
+            "keywords": [
+                "dump",
+                "ladybug",
+                "tree",
+                "twig"
+            ],
+            "time": "2014-07-03 22:36:20"
+        },
+        {
+            "name": "raulfraile/ladybug-installer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-installer.git",
+                "reference": "04f38f50cac673d3ca93de9c0805889e37804b33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-installer/zipball/04f38f50cac673d3ca93de9c0805889e37804b33",
+                "reference": "04f38f50cac673d3ca93de9c0805889e37804b33",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.*",
+                "mockery/mockery": "0.8.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "\\Ladybug\\LadybugPlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Unified installer for ladybug addons",
+            "keywords": [
+                "installer",
+                "ladybug",
+                "plugins",
+                "themes"
+            ],
+            "time": "2013-09-21 23:28:23"
+        },
+        {
+            "name": "raulfraile/ladybug-plugin-extra",
+            "version": "v1.0.1",
+            "target-dir": "Ladybug/Plugin/Extra",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-plugin-extra.git",
+                "reference": "d240770a4c610e26657e5edc0edaace6d07187b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-plugin-extra/zipball/d240770a4c610e26657e5edc0edaace6d07187b2",
+                "reference": "d240770a4c610e26657e5edc0edaace6d07187b2",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.8.0",
+                "raulfraile/ladybug": "~1.0.0"
+            },
+            "type": "ladybug-plugin",
+            "extra": {
+                "ladybug_name": "Extra"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Plugin\\Extra\\": ""
+                },
+                "files": [
+                    "Resources/php/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Extra plugin for ladybug",
+            "keywords": [
+                "ladybug",
+                "plugin"
+            ],
+            "time": "2013-09-29 10:19:08"
+        },
+        {
+            "name": "raulfraile/ladybug-plugin-symfony2",
+            "version": "v1.0.1",
+            "target-dir": "Ladybug/Plugin/Symfony2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-plugin-symfony2.git",
+                "reference": "81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-plugin-symfony2/zipball/81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84",
+                "reference": "81a50bdcf966ccf51e9dbf07494fdb3a4bf69b84",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.8.0",
+                "raulfraile/ladybug": "~1.0.0",
+                "symfony/http-foundation": "*"
+            },
+            "type": "ladybug-plugin",
+            "extra": {
+                "ladybug_name": "Symfony2"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ladybug\\Plugin\\Symfony2\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Symfony2 plugin for ladybug",
+            "keywords": [
+                "ladybug",
+                "plugin"
+            ],
+            "time": "2013-09-29 09:17:09"
+        },
+        {
+            "name": "raulfraile/ladybug-theme-modern",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/ladybug-theme-modern.git",
+                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-theme-modern/zipball/528c9114ca1a82860e8b7025d1fe4f64dc728b72",
+                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72",
+                "shasum": ""
+            },
+            "require": {
+                "raulfraile/ladybug-installer": "~1.0.0"
+            },
+            "type": "ladybug-theme",
+            "extra": {
+                "ladybug_name": "Modern"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Theme 'modern' for ladybug",
+            "keywords": [
+                "dump",
+                "ladybug",
+                "print_r",
+                "theme",
+                "var_dump"
+            ],
+            "time": "2013-10-07 21:55:38"
         },
         {
             "name": "sauce/sausage",
@@ -4799,23 +5576,72 @@
             "time": "2012-09-28 18:41:38"
         },
         {
+            "name": "sulu/generator-bundle",
+            "version": "dev-develop",
+            "target-dir": "Sulu/Bundle/GeneratorBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sulu-cmf/SuluGeneratorBundle.git",
+                "reference": "808138371cac90a548f873f63328bd99b71a2f40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluGeneratorBundle/zipball/808138371cac90a548f873f63328bd99b71a2f40",
+                "reference": "808138371cac90a548f873f63328bd99b71a2f40",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.0",
+                "symfony/framework-bundle": "~2.2"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.2,>=2.2.3",
+                "symfony/doctrine-bridge": "~2.2",
+                "twig/twig": "~1.11"
+            },
+            "type": "sulu-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sulu\\Bundle\\GeneratorBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sulu Community",
+                    "homepage": "https://github.com/massiveart/SuluGeneratorBundle/contributors"
+                }
+            ],
+            "description": "This bundle generates sulu code for you",
+            "time": "2014-08-01 11:52:11"
+        },
+        {
             "name": "sulu/test-bundle",
-            "version": "0.5.0",
+            "version": "dev-develop",
             "target-dir": "Sulu/Bundle/TestBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "b1ba4bbe41d4603b910ef15c991317fa6cf88655"
+                "reference": "16ca6ae91b99542966278bbe9b537dde48c553ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/b1ba4bbe41d4603b910ef15c991317fa6cf88655",
-                "reference": "b1ba4bbe41d4603b910ef15c991317fa6cf88655",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/16ca6ae91b99542966278bbe9b537dde48c553ce",
+                "reference": "16ca6ae91b99542966278bbe9b537dde48c553ce",
                 "shasum": ""
             },
             "require": {
+                "friendsofsymfony/http-cache": "@dev",
                 "php": ">=5.4",
-                "sulu/sulu": "0.5.*"
+                "sulu/sulu": "dev-develop"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -4845,19 +5671,32 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-07-23 15:10:43"
+            "time": "2014-08-12 16:05:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
+        "sulu/admin-bundle": 20,
+        "sulu/contact-bundle": 20,
+        "sulu/security-bundle": 20,
+        "sulu/content-bundle": 20,
+        "sulu/website-bundle": 20,
+        "sulu/media-bundle": 20,
+        "sulu/tag-bundle": 20,
+        "sulu/category-bundle": 20,
+        "sulu/translate-bundle": 20,
+        "sulu/location-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
         "liip/theme-bundle": 20,
         "cboden/ratchet": 20,
         "friendsofsymfony/rest-bundle": 20,
-        "friendsofsymfony/http-cache": 20
+        "friendsofsymfony/http-cache": 20,
+        "sulu/generator-bundle": 20,
+        "sulu/test-bundle": 20
     },
     "prefer-stable": false,
     "platform": {
