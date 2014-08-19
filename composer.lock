@@ -3554,12 +3554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "9935e3354c225c0987c9bd3463a5a580322fc748"
+                "reference": "8bef608cef83637ed4a5f4cddca5bfe199cac7c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/9935e3354c225c0987c9bd3463a5a580322fc748",
-                "reference": "9935e3354c225c0987c9bd3463a5a580322fc748",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8bef608cef83637ed4a5f4cddca5bfe199cac7c6",
+                "reference": "8bef608cef83637ed4a5f4cddca5bfe199cac7c6",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3614,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-19 15:03:21"
+            "time": "2014-08-19 15:41:54"
         },
         {
             "name": "sulu/location-bundle",
@@ -3818,12 +3818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "250df71a16679344bcf76d515207d1010a2d705a"
+                "reference": "79ddd64a30ac627a76b8c2599d3a13525f3eb0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/250df71a16679344bcf76d515207d1010a2d705a",
-                "reference": "250df71a16679344bcf76d515207d1010a2d705a",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/79ddd64a30ac627a76b8c2599d3a13525f3eb0db",
+                "reference": "79ddd64a30ac627a76b8c2599d3a13525f3eb0db",
                 "shasum": ""
             },
             "require": {
@@ -3865,7 +3865,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-19 14:33:57"
+            "time": "2014-08-19 15:42:46"
         },
         {
             "name": "sulu/tag-bundle",
