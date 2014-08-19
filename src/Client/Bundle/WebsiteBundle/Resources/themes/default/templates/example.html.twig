@@ -103,19 +103,19 @@
         <div id="location" class="row" property="location">
             <dl>
                 <dt>Title:</dt>
-                <dd>{{ content.location.title }}</dd>
+                <dd>{{ content.location.title|default('') }}</dd>
 
                 <dt>Address:</dt>
                 <dd>
-                    {{ content.location.street }} {{ content.location.number }}<br/>
-                    {{ content.location.code }} {{ content.location.town }}<br/>
-                    {{ content.location.country }}
+                    {{ content.location.street|default('') }} {{ content.location.number|default('') }}<br/>
+                    {{ content.location.code|default('') }} {{ content.location.town|default('') }}<br/>
+                    {{ content.location.country|default('') }}
                 </dd>
 
             </dl>
 
-            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ content.location.street }},{{ content.location.number }},{{ content.location.code }} {{ content.location.town }},{{ content.location.country }}&zoom={{ content.location.zoom }}&size=600x300&maptype=roadmap
-&markers=color:blue%7Clabel:S%7C{{ content.location.lat }},{{ content.location.long }}&sensor=false">
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ content.location.street|default('') }},{{ content.location.number|default('') }},{{ content.location.code|default('') }} {{ content.location.town|default('') }},{{ content.location.country|default('') }}&zoom={{ content.location.zoom|default('') }}&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C{{ content.location.lat|default('') }},{{ content.location.long|default('') }}&sensor=false">
         </div>
 
         <div class="row" property="block" typeof="collection">

@@ -102,7 +102,10 @@ sulu_core:
                     path: "%kernel.root_dir%/Resources/templates"
                     internal: false
                 content:
-                    path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/Templates"
+                    path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/templates"
+                    internal: true
+                sulu:
+                    path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     internal: true
     http_cache:
         ~
