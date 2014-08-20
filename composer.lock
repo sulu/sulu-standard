@@ -3549,17 +3549,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.6.1",
+            "version": "0.6.2",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "0d514807c830143cc14ade3fac08fef2b193de97"
+                "reference": "f731d0c4b36a1ad21fa4c2d6684781aaeff9642a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/0d514807c830143cc14ade3fac08fef2b193de97",
-                "reference": "0d514807c830143cc14ade3fac08fef2b193de97",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/f731d0c4b36a1ad21fa4c2d6684781aaeff9642a",
+                "reference": "f731d0c4b36a1ad21fa4c2d6684781aaeff9642a",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3614,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-19 14:42:20"
+            "time": "2014-08-20 11:01:26"
         },
         {
             "name": "sulu/location-bundle",
@@ -3814,16 +3814,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.6.1",
+            "version": "0.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "7933e64f9d3d21eeb45aab496df88125e7614328"
+                "reference": "56738e378528dafc1598636a99f92b5abebed67e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7933e64f9d3d21eeb45aab496df88125e7614328",
-                "reference": "7933e64f9d3d21eeb45aab496df88125e7614328",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/56738e378528dafc1598636a99f92b5abebed67e",
+                "reference": "56738e378528dafc1598636a99f92b5abebed67e",
                 "shasum": ""
             },
             "require": {
@@ -3865,7 +3865,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-19 14:45:51"
+            "time": "2014-08-20 11:00:44"
         },
         {
             "name": "sulu/tag-bundle",
@@ -5144,20 +5144,20 @@
         },
         {
             "name": "raulfraile/ladybug",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raulfraile/ladybug.git",
-                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1"
+                "reference": "787092f945a8e1e59ae0bd3135c0d372a9e7ea1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
-                "reference": "7878b0fec84041bc6791155b9ec357a1ff8cd3b1",
+                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/787092f945a8e1e59ae0bd3135c0d372a9e7ea1b",
+                "reference": "787092f945a8e1e59ae0bd3135c0d372a9e7ea1b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
+                "php": ">=5.3.9",
                 "ptachoire/cssembed": "v1.0.2",
                 "raulfraile/ladybug-plugin-extra": "~1.0.0",
                 "raulfraile/ladybug-theme-modern": "~1.0.0",
@@ -5170,7 +5170,7 @@
             "require-dev": {
                 "fabpot/php-cs-fixer": "0.2.0",
                 "jms/serializer": ">=0.11.0",
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.9.1",
                 "phpdocumentor/reflection-docblock": "2.0.0",
                 "symfony/dom-crawler": ">=2.0.4"
             },
@@ -5201,7 +5201,7 @@
                 {
                     "name": "Raul Fraile",
                     "email": "raulfraile@gmail.com",
-                    "homepage": "http://www.raulfrailebeneyto.com/",
+                    "homepage": "http://www.raulfb.com/",
                     "role": "Developer"
                 }
             ],
@@ -5214,21 +5214,21 @@
                 "print_r",
                 "var_dump"
             ],
-            "time": "2013-10-15 09:36:24"
+            "time": "2014-08-20 09:48:05"
         },
         {
             "name": "raulfraile/ladybug-bundle",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "target-dir": "RaulFraile/Bundle/LadybugBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raulfraile/LadybugBundle.git",
-                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428"
+                "reference": "8a1b4f349e6c245a7395f92a467faa59bfb9d908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/f668d76b12ceb39317077fd3a1a2a7be022a0428",
-                "reference": "f668d76b12ceb39317077fd3a1a2a7be022a0428",
+                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/8a1b4f349e6c245a7395f92a467faa59bfb9d908",
+                "reference": "8a1b4f349e6c245a7395f92a467faa59bfb9d908",
                 "shasum": ""
             },
             "require": {
@@ -5254,8 +5254,7 @@
                 {
                     "name": "Raul Fraile",
                     "email": "raulfraile@gmail.com",
-                    "homepage": "http://www.raulfrailebeneyto.com/",
-                    "role": "Developer"
+                    "homepage": "http://www.raulfrailebeneyto.com/"
                 }
             ],
             "description": "Symfony2 bundle for Ladybug library (Simple and Extensible PHP Dumper)",
@@ -5266,7 +5265,7 @@
                 "tree",
                 "twig"
             ],
-            "time": "2014-07-03 22:36:20"
+            "time": "2014-08-20 10:09:23"
         },
         {
             "name": "raulfraile/ladybug-installer",
