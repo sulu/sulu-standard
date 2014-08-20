@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c455333e686e0a563105fa6c0a6c9eae",
+    "hash": "8bc790d0822b9668840e516e13c13dd0",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3382,17 +3382,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.6.1",
+            "version": "0.6.2",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "a7f50b63e37379c16f3f83cb18e2ede85402afc4"
+                "reference": "5c962bcf7254db90e283de903e3c0aa06b539bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/a7f50b63e37379c16f3f83cb18e2ede85402afc4",
-                "reference": "a7f50b63e37379c16f3f83cb18e2ede85402afc4",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/5c962bcf7254db90e283de903e3c0aa06b539bbc",
+                "reference": "5c962bcf7254db90e283de903e3c0aa06b539bbc",
                 "shasum": ""
             },
             "require": {
@@ -3427,7 +3427,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-19 14:19:13"
+            "time": "2014-08-20 11:35:25"
         },
         {
             "name": "sulu/category-bundle",
