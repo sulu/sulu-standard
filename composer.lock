@@ -1056,12 +1056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "0649a4c1d8cecd27885b09c1cddddb497a0d3ca3"
+                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/0649a4c1d8cecd27885b09c1cddddb497a0d3ca3",
-                "reference": "0649a4c1d8cecd27885b09c1cddddb497a0d3ca3",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
+                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
                 "shasum": ""
             },
             "require": {
@@ -1125,7 +1125,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-15 12:18:54"
+            "time": "2014-08-20 13:19:43"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -3382,17 +3382,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.6.2",
+            "version": "0.6.3",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "5c962bcf7254db90e283de903e3c0aa06b539bbc"
+                "reference": "4238acb357edb3f40f64e8f8a6acb3355ba988eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/5c962bcf7254db90e283de903e3c0aa06b539bbc",
-                "reference": "5c962bcf7254db90e283de903e3c0aa06b539bbc",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/4238acb357edb3f40f64e8f8a6acb3355ba988eb",
+                "reference": "4238acb357edb3f40f64e8f8a6acb3355ba988eb",
                 "shasum": ""
             },
             "require": {
@@ -3427,7 +3427,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-20 11:35:25"
+            "time": "2014-08-20 17:17:14"
         },
         {
             "name": "sulu/category-bundle",
@@ -3549,17 +3549,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.6.2",
+            "version": "0.6.3",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "f731d0c4b36a1ad21fa4c2d6684781aaeff9642a"
+                "reference": "3ab342c2d31ab4cd89b1ce148071584044909c71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/f731d0c4b36a1ad21fa4c2d6684781aaeff9642a",
-                "reference": "f731d0c4b36a1ad21fa4c2d6684781aaeff9642a",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3ab342c2d31ab4cd89b1ce148071584044909c71",
+                "reference": "3ab342c2d31ab4cd89b1ce148071584044909c71",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3614,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-20 11:01:26"
+            "time": "2014-08-20 17:15:42"
         },
         {
             "name": "sulu/location-bundle",
@@ -3814,16 +3814,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.6.2",
+            "version": "0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "56738e378528dafc1598636a99f92b5abebed67e"
+                "reference": "7dc96c64c0054104e02680a23e25faf2147ba1ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/56738e378528dafc1598636a99f92b5abebed67e",
-                "reference": "56738e378528dafc1598636a99f92b5abebed67e",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7dc96c64c0054104e02680a23e25faf2147ba1ef",
+                "reference": "7dc96c64c0054104e02680a23e25faf2147ba1ef",
                 "shasum": ""
             },
             "require": {
@@ -3865,7 +3865,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-20 11:00:44"
+            "time": "2014-08-20 17:17:53"
         },
         {
             "name": "sulu/tag-bundle",
@@ -3930,17 +3930,17 @@
         },
         {
             "name": "sulu/website-bundle",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "6b9d8296b0463c2b4d47364559bcb3a4daafef60"
+                "reference": "97943f860b01cb31eccb2e83c137290b1dc57424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/6b9d8296b0463c2b4d47364559bcb3a4daafef60",
-                "reference": "6b9d8296b0463c2b4d47364559bcb3a4daafef60",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/97943f860b01cb31eccb2e83c137290b1dc57424",
+                "reference": "97943f860b01cb31eccb2e83c137290b1dc57424",
                 "shasum": ""
             },
             "require": {
@@ -3981,7 +3981,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-08-14 07:38:01"
+            "time": "2014-08-20 17:16:20"
         },
         {
             "name": "swiftmailer/swiftmailer",
