@@ -114,7 +114,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -189,7 +189,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -256,7 +256,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -332,7 +332,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -546,12 +546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "ccd69d9ec90013955a412a21125672afc09738dc"
+                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/ccd69d9ec90013955a412a21125672afc09738dc",
-                "reference": "ccd69d9ec90013955a412a21125672afc09738dc",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
+                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
                 "shasum": ""
             },
             "require": {
@@ -577,18 +577,16 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
                 },
                 {
                     "name": "Doctrine Project",
                     "homepage": "http://www.doctrine-project.org"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony DoctrineFixturesBundle",
@@ -597,7 +595,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2014-03-05 01:11:31"
+            "time": "2014-08-20 20:34:54"
         },
         {
             "name": "doctrine/inflector",
@@ -649,7 +647,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -703,7 +701,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1056,17 +1054,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f"
+                "reference": "917c940d0c7599c84935c653054f86b158a17393"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
-                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/917c940d0c7599c84935c653054f86b158a17393",
+                "reference": "917c940d0c7599c84935c653054f86b158a17393",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "1.0.*",
-                "php": ">=5.3.2",
+                "doctrine/inflector": "~1.0",
+                "php": ">=5.3.3",
                 "psr/log": "~1.0",
                 "symfony/framework-bundle": "~2.2",
                 "willdurand/jsonp-callback-validator": "~1.0",
@@ -1094,7 +1092,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1125,7 +1123,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-20 13:19:43"
+            "time": "2014-08-21 06:15:59"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1975,9 +1973,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2381,9 +2379,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2549,9 +2547,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -3387,12 +3385,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "d5a9501fb69b15792e24bb7727af9ef9a06f6e03"
+                "reference": "119773526d2daaae1b7035e76591a7a6692b69c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d5a9501fb69b15792e24bb7727af9ef9a06f6e03",
-                "reference": "d5a9501fb69b15792e24bb7727af9ef9a06f6e03",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/119773526d2daaae1b7035e76591a7a6692b69c6",
+                "reference": "119773526d2daaae1b7035e76591a7a6692b69c6",
                 "shasum": ""
             },
             "require": {
@@ -3427,7 +3425,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-20 14:07:43"
+            "time": "2014-08-20 17:41:23"
         },
         {
             "name": "sulu/category-bundle",
@@ -3554,12 +3552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "bb4351b4b7379bbc7798d6580ea125b825b3d26e"
+                "reference": "f64a1c5795440065ecd5a8741e2814666cf86b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/bb4351b4b7379bbc7798d6580ea125b825b3d26e",
-                "reference": "bb4351b4b7379bbc7798d6580ea125b825b3d26e",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/f64a1c5795440065ecd5a8741e2814666cf86b1e",
+                "reference": "f64a1c5795440065ecd5a8741e2814666cf86b1e",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3612,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-20 17:11:16"
+            "time": "2014-08-20 17:39:39"
         },
         {
             "name": "sulu/location-bundle",
@@ -3818,12 +3816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "76e26588bbd8d7e52b41680ba8fbcd232c1d37b3"
+                "reference": "ef82c722fe983a31028977e86f3d372b8216229e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/76e26588bbd8d7e52b41680ba8fbcd232c1d37b3",
-                "reference": "76e26588bbd8d7e52b41680ba8fbcd232c1d37b3",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/ef82c722fe983a31028977e86f3d372b8216229e",
+                "reference": "ef82c722fe983a31028977e86f3d372b8216229e",
                 "shasum": ""
             },
             "require": {
@@ -3865,7 +3863,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-20 11:24:23"
+            "time": "2014-08-20 17:41:44"
         },
         {
             "name": "sulu/tag-bundle",
@@ -3990,12 +3988,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "dd5462fd98bb0d5b8a8c91127cb83cb3c1a9e21d"
+                "reference": "abaf15b65bc1059f33c6a4acae8b48120bcd2121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/dd5462fd98bb0d5b8a8c91127cb83cb3c1a9e21d",
-                "reference": "dd5462fd98bb0d5b8a8c91127cb83cb3c1a9e21d",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/abaf15b65bc1059f33c6a4acae8b48120bcd2121",
+                "reference": "abaf15b65bc1059f33c6a4acae8b48120bcd2121",
                 "shasum": ""
             },
             "require": {
@@ -4036,7 +4034,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-08-14 06:40:55"
+            "time": "2014-08-20 17:39:14"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4877,7 +4875,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -4969,10 +4967,10 @@
             ],
             "authors": [
                 {
-                    "name": "Brian",
+                    "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "A dependable php environment",
@@ -5025,7 +5023,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -5799,9 +5797,7 @@
             "time": "2014-08-18 15:24:31"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
@@ -5829,7 +5825,5 @@
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
