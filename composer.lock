@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8bc790d0822b9668840e516e13c13dd0",
+    "hash": "41fd8f224f6cf8f9397e16222fb6f287",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -546,12 +546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "ccd69d9ec90013955a412a21125672afc09738dc"
+                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/ccd69d9ec90013955a412a21125672afc09738dc",
-                "reference": "ccd69d9ec90013955a412a21125672afc09738dc",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
+                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
                 "shasum": ""
             },
             "require": {
@@ -577,18 +577,16 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
                 },
                 {
                     "name": "Doctrine Project",
                     "homepage": "http://www.doctrine-project.org"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony DoctrineFixturesBundle",
@@ -597,7 +595,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2014-03-05 01:11:31"
+            "time": "2014-08-20 20:34:54"
         },
         {
             "name": "doctrine/inflector",
@@ -1056,17 +1054,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f"
+                "reference": "917c940d0c7599c84935c653054f86b158a17393"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
-                "reference": "5a0f09ab630ceb3267657b81fb82c2f29f46fb7f",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/917c940d0c7599c84935c653054f86b158a17393",
+                "reference": "917c940d0c7599c84935c653054f86b158a17393",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "1.0.*",
-                "php": ">=5.3.2",
+                "doctrine/inflector": "~1.0",
+                "php": ">=5.3.3",
                 "psr/log": "~1.0",
                 "symfony/framework-bundle": "~2.2",
                 "willdurand/jsonp-callback-validator": "~1.0",
@@ -1094,7 +1092,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1125,7 +1123,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-20 13:19:43"
+            "time": "2014-08-21 06:15:59"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -3382,17 +3380,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.6.3",
+            "version": "0.6.4",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "4238acb357edb3f40f64e8f8a6acb3355ba988eb"
+                "reference": "28e67cff34ee9a50b891c3423d0883c43937cbd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/4238acb357edb3f40f64e8f8a6acb3355ba988eb",
-                "reference": "4238acb357edb3f40f64e8f8a6acb3355ba988eb",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/28e67cff34ee9a50b891c3423d0883c43937cbd1",
+                "reference": "28e67cff34ee9a50b891c3423d0883c43937cbd1",
                 "shasum": ""
             },
             "require": {
@@ -3427,7 +3425,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-08-20 17:17:14"
+            "time": "2014-08-21 12:02:39"
         },
         {
             "name": "sulu/category-bundle",
@@ -3549,17 +3547,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.6.3",
+            "version": "0.6.4",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "3ab342c2d31ab4cd89b1ce148071584044909c71"
+                "reference": "3fa4d09d9cceeccf0a43726b6603bd7038fa7b1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3ab342c2d31ab4cd89b1ce148071584044909c71",
-                "reference": "3ab342c2d31ab4cd89b1ce148071584044909c71",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3fa4d09d9cceeccf0a43726b6603bd7038fa7b1c",
+                "reference": "3fa4d09d9cceeccf0a43726b6603bd7038fa7b1c",
                 "shasum": ""
             },
             "require": {
@@ -3614,7 +3612,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-20 17:15:42"
+            "time": "2014-08-21 11:47:50"
         },
         {
             "name": "sulu/location-bundle",
@@ -3687,17 +3685,17 @@
         },
         {
             "name": "sulu/media-bundle",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "target-dir": "Sulu/Bundle/MediaBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "a1a1aa41293df8d16200fd30fdd6acdc4436931f"
+                "reference": "06f4079a3e09dac12e47c0f906374bc64079dd05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/a1a1aa41293df8d16200fd30fdd6acdc4436931f",
-                "reference": "a1a1aa41293df8d16200fd30fdd6acdc4436931f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/06f4079a3e09dac12e47c0f906374bc64079dd05",
+                "reference": "06f4079a3e09dac12e47c0f906374bc64079dd05",
                 "shasum": ""
             },
             "require": {
@@ -3747,7 +3745,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-08-14 07:11:25"
+            "time": "2014-08-21 12:03:39"
         },
         {
             "name": "sulu/security-bundle",
@@ -5144,23 +5142,23 @@
         },
         {
             "name": "raulfraile/ladybug",
-            "version": "v1.0.9",
+            "version": "v1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raulfraile/ladybug.git",
-                "reference": "787092f945a8e1e59ae0bd3135c0d372a9e7ea1b"
+                "reference": "b5e8ed173c3e3637674dd2e5ff48e323a6011dd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/787092f945a8e1e59ae0bd3135c0d372a9e7ea1b",
-                "reference": "787092f945a8e1e59ae0bd3135c0d372a9e7ea1b",
+                "url": "https://api.github.com/repos/raulfraile/ladybug/zipball/b5e8ed173c3e3637674dd2e5ff48e323a6011dd4",
+                "reference": "b5e8ed173c3e3637674dd2e5ff48e323a6011dd4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
                 "ptachoire/cssembed": "v1.0.2",
                 "raulfraile/ladybug-plugin-extra": "~1.0.0",
-                "raulfraile/ladybug-theme-modern": "~1.0.0",
+                "raulfraile/ladybug-theme-modern": ">=1.0.7,<2.0",
                 "symfony/config": ">=2.0",
                 "symfony/console": ">=2.0",
                 "symfony/dependency-injection": ">=2.0",
@@ -5214,7 +5212,7 @@
                 "print_r",
                 "var_dump"
             ],
-            "time": "2014-08-20 09:48:05"
+            "time": "2014-08-21 08:43:21"
         },
         {
             "name": "raulfraile/ladybug-bundle",
@@ -5402,16 +5400,16 @@
         },
         {
             "name": "raulfraile/ladybug-theme-modern",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raulfraile/ladybug-theme-modern.git",
-                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72"
+                "reference": "0271ed62bc45397be9e346c9c19a0ae0d811ef8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raulfraile/ladybug-theme-modern/zipball/528c9114ca1a82860e8b7025d1fe4f64dc728b72",
-                "reference": "528c9114ca1a82860e8b7025d1fe4f64dc728b72",
+                "url": "https://api.github.com/repos/raulfraile/ladybug-theme-modern/zipball/0271ed62bc45397be9e346c9c19a0ae0d811ef8e",
+                "reference": "0271ed62bc45397be9e346c9c19a0ae0d811ef8e",
                 "shasum": ""
             },
             "require": {
@@ -5433,7 +5431,7 @@
                 "theme",
                 "var_dump"
             ],
-            "time": "2013-10-07 21:55:38"
+            "time": "2014-08-21 08:27:46"
         },
         {
             "name": "sauce/sausage",
