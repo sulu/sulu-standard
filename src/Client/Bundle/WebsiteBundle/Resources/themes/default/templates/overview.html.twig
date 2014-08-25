@@ -28,7 +28,11 @@
                     <div class="col-lg-4">
                         <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
                         {% autoescape false %}
-                        {{ smartcontent.article }}
+                        {% if smartcontent.article is defined %}
+                            {{ smartcontent.article }}
+                        {% else %}
+                            <p>No Article found</p>
+                        {% endif %}
                         {% endautoescape %}
                     </div>
                 {% endfor %}
