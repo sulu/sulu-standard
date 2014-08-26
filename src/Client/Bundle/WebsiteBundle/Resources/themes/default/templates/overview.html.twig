@@ -31,7 +31,7 @@
                         {% if page.article is defined %}
                             {{ page.article|slice(0, 50) }}
                         {% else %}
-                            no article property
+                            <p>No Article found</p>
                         {% endif %}
                         {% endautoescape %}
                     </div>
