@@ -17,3 +17,4 @@ parameters:
 
     content_fallback_intervall: 5000
     content_preview_port: 9876
+    content_preview_url: ws://sulu.lo
