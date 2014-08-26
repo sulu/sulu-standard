@@ -2184,6 +2184,48 @@
             "time": "2014-07-30 06:34:10"
         },
         {
+            "name": "massive/build-bundle",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/massiveart/MassiveBuildBundle.git",
+                "reference": "b74a77acfd4c7000ad2dc3e03b736332a95e7ae7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/massiveart/MassiveBuildBundle/zipball/b74a77acfd4c7000ad2dc3e03b736332a95e7ae7",
+                "reference": "b74a77acfd4c7000ad2dc3e03b736332a95e7ae7",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.4",
+                "symfony/framework-bundle": "~2.4"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-dependency-injection-test": "v0.7.1",
+                "phpspec/prophecy-phpunit": "v1.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massive\\Bundle\\BuildBundle\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Leech",
+                    "email": "daniel.leech@massiveart.com"
+                }
+            ],
+            "description": "Massive Art Build Bundle",
+            "homepage": "https://github.com/massiveart/MassiveBuildBundle",
+            "time": "2014-08-13 12:58:45"
+        },
+        {
             "name": "matthiasnoback/symfony-config-test",
             "version": "v0.1.1",
             "target-dir": "Matthias/SymfonyConfigTest",
@@ -3816,12 +3858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "12c046ac9d24ddaf0a33d1c2f5b903e04e8f22b0"
+                "reference": "1fb2ddbbf2705bad558d6bb19d9737d72ad45da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/12c046ac9d24ddaf0a33d1c2f5b903e04e8f22b0",
-                "reference": "12c046ac9d24ddaf0a33d1c2f5b903e04e8f22b0",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1fb2ddbbf2705bad558d6bb19d9737d72ad45da3",
+                "reference": "1fb2ddbbf2705bad558d6bb19d9737d72ad45da3",
                 "shasum": ""
             },
             "require": {
@@ -3831,6 +3873,7 @@
                 "friendsofsymfony/http-cache": "dev-master",
                 "friendsofsymfony/rest-bundle": "dev-master",
                 "jackalope/jackalope-jackrabbit": "1.1.*",
+                "massive/build-bundle": "~0.1.0",
                 "php": ">=5.4",
                 "sensio/distribution-bundle": "2.3.*",
                 "symfony/framework-bundle": "2.5.*",
@@ -3863,7 +3906,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-25 14:48:49"
+            "time": "2014-08-26 09:09:14"
         },
         {
             "name": "sulu/tag-bundle",
