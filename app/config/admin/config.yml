@@ -33,6 +33,7 @@ sulu_content:
         fallback:
             interval: %content_fallback_intervall%
         websocket:
+            url: %content_preview_url%
             port: %content_preview_port%
 
 sulu_admin:
