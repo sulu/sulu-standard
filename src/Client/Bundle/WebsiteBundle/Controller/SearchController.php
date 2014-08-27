@@ -16,7 +16,7 @@ class SearchController extends Controller
 
         $hits = $searchManager->search($query, 'content');
 
-        return $this->render('ClientWebsiteBundle:Search:query.html.twig', array(
+        return $this->render('ClientWebsiteBundle:views:query.html.twig', array(
             'query' => $query,
             'hits' => $hits,
         ));

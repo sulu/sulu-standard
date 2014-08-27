@@ -68,3 +68,6 @@ sulu_translate_api:
 sulu_location:
     resource: "@SuluLocationBundle/Resources/config/routing.yml"
     prefix: /admin/location
+
+client_website:
+    resource: "@ClientWebsiteBundle/Resources/config/routing.yml"

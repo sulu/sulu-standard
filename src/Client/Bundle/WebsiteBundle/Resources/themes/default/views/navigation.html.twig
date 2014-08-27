@@ -1,7 +1,9 @@
 <ul class="nav nav-justified">
-    {% for item in root_navigation(content, 1, false, 'main') %}
-        <li>
-            <a href="{{ content_path(item) }}" title="{{ item.title }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
+    {% if content is defined %}
+        {% for item in root_navigation(content, 1, false, 'main') %}
+            <li>
+                <a href="{{ content_path(item) }}" title="{{ item.title }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    {% endif %}
 </ul>
