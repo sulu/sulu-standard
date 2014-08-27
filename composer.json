@@ -34,6 +34,10 @@
         "sulu/category-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
+        "sulu/search-bundle": "dev-develop",
+
+        "nelmio/alice": "~1.7",
+        "doctrine/data-fixtures": "1.0.*",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -41,6 +45,9 @@
         "jackalope/jackalope-jackrabbit": "1.1.*",
         "doctrine/phpcr-bundle": "1.1.*",
         "doctrine/phpcr-odm": "1.1.*",
+
+        "zendframework/zend-stdlib": "~2.3",
+        "zendframework/zendsearch": "@dev",
 
         "symfony-cmf/core-bundle": "1.1.*",
         "symfony-cmf/routing-bundle": "1.2.*",
