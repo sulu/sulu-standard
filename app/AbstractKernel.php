@@ -58,6 +58,9 @@ abstract class AbstractKernel extends Kernel
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
+
+            // tools
+            new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
