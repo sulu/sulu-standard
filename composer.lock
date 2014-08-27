@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce131a9de1276e3ce304012427e6fe88",
+    "hash": "8e87ac6dbbd044da5f818a04d60bf424",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3552,12 +3552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "e1e766de58281a9e659f88c83de0f33d69d23b08"
+                "reference": "8d0c5a41631a9b59e2b7f4248505de9b32a8ec44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/e1e766de58281a9e659f88c83de0f33d69d23b08",
-                "reference": "e1e766de58281a9e659f88c83de0f33d69d23b08",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8d0c5a41631a9b59e2b7f4248505de9b32a8ec44",
+                "reference": "8d0c5a41631a9b59e2b7f4248505de9b32a8ec44",
                 "shasum": ""
             },
             "require": {
@@ -3612,7 +3612,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-08-27 05:52:40"
+            "time": "2014-08-27 10:09:47"
         },
         {
             "name": "sulu/location-bundle",
@@ -3690,12 +3690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "8f5d3e1d0faf25013dab09139c600ecda0a656bf"
+                "reference": "4eed00077451b92492257884adcc25ae7d5c2c8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/8f5d3e1d0faf25013dab09139c600ecda0a656bf",
-                "reference": "8f5d3e1d0faf25013dab09139c600ecda0a656bf",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/4eed00077451b92492257884adcc25ae7d5c2c8b",
+                "reference": "4eed00077451b92492257884adcc25ae7d5c2c8b",
                 "shasum": ""
             },
             "require": {
@@ -3745,7 +3745,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-08-26 14:06:15"
+            "time": "2014-08-27 09:54:18"
         },
         {
             "name": "sulu/security-bundle",
@@ -3816,12 +3816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "62946a501dbb6d53fea4de9d2e224eed72e31bf5"
+                "reference": "c613c4d841a4cedf0fbc50896a076363143f82f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/62946a501dbb6d53fea4de9d2e224eed72e31bf5",
-                "reference": "62946a501dbb6d53fea4de9d2e224eed72e31bf5",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c613c4d841a4cedf0fbc50896a076363143f82f9",
+                "reference": "c613c4d841a4cedf0fbc50896a076363143f82f9",
                 "shasum": ""
             },
             "require": {
@@ -3863,7 +3863,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-08-26 13:30:04"
+            "time": "2014-08-27 09:51:43"
         },
         {
             "name": "sulu/tag-bundle",
