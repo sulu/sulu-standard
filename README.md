@@ -166,6 +166,13 @@ cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml
 ```
 You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
 
+##### Widgets
+
+Widgets are small UI-components which are mainly seen in the sidebar. In the configuration file it can be specified which widgets are contained in which sidebar. To use the default configuration just run the follwing command:
+
+```
+cp app/config/widgets.yml.dist app/config/widgets.yml
+
 #### Init Content Repository
 
 ```
