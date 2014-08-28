@@ -172,6 +172,7 @@ Widgets are small UI-components which are mainly seen in the sidebar. In the con
 
 ```
 cp app/config/widgets.yml.dist app/config/widgets.yml
+```
 
 #### Init Content Repository
 
