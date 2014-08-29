@@ -22,7 +22,7 @@
             </div>
 
             <div property="smartcontent">
-                {% for page in content.smartcontent.data %}
+                {% for page in content.smartcontent %}
                     <div class="col-lg-4">
                         <h2>
                             <a href="{{ content_path(page) }}">{{ page.title }}</a>
