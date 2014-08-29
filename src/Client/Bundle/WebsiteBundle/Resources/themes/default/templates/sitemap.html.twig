@@ -24,9 +24,7 @@
             <h1 class="page-header" property="title">{{ content.title }}</h1>
 
             <ul>
-                {% for site in sitemap(content) %}
-                    {{ _self.recursiveSitemap(site) }}
-                {% endfor %}
+                {{ _self.recursiveSitemap(sitemap(content)) }}
             </ul>
         </div>
     </div>
