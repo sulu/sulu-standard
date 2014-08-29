@@ -61,6 +61,8 @@
 
                     <params>
                         <param name="godMode" value="true"/>
+                        <param name="links" value="true"/>
+                        <param name="tables" value="true"/>
                     </params>
                 </property>
             </properties>
