@@ -32,7 +32,7 @@
                 {% for page in content.smartcontent %}
                     <div class="col-lg-4">
                         <h2>
-                            <a href="{{ content_path(page.url) }}">{{ page.title }}</a>
+                            <a href="{{ content_path(page.resourceLocator) }}">{{ page.title }}</a>
                         </h2>
                         {% autoescape false %}
                         {% if page.article is defined %}
