@@ -51,12 +51,16 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
+
+            // tools
+            new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -64,6 +68,9 @@ abstract class AbstractKernel extends Kernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+
+            // sulu
+            $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
 
             // debug enhancement
             $bundles[] = new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle();
