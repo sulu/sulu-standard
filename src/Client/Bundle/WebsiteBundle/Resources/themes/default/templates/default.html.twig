@@ -42,7 +42,7 @@
                     <ul property="links">
                         {% for link in content.links %}
                             <li>
-                                <a href="{{ content_path(link) }}">{{ link.title|default('No Title') }}</a>
+                                <a href="{{ content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
                             </li>
                         {% endfor %}
                     </ul>

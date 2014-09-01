@@ -23,16 +23,16 @@
 
             <ul class="pagination">
                 {% if app.request.get('p')-1 >= 0 %}
-                    <li><a href="{{ app.request.uri }}?p={{ app.request.get('p')-1 }}">&laquo;</a></li>
+                    <li><a href="{{ content_path(content.url) }}?p={{ app.request.get('p')-1 }}">&laquo;</a></li>
                 {% endif %}
-                <li><a href="{{ app.request.uri }}?p={{ app.request.get('p')+1 }}">&raquo;</a></li>
+                <li><a href="{{ content_path(content.url) }}?p={{ app.request.get('p')+1 }}">&raquo;</a></li>
             </ul>
 
             <div property="smartcontent">
                 {% for page in content.smartcontent %}
                     <div class="col-lg-4">
                         <h2>
-                            <a href="{{ content_path(page) }}">{{ page.title }}</a>
+                            <a href="{{ content_path(page.url) }}">{{ page.title }}</a>
                         </h2>
                         {% autoescape false %}
                         {% if page.article is defined %}

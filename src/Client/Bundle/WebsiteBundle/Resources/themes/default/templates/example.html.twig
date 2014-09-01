@@ -59,7 +59,7 @@
             <ul property="links">
                 {% for link in content.links %}
                     <li>
-                        <a href="{{ content_path(link) }}">{{ link.title|default('No Title') }}</a>
+                        <a href="{{ content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -78,7 +78,7 @@
         <div property="smartcontent">
             {% for smartcontent in content.smartcontent %}
                 <div class="col-lg-4">
-                    <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                    <h2><a href="{{ content_path(smartcontent.url) }}">{{ smartcontent.title }}</a></h2>
                     {% autoescape false %}
                     {{ smartcontent.article }}
                     {% endautoescape %}
