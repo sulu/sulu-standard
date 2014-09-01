@@ -24,7 +24,7 @@
             <h1 class="page-header" property="title">{{ content.title }}</h1>
 
             <ul>
-                {{ _self.recursiveSitemap(sitemap(content)) }}
+                {{ _self.recursiveSitemap(sitemap(content.webspaceKey, content.languageCode)) }}
             </ul>
         </div>
     </div>
