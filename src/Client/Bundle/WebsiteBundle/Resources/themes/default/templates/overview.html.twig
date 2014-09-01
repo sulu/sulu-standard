@@ -21,6 +21,13 @@
                 <h2>Smart-Content</h2>
             </div>
 
+            <ul class="pagination">
+                {% if app.request.get('p')-1 >= 0 %}
+                    <li><a href="{{ app.request.uri }}?p={{ app.request.get('p')-1 }}">&laquo;</a></li>
+                {% endif %}
+                <li><a href="{{ app.request.uri }}?p={{ app.request.get('p')+1 }}">&raquo;</a></li>
+            </ul>
+
             <div property="smartcontent">
                 {% for page in content.smartcontent %}
                     <div class="col-lg-4">
