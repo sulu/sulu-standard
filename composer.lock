@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4958401a2a512fcd584b06d262f32d8b",
+    "hash": "12b18a73dae4a1c13aacecce4d78b67e",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Ratchet.git",
-                "reference": "6c0d0178b73e7f584297f97f54a1fbaaad454fa8"
+                "reference": "dbb99058421e39ef3cee795088156421ff4fdaa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/6c0d0178b73e7f584297f97f54a1fbaaad454fa8",
-                "reference": "6c0d0178b73e7f584297f97f54a1fbaaad454fa8",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/dbb99058421e39ef3cee795088156421ff4fdaa0",
+                "reference": "dbb99058421e39ef3cee795088156421ff4fdaa0",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-08-02 16:01:54"
+            "time": "2014-08-29 10:02:42"
         },
         {
             "name": "doctrine/annotations",
@@ -114,7 +114,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -189,7 +189,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -256,7 +256,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -332,7 +332,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -647,7 +647,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -701,7 +701,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1124,54 +1124,6 @@
                 "rest"
             ],
             "time": "2014-08-28 22:00:06"
-        },
-        {
-            "name": "fzaninotto/faker",
-            "version": "v1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "reference": "010c7efedd88bf31141a02719f51fb44c732d5a0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": []
-            },
-            "autoload": {
-                "psr-0": {
-                    "Faker": "src/",
-                    "Faker\\PHPUnit": "test/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Zaninotto"
-                }
-            ],
-            "description": "Faker is a PHP library that generates fake data for you.",
-            "keywords": [
-                "data",
-                "faker",
-                "fixtures"
-            ],
-            "time": "2014-06-04 14:43:02"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2021,9 +1973,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2274,54 +2226,6 @@
             "time": "2014-08-13 12:58:45"
         },
         {
-            "name": "massive/search-bundle",
-            "version": "0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "818533388c8650fe2e4fe627e0da3600b5d40c79"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/818533388c8650fe2e4fe627e0da3600b5d40c79",
-                "reference": "818533388c8650fe2e4fe627e0da3600b5d40c79",
-                "shasum": ""
-            },
-            "require": {
-                "jms/metadata": "~1.5",
-                "symfony/property-access": "~2.4"
-            },
-            "require-dev": {
-                "phpspec/prophecy-phpunit": "~1.0",
-                "symfony-cmf/testing": "dev-master",
-                "symfony/filesystem": "~2.4",
-                "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
-                "zendframework/zendsearch": "2.*"
-            },
-            "suggest": {
-                "zendframework/zend-stdlib": "Needed (as in require dev) in addition to zendsearch",
-                "zendframework/zendsearch": "To use the PHP based Zend Search library (based on Lucene)"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Massive\\Bundle\\SearchBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Leech",
-                    "email": "daniel.leech@massiveart.com"
-                }
-            ],
-            "description": "Massive Search Bundle",
-            "time": "2014-08-22 10:50:45"
-        },
-        {
             "name": "matthiasnoback/symfony-config-test",
             "version": "v0.1.1",
             "target-dir": "Matthias/SymfonyConfigTest",
@@ -2484,60 +2388,6 @@
             "time": "2014-06-04 16:30:04"
         },
         {
-            "name": "nelmio/alice",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nelmio/alice.git",
-                "reference": "0730001c3be46dedf393ef4168d6239d9969c61c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/alice/zipball/0730001c3be46dedf393ef4168d6239d9969c61c",
-                "reference": "0730001c3be46dedf393ef4168d6239d9969c61c",
-                "shasum": ""
-            },
-            "require": {
-                "fzaninotto/faker": "~1.0",
-                "php": ">=5.3",
-                "symfony/yaml": "~2.0"
-            },
-            "require-dev": {
-                "doctrine/common": "~2.3",
-                "phpunit/phpunit": "3.7.*",
-                "symfony/property-access": "~2.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.7.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Nelmio\\Alice\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nelmio",
-                    "homepage": "http://nelm.io"
-                }
-            ],
-            "description": "Expressive fixtures generator",
-            "keywords": [
-                "Fixture",
-                "data",
-                "orm",
-                "test"
-            ],
-            "time": "2014-04-24 13:11:29"
-        },
-        {
             "name": "phpcollection/phpcollection",
             "version": "0.4.0",
             "source": {
@@ -2571,9 +2421,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -2739,9 +2589,9 @@
             ],
             "authors": [
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -3682,12 +3532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "3849218b43dfa43059a0bb41f51be0d404d71270"
+                "reference": "35e90048ef33ebc8178fe7941bf64eabb305a89b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/3849218b43dfa43059a0bb41f51be0d404d71270",
-                "reference": "3849218b43dfa43059a0bb41f51be0d404d71270",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/35e90048ef33ebc8178fe7941bf64eabb305a89b",
+                "reference": "35e90048ef33ebc8178fe7941bf64eabb305a89b",
                 "shasum": ""
             },
             "require": {
@@ -3734,7 +3584,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-08-27 15:13:28"
+            "time": "2014-08-29 11:31:34"
         },
         {
             "name": "sulu/content-bundle",
@@ -3937,52 +3787,6 @@
                 "media"
             ],
             "time": "2014-08-27 07:07:52"
-        },
-        {
-            "name": "sulu/search-bundle",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluSearchBundle.git",
-                "reference": "94bb8dba7f1fed56b57111d08638dfab8682e49e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSearchBundle/zipball/94bb8dba7f1fed56b57111d08638dfab8682e49e",
-                "reference": "94bb8dba7f1fed56b57111d08638dfab8682e49e",
-                "shasum": ""
-            },
-            "require": {
-                "massive/search-bundle": "0.1",
-                "sulu/sulu": "dev-develop"
-            },
-            "require-dev": {
-                "symfony-cmf/testing": "dev-master",
-                "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
-                "zendframework/zendsearch": "2.*"
-            },
-            "suggest": {
-                "zendframework/zend-stdlib": "Needed (as in require dev) in addition to zendsearch",
-                "zendframework/zendsearch": "To use the PHP based Zend Search library (based on Lucene)"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Sulu\\Bundle\\SearchBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Daniel Leech",
-                    "email": "daniel.leech@massiveart.com"
-                }
-            ],
-            "description": "Sulu Search Bundle",
-            "time": "2014-08-27 12:30:11"
         },
         {
             "name": "sulu/security-bundle",
@@ -5115,7 +4919,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -5172,92 +4976,6 @@
                 "negotiation"
             ],
             "time": "2014-05-16 12:34:51"
-        },
-        {
-            "name": "zendframework/zend-stdlib",
-            "version": "2.3.1",
-            "target-dir": "Zend/Stdlib",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendStdlib.git",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23"
-            },
-            "require-dev": {
-                "zendframework/zend-eventmanager": "self.version",
-                "zendframework/zend-serializer": "self.version",
-                "zendframework/zend-servicemanager": "self.version"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
-                "zendframework/zend-serializer": "Zend\\Serializer component",
-                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Stdlib\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "stdlib",
-                "zf2"
-            ],
-            "time": "2014-04-15 15:28:48"
-        },
-        {
-            "name": "zendframework/zendsearch",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/ZendSearch.git",
-                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendSearch/zipball/cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
-                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "zendframework/zend-stdlib": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ZendSearch": "library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "a general purpose text search engine written entirely in PHP 5",
-            "homepage": "http://packages.zendframework.com/",
-            "keywords": [
-                "lucene",
-                "zf2"
-            ],
-            "time": "2014-02-15 15:17:08"
         }
     ],
     "packages-dev": [
@@ -5293,10 +5011,10 @@
             ],
             "authors": [
                 {
-                    "name": "Brian Scaturro",
+                    "name": "Brian",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "A dependable php environment",
@@ -5349,7 +5067,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -6280,7 +5998,9 @@
             "time": "2014-08-28 08:07:28"
         }
     ],
-    "aliases": [],
+    "aliases": [
+
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
@@ -6294,11 +6014,9 @@
         "sulu/category-bundle": 20,
         "sulu/translate-bundle": 20,
         "sulu/location-bundle": 20,
-        "sulu/search-bundle": 20,
         "jms/serializer-bundle": 20,
         "stof/doctrine-extensions-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
-        "zendframework/zendsearch": 20,
         "liip/theme-bundle": 20,
         "cboden/ratchet": 20,
         "friendsofsymfony/rest-bundle": 20,
@@ -6310,5 +6028,7 @@
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": []
+    "platform-dev": [
+
+    ]
 }

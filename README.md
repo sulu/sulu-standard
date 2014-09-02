@@ -174,34 +174,11 @@ Widgets are small UI-components which are mainly seen in the sidebar. In the con
 cp app/config/widgets.yml.dist app/config/widgets.yml
 ```
 
-#### Init Content Repository
-
-```
-app/console sulu:phpcr:init
-```
-
-#### Init Webspaces
-
-```
-app/console sulu:webspaces:init
-```
-
-
 #### Insert a new user
 ```
 app/console sulu:security:user:create
 ```
 Follow the instruction to create a new user
-
-
-
-#### Generate translations
-```
-app/console sulu:translate:import en
-app/console sulu:translate:import de
-app/console sulu:translate:export en
-app/console sulu:translate:export de
-```
 
 
 ## What's inside?
