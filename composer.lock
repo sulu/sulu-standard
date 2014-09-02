@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8e87ac6dbbd044da5f818a04d60bf424",
+    "hash": "ac1ef4231abaf11d1591c839923a5a95",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -982,12 +982,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "07ba408fdc449a2f55a5bbb9db45719abb210c24"
+                "reference": "1e0a515a3849a11bdb53276a9914319ffea43a22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/07ba408fdc449a2f55a5bbb9db45719abb210c24",
-                "reference": "07ba408fdc449a2f55a5bbb9db45719abb210c24",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/1e0a515a3849a11bdb53276a9914319ffea43a22",
+                "reference": "1e0a515a3849a11bdb53276a9914319ffea43a22",
                 "shasum": ""
             },
             "require": {
@@ -1045,7 +1045,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-08-28 12:04:50"
+            "time": "2014-09-01 19:06:31"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -1054,12 +1054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "d72481c837200a6ea2b6be12d92f5883da88df00"
+                "reference": "23fa377b27552cbce0adf5aa67d73bc94ec305a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d72481c837200a6ea2b6be12d92f5883da88df00",
-                "reference": "d72481c837200a6ea2b6be12d92f5883da88df00",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/23fa377b27552cbce0adf5aa67d73bc94ec305a8",
+                "reference": "23fa377b27552cbce0adf5aa67d73bc94ec305a8",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1123,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-08-28 22:00:06"
+            "time": "2014-09-01 23:14:17"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2564,23 +2564,23 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "1.2.17",
+            "version": "1.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
+                "reference": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
+                "reference": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "phpunit/php-file-iterator": ">=1.3.0@stable",
                 "phpunit/php-text-template": ">=1.2.0@stable",
-                "phpunit/php-token-stream": ">=1.1.3@stable"
+                "phpunit/php-token-stream": ">=1.1.3,<1.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*@dev"
@@ -2621,7 +2621,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-03-28 10:53:45"
+            "time": "2014-09-02 10:13:14"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2758,44 +2758,45 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.3.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "f8d5d08c56de5cfd592b3340424a81733259a876"
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/f8d5d08c56de5cfd592b3340424a81733259a876",
-                "reference": "f8d5d08c56de5cfd592b3340424a81733259a876",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
                 "php": ">=5.3.3"
             },
-            "require-dev": {
-                "phpunit/phpunit": "~4.2"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "PHP/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
             "license": [
                 "BSD-3-Clause"
             ],
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
                 }
             ],
             "description": "Wrapper around PHP's tokenizer extension.",
@@ -2803,7 +2804,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-08-31 06:12:13"
+            "time": "2014-03-03 05:10:30"
         },
         {
             "name": "phpunit/phpunit",
@@ -3210,22 +3211,22 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "target-dir": "Sensio/Bundle/FrameworkExtraBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e"
+                "reference": "9b22aaee517e80aad3238ea0328458b6f964066f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/dbc1e5aa830f3bf8063b29102add3c1e476d616e",
-                "reference": "dbc1e5aa830f3bf8063b29102add3c1e476d616e",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/9b22aaee517e80aad3238ea0328458b6f964066f",
+                "reference": "9b22aaee517e80aad3238ea0328458b6f964066f",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.2",
-                "symfony/framework-bundle": "~2.5"
+                "symfony/framework-bundle": "~2.3"
             },
             "require-dev": {
                 "symfony/expression-language": "~2.4",
@@ -3253,9 +3254,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "This bundle provides a way to configure your controllers with annotations",
@@ -3263,7 +3262,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2014-05-22 23:27:44"
+            "time": "2014-09-02 07:11:30"
         },
         {
             "name": "sensio/generator-bundle",
@@ -3378,17 +3377,17 @@
         },
         {
             "name": "sulu/admin-bundle",
-            "version": "0.6.6",
+            "version": "0.6.7",
             "target-dir": "Sulu/Bundle/AdminBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "14f4b76431d1c0148f893bfe9a276f9e0097d158"
+                "reference": "9a5726c83be2e8b3e4de069eac4e850c9f31206e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/14f4b76431d1c0148f893bfe9a276f9e0097d158",
-                "reference": "14f4b76431d1c0148f893bfe9a276f9e0097d158",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/9a5726c83be2e8b3e4de069eac4e850c9f31206e",
+                "reference": "9a5726c83be2e8b3e4de069eac4e850c9f31206e",
                 "shasum": ""
             },
             "require": {
@@ -3423,7 +3422,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-09-01 13:16:24"
+            "time": "2014-09-02 11:07:44"
         },
         {
             "name": "sulu/category-bundle",
@@ -3545,17 +3544,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.6.6",
+            "version": "0.6.7",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "4222a841cbcd8a58d3dc89132ef2f67585d9ce61"
+                "reference": "02537413249993a335783bfbc13332fa484a35a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/4222a841cbcd8a58d3dc89132ef2f67585d9ce61",
-                "reference": "4222a841cbcd8a58d3dc89132ef2f67585d9ce61",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/02537413249993a335783bfbc13332fa484a35a9",
+                "reference": "02537413249993a335783bfbc13332fa484a35a9",
                 "shasum": ""
             },
             "require": {
@@ -3610,7 +3609,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-09-01 13:00:21"
+            "time": "2014-09-02 11:13:57"
         },
         {
             "name": "sulu/location-bundle",
@@ -3810,16 +3809,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.6.5",
+            "version": "0.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "691b4b663315d314671dc47048423e3e985dfb82"
+                "reference": "723e35bbb91e3280a20b3716c9eec920b2049347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/691b4b663315d314671dc47048423e3e985dfb82",
-                "reference": "691b4b663315d314671dc47048423e3e985dfb82",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/723e35bbb91e3280a20b3716c9eec920b2049347",
+                "reference": "723e35bbb91e3280a20b3716c9eec920b2049347",
                 "shasum": ""
             },
             "require": {
@@ -3861,7 +3860,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-09-01 13:00:42"
+            "time": "2014-09-02 11:11:19"
         },
         {
             "name": "sulu/tag-bundle",
