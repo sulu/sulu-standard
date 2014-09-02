@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ac1ef4231abaf11d1591c839923a5a95",
+    "hash": "595c389d4275e95a9689a965fa6fb1a2",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3549,12 +3549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "02537413249993a335783bfbc13332fa484a35a9"
+                "reference": "3eb45ee2d70452629d14d5bbc84b64bfe584ea68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/02537413249993a335783bfbc13332fa484a35a9",
-                "reference": "02537413249993a335783bfbc13332fa484a35a9",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3eb45ee2d70452629d14d5bbc84b64bfe584ea68",
+                "reference": "3eb45ee2d70452629d14d5bbc84b64bfe584ea68",
                 "shasum": ""
             },
             "require": {
@@ -3609,7 +3609,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-09-02 11:13:57"
+            "time": "2014-09-02 11:42:33"
         },
         {
             "name": "sulu/location-bundle",
