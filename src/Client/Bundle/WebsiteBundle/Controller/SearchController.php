@@ -11,9 +11,7 @@ class SearchController extends Controller
     {
         $query = $request->query->get('q', '');
 
-        $metadataFactory = $this->get('massive_search.metadata.factory');
         $searchManager = $this->get('massive_search.search_manager');
-
         $hits = $searchManager->search($query, 'content');
 
         return $this->render('ClientWebsiteBundle:views:query.html.twig', array(
