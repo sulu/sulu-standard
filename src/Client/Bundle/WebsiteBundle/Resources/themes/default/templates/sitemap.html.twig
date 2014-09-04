@@ -6,7 +6,7 @@
 
 {% macro recursiveSitemap(site) %}
     <li>
-        <a href="{{ content_path(site) }}">{{ site.title }}</a>
+        <a href="{{ content_path(site.url) }}">{{ site.title }}</a>
 
         {% if site.children is defined %}
             <ul>
@@ -24,7 +24,7 @@
             <h1 class="page-header" property="title">{{ content.title }}</h1>
 
             <ul>
-                {{ _self.recursiveSitemap(sitemap(content.webspaceKey, content.languageCode)) }}
+                {{ _self.recursiveSitemap(sitemap(webspaceKey, locale)) }}
             </ul>
         </div>
     </div>
