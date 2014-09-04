@@ -35,6 +35,10 @@
                 <title lang="de">Smart-Content</title>
                 <title lang="en">Smart-Content</title>
             </meta>
+
+            <params>
+                <param name="max_per_page" value="5" />
+            </params>
         </property>
 
         <property name="article" type="text_editor">

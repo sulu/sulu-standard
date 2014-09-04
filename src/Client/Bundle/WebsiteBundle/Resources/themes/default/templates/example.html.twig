@@ -57,9 +57,9 @@
         {% if content.links is defined %}
             <h3>Links:</h3>
             <ul property="links">
-                {% for link in content.links.data %}
+                {% for link in content.links %}
                     <li>
-                        <a href="{{ content_path(link) }}">{{ link.title|default('No Title') }}</a>
+                        <a href="{{ content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -76,9 +76,9 @@
         {% endif %}
 
         <div property="smartcontent">
-            {% for smartcontent in content.smartcontent.data %}
+            {% for smartcontent in content.smartcontent %}
                 <div class="col-lg-4">
-                    <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                    <h2><a href="{{ content_path(smartcontent.url) }}">{{ smartcontent.title }}</a></h2>
                     {% autoescape false %}
                     {{ smartcontent.article }}
                     {% endautoescape %}
@@ -86,10 +86,10 @@
             {% endfor %}
         </div>
 
-        <h3>Images (display-options: {{ content.images.displayOption }})</h3>
+        <h3>Images (display-options: {{ view.images.displayOption }})</h3>
 
         <div class="row" property="images" typeof="collection">
-            {% for image in content.images.data %}
+            {% for image in content.images %}
                 <div class="col-lg-4" rel="images" typeof="images">
                     <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>
 
