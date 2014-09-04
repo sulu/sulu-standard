@@ -3,16 +3,19 @@
 namespace Client\Bundle\WebsiteBundle\Controller;
 
 use Sulu\Bundle\SearchBundle\LocalizedSearchManager\LocalizedSearchManagerInterface;
+use Sulu\Component\Rest\RequestParametersTrait;
 use Sulu\Component\Webspace\Analyzer\RequestAnalyzerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 class SearchController extends Controller
 {
+    use RequestParametersTrait;
+
     public function queryAction(Request $request)
     {
-        $query = $request->query->get('q', '');
-        $locale = $request->query->get('l', '');
+        $query = $this->getRequestParameter($request, 'q', true);
+        $locale = $this->getRequestParameter($request, 'l', true);
 
         /** @var LocalizedSearchManagerInterface $searchManager */
         $searchManager = $this->get('sulu_search.localized_search_manager');
