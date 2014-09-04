@@ -7,10 +7,10 @@
         <language>{{ content.languageCode }}</language>
         <copyright>{{ resolve_user(content.changer).fullName }}</copyright>
         <pubDate>{{ content.changed|date('Y.m.d') }}</pubDate>
-        {% for page in content.smartcontent.data %}
+        {% for page in content.smartcontent %}
             <item>
                 <title>{{ page.title }}</title>
-                <link>{{ content_path(page) }}</link>
+                <link>{{ content_path(page.url) }}</link>
             </item>
         {% endfor %}
     </channel>
