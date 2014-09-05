@@ -6,7 +6,7 @@
 
     <key>complex</key>
 
-    <view>ClientWebsiteBundle:templates:complex.html.twig</view>
+    <view>ClientWebsiteBundle:templates:complex</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 

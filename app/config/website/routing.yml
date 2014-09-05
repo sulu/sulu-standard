@@ -8,3 +8,6 @@ sulu_media:
 client_website:
     type: portal
     resource: "@ClientWebsiteBundle/Resources/config/routing.yml"
+
+sulu_website:
+    resource: "@SuluWebsiteBundle/Resources/config/routing_website.yml"

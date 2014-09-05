@@ -6,7 +6,7 @@
 
     <key>example</key>
 
-    <view>ClientWebsiteBundle:templates:example.html.twig</view>
+    <view>ClientWebsiteBundle:templates:example</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
