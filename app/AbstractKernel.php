@@ -43,6 +43,9 @@ abstract class AbstractKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
 
+            // massive
+            new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
+
             // sulu
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
@@ -54,6 +57,7 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
+            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),

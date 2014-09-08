@@ -34,6 +34,10 @@
         "sulu/category-bundle": "dev-develop",
         "sulu/translate-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
+        "sulu/search-bundle": "dev-develop",
+
+        "nelmio/alice": "~1.7",
+        "doctrine/data-fixtures": "1.0.*",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -42,6 +46,9 @@
         "doctrine/phpcr-bundle": "1.1.*",
         "doctrine/phpcr-odm": "1.1.*",
 
+        "zendframework/zend-stdlib": "~2.3",
+        "zendframework/zendsearch": "@dev",
+
         "symfony-cmf/core-bundle": "1.1.*",
         "symfony-cmf/routing-bundle": "1.2.*",
         "liip/theme-bundle": "@dev",
@@ -49,7 +56,9 @@
         "friendsofsymfony/rest-bundle": "@dev",
         "friendsofsymfony/http-cache": "@dev",
         "willdurand/hateoas-bundle": "0.3.*",
-        "massive/build-bundle": "~0.1.0"
+
+        "massive/build-bundle": "~0.1.0",
+        "massive/search-bundle": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
