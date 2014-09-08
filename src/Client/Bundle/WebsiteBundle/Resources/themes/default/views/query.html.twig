@@ -1,0 +1,25 @@
+{% extends "ClientWebsiteBundle:views:master.html.twig" %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+    <h2>Showing {{ hits|length }} results for "{{ query }}"</h2>
+
+    {% for i, hit in hits %}
+        <section class="panel">
+            <div class="row">
+                <div class="col-md-1"><h3>{{ i + 1 }}.</h3></div>
+                <div class="col-md-4">
+                    <h3><a href="{{ hit.document.url }}">{{ hit.document.title }}</a></h3>
+
+                    <p><i><a href="{{ hit.document.url }}">{{ hit.document.url }}</a></i></p>
+
+                    <p class="small"><i>{{ hit.score }}</i></p>
+                </div>
+            </div>
+        </section>
+    {% else %}
+        <p>No Search Result found</p>
+    {% endfor %}
+
+{% endblock %}
