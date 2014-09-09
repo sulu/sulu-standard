@@ -6,7 +6,7 @@
 
     <key>sitemap</key>
 
-    <view>ClientWebsiteBundle:templates:sitemap.html.twig</view>
+    <view>ClientWebsiteBundle:templates:sitemap</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
