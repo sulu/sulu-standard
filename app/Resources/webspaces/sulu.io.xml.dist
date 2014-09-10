@@ -32,7 +32,7 @@
             </context>
             <context key="footer">
                 <meta>
-                    <title lang="de">Fussnavigation</title>
+                    <title lang="de">Footernavigation</title>
                     <title lang="en">Footernavigation</title>
                 </meta>
             </context>
