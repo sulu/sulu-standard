@@ -168,7 +168,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -189,7 +189,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -256,7 +256,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1054,12 +1054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "23fa377b27552cbce0adf5aa67d73bc94ec305a8"
+                "reference": "03e3663f447b4432a088a7dab27a1ff9e3722d75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/23fa377b27552cbce0adf5aa67d73bc94ec305a8",
-                "reference": "23fa377b27552cbce0adf5aa67d73bc94ec305a8",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/03e3663f447b4432a088a7dab27a1ff9e3722d75",
+                "reference": "03e3663f447b4432a088a7dab27a1ff9e3722d75",
                 "shasum": ""
             },
             "require": {
@@ -1123,7 +1123,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-09-01 23:14:17"
+            "time": "2014-09-08 14:32:15"
         },
         {
             "name": "fzaninotto/faker",
@@ -2279,12 +2279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "982615eb339ce33d77bc3b52664bd11e0dbc782f"
+                "reference": "3ee0c0adf35742ef0d6fb5ca6431aab3641aee69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/982615eb339ce33d77bc3b52664bd11e0dbc782f",
-                "reference": "982615eb339ce33d77bc3b52664bd11e0dbc782f",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/3ee0c0adf35742ef0d6fb5ca6431aab3641aee69",
+                "reference": "3ee0c0adf35742ef0d6fb5ca6431aab3641aee69",
                 "shasum": ""
             },
             "require": {
@@ -2319,7 +2319,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-09-05 07:28:47"
+            "time": "2014-09-10 09:15:46"
         },
         {
             "name": "matthiasnoback/symfony-config-test",
@@ -3244,21 +3244,25 @@
         },
         {
             "name": "react/stream",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60"
+                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
-                "reference": "9db28e85a6fe7b57fad5e8c036f3434bcb8c8f60",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "~2.0",
                 "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "react/event-loop": "0.4.*",
+                "react/promise": "~2.0"
             },
             "suggest": {
                 "react/event-loop": "0.4.*",
@@ -3267,12 +3271,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\Stream\\": ""
+                    "React\\Stream\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3284,7 +3288,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2014-03-30 17:19:02"
+            "time": "2014-09-10 03:32:31"
         },
         {
             "name": "sebastian/exporter",
@@ -3572,12 +3576,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "d942e3b19213573e35e350393160a9a73e126b81"
+                "reference": "bc4670e639b66d78fc6d444460b7d4905129f8fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/d942e3b19213573e35e350393160a9a73e126b81",
-                "reference": "d942e3b19213573e35e350393160a9a73e126b81",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/bc4670e639b66d78fc6d444460b7d4905129f8fc",
+                "reference": "bc4670e639b66d78fc6d444460b7d4905129f8fc",
                 "shasum": ""
             },
             "require": {
@@ -3612,7 +3616,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-09-05 11:21:31"
+            "time": "2014-09-08 11:59:31"
         },
         {
             "name": "sulu/category-bundle",
@@ -3621,12 +3625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "85a6159e2d2698ab79e27ee47bd178ae93a7456f"
+                "reference": "9f643e27e3221b86933b0888021380d9e15c6318"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/85a6159e2d2698ab79e27ee47bd178ae93a7456f",
-                "reference": "85a6159e2d2698ab79e27ee47bd178ae93a7456f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/9f643e27e3221b86933b0888021380d9e15c6318",
+                "reference": "9f643e27e3221b86933b0888021380d9e15c6318",
                 "shasum": ""
             },
             "require": {
@@ -3669,7 +3673,7 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-08-25 16:40:01"
+            "time": "2014-09-10 08:33:15"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3678,12 +3682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "35e90048ef33ebc8178fe7941bf64eabb305a89b"
+                "reference": "8ecfed760903af99c00a358b0814c44d5685302f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/35e90048ef33ebc8178fe7941bf64eabb305a89b",
-                "reference": "35e90048ef33ebc8178fe7941bf64eabb305a89b",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/8ecfed760903af99c00a358b0814c44d5685302f",
+                "reference": "8ecfed760903af99c00a358b0814c44d5685302f",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3734,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-08-29 11:31:34"
+            "time": "2014-09-10 13:06:53"
         },
         {
             "name": "sulu/content-bundle",
@@ -3739,12 +3743,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "55c7bb8bd1f0e2234447732fc1f4d8af7ac6b706"
+                "reference": "8823cdd0b339056a60c0e9aabdfc3457181401b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/55c7bb8bd1f0e2234447732fc1f4d8af7ac6b706",
-                "reference": "55c7bb8bd1f0e2234447732fc1f4d8af7ac6b706",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8823cdd0b339056a60c0e9aabdfc3457181401b8",
+                "reference": "8823cdd0b339056a60c0e9aabdfc3457181401b8",
                 "shasum": ""
             },
             "require": {
@@ -3799,7 +3803,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-09-04 08:54:47"
+            "time": "2014-09-10 13:15:43"
         },
         {
             "name": "sulu/location-bundle",
@@ -3808,12 +3812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluLocationBundle.git",
-                "reference": "7d0a9617b4787ea6ee8bfbcba80bd3e72dc90722"
+                "reference": "473ed5e8c339fd437e6f310b398a921a4f5d3ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluLocationBundle/zipball/7d0a9617b4787ea6ee8bfbcba80bd3e72dc90722",
-                "reference": "7d0a9617b4787ea6ee8bfbcba80bd3e72dc90722",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluLocationBundle/zipball/473ed5e8c339fd437e6f310b398a921a4f5d3ed1",
+                "reference": "473ed5e8c339fd437e6f310b398a921a4f5d3ed1",
                 "shasum": ""
             },
             "require": {
@@ -3868,7 +3872,7 @@
             "keywords": [
                 "todo"
             ],
-            "time": "2014-08-14 06:08:16"
+            "time": "2014-09-10 09:24:47"
         },
         {
             "name": "sulu/media-bundle",
@@ -3877,12 +3881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "2dc0d2d017151a739a35b4510ceed9971ec88378"
+                "reference": "a60c9b0708fe087ac4f589a0d510b37b69a7cef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/2dc0d2d017151a739a35b4510ceed9971ec88378",
-                "reference": "2dc0d2d017151a739a35b4510ceed9971ec88378",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/a60c9b0708fe087ac4f589a0d510b37b69a7cef7",
+                "reference": "a60c9b0708fe087ac4f589a0d510b37b69a7cef7",
                 "shasum": ""
             },
             "require": {
@@ -3932,7 +3936,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-09-04 08:54:57"
+            "time": "2014-09-10 09:35:33"
         },
         {
             "name": "sulu/search-bundle",
@@ -3940,12 +3944,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSearchBundle.git",
-                "reference": "d91a6e341077fd8fd764cfd11e300bcc52b9599a"
+                "reference": "6f6ea76db80279bb07d24ba28821c4ac4520ad12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSearchBundle/zipball/d91a6e341077fd8fd764cfd11e300bcc52b9599a",
-                "reference": "d91a6e341077fd8fd764cfd11e300bcc52b9599a",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSearchBundle/zipball/6f6ea76db80279bb07d24ba28821c4ac4520ad12",
+                "reference": "6f6ea76db80279bb07d24ba28821c4ac4520ad12",
                 "shasum": ""
             },
             "require": {
@@ -3953,6 +3957,7 @@
                 "sulu/sulu": "dev-develop"
             },
             "require-dev": {
+                "massive/build-bundle": "~0.1.0",
                 "symfony-cmf/testing": "dev-master",
                 "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
                 "zendframework/zendsearch": "2.*"
@@ -3978,7 +3983,7 @@
                 }
             ],
             "description": "Sulu Search Bundle",
-            "time": "2014-09-05 10:46:55"
+            "time": "2014-09-10 11:52:47"
         },
         {
             "name": "sulu/security-bundle",
@@ -3987,12 +3992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "7e0904ddb999fcaa2f11928d6b27d18a72dedfaa"
+                "reference": "6621fed61375c28ad4aa948b57a49c568eb6333f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/7e0904ddb999fcaa2f11928d6b27d18a72dedfaa",
-                "reference": "7e0904ddb999fcaa2f11928d6b27d18a72dedfaa",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/6621fed61375c28ad4aa948b57a49c568eb6333f",
+                "reference": "6621fed61375c28ad4aa948b57a49c568eb6333f",
                 "shasum": ""
             },
             "require": {
@@ -4041,7 +4046,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-09-01 07:39:05"
+            "time": "2014-09-10 08:57:08"
         },
         {
             "name": "sulu/sulu",
@@ -4049,12 +4054,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "329cca0c4a6858f7d9dae8778e860c7d36ade04a"
+                "reference": "9787f41e20866dc2d36ed48cd03551f86095fca2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/329cca0c4a6858f7d9dae8778e860c7d36ade04a",
-                "reference": "329cca0c4a6858f7d9dae8778e860c7d36ade04a",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/9787f41e20866dc2d36ed48cd03551f86095fca2",
+                "reference": "9787f41e20866dc2d36ed48cd03551f86095fca2",
                 "shasum": ""
             },
             "require": {
@@ -4100,7 +4105,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-09-05 14:20:48"
+            "time": "2014-09-10 13:26:28"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4109,12 +4114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTagBundle.git",
-                "reference": "61d8517e8d97c4d710162e605cba71d6ed3cafce"
+                "reference": "20dbdda8c683e82032c8004bf65761a595406447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/61d8517e8d97c4d710162e605cba71d6ed3cafce",
-                "reference": "61d8517e8d97c4d710162e605cba71d6ed3cafce",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTagBundle/zipball/20dbdda8c683e82032c8004bf65761a595406447",
+                "reference": "20dbdda8c683e82032c8004bf65761a595406447",
                 "shasum": ""
             },
             "require": {
@@ -4161,7 +4166,7 @@
                 "sulu",
                 "tags"
             ],
-            "time": "2014-08-19 08:53:10"
+            "time": "2014-09-10 08:14:18"
         },
         {
             "name": "sulu/translate-bundle",
@@ -4225,12 +4230,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "69797e21932f9463021c8ad47c7396bd1c89c6c6"
+                "reference": "f242b58c01c39144de4a1009e09c47be04fe9c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/69797e21932f9463021c8ad47c7396bd1c89c6c6",
-                "reference": "69797e21932f9463021c8ad47c7396bd1c89c6c6",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/f242b58c01c39144de4a1009e09c47be04fe9c0b",
+                "reference": "f242b58c01c39144de4a1009e09c47be04fe9c0b",
                 "shasum": ""
             },
             "require": {
@@ -4271,7 +4276,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-09-05 07:46:14"
+            "time": "2014-09-10 07:59:21"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4946,7 +4951,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher2",
+                    "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
@@ -6236,12 +6241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "cee6f5785b3283ccbce55f59f03751af37fd4980"
+                "reference": "3f8a3114e8857aedd053b96280ab81c337050ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/cee6f5785b3283ccbce55f59f03751af37fd4980",
-                "reference": "cee6f5785b3283ccbce55f59f03751af37fd4980",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/3f8a3114e8857aedd053b96280ab81c337050ed1",
+                "reference": "3f8a3114e8857aedd053b96280ab81c337050ed1",
                 "shasum": ""
             },
             "require": {
@@ -6278,7 +6283,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-09-04 11:09:23"
+            "time": "2014-09-10 07:20:00"
         }
     ],
     "aliases": [],
