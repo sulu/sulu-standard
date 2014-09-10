@@ -29,9 +29,7 @@ class SearchController extends WebsiteController
         $data = $this->getAttributes(
             array(
                 'query' => $query,
-                'hits' => $hits,
-                'webspaceKey' => $requestAnalyzer->getCurrentWebspace()->getKey(),
-                'locale' => $locale
+                'hits' => $hits
             )
         );
 
