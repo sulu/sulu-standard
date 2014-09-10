@@ -69,6 +69,10 @@ sulu_location:
     resource: "@SuluLocationBundle/Resources/config/routing.yml"
     prefix: /admin/location
 
+sulu_website:
+    resource: "@SuluWebsiteBundle/Resources/config/routing.yml"
+    prefix: /admin/website
+
 # for preview
 client_website:
     type: portal
