@@ -10,6 +10,11 @@
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
+    <meta>
+        <title lang="de">Standard</title>
+        <title lang="en">Default</title>
+    </meta>
+
     <index name="content" />
 
     <properties>

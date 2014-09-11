@@ -10,6 +10,11 @@
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
 
+    <meta>
+        <title lang="de">Sitemap</title>
+        <title lang="en">Sitemap</title>
+    </meta>
+
     <properties>
         <property name="title" type="text_line" mandatory="true">
             <meta>
