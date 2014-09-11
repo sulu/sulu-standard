@@ -64,6 +64,13 @@ or
 cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
 ```
 
+##### Webspaces
+Webspaces are configured in the `app/Resources/webspaces`-folder. Copying the existing example should be enough for a local installation:
+```
+cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
+```
+On an online installation you have to adjust the URLs in this file.
+
 #### Install all the dependencies with composer
 
 ```
@@ -150,13 +157,6 @@ configurate the path to `ghostscript` in the media bundle
 
 #### Create required configuration files
 Before you go on with the initialization of the content repository, you have to make sure that all required configuration files exist.
-
-##### Webspaces
-Webspaces are configured in the `app/Resources/webspaces`-folder. Copying the existing example should be enough for a local installation:
-```
-cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
-```
-On an online installation you have to adjust the URLs in this file.
 
 ##### Templates
 Templates are configured in the `app/Resources/templates`-folder. Copying the existing default template should be enough for a simple page containing a title, a link and a texteditor:
