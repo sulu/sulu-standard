@@ -6,9 +6,16 @@
 
     <key>default</key>
 
-    <view>ClientWebsiteBundle:templates:default.html.twig</view>
+    <view>ClientWebsiteBundle:templates:default</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
+
+    <meta>
+        <title lang="de">Standard</title>
+        <title lang="en">Default</title>
+    </meta>
+
+    <index name="content" />
 
     <properties>
         <property name="title" type="text_line" mandatory="true">
@@ -16,6 +23,8 @@
                 <title lang="de">Titel</title>
                 <title lang="en">Title</title>
             </meta>
+
+            <indexField />
 
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
@@ -27,10 +36,12 @@
                 <title lang="en">Resourcelocator</title>
             </meta>
 
+            <indexField />
+
             <tag name="sulu.rlp"/>
         </property>
 
-         <property name="links" type="internal_links">
+        <property name="links" type="internal_links">
             <meta>
                 <title lang="de">Interne Links</title>
                 <title lang="en">Internal links</title>
@@ -59,8 +70,12 @@
                         <title lang="en">Article</title>
                     </meta>
 
+                    <indexField />
+
                     <params>
                         <param name="godMode" value="true"/>
+                        <param name="links" value="true"/>
+                        <param name="tables" value="true"/>
                     </params>
                 </property>
             </properties>

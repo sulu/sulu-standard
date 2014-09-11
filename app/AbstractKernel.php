@@ -43,6 +43,9 @@ abstract class AbstractKernel extends Kernel
             new JMS\SerializerBundle\JMSSerializerBundle(),
             new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
 
+            // massive
+            new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
+
             // sulu
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
@@ -53,10 +56,14 @@ abstract class AbstractKernel extends Kernel
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
+            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
+
+            // tools
+            new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
@@ -64,6 +71,9 @@ abstract class AbstractKernel extends Kernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+
+            // sulu
+            $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
 
             // debug enhancement
             $bundles[] = new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle();

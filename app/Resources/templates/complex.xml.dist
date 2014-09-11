@@ -6,9 +6,16 @@
 
     <key>complex</key>
 
-    <view>ClientWebsiteBundle:templates:complex.html.twig</view>
+    <view>ClientWebsiteBundle:templates:complex</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>2400</cacheLifetime>
+
+    <meta>
+        <title lang="de">Komplex</title>
+        <title lang="en">Complex</title>
+    </meta>
+
+    <index name="content" />
 
     <properties>
         <property name="title" type="text_line" mandatory="true">
@@ -16,6 +23,9 @@
                 <title lang="de">Titel</title>
                 <title lang="en">Title</title>
             </meta>
+
+            <indexField />
+
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
         </property>
@@ -24,6 +34,9 @@
                 <title lang="de">Adresse</title>
                 <title lang="en">Resourcelocator</title>
             </meta>
+
+            <indexField />
+
             <tag name="sulu.rlp"/>
         </property>
 
@@ -41,6 +54,8 @@
                         <title lang="de">Artikel</title>
                         <title lang="en">Article</title>
                     </meta>
+
+                    <indexField />
                 </property>
 
                 <block name="block"
@@ -64,6 +79,8 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
+
+                                    <indexField />
                                 </property>
                                 <property name="article" type="text_editor"
                                           mandatory="true">
@@ -71,6 +88,8 @@
                                         <title lang="de">Artikel</title>
                                         <title lang="en">Article</title>
                                     </meta>
+
+                                    <indexField />
                                 </property>
                             </properties>
                         </type>
@@ -85,12 +104,16 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
+
+                                    <indexField />
                                 </property>
                                 <property name="article" type="text_area" mandatory="true">
                                     <meta>
                                         <title lang="de">Artikel</title>
                                         <title lang="en">Article</title>
                                     </meta>
+
+                                    <indexField />
                                 </property>
                             </properties>
                         </type>
@@ -105,6 +128,8 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
+
+                                    <indexField />
                                 </property>
                             </properties>
                         </type>
@@ -116,6 +141,8 @@
                         <title lang="de">Name</title>
                         <title lang="en">Name</title>
                     </meta>
+
+                    <indexField />
                 </property>
             </properties>
         </section>

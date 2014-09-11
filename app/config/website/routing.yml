@@ -4,3 +4,10 @@ liip_theme:
 
 sulu_media:
     resource: "@SuluMediaBundle/Resources/config/routing_website.yml"
+
+client_website:
+    type: portal
+    resource: "@ClientWebsiteBundle/Resources/config/routing.yml"
+
+sulu_website:
+    resource: "@SuluWebsiteBundle/Resources/config/routing_website.yml"

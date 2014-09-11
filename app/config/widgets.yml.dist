@@ -1,0 +1,15 @@
+sulu_admin:
+    widget_groups:
+        contact-info:
+            mappings:
+                - sulu-contact-contact-info
+        account-info:
+            mappings:
+                - sulu-contact-account-info
+                - sulu-contact-main-contact
+        contact-detail:
+            mappings:
+                - sulu-contact-main-account
+        account-detail:
+            mappings:
+                - sulu-contact-main-contact

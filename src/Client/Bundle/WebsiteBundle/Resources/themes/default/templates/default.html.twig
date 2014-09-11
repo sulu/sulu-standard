@@ -26,8 +26,8 @@
 
                 <h3>Images</h3>
 
-                <div class="row {{ content.images.displayOption }}" property="images" typeof="collection">
-                    {% for image in content.images.data %}
+                <div class="row {{ view.images.displayOption }}" property="images" typeof="collection">
+                    {% for image in content.images %}
                         <div class="col-lg-4" rel="images" typeof="images">
                             <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>
 
@@ -40,9 +40,9 @@
 
                 {% if content.links is defined %}
                     <ul property="links">
-                        {% for link in content.links.data %}
+                        {% for link in content.links %}
                             <li>
-                                <a href="{{ content_path(link) }}">{{ link.title|default('No Title') }}</a>
+                                <a href="{% if link.url is defined %}{{ content_path(link.url) }}{% else %}#{% endif %}">{{ link.title|default('No Title') }}</a>
                             </li>
                         {% endfor %}
                     </ul>

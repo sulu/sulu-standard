@@ -1,7 +1,7 @@
 <ul class="nav nav-justified">
-    {% for item in root_navigation(content, 1, false, 'main') %}
+    {% for item in root_navigation(request.webspaceKey, request.locale, 1, false, 'main') %}
         <li>
-            <a href="{{ content_path(item) }}" title="{{ item.title }}">{{ item.title }}</a>
+            <a href="{{ content_path(item.url) }}" title="{{ item.title }}">{{ item.title }}</a>
         </li>
     {% endfor %}
 </ul>

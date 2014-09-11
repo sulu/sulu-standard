@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>{{ content.title }}</title>
+        <link>{{ content_root_path(true) }}</link>
+        <description>{{ content.article }}</description>
+        <language>{{ locale }}</language>
+        <copyright>{{ resolve_user(changer).fullName }}</copyright>
+        <pubDate>{{ changed|date('Y.m.d') }}</pubDate>
+        {% for page in content.smartcontent %}
+            <item>
+                <title>{{ page.title }}</title>
+                <link>{{ content_path(page.resourceLocator) }}</link>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>

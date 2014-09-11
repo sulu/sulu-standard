@@ -16,20 +16,32 @@
             </div>
         </div>
 
-
         <div class="row">
-
             <div class="col-lg-12">
                 <h2>Smart-Content</h2>
             </div>
 
+            <ul class="pagination">
+                {% set page = 1 %}
+                {% if request.get.p is defined %}
+                    {% set page = request.get.p %}
+                {% endif %}
+
+                {% if page-1 >= 1 %}
+                    <li><a href="{{ content_path(content.url) }}?p={{ page-1 }}">&laquo;</a></li>
+                {% endif %}
+                <li><a href="{{ content_path(content.url) }}?p={{ page+1 }}">&raquo;</a></li>
+            </ul>
+
             <div property="smartcontent">
-                {% for smartcontent in content.smartcontent.data %}
+                {% for page in content.smartcontent %}
                     <div class="col-lg-4">
-                        <h2><a href="{{ content_path(smartcontent) }}">{{ smartcontent.title }}</a></h2>
+                        <h2>
+                            <a href="{{ content_path(page.resourceLocator) }}">{{ page.title }}</a>
+                        </h2>
                         {% autoescape false %}
-                        {% if smartcontent.article is defined %}
-                            {{ smartcontent.article }}
+                        {% if page.article is defined %}
+                            {{ page.article|slice(0, 50) }}
                         {% else %}
                             <p>No Article found</p>
                         {% endif %}
@@ -38,6 +50,5 @@
                 {% endfor %}
             </div>
         </div>
-
     </div>
 {% endblock %}

@@ -29,7 +29,7 @@
             <!-- header -->
             <div class="masthead">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-9">
                         <h3 class="text-muted">
                             <img height="20" src="{{ asset('bundles/clientwebsite/default/images/sulu.png') }}" />
                             <a href="{{ content_root_path() }}">SULU CMF</a>
@@ -38,6 +38,12 @@
                             <a href="/de">de</a> |
                             <a href="/en">en</a>
                         </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <form action="{{ path(request.portalUrl ~ '.website_search') }}" method="GET">
+                            <input name="q" type="text" placeholder="Search" />
+                            <input type="submit" value="Go" />
+                        </form>
                     </div>
                 </div>
                 <br/>

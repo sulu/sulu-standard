@@ -1,0 +1,31 @@
+{% extends "ClientWebsiteBundle:views:master.html.twig" %}
+
+{% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% macro recursiveSitemap(site) %}
+    <li>
+        <a href="{{ content_path(site.url) }}">{{ site.title }}</a>
+
+        {% if site.children is defined %}
+            <ul>
+                {% for subSite in site.children %}
+                    {{ _self.recursiveSitemap(subSite) }}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </li>
+{% endmacro %}
+
+{% block content %}
+    <div id="content">
+        <div vocab="http://schema.org/" typeof="Content">
+            <h1 class="page-header" property="title">{{ content.title }}</h1>
+
+            <ul>
+                {{ _self.recursiveSitemap(sitemap(request.webspaceKey, request.locale)) }}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

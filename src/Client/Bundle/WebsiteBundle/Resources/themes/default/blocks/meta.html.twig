@@ -1,5 +1,5 @@
-    <meta name="title" content="{{ content.ext.seo.title|default('') }}">
-    <meta name="keywords" content="{{ content.ext.seo.keywords|default('') }}">
-    <meta name="description" content="{{ content.ext.seo.keywords|default('') }}">
-    <meta name="robots" content="{{ content.ext.seo.noIndex ? 'noIndex' : 'index' }}">
-    <meta name="robots" content="{{ content.ext.seo.noFollow ? 'nofollow' : 'follow' }}">
+    <meta name="title" content="{{ extension.seo.title|default('') }}">
+    <meta name="keywords" content="{{ extension.seo.keywords|default('') }}">
+    <meta name="description" content="{{ extension.seo.description|default('') }}">
+    <meta name="robots" content="{{ extension.seo.noIndex ? 'noIndex' : 'index' }}">
+    <meta name="robots" content="{{ extension.seo.noFollow ? 'nofollow' : 'follow' }}">
