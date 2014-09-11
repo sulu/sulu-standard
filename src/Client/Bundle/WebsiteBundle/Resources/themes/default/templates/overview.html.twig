@@ -22,10 +22,15 @@
             </div>
 
             <ul class="pagination">
-                {% if app.request.get('p')-1 >= 0 %}
-                    <li><a href="{{ content_path(content.url) }}?p={{ app.request.get('p')-1 }}">&laquo;</a></li>
+                {% set page = 1 %}
+                {% if request.get.p is defined %}
+                    {% set page = request.get.p %}
                 {% endif %}
-                <li><a href="{{ content_path(content.url) }}?p={{ app.request.get('p')+1 }}">&raquo;</a></li>
+
+                {% if page-1 >= 1 %}
+                    <li><a href="{{ content_path(content.url) }}?p={{ page-1 }}">&laquo;</a></li>
+                {% endif %}
+                <li><a href="{{ content_path(content.url) }}?p={{ page+1 }}">&raquo;</a></li>
             </ul>
 
             <div property="smartcontent">
