@@ -33,7 +33,7 @@
         "sulu/tag-bundle": "0.7.*",
         "sulu/category-bundle": "0.4.*",
         "sulu/location-bundle": "0.2.*",
-        "sulu/search-bundle": "dev-develop",
+        "sulu/search-bundle": "0.1.*",
 
         "nelmio/alice": "~1.7",
         "doctrine/data-fixtures": "1.0.*",

@@ -72,9 +72,6 @@ abstract class AbstractKernel extends Kernel
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
 
-            // sulu
-            $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
-
             // debug enhancement
             $bundles[] = new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle();
         }
