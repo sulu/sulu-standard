@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.6.7",
+    "version": "0.7.0",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -23,16 +23,16 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "0.6.*",
-        "sulu/admin-bundle": "0.6.*",
-        "sulu/contact-bundle": "0.6.*",
-        "sulu/security-bundle": "0.6.*",
-        "sulu/content-bundle": "0.6.*",
-        "sulu/website-bundle": "0.6.*",
-        "sulu/media-bundle": "0.3.*",
-        "sulu/tag-bundle": "0.6.*",
-        "sulu/category-bundle": "0.3.*",
-        "sulu/location-bundle": "0.1.*",
+        "sulu/sulu": "0.7.*",
+        "sulu/admin-bundle": "0.7.*",
+        "sulu/contact-bundle": "0.7.*",
+        "sulu/security-bundle": "0.7.*",
+        "sulu/content-bundle": "0.7.*",
+        "sulu/website-bundle": "0.7.*",
+        "sulu/media-bundle": "0.4.*",
+        "sulu/tag-bundle": "0.7.*",
+        "sulu/category-bundle": "0.4.*",
+        "sulu/location-bundle": "0.2.*",
 
         "jms/serializer-bundle": "@dev",
         "stof/doctrine-extensions-bundle": "@dev",
@@ -52,7 +52,7 @@
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
-        "sulu/test-bundle": "0.6.*",
+        "sulu/test-bundle": "0.7.*",
         "jackalope/jackalope-doctrine-dbal": "1.1.*",
         "raulfraile/ladybug-bundle": "1.0.*"
     },
