@@ -168,7 +168,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -189,7 +189,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -256,7 +256,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -405,16 +405,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "2a37b007dda8e21bdbb8fa445be8fa0064199e13"
+                "reference": "d5067b0b7e5ef59ba165dcc116c539400bf957ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/2a37b007dda8e21bdbb8fa445be8fa0064199e13",
-                "reference": "2a37b007dda8e21bdbb8fa445be8fa0064199e13",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/d5067b0b7e5ef59ba165dcc116c539400bf957ff",
+                "reference": "d5067b0b7e5ef59ba165dcc116c539400bf957ff",
                 "shasum": ""
             },
             "require": {
@@ -438,23 +438,20 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
                 }
             ],
             "description": "Database Abstraction Layer",
@@ -465,7 +462,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-05-11 07:45:37"
+            "time": "2014-09-15 11:44:29"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -546,12 +543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0"
+                "reference": "9a5b5289eb22079ec139ba1eb06043d4b89c6677"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
-                "reference": "3ffa2184c94d94477d5bb625b94597ed0d44ebe0",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/9a5b5289eb22079ec139ba1eb06043d4b89c6677",
+                "reference": "9a5b5289eb22079ec139ba1eb06043d4b89c6677",
                 "shasum": ""
             },
             "require": {
@@ -595,7 +592,7 @@
                 "Fixture",
                 "persistence"
             ],
-            "time": "2014-08-20 20:34:54"
+            "time": "2014-09-16 05:03:04"
         },
         {
             "name": "doctrine/inflector",
@@ -2279,12 +2276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "f3041b401f7c57535892788e506bbd322fb61601"
+                "reference": "997ec9b2f5efc5c37c5e6abafa12526dc04bfa07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f3041b401f7c57535892788e506bbd322fb61601",
-                "reference": "f3041b401f7c57535892788e506bbd322fb61601",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/997ec9b2f5efc5c37c5e6abafa12526dc04bfa07",
+                "reference": "997ec9b2f5efc5c37c5e6abafa12526dc04bfa07",
                 "shasum": ""
             },
             "require": {
@@ -2319,7 +2316,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-09-11 16:30:57"
+            "time": "2014-09-16 11:10:36"
         },
         {
             "name": "matthiasnoback/symfony-config-test",
@@ -3738,17 +3735,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "c1fc844b138b77e4d615c099a928f9375731c230"
+                "reference": "3739c84ec5230dc153543ceb06b93fd7e3866ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/c1fc844b138b77e4d615c099a928f9375731c230",
-                "reference": "c1fc844b138b77e4d615c099a928f9375731c230",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3739c84ec5230dc153543ceb06b93fd7e3866ead",
+                "reference": "3739c84ec5230dc153543ceb06b93fd7e3866ead",
                 "shasum": ""
             },
             "require": {
@@ -3803,7 +3800,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-09-11 16:15:20"
+            "time": "2014-09-16 11:30:04"
         },
         {
             "name": "sulu/location-bundle",
@@ -4166,17 +4163,17 @@
         },
         {
             "name": "sulu/website-bundle",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "5eb328c2022f9c7d57afb6eadf6f335827c21565"
+                "reference": "54e9697259ae7b8aadd1d1d7131ec29b6ea318ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/5eb328c2022f9c7d57afb6eadf6f335827c21565",
-                "reference": "5eb328c2022f9c7d57afb6eadf6f335827c21565",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/54e9697259ae7b8aadd1d1d7131ec29b6ea318ac",
+                "reference": "54e9697259ae7b8aadd1d1d7131ec29b6ea318ac",
                 "shasum": ""
             },
             "require": {
@@ -4217,7 +4214,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-09-11 16:21:28"
+            "time": "2014-09-16 11:30:29"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4892,7 +4889,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher",
+                    "name": "Armin Ronacher2",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
