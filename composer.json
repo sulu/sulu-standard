@@ -35,6 +35,7 @@
         "sulu/translate-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
         "sulu/search-bundle": "dev-develop",
+        "sulu/snippet-bundle": "dev-develop",
 
         "nelmio/alice": "~1.7",
         "doctrine/data-fixtures": "1.0.*",
