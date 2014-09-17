@@ -1,7 +1,6 @@
 imports:
     - { resource: parameters.yml }
     - { resource: phpcr.yml }
-    - { resource: widgets.yml }
 
 framework:
     #esi:             ~
