@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Ratchet.git",
-                "reference": "dbb99058421e39ef3cee795088156421ff4fdaa0"
+                "reference": "3ab853aa80df29460d82d415ebc2279f5f7ceb20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/dbb99058421e39ef3cee795088156421ff4fdaa0",
-                "reference": "dbb99058421e39ef3cee795088156421ff4fdaa0",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/3ab853aa80df29460d82d415ebc2279f5f7ceb20",
+                "reference": "3ab853aa80df29460d82d415ebc2279f5f7ceb20",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-08-29 10:02:42"
+            "time": "2014-09-17 01:20:40"
         },
         {
             "name": "doctrine/annotations",
@@ -129,16 +129,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449"
+                "reference": "cf483685798a72c93bf4206e3dd6358ea07d64e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/e16d7adf45664a50fa86f515b6d5e7f670130449",
-                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/cf483685798a72c93bf4206e3dd6358ea07d64e7",
+                "reference": "cf483685798a72c93bf4206e3dd6358ea07d64e7",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +154,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.4.x-dev"
                 }
             },
             "autoload": {
@@ -168,17 +168,6 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
@@ -187,10 +176,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Caching library offering an object-oriented API for many cache backends",
@@ -199,7 +194,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2013-10-25 19:04:14"
+            "time": "2014-09-17 14:24:04"
         },
         {
             "name": "doctrine/collections",
@@ -256,7 +251,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1051,12 +1046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "03e3663f447b4432a088a7dab27a1ff9e3722d75"
+                "reference": "d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/03e3663f447b4432a088a7dab27a1ff9e3722d75",
-                "reference": "03e3663f447b4432a088a7dab27a1ff9e3722d75",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22",
+                "reference": "d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22",
                 "shasum": ""
             },
             "require": {
@@ -1120,7 +1115,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-09-08 14:32:15"
+            "time": "2014-09-17 11:43:09"
         },
         {
             "name": "fzaninotto/faker",
@@ -3573,12 +3568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "4591c04fd676a2229cde04633e5c096987e0d146"
+                "reference": "ae5a0e0cc52bd15097fe4ef89102eb85cc5f7a8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/4591c04fd676a2229cde04633e5c096987e0d146",
-                "reference": "4591c04fd676a2229cde04633e5c096987e0d146",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/ae5a0e0cc52bd15097fe4ef89102eb85cc5f7a8b",
+                "reference": "ae5a0e0cc52bd15097fe4ef89102eb85cc5f7a8b",
                 "shasum": ""
             },
             "require": {
@@ -3613,7 +3608,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-09-15 13:28:41"
+            "time": "2014-09-16 13:04:53"
         },
         {
             "name": "sulu/category-bundle",
@@ -3740,12 +3735,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "ad6ce381705860055e7d1340aac4ca63b4d5b07b"
+                "reference": "775b2cb3bbe0b2de6793dd714d781f8cf6f64ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/ad6ce381705860055e7d1340aac4ca63b4d5b07b",
-                "reference": "ad6ce381705860055e7d1340aac4ca63b4d5b07b",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/775b2cb3bbe0b2de6793dd714d781f8cf6f64ae6",
+                "reference": "775b2cb3bbe0b2de6793dd714d781f8cf6f64ae6",
                 "shasum": ""
             },
             "require": {
@@ -3800,7 +3795,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-09-16 11:29:41"
+            "time": "2014-09-17 06:29:31"
         },
         {
             "name": "sulu/location-bundle",
@@ -4051,12 +4046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "d79efd05b0952ae936480cdc67115c8a5457501c"
+                "reference": "137cdb1d4312d2efaa2a5d18879832d5fb4eff50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/d79efd05b0952ae936480cdc67115c8a5457501c",
-                "reference": "d79efd05b0952ae936480cdc67115c8a5457501c",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/137cdb1d4312d2efaa2a5d18879832d5fb4eff50",
+                "reference": "137cdb1d4312d2efaa2a5d18879832d5fb4eff50",
                 "shasum": ""
             },
             "require": {
@@ -4102,7 +4097,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-09-16 07:13:45"
+            "time": "2014-09-17 14:24:38"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4948,7 +4943,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher2",
+                    "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
@@ -5174,17 +5169,17 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.3.1",
+            "version": "2.3.3",
             "target-dir": "Zend/Stdlib",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/Component_ZendStdlib.git",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6"
+                "reference": "fa33e6647f830d0d2a1cb451efcdfe1bb9a66c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/fa33e6647f830d0d2a1cb451efcdfe1bb9a66c33",
+                "reference": "fa33e6647f830d0d2a1cb451efcdfe1bb9a66c33",
                 "shasum": ""
             },
             "require": {
@@ -5216,11 +5211,12 @@
             "license": [
                 "BSD-3-Clause"
             ],
+            "homepage": "https://github.com/zendframework/zf2",
             "keywords": [
                 "stdlib",
                 "zf2"
             ],
-            "time": "2014-04-15 15:28:48"
+            "time": "2014-09-16 22:58:11"
         },
         {
             "name": "zendframework/zendsearch",
