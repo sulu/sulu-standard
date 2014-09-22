@@ -15,16 +15,12 @@
         <title lang="en">Default</title>
     </meta>
 
-    <index name="content" />
-
     <properties>
         <property name="title" type="text_line" mandatory="true">
             <meta>
                 <title lang="de">Titel</title>
                 <title lang="en">Title</title>
             </meta>
-
-            <indexField />
 
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
@@ -35,8 +31,6 @@
                 <title lang="de">Adresse</title>
                 <title lang="en">Resourcelocator</title>
             </meta>
-
-            <indexField />
 
             <tag name="sulu.rlp"/>
         </property>
@@ -49,6 +43,7 @@
         </property>
 
         <property name="images" type="media_selection">
+            <tag name="sulu.search.field" role="image" index="false"/>
             <meta>
                 <title lang="de">Bilder</title>
                 <title lang="en">Images</title>
@@ -65,12 +60,11 @@
             </meta>
             <properties>
                 <property name="article" type="text_editor">
+                    <tag name="sulu.search.field" role="description" />
                     <meta>
                         <title lang="de">Artikel</title>
                         <title lang="en">Article</title>
                     </meta>
-
-                    <indexField />
 
                     <params>
                         <param name="godMode" value="true"/>
