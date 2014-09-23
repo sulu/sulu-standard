@@ -87,3 +87,23 @@ sulu_contact:
             id: 1
             name: female
             translation: contact.contacts.formOfAddress.female
+
+massive_build:
+    targets:
+        dev:
+            dependencies:
+                database: ~
+                phpcr: ~
+                user: ~
+        devfull:
+            dependencies:
+                database: ~
+                phpcr: ~
+                user: ~
+                translations: ~
+                node_order:
+                search_index:
+        fix:
+            dependencies:
+                node_order:
+                search_index:
