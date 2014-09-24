@@ -55,8 +55,8 @@
             <environments>
                 <environment type="prod">
                     <urls>
-                        <url language="en" country="us">sulu.us</url>
-                        <url language="de" country="at">www.sulu.io</url>
+                        <url language="en">sulu.us</url>
+                        <url language="de">www.sulu.io</url>
                         <url>sulu.lo/{localization}</url>
                     </urls>
                 </environment>
@@ -69,7 +69,7 @@
                 <environment type="dev">
                     <urls>
                         <url>sulu.lo/{localization}</url>
-                        <url language="en" country="us">localhost</url>
+                        <url language="en">localhost</url>
                     </urls>
                 </environment>
             </environments>
