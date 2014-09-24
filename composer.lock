@@ -4048,12 +4048,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "1af1f71dd59b58305193d1da8852740fc05426c7"
+                "reference": "cdc307f35c612d9354fbd28c37cafa4118e31f6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1af1f71dd59b58305193d1da8852740fc05426c7",
-                "reference": "1af1f71dd59b58305193d1da8852740fc05426c7",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/cdc307f35c612d9354fbd28c37cafa4118e31f6a",
+                "reference": "cdc307f35c612d9354fbd28c37cafa4118e31f6a",
                 "shasum": ""
             },
             "require": {
@@ -4099,7 +4099,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-09-24 08:35:16"
+            "time": "2014-09-24 15:13:05"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4224,12 +4224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "897bd24593bd1304b80c124fc0a2cfdef2fbb7d2"
+                "reference": "312142279dede429227d52d8fc5f87ffb7791ccf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/897bd24593bd1304b80c124fc0a2cfdef2fbb7d2",
-                "reference": "897bd24593bd1304b80c124fc0a2cfdef2fbb7d2",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/312142279dede429227d52d8fc5f87ffb7791ccf",
+                "reference": "312142279dede429227d52d8fc5f87ffb7791ccf",
                 "shasum": ""
             },
             "require": {
@@ -4243,6 +4243,7 @@
                 "symfony-cmf/routing-bundle": "1.2.*@dev"
             },
             "require-dev": {
+                "matthiasnoback/symfony-dependency-injection-test": "~0.7.1",
                 "phpspec/prophecy-phpunit": "1.0.*",
                 "phpunit/phpunit": "3.7.*",
                 "sulu/test-bundle": "dev-develop",
@@ -4270,7 +4271,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-09-22 14:00:35"
+            "time": "2014-09-24 13:42:26"
         },
         {
             "name": "swiftmailer/swiftmailer",
