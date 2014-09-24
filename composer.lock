@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e1b34d85692a58ede99423aed42be20f",
+    "hash": "53b6d7f78b886d89c170cf50e1f2dff7",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -251,7 +251,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1046,12 +1046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22"
+                "reference": "350743cb704e8ec933b8475ba6caf0b9c1547a8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22",
-                "reference": "d0f8d2fc9ca5285f11aa54d9cf65076455d6fa22",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/350743cb704e8ec933b8475ba6caf0b9c1547a8e",
+                "reference": "350743cb704e8ec933b8475ba6caf0b9c1547a8e",
                 "shasum": ""
             },
             "require": {
@@ -1115,7 +1115,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-09-17 11:43:09"
+            "time": "2014-09-23 09:30:42"
         },
         {
             "name": "fzaninotto/faker",
@@ -1140,9 +1140,7 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": [
-
-                ]
+                "branch-alias": []
             },
             "autoload": {
                 "psr-0": {
@@ -2227,16 +2225,16 @@
         },
         {
             "name": "massive/build-bundle",
-            "version": "0.1",
+            "version": "0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveBuildBundle.git",
-                "reference": "b74a77acfd4c7000ad2dc3e03b736332a95e7ae7"
+                "reference": "b2752153e53f11ae73ff26eafac6ac777dd029d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveBuildBundle/zipball/b74a77acfd4c7000ad2dc3e03b736332a95e7ae7",
-                "reference": "b74a77acfd4c7000ad2dc3e03b736332a95e7ae7",
+                "url": "https://api.github.com/repos/massiveart/MassiveBuildBundle/zipball/b2752153e53f11ae73ff26eafac6ac777dd029d0",
+                "reference": "b2752153e53f11ae73ff26eafac6ac777dd029d0",
                 "shasum": ""
             },
             "require": {
@@ -2265,7 +2263,7 @@
             ],
             "description": "Massive Art Build Bundle",
             "homepage": "https://github.com/massiveart/MassiveBuildBundle",
-            "time": "2014-08-13 12:58:45"
+            "time": "2014-09-12 16:44:35"
         },
         {
             "name": "massive/search-bundle",
@@ -3570,12 +3568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "a282e3083ab37360c9d427d7ed32bff06c36032a"
+                "reference": "3020817932e5e97e02160ebb5519c2e63b01ca4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/a282e3083ab37360c9d427d7ed32bff06c36032a",
-                "reference": "a282e3083ab37360c9d427d7ed32bff06c36032a",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/3020817932e5e97e02160ebb5519c2e63b01ca4b",
+                "reference": "3020817932e5e97e02160ebb5519c2e63b01ca4b",
                 "shasum": ""
             },
             "require": {
@@ -3610,7 +3608,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-09-19 15:20:24"
+            "time": "2014-09-23 12:32:01"
         },
         {
             "name": "sulu/category-bundle",
@@ -3676,12 +3674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "47cf2d09d43c2725a8502bef167473ebc494a829"
+                "reference": "8d8664cc4ab15fc9e7bc57d12eeed202b04150b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/47cf2d09d43c2725a8502bef167473ebc494a829",
-                "reference": "47cf2d09d43c2725a8502bef167473ebc494a829",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/8d8664cc4ab15fc9e7bc57d12eeed202b04150b0",
+                "reference": "8d8664cc4ab15fc9e7bc57d12eeed202b04150b0",
                 "shasum": ""
             },
             "require": {
@@ -3728,7 +3726,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-09-11 12:30:05"
+            "time": "2014-09-22 12:04:06"
         },
         {
             "name": "sulu/content-bundle",
@@ -3986,12 +3984,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "58d8aa3f6be6004b89d6f6e6fddb6dd9db5b5cd0"
+                "reference": "a7f1dca4151273316e9e777df0aba7f20fa25669"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/58d8aa3f6be6004b89d6f6e6fddb6dd9db5b5cd0",
-                "reference": "58d8aa3f6be6004b89d6f6e6fddb6dd9db5b5cd0",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/a7f1dca4151273316e9e777df0aba7f20fa25669",
+                "reference": "a7f1dca4151273316e9e777df0aba7f20fa25669",
                 "shasum": ""
             },
             "require": {
@@ -4040,7 +4038,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-09-11 16:34:09"
+            "time": "2014-09-22 15:55:37"
         },
         {
             "name": "sulu/sulu",
@@ -4048,12 +4046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "137cdb1d4312d2efaa2a5d18879832d5fb4eff50"
+                "reference": "27c0c8c04eb7f2d5a36fa2079e3c3ba5164c1054"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/137cdb1d4312d2efaa2a5d18879832d5fb4eff50",
-                "reference": "137cdb1d4312d2efaa2a5d18879832d5fb4eff50",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/27c0c8c04eb7f2d5a36fa2079e3c3ba5164c1054",
+                "reference": "27c0c8c04eb7f2d5a36fa2079e3c3ba5164c1054",
                 "shasum": ""
             },
             "require": {
@@ -4070,13 +4068,9 @@
             },
             "require-dev": {
                 "jackalope/jackalope-doctrine-dbal": "1.1.*",
-                "phpspec/prophecy-phpunit": "~1.0",
                 "phpunit/phpunit": "4.0.*",
                 "sulu/test-bundle": "dev-develop",
                 "symfony/symfony": "2.5.*"
-            },
-            "suggest": {
-                "massive/build-bundle": "For initializing the Sulu environment"
             },
             "type": "library",
             "autoload": {
@@ -4099,7 +4093,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-09-17 14:24:38"
+            "time": "2014-09-23 11:50:40"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4224,12 +4218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "0c50bdd6cde99b9a7960b4eef3602149f6d13964"
+                "reference": "897bd24593bd1304b80c124fc0a2cfdef2fbb7d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/0c50bdd6cde99b9a7960b4eef3602149f6d13964",
-                "reference": "0c50bdd6cde99b9a7960b4eef3602149f6d13964",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/897bd24593bd1304b80c124fc0a2cfdef2fbb7d2",
+                "reference": "897bd24593bd1304b80c124fc0a2cfdef2fbb7d2",
                 "shasum": ""
             },
             "require": {
@@ -4270,7 +4264,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-09-16 09:25:00"
+            "time": "2014-09-22 14:00:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4943,7 +4937,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher",
+                    "name": "Armin Ronacher2",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
@@ -5358,6 +5352,60 @@
             "time": "2014-07-22 23:58:29"
         },
         {
+            "name": "doctrine/instantiator",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "26404e0c90565b614ee76b988b9bc8790d77f590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/26404e0c90565b614ee76b988b9bc8790d77f590",
+                "reference": "26404e0c90565b614ee76b988b9bc8790d77f590",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.3"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.0.*@ALPHA"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Instantiator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://github.com/doctrine/instantiator",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2014-08-25 15:09:25"
+        },
+        {
             "name": "jackalope/jackalope-doctrine-dbal",
             "version": "1.1.2",
             "source": {
@@ -5471,19 +5519,20 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "328484c88ed3cd7d1980b624bb98fa635f212ec9"
+                "reference": "ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/328484c88ed3cd7d1980b624bb98fa635f212ec9",
-                "reference": "328484c88ed3cd7d1980b624bb98fa635f212ec9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0",
+                "reference": "ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0",
                 "shasum": ""
             },
             "require": {
+                "doctrine/instantiator": "~1.0,>=1.0.2",
                 "phpdocumentor/reflection-docblock": "~2.0"
             },
             "require-dev": {
@@ -5525,7 +5574,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2014-07-18 21:26:55"
+            "time": "2014-09-23 10:52:18"
         },
         {
             "name": "phpspec/prophecy-phpunit",
@@ -6279,9 +6328,7 @@
             "time": "2014-09-10 07:20:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
@@ -6312,7 +6359,5 @@
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

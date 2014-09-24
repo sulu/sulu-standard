@@ -103,7 +103,7 @@ massive_build:
                 translations: ~
                 node_order:
                 search_index:
-        fix:
+        maintain:
             dependencies:
                 node_order:
                 search_index:
