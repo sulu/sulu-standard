@@ -1,5 +1,5 @@
 <ul class="nav nav-justified">
-    {% for item in navigation_root_tree('main', 1, false) %}
+    {% for item in navigation_root_tree('main') %}
         <li>
             <a href="{{ content_path(item.url) }}" title="{{ item.title }}">{{ item.title }}</a>
         </li>
