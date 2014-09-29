@@ -37,11 +37,17 @@
                 {% for page in content.smartcontent %}
                     <div class="col-lg-4">
                         <h2>
-                            <a href="{{ content_path(page.resourceLocator) }}">{{ page.title }}</a>
+                            <a href="{{ content_path(page.url) }}">{{ page.title }}</a>
                         </h2>
+                        <p>
+                            <i>{{ page.ext_title }}</i> | <i>{{ page.ext_tags|join(', ') }}</i>
+                        </p>
+                        {% if page.ext_images|length > 0 %}
+                            <img src="{{ page.ext_images[0].thumbnails['50x50'] }}" alt="{{ page.ext_images[0].title }}"/>
+                        {% endif %}
                         {% autoescape false %}
-                        {% if page.article is defined %}
-                            {{ page.article|slice(0, 50) }}
+                        {% if page.article != '' %}
+                            {{ page.article }}
                         {% else %}
                             <p>No Article found</p>
                         {% endif %}

@@ -46,6 +46,14 @@
 
             <params>
                 <param name="max_per_page" value="5" />
+
+                <param name="properties" type="collection">
+                    <param name="title" value="title"/>
+                    <param name="article" value="article"/>
+                    <param name="ext_title" value="excerpt.title"/>
+                    <param name="ext_tags" value="excerpt.tags"/>
+                    <param name="ext_images" value="excerpt.images"/>
+                </param>
             </params>
         </property>
 
