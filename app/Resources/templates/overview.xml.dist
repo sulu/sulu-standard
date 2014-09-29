@@ -2,7 +2,8 @@
 
 <template xmlns="http://schemas.sulu.io/template/template"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
+          >
 
     <key>overview</key>
 
@@ -15,8 +16,6 @@
         <title lang="en">Overview</title>
     </meta>
 
-    <index name="content" />
-
     <properties>
         <property name="title" type="text_line" mandatory="true">
             <meta>
@@ -24,7 +23,7 @@
                 <title lang="en">Title</title>
             </meta>
 
-            <indexField />
+            <tag name="sulu.search.field" role="title" />
 
             <tag name="sulu.node.name"/>
             <tag name="sulu.rlp.part"/>
@@ -35,8 +34,6 @@
                 <title lang="de">Adresse</title>
                 <title lang="en">Resourcelocator</title>
             </meta>
-
-            <indexField />
 
             <tag name="sulu.rlp"/>
         </property>
@@ -66,7 +63,7 @@
                 <title lang="en">Article</title>
             </meta>
 
-            <indexField />
+            <tag name="sulu.search.field" role="description" />
         </property>
     </properties>
 </template>
