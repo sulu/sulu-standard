@@ -19,6 +19,8 @@
   - Use configured "property-names" to get data
   - See documentation for smart-content: https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/smart-content.md
 * `.data` can now be removed from everywhere
+* Search - Changes in template configuration:
+  - The `<indexField>` has been replaced by `<tag name="..." role="..."/>` see the SearchBundle UPGRADE.md for more information.
 
 ## 0.7.0
 
