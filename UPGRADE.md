@@ -10,6 +10,7 @@
      + url
      + template
      + changed / changer / created / creator
+     + template
      + nodeType
      + path
      + children (if tree functions called)
