@@ -24,11 +24,6 @@ doctrine:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast
 
-sulu_core:
-    webspace:
-        request_analyzer:
-            enabled: false
-
 sulu_content:
     preview:
         fallback:
