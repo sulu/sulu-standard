@@ -71,6 +71,7 @@
                         <param name="godMode" value="true"/>
                         <param name="links" value="true"/>
                         <param name="tables" value="true"/>
+                        <param name="pasteFromWord" value="true"/>
                     </params>
                 </property>
             </properties>

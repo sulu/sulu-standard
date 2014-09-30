@@ -50,6 +50,13 @@
                         <title lang="de">Text Editor</title>
                         <title lang="en">Text editor</title>
                     </meta>
+
+                    <params>
+                        <param name="godMode" value="true"/>
+                        <param name="links" value="true"/>
+                        <param name="tables" value="true"/>
+                        <param name="pasteFromWord" value="true"/>
+                    </params>
                 </property>
 
                 <property name="phone" type="phone" mandatory="true">
