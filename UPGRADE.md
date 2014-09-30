@@ -1,5 +1,24 @@
 # Upgrade
 
+## 0.8.0
+
+* navigation and sitemap changed interface and returned data
+  - See the documentation for twig extensions: https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/twig-extensions.md
+  - Data which is returned contains only special values like
+     + uuid
+     + title
+     + url
+     + template
+     + changed / changer / created / creator
+     + nodeType
+     + path
+     + children (if tree functions called)
+* SmartContent
+  - Configure returned values in xml-templates
+  - Use configured "property-names" to get data
+  - See documentation for smart-content: https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/smart-content.md
+* `.data` can now be removed from everywhere
+
 ## 0.7.0
 
 * changed variables for twig template
