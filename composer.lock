@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8ecc9ff77099265fb9ef3e3e3a8b154a",
+    "hash": "dcc5e5671922305129ff932dd5620682",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -4052,12 +4052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "71a86279b8e948b38d3e9a5efeb94d210cfcd80d"
+                "reference": "5351c8147083c578dcfa000603df17e832ac1dac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/71a86279b8e948b38d3e9a5efeb94d210cfcd80d",
-                "reference": "71a86279b8e948b38d3e9a5efeb94d210cfcd80d",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/5351c8147083c578dcfa000603df17e832ac1dac",
+                "reference": "5351c8147083c578dcfa000603df17e832ac1dac",
                 "shasum": ""
             },
             "require": {
@@ -4103,7 +4103,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-01 09:33:18"
+            "time": "2014-10-01 08:12:27"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4168,17 +4168,17 @@
         },
         {
             "name": "sulu/website-bundle",
-            "version": "0.8.0",
+            "version": "0.8.1",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "5c80e143dcebd668a11be3d9b9a6b951bb3c29c9"
+                "reference": "ce2efa6875700fe38d28cd22486c65fd5a2a620e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/5c80e143dcebd668a11be3d9b9a6b951bb3c29c9",
-                "reference": "5c80e143dcebd668a11be3d9b9a6b951bb3c29c9",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/ce2efa6875700fe38d28cd22486c65fd5a2a620e",
+                "reference": "ce2efa6875700fe38d28cd22486c65fd5a2a620e",
                 "shasum": ""
             },
             "require": {
@@ -4220,7 +4220,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-10-01 08:36:16"
+            "time": "2014-10-01 15:04:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
