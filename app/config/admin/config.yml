@@ -85,19 +85,17 @@ sulu_contact:
 
 massive_build:
     targets:
+        prod:
+            dependencies:
+                database: ~
+                phpcr: ~
+                fixtures: ~
         dev:
             dependencies:
                 database: ~
+                fixtures: ~
                 phpcr: ~
                 user: ~
-        devfull:
-            dependencies:
-                database: ~
-                phpcr: ~
-                user: ~
-                translations: ~
-                node_order:
-                search_index:
         maintain:
             dependencies:
                 node_order:
