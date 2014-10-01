@@ -22,6 +22,7 @@
 * `.data` can now be removed from everywhere
 * Search - Changes in template configuration:
   - The `<indexField>` has been replaced by `<tag name="..." role="..."/>` see the SearchBundle UPGRADE.md for more information.
+* Breadcrumb items interface changed: id > uuid
 
 ## 0.7.0
 
