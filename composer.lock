@@ -4052,12 +4052,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "5351c8147083c578dcfa000603df17e832ac1dac"
+                "reference": "71a86279b8e948b38d3e9a5efeb94d210cfcd80d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/5351c8147083c578dcfa000603df17e832ac1dac",
-                "reference": "5351c8147083c578dcfa000603df17e832ac1dac",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/71a86279b8e948b38d3e9a5efeb94d210cfcd80d",
+                "reference": "71a86279b8e948b38d3e9a5efeb94d210cfcd80d",
                 "shasum": ""
             },
             "require": {
@@ -4103,7 +4103,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-01 08:12:27"
+            "time": "2014-10-01 09:33:18"
         },
         {
             "name": "sulu/tag-bundle",
