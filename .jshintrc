@@ -1,7 +1,8 @@
 {
     "globals": {
         "require": false,
-        "define": false
+        "define": false,
+        "App": false
     },
     "bitwise": true,
     "camelcase": true,

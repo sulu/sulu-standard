@@ -56,7 +56,7 @@
         "friendsofsymfony/http-cache": "@dev",
         "willdurand/hateoas-bundle": "0.3.*",
 
-        "massive/build-bundle": "~0.1.0",
+        "massive/build-bundle": "~0.2.0",
         "massive/search-bundle": "@dev"
     },
     "require-dev": {

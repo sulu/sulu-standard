@@ -109,3 +109,8 @@ sulu_core:
                     internal: true
     http_cache:
         ~
+
+sulu_media:
+    search:
+        enabled: true
+
