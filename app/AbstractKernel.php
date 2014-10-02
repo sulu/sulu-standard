@@ -83,6 +83,12 @@ abstract class AbstractKernel extends SuluKernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__ . '/config/' . $this->getContext() . '/config_' . $this->getEnvironment() . '.yml');
+
+        $userConfig = __DIR__ . '/config/config.local.yml';
+
+        if (file_exists($userConfig)) {
+            $loader->load($userConfig);
+        }
     }
 
     /**

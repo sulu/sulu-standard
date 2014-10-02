@@ -3,7 +3,7 @@ CHANGELOG for Sulu CMF
 
 * [UNRELEASED]
 
-    * [FEATURE] ...
+    * [FEATURE] User configuration. Unversioned local configuration can be placed in `app/config/config.local.yml`
 
 * 0.5.1 (2014-07-24)
 
