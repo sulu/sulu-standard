@@ -96,17 +96,24 @@ sulu_core:
     webspace:
         config_dir: %kernel.root_dir%/Resources/webspaces
     content:
-        templates:
+        structure:
             paths:
-                app:
-                    path: "%kernel.root_dir%/Resources/templates"
+                app_page:
+                    path: "%kernel.root_dir%/Resources/structures/pages"
                     internal: false
+                    type: page
+                app_snippet:
+                    path: "%kernel.root_dir%/Resources/structures/snippets"
+                    internal: false
+                    type: snippet
                 content:
                     path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/templates"
                     internal: true
+                    type: page
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     internal: true
+                    type: page
     http_cache:
         ~
 
