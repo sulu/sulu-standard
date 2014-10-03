@@ -114,3 +114,5 @@ sulu_media:
     search:
         enabled: true
 
+    ghost_script:
+        path: /usr/bin/gs # OSX: /usr/local/bin/gs or Ubuntu: /usr/bin/gs
