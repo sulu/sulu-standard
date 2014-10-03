@@ -1,0 +1,58 @@
+webspaces:
+    sulu_io:
+        pages:
+            articles:
+                locale: de
+                template: default
+                data:
+                    url: /artikles
+                    title: Artikles
+                    description: German articles page
+                children:
+                    -
+                        locale: de
+                        template: default
+                        data:
+                            url: /artikles/foobar
+                            title: Foobar
+                            description: Some foobar
+                    -
+                        locale: de
+                        template: default
+                        data:
+                            url: /artickles/barfoo
+                            title: Barfoo
+                            description: Some Barfoo
+
+snippets:
+    -
+        locale: de
+        template: hotel
+        data:
+            name: The Grand Buddapest
+            description: |
+                In the present, a teenage girl approaches a monument to a writer in a cemetery. In her arms is a memoir penned by a character known only as "The Author" (Tom Wilkinson). She starts reading a chapter from the book. The Author begins narrating the tale from his desk in 1985 about a trip he made to the Grand Budapest Hotel in 1968.
+
+                Located in the fictional Republic of Zubrowka,[a] a European alpine state[15] ravaged by war and poverty, the Young Writer (Jude Law) discovers that the remote mountainside hotel has fallen on hard times. Many of its lustrous facilities are now in a poor state of repair, and its guests are few. The Writer encounters the hotel's elderly owner, Zero Moustafa (F. Murray Abraham), one afternoon, and they agree to meet later that evening. Over dinner in the hotel's enormous dining room, Mr. Moustafa tells him the tale of how he took ownership of the hotel and why he is unwilling to close it down.[16]
+
+                The story begins in 1932 during the hotel's glory days when the young Zero (Tony Revolori) was a lobby boy. Zubrowka is on the verge of war, but this is of little concern to Monsieur Gustave H. (Ralph Fiennes), the Grand Budapest's devoted concierge. The owner of the hotel is unknown and only relays important messages through lawyer Deputy Kovacs (Jeff Goldblum). When he is not attending to the needs of the hotel's wealthy clientele or managing its staff, Gustave courts a series of aging women who flock to the hotel to enjoy his "exceptional service". One of the ladies is Madame Céline Villeneuve "Madame D" Desgoffe und Taxis (Tilda Swinton), and Gustave spends the night with her prior to her departure.
+
+                One month later, he is informed that Madame D has died under mysterious circumstances. Taking Zero along, he races to her wake and the reading of the will, where Kovacs, coincidentally the executor of the will, reveals that she had bequeathed Gustave Boy with Apple, a very valuable painting, in her will. This enrages her family, all of whom hoped to inherit it. Her son, Dmitri Desgoffe und Taxis (Adrien Brody) lashes out at Gustave. With the help of Zero, Gustave takes the painting and returns to the Grand Budapest, securing the painting in the hotel's safe. During the journey, Gustave makes a pact with Zero: in return for the latter's help, he makes Zero his heir. Shortly thereafter, Gustave is arrested and imprisoned for the murder of Madame D after forced testimony by Serge X (Mathieu Amalric), Madame D's butler.
+
+    -
+        locale: de
+        template: hotel
+        data:
+            name: The Hotel New Hampshire
+            description: |
+                This novel is the story of the Berrys, a quirky New Hampshire family composed of a married couple, Win and Mary, and their five children. The parents, both from the small town of Dairy, New Hampshire, fall in love while working at a summer resort hotel in Maine as teenagers. There they meet a Viennese Jew named Freud who works at the resort as a handyman and entertainer, performing with his pet bear, State o' Maine; Freud comes to symbolize the magic of that summer for them. By summer's end the teens are engaged, and Win buys Freud's bear and motorcycle and travels the country performing to raise money to go to Harvard, which he subsequently attends while Mary starts their family. He then returns to Dairy and teaches at the local second-rate boys' prep school he attended, the Dairy School. But he is unsatisfied and dreaming of something better.
+
+                The children are: Franny, self-confident and brash; John, the narrator, sweet, if naive, and enamored of Franny; Frank, physically awkward, reserved, and homosexual; Lilly, a small romantic girl who has "stopped growing"; and Egg, an immature little boy with a penchant for dressing up in costumes. John and Franny are companions, seeing themselves as the most normal of the children, aware that their family is rather strange. But, as John remarks, to themselves the family's oddness seems "right as rain."
+
+                Win conceives the idea of turning an abandoned girls' school into a hotel. He names it the Hotel New Hampshire and the family moves in. This becomes the first part of Irving's Dickensian-style tale. Its chief plot elements are: Franny's rape at the hands of several members of the school football team, including the quarterback, a boy named Chipper Dove with whom she is in love, and her rescue, though somewhat late, by Junior Jones, a black member of the team; the death of the family dog, Sorrow, and its repeated resurrection via taxidermy, the first instance of which scares the grandfather literally to death; John's sexual initiation with the hotel housekeeper Ronda Ray; and a letter from Freud inviting the family to move to Vienna to help him (and his new "smart" bear) run his hotel there.
+
+                Traveling separately from the rest of the family, the mother and Egg are killed in an airplane crash. The others take up life in Vienna at what is renamed the (second) Hotel New Hampshire, one floor of which is occupied by prostitutes and another floor by a group of radical communists. The family discover that Freud is now blind and the "smart bear" is actually a girl named Susie in a bear suit. Plot developments in this segment are: the father's decline following the death of his wife; the family's relationships with the prostitutes and the radicals; John and Franny falling in love with each other; John's relationship with a communist who commits suicide; Franny's sexual relationships with Susie and with the "quarterback" of the radicals, Ernst; Lilly developing as a writer and penning the story of the family; and the radicals' plot to blow up the opera house, using Freud and the family as hostages, which Freud and Win foil. The family becomes famous and, with Frank as Lilly's agent, her book is published for a large amount of money. The family (with Susie the bear) returns to the States, taking up residence in The Stanhope hotel in New York.
+
+                The chief elements of the final part of the novel are: Franny and John's resolution of their love; Franny's revenge on her rapist; Franny's success as a movie actress and her marriage to Junior Jones; Lilly's suicide from her despair as a writer; John and Frank's purchase of the shut-down resort in Maine where their parents met; its function as a rape crisis center run by Susie; Susie and John finding happiness with each other; and a pregnant Franny asking them to raise her and Junior's impending baby.
+
+                The novel is evocative of the New Hampshire of Irving's childhood.
