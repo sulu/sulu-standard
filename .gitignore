@@ -29,5 +29,5 @@
 !/app/Resources/webspaces/*.dist
 
 # templates
-/app/Resources/templates/*
-!/app/Resources/templates/*.dist
+/app/Resources/structures/*
+!/app/Resources/structures/*.dist
