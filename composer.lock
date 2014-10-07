@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53b6d7f78b886d89c170cf50e1f2dff7",
+    "hash": "0e8ed86530130ac7f49c6a81aafd98cd",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -4169,61 +4169,6 @@
             "time": "2014-09-11 11:50:21"
         },
         {
-            "name": "sulu/translate-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/TranslateBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluTranslateBundle.git",
-                "reference": "7b623213f250a259fae7ee477a345aef55f568e4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTranslateBundle/zipball/7b623213f250a259fae7ee477a345aef55f568e4",
-                "reference": "7b623213f250a259fae7ee477a345aef55f568e4",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/orm": ">=2.2.3,<2.4-dev",
-                "friendsofsymfony/http-cache": "@dev",
-                "friendsofsymfony/rest-bundle": "@dev",
-                "jms/serializer-bundle": "@dev",
-                "php": ">=5.4",
-                "sulu/admin-bundle": "dev-develop",
-                "sulu/sulu": "dev-develop",
-                "willdurand/hateoas-bundle": "0.3.*"
-            },
-            "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
-                "sensio/framework-extra-bundle": "~3.0",
-                "sulu/test-bundle": "dev-develop",
-                "symfony/monolog-bundle": "2.4.*",
-                "symfony/symfony": "2.5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\TranslateBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluTranslateBundle/contributors"
-                }
-            ],
-            "description": "Symfony bundle that provides translate functionality",
-            "keywords": [
-                "symfony",
-                "translate"
-            ],
-            "time": "2014-08-25 16:41:52"
-        },
-        {
             "name": "sulu/website-bundle",
             "version": "dev-develop",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
@@ -6242,54 +6187,6 @@
             "time": "2014-08-15 10:29:00"
         },
         {
-            "name": "sulu/generator-bundle",
-            "version": "dev-develop",
-            "target-dir": "Sulu/Bundle/GeneratorBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sulu-cmf/SuluGeneratorBundle.git",
-                "reference": "696b6d670c980c527ae654266b1d7ab9ce486a50"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluGeneratorBundle/zipball/696b6d670c980c527ae654266b1d7ab9ce486a50",
-                "reference": "696b6d670c980c527ae654266b1d7ab9ce486a50",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/console": "~2.0",
-                "symfony/framework-bundle": "~2.2"
-            },
-            "require-dev": {
-                "doctrine/orm": "~2.2,>=2.2.3",
-                "symfony/doctrine-bridge": "~2.2",
-                "twig/twig": "~1.11"
-            },
-            "type": "sulu-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Sulu\\Bundle\\GeneratorBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sulu Community",
-                    "homepage": "https://github.com/massiveart/SuluGeneratorBundle/contributors"
-                }
-            ],
-            "description": "This bundle generates sulu code for you",
-            "time": "2014-09-30 07:10:54"
-        },
-        {
             "name": "sulu/test-bundle",
             "version": "dev-develop",
             "target-dir": "Sulu/Bundle/TestBundle",
@@ -6355,7 +6252,6 @@
         "sulu/media-bundle": 20,
         "sulu/tag-bundle": 20,
         "sulu/category-bundle": 20,
-        "sulu/translate-bundle": 20,
         "sulu/location-bundle": 20,
         "sulu/search-bundle": 20,
         "jms/serializer-bundle": 20,
@@ -6367,7 +6263,6 @@
         "friendsofsymfony/rest-bundle": 20,
         "friendsofsymfony/http-cache": 20,
         "massive/search-bundle": 20,
-        "sulu/generator-bundle": 20,
         "sulu/test-bundle": 20
     },
     "prefer-stable": false,

@@ -4,13 +4,14 @@
         <title>{{ content.title }}</title>
         <link>{{ content_root_path(true) }}</link>
         <description>{{ content.article }}</description>
-        <language>{{ locale }}</language>
-        <copyright>{{ resolve_user(changer).fullName }}</copyright>
+        <language>{{ request.locale }}</language>
+        {% set user = resolve_user(changer) %}
+        <copyright>{% if user != null %}{{ user.fullName }}{% endif %}</copyright>
         <pubDate>{{ changed|date('Y.m.d') }}</pubDate>
         {% for page in content.smartcontent %}
             <item>
                 <title>{{ page.title }}</title>
-                <link>{{ content_path(page.resourceLocator) }}</link>
+                <link>{{ content_path(page.url) }}</link>
             </item>
         {% endfor %}
     </channel>
