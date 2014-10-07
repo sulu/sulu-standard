@@ -15,7 +15,7 @@
      + path
      + children (if tree functions called)
 * SmartContent and Internal Links
-  - Supports "natural order". Existing systems need to run the `$ php app/console sulu:build node-order` command to migrate.
+  - Supports "natural order". Existing systems need to run the `$ php app/console sulu:build node_order` command to migrate.
   - Configure returned values in xml-templates
   - Use configured "property-names" to get data
   - See documentation for smart-content: https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/smart-content.md
