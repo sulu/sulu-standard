@@ -1135,7 +1135,9 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": []
+                "branch-alias": [
+
+                ]
             },
             "autoload": {
                 "psr-0": {
@@ -4049,12 +4051,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "7822b514d247ed0ba8fe77c281f510b81bb17188"
+                "reference": "3cef5102e8e6f85d050949217b12699823efdd5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7822b514d247ed0ba8fe77c281f510b81bb17188",
-                "reference": "7822b514d247ed0ba8fe77c281f510b81bb17188",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/3cef5102e8e6f85d050949217b12699823efdd5e",
+                "reference": "3cef5102e8e6f85d050949217b12699823efdd5e",
                 "shasum": ""
             },
             "require": {
@@ -4102,7 +4104,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-08 09:22:44"
+            "time": "2014-10-08 16:37:17"
         },
         {
             "name": "sulu/tag-bundle",
@@ -6235,7 +6237,9 @@
             "time": "2014-09-10 07:20:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
@@ -6264,5 +6268,7 @@
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": []
+    "platform-dev": [
+
+    ]
 }
