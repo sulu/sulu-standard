@@ -114,5 +114,4 @@ sulu_media:
     search:
         enabled: true
     ghost_script:
-        path: /usr/local/bin/gs
-
+        path: %ghost_script_path%
