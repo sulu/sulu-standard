@@ -161,13 +161,13 @@ add `extension=/path/to/Imagick.so` to `php.ini`
 ```
 brew install ghostscript
 ```
-configurate the path to `ghostscript` in the media bundle
+configurate the path to `ghostscript` in app/config/config.yml under `sulu_media.ghost_script.path`
 
 ###### Ubuntu
 ```
 sudo apt-get install ghostscript
 ```
-configurate the path to `ghostscript` in the media bundle
+configurate the path to `ghostscript` in app/config/config.yml under `sulu_media.ghost_script.path`
 
 #### Create required configuration files
 Before you go on with the initialization of the content repository, you have to make sure that all required configuration files exist.
