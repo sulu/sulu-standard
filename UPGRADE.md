@@ -1,5 +1,8 @@
 # Upgrade
 
+## 0.8.2
+  - add `ghost_script_path` parameter to app/conifg/parameters.yml
+
 ## 0.8.0
 
 * navigation and sitemap changed interface and returned data
