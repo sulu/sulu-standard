@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b43028613f48de62b83ac10d0960acde",
+    "hash": "a899d85ed3bcc82bc44ffc38983a270d",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -4046,16 +4046,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.8.3",
+            "version": "0.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "9aab37ed954edf12da225add917598723b598402"
+                "reference": "7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/9aab37ed954edf12da225add917598723b598402",
-                "reference": "9aab37ed954edf12da225add917598723b598402",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac",
+                "reference": "7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac",
                 "shasum": ""
             },
             "require": {
@@ -4101,7 +4101,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-08 10:54:06"
+            "time": "2014-10-08 16:42:51"
         },
         {
             "name": "sulu/tag-bundle",
