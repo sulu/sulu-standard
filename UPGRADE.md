@@ -16,6 +16,7 @@
      + template
      + nodeType
      + path
+     + excerpt.* (load-excerpt= true)
      + children (if tree functions called)
 * SmartContent and Internal Links
   - Supports "natural order". Existing systems need to run the `$ php app/console sulu:build node_order` command to migrate.
