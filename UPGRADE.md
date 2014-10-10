@@ -1,5 +1,10 @@
 # Upgrade
 
+## unreleased
+
+* config: default_template has now a sub-properties `page` and `snippet`
+  - change `default_template: <name>` to `default_template: page: <name>`
+
 ## 0.8.0
 
 * navigation and sitemap changed interface and returned data
