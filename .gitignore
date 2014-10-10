@@ -28,6 +28,10 @@
 /app/Resources/webspaces
 !/app/Resources/webspaces/*.dist
 
-# templates
-/app/Resources/structures/*
-!/app/Resources/structures/*.dist
+# pages
+/app/Resources/structures/pages/*
+!/app/Resources/structures/pages/*.dist
+
+# snippets
+/app/Resources/structures/snippets/*
+!/app/Resources/structures/snippets/*.dist

@@ -96,6 +96,8 @@ sulu_core:
     webspace:
         config_dir: %kernel.root_dir%/Resources/webspaces
     content:
+        default_template:
+            snippet: test
         structure:
             paths:
                 app_page:
