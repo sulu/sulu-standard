@@ -63,6 +63,7 @@
         "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
         "sulu/test-bundle": "dev-develop",
+        "symfony-cmf/testing": "~1.2@RC",
         "jackalope/jackalope-doctrine-dbal": "1.1.*",
         "raulfraile/ladybug-bundle": "1.0.*"
     },

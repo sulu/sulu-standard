@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d99f61ef15bdce440358e60b536d6758",
+    "hash": "6a69a90c6c91cef381399691dbb6ffdc",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -5754,17 +5754,17 @@
         },
         {
             "name": "raulfraile/ladybug-bundle",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "target-dir": "RaulFraile/Bundle/LadybugBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raulfraile/LadybugBundle.git",
-                "reference": "e2ef2c979444300e8fe85eee292bb43d87ea908c"
+                "reference": "0a3171f1d15194aadaba12fd9c81c11707c6b1c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/e2ef2c979444300e8fe85eee292bb43d87ea908c",
-                "reference": "e2ef2c979444300e8fe85eee292bb43d87ea908c",
+                "url": "https://api.github.com/repos/raulfraile/LadybugBundle/zipball/0a3171f1d15194aadaba12fd9c81c11707c6b1c3",
+                "reference": "0a3171f1d15194aadaba12fd9c81c11707c6b1c3",
                 "shasum": ""
             },
             "require": {
@@ -5805,7 +5805,7 @@
                 "tree",
                 "twig"
             ],
-            "time": "2014-08-29 20:43:09"
+            "time": "2014-10-10 06:09:15"
         },
         {
             "name": "raulfraile/ladybug-installer",
@@ -6192,19 +6192,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "3f8a3114e8857aedd053b96280ab81c337050ed1"
+                "reference": "4c8dfca3b7dbcc470e82a5451e80defd12470793"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/3f8a3114e8857aedd053b96280ab81c337050ed1",
-                "reference": "3f8a3114e8857aedd053b96280ab81c337050ed1",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/4c8dfca3b7dbcc470e82a5451e80defd12470793",
+                "reference": "4c8dfca3b7dbcc470e82a5451e80defd12470793",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/http-cache": "@dev",
                 "php": ">=5.4",
                 "phpspec/prophecy-phpunit": "~1.0",
-                "sulu/sulu": "dev-develop"
+                "sulu/sulu": "dev-develop",
+                "symfony-cmf/testing": "~1.2@RC"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "1.2.*",
@@ -6234,7 +6235,59 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-09-10 07:20:00"
+            "time": "2014-10-10 11:13:54"
+        },
+        {
+            "name": "symfony-cmf/testing",
+            "version": "1.2.0-RC1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony-cmf/Testing.git",
+                "reference": "aaa3abd37901a76971beb3a2351dc5bf800ed182"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/aaa3abd37901a76971beb3a2351dc5bf800ed182",
+                "reference": "aaa3abd37901a76971beb3a2351dc5bf800ed182",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.4",
+                "doctrine/data-fixtures": "~1.0",
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/phpcr-bundle": "~1.0",
+                "doctrine/phpcr-odm": "~1.0",
+                "jackalope/jackalope": "~1.0",
+                "jackalope/jackalope-doctrine-dbal": "~1.0",
+                "symfony/monolog-bundle": "~2.1",
+                "symfony/symfony": "~2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Cmf\\Component\\Testing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dantleech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Component for bootstraping functional tests for CMF bundles only.",
+            "time": "2014-08-21 09:05:18"
         }
     ],
     "aliases": [
@@ -6262,7 +6315,8 @@
         "friendsofsymfony/rest-bundle": 20,
         "friendsofsymfony/http-cache": 20,
         "massive/search-bundle": 20,
-        "sulu/test-bundle": 20
+        "sulu/test-bundle": 20,
+        "symfony-cmf/testing": 5
     },
     "prefer-stable": false,
     "platform": {
