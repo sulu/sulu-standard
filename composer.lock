@@ -2478,16 +2478,16 @@
         },
         {
             "name": "nelmio/alice",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/alice.git",
-                "reference": "4010576e31068871a90bbdc7d618e26b29760c5c"
+                "reference": "33cfab06b7e0d546c001ba95f9c594e4bd63d958"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/alice/zipball/4010576e31068871a90bbdc7d618e26b29760c5c",
-                "reference": "4010576e31068871a90bbdc7d618e26b29760c5c",
+                "url": "https://api.github.com/repos/nelmio/alice/zipball/33cfab06b7e0d546c001ba95f9c594e4bd63d958",
+                "reference": "33cfab06b7e0d546c001ba95f9c594e4bd63d958",
                 "shasum": ""
             },
             "require": {
@@ -2531,7 +2531,7 @@
                 "orm",
                 "test"
             ],
-            "time": "2014-09-29 20:51:08"
+            "time": "2014-10-10 13:07:37"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3571,12 +3571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "91f5fc5e5f956a2eb15f3d02ef7dfafe6e4a6da7"
+                "reference": "9cfb664a8b89c39b2bdf694360358162ba92a82a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/91f5fc5e5f956a2eb15f3d02ef7dfafe6e4a6da7",
-                "reference": "91f5fc5e5f956a2eb15f3d02ef7dfafe6e4a6da7",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/9cfb664a8b89c39b2bdf694360358162ba92a82a",
+                "reference": "9cfb664a8b89c39b2bdf694360358162ba92a82a",
                 "shasum": ""
             },
             "require": {
@@ -3611,7 +3611,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-10-01 07:58:04"
+            "time": "2014-10-10 14:53:08"
         },
         {
             "name": "sulu/category-bundle",
@@ -3620,12 +3620,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "9f643e27e3221b86933b0888021380d9e15c6318"
+                "reference": "d7df720e35cd68fa5aeb6a17e954c5582e6c1e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/9f643e27e3221b86933b0888021380d9e15c6318",
-                "reference": "9f643e27e3221b86933b0888021380d9e15c6318",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/d7df720e35cd68fa5aeb6a17e954c5582e6c1e29",
+                "reference": "d7df720e35cd68fa5aeb6a17e954c5582e6c1e29",
                 "shasum": ""
             },
             "require": {
@@ -3668,7 +3668,7 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-09-10 08:33:15"
+            "time": "2014-10-10 13:46:26"
         },
         {
             "name": "sulu/contact-bundle",
@@ -4856,16 +4856,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.16.0",
+            "version": "v1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8ce37115802e257a984a82d38254884085060024"
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
-                "reference": "8ce37115802e257a984a82d38254884085060024",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "shasum": ""
             },
             "require": {
@@ -4909,7 +4909,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-07-05 12:19:05"
+            "time": "2014-10-10 14:09:53"
         },
         {
             "name": "willdurand/hateoas",
