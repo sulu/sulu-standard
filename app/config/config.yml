@@ -114,3 +114,6 @@ sulu_media:
     search:
         enabled: true
 
+cmf_core:
+    publish_workflow:
+        enabled: false
