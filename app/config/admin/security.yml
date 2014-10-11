@@ -14,6 +14,7 @@ security:
 
     access_control:
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, roles: ROLE_USER }
 
     firewalls:

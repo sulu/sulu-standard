@@ -3569,12 +3569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "9cfb664a8b89c39b2bdf694360358162ba92a82a"
+                "reference": "013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/9cfb664a8b89c39b2bdf694360358162ba92a82a",
-                "reference": "9cfb664a8b89c39b2bdf694360358162ba92a82a",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4",
+                "reference": "013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4",
                 "shasum": ""
             },
             "require": {
@@ -3609,7 +3609,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-10-10 14:53:08"
+            "time": "2014-10-11 16:50:23"
         },
         {
             "name": "sulu/category-bundle",
@@ -3987,12 +3987,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSecurityBundle.git",
-                "reference": "eade48ad3deadbf99cf33cc5aed7c264297e53a3"
+                "reference": "b4d7d727bb8d565962cf98f1f6b4e5c00e8550cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/eade48ad3deadbf99cf33cc5aed7c264297e53a3",
-                "reference": "eade48ad3deadbf99cf33cc5aed7c264297e53a3",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSecurityBundle/zipball/b4d7d727bb8d565962cf98f1f6b4e5c00e8550cd",
+                "reference": "b4d7d727bb8d565962cf98f1f6b4e5c00e8550cd",
                 "shasum": ""
             },
             "require": {
@@ -4041,7 +4041,7 @@
                 "security",
                 "sulu"
             ],
-            "time": "2014-10-06 07:48:51"
+            "time": "2014-10-11 17:58:36"
         },
         {
             "name": "sulu/sulu",
