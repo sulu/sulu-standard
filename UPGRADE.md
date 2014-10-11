@@ -1,5 +1,8 @@
 # Upgrade
 
+## 0.8.2
+  - add `ghost_script_path` parameter to app/conifg/parameters.yml
+
 ## 0.8.0
 
 * navigation and sitemap changed interface and returned data
@@ -13,15 +16,17 @@
      + template
      + nodeType
      + path
+     + excerpt.* (load-excerpt= true)
      + children (if tree functions called)
-* SmartContent
-  - Supports "natural order". Existing systems need to run the `$ php app/console sulu:build node-order` command to migrate.
+* SmartContent and Internal Links
+  - Supports "natural order". Existing systems need to run the `$ php app/console sulu:build node_order` command to migrate.
   - Configure returned values in xml-templates
   - Use configured "property-names" to get data
   - See documentation for smart-content: https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/smart-content.md
 * `.data` can now be removed from everywhere
 * Search - Changes in template configuration:
   - The `<indexField>` has been replaced by `<tag name="..." role="..."/>` see the SearchBundle UPGRADE.md for more information.
+* Breadcrumb items interface changed: id > uuid
 
 ## 0.7.0
 
