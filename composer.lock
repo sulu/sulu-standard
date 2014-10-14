@@ -969,12 +969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "1e0a515a3849a11bdb53276a9914319ffea43a22"
+                "reference": "63cb0996b99a7ce37748dbf6550aec0ab1a6e693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/1e0a515a3849a11bdb53276a9914319ffea43a22",
-                "reference": "1e0a515a3849a11bdb53276a9914319ffea43a22",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/63cb0996b99a7ce37748dbf6550aec0ab1a6e693",
+                "reference": "63cb0996b99a7ce37748dbf6550aec0ab1a6e693",
                 "shasum": ""
             },
             "require": {
@@ -1032,7 +1032,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-09-01 19:06:31"
+            "time": "2014-10-12 14:19:29"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -6237,16 +6237,16 @@
         },
         {
             "name": "symfony-cmf/testing",
-            "version": "1.2.0-RC1",
+            "version": "1.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Testing.git",
-                "reference": "aaa3abd37901a76971beb3a2351dc5bf800ed182"
+                "reference": "b3e062a665eb03a495a314d9a42fdf897d7de11f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/aaa3abd37901a76971beb3a2351dc5bf800ed182",
-                "reference": "aaa3abd37901a76971beb3a2351dc5bf800ed182",
+                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/b3e062a665eb03a495a314d9a42fdf897d7de11f",
+                "reference": "b3e062a665eb03a495a314d9a42fdf897d7de11f",
                 "shasum": ""
             },
             "require": {
@@ -6285,7 +6285,7 @@
                 }
             ],
             "description": "Component for bootstraping functional tests for CMF bundles only.",
-            "time": "2014-08-21 09:05:18"
+            "time": "2014-10-12 12:19:38"
         }
     ],
     "aliases": [],

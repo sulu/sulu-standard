@@ -1,5 +1,9 @@
 # Upgrade
 
+## unrelease
+* Every template must have a title property
+  - Therefore the tag `sulu.node.name` doesn't have to be set anymore
+
 ## 0.8.2
   - add `ghost_script_path` parameter to app/conifg/parameters.yml
 
