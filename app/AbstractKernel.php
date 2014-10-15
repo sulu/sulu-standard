@@ -53,6 +53,8 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
             new Sulu\Bundle\SnippetBundle\SuluSnippetBundle(),
 
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
+
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
