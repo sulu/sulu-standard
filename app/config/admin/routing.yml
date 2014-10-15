@@ -56,15 +56,6 @@ sulu_category_api:
     resource: "@SuluCategoryBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
-sulu_translate:
-    resource: "@SuluTranslateBundle/Resources/config/routing.yml"
-    prefix: /admin/translate
-
-sulu_translate_api:
-    resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
-    type: rest
-    prefix: /admin/api
-
 sulu_snippet_api:
     resource: "@SuluSnippetBundle/Resources/config/routing_api.yml"
     type: rest
