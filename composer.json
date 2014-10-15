@@ -88,7 +88,7 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "RC",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
