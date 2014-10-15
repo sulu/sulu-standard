@@ -1,6 +1,7 @@
 /app/bootstrap.php.cache
 /app/cache/*
 /app/data/*
+/app/config/config.local.yml
 /app/config/parameters.yml
 /app/config/phpcr.yml
 /app/logs/*

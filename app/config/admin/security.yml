@@ -14,12 +14,14 @@ security:
 
     access_control:
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, roles: ROLE_USER }
 
     firewalls:
         admin:
             pattern: ^/
             anonymous: ~
+            entry_point: sulu_security.authentication_entry_point
             form_login:
                 login_path: sulu_admin.login
                 check_path: sulu_admin.login_check
