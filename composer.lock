@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a899d85ed3bcc82bc44ffc38983a270d",
+    "hash": "b508dcd570a553fef3291f24929f0dc2",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3731,17 +3731,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.8.3",
+            "version": "0.8.4",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "c4804a9e8cecd212e225711e0f1d8a40ff3b3722"
+                "reference": "3ace3dcbbf4432fafd96c271d6f0b8a43c793920"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/c4804a9e8cecd212e225711e0f1d8a40ff3b3722",
-                "reference": "c4804a9e8cecd212e225711e0f1d8a40ff3b3722",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3ace3dcbbf4432fafd96c271d6f0b8a43c793920",
+                "reference": "3ace3dcbbf4432fafd96c271d6f0b8a43c793920",
                 "shasum": ""
             },
             "require": {
@@ -3797,7 +3797,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-10-15 08:32:31"
+            "time": "2014-10-15 16:11:27"
         },
         {
             "name": "sulu/location-bundle",
@@ -4046,16 +4046,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.8.4",
+            "version": "0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac"
+                "reference": "c6b26abe571a207e9308b9d8578f77db7c3325f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac",
-                "reference": "7afdddd52fc4310c4bffbb51acc7ca7d7c0ce8ac",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c6b26abe571a207e9308b9d8578f77db7c3325f6",
+                "reference": "c6b26abe571a207e9308b9d8578f77db7c3325f6",
                 "shasum": ""
             },
             "require": {
@@ -4101,7 +4101,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-08 16:42:51"
+            "time": "2014-10-15 16:07:49"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4166,17 +4166,17 @@
         },
         {
             "name": "sulu/website-bundle",
-            "version": "0.8.2",
+            "version": "0.8.3",
             "target-dir": "Sulu/Bundle/WebsiteBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluWebsiteBundle.git",
-                "reference": "d5ae05a7e2d7598b966cbae165d2ce876f16218f"
+                "reference": "60178aabad67d5710e9e9fedf2c47975dd70dab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/d5ae05a7e2d7598b966cbae165d2ce876f16218f",
-                "reference": "d5ae05a7e2d7598b966cbae165d2ce876f16218f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluWebsiteBundle/zipball/60178aabad67d5710e9e9fedf2c47975dd70dab8",
+                "reference": "60178aabad67d5710e9e9fedf2c47975dd70dab8",
                 "shasum": ""
             },
             "require": {
@@ -4218,7 +4218,7 @@
                 "sulu",
                 "website"
             ],
-            "time": "2014-10-07 16:38:00"
+            "time": "2014-10-15 16:12:34"
         },
         {
             "name": "swiftmailer/swiftmailer",
