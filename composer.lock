@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a69a90c6c91cef381399691dbb6ffdc",
+    "hash": "b8d9086ff34f4c7ae530ffbc41050c62",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -1041,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "a81b4ba6f8bfae9a971404512e71b994b41b8171"
+                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/a81b4ba6f8bfae9a971404512e71b994b41b8171",
-                "reference": "a81b4ba6f8bfae9a971404512e71b994b41b8171",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d83fa5f9909dffbc9830e549d53be867a40ca132",
+                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132",
                 "shasum": ""
             },
             "require": {
@@ -1110,7 +1110,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-10-07 10:04:14"
+            "time": "2014-10-14 14:36:55"
         },
         {
             "name": "fzaninotto/faker",
@@ -1135,9 +1135,7 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": [
-
-                ]
+                "branch-alias": []
             },
             "autoload": {
                 "psr-0": {
@@ -3571,12 +3569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4"
+                "reference": "453240a1588d0f227a464e183ea5e7133b2d3b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4",
-                "reference": "013ba8d429b27dbcd975d44bfbfaaffd41a2bbd4",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/453240a1588d0f227a464e183ea5e7133b2d3b45",
+                "reference": "453240a1588d0f227a464e183ea5e7133b2d3b45",
                 "shasum": ""
             },
             "require": {
@@ -3611,7 +3609,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-10-11 16:50:23"
+            "time": "2014-10-14 12:04:54"
         },
         {
             "name": "sulu/category-bundle",
@@ -3620,12 +3618,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluCategoryBundle.git",
-                "reference": "d7df720e35cd68fa5aeb6a17e954c5582e6c1e29"
+                "reference": "1f43ccf359c6868e4e1ab40f3e02bfc1c2b10349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/d7df720e35cd68fa5aeb6a17e954c5582e6c1e29",
-                "reference": "d7df720e35cd68fa5aeb6a17e954c5582e6c1e29",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluCategoryBundle/zipball/1f43ccf359c6868e4e1ab40f3e02bfc1c2b10349",
+                "reference": "1f43ccf359c6868e4e1ab40f3e02bfc1c2b10349",
                 "shasum": ""
             },
             "require": {
@@ -3668,7 +3666,7 @@
                 "categories",
                 "sulu"
             ],
-            "time": "2014-10-10 13:46:26"
+            "time": "2014-10-14 14:35:13"
         },
         {
             "name": "sulu/contact-bundle",
@@ -3738,12 +3736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "cb15aa6443300e3def99a7416c1063431b5cd802"
+                "reference": "eb917e0c466159e4089a08d16b3ee9df63d033d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/cb15aa6443300e3def99a7416c1063431b5cd802",
-                "reference": "cb15aa6443300e3def99a7416c1063431b5cd802",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/eb917e0c466159e4089a08d16b3ee9df63d033d1",
+                "reference": "eb917e0c466159e4089a08d16b3ee9df63d033d1",
                 "shasum": ""
             },
             "require": {
@@ -3799,7 +3797,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-10-08 09:40:52"
+            "time": "2014-10-15 08:20:46"
         },
         {
             "name": "sulu/location-bundle",
@@ -4051,12 +4049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "3cef5102e8e6f85d050949217b12699823efdd5e"
+                "reference": "d9eb73b70d746a6741e496cfbbca7df8fb77d6fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/3cef5102e8e6f85d050949217b12699823efdd5e",
-                "reference": "3cef5102e8e6f85d050949217b12699823efdd5e",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/d9eb73b70d746a6741e496cfbbca7df8fb77d6fa",
+                "reference": "d9eb73b70d746a6741e496cfbbca7df8fb77d6fa",
                 "shasum": ""
             },
             "require": {
@@ -4104,7 +4102,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-08 16:37:17"
+            "time": "2014-10-14 14:34:53"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4462,21 +4460,21 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "target-dir": "Symfony/Bundle/AsseticBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle.git",
-                "reference": "146dd3cb46b302bd471560471c6aaa930483dac1"
+                "reference": "099e0bb5d80e7039af20db384a41017fde521f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/146dd3cb46b302bd471560471c6aaa930483dac1",
-                "reference": "146dd3cb46b302bd471560471c6aaa930483dac1",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/099e0bb5d80e7039af20db384a41017fde521f21",
+                "reference": "099e0bb5d80e7039af20db384a41017fde521f21",
                 "shasum": ""
             },
             "require": {
-                "kriswallsmith/assetic": "~1.1",
+                "kriswallsmith/assetic": "1.1.x",
                 "php": ">=5.3.0",
                 "symfony/framework-bundle": "~2.1"
             },
@@ -4495,7 +4493,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev"
+                    "dev-master": "2.3-dev"
                 }
             },
             "autoload": {
@@ -4521,7 +4519,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2013-05-16 05:32:23"
+            "time": "2013-11-25 16:34:50"
         },
         {
             "name": "symfony/icu",
@@ -5294,7 +5292,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -5309,20 +5307,20 @@
         },
         {
             "name": "doctrine/instantiator",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "8806c41c178ad4a2e87294b851d730779555d252"
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8806c41c178ad4a2e87294b851d730779555d252",
-                "reference": "8806c41c178ad4a2e87294b851d730779555d252",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f976e5de371104877ebc89bd8fecb0019ed9c119",
+                "reference": "f976e5de371104877ebc89bd8fecb0019ed9c119",
                 "shasum": ""
             },
             "require": {
-                "php": "~5.3"
+                "php": ">=5.3,<8.0-DEV"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1.8",
@@ -5359,7 +5357,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2014-10-04 22:48:25"
+            "time": "2014-10-13 12:58:55"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
@@ -6239,16 +6237,16 @@
         },
         {
             "name": "symfony-cmf/testing",
-            "version": "1.2.0-RC2",
+            "version": "1.2.0-RC3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Testing.git",
-                "reference": "b3e062a665eb03a495a314d9a42fdf897d7de11f"
+                "reference": "3e0b03d90c05ce648d142544bc208b0aa8ad9e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/b3e062a665eb03a495a314d9a42fdf897d7de11f",
-                "reference": "b3e062a665eb03a495a314d9a42fdf897d7de11f",
+                "url": "https://api.github.com/repos/symfony-cmf/Testing/zipball/3e0b03d90c05ce648d142544bc208b0aa8ad9e92",
+                "reference": "3e0b03d90c05ce648d142544bc208b0aa8ad9e92",
                 "shasum": ""
             },
             "require": {
@@ -6287,13 +6285,11 @@
                 }
             ],
             "description": "Component for bootstraping functional tests for CMF bundles only.",
-            "time": "2014-10-12 12:19:38"
+            "time": "2014-10-14 07:55:05"
         }
     ],
-    "aliases": [
-
-    ],
-    "minimum-stability": "stable",
+    "aliases": [],
+    "minimum-stability": "RC",
     "stability-flags": {
         "sulu/sulu": 20,
         "sulu/admin-bundle": 20,
@@ -6322,7 +6318,5 @@
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
