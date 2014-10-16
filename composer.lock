@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b508dcd570a553fef3291f24929f0dc2",
+    "hash": "1f035ca20b0571b05a32adb7ec0fbb99",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -5291,7 +5291,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
