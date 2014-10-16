@@ -3569,12 +3569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "71d6ccbaf8d5486b6adbf3b73fb77544087b3d85"
+                "reference": "fd0c785179455c4acc5489a85513ef60baf252ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/71d6ccbaf8d5486b6adbf3b73fb77544087b3d85",
-                "reference": "71d6ccbaf8d5486b6adbf3b73fb77544087b3d85",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/fd0c785179455c4acc5489a85513ef60baf252ca",
+                "reference": "fd0c785179455c4acc5489a85513ef60baf252ca",
                 "shasum": ""
             },
             "require": {
@@ -3609,7 +3609,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-10-15 16:13:51"
+            "time": "2014-10-16 11:51:48"
         },
         {
             "name": "sulu/category-bundle",
@@ -3675,12 +3675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContactBundle.git",
-                "reference": "b4b2e61be7c08949edbd997adc4ffca6e6b38931"
+                "reference": "b1a525a71d7967d13cff1bd853e413dfe4a6df63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/b4b2e61be7c08949edbd997adc4ffca6e6b38931",
-                "reference": "b4b2e61be7c08949edbd997adc4ffca6e6b38931",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContactBundle/zipball/b1a525a71d7967d13cff1bd853e413dfe4a6df63",
+                "reference": "b1a525a71d7967d13cff1bd853e413dfe4a6df63",
                 "shasum": ""
             },
             "require": {
@@ -3727,7 +3727,7 @@
                 "contact",
                 "crm"
             ],
-            "time": "2014-10-15 15:33:03"
+            "time": "2014-10-16 11:53:00"
         },
         {
             "name": "sulu/content-bundle",
@@ -3736,12 +3736,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "cb63a86718eabd98f180532a66e09ec8b924b04f"
+                "reference": "8503af46f645ec1ab19429eb25342e63cc742795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/cb63a86718eabd98f180532a66e09ec8b924b04f",
-                "reference": "cb63a86718eabd98f180532a66e09ec8b924b04f",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/8503af46f645ec1ab19429eb25342e63cc742795",
+                "reference": "8503af46f645ec1ab19429eb25342e63cc742795",
                 "shasum": ""
             },
             "require": {
@@ -3797,7 +3797,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-10-15 16:12:07"
+            "time": "2014-10-16 11:53:44"
         },
         {
             "name": "sulu/location-bundle",
@@ -3875,12 +3875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluMediaBundle.git",
-                "reference": "c6cdb7eff1b224e50049c62c419c07af428714bd"
+                "reference": "97eb0cf639d6b34922f1181536ca2732b433f354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/c6cdb7eff1b224e50049c62c419c07af428714bd",
-                "reference": "c6cdb7eff1b224e50049c62c419c07af428714bd",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluMediaBundle/zipball/97eb0cf639d6b34922f1181536ca2732b433f354",
+                "reference": "97eb0cf639d6b34922f1181536ca2732b433f354",
                 "shasum": ""
             },
             "require": {
@@ -3931,7 +3931,7 @@
                 "crm",
                 "media"
             ],
-            "time": "2014-10-15 12:51:42"
+            "time": "2014-10-16 11:53:19"
         },
         {
             "name": "sulu/search-bundle",
