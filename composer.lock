@@ -1041,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132"
+                "reference": "c3a72fa9c7e866b8988f609f8fd291fdd39b4565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d83fa5f9909dffbc9830e549d53be867a40ca132",
-                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/c3a72fa9c7e866b8988f609f8fd291fdd39b4565",
+                "reference": "c3a72fa9c7e866b8988f609f8fd291fdd39b4565",
                 "shasum": ""
             },
             "require": {
@@ -1110,7 +1110,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-10-14 14:36:55"
+            "time": "2014-10-17 08:29:55"
         },
         {
             "name": "fzaninotto/faker",
@@ -2994,16 +2994,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.37",
+            "version": "3.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/38709dc22d519a3d1be46849868aa2ddf822bcf6",
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
                 "shasum": ""
             },
             "require": {
@@ -3063,7 +3063,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-04-30 12:24:19"
+            "time": "2014-10-17 09:04:17"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6190,12 +6190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluTestBundle.git",
-                "reference": "4c8dfca3b7dbcc470e82a5451e80defd12470793"
+                "reference": "89ed85e2a86057e670320d520f38dfa5d35a6e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/4c8dfca3b7dbcc470e82a5451e80defd12470793",
-                "reference": "4c8dfca3b7dbcc470e82a5451e80defd12470793",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluTestBundle/zipball/89ed85e2a86057e670320d520f38dfa5d35a6e03",
+                "reference": "89ed85e2a86057e670320d520f38dfa5d35a6e03",
                 "shasum": ""
             },
             "require": {
@@ -6233,7 +6233,7 @@
                 "sulu",
                 "test"
             ],
-            "time": "2014-10-10 11:13:54"
+            "time": "2014-10-17 07:46:40"
         },
         {
             "name": "symfony-cmf/testing",
