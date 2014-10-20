@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f035ca20b0571b05a32adb7ec0fbb99",
+    "hash": "7a4b038d525fec99467978eb771b0b0a",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Ratchet.git",
-                "reference": "3ab853aa80df29460d82d415ebc2279f5f7ceb20"
+                "reference": "3240c87733b35ebb461a3d5fe9b8e7b5897fe70e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/3ab853aa80df29460d82d415ebc2279f5f7ceb20",
-                "reference": "3ab853aa80df29460d82d415ebc2279f5f7ceb20",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/3240c87733b35ebb461a3d5fe9b8e7b5897fe70e",
+                "reference": "3240c87733b35ebb461a3d5fe9b8e7b5897fe70e",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2014-09-17 01:20:40"
+            "time": "2014-10-19 16:21:58"
         },
         {
             "name": "doctrine/annotations",
@@ -969,12 +969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "63cb0996b99a7ce37748dbf6550aec0ab1a6e693"
+                "reference": "9c65814e72007d188673e7f413dfb0979fa5ff6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/63cb0996b99a7ce37748dbf6550aec0ab1a6e693",
-                "reference": "63cb0996b99a7ce37748dbf6550aec0ab1a6e693",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/9c65814e72007d188673e7f413dfb0979fa5ff6f",
+                "reference": "9c65814e72007d188673e7f413dfb0979fa5ff6f",
                 "shasum": ""
             },
             "require": {
@@ -1032,7 +1032,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2014-10-12 14:19:29"
+            "time": "2014-10-20 15:55:43"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -1041,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
-                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132"
+                "reference": "f5491a956629282c6962a34087d21dd5f86d2d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/d83fa5f9909dffbc9830e549d53be867a40ca132",
-                "reference": "d83fa5f9909dffbc9830e549d53be867a40ca132",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/f5491a956629282c6962a34087d21dd5f86d2d71",
+                "reference": "f5491a956629282c6962a34087d21dd5f86d2d71",
                 "shasum": ""
             },
             "require": {
@@ -1110,7 +1110,7 @@
             "keywords": [
                 "rest"
             ],
-            "time": "2014-10-14 14:36:55"
+            "time": "2014-10-20 12:40:34"
         },
         {
             "name": "fzaninotto/faker",
@@ -2994,16 +2994,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.37",
+            "version": "3.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/38709dc22d519a3d1be46849868aa2ddf822bcf6",
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
                 "shasum": ""
             },
             "require": {
@@ -3063,7 +3063,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-04-30 12:24:19"
+            "time": "2014-10-17 09:04:17"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3731,17 +3731,17 @@
         },
         {
             "name": "sulu/content-bundle",
-            "version": "0.8.4",
+            "version": "0.8.5",
             "target-dir": "Sulu/Bundle/ContentBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "3ace3dcbbf4432fafd96c271d6f0b8a43c793920"
+                "reference": "9bb32798e9dfbdb8754fb2d581675aa0806e1618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/3ace3dcbbf4432fafd96c271d6f0b8a43c793920",
-                "reference": "3ace3dcbbf4432fafd96c271d6f0b8a43c793920",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/9bb32798e9dfbdb8754fb2d581675aa0806e1618",
+                "reference": "9bb32798e9dfbdb8754fb2d581675aa0806e1618",
                 "shasum": ""
             },
             "require": {
@@ -3797,7 +3797,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-10-15 16:11:27"
+            "time": "2014-10-20 16:04:00"
         },
         {
             "name": "sulu/location-bundle",
@@ -4046,16 +4046,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.8.5",
+            "version": "0.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "c6b26abe571a207e9308b9d8578f77db7c3325f6"
+                "reference": "c4c238a957269ee547f4698a73f6f783ec06ddd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c6b26abe571a207e9308b9d8578f77db7c3325f6",
-                "reference": "c6b26abe571a207e9308b9d8578f77db7c3325f6",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c4c238a957269ee547f4698a73f6f783ec06ddd6",
+                "reference": "c4c238a957269ee547f4698a73f6f783ec06ddd6",
                 "shasum": ""
             },
             "require": {
@@ -4101,7 +4101,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-15 16:07:49"
+            "time": "2014-10-20 16:03:40"
         },
         {
             "name": "sulu/tag-bundle",
@@ -4853,16 +4853,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.16.1",
+            "version": "v1.16.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
+                "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
-                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
+                "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "shasum": ""
             },
             "require": {
@@ -4906,7 +4906,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-10-10 14:09:53"
+            "time": "2014-10-17 12:53:44"
         },
         {
             "name": "willdurand/hateoas",
@@ -5246,16 +5246,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.7.2",
+            "version": "0.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "e7e9494022190a03aa37ae7e5a2946b17c31686c"
+                "reference": "1d48dd020ac7d2f0c7c5e866fb9b1e73ceb0e08f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/e7e9494022190a03aa37ae7e5a2946b17c31686c",
-                "reference": "e7e9494022190a03aa37ae7e5a2946b17c31686c",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/1d48dd020ac7d2f0c7c5e866fb9b1e73ceb0e08f",
+                "reference": "1d48dd020ac7d2f0c7c5e866fb9b1e73ceb0e08f",
                 "shasum": ""
             },
             "require": {
@@ -5275,10 +5275,12 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
+                    "": [
+                        "test/unit",
+                        "test/functional"
+                    ],
                     "ParaTest": [
-                        "src/",
-                        "test/",
-                        "it/"
+                        "src/"
                     ]
                 }
             },
@@ -5302,7 +5304,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2014-07-22 23:58:29"
+            "time": "2014-10-17 14:20:23"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
