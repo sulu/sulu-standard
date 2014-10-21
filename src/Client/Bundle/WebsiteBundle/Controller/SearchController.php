@@ -2,7 +2,7 @@
 
 namespace Client\Bundle\WebsiteBundle\Controller;
 
-use Sulu\Bundle\SearchBundle\LocalizedSearchManager\LocalizedSearchManagerInterface;
+use Massive\Bundle\SearchBundle\Search\SearchManagerInterface;
 use Sulu\Bundle\WebsiteBundle\Controller\WebsiteController;
 use Sulu\Component\Rest\RequestParametersTrait;
 use Sulu\Component\Webspace\Analyzer\RequestAnalyzerInterface;
@@ -17,7 +17,7 @@ class SearchController extends WebsiteController
     {
         $query = $this->getRequestParameter($request, 'q', true);
 
-        /** @var LocalizedSearchManagerInterface $searchManager */
+        /** @var SearchManagerInterface $searchManager */
         $searchManager = $this->get('massive_search.search_manager');
 
         /** @var RequestAnalyzerInterface $requestAnalyzer */
