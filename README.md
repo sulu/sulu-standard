@@ -30,6 +30,8 @@ Use the following template for your vhost-configuration
 </VirtualHost>
 ```
 
+An Extended Example can be found [here](https://github.com/sulu-cmf/docs/blob/master/developer-documentation/000-foundation/vhost.md) for Apache and Nginx.
+
 Of course you also have to make sure that your webserver user has permission
 to access your installation folder.  Don't forget to include `sulu.lo` in your
 hosts-file, if you want to use Sulu on a local machine.
