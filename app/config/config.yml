@@ -98,8 +98,8 @@ sulu_core:
     content:
         structure:
             default_type:
-                snippet: test
-                page: test
+                snippet: default
+                page: default
             paths:
                 app_page:
                     path: "%kernel.root_dir%/Resources/pages"

@@ -45,13 +45,15 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
+            new Sulu\Bundle\SnippetBundle\SuluSnippetBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
             new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
-            new Sulu\Bundle\SnippetBundle\SuluSnippetBundle(),
+
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),

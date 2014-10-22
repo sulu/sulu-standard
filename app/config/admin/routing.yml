@@ -74,6 +74,15 @@ sulu_website:
     resource: "@SuluWebsiteBundle/Resources/config/routing.yml"
     prefix: /admin/website
 
+sulu_translate:
+    resource: "@SuluTranslateBundle/Resources/config/routing.yml"
+    prefix: /admin/translate
+
+sulu_translate_api:
+    resource: "@SuluTranslateBundle/Resources/config/routing_api.yml"
+    type: rest
+    prefix: /admin/api
+
 # for preview
 client_website:
     type: portal
