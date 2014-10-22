@@ -96,16 +96,17 @@ sulu_core:
     webspace:
         config_dir: %kernel.root_dir%/Resources/webspaces
     content:
-        default_template:
-            snippet: test
         structure:
+            default_type:
+                snippet: test
+                page: test
             paths:
                 app_page:
-                    path: "%kernel.root_dir%/Resources/structures/pages"
+                    path: "%kernel.root_dir%/Resources/pages"
                     internal: false
                     type: page
                 app_snippet:
-                    path: "%kernel.root_dir%/Resources/structures/snippets"
+                    path: "%kernel.root_dir%/Resources/snippets"
                     internal: false
                     type: snippet
                 content:
