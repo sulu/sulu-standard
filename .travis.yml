@@ -17,7 +17,6 @@ before_script:
   - mkdir -p $LOGS_DIR
   - if [[ "$DB" == "mysql" ]]; then mysql -e "CREATE DATABASE sulu;"; fi
   - if [[ "$DB" == "pgsql" ]]; then psql -c "CREATE DATABASE sulu;" -U postgres; fi
-  - cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
   - cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
   - cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
   - cp app/Resources/snippets/default.xml.dist app/Resources/snippets/default.xml
