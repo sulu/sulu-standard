@@ -8,6 +8,7 @@
   - change `default_template: <name>` to `default_template: page: <name>`
 * PHPCR Node-types: Additional node types added 
   - run `app/console sulu:phpcr:init`
+  - and `app/console sulu:webspaces:init`
   - and `app/console doctrine:phpcr:nodes:update --query="SELECT * FROM [nt:base] AS c WHERE [jcr:mixinTypes]='sulu:content'" --apply-closure="\$node->addMixin('sulu:page');"`
 * URL pre-caching: URL now stored in node to load current URL fast
   - TODO add command to migrate
