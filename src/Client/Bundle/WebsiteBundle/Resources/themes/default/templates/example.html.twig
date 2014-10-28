@@ -65,6 +65,34 @@
             </ul>
         {% endif %}
 
+        {% if content.snippets is defined %}
+            <h3>Snippets</h3>
+
+            <div property="snippets">
+                {% for snippet in content.snippets %}
+                    <h3>{{ snippet.title }}</h3>
+
+                    {% autoescape false %}
+                    {{ snippet.description }}
+                    {% endautoescape %}
+
+                    <h3>Links</h3>
+
+                    <ul>
+                        {% for link in snippet.internalLinks %}
+                            <li>
+                                <a href="{{ content_path(link.url, link.webspaceKey) }}">{{ link.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    {% for image in snippet.images %}
+                        <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.title }}"/>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
         {% if content.categories is defined %}
             <h3>Categories</h3>
 
