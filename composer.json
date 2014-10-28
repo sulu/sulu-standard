@@ -15,7 +15,7 @@
         "doctrine/orm": "2.4.*",
         "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
-        "symfony/assetic-bundle": "2.3.*",
+        "symfony/assetic-bundle": "2.3.*@dev",
         "symfony/swiftmailer-bundle": "2.3.*",
         "symfony/monolog-bundle": "2.4.*",
         "sensio/distribution-bundle": "2.3.*",
@@ -34,6 +34,9 @@
         "sulu/category-bundle": "dev-develop",
         "sulu/location-bundle": "dev-develop",
         "sulu/search-bundle": "dev-develop",
+        "sulu/snippet-bundle": "dev-develop",
+
+        "sulu/translate-bundle": "dev-develop",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
