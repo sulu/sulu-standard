@@ -6,7 +6,7 @@
   - Therefore the tag `sulu.node.name` doesn't have to be set anymore
 * config: default_template has now a sub-properties `page` and `snippet`
   - change `default_template: <name>` to `default_template: page: <name>`
-* config: replace `sulu_core.content.templates` with `sulu_core.content.structures`
+* config: replace `sulu_core.content.templates` with `sulu_core.content.structure`
 * PHPCR Node-types: Additional node types added 
   - run `app/console sulu:phpcr:init`
   - and `app/console sulu:webspaces:init`
