@@ -29,6 +29,13 @@
 /app/Resources/webspaces
 !/app/Resources/webspaces/*.dist
 
-# templates
+# pages
+/app/Resources/pages/*
+!/app/Resources/pages/*.dist
+
+# snippets
+/app/Resources/snippets/*
+!/app/Resources/snippets/*.dist
+
+# old structure files
 /app/Resources/templates/*
-!/app/Resources/templates/*.dist

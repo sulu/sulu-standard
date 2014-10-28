@@ -26,7 +26,7 @@ twig:
 assetic:
     debug:          %kernel.debug%
     use_controller: false
-    write_to:            "%kernel.root_dir%/../web"
+    write_to:       "%kernel.root_dir%/../web"
     #bundles:        []
     #java: /usr/bin/java
     filters:
@@ -89,24 +89,34 @@ liip_theme:
 
 sulu_core:
     phpcr:
-        backend: %phpcr_backend%
-        workspace: %phpcr_workspace%
-        username: %phpcr_user%
-        password: %phpcr_pass%
+        backend:    %phpcr_backend%
+        workspace:  %phpcr_workspace%
+        username:   %phpcr_user%
+        password:   %phpcr_pass%
     webspace:
         config_dir: %kernel.root_dir%/Resources/webspaces
     content:
-        templates:
+        structure:
+            default_type:
+                snippet: default
+                page: default
             paths:
-                app:
-                    path: "%kernel.root_dir%/Resources/templates"
+                app_page:
+                    path: "%kernel.root_dir%/Resources/pages"
                     internal: false
+                    type: page
+                app_snippet:
+                    path: "%kernel.root_dir%/Resources/snippets"
+                    internal: false
+                    type: snippet
                 content:
                     path: "%kernel.root_dir%/../vendor/sulu/content-bundle/Sulu/Bundle/ContentBundle/Content/templates"
                     internal: true
+                    type: page
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     internal: true
+                    type: page
     http_cache:
         ~
 
@@ -122,4 +132,3 @@ sulu_media:
 cmf_core:
     publish_workflow:
         enabled: false
-

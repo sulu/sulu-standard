@@ -32,7 +32,6 @@
 
                     <tag name="sulu.search.field" role="title" />
 
-                    <tag name="sulu.node.name"/>
                     <tag name="sulu.rlp.part"/>
                 </property>
 
