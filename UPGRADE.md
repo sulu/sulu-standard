@@ -4,6 +4,7 @@
 
 * Every template must have a title property
   - Therefore the tag `sulu.node.name` doesn't have to be set anymore
+* Page templates are stored in `app/Resources/pages` instead of `app/Resources/templates`
 * config: default_template has now a sub-properties `page` and `snippet`
   - change `default_template: <name>` to `default_template: page: <name>`
 * config: replace `sulu_core.content.templates` with `sulu_core.content.structure`
