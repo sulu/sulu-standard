@@ -128,7 +128,6 @@ sulu_media:
     format_manager:
         response_headers: %format_manager.response_headers%
 
-
 cmf_core:
     publish_workflow:
         enabled: false
