@@ -132,7 +132,7 @@ other things required to intiialize your Sulu CMF installation:
 Be sure that you installed jackrabbit or doctrine-dbal (next section of instructions)
 
 ````
-app/console sulu:build
+app/console sulu:build dev
 ````
 
 #### Optional
