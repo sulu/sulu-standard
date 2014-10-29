@@ -16,8 +16,8 @@ env:
 before_script:
   - mkdir -p $LOGS_DIR
   - cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
-  - cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
-  - cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml
+  - cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
+  - cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
   - cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
   - ./tests/sauce/connect_setup.sh
   - composer self-update

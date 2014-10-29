@@ -1,5 +1,20 @@
 # Upgrade
 
+## unreleased
+
+* Every template must have a title property
+  - Therefore the tag `sulu.node.name` doesn't have to be set anymore
+* Page templates are stored in `app/Resources/pages` instead of `app/Resources/templates`
+* config: default_type has now a sub-properties `page` and `snippet`
+  - change `default_type: <name>` to `default_type: page: <name>`
+* config: replace `sulu_core.content.templates` with `sulu_core.content.structure`
+* PHPCR Node-types: Additional node types added 
+  - run `app/console sulu:phpcr:init`
+  - and `app/console sulu:webspaces:init`
+  - and `app/console doctrine:phpcr:nodes:update --query="SELECT * FROM [nt:base] AS c WHERE [jcr:mixinTypes]='sulu:content'" --apply-closure="\$node->addMixin('sulu:page');"`
+* URL pre-caching: URL now stored in node to load current URL fast
+  - execute command `app/console sulu:upgrade:0.9.0:resource-locator`
+
 ## 0.8.2
   - add `ghost_script_path` parameter to app/conifg/parameters.yml
 
@@ -26,6 +41,7 @@
 * `.data` can now be removed from everywhere
 * Search - Changes in template configuration:
   - The `<indexField>` has been replaced by `<tag name="..." role="..."/>` see the SearchBundle UPGRADE.md for more information.
+* Breadcrumb items interface changed: id > uuid
 
 ## 0.7.0
 

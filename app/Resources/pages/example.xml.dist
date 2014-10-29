@@ -3,7 +3,7 @@
 <template xmlns="http://schemas.sulu.io/template/template"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
-          >
+        >
 
     <key>example</key>
 
@@ -32,7 +32,6 @@
 
                     <tag name="sulu.search.field" role="title" />
 
-                    <tag name="sulu.node.name"/>
                     <tag name="sulu.rlp.part"/>
                 </property>
 
@@ -124,6 +123,17 @@
                     </meta>
 
                     <tag name="sulu.rlp"/>
+                </property>
+
+                <property name="snippets" type="snippet">
+                    <meta>
+                        <title lang="de">Schnipsel wählen</title>
+                        <title lang="en">Choose snippet</title>
+                    </meta>
+
+                    <params>
+                        <param name="snippetType" value="default"/>
+                    </params>
                 </property>
 
                 <property name="tags" type="tag_list">

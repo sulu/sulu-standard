@@ -45,6 +45,7 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
             new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
+            new Sulu\Bundle\SnippetBundle\SuluSnippetBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
             new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
@@ -79,6 +80,12 @@ abstract class AbstractKernel extends SuluKernel
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__ . '/config/' . $this->getContext() . '/config_' . $this->getEnvironment() . '.yml');
+
+        $userConfig = __DIR__ . '/config/config.local.yml';
+
+        if (file_exists($userConfig)) {
+            $loader->load($userConfig);
+        }
     }
 
     /**
