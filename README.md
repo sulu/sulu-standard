@@ -75,15 +75,23 @@ cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
 On an online installation you have to adjust the URLs in this file.
 
 ##### Templates
-Templates are configured in the `app/Resources/templates`-folder. Copying the existing default template should be enough for a simple page containing a title, a link and a texteditor:
+Templates are configured in the `app/Resources/pages`-folder. Copying the existing default template should be enough for a simple page containing a title, a link and a texteditor:
 
 ```
-cp app/Resources/templates/default.xml.dist app/Resources/templates/default.xml
-cp app/Resources/templates/overview.xml.dist app/Resources/templates/overview.xml
-cp app/Resources/templates/complex.xml.dist app/Resources/templates/complex.xml
+cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
+cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
+cp app/Resources/pages/complex.xml.dist app/Resources/pages/complex.xml
 ```
 You can add more templates by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
 
+#### Snippets
+Snippets are configured in the `app/Resources/snippets`-folder. Copy the existing default snippet-types.
+
+```
+cp app/Resources/snippets/default.xml.dist app/Resources/snippets/default.xml
+```
+
+You can add more snippet-types by simply adding more files in this folder. Use the `default.xml.dist`-file as an example.
 
 #### Install all the dependencies with composer
 
