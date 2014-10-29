@@ -6,6 +6,8 @@ framework:
     router:
         resource: "%kernel.root_dir%/config/website/routing.yml"
         strict_requirements: ~
+    session:
+        save_path: "%kernel.root_dir%/cache/sessions/website/%kernel.environment%"
 
 twig:
     exception_controller: sulu_website.exception.controller:showAction
