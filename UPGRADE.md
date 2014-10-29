@@ -13,7 +13,7 @@
   - and `app/console sulu:webspaces:init`
   - and `app/console doctrine:phpcr:nodes:update --query="SELECT * FROM [nt:base] AS c WHERE [jcr:mixinTypes]='sulu:content'" --apply-closure="\$node->addMixin('sulu:page');"`
 * URL pre-caching: URL now stored in node to load current URL fast
-  - execute command `sulu:upgrade:0.9.0:resource-locator`
+  - execute command `app/console sulu:upgrade:0.9.0:resource-locator`
 
 ## 0.8.2
   - add `ghost_script_path` parameter to app/conifg/parameters.yml
