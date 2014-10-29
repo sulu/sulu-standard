@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
-
 <template xmlns="http://schemas.sulu.io/template/template"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
-        >
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
 
     <key>example</key>
 
@@ -30,13 +28,13 @@
                         <title lang="en">Textline</title>
                     </meta>
 
-                    <tag name="sulu.search.field" role="title" />
+                    <tag name="sulu.search.field" role="title"/>
 
                     <tag name="sulu.rlp.part"/>
                 </property>
 
                 <property name="note" type="text_area">
-                    <tag name="sulu.search.field" />
+                    <tag name="sulu.search.field"/>
                     <meta>
                         <title lang="de">Text Bereich</title>
                         <title lang="en">Textarea</title>
@@ -44,7 +42,7 @@
                 </property>
 
                 <property name="article" type="text_editor">
-                    <tag name="sulu.search.field" role="description" />
+                    <tag name="sulu.search.field" role="description"/>
                     <meta>
                         <title lang="de">Text Editor</title>
                         <title lang="en">Text editor</title>
@@ -164,7 +162,7 @@
                 </property>
 
                 <property name="downloads" type="media_selection">
-                    <tag name="sulu.search.field" role="image" />
+                    <tag name="sulu.search.field" role="image"/>
                     <meta>
                         <title lang="de">Downloads</title>
                         <title lang="en">Downloads</title>

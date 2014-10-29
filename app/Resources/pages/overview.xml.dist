@@ -1,9 +1,7 @@
 <?xml version="1.0" ?>
-
 <template xmlns="http://schemas.sulu.io/template/template"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
-          >
+          xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd">
 
     <key>overview</key>
 
@@ -23,7 +21,7 @@
                 <title lang="en">Title</title>
             </meta>
 
-            <tag name="sulu.search.field" role="title" />
+            <tag name="sulu.search.field" role="title"/>
 
             <tag name="sulu.rlp.part"/>
         </property>
@@ -44,7 +42,7 @@
             </meta>
 
             <params>
-                <param name="max_per_page" value="5" />
+                <param name="max_per_page" value="5"/>
 
                 <param name="properties" type="collection">
                     <param name="title" value="title"/>
@@ -62,7 +60,7 @@
                 <title lang="en">Article</title>
             </meta>
 
-            <tag name="sulu.search.field" role="description" />
+            <tag name="sulu.search.field" role="description"/>
         </property>
     </properties>
 </template>
