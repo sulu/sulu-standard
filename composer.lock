@@ -247,7 +247,7 @@
                 {
                     "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -3554,12 +3554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "65262c375dbf1414a7b54e12dc242236b64706da"
+                "reference": "59d48fcad8aaf01c29c3f9335888199c0decdd46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/65262c375dbf1414a7b54e12dc242236b64706da",
-                "reference": "65262c375dbf1414a7b54e12dc242236b64706da",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/59d48fcad8aaf01c29c3f9335888199c0decdd46",
+                "reference": "59d48fcad8aaf01c29c3f9335888199c0decdd46",
                 "shasum": ""
             },
             "require": {
@@ -3607,7 +3607,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-29 17:19:44"
+            "time": "2014-10-29 18:17:52"
         },
         {
             "name": "sulu/tag-bundle",
