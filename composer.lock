@@ -3056,12 +3056,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluAdminBundle.git",
-                "reference": "c54baa836dc0b4b3d3b6602a7dbe8dea0301352e"
+                "reference": "6efe1f1c37322078fce18f8557dffd7842460bf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/c54baa836dc0b4b3d3b6602a7dbe8dea0301352e",
-                "reference": "c54baa836dc0b4b3d3b6602a7dbe8dea0301352e",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluAdminBundle/zipball/6efe1f1c37322078fce18f8557dffd7842460bf0",
+                "reference": "6efe1f1c37322078fce18f8557dffd7842460bf0",
                 "shasum": ""
             },
             "require": {
@@ -3094,7 +3094,7 @@
                 "cmf",
                 "symfony"
             ],
-            "time": "2014-10-29 15:05:14"
+            "time": "2014-10-29 17:13:12"
         },
         {
             "name": "sulu/category-bundle",
@@ -3218,12 +3218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluContentBundle.git",
-                "reference": "195f8882864a5fa40e7e480a93136ac7d5010d2d"
+                "reference": "e4224d3fef1af516ee87b204a6e146516a6b5fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/195f8882864a5fa40e7e480a93136ac7d5010d2d",
-                "reference": "195f8882864a5fa40e7e480a93136ac7d5010d2d",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluContentBundle/zipball/e4224d3fef1af516ee87b204a6e146516a6b5fc7",
+                "reference": "e4224d3fef1af516ee87b204a6e146516a6b5fc7",
                 "shasum": ""
             },
             "require": {
@@ -3270,7 +3270,7 @@
                 "cmf",
                 "content"
             ],
-            "time": "2014-10-29 15:03:49"
+            "time": "2014-10-29 15:17:47"
         },
         {
             "name": "sulu/location-bundle",
@@ -3399,12 +3399,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/SuluSearchBundle.git",
-                "reference": "e52c116fc1a36324e2bfded039b2be83fab41900"
+                "reference": "24be4cb7e733ae231cbceac1924902860384d3d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/SuluSearchBundle/zipball/e52c116fc1a36324e2bfded039b2be83fab41900",
-                "reference": "e52c116fc1a36324e2bfded039b2be83fab41900",
+                "url": "https://api.github.com/repos/sulu-cmf/SuluSearchBundle/zipball/24be4cb7e733ae231cbceac1924902860384d3d4",
+                "reference": "24be4cb7e733ae231cbceac1924902860384d3d4",
                 "shasum": ""
             },
             "require": {
@@ -3438,7 +3438,7 @@
                 }
             ],
             "description": "Sulu Search Bundle",
-            "time": "2014-10-28 19:21:20"
+            "time": "2014-10-29 16:46:22"
         },
         {
             "name": "sulu/security-bundle",
@@ -3554,12 +3554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "d371ce684d7a479f8caa5a8efb56426c88c6e859"
+                "reference": "1ef7926fed0c084256c7c93ec97e388ccab8e89d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/d371ce684d7a479f8caa5a8efb56426c88c6e859",
-                "reference": "d371ce684d7a479f8caa5a8efb56426c88c6e859",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1ef7926fed0c084256c7c93ec97e388ccab8e89d",
+                "reference": "1ef7926fed0c084256c7c93ec97e388ccab8e89d",
                 "shasum": ""
             },
             "require": {
@@ -3607,7 +3607,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-29 10:27:07"
+            "time": "2014-10-29 16:23:42"
         },
         {
             "name": "sulu/tag-bundle",
