@@ -39,10 +39,17 @@ hosts-file, if you want to use Sulu on a local machine.
 
 ## Installation
 
-#### Create the project
+#### Clone this repository
 
 ```
-composer create-project sulu/sulu-standard sulu-standard dev-develop
+git clone git@github.com:sulu-cmf/sulu-standard.git
+cd sulu-standard
+```
+
+#### Checkout the develop-branch
+
+```
+git checkout develop
 ```
 
 ##### Setup PHPCR Session
