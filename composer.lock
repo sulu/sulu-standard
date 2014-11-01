@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "78444c68dc23fdbca2037a732b6c61ca",
+    "hash": "f691cc028a5904fefe143765a3351bcb",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3273,16 +3273,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-merge_repos",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "8eee8b8406d0525c4cee9dccc5f4dfade81b7c70"
+                "reference": "b55b3d95d9edc00221a69a4700ecbebc291e30f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/8eee8b8406d0525c4cee9dccc5f4dfade81b7c70",
-                "reference": "8eee8b8406d0525c4cee9dccc5f4dfade81b7c70",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/b55b3d95d9edc00221a69a4700ecbebc291e30f3",
+                "reference": "b55b3d95d9edc00221a69a4700ecbebc291e30f3",
                 "shasum": ""
             },
             "require": {
@@ -3333,7 +3333,7 @@
                 "matthiasnoback/symfony-config-test": "v0.1.1",
                 "matthiasnoback/symfony-dependency-injection-test": "v0.7.1",
                 "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "3.7.*",
+                "phpunit/phpunit": "~4.0.0",
                 "sensio/framework-extra-bundle": "~3.0",
                 "symfony-cmf/testing": "~1.1",
                 "symfony/doctrine-bridge": "~2.2",
@@ -3374,7 +3374,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-31 09:58:13"
+            "time": "2014-10-31 15:53:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3667,7 +3667,7 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "2.3.x-dev",
+            "version": "v2.3.1",
             "target-dir": "Symfony/Bundle/AsseticBundle",
             "source": {
                 "type": "git",
@@ -4451,7 +4451,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -5597,7 +5597,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "symfony/assetic-bundle": 20,
         "sulu/sulu": 20,
         "zendframework/zendsearch": 20
     },
