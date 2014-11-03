@@ -4,8 +4,7 @@
 
 * Smart-Content Pagination: introduced page and hasNextPage view vars
   - see commit https://github.com/sulu-cmf/sulu-standard/commit/e5f7f8e520ac8199b71bbd337c7f2df5ae3a85f4
-* Smart-Content: Filter current Page
-  - if param `exclude_current` isset to `true` then the current page will be filtered by smart-content
+* Smart-Content filters current page
 
 ## 0.9.0
 
