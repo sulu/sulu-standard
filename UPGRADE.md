@@ -2,6 +2,12 @@
 
 ## 0.9.0
 
+* Smart-Content Pagination: introduced page and hasNextPage view vars
+  - see commit https://github.com/sulu-cmf/sulu-standard/commit/e5f7f8e520ac8199b71bbd337c7f2df5ae3a85f4
+* Smart-Content filters current page
+
+## 0.9.0
+
 * Every template must have a title property
   - Therefore the tag `sulu.node.name` doesn't have to be set anymore
 * Page templates are stored in `app/Resources/pages` instead of `app/Resources/templates`
