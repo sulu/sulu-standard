@@ -1,6 +1,6 @@
 # Upgrade
 
-## unreleased
+## 0.9.0
 
 * Every template must have a title property
   - Therefore the tag `sulu.node.name` doesn't have to be set anymore
