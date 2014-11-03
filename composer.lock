@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f691cc028a5904fefe143765a3351bcb",
+    "hash": "c9f4443722f99f554606e64c90058524",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2338,16 +2338,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "68b7b7e861d195442ebf020cdb0fe202ba28deb9"
+                "reference": "f0181576eb572de7a73bb188960ce7e4b7024e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/68b7b7e861d195442ebf020cdb0fe202ba28deb9",
-                "reference": "68b7b7e861d195442ebf020cdb0fe202ba28deb9",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f0181576eb572de7a73bb188960ce7e4b7024e51",
+                "reference": "f0181576eb572de7a73bb188960ce7e4b7024e51",
                 "shasum": ""
             },
             "require": {
@@ -2382,7 +2382,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-10-07 16:38:50"
+            "time": "2014-11-03 14:10:34"
         },
         {
             "name": "monolog/monolog",
@@ -3273,16 +3273,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "b55b3d95d9edc00221a69a4700ecbebc291e30f3"
+                "reference": "77810ae309b8fab8f06b9c60ffbb7f203a7f73fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/b55b3d95d9edc00221a69a4700ecbebc291e30f3",
-                "reference": "b55b3d95d9edc00221a69a4700ecbebc291e30f3",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/77810ae309b8fab8f06b9c60ffbb7f203a7f73fb",
+                "reference": "77810ae309b8fab8f06b9c60ffbb7f203a7f73fb",
                 "shasum": ""
             },
             "require": {
@@ -3297,7 +3297,7 @@
                 "imagine/imagine": "~0.6.1",
                 "jackalope/jackalope-jackrabbit": "1.1.*",
                 "liip/theme-bundle": "1.1.*",
-                "massive/search-bundle": "0.3.*",
+                "massive/search-bundle": "~0.3.1",
                 "php": ">=5.4",
                 "phpspec/prophecy-phpunit": "~1.0",
                 "sensio/framework-extra-bundle": "3.0.*",
@@ -3374,7 +3374,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-10-31 15:53:00"
+            "time": "2014-11-03 17:47:59"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4842,23 +4842,23 @@
         },
         {
             "name": "phpunit/phpunit-selenium",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit-selenium.git",
-                "reference": "83a2b834c8395ad9510f7c8f4f46d498ce88565b"
+                "url": "https://github.com/giorgiosironi/phpunit-selenium.git",
+                "reference": "c84dd7ca214563868ce216123b7ae9c792beb262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-selenium/zipball/83a2b834c8395ad9510f7c8f4f46d498ce88565b",
-                "reference": "83a2b834c8395ad9510f7c8f4f46d498ce88565b",
+                "url": "https://api.github.com/repos/giorgiosironi/phpunit-selenium/zipball/c84dd7ca214563868ce216123b7ae9c792beb262",
+                "reference": "c84dd7ca214563868ce216123b7ae9c792beb262",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-dom": "*",
                 "php": ">=5.3.3",
-                "phpunit/phpunit": ">=3.7",
+                "phpunit/phpunit": "~3.7|~4.0",
                 "sebastian/comparator": "~1.0"
             },
             "type": "library",
@@ -4893,7 +4893,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-08-18 19:47:10"
+            "time": "2014-11-02 09:23:27"
         },
         {
             "name": "ptachoire/cssembed",
@@ -5597,7 +5597,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
         "zendframework/zendsearch": 20
     },
     "prefer-stable": false,
