@@ -8,7 +8,7 @@ framework:
         resource: "%kernel.root_dir%/config/admin/routing.yml"
         strict_requirements: ~
     session:
-        save_path: "%kernel.root_dir%/cache/sessions/admin/%kernel.environment%"
+        save_path: "%kernel.cache_dir%/../../sessions/admin/%kernel.environment%"
 
 # Twig Configuration
 twig:
