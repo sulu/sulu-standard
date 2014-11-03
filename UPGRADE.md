@@ -1,6 +1,6 @@
 # Upgrade
 
-## 0.9.0
+## 0.10.0
 
 * Smart-Content Pagination: introduced page and hasNextPage view vars
   - see commit https://github.com/sulu-cmf/sulu-standard/commit/e5f7f8e520ac8199b71bbd337c7f2df5ae3a85f4
