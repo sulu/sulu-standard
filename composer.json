@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -12,7 +12,6 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.5.*",
-        "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
         "symfony/assetic-bundle": "2.3.*",
         "symfony/swiftmailer-bundle": "2.3.*",
@@ -22,39 +21,19 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "0.9.*",
-        "sulu/admin-bundle": "0.9.*",
-        "sulu/contact-bundle": "0.9.*",
-        "sulu/security-bundle": "0.9.*",
-        "sulu/content-bundle": "0.9.*",
-        "sulu/website-bundle": "0.9.*",
-        "sulu/media-bundle": "0.6.*",
-        "sulu/tag-bundle": "0.9.*",
-        "sulu/category-bundle": "0.6.*",
-        "sulu/location-bundle": "0.4.*",
-        "sulu/search-bundle": "0.4.*",
-        "sulu/snippet-bundle": "0.1.*",
+        "sulu/sulu": "0.10.*",
+        "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
 
-        "jackalope/jackalope-jackrabbit": "1.1.*",
-        "doctrine/phpcr-bundle": "1.1.*",
-        "doctrine/phpcr-odm": "1.1.*",
-
         "zendframework/zend-stdlib": "~2.3",
         "zendframework/zendsearch": "@dev",
-
-        "symfony-cmf/core-bundle": "1.1.*",
-        "symfony-cmf/routing-bundle": "1.2.*",
-        "willdurand/hateoas-bundle": "0.3.*",
 
         "massive/build-bundle": "0.2.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.*",
         "sauce/sausage": "0.9.*",
-        "sulu/test-bundle": "0.9.*",
         "jackalope/jackalope-doctrine-dbal": "1.1.*",
         "raulfraile/ladybug-bundle": "1.0.*"
     },
