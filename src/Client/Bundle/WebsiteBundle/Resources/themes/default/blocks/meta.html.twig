@@ -1,5 +1,13 @@
-    <meta name="title" content="{{ extension.seo.title|default('') }}">
-    <meta name="keywords" content="{{ extension.seo.keywords|default('') }}">
-    <meta name="description" content="{{ extension.seo.description|default('') }}">
-    <meta name="robots" content="{{ extension.seo.noIndex ? 'noIndex' : 'index' }}">
-    <meta name="robots" content="{{ extension.seo.noFollow ? 'nofollow' : 'follow' }}">
+<meta name="title" content="{{ extension.seo.title|default('') }}">
+<meta name="keywords" content="{{ extension.seo.keywords|default('') }}">
+<meta name="description" content="{{ extension.seo.description|default('') }}">
+<meta name="robots" content="{{ extension.seo.noIndex ? 'noIndex' : 'index' }}">
+<meta name="robots" content="{{ extension.seo.noFollow ? 'nofollow' : 'follow' }}">
+
+<!-- Languages -->
+
+{% for locale, url in urls if locale != request.locale%}
+<link rel="alternate" href="{{ content_path((url?:'/'),request.webspaceKey,locale) }}" hreflang="{{ locale }}" />
+{% endfor %}
+
+<link rel="alternate" href="{{ content_path('/',request.webspaceKey,request.defaultLocale) }}" hreflang="x-default" />
