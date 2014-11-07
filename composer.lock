@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3f79f17c6845747cfc32d329b567c61b",
+    "hash": "5fb5295672a0b7cbf0c3951bd1b21213",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3273,16 +3273,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "d8af10be82987ac4e7a7f1fc28577c8d149a789d"
+                "reference": "7fc8fa766effff8ddc3a58f0949b5d2d699c013a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/d8af10be82987ac4e7a7f1fc28577c8d149a789d",
-                "reference": "d8af10be82987ac4e7a7f1fc28577c8d149a789d",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7fc8fa766effff8ddc3a58f0949b5d2d699c013a",
+                "reference": "7fc8fa766effff8ddc3a58f0949b5d2d699c013a",
                 "shasum": ""
             },
             "require": {
@@ -3374,7 +3374,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-04 14:11:33"
+            "time": "2014-11-07 13:17:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4404,16 +4404,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.8.1",
+            "version": "0.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "0f3ca743ba48e2d8694f0b604603b471a4e7e137"
+                "reference": "069a61e7a72d62aa0ef9ef9263d3159cb68860d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/0f3ca743ba48e2d8694f0b604603b471a4e7e137",
-                "reference": "0f3ca743ba48e2d8694f0b604603b471a4e7e137",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/069a61e7a72d62aa0ef9ef9263d3159cb68860d4",
+                "reference": "069a61e7a72d62aa0ef9ef9263d3159cb68860d4",
                 "shasum": ""
             },
             "require": {
@@ -4451,7 +4451,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
@@ -4462,7 +4462,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2014-10-23 22:09:39"
+            "time": "2014-11-04 20:44:45"
         },
         {
             "name": "phpunit/php-code-coverage",
