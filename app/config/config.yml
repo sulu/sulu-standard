@@ -109,10 +109,6 @@ sulu_core:
                     path: "%kernel.root_dir%/Resources/snippets"
                     internal: false
                     type: snippet
-                content:
-                    path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/ContentBundle/Content/templates"
-                    internal: true
-                    type: page
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     internal: true
