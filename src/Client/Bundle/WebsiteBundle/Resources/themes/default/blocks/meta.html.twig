@@ -1,5 +1,7 @@
-    <meta name="title" content="{{ extension.seo.title|default('') }}">
-    <meta name="keywords" content="{{ extension.seo.keywords|default('') }}">
-    <meta name="description" content="{{ extension.seo.description|default('') }}">
-    <meta name="robots" content="{{ extension.seo.noIndex ? 'noIndex' : 'index' }}">
-    <meta name="robots" content="{{ extension.seo.noFollow ? 'nofollow' : 'follow' }}">
+{% autoescape false %}
+<!-- Seo -->
+{{ meta_seo(extension, content) }}
+
+<!-- Alternate -->
+{{ meta_alternate(urls) }}
+{% endautoescape %}

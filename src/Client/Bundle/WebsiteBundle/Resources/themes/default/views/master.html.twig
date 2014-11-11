@@ -35,8 +35,10 @@
                             <a href="{{ content_root_path() }}">SULU CMF</a>
                         </h3>
                         <div>
-                            <a href="/de">de</a> |
-                            <a href="/en">en</a>
+                            {% for locale, url in urls %}
+                                <a href="{{ content_path((url?:'/'),request.webspaceKey,locale) }}">{{ locale }}</a>
+                                {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                     <div class="col-lg-3">
