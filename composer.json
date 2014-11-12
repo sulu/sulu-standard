@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.10.2",
+    "version": "0.11.0",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -21,7 +21,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "0.10.*",
+        "sulu/sulu": "0.11.*",
         "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",

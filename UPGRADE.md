@@ -1,5 +1,16 @@
 # Upgrade
 
+## 0.11.0
+
+* Remove the following lines from `app/config/config.yml`:
+
+````yaml
+    content:
+        path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/ContentBundle/Content/templates"
+        internal: true
+        type: page
+````
+
 ## 0.10.0
 
 * Smart-Content Pagination: introduced page and hasNextPage view vars
