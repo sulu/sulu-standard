@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b964aabbe5a2d1e0b68dc6242085ffc",
+    "hash": "f691cc028a5904fefe143765a3351bcb",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -3271,16 +3271,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.11.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d"
+                "reference": "034c089bdefcc7f6fdddbc0c6aa0eed5cfa8b331"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/435ad832bff304189fb6b04a77c9fa046956e87d",
-                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/034c089bdefcc7f6fdddbc0c6aa0eed5cfa8b331",
+                "reference": "034c089bdefcc7f6fdddbc0c6aa0eed5cfa8b331",
                 "shasum": ""
             },
             "require": {
@@ -3373,7 +3373,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-13 15:23:21"
+            "time": "2014-11-13 15:28:28"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5596,6 +5596,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "zendframework/zendsearch": 20
     },
     "prefer-stable": false,
