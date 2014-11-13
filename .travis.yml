@@ -1,8 +1,8 @@
 language: php
 
 php:
-  - 5.4
   - 5.5
+  - 5.6
   - hhvm
 
 env:
@@ -15,6 +15,8 @@ env:
 
 before_script:
   - mkdir -p $LOGS_DIR
+  - if [[ "$DB" == "mysql" ]]; then mysql -e "CREATE DATABASE sulu;"; fi
+  - if [[ "$DB" == "pgsql" ]]; then psql -c "CREATE DATABASE sulu;" -U postgres; fi
   - cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
   - cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
   - cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
@@ -22,11 +24,9 @@ before_script:
   - ./tests/sauce/connect_setup.sh
   - composer self-update
   - composer update --prefer-dist --no-interaction
-  - cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
   - php app/console doctrine:database:create
   - php app/console doctrine:schema:create
-  - php app/console doctrine:fixtures:load --no-interaction
-  - php app/console sulu:security:user:create admin Sulu Admin cmf@sulu.io en admin
+  - php app/console sulu:build dev --no-interaction
   - php app/console server:run 0.0.0.0:8000 --router=app/config/router_admin.php --env prod > /dev/null 2>&1 &
   - ./tests/sauce/connect_block.sh
 
