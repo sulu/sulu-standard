@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b242008f17cb100561b3756a33df983",
+    "hash": "5b964aabbe5a2d1e0b68dc6242085ffc",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2337,16 +2337,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.3.1",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "f0181576eb572de7a73bb188960ce7e4b7024e51"
+                "reference": "a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f0181576eb572de7a73bb188960ce7e4b7024e51",
-                "reference": "f0181576eb572de7a73bb188960ce7e4b7024e51",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211",
+                "reference": "a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211",
                 "shasum": ""
             },
             "require": {
@@ -2381,7 +2381,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-11-03 14:10:34"
+            "time": "2014-11-13 10:12:18"
         },
         {
             "name": "monolog/monolog",
@@ -3271,16 +3271,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.11.0",
+            "version": "0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "c6a042089ecdf665890e72c643c18d8520588c5e"
+                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c6a042089ecdf665890e72c643c18d8520588c5e",
-                "reference": "c6a042089ecdf665890e72c643c18d8520588c5e",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/435ad832bff304189fb6b04a77c9fa046956e87d",
+                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d",
                 "shasum": ""
             },
             "require": {
@@ -3295,7 +3295,7 @@
                 "imagine/imagine": "~0.6.1",
                 "jackalope/jackalope-jackrabbit": "1.1.*",
                 "liip/theme-bundle": "1.1.*",
-                "massive/search-bundle": "~0.3.1",
+                "massive/search-bundle": "~0.4",
                 "php": ">=5.4",
                 "phpspec/prophecy-phpunit": "~1.0",
                 "sensio/framework-extra-bundle": "3.0.*",
@@ -3373,7 +3373,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-12 12:12:15"
+            "time": "2014-11-13 15:23:21"
         },
         {
             "name": "swiftmailer/swiftmailer",
