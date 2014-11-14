@@ -24,8 +24,6 @@ before_script:
   - ./tests/sauce/connect_setup.sh
   - composer self-update
   - composer update --prefer-dist --no-interaction
-  - php app/console doctrine:database:create
-  - php app/console doctrine:schema:create
   - php app/console sulu:build dev --no-interaction
   - php app/console server:run 0.0.0.0:8000 --router=app/config/router_admin.php --env prod > /dev/null 2>&1 &
   - ./tests/sauce/connect_block.sh
