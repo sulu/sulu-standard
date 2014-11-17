@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b964aabbe5a2d1e0b68dc6242085ffc",
+    "hash": "7b67021d234aa5bd016eb5511b43f5c4",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2779,16 +2779,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.2.1",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0"
+                "reference": "91c2e9b44e5899738e1949dc248370cabdd5a9ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0",
-                "reference": "ed9c0bcffe4639a5b0ff83e399eeb28e7fcc68f0",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/91c2e9b44e5899738e1949dc248370cabdd5a9ae",
+                "reference": "91c2e9b44e5899738e1949dc248370cabdd5a9ae",
                 "shasum": ""
             },
             "require": {
@@ -2834,7 +2834,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2014-09-23 10:52:18"
+            "time": "2014-11-14 15:31:18"
         },
         {
             "name": "phpspec/prophecy-phpunit",
@@ -3271,16 +3271,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.11.1",
+            "version": "0.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d"
+                "reference": "f6f38564d6b6098b48583d52d2ec0abdd0db8187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/435ad832bff304189fb6b04a77c9fa046956e87d",
-                "reference": "435ad832bff304189fb6b04a77c9fa046956e87d",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/f6f38564d6b6098b48583d52d2ec0abdd0db8187",
+                "reference": "f6f38564d6b6098b48583d52d2ec0abdd0db8187",
                 "shasum": ""
             },
             "require": {
@@ -3373,7 +3373,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-13 15:23:21"
+            "time": "2014-11-17 07:52:39"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4403,16 +4403,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.9.0",
+            "version": "0.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "069a61e7a72d62aa0ef9ef9263d3159cb68860d4"
+                "reference": "1d4ff62232227b4b8e32e124af4aff1c82db60d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/069a61e7a72d62aa0ef9ef9263d3159cb68860d4",
-                "reference": "069a61e7a72d62aa0ef9ef9263d3159cb68860d4",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/1d4ff62232227b4b8e32e124af4aff1c82db60d3",
+                "reference": "1d4ff62232227b4b8e32e124af4aff1c82db60d3",
                 "shasum": ""
             },
             "require": {
@@ -4461,7 +4461,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2014-11-04 20:44:45"
+            "time": "2014-11-15 18:34:34"
         },
         {
             "name": "phpunit/php-code-coverage",
