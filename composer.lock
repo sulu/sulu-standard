@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f691cc028a5904fefe143765a3351bcb",
+    "hash": "521ba8c8e293bda8dc97387b80d6a845",
     "packages": [
         {
             "name": "cboden/ratchet",
@@ -2619,16 +2619,16 @@
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "08fd6d839407d6662452d0a1522d3f9493351bc2"
+                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/08fd6d839407d6662452d0a1522d3f9493351bc2",
-                "reference": "08fd6d839407d6662452d0a1522d3f9493351bc2",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/5398f5c2c08f61063a6230a6640415a2c4566816",
+                "reference": "5398f5c2c08f61063a6230a6640415a2c4566816",
                 "shasum": ""
             },
             "require": {
@@ -2677,7 +2677,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2014-11-07 16:21:22"
+            "time": "2014-11-17 10:54:18"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -2779,16 +2779,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "91c2e9b44e5899738e1949dc248370cabdd5a9ae"
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/91c2e9b44e5899738e1949dc248370cabdd5a9ae",
-                "reference": "91c2e9b44e5899738e1949dc248370cabdd5a9ae",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/9ca52329bcdd1500de24427542577ebf3fc2f1c9",
+                "reference": "9ca52329bcdd1500de24427542577ebf3fc2f1c9",
                 "shasum": ""
             },
             "require": {
@@ -2834,7 +2834,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2014-11-14 15:31:18"
+            "time": "2014-11-17 16:23:49"
         },
         {
             "name": "phpspec/prophecy-phpunit",
@@ -3275,12 +3275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "292148ed8a07bf19e18b713d4190540b4eced316"
+                "reference": "dc480254b8381cf43b6b170c1242be51f8e114de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/292148ed8a07bf19e18b713d4190540b4eced316",
-                "reference": "292148ed8a07bf19e18b713d4190540b4eced316",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/dc480254b8381cf43b6b170c1242be51f8e114de",
+                "reference": "dc480254b8381cf43b6b170c1242be51f8e114de",
                 "shasum": ""
             },
             "require": {
@@ -3373,7 +3373,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-14 16:16:42"
+            "time": "2014-11-19 07:45:50"
         },
         {
             "name": "swiftmailer/swiftmailer",
