@@ -906,16 +906,16 @@
         },
         {
             "name": "doctrine/phpcr-odm",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm.git",
-                "reference": "0ef13d146e7b78a0822337a73e872e0172020200"
+                "reference": "8d5027f50db36774dc923a603eb13bc7785120fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/0ef13d146e7b78a0822337a73e872e0172020200",
-                "reference": "0ef13d146e7b78a0822337a73e872e0172020200",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/8d5027f50db36774dc923a603eb13bc7785120fb",
+                "reference": "8d5027f50db36774dc923a603eb13bc7785120fb",
                 "shasum": ""
             },
             "require": {
@@ -975,7 +975,7 @@
                 "odm",
                 "phpcr"
             ],
-            "time": "2014-10-14 14:14:21"
+            "time": "2014-11-21 13:53:08"
         },
         {
             "name": "evenement/evenement",
@@ -3275,12 +3275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "dc480254b8381cf43b6b170c1242be51f8e114de"
+                "reference": "7d7ea78d74e4e838e10f90437b7ce4b3331424ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/dc480254b8381cf43b6b170c1242be51f8e114de",
-                "reference": "dc480254b8381cf43b6b170c1242be51f8e114de",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7d7ea78d74e4e838e10f90437b7ce4b3331424ac",
+                "reference": "7d7ea78d74e4e838e10f90437b7ce4b3331424ac",
                 "shasum": ""
             },
             "require": {
@@ -3373,7 +3373,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-11-19 07:45:50"
+            "time": "2014-11-24 18:51:18"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3848,16 +3848,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.5.6",
+            "version": "v2.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "1a1b1e528935f15dd76169f8b1dc3ef97f0d6210"
+                "reference": "dd4254fc39a702af22cd886a6790769541469da1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/1a1b1e528935f15dd76169f8b1dc3ef97f0d6210",
-                "reference": "1a1b1e528935f15dd76169f8b1dc3ef97f0d6210",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/dd4254fc39a702af22cd886a6790769541469da1",
+                "reference": "dd4254fc39a702af22cd886a6790769541469da1",
                 "shasum": ""
             },
             "require": {
@@ -3918,7 +3918,7 @@
                 "ircmaxell/password-compat": "1.0.*",
                 "monolog/monolog": "~1.3",
                 "ocramius/proxy-manager": ">=0.3.1,<0.6-dev",
-                "propel/propel1": "1.6.*"
+                "propel/propel1": "~1.6"
             },
             "type": "library",
             "extra": {
@@ -3957,7 +3957,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-10-24 06:55:39"
+            "time": "2014-11-20 16:00:03"
         },
         {
             "name": "twig/extensions",
