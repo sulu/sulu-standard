@@ -24,4 +24,3 @@ parameters:
         Expires: "+1 month"
         Pragma: "public"
         Cache-Control: "public"
-    format_cache.public_folder: web
