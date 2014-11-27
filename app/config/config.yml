@@ -123,6 +123,8 @@ sulu_media:
         path: %ghost_script_path%
     format_manager:
         response_headers: %format_manager.response_headers%
+    format_cache:
+        public_folder: %format_cache.public_folder%
 
 cmf_core:
     publish_workflow:
