@@ -9,23 +9,25 @@ defined('APP_ENV') || define('APP_ENV', (getenv('APP_ENV') ? getenv('APP_ENV') :
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-if (APP_ENV == 'dev') {
+if ('dev' == APP_ENV) {
     Debug::enable();
 }
 
-// Use APC for autoloading to improve performance.
-// Change 'sf2' to a unique prefix in order to prevent cache key conflicts
-// with other applications also using APC.
+// Enable APC for autoloading to improve performance.
+// You should change the ApcClassLoader first argument to a unique prefix
+// in order to prevent cache key conflicts with other applications
+// also using APC.
 /*
-$apcLoader = new ApcClassLoader('sf2', $loader);
+$apcLoader = new ApcClassLoader(sha1(__FILE__), $loader);
 $loader->unregister();
 $apcLoader->register(true);
 */
 
 require_once __DIR__ . '/../app/AdminKernel.php';
 
-$kernel = new AdminKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
+$kernel = new AdminKernel(APP_ENV, ('dev' == APP_ENV) ? true : false);
 $kernel->loadClassCache();
+
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();

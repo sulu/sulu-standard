@@ -26,6 +26,7 @@ doctrine:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast
 
+# SULU Content Configuration
 sulu_content:
     preview:
         fallback:
@@ -34,6 +35,7 @@ sulu_content:
             url: %content_preview_url%
             port: %content_preview_port%
 
+# SULU Admin Configuration
 sulu_admin:
     name: SULU 2.0
 
@@ -42,6 +44,7 @@ sulu_admin:
 parameters:
     jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
 
+# SULU Contact Configuration
 # define the account types and form of address
 # tabs key must match tab-id specified in content-navigation
 sulu_contact:
@@ -85,6 +88,7 @@ sulu_contact:
             name: female
             translation: contact.contacts.formOfAddress.female
 
+# Massive Build Configuration
 massive_build:
     targets:
         prod:
