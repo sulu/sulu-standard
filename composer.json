@@ -10,15 +10,14 @@
         }
     },
     "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": "2.5.*",
-        "twig/extensions": "1.0.*",
-        "symfony/assetic-bundle": "2.3.*",
-        "symfony/swiftmailer-bundle": "2.3.*",
-        "symfony/monolog-bundle": "2.4.*",
-        "sensio/distribution-bundle": "2.3.*",
-        "sensio/framework-extra-bundle": "3.0.*",
-        "sensio/generator-bundle": "2.3.*",
+        "php": ">=5.5",
+        "symfony/symfony": "2.6.*",
+        "twig/extensions": "~1.0",
+        "symfony/assetic-bundle": "~2.3",
+        "symfony/swiftmailer-bundle": "~2.3",
+        "symfony/monolog-bundle": "~2.4",
+        "sensio/distribution-bundle": "~3.0",
+        "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
 
         "sulu/sulu": "0.13.*",
@@ -33,9 +32,10 @@
         "massive/build-bundle": "0.2.*"
     },
     "require-dev": {
-        "sauce/sausage": "0.9.*",
+        "sensio/generator-bundle": "~2.3",
         "jackalope/jackalope-doctrine-dbal": "1.1.*",
-        "raulfraile/ladybug-bundle": "1.0.*"
+        "raulfraile/ladybug-bundle": "1.0.*",
+        "sauce/sausage": "0.9.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -61,9 +61,10 @@
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
+        "symfony-assets-install": "relative",
         "incenteev-parameters": [
-            { "file": "app/config/parameters.yml" },
-            { "file": "app/config/phpcr.yml" }
+            {"file": "app/config/parameters.yml"},
+            {"file": "app/config/phpcr.yml"}
         ]
     }
 }
