@@ -52,21 +52,6 @@ cd sulu-standard
 git checkout develop
 ```
 
-##### Setup PHPCR Session
-
-Copy the one of the files app/config/{phpcr_doctrine_dbal.yml.dist}
-or {phpcr_jackrabbit.yml.dist} to app/config/phpcr.yml. The config
-is based on [symfony-cmf sandbox](https://github.com/symfony-cmf/cmf-sandbox).
-Adjustments to the file contents are optionally.
-
-```
-cp app/config/phpcr_jackrabbit.yml.dist app/config/phpcr.yml
-```
-or
-```
-cp app/config/phpcr_doctrine_dbal.yml.dist app/config/phpcr.yml
-```
-
 ##### Webspaces
 Webspaces are configured in the `app/Resources/webspaces`-folder. Copying the existing example should be enough for a local installation:
 ```
@@ -98,6 +83,8 @@ You can add more snippet-types by simply adding more files in this folder. Use t
 ```
 composer install
 ```
+
+Composer will ask for some parameters. The default values are good enough to get a running setup.
 
 #### Clear the caches and set the appropriate permissions
 
