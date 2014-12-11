@@ -3370,16 +3370,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.13.0",
+            "version": "0.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "1cbc5383fc72d119a22c1423194a18e91b3fe421"
+                "reference": "58f22ace84a8b6e61639bdb90b77258f3d86ecaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1cbc5383fc72d119a22c1423194a18e91b3fe421",
-                "reference": "1cbc5383fc72d119a22c1423194a18e91b3fe421",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/58f22ace84a8b6e61639bdb90b77258f3d86ecaa",
+                "reference": "58f22ace84a8b6e61639bdb90b77258f3d86ecaa",
                 "shasum": ""
             },
             "require": {
@@ -3472,7 +3472,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-12-10 16:10:41"
+            "time": "2014-12-11 08:15:16"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4110,12 +4110,12 @@
             "version": "v1.16.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
+                "url": "https://github.com/fabpot/Twig.git",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "shasum": ""
             },
@@ -4547,7 +4547,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
