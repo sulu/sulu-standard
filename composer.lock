@@ -1927,16 +1927,16 @@
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-jackrabbit.git",
-                "reference": "d794d342f56949d8afc2f895d10e00a5ee969df6"
+                "reference": "f350452700572a30fa53189418db63057f137bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/d794d342f56949d8afc2f895d10e00a5ee969df6",
-                "reference": "d794d342f56949d8afc2f895d10e00a5ee969df6",
+                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/f350452700572a30fa53189418db63057f137bee",
+                "reference": "f350452700572a30fa53189418db63057f137bee",
                 "shasum": ""
             },
             "require": {
@@ -1945,7 +1945,7 @@
                 "jackalope/jackalope": "~1.1.0",
                 "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.0",
-                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
+                "phpcr/phpcr-utils": "~1.1"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
@@ -1988,7 +1988,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2014-05-25 09:55:12"
+            "time": "2014-11-13 08:05:35"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2269,16 +2269,16 @@
         },
         {
             "name": "kriswallsmith/assetic",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "735cffd3982c6e8cdebe292d5db39d077f65890f"
+                "reference": "02105abcd35fb32933bc566e4c3bec84c612e9c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/735cffd3982c6e8cdebe292d5db39d077f65890f",
-                "reference": "735cffd3982c6e8cdebe292d5db39d077f65890f",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/02105abcd35fb32933bc566e4c3bec84c612e9c1",
+                "reference": "02105abcd35fb32933bc566e4c3bec84c612e9c1",
                 "shasum": ""
             },
             "require": {
@@ -2336,7 +2336,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2013-07-19 00:03:27"
+            "time": "2014-12-12 05:37:00"
         },
         {
             "name": "liip/theme-bundle",
@@ -3370,16 +3370,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.13.1",
+            "version": "0.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "58f22ace84a8b6e61639bdb90b77258f3d86ecaa"
+                "reference": "c577fe5cb37a67772ca073bc453f45ce83db77d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/58f22ace84a8b6e61639bdb90b77258f3d86ecaa",
-                "reference": "58f22ace84a8b6e61639bdb90b77258f3d86ecaa",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/c577fe5cb37a67772ca073bc453f45ce83db77d9",
+                "reference": "c577fe5cb37a67772ca073bc453f45ce83db77d9",
                 "shasum": ""
             },
             "require": {
@@ -3472,7 +3472,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-12-11 08:15:16"
+            "time": "2014-12-12 10:14:25"
         },
         {
             "name": "swiftmailer/swiftmailer",
