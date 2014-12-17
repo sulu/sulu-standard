@@ -860,16 +860,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.4.6",
+            "version": "v2.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "bebacf79d8d4dae9168f0f9bc6811e6c2cb6a4d9"
+                "reference": "2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/bebacf79d8d4dae9168f0f9bc6811e6c2cb6a4d9",
-                "reference": "bebacf79d8d4dae9168f0f9bc6811e6c2cb6a4d9",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68",
+                "reference": "2bc4ff3cab2ae297bcd05f2e619d42e6a7ca9e68",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +929,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-10-06 13:22:50"
+            "time": "2014-12-16 13:45:01"
         },
         {
             "name": "doctrine/phpcr-bundle",
@@ -2436,16 +2436,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211"
+                "reference": "020360bf82515cbb667ba3f703780b666bdebcc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211",
-                "reference": "a88d0ca3b6c24f8078a2d0c4070a7a0f6f4ec211",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/020360bf82515cbb667ba3f703780b666bdebcc8",
+                "reference": "020360bf82515cbb667ba3f703780b666bdebcc8",
                 "shasum": ""
             },
             "require": {
@@ -2480,7 +2480,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2014-11-13 10:12:18"
+            "time": "2014-12-15 14:40:28"
         },
         {
             "name": "monolog/monolog",
@@ -3374,12 +3374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "1959e5ecec140953d4fd7ba9223c37368dd1d96f"
+                "reference": "68db0327e73915016b4d202a2e5819502d6cd47e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/1959e5ecec140953d4fd7ba9223c37368dd1d96f",
-                "reference": "1959e5ecec140953d4fd7ba9223c37368dd1d96f",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/68db0327e73915016b4d202a2e5819502d6cd47e",
+                "reference": "68db0327e73915016b4d202a2e5819502d6cd47e",
                 "shasum": ""
             },
             "require": {
@@ -3472,7 +3472,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-12-12 14:09:41"
+            "time": "2014-12-16 14:45:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4110,12 +4110,12 @@
             "version": "v1.16.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Twig.git",
+                "url": "https://github.com/twigphp/Twig.git",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "shasum": ""
             },
@@ -4547,7 +4547,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "Lead"
+                    "role": "lead"
                 }
             ],
             "description": "Parallel testing for PHP",
