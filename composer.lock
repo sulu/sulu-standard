@@ -3374,12 +3374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "68db0327e73915016b4d202a2e5819502d6cd47e"
+                "reference": "7aa0d6fa0f6ef24a9f746e3c923f09776ae3f6ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/68db0327e73915016b4d202a2e5819502d6cd47e",
-                "reference": "68db0327e73915016b4d202a2e5819502d6cd47e",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7aa0d6fa0f6ef24a9f746e3c923f09776ae3f6ba",
+                "reference": "7aa0d6fa0f6ef24a9f746e3c923f09776ae3f6ba",
                 "shasum": ""
             },
             "require": {
@@ -3472,7 +3472,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2014-12-16 14:45:03"
+            "time": "2014-12-17 17:30:23"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4110,12 +4110,12 @@
             "version": "v1.16.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/twigphp/Twig.git",
+                "url": "https://github.com/fabpot/Twig.git",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "reference": "42f758d9fe2146d1f0470604fc05ee43580873fc",
                 "shasum": ""
             },
@@ -4547,7 +4547,7 @@
                     "name": "Brian Scaturro",
                     "email": "scaturrob@gmail.com",
                     "homepage": "http://brianscaturro.com",
-                    "role": "lead"
+                    "role": "Lead"
                 }
             ],
             "description": "Parallel testing for PHP",
