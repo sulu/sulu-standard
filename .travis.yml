@@ -1,3 +1,5 @@
+sudo: false
+
 language: php
 
 php:
@@ -36,3 +38,4 @@ matrix:
 
 after_script:
   - ./tests/travis_print_logs.sh
+
