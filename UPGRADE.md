@@ -1,5 +1,9 @@
 # Upgrade
 
+## develop
+* rename parameter `content_preview_port` and `content_preview_url` to `websocket_port` and `websocket_url`
+  * remove ws:// '/' at the end from `websocket_url`
+
 ## 0.14.0
 * Role name is now unique
   * check roles and give them unique names
