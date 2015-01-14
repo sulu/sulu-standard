@@ -16,18 +16,19 @@ if (APP_ENV == 'dev') {
 // Use APC for autoloading to improve performance.
 // Change 'sf2' to a unique prefix in order to prevent cache key conflicts
 // with other applications also using APC.
-/*
-$apcLoader = new ApcClassLoader('sf2', $loader);
-$loader->unregister();
-$apcLoader->register(true);
-*/
+// 
+// $apcLoader = new ApcClassLoader('sf2', $loader);
+// $loader->unregister();
+// $apcLoader->register(true);
 
 require_once __DIR__ . '/../app/WebsiteKernel.php';
 
 $kernel = new WebsiteKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
 $kernel->loadClassCache();
 
-if (APP_ENV != 'dev') {
+// Comment this line if you want to use the "varnish" http
+// caching strategy. See http://sulu.readthedocs.org/en/latest/cookbook/caching-with-varnish.html
+ if (APP_ENV != 'dev') {
     require_once __DIR__ . '/../app/WebsiteCache.php';
     $kernel = new WebsiteCache($kernel);
 }
