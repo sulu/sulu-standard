@@ -104,6 +104,20 @@
                         <title lang="en">Time input</title>
                     </meta>
                 </property>
+
+                <property name="checkbox" type="checkbox">
+                    <meta>
+                        <title lang="de">Checkbox</title>
+                        <title lang="en">Checkbox</title>
+                    </meta>
+                </property>
+
+                <property name="single_link" type="single_internal_link">
+                    <meta>
+                        <title lang="de">Einzelner Interner Link</title>
+                        <title lang="en">Single Internal links</title>
+                    </meta>
+                </property>
             </properties>
         </section>
 
