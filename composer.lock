@@ -2346,17 +2346,17 @@
         },
         {
             "name": "liip/theme-bundle",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "target-dir": "Liip/ThemeBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipThemeBundle.git",
-                "reference": "c4b69e047bb49aa5821664b03a60b657a6676c8d"
+                "reference": "7e7756f8d40d19d690f73354a132d86f6a14a372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/c4b69e047bb49aa5821664b03a60b657a6676c8d",
-                "reference": "c4b69e047bb49aa5821664b03a60b657a6676c8d",
+                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/7e7756f8d40d19d690f73354a132d86f6a14a372",
+                "reference": "7e7756f8d40d19d690f73354a132d86f6a14a372",
                 "shasum": ""
             },
             "require": {
@@ -2364,7 +2364,8 @@
                 "symfony/framework-bundle": "~2.0"
             },
             "require-dev": {
-                "symfony/console": "~2.0"
+                "symfony/console": "~2.0",
+                "symfony/expression-language": "~2.6"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -2396,7 +2397,7 @@
                 "themes",
                 "theming"
             ],
-            "time": "2014-08-29 15:32:53"
+            "time": "2015-01-21 08:46:21"
         },
         {
             "name": "massive/build-bundle",
@@ -3380,12 +3381,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "7cd2965baf3dadcdfda68a8857465d3db4436d79"
+                "reference": "fecb75f880db85b5ba6d0057ad089aa1fc40a1fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/7cd2965baf3dadcdfda68a8857465d3db4436d79",
-                "reference": "7cd2965baf3dadcdfda68a8857465d3db4436d79",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/fecb75f880db85b5ba6d0057ad089aa1fc40a1fd",
+                "reference": "fecb75f880db85b5ba6d0057ad089aa1fc40a1fd",
                 "shasum": ""
             },
             "require": {
@@ -3478,7 +3479,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-01-16 11:17:19"
+            "time": "2015-01-21 14:52:12"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5753,7 +5754,6 @@
         "zendframework/zendsearch": 20
     },
     "prefer-stable": false,
-    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.3"
     },
