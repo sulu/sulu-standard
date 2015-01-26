@@ -1,0 +1,146 @@
+default:
+    suites:
+        admin:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+            bundle: SuluAdminBundle
+        category:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\CategoryBundle\Behat\CategoryContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+            bundle: SuluCategoryBundle
+        contact:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContactBundle\Behat\ContactContext
+            bundle: SuluContactBundle
+        content:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+            bundle: SuluContentBundle
+        core:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+            bundle: SuluCoreBundle
+        location:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+            bundle: SuluLocationBundle
+        media:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+                - Sulu\Bundle\MediaBundle\Behat\MediaContext
+            bundle: SuluMediaBundle
+        security:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+            bundle: SuluSecurityBundle
+        snippet:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+                - Sulu\Bundle\SnippetBundle\Behat\SnippetContext
+            bundle: SuluSnippetBundle
+        tag:
+            type: symfony_bundle
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+                - Sulu\Bundle\TestBundle\Behat\DefaultContext
+                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
+                - Sulu\Bundle\AdminBundle\Behat\AdminContext
+                - Sulu\Bundle\SnippetBundle\Behat\SnippetContext
+                - Sulu\Bundle\ContentBundle\Behat\ContentContext
+                - Sulu\Bundle\TagBundle\Behat\TagContext
+            bundle: SuluTagBundle
+    extensions:
+        Behat\Symfony2Extension:
+            kernel:
+                path: app/AdminKernel.php
+                class: AdminKernel
+                env: dev
+            context:
+                path_suffix: Tests/Features
+
+selenium:
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://127.0.0.1:8001'
+            sessions:
+                default:
+                    selenium2: ~
+
+sauce_labs:
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://127.0.0.1:8080/'
+            sessions:
+                default:
+                    sauce_labs:
+                        capabilities:
+                            selenium-version: 2.44.0
+                            version: 34
+                            browser: Firefox
+                            platform: "Linux"
+                            max-duration: 3600
+                            record-screenshots: true
+                            custom-data: 
+                                foo: bar
+
+sauce_labs_local:
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://127.0.0.1:8001/'
+            sessions:
+                default:
+                    sauce_labs:
+                        capabilities:
+                            selenium-version: 2.44.0
+                            version: 34
+                            browser: Firefox
+                            platform: "Linux"
+                            max-duration: 3600
+                            record-screenshots: true
+                            custom-data: 
+                                foo: bar

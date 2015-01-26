@@ -21,7 +21,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "sulu/sulu": "dev-develop",
+        "sulu/sulu": "dev-feature/behat",
         "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",
@@ -30,7 +30,12 @@
         "zendframework/zend-stdlib": "~2.3",
         "zendframework/zendsearch": "@dev",
 
-        "massive/build-bundle": "0.2.*"
+        "massive/build-bundle": "0.2.*",
+        "behat/behat": "~3.0.0",
+        "behat/mink-extension": "~2.0@dev",
+        "behat/mink-selenium2-driver": "~1.2@dev",
+        "behat/symfony2-extension": "~2.0@dev"
+
     },
     "require-dev": {
         "sauce/sausage": "0.9.*",
