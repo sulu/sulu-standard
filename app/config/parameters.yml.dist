@@ -15,7 +15,6 @@ parameters:
     secret:             ThisTokenIsNotSoSecretChangeIt
     sulu_admin.name:    SULU 2
 
-    content_fallback_intervall: 5000
     websocket_port: 9876
     websocket_url: 'sulu.lo'
 
