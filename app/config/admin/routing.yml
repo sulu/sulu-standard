@@ -74,6 +74,11 @@ sulu_website:
     resource: "@SuluWebsiteBundle/Resources/config/routing.yml"
     prefix: /admin/website
 
+sulu_websocket:
+    type: rest
+    resource: "@SuluWebsocketBundle/Resources/config/routing.yml"
+    prefix: /admin/websocket
+
 sulu_core:
     type: rest
     resource: "@SuluCoreBundle/Resources/config/routing_api.xml"
