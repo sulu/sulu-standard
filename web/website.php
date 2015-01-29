@@ -5,11 +5,12 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
 // Define application environment
-defined('APP_ENV') || define('APP_ENV', (getenv('APP_ENV') ?: (getenv('SYMFONY_ENV') ?: 'prod')));
+defined('SYMFONY_ENV') || define('SYMFONY_ENV', getenv('SYMFONY_ENV') ?: 'prod');
+defined('SYMFONY_DEBUG') || define('SYMFONY_DEBUG', getenv('SYMFONY_DEBUG') ?: SYMFONY_ENV === 'dev');
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-if (APP_ENV == 'dev') {
+if (SYMFONY_ENV == 'dev') {
     Debug::enable();
 }
 
@@ -24,10 +25,10 @@ $apcLoader->register(true);
 
 require_once __DIR__ . '/../app/WebsiteKernel.php';
 
-$kernel = new WebsiteKernel(APP_ENV, (APP_ENV == 'dev') ? true : false);
+$kernel = new WebsiteKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
 
-if (APP_ENV != 'dev') {
+if (SYMFONY_ENV != 'dev') {
     require_once __DIR__ . '/../app/WebsiteCache.php';
     $kernel = new WebsiteCache($kernel);
 }
