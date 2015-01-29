@@ -10,7 +10,8 @@ defined('SYMFONY_DEBUG') || define('SYMFONY_DEBUG', getenv('SYMFONY_DEBUG') ?: S
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-if (SYMFONY_ENV == 'dev') {
+// true has to be string, because we receive string from getenv
+if (SYMFONY_DEBUG == 'true') {
     Debug::enable();
 }
 
