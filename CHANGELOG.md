@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * FEATURE     #722 [ClientBundle]   Add Dependency Injection
     * ENHANCEMENT #699 [ContentBundle]  Add single internal link and checkbox to example
 
 * 0.14.1 (2015-01-21)
