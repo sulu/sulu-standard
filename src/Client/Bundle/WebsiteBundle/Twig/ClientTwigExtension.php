@@ -12,7 +12,6 @@ namespace Client\Bundle\WebsiteBundle\Twig;
 
 /**
  * Class ClientTwigExtension
- * @package Client\Bundle\WebsiteBundle\Twig
  */
 class ClientTwigExtension extends \Twig_Extension
 {
