@@ -6,12 +6,12 @@ use Symfony\Component\Debug\Debug;
 
 // Define application environment
 defined('SYMFONY_ENV') || define('SYMFONY_ENV', getenv('SYMFONY_ENV') ?: 'prod');
-defined('SYMFONY_DEBUG') || define('SYMFONY_DEBUG', getenv('SYMFONY_DEBUG') ?: SYMFONY_ENV === 'dev');
+defined('SYMFONY_DEBUG') ||
+    define('SYMFONY_DEBUG', filter_var(getenv('SYMFONY_DEBUG') ?: SYMFONY_ENV === 'dev', FILTER_VALIDATE_BOOLEAN));
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-// true has to be string, because we receive string from getenv
-if (SYMFONY_DEBUG == 'true') {
+if (SYMFONY_DEBUG) {
     Debug::enable();
 }
 
