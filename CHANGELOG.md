@@ -1,6 +1,36 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * FEATURE     #722 [ClientBundle]   Add Dependency Injection
+    * ENHANCEMENT #699 [ContentBundle]  Add single internal link and checkbox to example
+
+* 0.14.1 (2015-01-21)
+    * HOTFIX      #737 [MediaBundle]    Changed BaseCollection properties to be protected for inheritance
+
+* 0.14.0 (2015-01-15)
+    * ENHANCEMENT #695 [ContentBundle]  Hide textblock sort option when there is only 1 textblock available
+    * FEATURE     #634 [AdminBundle]    Created new configuration component, added new configuration for autocomplete
+    * BUGFIX      #681 [TagBundle]      Fixed filtering of tags in Tag list and Media edit Overlay
+    * BUGFIX      #681 [MediaBundle]    Fixed imagick detection
+    * FEATURE     #581 [SearchBundle]   Structures deindexed on delete
+    * FEATURE     #581 [Content]        NODE_SAVE renamed to NODE_POST_SAVE
+    * FEATURE     #581 [Content]        New events: NODE_PRE_DELETE, NODE_POST_DELETE
+    * FEATURE     #634 [AdminBundle]    Created new configuration component, added new configuration for autocomplete
+                                        and refactored usage of autocomplete
+    * BUGFIX      #627 [ContentBundle]  Fixed damaged urls when moving/copy/rename
+    * ENHANCEMENT #639 [AdminBundle]    Save page size for datagrid
+    * FEATURE     #659 [MediaBundle]    Configurable image quality settings
+    * ENHANCEMENT #644 [AdminBundle]    Displaying an error label everytime a request fails
+    * ENHANCEMENT #665 [SecurityBundle] Added role creation command and question for role in user creation
+    * FEATURE     #662 [SnippetBundle]  Applied security
+    * FEATURE     #662 [CategoryBundle] Applied security
+    * FEATURE     #662 [TagBundle]      Applied security
+    * BUGFIX      #654 [ContentBundle]  Added dummy request to request stack for preview rendering.
+                                        This is important when template uses ESI
+    * BUGFIX      #661 [WebsiteBundle]  Added published date to resolver
+    * BUGFIX      #655 [ContentBundle]  Fixed checkbox read for preview
+
 * 0.13.2 (2014-12-12)
 
     * HOTFIX      #--- [AdminBundle]    Fixed globalize loading issue
