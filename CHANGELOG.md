@@ -4,6 +4,7 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * FEATURE     #722 [ClientBundle]   Add Dependency Injection
     * ENHANCEMENT #699 [ContentBundle]  Add single internal link and checkbox to example
+    * ENHANCEMENT #777 [ContentBundle]  Enable "copy language" on startpage 
 
 * 0.14.1 (2015-01-21)
     * HOTFIX      #737 [MediaBundle]    Changed BaseCollection properties to be protected for inheritance
