@@ -5,11 +5,13 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
 // Define application environment
-defined('APP_ENV') || define('APP_ENV', (getenv('APP_ENV') ? getenv('APP_ENV') : 'prod'));
+defined('SYMFONY_ENV') || define('SYMFONY_ENV', getenv('SYMFONY_ENV') ?: 'prod');
+defined('SYMFONY_DEBUG') ||
+    define('SYMFONY_DEBUG', filter_var(getenv('SYMFONY_DEBUG') ?: SYMFONY_ENV === 'dev', FILTER_VALIDATE_BOOLEAN));
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
-if ('dev' == APP_ENV) {
+if (SYMFONY_DEBUG) {
     Debug::enable();
 }
 
@@ -25,7 +27,7 @@ $apcLoader->register(true);
 
 require_once __DIR__ . '/../app/AdminKernel.php';
 
-$kernel = new AdminKernel(APP_ENV, ('dev' == APP_ENV) ? true : false);
+$kernel = new AdminKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
 
 $request = Request::createFromGlobals();

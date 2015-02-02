@@ -19,7 +19,6 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-
         "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
 
