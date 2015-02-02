@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 0.14.2 (2015-02-02)
+    * HOTFIX      #781 [CoreBundle]     HTTP Cache event listener uses the wrong event name due to recent change
+
 * 0.14.1 (2015-01-21)
     * HOTFIX      #737 [MediaBundle]    Changed BaseCollection properties to be protected for inheritance
 
