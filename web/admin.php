@@ -15,11 +15,12 @@ if (SYMFONY_DEBUG) {
     Debug::enable();
 }
 
-// Use APC for autoloading to improve performance.
-// Change 'sf2' to a unique prefix in order to prevent cache key conflicts
-// with other applications also using APC.
+// Enable APC for autoloading to improve performance.
+// You should change the ApcClassLoader first argument to a unique prefix
+// in order to prevent cache key conflicts with other applications
+// also using APC.
 /*
-$apcLoader = new ApcClassLoader('sf2', $loader);
+$apcLoader = new ApcClassLoader(sha1(__FILE__), $loader);
 $loader->unregister();
 $apcLoader->register(true);
 */
@@ -28,6 +29,7 @@ require_once __DIR__ . '/../app/AdminKernel.php';
 
 $kernel = new AdminKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
+
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();

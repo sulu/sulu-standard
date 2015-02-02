@@ -16,7 +16,7 @@ use Symfony\Component\Debug\Debug;
 
 $input = new ArgvInput();
 $env = $input->getParameterOption(array('--env', '-e'), getenv('SYMFONY_ENV') ?: 'dev');
-$debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(array('--no-debug', '')) && $env == 'dev';
+$debug = getenv('SYMFONY_DEBUG') !== '0' && !$input->hasParameterOption(array('--no-debug', '')) && $env !== 'prod';
 
 if ($debug) {
     Debug::enable();
@@ -25,9 +25,3 @@ if ($debug) {
 $kernel = new AdminKernel($env, $debug);
 $application = new Application($kernel);
 $application->run($input);
-
-// register all commands available by our bundles
-$adminPool = $kernel->getContainer()->get('sulu_admin.admin_pool');
-foreach ($adminPool->getCommands() as $command) {
-    $application->add($command);
-}
