@@ -30,8 +30,8 @@ doctrine:
 sulu_content:
     preview:
         mode: auto
-        websocket: true
-        delay: 300
+        websocket: false
+        delay: 200
 
 # SULU Admin Configuration
 sulu_admin:
