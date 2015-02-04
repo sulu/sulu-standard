@@ -15,9 +15,8 @@ parameters:
     secret:             ThisTokenIsNotSoSecretChangeIt
     sulu_admin.name:    SULU 2
 
-    content_fallback_intervall: 5000
-    content_preview_port: 9876
-    content_preview_url: ws://sulu.lo
+    websocket_port: 9876
+    websocket_url: 'sulu.lo'
 
     ghost_script_path: /usr/bin/gs # OSX: /usr/local/bin/gs or Ubuntu: /usr/bin/gs
     format_manager.response_headers:

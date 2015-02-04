@@ -29,11 +29,9 @@ doctrine:
 # SULU Content Configuration
 sulu_content:
     preview:
-        fallback:
-            interval: %content_fallback_intervall%
-        websocket:
-            url: %content_preview_url%
-            port: %content_preview_port%
+        mode: auto
+        websocket: false
+        delay: 200
 
 # SULU Admin Configuration
 sulu_admin:
