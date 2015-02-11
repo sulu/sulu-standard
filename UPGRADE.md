@@ -2,6 +2,10 @@
 
 ## develop
 
+### Environment Variable
+We are now using the `SYMFONY_ENV` instead of the `APP_ENV` environment variable. You have to update your
+`web/.htaccess` file or your system environment variables.
+
 ### Websocket Component
 
 Rename the parameters `content_preview_port` and `content_preview_url` to `websocket_port` and `websocket_url`.
