@@ -2,7 +2,8 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
-    * ENHANCEMENT #401 [All]            Using the SYMONY_ENV environment variable instead of APP_ENV
+    * FEATURE     #405 [sulu-standard]  Inclusion of PHPCR-Shell as a dev dependency
+    * ENHANCEMENT #401 [sulu-standard]  Using the SYMONY_ENV environment variable instead of APP_ENV
     * FEATURE     #722 [ClientBundle]   Add Dependency Injection
     * ENHANCEMENT #699 [ContentBundle]  Add single internal link and checkbox to example
     * ENHANCEMENT #777 [ContentBundle]  Enable "copy language" on startpage 
