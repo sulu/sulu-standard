@@ -101,6 +101,7 @@ liip_theme:
 
 # SULU Core Configuration
 sulu_core:
+    locales: ["de","en"]
     phpcr:
         backend:    "%phpcr_backend%"
         workspace:  "%phpcr_workspace%"
