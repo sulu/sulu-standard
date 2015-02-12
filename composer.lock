@@ -261,16 +261,16 @@
         },
         {
             "name": "behat/mink-selenium2-driver",
-            "version": "dev-master",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "926f120c8875858641004f8466f95a99770dba78"
+                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/926f120c8875858641004f8466f95a99770dba78",
-                "reference": "926f120c8875858641004f8466f95a99770dba78",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8018fee80bf6573f909ece3e0dfc07d0eb352210",
+                "reference": "8018fee80bf6573f909ece3e0dfc07d0eb352210",
                 "shasum": ""
             },
             "require": {
@@ -285,8 +285,8 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Behat\\Mink\\Driver\\": "src/"
+                "psr-0": {
+                    "Behat\\Mink\\Driver": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -315,7 +315,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2015-01-25 22:34:26"
+            "time": "2014-09-29 13:12:12"
         },
         {
             "name": "behat/symfony2-extension",
@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "bc88823171ac620e95bc3e568f82116947039a5e"
+                "reference": "b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/bc88823171ac620e95bc3e568f82116947039a5e",
-                "reference": "bc88823171ac620e95bc3e568f82116947039a5e",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5",
+                "reference": "b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5",
                 "shasum": ""
             },
             "require": {
@@ -3886,7 +3886,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-11 16:36:48"
+            "time": "2015-02-12 13:58:49"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4796,12 +4796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/ZendSearch.git",
-                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816"
+                "reference": "c8de2508d3413bf9d701b40c1092c1ffbdd8fc63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/ZendSearch/zipball/cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
-                "reference": "cd06d485eb679f112f9e2fceb7d4480b9b8c2816",
+                "url": "https://api.github.com/repos/zendframework/ZendSearch/zipball/c8de2508d3413bf9d701b40c1092c1ffbdd8fc63",
+                "reference": "c8de2508d3413bf9d701b40c1092c1ffbdd8fc63",
                 "shasum": ""
             },
             "require": {
@@ -4824,7 +4824,7 @@
                 "lucene",
                 "zf2"
             ],
-            "time": "2014-02-15 15:17:08"
+            "time": "2015-01-21 16:24:14"
         }
     ],
     "packages-dev": [
@@ -6342,17 +6342,17 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v2.5.1",
+            "version": "v2.5.2",
             "target-dir": "Sensio/Bundle/GeneratorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd"
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/9e23fc3de265ae013690d84aab98e7a84f46edcd",
-                "reference": "9e23fc3de265ae013690d84aab98e7a84f46edcd",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/4b09746520a826a7bf34a466ba31c7d8740fef7e",
+                "reference": "4b09746520a826a7bf34a466ba31c7d8740fef7e",
                 "shasum": ""
             },
             "require": {
@@ -6386,7 +6386,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-01-13 07:33:46"
+            "time": "2015-02-11 07:21:23"
         }
     ],
     "aliases": [],
@@ -6400,7 +6400,6 @@
         "phpcr/phpcr-shell": 10
     },
     "prefer-stable": false,
-    "prefer-lowest": false,
     "platform": {
         "php": ">=5.5"
     },
