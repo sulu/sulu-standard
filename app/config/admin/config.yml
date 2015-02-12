@@ -36,6 +36,8 @@ sulu_content:
 # SULU Admin Configuration
 sulu_admin:
     name: SULU 2.0
+    locales: ["de", "en"]
+
 
 # Just a dirty hack to get the jms serializer bundle correctly working
 # https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800

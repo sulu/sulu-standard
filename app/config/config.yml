@@ -141,10 +141,6 @@ sulu_websocket:
         http_host: %websocket_url%
         port: %websocket_port%
 
-# SULU Admin configuration
-sulu_admin:
-    locales: ["de", "en"]
-
 # Symfony CMF Configuration
 cmf_core:
     publish_workflow:
