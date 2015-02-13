@@ -2287,16 +2287,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "5aa40c76f1e59e8a3fc3e655806d46d06204f12c"
+                "reference": "c282200645c913dad1915f38c0e4258f52c5101b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/5aa40c76f1e59e8a3fc3e655806d46d06204f12c",
-                "reference": "5aa40c76f1e59e8a3fc3e655806d46d06204f12c",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/c282200645c913dad1915f38c0e4258f52c5101b",
+                "reference": "c282200645c913dad1915f38c0e4258f52c5101b",
                 "shasum": ""
             },
             "require": {
@@ -2336,7 +2336,7 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2014-12-28 08:25:32"
+            "time": "2015-02-13 14:23:18"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
@@ -3135,16 +3135,16 @@
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5"
+                "reference": "c41b8d4f40d616fef641497b587fe1444533959c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5",
-                "reference": "f2f87d2894b53b0e5e1a1cde7507775a8ace8cd5",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/c41b8d4f40d616fef641497b587fe1444533959c",
+                "reference": "c41b8d4f40d616fef641497b587fe1444533959c",
                 "shasum": ""
             },
             "require": {
@@ -3193,7 +3193,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2015-02-09 12:11:56"
+            "time": "2015-02-12 17:34:08"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5"
+                "reference": "9b4db807f45e3bc7c8333e3173956b403d90fe58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5",
-                "reference": "b0b5a21fe590f6b7a8daebc38f5c8de985ebe4b5",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/9b4db807f45e3bc7c8333e3173956b403d90fe58",
+                "reference": "9b4db807f45e3bc7c8333e3173956b403d90fe58",
                 "shasum": ""
             },
             "require": {
@@ -3886,7 +3886,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-12 13:58:49"
+            "time": "2015-02-13 08:13:54"
         },
         {
             "name": "swiftmailer/swiftmailer",
