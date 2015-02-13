@@ -4,61 +4,69 @@ imports:
 
 framework:
     #esi:             ~
-    translator:      { fallback: %locale% }
-    secret:          %secret%
+    translator:      { fallback: "%locale%" }
+    secret:          "%secret%"
     form:            ~
     csrf_protection: ~
     validation:      { enable_annotations: true }
     templating:
         engines: ['twig']
         #assets_version: SomeVersionScheme
-    default_locale:  %locale%
+    default_locale:  "%locale%"
+    trusted_hosts:   ~
     trusted_proxies: ~
-    session:         ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
     fragments:       ~
+    http_method_override: true
 
 # Twig Configuration
 twig:
-    debug:            %kernel.debug%
-    strict_variables: %kernel.debug%
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
 
 # Assetic Configuration
 assetic:
-    debug:          %kernel.debug%
+    debug:          "%kernel.debug%"
     use_controller: false
     write_to:       "%kernel.root_dir%/../web"
-    #bundles:        []
+    #bundles:        [ ]
     #java: /usr/bin/java
     filters:
-        cssrewrite: ~
+        cssrewrite:
+            apply_to: '\.(css)$'
         #closure:
-        #    jar: %kernel.root_dir%/Resources/java/compiler.jar
+        #    jar: "%kernel.root_dir%/Resources/java/compiler.jar"
         #yui_css:
-        #    jar: %kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar
+        #    jar: "%kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar"
 
 # Doctrine Configuration
 doctrine:
     dbal:
-        driver:   %database_driver%
-        host:     %database_host%
-        port:     %database_port%
-        dbname:   %database_name%
-        user:     %database_user%
-        password: %database_password%
+        driver:   "%database_driver%"
+        host:     "%database_host%"
+        port:     "%database_port%"
+        dbname:   "%database_name%"
+        user:     "%database_user%"
+        password: "%database_password%"
         charset:  UTF8
-        # if using pdo_sqlite as your database driver, add the path in parameters.yml
-        # e.g. database_path: %kernel.root_dir%/data/data.db3
-        # path:     %database_path%
+        # if using pdo_sqlite as your database driver:
+        #   1. add the path in parameters.yml
+        #     e.g. database_path: "%kernel.root_dir%/data/data.db3"
+        #   2. Uncomment database_path in parameters.yml.dist
+        #   3. Uncomment next line:
+        #     path:     "%database_path%"
 
     orm:
-        auto_generate_proxy_classes: %kernel.debug%
+        auto_generate_proxy_classes: "%kernel.debug%"
         auto_mapping: true
         mappings:
             gedmo_tree:
-                type: xml
-                prefix: Gedmo\Tree\Entity
+                type: "xml"
+                prefix: "Gedmo\Tree\Entity"
                 dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
-                alias: GedmoTree # this one is optional and will default to the name set for the mapping
+                alias: "GedmoTree" # this one is optional and will default to the name set for the mapping
                 is_bundle: false
         resolve_target_entities:
             Sulu\Component\Security\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
@@ -66,6 +74,7 @@ doctrine:
             Sulu\Bundle\SecurityBundle\Entity\RoleInterface: Sulu\Bundle\SecurityBundle\Entity\Role
             Sulu\Bundle\MediaBundle\Entity\CollectionInterface: Sulu\Bundle\MediaBundle\Entity\Collection
 
+# Doctrine Extension Configuration
 stof_doctrine_extensions:
     orm:
         default:
@@ -73,58 +82,82 @@ stof_doctrine_extensions:
 
 # Swiftmailer Configuration
 swiftmailer:
-    transport: %mailer_transport%
-    host:      %mailer_host%
-    username:  %mailer_user%
-    password:  %mailer_password%
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
     spool:     { type: memory }
 
+# FOS REST Configuration
 fos_rest:
     routing_loader:
-        default_format: json
+        default_format: "json"
 
+# LIIP Theme Configuration
 liip_theme:
     themes: ["default"]
     active_theme: "default"
     load_controllers: false
 
+# SULU Core Configuration
 sulu_core:
+    locales: ["de","en"]
     phpcr:
-        backend:    %phpcr_backend%
-        workspace:  %phpcr_workspace%
-        username:   %phpcr_user%
-        password:   %phpcr_pass%
+        backend:    "%phpcr_backend%"
+        workspace:  "%phpcr_workspace%"
+        username:   "%phpcr_user%"
+        password:   "%phpcr_pass%"
     webspace:
-        config_dir: %kernel.root_dir%/Resources/webspaces
+        config_dir: "%kernel.root_dir%/Resources/webspaces"
     content:
         structure:
             default_type:
-                snippet: default
-                page: default
+                snippet: "default"
+                page: "default"
             paths:
                 app_page:
                     path: "%kernel.root_dir%/Resources/pages"
                     internal: false
-                    type: page
+                    type: "page"
                 app_snippet:
                     path: "%kernel.root_dir%/Resources/snippets"
                     internal: false
-                    type: snippet
+                    type: "snippet"
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     internal: true
-                    type: page
-    http_cache:
-        ~
+                    type: "page"
 
+# SULU Media configuration
 sulu_media:
     search:
         enabled: true
     ghost_script:
-        path: %ghost_script_path%
+        path: "%ghost_script_path%"
     format_manager:
-        response_headers: %format_manager.response_headers%
+        response_headers: "%format_manager.response_headers%"
 
+sulu_websocket:
+    server:
+        http_host: %websocket_url%
+        port: %websocket_port%
+
+# Symfony CMF Configuration
 cmf_core:
     publish_workflow:
         enabled: false
+
+sulu_http_cache:
+    handlers:
+        paths:
+            enabled: true
+        public:
+            max_age: 240
+            shared_max_age: 240
+            use_page_ttl: true
+            enabled: true
+        debug:
+            enabled: %kernel.debug%
+    proxy_client:
+        symfony:
+            enabled: true

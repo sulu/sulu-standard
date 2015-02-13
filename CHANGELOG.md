@@ -1,6 +1,52 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 0.15.0
+    * FEATURE     #405 [sulu-standard]   Inclusion of PHPCR-Shell as a dev dependency
+    * ENHANCEMENT #401 [sulu-standard]   Using the SYMONY_ENV environment variable instead of APP_ENV
+    * BUGFIX      #829 [ContactBundle]   Account-Contacts: show full-name of contact
+    * ENHANCEMENT #828 [ContactBundle]   Changed columns for contact list and made concatenated columns not sortable
+    * BUGFIX      #825 [WebsiteBundle]   Fixed syntax error in ExceptionController
+    * FEATURE     #806 [SnippetBundle]   added sorting feature to snippet content type
+    * FEATURE     #806 [ContentBundle]   added sorting feature to internal links content type
+    * ENHANCEMENT #798 [All]             Updated Symfony version to 2.6
+    * BUGFIX      #826 [All]             Moved locales config from admin-bundle to core-bundle
+    * BUGFIX      #736 [WebsiteBundle]   Redirect with port didn't work
+    * ENHANCEMENT #735 [CategoryBundle]  Use parameters instead of FCQN of entities in service config
+    * ENHANCEMENT #735 [MediaBundle]     Use parameters instead of FCQN of entities in service config
+    * ENHANCEMENT #735 [TagBundle]       Use parameters instead of FCQN of entities in service config
+    * FEATURE     #792 [ContactBundle]   added widget to show all companys of contact
+    * FEATURE     #820 [ContactBundle]   Contact-Import: define multiple tags: 'account_tag1 ..n'
+    * FEATURE     #810 [ContactBundle]   added command line tool for detecting missing country codes in import csv files
+                                         that uses google geo api for finding the correct country code
+    * BUGFIX      #801 [All]             Removed unused clean task which is deleting the public directory when executed
+                                         due to the symfony 2.6 changes to symlinks
+    * FEATURE     #793 [SecurityBundle]  Added field passwordForgetToken to BaseUser-Entity
+    * FEATURE     #793 [ContactBundle]   Added Repository service for Contact
+    * BUGFIX      #795 [ContentBundle]   Reversed structure paths to enable custom config
+    * ENHANCEMENT #776 [CoreBundle]      Added set title to index page for init webspaces
+    * BUGFIX      #774 [ContentBundle]   Enabled save shadow for index pages
+    * BUGFIX      #778 [ContentBundle]   Fixed shadow page with internal link and smart-content
+    * BUGFIX      #790 [WebsiteBundle]   Fixed twig variables for 404 page
+    * FEATURE     #684 [ContentBundle]   Refactored preview to use new websocket component and only one socket for form
+                                         and preview
+    * FEATURE     #684 [WebsocketBundle] Implemented Websocket Component to standardize Websocket implementations
+    * BUGFIX      #753 [MediaBundle]     Fix 0 bytes file upload
+    * FEATURE     #714 [ContentBundle]   Add Option to hide page in sidemap
+    * ENHANCEMENT #740 [SecurityBundle]  Made role content navigation extendable
+    * FEATURE     #569 [All]             Behat integration - behat features for bundles
+    * ENHANCEMENT #692 [SecurityBundle]  Made user extendable
+    * ENHANCEMENT #731 [TestBundle]      Removed test user
+    * BUGFIX      #671 [MediaBundle]     Fixed fileversion update with meta data
+    * FEATURE     #702 [AdminBundle]     Added sortings to user settings and changed default url for activities
+    * BUGFIX      #697 [ContactBundle]   Set VAT number field optional
+    * BUGFIX      #697 [CoreBundle]      Do not try and set the theme when the portal has not been found
+    * FEATURE     #697 [HttpCacheBundle] Refactored HTTP cache, introduced Varnish support. See 38af8da73c929f9f57bb87a8973a1ee55dccee29
+    * ENHANCEMENT #777 [ContentBundle]   Enable "copy language" on startpage
+    * FEATURE     #722 [ClientBundle]    Add Dependency Injection
+    * ENHANCEMENT #699 [sulu-standard]   Add single internal link and checkbox to example
+    * ENHANCEMENT #404 [AdminBundle]     Added config param "sulu_admin.locales" for content locales
+
 * 0.14.2 (2015-02-02)
     * HOTFIX      #781 [CoreBundle]     HTTP Cache event listener uses the wrong event name due to recent change
 
