@@ -9,14 +9,6 @@
 manage enterprise multi-sites or as a development environment to create reliable
 and high-performant web-apps.
 
-## Requirements
-
-* webserver with PHP (>=5.4) and a mysql database
-* composer
-* grunt-cli
-* nodejs and npm
-* ruby & compass (3.2.13)
-
 ## Installation
 
 For the install guide and reference, see:
