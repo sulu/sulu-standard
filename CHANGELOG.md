@@ -1,7 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* 0.15.0
+* 0.15.1 (2015-02-17)
+    * HOTFIX      #842 [CoreBundle]      Fixed upgrade internal links command for installations without snippets
+
+* 0.15.0 (2015-02-13)
     * FEATURE     #405 [sulu-standard]   Inclusion of PHPCR-Shell as a dev dependency
     * ENHANCEMENT #401 [sulu-standard]   Using the SYMONY_ENV environment variable instead of APP_ENV
     * BUGFIX      #829 [ContactBundle]   Account-Contacts: show full-name of contact

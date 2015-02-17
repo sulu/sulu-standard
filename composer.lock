@@ -3789,16 +3789,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.15.0",
+            "version": "0.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "8529a51e74bfd9446503cc6d8d23e0a5535d7768"
+                "reference": "65dd13408c33d83c71d20f79e86e09d5c17af435"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/8529a51e74bfd9446503cc6d8d23e0a5535d7768",
-                "reference": "8529a51e74bfd9446503cc6d8d23e0a5535d7768",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/65dd13408c33d83c71d20f79e86e09d5c17af435",
+                "reference": "65dd13408c33d83c71d20f79e86e09d5c17af435",
                 "shasum": ""
             },
             "require": {
@@ -3886,7 +3886,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-13 17:36:31"
+            "time": "2015-02-17 12:22:22"
         },
         {
             "name": "swiftmailer/swiftmailer",
