@@ -23,10 +23,6 @@ sulu_security:
     resource: "@SuluSecurityBundle/Resources/config/routing.xml"
     prefix: /admin/security
 
-sulu_security_reset:
-    resource: "@SuluSecurityBundle/Resources/config/routing_reset.xml"
-    prefix: /admin/reset
-
 sulu_security_api:
     type: rest
     resource: "@SuluSecurityBundle/Resources/config/routing_api.xml"
