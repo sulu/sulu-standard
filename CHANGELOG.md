@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 0.15.3 (2015-02-19)
+    * BUGFIX      #846 [MediaBundle]     Added missing dot to create event name method (\cc Daniel)
+
 * 0.15.2 (2015-02-19)
     * HOTFIX      #850 [MediaBundle]     Fixed bug with deleted media in media selection
 
