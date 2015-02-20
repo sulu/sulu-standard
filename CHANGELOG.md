@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * FEATURE     #413 [ClientBundle]    Added example for present as
+
 * 0.15.1 (2015-02-17)
     * HOTFIX      #842 [CoreBundle]      Fixed upgrade internal links command for installations without snippets
 
