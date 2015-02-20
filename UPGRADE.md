@@ -1,6 +1,6 @@
 # Upgrade
 
-## dev-develop
+## 0.16.0 (2015-02-20
 
 ## Security
 Database has changed: User has now a unique email address. Run following command:
