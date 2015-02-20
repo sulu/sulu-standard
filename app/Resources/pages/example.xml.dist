@@ -173,6 +173,23 @@
                         <title lang="de">Smart-Content auswahl</title>
                         <title lang="en">Smart-Content selection</title>
                     </meta>
+
+                    <params>
+                        <param name="present_as" type="collection">
+                            <param name="two">
+                                <meta>
+                                    <title lang="de">2 Spalten</title>
+                                    <title lang="en">Two columns</title>
+                                </meta>
+                            </param>
+                            <param name="one">
+                                <meta>
+                                    <title lang="de">1 Spalte</title>
+                                    <title lang="de">One column</title>
+                                </meta>
+                            </param>
+                        </param>
+                    </params>
                 </property>
 
                 <property name="downloads" type="media_selection">

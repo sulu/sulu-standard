@@ -1,6 +1,17 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * FEATURE     #413 [ClientBundle]    Added example for present as
+    * BUGFIX      #848 [ContactBundle]   Refactored delete dialog function to make it reuseable
+    * BUGFIX      #846 [MediaBundle]     Added missing dot to create event name method (\cc Daniel)
+    * ENHANCEMENT #841 [SecurityBundle]  Unique email per user
+    * BUGFIX      #837 [AdminBundle]     Javascript function for croping labels with a certain tag this.sandbox.sulu.$
+    * ENHANCEMENT #818 [ContentBundle]   Enhanced column-navigation ordering ui
+    * BUGFIX      #857 [ContentBundle]   Added links without save could not be removed
+    * FEATURE     #789 [ContentBundle]   Added present as to smart content config (see [here ...](https://github.com/$
+    * BUGFIX      #856 [ContentBundle]   Added default values for smart content view vars
+
 * 0.15.1 (2015-02-17)
     * HOTFIX      #842 [CoreBundle]      Fixed upgrade internal links command for installations without snippets
 

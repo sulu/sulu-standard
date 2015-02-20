@@ -103,13 +103,15 @@
             </ul>
         {% endif %}
 
-        <div property="smartcontent">
+        <div property="smartcontent" class="row">
             {% for smartcontent in content.smartcontent %}
-                <div class="col-lg-4">
+                <div class="col-lg-{{ view.smartcontent.presentAs == 'two' ? '6' : '12' }}">
                     <h2><a href="{{ content_path(smartcontent.url) }}">{{ smartcontent.title }}</a></h2>
-                    {% autoescape false %}
-                    {{ smartcontent.article }}
-                    {% endautoescape %}
+                    {% if smartcontent.article is defined %}
+                        {% autoescape false %}
+                        {{ smartcontent.article }}
+                        {% endautoescape %}
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
