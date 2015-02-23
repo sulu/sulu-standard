@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "behat/behat",
-            "version": "v3.0.14",
+            "version": "v3.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Behat.git",
-                "reference": "3f097cd577feed73e681fa56cd4e4e1dda9c115d"
+                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Behat/zipball/3f097cd577feed73e681fa56cd4e4e1dda9c115d",
-                "reference": "3f097cd577feed73e681fa56cd4e4e1dda9c115d",
+                "url": "https://api.github.com/repos/Behat/Behat/zipball/b35ae3d45332d80c532af69cc36f780a9397a996",
+                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996",
                 "shasum": ""
             },
             "require": {
@@ -30,12 +30,12 @@
                 "symfony/console": "~2.1",
                 "symfony/dependency-injection": "~2.1",
                 "symfony/event-dispatcher": "~2.1",
-                "symfony/translation": "~2.1",
+                "symfony/translation": "~2.3",
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
                 "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.0.7",
+                "phpunit/phpunit": "~4.0",
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -85,7 +85,7 @@
                 "symfony",
                 "testing"
             ],
-            "time": "2014-09-23 10:47:14"
+            "time": "2015-02-22 14:10:33"
         },
         {
             "name": "behat/gherkin",
@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "00922301e2b8c38fa50ab17ca8531f2da7a1d86b"
+                "reference": "6e75d2355f32c29a5e6752e1494c07b09c679dda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/00922301e2b8c38fa50ab17ca8531f2da7a1d86b",
-                "reference": "00922301e2b8c38fa50ab17ca8531f2da7a1d86b",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/6e75d2355f32c29a5e6752e1494c07b09c679dda",
+                "reference": "6e75d2355f32c29a5e6752e1494c07b09c679dda",
                 "shasum": ""
             },
             "require": {
@@ -3886,7 +3886,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-20 11:34:40"
+            "time": "2015-02-23 12:10:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
