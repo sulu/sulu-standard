@@ -13,6 +13,8 @@ security:
             id: sulu_security.user_repository
 
     access_control:
+        - { path: ^/admin/reset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/security/reset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin, roles: ROLE_USER }
@@ -25,6 +27,8 @@ security:
             form_login:
                 login_path: sulu_admin.login
                 check_path: sulu_admin.login_check
+                success_handler: sulu_security.authentication_handler
+                failure_handler: sulu_security.authentication_handler
             logout:
                 path: /admin/logout
                 target: /admin/
