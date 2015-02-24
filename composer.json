@@ -33,7 +33,6 @@
         "behat/mink-extension": "~2.0@dev",
         "behat/mink-selenium2-driver": "~1.2@dev",
         "behat/symfony2-extension": "~2.0@dev"
-
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
