@@ -1,15 +1,18 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-develop
+* 0.16.0 (2015-02-24)
+    * BUGFIX      #866 [ContactBundle]   Serialization group "select" for serializing system users
+    * BUGFIX      #860 [AdminBundle]     Extended toolbar to accept more options
+    * BUGFIX      #865 [ContentBundle]   Added validation and localized formatted value for time field
     * FEATURE     #413 [ClientBundle]    Added example for present as
     * BUGFIX      #848 [ContactBundle]   Refactored delete dialog function to make it reuseable
-    * BUGFIX      #846 [MediaBundle]     Added missing dot to create event name method (\cc Daniel)
+    * BUGFIX      #846 [MediaBundle]     Added missing dot to create event name method
     * ENHANCEMENT #841 [SecurityBundle]  Unique email per user
-    * BUGFIX      #837 [AdminBundle]     Javascript function for croping labels with a certain tag this.sandbox.sulu.$
+    * BUGFIX      #837 [AdminBundle]     Javascript function for croping labels with a certain tag this.sandbox.sulu.cropAllLabels(className)
     * ENHANCEMENT #818 [ContentBundle]   Enhanced column-navigation ordering ui
     * BUGFIX      #857 [ContentBundle]   Added links without save could not be removed
-    * FEATURE     #789 [ContentBundle]   Added present as to smart content config (see [here ...](https://github.com/$
+    * FEATURE     #789 [ContentBundle]   Added present as to smart content config (see [here ...](https://github.com/sulu-cmf/docs/blob/master/developer-documentation/300-webspaces/smart-content.md))
     * BUGFIX      #856 [ContentBundle]   Added default values for smart content view vars
 
 * 0.15.3 (2015-02-19)
