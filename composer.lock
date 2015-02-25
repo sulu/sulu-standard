@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "afe9b81b412e49b5d444b2a481bb5a38a11eb9a5"
+                "reference": "85dba6a53caadad3ba18585e932bbad4067b73ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/afe9b81b412e49b5d444b2a481bb5a38a11eb9a5",
-                "reference": "afe9b81b412e49b5d444b2a481bb5a38a11eb9a5",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/85dba6a53caadad3ba18585e932bbad4067b73ff",
+                "reference": "85dba6a53caadad3ba18585e932bbad4067b73ff",
                 "shasum": ""
             },
             "require": {
@@ -3819,6 +3819,7 @@
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
                 "symfony-cmf/routing-bundle": "1.2.*",
+                "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
@@ -3886,7 +3887,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-24 13:07:04"
+            "time": "2015-02-25 08:03:28"
         },
         {
             "name": "swiftmailer/swiftmailer",
