@@ -1741,16 +1741,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.3.11",
+            "version": "v2.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6"
+                "reference": "c3ff3c73c95b01e107af33d4fe3abf80794e2df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
-                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/c3ff3c73c95b01e107af33d4fe3abf80794e2df9",
+                "reference": "c3ff3c73c95b01e107af33d4fe3abf80794e2df9",
                 "shasum": ""
             },
             "require": {
@@ -1815,7 +1815,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-01-28 09:12:46"
+            "time": "2015-02-24 21:41:37"
         },
         {
             "name": "guzzle/common",
@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "230905e8df3125365c625295ce82ead79d255aef"
+                "reference": "b5ab8e5269d058d824f10df8646cd7cd9562bcee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/230905e8df3125365c625295ce82ead79d255aef",
-                "reference": "230905e8df3125365c625295ce82ead79d255aef",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/b5ab8e5269d058d824f10df8646cd7cd9562bcee",
+                "reference": "b5ab8e5269d058d824f10df8646cd7cd9562bcee",
                 "shasum": ""
             },
             "require": {
@@ -3887,7 +3887,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-25 14:37:30"
+            "time": "2015-02-26 10:57:28"
         },
         {
             "name": "swiftmailer/swiftmailer",
