@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "behat/behat",
-            "version": "v3.0.15",
+            "version": "v3.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Behat.git",
-                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996"
+                "reference": "3f097cd577feed73e681fa56cd4e4e1dda9c115d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Behat/zipball/b35ae3d45332d80c532af69cc36f780a9397a996",
-                "reference": "b35ae3d45332d80c532af69cc36f780a9397a996",
+                "url": "https://api.github.com/repos/Behat/Behat/zipball/3f097cd577feed73e681fa56cd4e4e1dda9c115d",
+                "reference": "3f097cd577feed73e681fa56cd4e4e1dda9c115d",
                 "shasum": ""
             },
             "require": {
@@ -30,12 +30,12 @@
                 "symfony/console": "~2.1",
                 "symfony/dependency-injection": "~2.1",
                 "symfony/event-dispatcher": "~2.1",
-                "symfony/translation": "~2.3",
+                "symfony/translation": "~2.1",
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
                 "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit": "~4.0.7",
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -85,7 +85,7 @@
                 "symfony",
                 "testing"
             ],
-            "time": "2015-02-22 14:10:33"
+            "time": "2014-09-23 10:47:14"
         },
         {
             "name": "behat/gherkin",
@@ -1741,16 +1741,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.3.11",
+            "version": "v2.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6"
+                "reference": "c3ff3c73c95b01e107af33d4fe3abf80794e2df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
-                "reference": "5e19886a64ef7e3540bb362eacfdf7d60c5608e6",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/c3ff3c73c95b01e107af33d4fe3abf80794e2df9",
+                "reference": "c3ff3c73c95b01e107af33d4fe3abf80794e2df9",
                 "shasum": ""
             },
             "require": {
@@ -1815,7 +1815,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-01-28 09:12:46"
+            "time": "2015-02-24 21:41:37"
         },
         {
             "name": "guzzle/common",
@@ -3793,12 +3793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "230905e8df3125365c625295ce82ead79d255aef"
+                "reference": "e6804cfe28bcd6b79082d1fe00503e158998710b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/230905e8df3125365c625295ce82ead79d255aef",
-                "reference": "230905e8df3125365c625295ce82ead79d255aef",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/e6804cfe28bcd6b79082d1fe00503e158998710b",
+                "reference": "e6804cfe28bcd6b79082d1fe00503e158998710b",
                 "shasum": ""
             },
             "require": {
@@ -3887,7 +3887,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-25 14:37:30"
+            "time": "2015-02-26 08:30:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
