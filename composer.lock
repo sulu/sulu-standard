@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c5701b41041f5a7e78c8912a8a28d317",
+    "hash": "110e706f7cb4e8e9c41a2642b1f5601c",
     "packages": [
         {
             "name": "behat/behat",
@@ -3789,16 +3789,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.16.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-cmf/sulu.git",
-                "reference": "61b5e38657a5a2ffb3d66c2d19db2ac5f1fc2aff"
+                "reference": "a3a790edca7a7f6a7bbfbc77ab63d203ed24c207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/61b5e38657a5a2ffb3d66c2d19db2ac5f1fc2aff",
-                "reference": "61b5e38657a5a2ffb3d66c2d19db2ac5f1fc2aff",
+                "url": "https://api.github.com/repos/sulu-cmf/sulu/zipball/a3a790edca7a7f6a7bbfbc77ab63d203ed24c207",
+                "reference": "a3a790edca7a7f6a7bbfbc77ab63d203ed24c207",
                 "shasum": ""
             },
             "require": {
@@ -3819,6 +3819,7 @@
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
                 "symfony-cmf/routing-bundle": "1.2.*",
+                "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
@@ -3886,7 +3887,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-02-27 07:59:07"
+            "time": "2015-02-27 08:00:26"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6392,6 +6393,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
