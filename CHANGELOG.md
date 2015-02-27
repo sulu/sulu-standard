@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 0.16.1 (2015-02-27)
+    * HOTFIX      #880 [ContentBundle]   Fixed changelog if user and contact has not the same id
+    * HOTFIX      #880 [AdminBundle]     Fixed user link if user and contact has not the same id
+    * HOTFIX      #880 [ContentBundle]   Fixed content type time to allow empty time values
+    * HOTFIX      #882 [ContentBundle]   Fixed deletion of referenced pages
+
 * 0.16.0 (2015-02-24)
     * BUGFIX      #866 [ContactBundle]   Serialization group "select" for serializing system users
     * BUGFIX      #860 [AdminBundle]     Extended toolbar to accept more options
