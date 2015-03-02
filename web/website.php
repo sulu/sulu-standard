@@ -6,8 +6,15 @@ use Symfony\Component\Debug\Debug;
 
 // Define application environment
 defined('SYMFONY_ENV') || define('SYMFONY_ENV', getenv('SYMFONY_ENV') ?: 'prod');
+defined('SULU_MAINTENANCE') || define('SULU_MAINTENANCE', getenv('SULU_MAINTENANCE') ?: false);
 defined('SYMFONY_DEBUG') ||
     define('SYMFONY_DEBUG', filter_var(getenv('SYMFONY_DEBUG') ?: SYMFONY_ENV === 'dev', FILTER_VALIDATE_BOOLEAN));
+
+// maintenance mode
+$maintenanceFilePath = __DIR__ . '/../app/maintenance.php';
+if (SULU_MAINTENANCE && file_exists($maintenanceFilePath)) {
+    require_once $maintenanceFilePath;
+}
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
 
