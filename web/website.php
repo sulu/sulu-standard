@@ -13,7 +13,9 @@ defined('SYMFONY_DEBUG') ||
 // maintenance mode
 $maintenanceFilePath = __DIR__ . '/../app/maintenance.php';
 if (SULU_MAINTENANCE && file_exists($maintenanceFilePath)) {
-    require_once $maintenanceFilePath;
+    if (include $maintenanceFilePath) {
+        exit();
+    }
 }
 
 $loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
