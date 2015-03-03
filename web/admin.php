@@ -13,6 +13,7 @@ defined('SYMFONY_DEBUG') ||
 // maintenance mode
 $maintenanceFilePath = __DIR__ . '/../app/maintenance.php';
 if (SULU_MAINTENANCE && file_exists($maintenanceFilePath)) {
+    // show maintenance mode and exit if no allowed IP is met
     if (include $maintenanceFilePath) {
         exit();
     }
