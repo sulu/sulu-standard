@@ -4,7 +4,7 @@ define('DEFAULT_LOCALE', 'en');
 
 // allow acces for following ips
 $allowedIPs = array(
-    '127.0.0.1',
+//  '127.0.0.1',
 );
 
 // translations for maintenance
