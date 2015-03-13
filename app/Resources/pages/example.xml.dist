@@ -51,8 +51,8 @@
                     <params>
                         <param name="links" value="true"/>
                         <param name="tables" value="true"/>
-                        <param name="script" value="true"/>
-                        <param name="iframe" value="true"/>
+                        <param name="scripts" value="true"/>
+                        <param name="iframes" value="true"/>
                         <param name="height" value="100"/>
                         <param name="maxHeight" value="500"/>
                         <param name="pasteFromWord" value="true"/>
