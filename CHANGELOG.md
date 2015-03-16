@@ -2,6 +2,10 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * FEATURE     #919 [ContentBundle]   Add Text editor option enable iframe, script tag and delete godMode
+    * FEATURE     #203 [sulu-standard]   Text editor configurable height, maxHeight for autogrow
+    * BUGFIX      #186 [sulu-standard]   Freeze Browser in Source Edit mode change (CKEditor Update)
+    * BUGFIX      #411 [sulu-standard]   Table Right Click Menu (CKEditor Update)
     * FEATURE     #419 [sulu-standard]   Added maintenance mode, which can be enabled by setting environment variable
                                          SULU_MAINTENANCE true
     * FEATURE     #838 [SecurityBundle]  AJAX-Login and resetting of password
