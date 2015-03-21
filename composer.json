@@ -38,7 +38,6 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
-        "raulfraile/ladybug-bundle": "1.0.*",
         "sauce/sausage": "0.9.*",
         "phpcr/phpcr-shell": "@beta"
     },
