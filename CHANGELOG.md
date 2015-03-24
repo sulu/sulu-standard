@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * FEATURE     #931 [MediaBundle]     Add Media Version History Tab
     * ENHANCEMENT #428 [sulu-standard]   Removed ladybug bundle
     * FEATURE     #919 [ContentBundle]   Add Text editor option enable iframe, script tag and delete godMode
     * FEATURE     #203 [sulu-standard]   Text editor configurable height, maxHeight for autogrow
