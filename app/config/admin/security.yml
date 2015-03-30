@@ -1,6 +1,6 @@
 security:
     access_decision_manager:
-        strategy: affirmative
+        strategy: unanimous
         allow_if_all_abstain: true
 
     acl:
