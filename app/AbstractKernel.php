@@ -71,7 +71,6 @@ abstract class AbstractKernel extends SuluKernel
 
 
             // debug enhancement
-            $bundles[] = new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle();
             $bundles[] = new Sulu\Bundle\TestBundle\SuluTestBundle();
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
         }
