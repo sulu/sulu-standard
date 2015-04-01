@@ -4650,7 +4650,7 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.3.7",
+            "version": "2.4.0",
             "target-dir": "Zend/Stdlib",
             "source": {
                 "type": "git",
