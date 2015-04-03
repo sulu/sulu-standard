@@ -172,3 +172,6 @@ sulu_content:
             Sulu\Component\Content\Structure\Snippet:
                 index: snippet
                 category: snippet
+
+massive_search:
+    localization_strategy: index
