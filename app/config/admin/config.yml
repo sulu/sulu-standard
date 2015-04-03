@@ -73,12 +73,3 @@ massive_build:
                 node_order:
                 search_index:
 
-sulu_content:
-    search:
-        mapping:
-            Sulu\Component\Content\Structure\Page:
-                index: page
-                category: page
-            Sulu\Component\Content\Structure\Snippet:
-                index: snippet
-                category: snippet

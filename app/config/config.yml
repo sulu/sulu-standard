@@ -162,3 +162,13 @@ sulu_http_cache:
     proxy_client:
         symfony:
             enabled: true
+
+sulu_content:
+    search:
+        mapping:
+            Sulu\Component\Content\Structure\Page:
+                index: page
+                category: page
+            Sulu\Component\Content\Structure\Snippet:
+                index: snippet
+                category: snippet
