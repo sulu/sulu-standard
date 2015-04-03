@@ -175,3 +175,6 @@ sulu_content:
 
 massive_search:
     localization_strategy: index
+    persistence:
+        doctrine_orm:
+            enabled: true
