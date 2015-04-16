@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #437 [MediaBundle]     Delete response_headers and ghostscript path from config, working defaults added 
     * FEATURE     #931 [MediaBundle]     Add Media Version History Tab
     * ENHANCEMENT #428 [sulu-standard]   Removed ladybug bundle
     * FEATURE     #919 [ContentBundle]   Add Text editor option enable iframe, script tag and delete godMode
