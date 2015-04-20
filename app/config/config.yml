@@ -69,10 +69,11 @@ doctrine:
                 alias: "GedmoTree" # this one is optional and will default to the name set for the mapping
                 is_bundle: false
         resolve_target_entities:
-            Sulu\Component\Security\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
+            Sulu\Component\Security\Authentication\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
             Sulu\Bundle\ProductBundle\Entity\ProductInterface: Sulu\Bundle\ProductBundle\Entity\Product
-            Sulu\Bundle\SecurityBundle\Entity\RoleInterface: Sulu\Bundle\SecurityBundle\Entity\Role
+            Sulu\Component\Security\Authentication\RoleInterface: Sulu\Bundle\SecurityBundle\Entity\Role
             Sulu\Bundle\MediaBundle\Entity\CollectionInterface: Sulu\Bundle\MediaBundle\Entity\Collection
+            Sulu\Bundle\ContactBundle\Entity\AccountInterface: Sulu\Bundle\ContactBundle\Entity\Account
 
 # Doctrine Extension Configuration
 stof_doctrine_extensions:
@@ -132,10 +133,6 @@ sulu_core:
 sulu_media:
     search:
         enabled: true
-    ghost_script:
-        path: "%ghost_script_path%"
-    format_manager:
-        response_headers: "%format_manager.response_headers%"
 
 sulu_websocket:
     server:

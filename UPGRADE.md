@@ -1,5 +1,12 @@
 # Upgrade
 
+#dev-develop
+
+## Ladybug
+
+The ladybug bundle have been removed in favour of the new
+[Symfony VarDumper Component](http://symfony.com/blog/new-in-symfony-2-6-vardumper-component)
+
 ## 0.16.0
 
 ## Content Types

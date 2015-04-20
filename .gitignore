@@ -25,7 +25,6 @@
 # System files
 .DS_Store
 
-
 # webspaces
 /app/Resources/webspaces
 !/app/Resources/webspaces/*.dist
@@ -40,3 +39,6 @@
 
 # old structure files
 /app/Resources/templates/*
+
+# Behat local file
+behat.yml

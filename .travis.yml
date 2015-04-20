@@ -25,3 +25,8 @@ before_script: ./tests/beforetests.sh
 
 after_script:
     - cat /tmp/http_log
+
+notifications:
+    slack:
+        secure: "HpxoOrrbweDdr3VZTFmnpf01uHe081+ufrUv10HL0A4tZSlWavW7E40agv8GzvVuiDsteAPvTW99Pn0CDqApZqVvzJcdLP32QhahtZO6xSbG6MpfopJrlcWKQ47R/1zKz+1erDsK4KqdMAjicfOKTINqGiMh8MTNQFdENZK7NpA="
+
