@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "523929625b4eebfa1fae4d9f71bdc5f0",
+    "hash": "a098a3ff57b998c2f27c6f044f8f000c",
     "packages": [
         {
             "name": "behat/behat",
@@ -3695,16 +3695,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "0.17.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "01a45edbacc7d3cd3df07b1eb1dabb74a55d921c"
+                "reference": "2cf7db16cdc676a01516e23c5baa32833a07b376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/01a45edbacc7d3cd3df07b1eb1dabb74a55d921c",
-                "reference": "01a45edbacc7d3cd3df07b1eb1dabb74a55d921c",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/2cf7db16cdc676a01516e23c5baa32833a07b376",
+                "reference": "2cf7db16cdc676a01516e23c5baa32833a07b376",
                 "shasum": ""
             },
             "require": {
@@ -3791,7 +3791,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-04-20 15:28:06"
+            "time": "2015-04-20 13:13:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4645,15 +4645,16 @@
         {
             "name": "zendframework/zend-stdlib",
             "version": "2.4.0",
+            "target-dir": "Zend/Stdlib",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/Component_ZendStdlib.git",
-                "reference": "eab586f4c18af3fa63c977611939f1f4a3cf1030"
+                "reference": "3f6e2416183d4879a983680e1165f14164b262f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/eab586f4c18af3fa63c977611939f1f4a3cf1030",
-                "reference": "eab586f4c18af3fa63c977611939f1f4a3cf1030",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/3f6e2416183d4879a983680e1165f14164b262f4",
+                "reference": "3f6e2416183d4879a983680e1165f14164b262f4",
                 "shasum": ""
             },
             "require": {
@@ -4679,7 +4680,7 @@
                 }
             },
             "autoload": {
-                "psr-4": {
+                "psr-0": {
                     "Zend\\Stdlib\\": ""
                 }
             },
@@ -4692,7 +4693,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-04-01 18:09:29"
+            "time": "2015-03-12 16:55:53"
         },
         {
             "name": "zendframework/zendsearch",
@@ -6006,6 +6007,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
