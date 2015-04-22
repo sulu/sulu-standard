@@ -1,7 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-develop
+* 0.17.0 (2015-04-20)
     * ENHANCEMENT #437 [MediaBundle]     Delete response_headers and ghostscript path from config, working defaults added 
     * FEATURE     #931 [MediaBundle]     Add Media Version History Tab
     * ENHANCEMENT #428 [sulu-standard]   Removed ladybug bundle
@@ -13,6 +13,53 @@ CHANGELOG for Sulu CMF
                                          SULU_MAINTENANCE true
     * FEATURE     #838 [SecurityBundle]  AJAX-Login and resetting of password
     * FEATURE     #838 [AdminBundle]     Login UI
+    * BUGFIX      #1020 [ContactBundle]  Fixed organization go back type bug
+    * BUGFIX      #1021 [SecurityBundle] Only check security for not-null security contexts
+    * BUGFIX      #1009 [MediaBundle]    Fix media download url
+    * ENHANCEMENT #1005 [ContactBundle]  Added security checks for contacts and accounts
+    * BUGFIX      #1008 [AdminBundle]    Fixed 1Password css bug on login screen
+    * BUGFIX      #1004 [MediaBundle]    Fix animated gifs
+    * BUGFIX      #1002 [ContentBundle]  Changed internal link title for navigation, smartcontent and internal link
+    * FEATURE     #935 [MediaBundle]     Added new media selection
+    * BUGFIX      #952 [MediaBundle]     Fix coffee icon fallback in media thumbnail view
+    * ENHANCEMENT #951 [MediaBundle]     Made path to image-formats.xml configurateable
+    * BUGFIX      #968 [MediaBundle]     Add wildcard support for media type check
+    * ENHANCEMENT #988 [ContentBundle]   Set locale on render request
+    * BUGFIX      #994 [CategoryBundle]  Fixed category search  
+    * ENHANCEMENT #988 [MediaBundle]     Set working defaults for ghostscript and caching headers
+    * BUGFIX      #976 [MediaBundle]     Fix media scale mode parameter
+    * FEATURE     #975 [MediaBundle]     Make Storage path and segments configurateable
+    * BUGFIX      #973 [All]             Added handling of anonymous user token
+    * BUGFIX      #970 [SecurityBundle]  Fixed select all bug in permissions tab
+    * FEATURE     #941 [SecurityBundle]  Adding permissions on an object basis
+    * FEATURE     #931 [MediaBundle]     Version History Tab
+    * FEATURE     #923 [ContactBundle]   Extract CRM to own Bundles
+    * BUGFIX      #922 [ContentBundle]   Fixed URL Generation after copying language of a child node
+    * FEATURE     #732 [All]             Automatic mapping and assignation of changer, creator, changed and changer.
+    * FEATURE     #891 [All]             Added (css) class property to field descriptors, updated husky and fixed an issue when merging settings with matchings
+    * FEATURE     #884 [MediaBundle]     Loaders on media delete and media edit
+    * BUGFIX      #884 [AdminBundle]     Fix for login displacement issues
+    * BUGFIX      #884 [MediaBundle]     Fix for uploading bug on click on dropzone
+    * ENHANCEMENT #877 [SecurityBundle]  Extracted some classes to component
+    * BUGFIX      #863 [AdminBundle]     Fix for issue that navigation moved content on uncollapse
+    * BUGFIX      #863 [MediaBundle]     Fix for not working image upload with click on the dropzone
+    * BUGFIX      #863 [AdminBundle]     Workaround for chrome rendering-bug of overlay in the content-edit
+    * ENHANCEMENT #942 [ContactBundle]   Changed max characters of street from 60 to 150
+    * BUGFIX      #905 [ContactBundle]   Added Functionality for completing contact addresses
+    * FEATURE     #940 [ContactBundle]   Added command for fixing nested tree of accounts sulu:contacts:accounts:recover
+    * BUGFIX      #876 [ContactBundle]   Bugfix contact adresses and replacing husky select with native select
+    * FEATURE     #873 [ContactBundle]   Command-line data-completion-script: automatically set state of all
+                                         account-addresses in database. 'app/console sulu:contacts:data:complete -d state'
+    * BUGFIX      #908 [CategoryBundle]  Added script for recovering categories nested tree (fixing left/right and depths)
+    * FEATURE     #838 [SecurityBundle]  AJAX-Login and resetting of password
+    * FEATURE     #886 [AdminBundle]     Moved SuluVersionPass to Sulu\Compontents\Util to make it useable from webspace bundles
+    * FEATURE     #838 [AdminBundle]     Login UI
+    * FEATURE     #812 [MediaBundle]     Added nested collection API and UI
+    * FEATURE     #812 [MediaBundle]     Implemented move collections
+    * FEATURE     #805 [MediaBundle]     Implementing media move
+    * FEATURE     #909 [MediaBundle]     Added scroll down pagination for collection
+    * ENHANCEMENT #907 [ContentBundle]   Added ability to define custom homepage template
+    * BUGFIX      #955 [ContentBundle]   Added webspace and locale to page in smart-content to load snippet in correct language
 
 * 0.16.1 (2015-02-27)
     * HOTFIX      #880 [ContentBundle]   Fixed changelog if user and contact has not the same id
