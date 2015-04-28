@@ -13,7 +13,7 @@ _configurator:
 _main:
     resource: routing.yml
 
-_errors:
+_portal_errors:
+    resource: "@SuluWebsiteBundle/Resources/config/routing_error.yml"
+    resource: routing_error.yml
     type: portal
-    resource: "@TwigBundle/Resources/config/routing/errors.xml"
-    prefix:   /_error
