@@ -19,7 +19,7 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "dev-develop",
+        "sulu/sulu": "dev-feature/jackalope-1.2",
         "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",
@@ -34,7 +34,8 @@
         "behat/mink-selenium2-driver": "~1.2@dev",
         "behat/symfony2-extension": "~2.0@dev",
 
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "doctrine/doctrine-cache-bundle": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",

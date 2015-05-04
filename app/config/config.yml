@@ -158,3 +158,10 @@ sulu_http_cache:
     proxy_client:
         symfony:
             enabled: true
+
+doctrine_cache:
+   providers:
+       phpcr_meta:
+           type: %phpcr_cache%
+       phpcr_nodes:
+           type: %phpcr_cache%
