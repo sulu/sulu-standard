@@ -12,3 +12,8 @@ _configurator:
 
 _main:
     resource: routing.yml
+
+_portal_errors:
+    resource: "@SuluWebsiteBundle/Resources/config/routing_error.yml"
+    resource: routing_error.yml
+    type: portal
