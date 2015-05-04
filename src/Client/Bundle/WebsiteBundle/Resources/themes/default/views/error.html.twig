@@ -1,9 +1,9 @@
 {% extends "ClientWebsiteBundle:views:master.html.twig" %}
 
-{% block title %}Error {{ statusCode }}{% endblock %}
+{% block title %}Error {{ status_code }}{% endblock %}
 
 {% block content %}
-    <h1>Error {{ statusCode }}: {{ statusText }}</h1>
+    <h1>Error {{ status_code }}: {{ status_text }}</h1>
 
     <p>{{ exception.message }}</p>
 {% endblock %}
