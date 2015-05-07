@@ -34,7 +34,9 @@
         "behat/mink-selenium2-driver": "~1.2@dev",
         "behat/symfony2-extension": "~2.0@dev",
 
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "jackalope/jackalope-jackrabbit": "~1.2.0",
+        "doctrine/doctrine-cache-bundle": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
