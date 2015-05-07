@@ -25,9 +25,9 @@ class SearchController extends WebsiteController
         $locale = $requestAnalyzer->getCurrentLocalization()->getLocalization();
 
         $hits = $searchManager
-            ->createSearch(sprintf('state:published AND "%s"', $query))
+            ->createSearch(sprintf('state:published AND "%s"', str_replace('"', '\\"', $query)))
             ->locale($locale)
-            ->index('content')
+            ->index('page')
             ->execute();
 
         $data = $this->getAttributes(
