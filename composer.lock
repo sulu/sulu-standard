@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "296bc0ac5328c79301023a24c109151a",
+    "hash": "e36062c447e2a72205d1cc58175305a5",
     "packages": [
         {
             "name": "behat/behat",
@@ -206,12 +206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/MinkExtension.git",
-                "reference": "9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6"
+                "reference": "c7fb932533292567aa57bfbe4ec40f1490ae6d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6",
-                "reference": "9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6",
+                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/c7fb932533292567aa57bfbe4ec40f1490ae6d58",
+                "reference": "c7fb932533292567aa57bfbe4ec40f1490ae6d58",
                 "shasum": ""
             },
             "require": {
@@ -257,7 +257,7 @@
                 "test",
                 "web"
             ],
-            "time": "2015-03-25 17:21:25"
+            "time": "2015-05-07 13:06:09"
         },
         {
             "name": "behat/mink-selenium2-driver",
@@ -1852,7 +1852,6 @@
                 "event",
                 "exception"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-08-11 04:32:36"
         },
         {
@@ -1910,7 +1909,6 @@
                 "http",
                 "http client"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-08-11 04:32:36"
         },
         {
@@ -1963,7 +1961,6 @@
                 "adapter",
                 "log"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-03-26 17:15:28"
         },
         {
@@ -2008,7 +2005,6 @@
                 "message",
                 "url"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-02-05 18:29:46"
         },
         {
@@ -2060,7 +2056,6 @@
                 "log",
                 "plugin"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-01-08 21:45:39"
         },
         {
@@ -2114,7 +2109,6 @@
                 "component",
                 "stream"
             ],
-            "abandoned": "guzzle/guzzle",
             "time": "2014-05-01 21:36:02"
         },
         {
@@ -2339,16 +2333,16 @@
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "a4a22421b496c306a8a247f0ca43d860fdd54b94"
+                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/a4a22421b496c306a8a247f0ca43d860fdd54b94",
-                "reference": "a4a22421b496c306a8a247f0ca43d860fdd54b94",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d35b92d9578a4f7b24f54e872e0186c52f7350ea",
+                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea",
                 "shasum": ""
             },
             "require": {
@@ -2399,7 +2393,72 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2015-05-02 15:16:11"
+            "time": "2015-05-07 09:26:34"
+        },
+        {
+            "name": "jackalope/jackalope-jackrabbit",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackalope/jackalope-jackrabbit.git",
+                "reference": "c395494f31589aa0ffd83aa5783884c6bddab9b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/c395494f31589aa0ffd83aa5783884c6bddab9b7",
+                "reference": "c395494f31589aa0ffd83aa5783884c6bddab9b7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-xml": "*",
+                "jackalope/jackalope": "~1.2.0",
+                "php": ">=5.3.3",
+                "phpcr/phpcr": "~2.1.2",
+                "phpcr/phpcr-utils": "1.*,>=1.1.2"
+            },
+            "provide": {
+                "jackalope/jackalope-transport": "1.1.0"
+            },
+            "require-dev": {
+                "phpcr/phpcr-api-tests": "2.1.4",
+                "psr/log": "~1.0",
+                "symfony/console": "~2.0"
+            },
+            "bin": [
+                "bin/jackalope",
+                "bin/jackrabbit.sh"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Jackalope\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jackalope Community",
+                    "homepage": "https://github.com/jackalope/jackalope-jackrabbit/contributors"
+                }
+            ],
+            "description": "Jackalope Transport library for Jackrabbit",
+            "homepage": "http://jackalope.github.com",
+            "keywords": [
+                "jackrabbit",
+                "phpcr",
+                "transport implementation"
+            ],
+            "time": "2015-05-02 13:08:09"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3637,16 +3696,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-feature/jackalope-1.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "75540f19e5f360dcc7bd6701fd30bb8ad60a4b23"
+                "reference": "73d0e53fe2a3999c894e8e4eadef5e22733ed2cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/75540f19e5f360dcc7bd6701fd30bb8ad60a4b23",
-                "reference": "75540f19e5f360dcc7bd6701fd30bb8ad60a4b23",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/73d0e53fe2a3999c894e8e4eadef5e22733ed2cb",
+                "reference": "73d0e53fe2a3999c894e8e4eadef5e22733ed2cb",
                 "shasum": ""
             },
             "require": {
@@ -3732,7 +3791,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-06 05:58:33"
+            "time": "2015-05-07 13:29:12"
         },
         {
             "name": "swiftmailer/swiftmailer",
