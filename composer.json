@@ -21,7 +21,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
-        "massive/search-bundle": "dev-develop",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",

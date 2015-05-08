@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d2ab3f12913b23097635f8d100f0b0d7",
+    "hash": "fe4545daa83a5a338ecdbe86a5368542",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2487,7 +2487,7 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "dev-develop",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
@@ -3360,12 +3360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "2241f5fd595f0e9e0a7f333c1f0a114b98821b5e"
+                "reference": "8e4829ab0e9467feb5a57bbb8ea305bca69239a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/2241f5fd595f0e9e0a7f333c1f0a114b98821b5e",
-                "reference": "2241f5fd595f0e9e0a7f333c1f0a114b98821b5e",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/8e4829ab0e9467feb5a57bbb8ea305bca69239a6",
+                "reference": "8e4829ab0e9467feb5a57bbb8ea305bca69239a6",
                 "shasum": ""
             },
             "require": {
@@ -3379,7 +3379,7 @@
                 "guzzle/plugin-log": "3.9.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.1.*",
-                "massive/search-bundle": "dev-develop",
+                "massive/search-bundle": "0.5.*",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "sensio/framework-extra-bundle": "3.0.*",
@@ -3452,7 +3452,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-08 11:50:47"
+            "time": "2015-05-08 14:20:36"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6097,7 +6097,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
-        "massive/search-bundle": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
