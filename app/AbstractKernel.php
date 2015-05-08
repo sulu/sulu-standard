@@ -42,6 +42,7 @@ abstract class AbstractKernel extends SuluKernel
             new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
 
             // sulu
+            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
@@ -52,7 +53,6 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
-            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
             new Sulu\Bundle\HttpCacheBundle\SuluHttpCacheBundle(),
             new Sulu\Bundle\WebsocketBundle\SuluWebsocketBundle(),
 

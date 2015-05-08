@@ -159,6 +159,21 @@ sulu_http_cache:
         symfony:
             enabled: true
 
+sulu_content:
+    search:
+        mapping:
+            Sulu\Component\Content\Structure\Page:
+                index: page
+                category: page
+            Sulu\Component\Content\Structure\Snippet:
+                index: snippet
+                category: snippet
+
+massive_search:
+    localization_strategy: index
+    persistence:
+        doctrine_orm:
+            enabled: true
 doctrine_cache:
    providers:
        phpcr_meta:
