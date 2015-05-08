@@ -19,7 +19,7 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "dev-feature/search-mapping",
+        "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
         "massive/search-bundle": "dev-develop",
 
@@ -31,7 +31,9 @@
 
         "massive/build-bundle": "0.2.*",
 
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "jackalope/jackalope-jackrabbit": "~1.2.0",
+        "doctrine/doctrine-cache-bundle": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",

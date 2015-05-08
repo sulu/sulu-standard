@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "734c6ae0e8544aa0d7b8bcad8d5da984",
+    "hash": "d2ab3f12913b23097635f8d100f0b0d7",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1857,16 +1857,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.1.7",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "c282200645c913dad1915f38c0e4258f52c5101b"
+                "reference": "1506d9fc88b2d1024fbbfb6b5a7fe4db766bf1da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/c282200645c913dad1915f38c0e4258f52c5101b",
-                "reference": "c282200645c913dad1915f38c0e4258f52c5101b",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/1506d9fc88b2d1024fbbfb6b5a7fe4db766bf1da",
+                "reference": "1506d9fc88b2d1024fbbfb6b5a7fe4db766bf1da",
                 "shasum": ""
             },
             "require": {
@@ -1874,7 +1874,7 @@
                 "jackalope/jackalope-transport": "*",
                 "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.0,>=2.1.0-beta12",
-                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
+                "phpcr/phpcr-utils": "~1.1"
             },
             "provide": {
                 "phpcr/phpcr-implementation": "2.1.0"
@@ -1882,7 +1882,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -1906,35 +1906,36 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-02-13 14:23:18"
+            "time": "2015-04-29 15:56:16"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.1.5",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "90e3c706762fa2a1623b5d837d36cb1dad843a50"
+                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/90e3c706762fa2a1623b5d837d36cb1dad843a50",
-                "reference": "90e3c706762fa2a1623b5d837d36cb1dad843a50",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d35b92d9578a4f7b24f54e872e0186c52f7350ea",
+                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": ">=2.4.0,<2.6",
-                "jackalope/jackalope": "~1.1.1",
+                "doctrine/dbal": ">=2.4.5,<3.0.x-dev",
+                "jackalope/jackalope": "~1.2.0",
                 "php": ">=5.3.3",
-                "phpcr/phpcr": "~2.1.0",
-                "phpcr/phpcr-utils": ">=1.1.0,<1.3.x-dev"
+                "phpcr/phpcr": "~2.1.2",
+                "phpcr/phpcr-utils": "~1.2,>=1.2.4"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
             },
             "require-dev": {
-                "phpcr/phpcr-api-tests": "2.1.1.1",
+                "phpcr/phpcr-api-tests": "2.1.4",
                 "phpunit/dbunit": "~1.3",
+                "phpunit/phpunit": "4.7.*",
                 "psr/log": "~1.0"
             },
             "bin": [
@@ -1943,7 +1944,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -1969,35 +1970,35 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2015-05-02 18:28:31"
+            "time": "2015-05-07 09:26:34"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-jackrabbit.git",
-                "reference": "f350452700572a30fa53189418db63057f137bee"
+                "reference": "c395494f31589aa0ffd83aa5783884c6bddab9b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/f350452700572a30fa53189418db63057f137bee",
-                "reference": "f350452700572a30fa53189418db63057f137bee",
+                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/c395494f31589aa0ffd83aa5783884c6bddab9b7",
+                "reference": "c395494f31589aa0ffd83aa5783884c6bddab9b7",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-xml": "*",
-                "jackalope/jackalope": "~1.1.0",
+                "jackalope/jackalope": "~1.2.0",
                 "php": ">=5.3.3",
-                "phpcr/phpcr": "~2.1.0",
-                "phpcr/phpcr-utils": "~1.1"
+                "phpcr/phpcr": "~2.1.2",
+                "phpcr/phpcr-utils": "1.*,>=1.1.2"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
             },
             "require-dev": {
-                "phpcr/phpcr-api-tests": "~2.1.0",
+                "phpcr/phpcr-api-tests": "2.1.4",
                 "psr/log": "~1.0",
                 "symfony/console": "~2.0"
             },
@@ -2008,7 +2009,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1-dev"
+                    "dev-master": "1.2-dev"
                 }
             },
             "autoload": {
@@ -2034,7 +2035,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2014-11-13 08:05:35"
+            "time": "2015-05-02 13:08:09"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2490,12 +2491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "630196a3787b38c8fb5c89403338adb698bc839f"
+                "reference": "d324e485ca1703c5f07b0f7e6a32e260a56f1bbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/630196a3787b38c8fb5c89403338adb698bc839f",
-                "reference": "630196a3787b38c8fb5c89403338adb698bc839f",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/d324e485ca1703c5f07b0f7e6a32e260a56f1bbd",
+                "reference": "d324e485ca1703c5f07b0f7e6a32e260a56f1bbd",
                 "shasum": ""
             },
             "require": {
@@ -2546,7 +2547,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-05-05 13:07:12"
+            "time": "2015-05-08 11:18:58"
         },
         {
             "name": "monolog/monolog",
@@ -3355,16 +3356,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-feature/search-mapping",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "87291f1e3a4aabf18bb673a546e224a8ceae7a96"
+                "reference": "2241f5fd595f0e9e0a7f333c1f0a114b98821b5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/87291f1e3a4aabf18bb673a546e224a8ceae7a96",
-                "reference": "87291f1e3a4aabf18bb673a546e224a8ceae7a96",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/2241f5fd595f0e9e0a7f333c1f0a114b98821b5e",
+                "reference": "2241f5fd595f0e9e0a7f333c1f0a114b98821b5e",
                 "shasum": ""
             },
             "require": {
@@ -3377,7 +3378,6 @@
                 "guzzle/http": "3.*",
                 "guzzle/plugin-log": "3.9.*",
                 "imagine/imagine": "~0.6.1",
-                "jackalope/jackalope-jackrabbit": "1.1.*",
                 "liip/theme-bundle": "1.1.*",
                 "massive/search-bundle": "dev-develop",
                 "pagerfanta/pagerfanta": "~1.0",
@@ -3406,10 +3406,10 @@
                 "sulu/website-bundle": "self.version"
             },
             "require-dev": {
-                "doctrine/doctrine-bundle": "1.2.*",
+                "doctrine/doctrine-bundle": "1.4.*",
                 "doctrine/doctrine-fixtures-bundle": "2.2.*",
-                "doctrine/orm": "~2.2,>=2.2.3",
                 "guzzle/plugin-mock": "3.9.*",
+                "jackalope/jackalope-jackrabbit": "~1.2.0",
                 "massive/build-bundle": "0.2.*",
                 "matthiasnoback/symfony-config-test": "v0.1.1",
                 "matthiasnoback/symfony-dependency-injection-test": "v0.7.1",
@@ -3452,7 +3452,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-05 12:11:07"
+            "time": "2015-05-08 11:50:47"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4593,12 +4593,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/MinkExtension.git",
-                "reference": "9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6"
+                "reference": "c7fb932533292567aa57bfbe4ec40f1490ae6d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6",
-                "reference": "9bff0ae65f32f9bf9df0afef91057a7bfeeeafc6",
+                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/c7fb932533292567aa57bfbe4ec40f1490ae6d58",
+                "reference": "c7fb932533292567aa57bfbe4ec40f1490ae6d58",
                 "shasum": ""
             },
             "require": {
@@ -4644,7 +4644,7 @@
                 "test",
                 "web"
             ],
-            "time": "2015-03-25 17:21:25"
+            "time": "2015-05-07 13:06:09"
         },
         {
             "name": "behat/mink-selenium2-driver",
