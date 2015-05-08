@@ -3360,12 +3360,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "8e4829ab0e9467feb5a57bbb8ea305bca69239a6"
+                "reference": "0e65b9e4d94127013467bbe767ff7c6259e4bedd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/8e4829ab0e9467feb5a57bbb8ea305bca69239a6",
-                "reference": "8e4829ab0e9467feb5a57bbb8ea305bca69239a6",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/0e65b9e4d94127013467bbe767ff7c6259e4bedd",
+                "reference": "0e65b9e4d94127013467bbe767ff7c6259e4bedd",
                 "shasum": ""
             },
             "require": {
@@ -3452,7 +3452,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-08 14:20:36"
+            "time": "2015-05-08 17:54:59"
         },
         {
             "name": "swiftmailer/swiftmailer",
