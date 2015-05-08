@@ -33,6 +33,7 @@
             </meta>
 
             <tag name="sulu.rlp"/>
+            <tag name="sulu.search.field" role="description"/>
         </property>
 
         <property name="smartcontent" type="smart_content">
@@ -59,8 +60,6 @@
                 <title lang="de">Artikel</title>
                 <title lang="en">Article</title>
             </meta>
-
-            <tag name="sulu.search.field" role="description"/>
         </property>
     </properties>
 </template>

@@ -31,6 +31,7 @@
                     <tag name="sulu.search.field" role="title"/>
 
                     <tag name="sulu.rlp.part"/>
+                    <tag name="sulu.search.field" role="description"/>
                 </property>
 
                 <property name="note" type="text_area">
@@ -42,7 +43,6 @@
                 </property>
 
                 <property name="article" type="text_editor">
-                    <tag name="sulu.search.field" role="description"/>
                     <meta>
                         <title lang="de">Text Editor</title>
                         <title lang="en">Text editor</title>
