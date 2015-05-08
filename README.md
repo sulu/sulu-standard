@@ -1,7 +1,7 @@
 # Sulu - Content Management
 
 [![Selenium Test Status](https://saucelabs.com/buildstatus/sulu-cmf)](https://saucelabs.com/u/sulu-cmf)
-[![](https://travis-ci.org/sulu-io/sulu-standard.png)](https://travis-ci.org/sulu-io/sulu-standard)
+[![](https://travis-ci.org/sulu-io/sulu-standard.svg?branch=develop)](https://travis-ci.org/sulu-io/sulu-standard)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sulu-io/sulu-standard/badges/quality-score.png?s=3039e48d6515ea846578ca06f3c5bd5442ad3c5b)](https://scrutinizer-ci.com/g/sulu-io/sulu-standard/)
 
 [Sulu](http://sulu.io/) is an open-source content management platform based on the

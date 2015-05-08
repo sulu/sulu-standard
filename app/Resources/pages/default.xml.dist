@@ -31,6 +31,7 @@
             </meta>
 
             <tag name="sulu.rlp"/>
+            <tag name="sulu.search.field" role="description"/>
         </property>
 
         <property name="links" type="internal_links">
@@ -58,7 +59,6 @@
             </meta>
             <properties>
                 <property name="article" type="text_editor">
-                    <tag name="sulu.search.field" role="description"/>
                     <meta>
                         <title lang="de">Artikel</title>
                         <title lang="en">Article</title>

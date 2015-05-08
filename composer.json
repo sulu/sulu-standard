@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "0.17.0",
+    "version": "dev-develop",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -19,7 +19,7 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "0.17.*",
+        "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
 
         "nelmio/alice": "~1.7",
@@ -29,17 +29,19 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
-        "behat/behat": "~3.0.0",
-        "behat/mink-extension": "~2.0@dev",
-        "behat/mink-selenium2-driver": "~1.2@dev",
-        "behat/symfony2-extension": "~2.0@dev",
 
-        "jackalope/jackalope-doctrine-dbal": "1.1.*"
+        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "jackalope/jackalope-jackrabbit": "~1.2.0",
+        "doctrine/doctrine-cache-bundle": "~1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
         "sauce/sausage": "0.9.*",
-        "phpcr/phpcr-shell": "@beta"
+        "phpcr/phpcr-shell": "@beta",
+        "behat/behat": "~3.0.0",
+        "behat/mink-extension": "~2.0@dev",
+        "behat/mink-selenium2-driver": "~1.2@dev",
+        "behat/symfony2-extension": "~2.0@dev"
     },
     "scripts": {
         "post-install-cmd": [

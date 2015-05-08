@@ -32,6 +32,7 @@
             </meta>
 
             <tag name="sulu.rlp"/>
+            <tag name="sulu.search.field" role="description"/>
         </property>
 
         <section name="content">
@@ -48,8 +49,6 @@
                         <title lang="de">Artikel</title>
                         <title lang="en">Article</title>
                     </meta>
-
-                    <tag name="sulu.search.field" role="description"/>
                 </property>
 
                 <block name="block"
