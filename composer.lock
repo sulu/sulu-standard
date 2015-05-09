@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe4545daa83a5a338ecdbe86a5368542",
+    "hash": "b3f544e921bc3c557d5669d1169a7836",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2487,16 +2487,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "d324e485ca1703c5f07b0f7e6a32e260a56f1bbd"
+                "reference": "f23b094cfb13dfc6387c60b40ca747a12a0da021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/d324e485ca1703c5f07b0f7e6a32e260a56f1bbd",
-                "reference": "d324e485ca1703c5f07b0f7e6a32e260a56f1bbd",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f23b094cfb13dfc6387c60b40ca747a12a0da021",
+                "reference": "f23b094cfb13dfc6387c60b40ca747a12a0da021",
                 "shasum": ""
             },
             "require": {
@@ -2547,7 +2547,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-05-08 11:18:58"
+            "time": "2015-05-09 06:14:31"
         },
         {
             "name": "monolog/monolog",
@@ -3356,16 +3356,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "0.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "0e65b9e4d94127013467bbe767ff7c6259e4bedd"
+                "reference": "faf423aba582e87ce33f9e69005967e233a21858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/0e65b9e4d94127013467bbe767ff7c6259e4bedd",
-                "reference": "0e65b9e4d94127013467bbe767ff7c6259e4bedd",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/faf423aba582e87ce33f9e69005967e233a21858",
+                "reference": "faf423aba582e87ce33f9e69005967e233a21858",
                 "shasum": ""
             },
             "require": {
@@ -3452,7 +3452,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-08 17:54:59"
+            "time": "2015-05-09 18:28:34"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6096,7 +6096,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
