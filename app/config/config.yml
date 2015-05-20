@@ -7,7 +7,7 @@ framework:
     translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     form:            ~
-    csrf_protection: ~
+    csrf_protection: false
     validation:      { enable_annotations: true }
     templating:
         engines: ['twig']
@@ -116,6 +116,10 @@ sulu_core:
                 snippet: "default"
                 page: "default"
             paths:
+                hnomepage:
+                    path: %kernel.root_dir%/Resources/pages
+                    internal: false
+                    type: home
                 app_page:
                     path: "%kernel.root_dir%/Resources/pages"
                     internal: false
@@ -174,9 +178,29 @@ massive_search:
     persistence:
         doctrine_orm:
             enabled: true
+
 doctrine_cache:
    providers:
        phpcr_meta:
            type: %phpcr_cache%
        phpcr_nodes:
            type: %phpcr_cache%
+
+jms_serializer:
+    metadata:
+        debug: %kernel.debug%
+
+sulu_document_manager:
+    mapping:
+        page:
+            class: Sulu\Bundle\ContentBundle\Document\PageDocument
+            phpcr_type: sulu:page
+        home:
+            class: Sulu\Bundle\ContentBundle\Document\HomeDocument
+            phpcr_type: sulu:home
+        route:
+            class: Sulu\Bundle\ContentBundle\Document\RouteDocument
+            phpcr_type: sulu:path
+        snippet:
+            class: Sulu\Bundle\SnippetBundle\Document\SnippetDocument
+            phpcr_type: sulu:snippet

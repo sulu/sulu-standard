@@ -9,6 +9,7 @@
             "": "src/"
         }
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5",
         "symfony/symfony": "2.6.*",
@@ -19,8 +20,9 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "dev-develop",
+        "sulu/sulu": "dev-feature/refactoring",
         "symfony-cmf/core-bundle": "1.1.*",
+        "dantleech/phpcr-migrations-bundle": "~1.0",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
