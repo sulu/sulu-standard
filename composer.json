@@ -25,6 +25,7 @@
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
 
+        "massive/search-bundle": "~1.0@dev",
         "zendframework/zend-stdlib": "~2.3",
         "zendframework/zendsearch": "@dev",
 
