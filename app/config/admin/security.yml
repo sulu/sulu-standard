@@ -36,3 +36,7 @@ security:
             logout:
                 path: /admin/logout
                 target: /admin/
+
+sulu_security:
+    checker:
+        enabled: true
