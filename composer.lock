@@ -971,16 +971,16 @@
         },
         {
             "name": "doctrine/phpcr-bundle",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrinePHPCRBundle.git",
-                "reference": "23a49602c0b80fb7ec44f3b78b475ba703046555"
+                "reference": "cdc8c50858ceb9fc01f0cbd72ab03ed1fd7f6b4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/23a49602c0b80fb7ec44f3b78b475ba703046555",
-                "reference": "23a49602c0b80fb7ec44f3b78b475ba703046555",
+                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/cdc8c50858ceb9fc01f0cbd72ab03ed1fd7f6b4c",
+                "reference": "cdc8c50858ceb9fc01f0cbd72ab03ed1fd7f6b4c",
                 "shasum": ""
             },
             "require": {
@@ -988,7 +988,7 @@
                 "phpcr/phpcr-implementation": "2.1.*",
                 "phpcr/phpcr-utils": "~1.2.0",
                 "symfony/doctrine-bridge": "~2.3",
-                "symfony/framework-bundle": "~2.3"
+                "symfony/framework-bundle": "~2.3.27 || ~2.4 || ~2.5.11 || ~2.6.6 || ~2.7"
             },
             "conflict": {
                 "phpcr/phpcr-shell": "<1.0.0-beta1"
@@ -1042,7 +1042,7 @@
                 "persistence",
                 "phpcr"
             ],
-            "time": "2015-02-04 17:33:05"
+            "time": "2015-05-22 10:02:46"
         },
         {
             "name": "doctrine/phpcr-odm",
@@ -3250,16 +3250,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc"
+                "reference": "cde03c48d490d805ef1349e5108f8b3085981ead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cecb1397087dc9c733796eda6e9d121336039cdc",
-                "reference": "cecb1397087dc9c733796eda6e9d121336039cdc",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/cde03c48d490d805ef1349e5108f8b3085981ead",
+                "reference": "cde03c48d490d805ef1349e5108f8b3085981ead",
                 "shasum": ""
             },
             "require": {
@@ -3291,7 +3291,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-04-21 07:52:05"
+            "time": "2015-05-22 14:21:04"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -3361,12 +3361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "a7990bce02ef60a92f9691967656d03aa9e800ac"
+                "reference": "40a62d24dc9b3aedda141df8be262ef0eb436c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a7990bce02ef60a92f9691967656d03aa9e800ac",
-                "reference": "a7990bce02ef60a92f9691967656d03aa9e800ac",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/40a62d24dc9b3aedda141df8be262ef0eb436c18",
+                "reference": "40a62d24dc9b3aedda141df8be262ef0eb436c18",
                 "shasum": ""
             },
             "require": {
@@ -3453,7 +3453,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-21 12:49:21"
+            "time": "2015-05-22 16:29:08"
         },
         {
             "name": "swiftmailer/swiftmailer",
