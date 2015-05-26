@@ -13,7 +13,7 @@ parameters:
 
     locale:             en
     secret:             ThisTokenIsNotSoSecretChangeIt
-    sulu_admin.name:    SULU 2
+    sulu_admin.name:    Sulu
     sulu_admin.email:   ~
 
     websocket_port: 9876
