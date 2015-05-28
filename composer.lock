@@ -3156,12 +3156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "43d2e2545d8d019372d40eebe5c49588c76ae779"
+                "reference": "6fd1730a3167a4a82fe4000edde949b63e17eef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/43d2e2545d8d019372d40eebe5c49588c76ae779",
-                "reference": "43d2e2545d8d019372d40eebe5c49588c76ae779",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/6fd1730a3167a4a82fe4000edde949b63e17eef7",
+                "reference": "6fd1730a3167a4a82fe4000edde949b63e17eef7",
                 "shasum": ""
             },
             "require": {
@@ -3247,7 +3247,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-05-27 16:53:03"
+            "time": "2015-05-28 08:40:46"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3895,23 +3895,24 @@
         },
         {
             "name": "willdurand/hateoas",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/Hateoas.git",
-                "reference": "4aaa9d7470d4f5c1d417b24f10c90f2551617910"
+                "reference": "fc0869381d6934e5d430084154584761297caa6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/Hateoas/zipball/4aaa9d7470d4f5c1d417b24f10c90f2551617910",
-                "reference": "4aaa9d7470d4f5c1d417b24f10c90f2551617910",
+                "url": "https://api.github.com/repos/willdurand/Hateoas/zipball/fc0869381d6934e5d430084154584761297caa6c",
+                "reference": "fc0869381d6934e5d430084154584761297caa6c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "~1.0",
                 "doctrine/common": "~2.0",
                 "jms/metadata": "~1.1",
-                "jms/serializer": "~0.13@dev",
+                "jms/serializer": "~0.13",
+                "php": ">=5.3",
                 "symfony/expression-language": "~2.4"
             },
             "require-dev": {
@@ -3932,7 +3933,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -3955,7 +3956,7 @@
                 }
             ],
             "description": "A PHP library to support implementing representations for HATEOAS REST web services",
-            "time": "2015-04-13 07:20:32"
+            "time": "2015-05-21 21:57:34"
         },
         {
             "name": "willdurand/hateoas-bundle",
