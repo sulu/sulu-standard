@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb1cecc0da7be7af35b8e03bc2cd517e",
+    "hash": "23ec239bdc4b94ae2cd0f93fe1d00aaa",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3161,12 +3161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "0a488ea75742a7dc921e4b6dc9d5df37920623f6"
+                "reference": "6dd8ca3a87aa1a790b8f9796f643cc1952dbec26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/0a488ea75742a7dc921e4b6dc9d5df37920623f6",
-                "reference": "0a488ea75742a7dc921e4b6dc9d5df37920623f6",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/6dd8ca3a87aa1a790b8f9796f643cc1952dbec26",
+                "reference": "6dd8ca3a87aa1a790b8f9796f643cc1952dbec26",
                 "shasum": ""
             },
             "require": {
