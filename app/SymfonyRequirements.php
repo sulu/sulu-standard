@@ -542,11 +542,22 @@ class SymfonyRequirements extends RequirementCollection
 
         /* optional recommendations follow */
 
-        $this->addRecommendation(
-            file_get_contents(__FILE__) === file_get_contents(__DIR__.'/../vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/skeleton/app/SymfonyRequirements.php'),
-            'Requirements file should be up-to-date',
-            'Your requirements file is outdated. Run composer install and re-check your configuration.'
-        );
+        if (file_exists(__DIR__.'/../vendor/composer')) {
+            require_once __DIR__.'/../vendor/autoload.php';
+
+            try {
+                $r = new \ReflectionClass('Sensio\Bundle\DistributionBundle\SensioDistributionBundle');
+
+                $contents = file_get_contents(dirname($r->getFileName()).'/Resources/skeleton/app/SymfonyRequirements.php');
+            } catch (\ReflectionException $e) {
+                $contents = '';
+            }
+            $this->addRecommendation(
+                file_get_contents(__FILE__) === $contents,
+                'Requirements file should be up-to-date',
+                'Your requirements file is outdated. Run composer install and re-check your configuration.'
+            );
+        }
 
         $this->addRecommendation(
             version_compare($installedPhpVersion, '5.3.4', '>='),
@@ -632,15 +643,15 @@ class SymfonyRequirements extends RequirementCollection
             'Install and enable the <strong>intl</strong> extension (used for validators).'
         );
 
-        if (extension_loaded('intl')) {
-            // in some WAMP server installations, new Collator() returns null
+        if (class_exists('Collator')) {
             $this->addRecommendation(
                 null !== new Collator('fr_FR'),
                 'intl extension should be correctly configured',
                 'The intl extension does not behave properly. This problem is typical on PHP 5.3.X x64 WIN builds.'
             );
+        }
 
-            // check for compatible ICU versions (only done when you have the intl extension)
+        if (class_exists('Locale')) {
             if (defined('INTL_ICU_VERSION')) {
                 $version = INTL_ICU_VERSION;
             } else {
