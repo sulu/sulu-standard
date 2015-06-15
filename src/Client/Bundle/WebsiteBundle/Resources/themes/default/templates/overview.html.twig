@@ -25,10 +25,10 @@
                 {% set page = view.smartcontent.page %}
 
                 {% if page-1 >= 1 %}
-                    <li><a href="{{ content_path(content.url) }}?p={{ page-1 }}">&laquo;</a></li>
+                    <li><a href="{{ sulu_content_path(content.url) }}?p={{ page-1 }}">&laquo;</a></li>
                 {% endif %}
                 {% if view.smartcontent.hasNextPage %}
-                    <li><a href="{{ content_path(content.url) }}?p={{ page+1 }}">&raquo;</a></li>
+                    <li><a href="{{ sulu_content_path(content.url) }}?p={{ page+1 }}">&raquo;</a></li>
                 {% endif %}
             </ul>
 
@@ -36,7 +36,7 @@
                 {% for page in content.smartcontent %}
                     <div class="col-lg-4">
                         <h2>
-                            <a href="{{ content_path(page.url) }}">{{ page.title }}</a>
+                            <a href="{{ sulu_content_path(page.url) }}">{{ page.title }}</a>
                         </h2>
                         <p>
                             <i>{{ page.ext_title }}</i> | <i>{{ page.ext_tags|join(', ') }}</i>

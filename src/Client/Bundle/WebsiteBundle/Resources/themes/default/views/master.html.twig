@@ -32,11 +32,11 @@
                     <div class="col-lg-9">
                         <h3 class="text-muted">
                             <img height="20" src="{{ asset('bundles/clientwebsite/default/images/sulu.png') }}" />
-                            <a href="{{ content_root_path() }}">SULU CMF</a>
+                            <a href="{{ sulu_content_root_path() }}">SULU CMF</a>
                         </h3>
                         <div>
                             {% for locale, url in urls %}
-                                <a href="{{ content_path((url?:'/'),request.webspaceKey,locale) }}">{{ locale }}</a>
+                                <a href="{{ sulu_content_path((url?:'/'),request.webspaceKey,locale) }}">{{ locale }}</a>
                                 {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
                             {% endfor %}
                         </div>

@@ -2,16 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>{{ content.title }}</title>
-        <link>{{ content_root_path(true) }}</link>
+        <link>{{ sulu_content_root_path(true) }}</link>
         <description>{{ content.article }}</description>
         <language>{{ request.locale }}</language>
-        {% set user = resolve_user(changer) %}
+        {% set user = sulu_resolve_user(changer) %}
         <copyright>{% if user != null %}{{ user.fullName }}{% endif %}</copyright>
         <pubDate>{{ changed|date('Y.m.d') }}</pubDate>
         {% for page in content.smartcontent %}
             <item>
                 <title>{{ page.title }}</title>
-                <link>{{ content_path(page.url) }}</link>
+                <link>{{ sulu_content_path(page.url) }}</link>
             </item>
         {% endfor %}
     </channel>
