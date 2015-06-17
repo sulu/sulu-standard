@@ -59,7 +59,7 @@
             <ul property="links">
                 {% for link in content.links %}
                     <li>
-                        <a href="{{ content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
+                        <a href="{{ sulu_content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
                     </li>
                 {% endfor %}
             </ul>
@@ -81,7 +81,7 @@
                     <ul>
                         {% for link in snippet.internalLinks %}
                             <li>
-                                <a href="{{ content_path(link.url, link.webspaceKey) }}">{{ link.title }}</a>
+                                <a href="{{ sulu_content_path(link.url, link.webspaceKey) }}">{{ link.title }}</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -106,7 +106,7 @@
         <div property="smartcontent" class="row">
             {% for smartcontent in content.smartcontent %}
                 <div class="col-lg-{{ view.smartcontent.presentAs == 'two' ? '6' : '12' }}">
-                    <h2><a href="{{ content_path(smartcontent.url) }}">{{ smartcontent.title }}</a></h2>
+                    <h2><a href="{{ sulu_content_path(smartcontent.url) }}">{{ smartcontent.title }}</a></h2>
                     {% if smartcontent.article is defined %}
                         {% autoescape false %}
                         {{ smartcontent.article }}
