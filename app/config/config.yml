@@ -116,21 +116,17 @@ sulu_core:
                 snippet: "default"
                 page: "default"
             paths:
-                hnomepage:
+                homepage:
                     path: %kernel.root_dir%/Resources/pages
-                    internal: false
                     type: home
-                app_page:
+                page:
                     path: "%kernel.root_dir%/Resources/pages"
-                    internal: false
                     type: "page"
-                app_snippet:
+                snippet:
                     path: "%kernel.root_dir%/Resources/snippets"
-                    internal: false
                     type: "snippet"
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
-                    internal: true
                     type: "page"
 
 # SULU Media configuration
