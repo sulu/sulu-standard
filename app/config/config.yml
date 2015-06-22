@@ -162,10 +162,10 @@ sulu_http_cache:
 sulu_content:
     search:
         mapping:
-            Sulu\Component\Content\Structure\Page:
+            Sulu\Bundle\ContentBundle\Document\PageDocument:
                 index: page
                 category: page
-            Sulu\Component\Content\Structure\Snippet:
+            Sulu\Bundle\SnippetBundle\Document\SnippetDocument:
                 index: snippet
                 category: snippet
 
