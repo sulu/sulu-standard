@@ -20,14 +20,13 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
-        "sulu/document-manager": "@dev",
         "symfony-cmf/core-bundle": "1.1.*",
         "dantleech/phpcr-migrations-bundle": "~1.0@dev",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
 
-        "massive/search-bundle": "dev-develop",
+        "massive/search-bundle": "0.6.*",
         "zendframework/zend-stdlib": "~2.3",
         "zendframework/zendsearch": "@dev",
 
