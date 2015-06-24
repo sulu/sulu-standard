@@ -21,7 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
-        "dantleech/phpcr-migrations-bundle": "~1.0@dev",
+        "dantleech/phpcr-migrations-bundle": "0.1.*",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",

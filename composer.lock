@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "864953a38a26f4bb76bf0c46330409a3",
+    "hash": "fea52583bc0a84fe9f6346c7243ed0a9",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -140,16 +140,16 @@
         },
         {
             "name": "dantleech/phpcr-migrations-bundle",
-            "version": "dev-master",
+            "version": "0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dantleech/phpcr-migrations-bundle.git",
-                "reference": "a1444ab8cfd960e25a0d11b38986a77f6b737627"
+                "reference": "789074c64a13f55210d0def3472920bb91e610ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dantleech/phpcr-migrations-bundle/zipball/a1444ab8cfd960e25a0d11b38986a77f6b737627",
-                "reference": "a1444ab8cfd960e25a0d11b38986a77f6b737627",
+                "url": "https://api.github.com/repos/dantleech/phpcr-migrations-bundle/zipball/789074c64a13f55210d0def3472920bb91e610ab",
+                "reference": "789074c64a13f55210d0def3472920bb91e610ab",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 }
             ],
             "description": "PHPCR migrations bundle",
-            "time": "2015-04-29 14:35:05"
+            "time": "2015-04-29 14:09:31"
         },
         {
             "name": "doctrine/annotations",
@@ -6250,7 +6250,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
-        "dantleech/phpcr-migrations-bundle": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
