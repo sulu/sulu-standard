@@ -62,14 +62,17 @@ massive_build:
                 database: ~
                 phpcr: ~
                 fixtures: ~
+                phpcr_migrations: ~
         dev:
             dependencies:
                 database: ~
                 fixtures: ~
                 phpcr: ~
                 user: ~
+                phpcr_migrations: ~
         maintain:
             dependencies:
                 node_order:
                 search_index:
+                phpcr_migrations: ~
 

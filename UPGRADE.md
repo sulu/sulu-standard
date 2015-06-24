@@ -1,7 +1,5 @@
 # Upgrade
 
-# Upgrade
-
 ## 1.0.0-RC2
 
 ### Twig-Extensions

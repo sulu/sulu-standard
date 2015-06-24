@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "1.0.0-RC2",
+    "version": "dev-develop",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -19,13 +19,14 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "1.0.0-RC2",
+        "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.1.*",
+        "dantleech/phpcr-migrations-bundle": "0.1.*",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
 
-        "massive/search-bundle": "~1.0@dev",
+        "massive/search-bundle": "0.6.*",
         "zendframework/zend-stdlib": "~2.3",
         "zendframework/zendsearch": "@dev",
 

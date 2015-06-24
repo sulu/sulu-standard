@@ -42,19 +42,22 @@ abstract class AbstractKernel extends SuluKernel
             new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
 
             // sulu
-            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
+            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
+            new Sulu\Bundle\PersistenceBundle\SuluPersistenceBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
-            new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\SecurityBundle\SuluSecurityBundle(),
+            new Sulu\Bundle\MediaBundle\SuluMediaBundle(),
             new Sulu\Bundle\CategoryBundle\SuluCategoryBundle(),
             new Sulu\Bundle\SnippetBundle\SuluSnippetBundle(),
             new Sulu\Bundle\ContentBundle\SuluContentBundle(),
-            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\TagBundle\SuluTagBundle(),
             new Sulu\Bundle\WebsiteBundle\SuluWebsiteBundle(),
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
             new Sulu\Bundle\HttpCacheBundle\SuluHttpCacheBundle(),
             new Sulu\Bundle\WebsocketBundle\SuluWebsocketBundle(),
+            new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
+            new Sulu\Bundle\DocumentManagerBundle\SuluDocumentManagerBundle(),
+            new DTL\Bundle\PhpcrMigrations\PhpcrMigrationsBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
