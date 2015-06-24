@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.0-RC3 (2015-06-24)
+    * ENHANCEMENT #1260 [All]            Removed or renamed all old update commands
+    * ENHANCEMENT #1090 [All]            Introduced DocumentManager
+    * BUGFIX      #1295 [ContentBundle]  Fixed call of changed event from MassiveSearchBundle
+    * ENHANCEMENT #1230 [ContactBundle]  Introduced the new `PersistenceBundle` which makes entities easy replaceable. 
+                                         Added this functionality for the contact entity.
+
 * 1.0.0-RC2 (2015-06-17)
     * BUGFIX      #1264 [ContentBundle]  fixed save of changed block type
     * BUGFIX      #1259 [ContentBundle]  Fixed internal link assignment delete
