@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fea52583bc0a84fe9f6346c7243ed0a9",
+    "hash": "504de1b50b7cba17adf586cc97b08286",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3411,16 +3411,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "1.0.0-RC3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "1c8a6e626c1ceef477a2c8d4cc63d13af16908b9"
+                "reference": "80da6bd3092e1df976a80c12546c5f8bcf094279"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/1c8a6e626c1ceef477a2c8d4cc63d13af16908b9",
-                "reference": "1c8a6e626c1ceef477a2c8d4cc63d13af16908b9",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/80da6bd3092e1df976a80c12546c5f8bcf094279",
+                "reference": "80da6bd3092e1df976a80c12546c5f8bcf094279",
                 "shasum": ""
             },
             "require": {
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-06-24 16:10:50"
+            "time": "2015-06-24 16:32:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6249,7 +6249,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
+        "sulu/sulu": 5,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
