@@ -114,7 +114,6 @@ sulu_core:
         structure:
             default_type:
                 snippet: "default"
-                page: "default"
             paths:
                 homepage:
                     path: %kernel.root_dir%/Resources/pages
