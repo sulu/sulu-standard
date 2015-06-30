@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fea52583bc0a84fe9f6346c7243ed0a9",
+    "hash": "0cca180537c7878113ce5ec49635dbaa",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -1800,16 +1800,16 @@
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea"
+                "reference": "d80439e095a12750094af0df769744aaa6dea1b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d35b92d9578a4f7b24f54e872e0186c52f7350ea",
-                "reference": "d35b92d9578a4f7b24f54e872e0186c52f7350ea",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d80439e095a12750094af0df769744aaa6dea1b7",
+                "reference": "d80439e095a12750094af0df769744aaa6dea1b7",
                 "shasum": ""
             },
             "require": {
@@ -1860,7 +1860,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2015-05-07 09:26:34"
+            "time": "2015-06-25 11:19:27"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
@@ -3411,16 +3411,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "dev-feature/default-template-webspace",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "fe7bd0fc51fb4845de1c1926374448e08c0613fc"
+                "reference": "4da0f18015e1c5b1c0d8aa0883cf1bb23c51f02e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/fe7bd0fc51fb4845de1c1926374448e08c0613fc",
-                "reference": "fe7bd0fc51fb4845de1c1926374448e08c0613fc",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/4da0f18015e1c5b1c0d8aa0883cf1bb23c51f02e",
+                "reference": "4da0f18015e1c5b1c0d8aa0883cf1bb23c51f02e",
                 "shasum": ""
             },
             "require": {
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-06-24 16:36:35"
+            "time": "2015-06-29 15:51:38"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4966,16 +4966,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.12.1",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "26e14a151901311d72c464be9ade767ea9ec3622"
+                "reference": "b107f324f01f1a5557589b946558a2a94e282c00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/26e14a151901311d72c464be9ade767ea9ec3622",
-                "reference": "26e14a151901311d72c464be9ade767ea9ec3622",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/b107f324f01f1a5557589b946558a2a94e282c00",
+                "reference": "b107f324f01f1a5557589b946558a2a94e282c00",
                 "shasum": ""
             },
             "require": {
@@ -5024,7 +5024,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2015-02-18 12:34:30"
+            "time": "2015-03-29 16:09:17"
         },
         {
             "name": "dantleech/glob-finder",
