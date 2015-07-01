@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fea52583bc0a84fe9f6346c7243ed0a9",
+    "hash": "ef67d04f71aaf932fc115d8f2f38bdc8",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "c5767f542d7e5966e8911d6ad454a60f1c700509"
+                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/c5767f542d7e5966e8911d6ad454a60f1c700509",
-                "reference": "c5767f542d7e5966e8911d6ad454a60f1c700509",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
+                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
                 "shasum": ""
             },
             "require": {
@@ -3407,7 +3407,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-06-19 12:38:48"
+            "time": "2015-07-01 15:54:03"
         },
         {
             "name": "sulu/sulu",
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "235fda582c5cd4107bcf6abb4d1e4b6bd5158953"
+                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/235fda582c5cd4107bcf6abb4d1e4b6bd5158953",
-                "reference": "235fda582c5cd4107bcf6abb4d1e4b6bd5158953",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
+                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
                 "shasum": ""
             },
             "require": {
@@ -3438,7 +3438,7 @@
                 "php": ">=5.5",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "0.1.*",
+                "sulu/document-manager": "dev-master",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-07-01 11:15:24"
+            "time": "2015-07-01 15:57:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6250,6 +6250,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
+        "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
