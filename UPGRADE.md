@@ -1,5 +1,13 @@
 # Upgrade
 
+## dev-develop
+
+Configure restructured to reduce merge conflicts. Check changed configuration values and place them into:
+
+* app/config/config.yml: for admin and website configurations
+* app/config/admin/config.yml: for admin configurations
+* app/config/website/config.yml: for website configurations
+
 ## 1.0.0-RC3
 
 ### Document Manager

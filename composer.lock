@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "504de1b50b7cba17adf586cc97b08286",
+    "hash": "ef67d04f71aaf932fc115d8f2f38bdc8",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "c5767f542d7e5966e8911d6ad454a60f1c700509"
+                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/c5767f542d7e5966e8911d6ad454a60f1c700509",
-                "reference": "c5767f542d7e5966e8911d6ad454a60f1c700509",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
+                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
                 "shasum": ""
             },
             "require": {
@@ -3407,20 +3407,20 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-06-19 12:38:48"
+            "time": "2015-07-01 15:54:03"
         },
         {
             "name": "sulu/sulu",
-            "version": "1.0.0-RC3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "7d8d5141f0293f41ea0ef5fd81494923405d409c"
+                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/7d8d5141f0293f41ea0ef5fd81494923405d409c",
-                "reference": "7d8d5141f0293f41ea0ef5fd81494923405d409c",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
+                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
                 "shasum": ""
             },
             "require": {
@@ -3438,7 +3438,7 @@
                 "php": ">=5.5",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "0.1.*",
+                "sulu/document-manager": "dev-master",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-06-29 16:05:35"
+            "time": "2015-07-01 15:57:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4966,16 +4966,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.12.1",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "26e14a151901311d72c464be9ade767ea9ec3622"
+                "reference": "b107f324f01f1a5557589b946558a2a94e282c00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/26e14a151901311d72c464be9ade767ea9ec3622",
-                "reference": "26e14a151901311d72c464be9ade767ea9ec3622",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/b107f324f01f1a5557589b946558a2a94e282c00",
+                "reference": "b107f324f01f1a5557589b946558a2a94e282c00",
                 "shasum": ""
             },
             "require": {
@@ -5024,7 +5024,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2015-02-18 12:34:30"
+            "time": "2015-03-29 16:09:17"
         },
         {
             "name": "dantleech/glob-finder",
@@ -5312,16 +5312,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "631e365cf26bb2c078683e8d9bcf8bc631ac4d44"
+                "reference": "07e27765596d72c378a6103e80da5d84e802f1e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/631e365cf26bb2c078683e8d9bcf8bc631ac4d44",
-                "reference": "631e365cf26bb2c078683e8d9bcf8bc631ac4d44",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/07e27765596d72c378a6103e80da5d84e802f1e4",
+                "reference": "07e27765596d72c378a6103e80da5d84e802f1e4",
                 "shasum": ""
             },
             "require": {
@@ -5370,7 +5370,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-19 07:11:55"
+            "time": "2015-06-30 06:52:35"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -5552,16 +5552,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.7.5",
+            "version": "4.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "f6701ef3faea759acd1910a7751d8d102a7fd5bc"
+                "reference": "0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/f6701ef3faea759acd1910a7751d8d102a7fd5bc",
-                "reference": "f6701ef3faea759acd1910a7751d8d102a7fd5bc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b",
+                "reference": "0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b",
                 "shasum": ""
             },
             "require": {
@@ -5620,7 +5620,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-21 07:23:36"
+            "time": "2015-06-30 06:53:57"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6249,7 +6249,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 5,
+        "sulu/sulu": 20,
+        "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,

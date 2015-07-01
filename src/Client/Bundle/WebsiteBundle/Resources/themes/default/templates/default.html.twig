@@ -55,16 +55,6 @@
                         {% endfor %}
                     </ul>
                 {% endif %}
-
-                <h3>Snippets</h3>
-
-                {% if content.snippets is defined %}
-                    <ul property="snippets">
-                        {% for snippet in content.snippets %}
-                        {{ dump(snippet) }}
-                        {% endfor %}
-                    </ul>
-                {% endif %}
             </div>
         </div>
     </div>
