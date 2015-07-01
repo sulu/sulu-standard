@@ -23,7 +23,7 @@ doctrine:
             Sulu\Bundle\MediaBundle\Entity\CollectionInterface: Sulu\Bundle\MediaBundle\Entity\Collection
             Sulu\Bundle\ContactBundle\Entity\AccountInterface: Sulu\Bundle\ContactBundle\Entity\Account
 
-# doctrine cache providers
+# Doctrine cache providers
 doctrine_cache:
    providers:
        phpcr_meta:
