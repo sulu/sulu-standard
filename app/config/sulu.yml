@@ -1,0 +1,143 @@
+imports:
+    - { resource: phpcr.yml }
+
+framework:
+    translator: { fallback: "%locale%" }
+
+assetic:
+    write_to: "%kernel.root_dir%/../web"
+    filters:
+        cssrewrite:
+            apply_to: "\.(css)$"
+
+doctrine:
+    orm:
+        mappings:
+            gedmo_tree:
+                type: "xml"
+                prefix: "Gedmo\Tree\Entity"
+                dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
+                alias: "GedmoTree" # this one is optional and will default to the name set for the mapping
+                is_bundle: false
+        resolve_target_entities:
+            Sulu\Bundle\MediaBundle\Entity\CollectionInterface: Sulu\Bundle\MediaBundle\Entity\Collection
+            Sulu\Bundle\ContactBundle\Entity\AccountInterface: Sulu\Bundle\ContactBundle\Entity\Account
+
+# Doctrine cache providers
+doctrine_cache:
+   providers:
+       phpcr_meta:
+           type: %phpcr_cache%
+       phpcr_nodes:
+           type: %phpcr_cache%
+
+# Doctrine Extension Configuration
+stof_doctrine_extensions:
+    orm:
+        default:
+            tree: true
+
+# FOS REST Configuration
+fos_rest:
+    routing_loader:
+        default_format: "json"
+
+# LIIP Theme Configuration
+liip_theme:
+    themes: ["default"]
+    active_theme: "default"
+    load_controllers: false
+
+# JMS Serializer
+jms_serializer:
+    metadata:
+        debug: %kernel.debug%
+
+# Symfony CMF Configuration
+cmf_core:
+    publish_workflow:
+        enabled: false
+
+# Massive Bundles
+massive_search:
+    localization_strategy: index
+    persistence:
+        doctrine_orm:
+            enabled: true
+
+# Sulu Bundles
+sulu_core:
+    locales: ["de","en"]
+    phpcr:
+        backend:    "%phpcr_backend%"
+        workspace:  "%phpcr_workspace%"
+        username:   "%phpcr_user%"
+        password:   "%phpcr_pass%"
+    webspace:
+        config_dir: "%kernel.root_dir%/Resources/webspaces"
+    content:
+        structure:
+            default_type:
+                snippet: "default"
+            paths:
+                homepage:
+                    path: %kernel.root_dir%/Resources/pages
+                    type: home
+                page:
+                    path: "%kernel.root_dir%/Resources/pages"
+                    type: "page"
+                snippet:
+                    path: "%kernel.root_dir%/Resources/snippets"
+                    type: "snippet"
+                sulu:
+                    path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
+                    type: "page"
+
+sulu_media:
+    search:
+        enabled: true
+
+sulu_websocket:
+    server:
+        http_host: %websocket_url%
+        port: %websocket_port%
+
+sulu_content:
+    search:
+        mapping:
+            Sulu\Bundle\ContentBundle\Document\PageDocument:
+                index: page
+                category: page
+            Sulu\Bundle\SnippetBundle\Document\SnippetDocument:
+                index: snippet
+                category: snippet
+
+sulu_document_manager:
+    mapping:
+        page:
+            class: Sulu\Bundle\ContentBundle\Document\PageDocument
+            phpcr_type: sulu:page
+        home:
+            class: Sulu\Bundle\ContentBundle\Document\HomeDocument
+            phpcr_type: sulu:home
+        route:
+            class: Sulu\Bundle\ContentBundle\Document\RouteDocument
+            phpcr_type: sulu:path
+        snippet:
+            class: Sulu\Bundle\SnippetBundle\Document\SnippetDocument
+            phpcr_type: sulu:snippet
+
+sulu_http_cache:
+    handlers:
+        paths:
+            enabled: true
+        public:
+            max_age: 240
+            shared_max_age: 240
+            use_page_ttl: true
+            enabled: true
+        debug:
+            enabled: %kernel.debug%
+    proxy_client:
+        symfony:
+            enabled: true

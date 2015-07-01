@@ -1,0 +1,22 @@
+imports:
+    - { resource: ../sulu.yml }
+
+framework:
+    router:
+        resource: "%kernel.root_dir%/config/website/routing.yml"
+    session:
+        save_path: "%kernel.cache_dir%/../../sessions/website/%kernel.environment%"
+
+# Twig Configuration
+twig:
+    exception_controller: sulu_website.exception.controller:showAction
+
+# Symfony CMF Configuration
+cmf_routing:
+    chain:
+        routers_by_id:
+            router.default: 100
+            cmf_routing.dynamic_router: 20
+    dynamic:
+        enabled: true
+        route_provider_service_id: sulu_website.provider.content

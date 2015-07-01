@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #471  [SULU-STANDARD]  Cleanup config to reduce merge conflicts
+
 * 1.0.0-RC3 (2015-06-24)
     * ENHANCEMENT #1260 [All]            Removed or renamed all old update commands
     * ENHANCEMENT #1090 [All]            Introduced DocumentManager
