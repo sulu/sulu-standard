@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef67d04f71aaf932fc115d8f2f38bdc8",
+    "hash": "b796521f645910378026a03362bcf28f",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2382,16 +2382,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.6.0",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "7132354107b8bde60cd7c78bb9d1ea2547e02041"
+                "reference": "6dcba7404b747a2b167e41d569881605f672f5e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/7132354107b8bde60cd7c78bb9d1ea2547e02041",
-                "reference": "7132354107b8bde60cd7c78bb9d1ea2547e02041",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6dcba7404b747a2b167e41d569881605f672f5e0",
+                "reference": "6dcba7404b747a2b167e41d569881605f672f5e0",
                 "shasum": ""
             },
             "require": {
@@ -2443,7 +2443,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-06-24 15:01:08"
+            "time": "2015-07-01 16:45:17"
         },
         {
             "name": "monolog/monolog",
@@ -3364,7 +3364,7 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "dev-master",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
@@ -3411,16 +3411,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf"
+                "reference": "1216f28eafbac99e345338aef087ed6bed3198a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
-                "reference": "c0c8c85ace16ed4900e736d720bfe5aae8348bbf",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/1216f28eafbac99e345338aef087ed6bed3198a5",
+                "reference": "1216f28eafbac99e345338aef087ed6bed3198a5",
                 "shasum": ""
             },
             "require": {
@@ -3433,12 +3433,12 @@
                 "guzzle/guzzle": "3.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.3.*",
-                "massive/search-bundle": "0.6.*",
+                "massive/search-bundle": "0.7.*",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "dev-master",
+                "sulu/document-manager": "0.2.*",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-07-01 15:57:31"
+            "time": "2015-07-01 16:50:56"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6249,8 +6249,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
-        "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
