@@ -1,6 +1,7 @@
 imports:
     - { resource: parameters.yml }
     - { resource: services.yml }
+    - { resource: sulu.yml }
 
 framework:
     #esi:             ~
@@ -70,3 +71,9 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# LIIP Theme Configuration
+liip_theme:
+    themes: ["default"]
+    active_theme: "default"
+    load_controllers: false
