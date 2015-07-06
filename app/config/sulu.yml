@@ -42,12 +42,6 @@ fos_rest:
     routing_loader:
         default_format: "json"
 
-# LIIP Theme Configuration
-liip_theme:
-    themes: ["default"]
-    active_theme: "default"
-    load_controllers: false
-
 # JMS Serializer
 jms_serializer:
     metadata:

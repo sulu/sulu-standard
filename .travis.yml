@@ -24,7 +24,9 @@ php:
 before_script: ./tests/beforetests.sh
 
 after_script:
-    - cat /tmp/http_log
+    - ./tests/travis_print_logs.sh
+    - cat app/logs/admin/prod/prod.log
+    - cat app/logs/website/prod/prod.log
 
 notifications:
     slack:
