@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ec4e57345f97ba3c20f25af9eb8d333",
+    "hash": "ee00fb0cf8ae89e3357b22ebf0e2e79e",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2"
+                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
-                "reference": "e7e2c17a067a8f491f0cfa4c1d03343c241d6ac2",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/9e78fd01376081bd6202bd4fd95e033118f93e46",
+                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46",
                 "shasum": ""
             },
             "require": {
@@ -3407,20 +3407,20 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-07-01 15:54:03"
+            "time": "2015-07-12 06:13:14"
         },
         {
             "name": "sulu/sulu",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "0a8c047ec34dca29c79fb85380f23017c14ecaf7"
+                "reference": "4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/0a8c047ec34dca29c79fb85380f23017c14ecaf7",
-                "reference": "0a8c047ec34dca29c79fb85380f23017c14ecaf7",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816",
+                "reference": "4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816",
                 "shasum": ""
             },
             "require": {
@@ -3502,12 +3502,12 @@
                     "homepage": "https://github.com/sulu-io/sulu/contributors"
                 }
             ],
-            "description": "SuluCMF core distribution",
+            "description": "Sulu core distribution",
             "keywords": [
                 "core",
                 "sulu"
             ],
-            "time": "2015-07-06 10:59:28"
+            "time": "2015-07-13 13:50:35"
         },
         {
             "name": "swiftmailer/swiftmailer",

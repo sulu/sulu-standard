@@ -3,6 +3,9 @@ CHANGELOG for Sulu CMF
 
 * dev-master
     * HOTFIX      #479  [SULU-STANDARD]  Use sulu:build for setting up test database
+    * HOTFIX      #1355 [CoreBundle]     Fixed creator id for website document
+    * HOTFIX      #1346 [ContentBundle]  Reversed order of paths to enable overriding of templates again
+    * HOTFIX      #1366 [CoreBundle]     Fixed build command for not existing database
 
 * 1.0.1 (2015-07-06)
     * HOTFIX      #475  [All]            Fixed inheritance of configs and moved liip-theme config
