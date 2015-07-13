@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #479  [SULU-STANDARD]  Use sulu:build for setting up test database
+
 * 1.0.1 (2015-07-06)
     * HOTFIX      #475  [All]            Fixed inheritance of configs and moved liip-theme config
     * HOTFIX      #1338 [Content]        Fixed wrong check for block type meta title
