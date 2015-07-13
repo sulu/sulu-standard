@@ -4,6 +4,13 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
 
+* dev-master
+    * HOTFIX      #479  [SULU-STANDARD]  Use sulu:build for setting up test database
+
+* 1.0.1 (2015-07-06)
+    * HOTFIX      #475  [All]            Fixed inheritance of configs and moved liip-theme config
+    * HOTFIX      #1338 [Content]        Fixed wrong check for block type meta title
+
 * 1.0.0 (2015-07-01)
     * ENHANCEMENT #471  [SULU-STANDARD]  Cleanup config to reduce merge conflicts
     * ENHANCEMENT #1319 [ContentBundle]  Fixed location of cached structures
