@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
+
 * 1.0.0 (2015-07-01)
     * ENHANCEMENT #471  [SULU-STANDARD]  Cleanup config to reduce merge conflicts
     * ENHANCEMENT #1319 [ContentBundle]  Fixed location of cached structures
