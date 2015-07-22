@@ -6,5 +6,4 @@ use Sulu\Component\HttpCache\HttpCache;
 
 class WebsiteCache extends HttpCache
 {
-
 }

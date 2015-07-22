@@ -168,7 +168,7 @@ class PhpIniRequirement extends Requirement
  */
 class RequirementCollection implements IteratorAggregate
 {
-    private $requirements = array();
+    private $requirements = [];
 
     /**
      * Gets the current RequirementCollection as an Iterator.
@@ -279,7 +279,7 @@ class RequirementCollection implements IteratorAggregate
      */
     public function getRequirements()
     {
-        $array = array();
+        $array = [];
         foreach ($this->requirements as $req) {
             if (!$req->isOptional()) {
                 $array[] = $req;
@@ -296,7 +296,7 @@ class RequirementCollection implements IteratorAggregate
      */
     public function getFailedRequirements()
     {
-        $array = array();
+        $array = [];
         foreach ($this->requirements as $req) {
             if (!$req->isFulfilled() && !$req->isOptional()) {
                 $array[] = $req;
@@ -313,7 +313,7 @@ class RequirementCollection implements IteratorAggregate
      */
     public function getRecommendations()
     {
-        $array = array();
+        $array = [];
         foreach ($this->requirements as $req) {
             if ($req->isOptional()) {
                 $array[] = $req;
@@ -330,7 +330,7 @@ class RequirementCollection implements IteratorAggregate
      */
     public function getFailedRecommendations()
     {
-        $array = array();
+        $array = [];
         foreach ($this->requirements as $req) {
             if (!$req->isFulfilled() && $req->isOptional()) {
                 $array[] = $req;
@@ -403,13 +403,13 @@ class SymfonyRequirements extends RequirementCollection
         );
 
         $this->addRequirement(
-            is_dir(__DIR__.'/../vendor/composer'),
+            is_dir(__DIR__ . '/../vendor/composer'),
             'Vendor libraries must be installed',
-            'Vendor libraries are missing. Install composer following instructions from <a href="http://getcomposer.org/">http://getcomposer.org/</a>. '.
+            'Vendor libraries are missing. Install composer following instructions from <a href="http://getcomposer.org/">http://getcomposer.org/</a>. ' .
                 'Then run "<strong>php composer.phar install</strong>" to install them.'
         );
 
-        $cacheDir = is_dir(__DIR__.'/../var/cache') ? __DIR__.'/../var/cache' : __DIR__.'/cache';
+        $cacheDir = is_dir(__DIR__ . '/../var/cache') ? __DIR__ . '/../var/cache' : __DIR__ . '/cache';
 
         $this->addRequirement(
             is_writable($cacheDir),
@@ -417,7 +417,7 @@ class SymfonyRequirements extends RequirementCollection
             'Change the permissions of either "<strong>app/cache/</strong>" or  "<strong>var/cache/</strong>" directory so that the web server can write into it.'
         );
 
-        $logsDir = is_dir(__DIR__.'/../var/logs') ? __DIR__.'/../var/logs' : __DIR__.'/logs';
+        $logsDir = is_dir(__DIR__ . '/../var/logs') ? __DIR__ . '/../var/logs' : __DIR__ . '/logs';
 
         $this->addRequirement(
             is_writable($logsDir),
@@ -432,7 +432,7 @@ class SymfonyRequirements extends RequirementCollection
         );
 
         if (version_compare($installedPhpVersion, self::REQUIRED_PHP_VERSION, '>=')) {
-            $timezones = array();
+            $timezones = [];
             foreach (DateTimeZone::listAbbreviations() as $abbreviations) {
                 foreach ($abbreviations as $abbreviation) {
                     $timezones[$abbreviation['timezone_id']] = true;
@@ -542,13 +542,13 @@ class SymfonyRequirements extends RequirementCollection
 
         /* optional recommendations follow */
 
-        if (file_exists(__DIR__.'/../vendor/composer')) {
-            require_once __DIR__.'/../vendor/autoload.php';
+        if (file_exists(__DIR__ . '/../vendor/composer')) {
+            require_once __DIR__ . '/../vendor/autoload.php';
 
             try {
                 $r = new \ReflectionClass('Sensio\Bundle\DistributionBundle\SensioDistributionBundle');
 
-                $contents = file_get_contents(dirname($r->getFileName()).'/Resources/skeleton/app/SymfonyRequirements.php');
+                $contents = file_get_contents(dirname($r->getFileName()) . '/Resources/skeleton/app/SymfonyRequirements.php');
             } catch (\ReflectionException $e) {
                 $contents = '';
             }

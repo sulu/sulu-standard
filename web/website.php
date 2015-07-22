@@ -1,8 +1,8 @@
 <?php
 
 use Symfony\Component\ClassLoader\ApcClassLoader;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
+use Symfony\Component\HttpFoundation\Request;
 
 // Define application environment
 defined('SYMFONY_ENV') || define('SYMFONY_ENV', getenv('SYMFONY_ENV') ?: 'prod');
