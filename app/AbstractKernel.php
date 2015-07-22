@@ -1,11 +1,11 @@
 <?php
 
-use Symfony\Component\Config\Loader\LoaderInterface;
 use Sulu\Component\HttpKernel\SuluKernel;
+use Symfony\Component\Config\Loader\LoaderInterface;
 
 /**
  * The abstract kernel holds everything that is common between
- * AdminKernel and WebsiteKernel
+ * AdminKernel and WebsiteKernel.
  */
 abstract class AbstractKernel extends SuluKernel
 {
@@ -14,7 +14,7 @@ abstract class AbstractKernel extends SuluKernel
      */
     public function registerBundles()
     {
-        $bundles = array(
+        $bundles = [
             // symfony standard
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
@@ -65,14 +65,13 @@ abstract class AbstractKernel extends SuluKernel
 
             // tools
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
-        );
+        ];
 
-        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+        if (in_array($this->getEnvironment(), ['dev', 'test'])) {
             // symfony standard
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
-
 
             // debug enhancement
             $bundles[] = new Sulu\Bundle\TestBundle\SuluTestBundle();

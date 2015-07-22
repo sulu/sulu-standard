@@ -6,7 +6,6 @@ use Massive\Bundle\SearchBundle\Search\SearchManagerInterface;
 use Sulu\Bundle\WebsiteBundle\Controller\WebsiteController;
 use Sulu\Component\Rest\RequestParametersTrait;
 use Sulu\Component\Webspace\Analyzer\RequestAnalyzerInterface;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 class SearchController extends WebsiteController
@@ -31,10 +30,10 @@ class SearchController extends WebsiteController
             ->execute();
 
         $data = $this->getAttributes(
-            array(
+            [
                 'query' => $query,
-                'hits' => $hits
-            )
+                'hits' => $hits,
+            ]
         );
 
         return $this->render(
