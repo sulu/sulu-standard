@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46"
+                "reference": "707dec47f851f5ba987a712bdf54f2d49d50cca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/9e78fd01376081bd6202bd4fd95e033118f93e46",
-                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/707dec47f851f5ba987a712bdf54f2d49d50cca4",
+                "reference": "707dec47f851f5ba987a712bdf54f2d49d50cca4",
                 "shasum": ""
             },
             "require": {
@@ -3407,7 +3407,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-07-12 06:13:14"
+            "time": "2015-07-22 16:42:36"
         },
         {
             "name": "sulu/sulu",
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "6656ec7d462cdf772452951a355258aea6ad6fda"
+                "reference": "a0efccae7b1abfa60283ff9076f03e0f9a07a128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/6656ec7d462cdf772452951a355258aea6ad6fda",
-                "reference": "6656ec7d462cdf772452951a355258aea6ad6fda",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a0efccae7b1abfa60283ff9076f03e0f9a07a128",
+                "reference": "a0efccae7b1abfa60283ff9076f03e0f9a07a128",
                 "shasum": ""
             },
             "require": {
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-07-22 12:01:49"
+            "time": "2015-07-23 09:36:12"
         },
         {
             "name": "swiftmailer/swiftmailer",

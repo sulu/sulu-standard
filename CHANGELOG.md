@@ -4,7 +4,17 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
 
-* dev-master
+* 1.0.3 (2015-07-23)
+    * HOTFIX      #1394 [MediaBundle]    Added regex replace for media download to avoid umlauts error
+    * HOTFIX      #1391 [All]            Removed partial load hints
+    * HOTFIX      #1393 [SnippetBundle]  Added try-catch to avoid exception for snippet load
+    * HOTFIX      #1395 [ContentBundle]  Fixed cache-lifetime is required bug for lifetime "0"
+    * HOTFIX      #1386 [ContentBundle]  Fixed hard-coded values in search metadata
+    * HOTFIX      #1400 [SnippetBundle]  Fixed block sorting in snippet form
+    * HOTFIX      #1378 [ContentBundle]  Fixed sorting of pages
+    * HOTFIX      #1414 [ContentBundle]  Set published property in resolved smart content to date instead boolean
+
+* 1.0.2 (2015-07-13)
     * HOTFIX      #479  [SULU-STANDARD]  Use sulu:build for setting up test database
     * HOTFIX      #1355 [CoreBundle]     Fixed creator id for website document
     * HOTFIX      #1346 [ContentBundle]  Reversed order of paths to enable overriding of templates again
