@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.2.1",
+            "version": "0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46"
+                "reference": "707dec47f851f5ba987a712bdf54f2d49d50cca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/9e78fd01376081bd6202bd4fd95e033118f93e46",
-                "reference": "9e78fd01376081bd6202bd4fd95e033118f93e46",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/707dec47f851f5ba987a712bdf54f2d49d50cca4",
+                "reference": "707dec47f851f5ba987a712bdf54f2d49d50cca4",
                 "shasum": ""
             },
             "require": {
@@ -3407,20 +3407,20 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-07-12 06:13:14"
+            "time": "2015-07-22 16:42:36"
         },
         {
             "name": "sulu/sulu",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816"
+                "reference": "7855ccb8d54fff350a9e24981f36707b7bbd18b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816",
-                "reference": "4745fbaf1ccd67ebabdf66ab57eb684e1e0f1816",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/7855ccb8d54fff350a9e24981f36707b7bbd18b9",
+                "reference": "7855ccb8d54fff350a9e24981f36707b7bbd18b9",
                 "shasum": ""
             },
             "require": {
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-07-13 13:50:35"
+            "time": "2015-07-23 09:23:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4362,20 +4362,20 @@
         },
         {
             "name": "zendframework/zend-code",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-code.git",
-                "reference": "5d998f261ec2a55171c71da57a11622745680153"
+                "reference": "a97ef49f82496fabc3b7379b37f6bbff925b58b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/5d998f261ec2a55171c71da57a11622745680153",
-                "reference": "5d998f261ec2a55171c71da57a11622745680153",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/a97ef49f82496fabc3b7379b37f6bbff925b58b8",
+                "reference": "a97ef49f82496fabc3b7379b37f6bbff925b58b8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23",
+                "php": ">=5.5",
                 "zendframework/zend-eventmanager": "~2.5"
             },
             "require-dev": {
@@ -4411,24 +4411,24 @@
                 "code",
                 "zf2"
             ],
-            "time": "2015-06-03 15:31:59"
+            "time": "2015-07-21 22:40:59"
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "d94a16039144936f107f906896349900fd634443"
+                "reference": "135af03d07fd048c322259aab6611d2be290475c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/d94a16039144936f107f906896349900fd634443",
-                "reference": "d94a16039144936f107f906896349900fd634443",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/135af03d07fd048c322259aab6611d2be290475c",
+                "reference": "135af03d07fd048c322259aab6611d2be290475c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23",
+                "php": ">=5.5",
                 "zendframework/zend-stdlib": "~2.5"
             },
             "require-dev": {
@@ -4456,24 +4456,24 @@
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:01"
+            "time": "2015-07-16 19:00:49"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "cc8e90a60dd5d44b9730b77d07b97550091da1ae"
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/cc8e90a60dd5d44b9730b77d07b97550091da1ae",
-                "reference": "cc8e90a60dd5d44b9730b77d07b97550091da1ae",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/a35758803fc9051ec1aff43989e679b6b451b1b4",
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23"
+                "php": ">=5.5"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "1.7.*",
@@ -4494,8 +4494,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -4512,7 +4512,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:03"
+            "time": "2015-07-21 17:08:05"
         },
         {
             "name": "zendframework/zendsearch",
