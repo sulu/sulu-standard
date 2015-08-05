@@ -61,7 +61,11 @@ massive_search:
 
 # Sulu Bundles
 sulu_core:
-    locales: ["de","en"]
+    locales:
+        de: Deutsch
+        en: English
+    fallback_locale: 'en'
+    translations: ['de', 'en']
     phpcr:
         backend:    "%phpcr_backend%"
         workspace:  "%phpcr_workspace%"

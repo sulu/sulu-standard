@@ -4,6 +4,16 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
 
+* 1.0.6 (2015-08-05)
+    * HOTFIX      #1448 [AdminBundle]    Fixed additional system languages
+
+* 1.0.5 (2015-08-03)
+    * HOTFIX      #--   [AdminBundle]    Fixed ckeditor overlay buttons for windows
+
+* 1.0.4 (2015-07-28)
+    * HOTFIX      #1427 [ContentBundle]  Added external link migration
+    * HOTFIX      #1419 [ContentBundle]  Fixed tags, categories and navigation context for shadow pages
+
 * 1.0.3 (2015-07-23)
     * HOTFIX      #1394 [MediaBundle]    Added regex replace for media download to avoid umlauts error
     * HOTFIX      #1391 [All]            Removed partial load hints
