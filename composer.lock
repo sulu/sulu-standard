@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "739ab870a4dfb9a5c1754a71249790e1",
+    "hash": "4c81929f84272e2aa0a27d9e2e28adf0",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "8d32035cfe692efb3dddd0d828f8261280ec9006"
+                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/8d32035cfe692efb3dddd0d828f8261280ec9006",
-                "reference": "8d32035cfe692efb3dddd0d828f8261280ec9006",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/7735fd97ff7303d9df776b8dbc970f949399abc9",
+                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9",
                 "shasum": ""
             },
             "require": {
@@ -3294,7 +3294,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-08-03 10:03:32"
+            "time": "2015-08-11 12:11:25"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -3411,12 +3411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "191901cb441189b5e92ac4e001c6ec0722605832"
+                "reference": "06d64769ad9ba0ecf85787b2bab34910bc57faf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/191901cb441189b5e92ac4e001c6ec0722605832",
-                "reference": "191901cb441189b5e92ac4e001c6ec0722605832",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/06d64769ad9ba0ecf85787b2bab34910bc57faf0",
+                "reference": "06d64769ad9ba0ecf85787b2bab34910bc57faf0",
                 "shasum": ""
             },
             "require": {
@@ -3503,7 +3503,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-08-08 04:35:37"
+            "time": "2015-08-11 12:09:38"
         },
         {
             "name": "swiftmailer/swiftmailer",
