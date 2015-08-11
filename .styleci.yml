@@ -15,4 +15,4 @@ disabled:
 finder:
     exclude:
         - app/SymfonyRequirements.php
-        - app/check.php:w
+        - app/check.php
