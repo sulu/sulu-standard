@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.8 (2015-08-18)
+    * HOTFIX      #---- [Sulu-Standard]  Updated dependencies because of bug in jackalope-jackrabbit
+
 * 1.0.7 (2015-08-11)
     * HOTFIX      #1469 [ContentBundle]  fixed displayOptions in media selection
     * HOTFIX      #1468 [SnippetBundle]  Fixed default language for snippets in administration
