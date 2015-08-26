@@ -10,7 +10,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 abstract class AbstractKernel extends SuluKernel
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function registerBundles()
     {
@@ -82,7 +82,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
@@ -96,7 +96,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getCacheDir()
     {
@@ -104,7 +104,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getLogDir()
     {
