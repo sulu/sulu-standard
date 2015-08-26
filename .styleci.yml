@@ -13,6 +13,6 @@ disabled:
     - blankline_after_open_tag
 
 finder:
-    exclude:
+    not-path:
         - app/SymfonyRequirements.php
         - app/check.php
