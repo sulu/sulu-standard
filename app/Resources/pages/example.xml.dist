@@ -170,21 +170,72 @@
                     </meta>
                 </property>
 
-                <property name="smartcontent" type="smart_content">
+                <property name="pages" type="smart_content">
                     <meta>
-                        <title lang="de">Smart-Content auswahl</title>
-                        <title lang="en">Smart-Content selection</title>
+                        <title lang="de">Smart-Content Seitenauswahl</title>
+                        <title lang="en">Smart-Content pages selection</title>
                     </meta>
 
                     <params>
+                        <param name="provider" value="content" />
                         <param name="present_as" type="collection">
-                            <param name="two">
+                            <param name="6">
                                 <meta>
                                     <title lang="de">2 Spalten</title>
                                     <title lang="en">Two columns</title>
                                 </meta>
                             </param>
-                            <param name="one">
+                            <param name="12">
+                                <meta>
+                                    <title lang="de">1 Spalte</title>
+                                    <title lang="de">One column</title>
+                                </meta>
+                            </param>
+                        </param>
+                    </params>
+                </property>
+
+                <property name="contacts" type="smart_content">
+                    <meta>
+                        <title lang="de">Smart-Content Kontaktauswahl</title>
+                        <title lang="en">Smart-Content Contact selection</title>
+                    </meta>
+
+                    <params>
+                        <param name="provider" value="contact" />
+                        <param name="present_as" type="collection">
+                            <param name="6">
+                                <meta>
+                                    <title lang="de">2 Spalten</title>
+                                    <title lang="en">Two columns</title>
+                                </meta>
+                            </param>
+                            <param name="12">
+                                <meta>
+                                    <title lang="de">1 Spalte</title>
+                                    <title lang="de">One column</title>
+                                </meta>
+                            </param>
+                        </param>
+                    </params>
+                </property>
+
+                <property name="accounts" type="smart_content">
+                    <meta>
+                        <title lang="de">Smart-Content Organizationsauswahl</title>
+                        <title lang="en">Smart-Content Organization selection</title>
+                    </meta>
+
+                    <params>
+                        <param name="provider" value="account" />
+                        <param name="present_as" type="collection">
+                            <param name="6">
+                                <meta>
+                                    <title lang="de">2 Spalten</title>
+                                    <title lang="en">Two columns</title>
+                                </meta>
+                            </param>
+                            <param name="12">
                                 <meta>
                                     <title lang="de">1 Spalte</title>
                                     <title lang="de">One column</title>
