@@ -72,8 +72,6 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
-
-                                    <tag name="sulu.content.sortmode.show"/>
                                 </property>
                                 <property name="article" type="text_editor" mandatory="true">
                                     <meta>
@@ -94,8 +92,6 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
-
-                                    <tag name="sulu.content.sortmode.show"/>
                                 </property>
                                 <property name="article" type="text_area" mandatory="true">
                                     <meta>
@@ -116,8 +112,6 @@
                                         <title lang="de">Titel</title>
                                         <title lang="en">Title</title>
                                     </meta>
-
-                                    <tag name="sulu.content.sortmode.show"/>
                                 </property>
                             </properties>
                         </type>

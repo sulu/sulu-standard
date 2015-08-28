@@ -3364,16 +3364,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "dev-master",
+            "version": "dev-metadata-event",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "b6df5142874eed14c5d359adfe1ef828273e4de1"
+                "reference": "c48183105a13a7cd73ddcbf019b628432adcb31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/b6df5142874eed14c5d359adfe1ef828273e4de1",
-                "reference": "b6df5142874eed14c5d359adfe1ef828273e4de1",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/c48183105a13a7cd73ddcbf019b628432adcb31e",
+                "reference": "c48183105a13a7cd73ddcbf019b628432adcb31e",
                 "shasum": ""
             },
             "require": {
@@ -3385,9 +3385,9 @@
                 "symfony/options-resolver": "~2.4"
             },
             "require-dev": {
-                "dantleech/phpbench": "~0.1",
                 "jackalope/jackalope-doctrine-dbal": "~1.2@dev",
                 "monolog/monolog": "~1.0",
+                "phpbench/phpbench": "~0.1",
                 "phpunit/phpunit": "~4.5"
             },
             "type": "library",
@@ -3407,7 +3407,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-08-17 08:46:17"
+            "time": "2015-08-26 15:07:52"
         },
         {
             "name": "sulu/sulu",
@@ -3415,12 +3415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "a08c802a63526ed3c514f721f2b54c403a058e10"
+                "reference": "67fa35508bca9fad7820eb59a286f10f54bf480f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a08c802a63526ed3c514f721f2b54c403a058e10",
-                "reference": "a08c802a63526ed3c514f721f2b54c403a058e10",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/67fa35508bca9fad7820eb59a286f10f54bf480f",
+                "reference": "67fa35508bca9fad7820eb59a286f10f54bf480f",
                 "shasum": ""
             },
             "require": {
@@ -3438,7 +3438,7 @@
                 "php": ">=5.5",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "dev-master",
+                "sulu/document-manager": "dev-metadata-event@dev",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3507,7 +3507,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-08-25 13:57:16"
+            "time": "2015-08-27 05:37:53"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4098,16 +4098,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.21.0",
+            "version": "v1.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "913d282caca9ee0e8d05940c6caa486d58810dd4"
+                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/913d282caca9ee0e8d05940c6caa486d58810dd4",
-                "reference": "913d282caca9ee0e8d05940c6caa486d58810dd4",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
+                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
                 "shasum": ""
             },
             "require": {
@@ -4155,7 +4155,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-08-24 09:51:18"
+            "time": "2015-08-26 08:58:31"
         },
         {
             "name": "willdurand/hateoas",
