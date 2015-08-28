@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #493 Use sulu_seo twig method instead of deprecated sulu_meta_seo
+
 * 1.0.11 (2015-09-17)
     * HOTFIX      #1594 [Website] Fixed website request analyzer
     * HOTFIX      #1594 [Website] Fixed trailing slash for homepage
