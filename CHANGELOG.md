@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.9 (2015-08-31)
+    * HOTFIX      #1539 [WebsiteBundle]  Fixed canonical tag for shadow pages
+    * HOTFIX      #1537 [WebsiteBundle]  Fixed format of hreflang-tag locale
+    * HOTFIX      #1532 [WebsiteBundle]  Fixed redirect to external pages
+    * HOTFIX      #1511 [ContentBundle]  Fixed single-internal-link overlay URL
+    * HOTFIX      #1521 [MediaBundle]    Fixed media-selection events for preview update
+
 * 1.0.8 (2015-08-18)
     * HOTFIX      #---- [Sulu-Standard]  Updated dependencies because of bug in jackalope-jackrabbit
 
