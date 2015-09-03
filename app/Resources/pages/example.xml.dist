@@ -15,14 +15,16 @@
     </meta>
 
     <properties>
-        <property name="highlighted_element" type="text_line" mandatory="true">
-            <meta>
-                <title lang="de">Hervorgehobenes Element</title>
-                <title lang="en">Highlighted element</title>
-            </meta>
-
-            <tag name="sulu.highlight"/>
-        </property>
+        <section name="highlight">
+            <properties>
+                <property name="highlighted_element" type="text_line" mandatory="true">
+                    <meta>
+                        <title lang="de">Hervorgehobenes Element</title>
+                        <title lang="en">Highlighted element</title>
+                    </meta>
+                </property>
+            </properties>
+        </section>
 
         <section name="simple">
             <meta>
@@ -45,11 +47,11 @@
 
                 <property name="highlighted_element" type="text_line" mandatory="true">
                     <meta>
-                        <title lang="de">Dicke Textzeile</title>
-                        <title lang="en">Bold textline</title>
+                        <title lang="de">Überschrift</title>
+                        <title lang="en">Headline</title>
                     </meta>
                     <params>
-                        <param name="bold" value="true"/>
+                        <param name="headline" value="true"/>
                     </params>
 
                     <tag name="sulu.highlight"/>
