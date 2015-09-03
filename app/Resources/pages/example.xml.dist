@@ -15,6 +15,15 @@
     </meta>
 
     <properties>
+        <property name="highlighted_element" type="text_line" mandatory="true">
+            <meta>
+                <title lang="de">Hervorgehobenes Element</title>
+                <title lang="en">Highlighted element</title>
+            </meta>
+
+            <tag name="sulu.highlight"/>
+        </property>
+
         <section name="simple">
             <meta>
                 <title lang="de">Einfache Content Typen</title>
@@ -32,6 +41,18 @@
 
                     <tag name="sulu.rlp.part"/>
                     <tag name="sulu.search.field" role="description"/>
+                </property>
+
+                <property name="highlighted_element" type="text_line" mandatory="true">
+                    <meta>
+                        <title lang="de">Dicke Textzeile</title>
+                        <title lang="en">Bold textline</title>
+                    </meta>
+                    <params>
+                        <param name="bold" value="true"/>
+                    </params>
+
+                    <tag name="sulu.highlight"/>
                 </property>
 
                 <property name="note" type="text_area">

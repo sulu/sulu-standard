@@ -20,9 +20,13 @@
                 <title lang="de">Titel</title>
                 <title lang="en">Title</title>
             </meta>
+            <params>
+                <param name="bold" value="true"/>
+            </params>
 
             <tag name="sulu.search.field" role="title"/>
 
+            <tag name="sulu.highlight"/>
             <tag name="sulu.rlp.part"/>
         </property>
         <property name="url" type="resource_locator" mandatory="true">
@@ -32,6 +36,7 @@
             </meta>
 
             <tag name="sulu.rlp"/>
+            <tag name="sulu.highlight"/>
             <tag name="sulu.search.field" role="description"/>
         </property>
 
