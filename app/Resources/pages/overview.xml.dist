@@ -15,26 +15,33 @@
     </meta>
 
     <properties>
-        <property name="title" type="text_line" mandatory="true">
-            <meta>
-                <title lang="de">Titel</title>
-                <title lang="en">Title</title>
-            </meta>
+        <section name="headline">
+            <properties>
+                <property name="title" type="text_line" mandatory="true">
+                    <meta>
+                        <title lang="de">Titel</title>
+                        <title lang="en">Title</title>
+                    </meta>
+                    <params>
+                        <param name="headline" value="true"/>
+                    </params>
 
-            <tag name="sulu.search.field" role="title"/>
+                    <tag name="sulu.search.field" role="title"/>
 
-            <tag name="sulu.rlp.part"/>
-        </property>
+                    <tag name="sulu.rlp.part"/>
+                </property>
 
-        <property name="url" type="resource_locator" mandatory="true">
-            <meta>
-                <title lang="de">Adresse</title>
-                <title lang="en">Resourcelocator</title>
-            </meta>
+                <property name="url" type="resource_locator" mandatory="true">
+                    <meta>
+                        <title lang="de">Adresse</title>
+                        <title lang="en">Resourcelocator</title>
+                    </meta>
 
-            <tag name="sulu.rlp"/>
-            <tag name="sulu.search.field" role="description"/>
-        </property>
+                    <tag name="sulu.rlp"/>
+                    <tag name="sulu.search.field" role="description"/>
+                </property>
+            </properties>
+        </section>
 
         <property name="smartcontent" type="smart_content">
             <meta>
