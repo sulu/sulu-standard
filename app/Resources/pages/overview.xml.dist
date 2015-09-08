@@ -15,7 +15,7 @@
     </meta>
 
     <properties>
-        <section name="headline">
+        <section name="highlight">
             <properties>
                 <property name="title" type="text_line" mandatory="true">
                     <meta>
