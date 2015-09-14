@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.10 (2015-09-14)
+    * HOTFIX      #1572 [ContentBundle]         Fixed select overlay for internal link node type
+    * HOTFIX      #1567 [Document]              Fixed localized property for url property
+    * HOTFIX      #1568 [ContentBundle]         Fixed copy extension data
+    * HOTFIX      #1577 [DocumentManagerBundle] Made caching directory for DocumentManager configureable
+
 * 1.0.9 (2015-08-31)
     * HOTFIX      #1539 [WebsiteBundle]  Fixed canonical tag for shadow pages
     * HOTFIX      #1537 [WebsiteBundle]  Fixed format of hreflang-tag locale
