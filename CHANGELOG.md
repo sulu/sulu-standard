@@ -4,6 +4,27 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
 
+* 1.0.10 (2015-09-14)
+    * HOTFIX      #1572 [ContentBundle]         Fixed select overlay for internal link node type
+    * HOTFIX      #1567 [Document]              Fixed localized property for url property
+    * HOTFIX      #1568 [ContentBundle]         Fixed copy extension data
+    * HOTFIX      #1577 [DocumentManagerBundle] Made caching directory for DocumentManager configureable
+
+* 1.0.9 (2015-08-31)
+    * HOTFIX      #1539 [WebsiteBundle]  Fixed canonical tag for shadow pages
+    * HOTFIX      #1537 [WebsiteBundle]  Fixed format of hreflang-tag locale
+    * HOTFIX      #1532 [WebsiteBundle]  Fixed redirect to external pages
+    * HOTFIX      #1511 [ContentBundle]  Fixed single-internal-link overlay URL
+    * HOTFIX      #1521 [MediaBundle]    Fixed media-selection events for preview update
+
+* 1.0.8 (2015-08-18)
+    * HOTFIX      #---- [Sulu-Standard]  Updated dependencies because of bug in jackalope-jackrabbit
+
+* 1.0.7 (2015-08-11)
+    * HOTFIX      #1469 [ContentBundle]  fixed displayOptions in media selection
+    * HOTFIX      #1468 [SnippetBundle]  Fixed default language for snippets in administration
+>>>>>>> master
+
 * 1.0.6 (2015-08-05)
     * HOTFIX      #1448 [AdminBundle]    Fixed additional system languages
 
