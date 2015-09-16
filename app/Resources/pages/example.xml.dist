@@ -218,6 +218,13 @@
                     </params>
                 </property>
 
+                <property name="contactSelection" type="contact">
+                    <meta>
+                        <title lang="de">Kontakte</title>
+                        <title lang="en">Contacts</title>
+                    </meta>
+                </property>
+
                 <property name="contacts" type="smart_content">
                     <meta>
                         <title lang="de">Smart-Content Kontaktauswahl</title>

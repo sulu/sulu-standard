@@ -118,6 +118,34 @@
             {% endfor %}
         </div>
 
+        <h1>Contact Selection</h1>
+
+        <div property="contactSelection">
+            <table width="100%">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                </tr>
+                {% for contact in content.contactSelection %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ contact.type == 'contact' ? contact.fullName : contact.name }}</td>
+                        <td>
+                            {% for email in contact.emails %}
+                                <a href="mailto:{{ email.email }}">{{ email.email }}</a>
+                                {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="3">No contact selected</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+
         <h1>Contacts</h1>
 
         <div property="contacts" class="row">
