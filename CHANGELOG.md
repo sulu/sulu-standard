@@ -4,6 +4,10 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
 
+* 1.0.11 (2015-09-17)
+    * HOTFIX      #1594 [Website] Fixed website request analyzer
+    * HOTFIX      #1594 [Website] Fixed trailing slash for homepage
+    
 * 1.0.10 (2015-09-14)
     * HOTFIX      #1572 [ContentBundle]         Fixed select overlay for internal link node type
     * HOTFIX      #1567 [Document]              Fixed localized property for url property
@@ -23,7 +27,6 @@ CHANGELOG for Sulu CMF
 * 1.0.7 (2015-08-11)
     * HOTFIX      #1469 [ContentBundle]  fixed displayOptions in media selection
     * HOTFIX      #1468 [SnippetBundle]  Fixed default language for snippets in administration
->>>>>>> master
 
 * 1.0.6 (2015-08-05)
     * HOTFIX      #1448 [AdminBundle]    Fixed additional system languages
