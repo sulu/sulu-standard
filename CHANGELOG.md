@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.11 (2015-09-17)
+    * HOTFIX      #1594 [Website] Fixed website request analyzer
+    * HOTFIX      #1594 [Website] Fixed trailing slash for homepage
+    
 * 1.0.10 (2015-09-14)
     * HOTFIX      #1572 [ContentBundle]         Fixed select overlay for internal link node type
     * HOTFIX      #1567 [Document]              Fixed localized property for url property
