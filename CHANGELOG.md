@@ -1,8 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-master
-    * HOTFIX      #493 Use sulu_seo twig method instead of deprecated sulu_meta_seo
+* 1.0.12 (2015-09-23)
+    * HOTFIX      #1596 [GeneratorBundle] Fixed sulu bundle generator path generation
+    * HOTFIX      #1615 [Content]         Fixed resource segment subscriber for order internal link
+    * HOTFIX      #1612 [Content]         Fixed non copy content of snippet
+    * HOTFIX      #493  [Sulu-Standard]   Use sulu_seo twig method instead of deprecated sulu_meta_seo
 
 * 1.0.11 (2015-09-17)
     * HOTFIX      #1594 [Website] Fixed website request analyzer
