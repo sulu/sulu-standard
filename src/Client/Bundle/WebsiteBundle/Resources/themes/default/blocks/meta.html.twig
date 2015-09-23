@@ -1,7 +1,3 @@
 {% autoescape false %}
-<!-- Seo -->
-{{ sulu_meta_seo(extension, content) }}
-
-<!-- Alternate -->
-{{ sulu_meta_alternate(urls) }}
+{{ sulu_seo(extension.seo, content, urls, shadowBaseLocale) }}
 {% endautoescape %}
