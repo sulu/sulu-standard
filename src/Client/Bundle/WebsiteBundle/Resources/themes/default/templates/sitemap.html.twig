@@ -2,8 +2,6 @@
 
 {% block meta %}{% include "ClientWebsiteBundle:blocks:meta.html.twig" %}{% endblock %}
 
-{% block title %}{{ content.title }}{% endblock %}
-
 {% macro recursiveSitemap(site) %}
     <li>
         <a href="{{ sulu_content_path(site.url) }}">{{ site.title }}</a>
