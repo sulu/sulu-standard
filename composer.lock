@@ -3423,12 +3423,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "845afcc063e5287e76b524daf2d0bbdd10fefeb2"
+                "reference": "2874509dac578598eb315980003d5f06b4b09978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/845afcc063e5287e76b524daf2d0bbdd10fefeb2",
-                "reference": "845afcc063e5287e76b524daf2d0bbdd10fefeb2",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/2874509dac578598eb315980003d5f06b4b09978",
+                "reference": "2874509dac578598eb315980003d5f06b4b09978",
                 "shasum": ""
             },
             "require": {
@@ -3515,7 +3515,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-09-23 08:14:04"
+            "time": "2015-09-23 12:26:26"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4532,16 +4532,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "e310dc83e756fdf0f61281540c4bee29f9e72e36"
+                "reference": "130eaa89e24acbc6386af9061aabc78e1948b1f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/e310dc83e756fdf0f61281540c4bee29f9e72e36",
-                "reference": "e310dc83e756fdf0f61281540c4bee29f9e72e36",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/130eaa89e24acbc6386af9061aabc78e1948b1f9",
+                "reference": "130eaa89e24acbc6386af9061aabc78e1948b1f9",
                 "shasum": ""
             },
             "require": {
@@ -4586,7 +4586,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-09-22 16:25:52"
+            "time": "2015-09-23 13:11:47"
         },
         {
             "name": "zendframework/zendsearch",
