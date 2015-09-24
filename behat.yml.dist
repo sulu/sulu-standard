@@ -111,36 +111,11 @@ selenium:
                 default:
                     selenium2: ~
 
-sauce_labs:
+travis:
     extensions:
         Behat\MinkExtension:
-            base_url: 'http://127.0.0.1:8080/'
+            base_url: 'http://127.0.0.1:8080'
             sessions:
                 default:
-                    sauce_labs:
-                        capabilities:
-                            selenium-version: 2.44.0
-                            version: 34
-                            browser: Firefox
-                            platform: "Linux"
-                            max-duration: 3600
-                            record-screenshots: true
-                            custom-data: 
-                                foo: bar
+                    selenium2: ~
 
-sauce_labs_local:
-    extensions:
-        Behat\MinkExtension:
-            base_url: 'http://127.0.0.1:8001/'
-            sessions:
-                default:
-                    sauce_labs:
-                        capabilities:
-                            selenium-version: 2.44.0
-                            version: 34
-                            browser: Firefox
-                            platform: "Linux"
-                            max-duration: 3600
-                            record-screenshots: true
-                            custom-data: 
-                                foo: bar

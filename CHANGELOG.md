@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #517  [SULU-STANDARD]   Ditched saucelabs for faster tests
     * BUGFIX      #474  [SULU-STANDARD]   Registered SuluGeneratorBundle
 
 * 1.0.12 (2015-09-23)
