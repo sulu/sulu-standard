@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8acf59c3fdf6db394f1e29cdfa0cca6",
+    "hash": "4d8a682fa9a9fb71ee8ee95e06f2fc45",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3415,16 +3415,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "a1aca79e7ef72d5c4e471da271c9b51193699906"
+                "reference": "b66ade2db0b92456759d778bb068f8f028ee884e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a1aca79e7ef72d5c4e471da271c9b51193699906",
-                "reference": "a1aca79e7ef72d5c4e471da271c9b51193699906",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/b66ade2db0b92456759d778bb068f8f028ee884e",
+                "reference": "b66ade2db0b92456759d778bb068f8f028ee884e",
                 "shasum": ""
             },
             "require": {
@@ -3511,7 +3511,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-09-17 07:32:53"
+            "time": "2015-09-23 12:45:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4529,16 +4529,16 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.7.1",
+            "version": "2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "e310dc83e756fdf0f61281540c4bee29f9e72e36"
+                "reference": "130eaa89e24acbc6386af9061aabc78e1948b1f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/e310dc83e756fdf0f61281540c4bee29f9e72e36",
-                "reference": "e310dc83e756fdf0f61281540c4bee29f9e72e36",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/130eaa89e24acbc6386af9061aabc78e1948b1f9",
+                "reference": "130eaa89e24acbc6386af9061aabc78e1948b1f9",
                 "shasum": ""
             },
             "require": {
@@ -4583,7 +4583,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-09-22 16:25:52"
+            "time": "2015-09-23 13:11:47"
         },
         {
             "name": "zendframework/zendsearch",
