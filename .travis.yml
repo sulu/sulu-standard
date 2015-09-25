@@ -9,12 +9,7 @@ env:
         - SAUCE_CONNECT_READY_FILE=/tmp/sauce-connect-ready
         - LOGS_DIR=/tmp/sulu/logs
         - DB=mysql
-        - BEHAT_PROFILE=sauce_labs
-    matrix:
-        - BEHAT_SUITES="admin contact"
-        - BEHAT_SUITES="content core location"
-        - BEHAT_SUITES="media security snippet tag"
-        - BEHAT_SUITES="category"
+        - BEHAT_PROFILE=travis
 
 script: ./tests/runtests.sh
 
