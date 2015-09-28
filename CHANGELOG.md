@@ -4,6 +4,7 @@ CHANGELOG for Sulu CMF
 * dev-develop
     * ENHANCEMENT #517  [SULU-STANDARD]   Ditched saucelabs for faster tests
     * BUGFIX      #474  [SULU-STANDARD]   Registered SuluGeneratorBundle
+    * FEATURE     #500  [SULU-STANDARD]   Added tag list to overview template
 
 * 1.0.12 (2015-09-23)
     * HOTFIX      #1596 [GeneratorBundle] Fixed sulu bundle generator path generation
