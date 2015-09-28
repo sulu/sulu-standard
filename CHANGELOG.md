@@ -3,6 +3,7 @@ CHANGELOG for Sulu CMF
 
 * dev-develop
     * BUGFIX      #474  [SULU-STANDARD]  Registered SuluGeneratorBundle
+    * FEATURE     #500  [SULU-STANDARD]  Added tag list to overview template
 
 * 1.0.6 (2015-08-05)
     * HOTFIX      #1448 [AdminBundle]    Fixed additional system languages
