@@ -19,12 +19,12 @@
                 <h2>Smart-Content</h2>
             </div>
 
-            <ul>
-                <li><a href="{{ sulu_tag_url_clear() }}">None</a></li>
-                {% for tag in sulu_tags() %}
-                    <li><a href="{{ sulu_tag_url(tag) }}">{{ tag.name }}</a></li>
-                {% endfor %}
-            </ul>
+            <div class="col-lg-6">
+                {% include "ClientWebsiteBundle:util:categories.html.twig" with {locale: app.request.locale, withChildren: true} %}
+            </div>
+            <div class="col-lg-6">
+                {% include "ClientWebsiteBundle:util:tags.html.twig" %}
+            </div>
 
             <ul class="pagination">
                 {% set page = view.smartcontent.page %}
