@@ -1,6 +1,6 @@
 <ul>
     <li><a href="{{ sulu_category_url_clear(parameter|default(null)) }}">None</a></li>
-    {% for category in sulu_categories(locale) %}
+    {% for category in sulu_categories(locale, root|default(null)) %}
         <li>
             <a href="{{ sulu_category_url(category, parameter|default(null)) }}">{{ category.name }}</a>
 
