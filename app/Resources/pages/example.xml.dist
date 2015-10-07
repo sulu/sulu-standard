@@ -233,6 +233,7 @@
 
                     <params>
                         <param name="provider" value="contact" />
+                        <param name="categories_parameter" value="c" />
                         <param name="present_as" type="collection">
                             <param name="6">
                                 <meta>
@@ -258,6 +259,7 @@
 
                     <params>
                         <param name="provider" value="account" />
+                        <param name="categories_parameter" value="a" />
                         <param name="present_as" type="collection">
                             <param name="6">
                                 <meta>
