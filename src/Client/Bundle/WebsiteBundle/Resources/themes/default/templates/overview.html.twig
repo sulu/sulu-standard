@@ -20,7 +20,7 @@
             </div>
 
             <div class="col-lg-6">
-                {% include "ClientWebsiteBundle:util:categories.html.twig" with {locale: app.request.locale, withChildren: true, root: view.smartcontent.categoryRoot, parameter: view.smartcontent.categoriesParameter} %}
+                {% include "ClientWebsiteBundle:util:categories.html.twig" with {locale: request.locale, withChildren: true, root: view.smartcontent.categoryRoot, parameter: view.smartcontent.categoriesParameter} %}
             </div>
             <div class="col-lg-6">
                 {% include "ClientWebsiteBundle:util:tags.html.twig" with {parameter: view.smartcontent.tagsParameter} %}
