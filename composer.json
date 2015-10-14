@@ -34,7 +34,8 @@
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.0",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
-        "doctrine/doctrine-cache-bundle": "~1.0"
+        "doctrine/doctrine-cache-bundle": "~1.0",
+        "evenement/evenement": "2.0.0 as 1.0.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",

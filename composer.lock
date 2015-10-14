@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc632eb4b06b11e8fb6f23274ac7d5e9",
+    "hash": "e26a98e23622b840db7d6357d135025f",
+    "content-hash": "3b16fffdd0ea4e45e7f5f764d3923898",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -49,6 +50,63 @@
                 "urlizer"
             ],
             "time": "2012-11-15 19:49:27"
+        },
+        {
+            "name": "alchemy/binary-driver",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alchemy-fr/BinaryDriver.git",
+                "reference": "b32c03d4b56ce29f783051eac55887adae654b41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alchemy-fr/BinaryDriver/zipball/b32c03d4b56ce29f783051eac55887adae654b41",
+                "reference": "b32c03d4b56ce29f783051eac55887adae654b41",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "~1.0",
+                "monolog/monolog": "~1.3",
+                "php": ">=5.3.3",
+                "psr/log": "~1.0",
+                "symfony/process": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alchemy": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                },
+                {
+                    "name": "Phraseanet Team",
+                    "email": "info@alchemy.fr",
+                    "homepage": "http://www.phraseanet.com/"
+                },
+                {
+                    "name": "Nicolas Le Goff",
+                    "email": "legoff.n@gmail.com"
+                }
+            ],
+            "description": "A set of tools to build binary drivers",
+            "keywords": [
+                "binary",
+                "driver"
+            ],
+            "time": "2013-06-21 15:51:20"
         },
         {
             "name": "behat/transliterator",
@@ -1138,16 +1196,16 @@
         },
         {
             "name": "doctrine/phpcr-odm",
-            "version": "1.2.5",
+            "version": "1.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm.git",
-                "reference": "9beaa8f20c05b21c58d9f86a8df6dbffcbcd4a85"
+                "reference": "5db71ae9c32998d25e48e507f78b72c2b2a52041"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/9beaa8f20c05b21c58d9f86a8df6dbffcbcd4a85",
-                "reference": "9beaa8f20c05b21c58d9f86a8df6dbffcbcd4a85",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/5db71ae9c32998d25e48e507f78b72c2b2a52041",
+                "reference": "5db71ae9c32998d25e48e507f78b72c2b2a52041",
                 "shasum": ""
             },
             "require": {
@@ -1208,7 +1266,7 @@
                 "odm",
                 "phpcr"
             ],
-            "time": "2015-09-01 04:49:20"
+            "time": "2015-10-08 11:16:58"
         },
         {
             "name": "evenement/evenement",
@@ -1748,16 +1806,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "69a0c661cc2116651a24b712af27f98453bba833"
+                "reference": "75cd273ed693b6c077c9856709ebac6ca3252e25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/69a0c661cc2116651a24b712af27f98453bba833",
-                "reference": "69a0c661cc2116651a24b712af27f98453bba833",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/75cd273ed693b6c077c9856709ebac6ca3252e25",
+                "reference": "75cd273ed693b6c077c9856709ebac6ca3252e25",
                 "shasum": ""
             },
             "require": {
@@ -1797,7 +1855,7 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-08-15 08:18:17"
+            "time": "2015-10-09 16:37:07"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
@@ -2584,6 +2642,46 @@
             "time": "2014-10-10 13:07:37"
         },
         {
+            "name": "neutron/temporary-filesystem",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romainneutron/Temporary-Filesystem.git",
+                "reference": "6b21fa99fd452efea16b9a7adb7304ccfff854d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romainneutron/Temporary-Filesystem/zipball/6b21fa99fd452efea16b9a7adb7304ccfff854d0",
+                "reference": "6b21fa99fd452efea16b9a7adb7304ccfff854d0",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/filesystem": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Neutron": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                }
+            ],
+            "description": "Symfony filesystem extension to handle temporary files",
+            "time": "2013-10-10 10:58:09"
+        },
+        {
             "name": "ocramius/proxy-manager",
             "version": "1.0.2",
             "source": {
@@ -2712,6 +2810,75 @@
                 "paging"
             ],
             "time": "2014-10-06 10:57:25"
+        },
+        {
+            "name": "php-ffmpeg/php-ffmpeg",
+            "version": "0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-FFMpeg/PHP-FFMpeg.git",
+                "reference": "c8949fe3df89edd7692368cc110a51a27971f28a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/zipball/c8949fe3df89edd7692368cc110a51a27971f28a",
+                "reference": "c8949fe3df89edd7692368cc110a51a27971f28a",
+                "shasum": ""
+            },
+            "require": {
+                "alchemy/binary-driver": "~1.5",
+                "doctrine/cache": "~1.0",
+                "evenement/evenement": "~1.0",
+                "neutron/temporary-filesystem": "~2.1, >=2.1.1",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "sami/sami": "~1.0",
+                "silex/silex": "~1.0"
+            },
+            "suggest": {
+                "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FFMpeg": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Romain Neutron",
+                    "email": "imprec@gmail.com",
+                    "homepage": "http://www.lickmychip.com/"
+                },
+                {
+                    "name": "Phraseanet Team",
+                    "email": "info@alchemy.fr",
+                    "homepage": "http://www.phraseanet.com/"
+                }
+            ],
+            "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
+            "keywords": [
+                "audio",
+                "audio processing",
+                "avconv",
+                "avprobe",
+                "ffmpeg",
+                "ffprobe",
+                "video",
+                "video processing"
+            ],
+            "time": "2014-08-26 08:46:56"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -2866,16 +3033,16 @@
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-utils.git",
-                "reference": "647eb896f98e461d063170fc1642df659ea38290"
+                "reference": "778fc1cdffacb0ee99f52790e656a2acb85b9dfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/647eb896f98e461d063170fc1642df659ea38290",
-                "reference": "647eb896f98e461d063170fc1642df659ea38290",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/778fc1cdffacb0ee99f52790e656a2acb85b9dfa",
+                "reference": "778fc1cdffacb0ee99f52790e656a2acb85b9dfa",
                 "shasum": ""
             },
             "require": {
@@ -2886,6 +3053,12 @@
             "conflict": {
                 "jackalope/jackalope-jackrabbit": "<1.2.1"
             },
+            "suggest": {
+                "ramsey/uuid": "A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID)."
+            },
+            "bin": [
+                "bin/phpcr"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2927,7 +3100,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2015-07-14 06:15:24"
+            "time": "2015-10-10 08:53:20"
         },
         {
             "name": "phpoption/phpoption",
@@ -3018,6 +3191,47 @@
             "time": "2012-12-21 11:40:51"
         },
         {
+            "name": "pulse00/ffmpeg-bundle",
+            "version": "0.5.2",
+            "target-dir": "Dubture/FFmpegBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pulse00/ffmpeg-bundle.git",
+                "reference": "1169100c5f7e577abdab16506e2104aa2b54de86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pulse00/ffmpeg-bundle/zipball/1169100c5f7e577abdab16506e2104aa2b54de86",
+                "reference": "1169100c5f7e577abdab16506e2104aa2b54de86",
+                "shasum": ""
+            },
+            "require": {
+                "php-ffmpeg/php-ffmpeg": "0.5.*@dev"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Dubture\\FFmpegBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Gruendler",
+                    "email": "r.gruendler@gmail.com"
+                }
+            ],
+            "description": "Symfony bundle to provide PHP-FFmpeg as a Symfony service (https://github.com/alchemy-fr/PHP-FFmpeg)",
+            "keywords": [
+                "ffmpeg",
+                "multimedia"
+            ],
+            "time": "2014-08-27 19:29:04"
+        },
+        {
             "name": "react/event-loop",
             "version": "v0.4.1",
             "source": {
@@ -3103,29 +3317,29 @@
         },
         {
             "name": "react/stream",
-            "version": "v0.4.2",
+            "version": "v0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/stream.git",
-                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465"
+                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/stream/zipball/acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
-                "reference": "acc7a5fec02e0aea674560e1d13c40ed0c8c5465",
+                "url": "https://api.github.com/repos/reactphp/stream/zipball/305b2328d2a2e157bc13b61a0f5c6e41b666b188",
+                "reference": "305b2328d2a2e157bc13b61a0f5c6e41b666b188",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0",
-                "php": ">=5.4.0"
+                "evenement/evenement": "^2.0|^1.0",
+                "php": ">=5.3.8"
             },
             "require-dev": {
-                "react/event-loop": "0.4.*",
-                "react/promise": "~2.0"
+                "react/event-loop": "^0.4|^0.3",
+                "react/promise": "^2.0|^1.0"
             },
             "suggest": {
-                "react/event-loop": "0.4.*",
-                "react/promise": "~2.0"
+                "react/event-loop": "^0.4",
+                "react/promise": "^2.0"
             },
             "type": "library",
             "extra": {
@@ -3147,7 +3361,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2014-09-10 03:32:31"
+            "time": "2015-10-07 18:32:58"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -3423,12 +3637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "cbb469f78a271df5272a2239a09ce9e84064b191"
+                "reference": "1771b2761efd57e605ab48010359c6cdafe70529"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/cbb469f78a271df5272a2239a09ce9e84064b191",
-                "reference": "cbb469f78a271df5272a2239a09ce9e84064b191",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/1771b2761efd57e605ab48010359c6cdafe70529",
+                "reference": "1771b2761efd57e605ab48010359c6cdafe70529",
                 "shasum": ""
             },
             "require": {
@@ -3436,6 +3650,7 @@
                 "doctrine/orm": "2.5.*",
                 "doctrine/phpcr-bundle": "~1.2.0",
                 "doctrine/phpcr-odm": "~1.2.0",
+                "evenement/evenement": "2.0.0 as 1.0.0",
                 "friendsofsymfony/http-cache": "1.3.*",
                 "friendsofsymfony/rest-bundle": "~1.4",
                 "guzzle/guzzle": "3.*",
@@ -3444,6 +3659,7 @@
                 "massive/search-bundle": "0.7.*",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
+                "pulse00/ffmpeg-bundle": "^0.5.2",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
                 "sulu/document-manager": "dev-develop",
@@ -3515,7 +3731,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-10-06 10:54:27"
+            "time": "2015-10-14 08:28:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4111,16 +4327,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.22.2",
+            "version": "v1.22.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "79249fc8c9ff62e41e217e0c630e2e00bcadda6a"
+                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/79249fc8c9ff62e41e217e0c630e2e00bcadda6a",
-                "reference": "79249fc8c9ff62e41e217e0c630e2e00bcadda6a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ebfc36b7e77b0c1175afe30459cf943010245540",
+                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540",
                 "shasum": ""
             },
             "require": {
@@ -4168,7 +4384,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-09-22 13:59:32"
+            "time": "2015-10-13 07:07:02"
         },
         {
             "name": "willdurand/hateoas",
@@ -5392,16 +5608,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.2.3",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f"
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef1ca6835468857944d5c3b48fa503d5554cff2f",
-                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
                 "shasum": ""
             },
             "require": {
@@ -5450,7 +5666,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-09-14 06:51:16"
+            "time": "2015-10-06 15:47:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -5632,16 +5848,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.10",
+            "version": "4.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "463163747474815c5ccd4ae12b5b355ec12158e8"
+                "reference": "00194eb95989190a73198390ceca081ad3441a7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/463163747474815c5ccd4ae12b5b355ec12158e8",
-                "reference": "463163747474815c5ccd4ae12b5b355ec12158e8",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/00194eb95989190a73198390ceca081ad3441a7f",
+                "reference": "00194eb95989190a73198390ceca081ad3441a7f",
                 "shasum": ""
             },
             "require": {
@@ -5700,7 +5916,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-01 09:14:30"
+            "time": "2015-10-12 03:36:47"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6141,16 +6357,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01"
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
-                "reference": "c7428acdb62ece0a45e6306f1ae85e1c05b09c01",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/bc37d50fea7d017d3d340f230811c9f1d7280af4",
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
                 "shasum": ""
             },
             "require": {
@@ -6188,7 +6404,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2014-10-06 09:23:50"
+            "time": "2015-10-12 03:26:01"
         },
         {
             "name": "sebastian/recursion-context",
@@ -6327,7 +6543,14 @@
             "time": "2015-03-17 06:36:52"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0",
+            "version": "2.0.0.0",
+            "package": "evenement/evenement"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
