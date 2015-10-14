@@ -148,10 +148,12 @@
 
         <h1>Contacts</h1>
 
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.contacts.categoryRoot, parameter: view.contacts.categoriesParameter} %}
+
         <div property="contacts" class="row">
             {% for contact in content.contacts %}
                 <div class="col-lg-{{ view.contacts.presentAs }}">
-                    <h2>{{ contact.fullName }}</h2>
+                    <h5>{{ contact.fullName }}</h5>
 
                     <p>{{ contact.tags|join(', ') }}</p>
                 </div>
@@ -162,10 +164,12 @@
 
         <h1>Accounts</h1>
 
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.accounts.categoryRoot, parameter: view.accounts.categoriesParameter} %}
+
         <div property="accounts" class="row">
             {% for account in content.accounts %}
                 <div class="col-lg-{{ view.accounts.presentAs }}">
-                    <h2>{{ account.name }}</h2>
+                    <h5>{{ account.name }}</h5>
 
                     <p>{{ account.tags|join(', ') }}</p>
                 </div>
