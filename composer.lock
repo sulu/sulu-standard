@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e26a98e23622b840db7d6357d135025f",
-    "content-hash": "3b16fffdd0ea4e45e7f5f764d3923898",
+    "hash": "d8b8f590ffd44297a5d1a0312889df99",
+    "content-hash": "2620180dcc658637232a939fb2e4f76c",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2446,16 +2446,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.7.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "6dcba7404b747a2b167e41d569881605f672f5e0"
+                "reference": "6fdd3b817b408eb390a94f52df40b3798d56e150"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6dcba7404b747a2b167e41d569881605f672f5e0",
-                "reference": "6dcba7404b747a2b167e41d569881605f672f5e0",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6fdd3b817b408eb390a94f52df40b3798d56e150",
+                "reference": "6fdd3b817b408eb390a94f52df40b3798d56e150",
                 "shasum": ""
             },
             "require": {
@@ -2467,16 +2467,13 @@
                 "behat/behat": "~3.0.0",
                 "behat/symfony2-extension": "~2.0@dev",
                 "behat/web-api-extension": "~1.0@dev",
-                "dantleech/phpbench": "~1.0",
                 "doctrine/doctrine-bundle": "~1.3",
                 "doctrine/orm": "~2.4",
                 "elasticsearch/elasticsearch": "~1.3",
                 "matthiasnoback/symfony-dependency-injection-test": "0.7.1",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "symfony-cmf/testing": "dev-master",
-                "symfony/console": "~2.5",
-                "symfony/expression-language": "~2.6",
-                "symfony/filesystem": "~2.4",
+                "phpbench/phpbench": "~1.0",
+                "symfony-cmf/testing": "~1.2",
+                "symfony/symfony": "~2.6",
                 "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
                 "zendframework/zendsearch": "2.*"
             },
@@ -2507,7 +2504,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-07-01 16:45:17"
+            "time": "2015-10-27 10:39:47"
         },
         {
             "name": "monolog/monolog",
@@ -3639,12 +3636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "a81224227806adf9e366649505d1a78b6f045b0c"
+                "reference": "ac08d58a0484f0189b18251b0b74d85c8020ff17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a81224227806adf9e366649505d1a78b6f045b0c",
-                "reference": "a81224227806adf9e366649505d1a78b6f045b0c",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/ac08d58a0484f0189b18251b0b74d85c8020ff17",
+                "reference": "ac08d58a0484f0189b18251b0b74d85c8020ff17",
                 "shasum": ""
             },
             "require": {
@@ -3658,7 +3655,7 @@
                 "guzzle/guzzle": "3.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.3.*",
-                "massive/search-bundle": "0.7.*",
+                "massive/search-bundle": "dev-develop",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "pulse00/ffmpeg-bundle": "^0.5.2",
@@ -3733,7 +3730,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-10-23 09:52:00"
+            "time": "2015-10-27 10:42:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6558,6 +6555,7 @@
         "sulu/sulu": 20,
         "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
+        "massive/search-bundle": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
