@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * FEATURE     #509  [SULU-STANDARD]   Added config for PHPCR types
     * BUGFIX      #535  [SULU-STANDARD]   Added naming strategy for serializer to handle it the same in both kernels
     * BUGFIX      #526  [SULU-STANDARD]   Fixed default template preview
     * BUGFIX      #525  [SULU-STANDARD]   Added translation for new resource locator error

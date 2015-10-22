@@ -90,6 +90,10 @@ sulu_core:
                 sulu:
                     path: "%kernel.root_dir%/../vendor/sulu/sulu/src/Sulu/Bundle/CoreBundle/Content/templates"
                     type: "page"
+            typeMap:
+                page: "\\Sulu\\Component\\Content\\Compat\\Structure\\PageBridge"
+                home: "\\Sulu\\Component\\Content\\Compat\\Structure\\PageBridge"
+                snippet: "\\Sulu\\Component\\Content\\Compat\\Structure\\SnippetBridge"
 
 sulu_media:
     search:

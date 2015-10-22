@@ -1807,16 +1807,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "75cd273ed693b6c077c9856709ebac6ca3252e25"
+                "reference": "4d3568c42af4132be31f4341c76ad9a1d17d4953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/75cd273ed693b6c077c9856709ebac6ca3252e25",
-                "reference": "75cd273ed693b6c077c9856709ebac6ca3252e25",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/4d3568c42af4132be31f4341c76ad9a1d17d4953",
+                "reference": "4d3568c42af4132be31f4341c76ad9a1d17d4953",
                 "shasum": ""
             },
             "require": {
@@ -1856,34 +1856,34 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-10-09 16:37:07"
+            "time": "2015-10-18 13:33:54"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.2.2",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "d80439e095a12750094af0df769744aaa6dea1b7"
+                "reference": "5bea74335a1c6e2ad82b258ee6c78c1896d42ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d80439e095a12750094af0df769744aaa6dea1b7",
-                "reference": "d80439e095a12750094af0df769744aaa6dea1b7",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/5bea74335a1c6e2ad82b258ee6c78c1896d42ec9",
+                "reference": "5bea74335a1c6e2ad82b258ee6c78c1896d42ec9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": ">=2.4.5,<3.0.x-dev",
-                "jackalope/jackalope": "~1.2.0",
+                "jackalope/jackalope": "~1.2.4",
                 "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.2",
-                "phpcr/phpcr-utils": "~1.2,>=1.2.4"
+                "phpcr/phpcr-utils": "^1.2.8"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
             },
             "require-dev": {
-                "phpcr/phpcr-api-tests": "2.1.4",
+                "phpcr/phpcr-api-tests": "2.1.10",
                 "phpunit/dbunit": "~1.3",
                 "phpunit/phpunit": "4.7.*",
                 "psr/log": "~1.0"
@@ -1894,7 +1894,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -1920,35 +1920,35 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2015-06-25 11:19:27"
+            "time": "2015-10-20 14:39:49"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-jackrabbit.git",
-                "reference": "39ebd5aa8644e0243cc3c292b44be9a29df39b6a"
+                "reference": "4c85b350a1fa5aeb59bc7d27e66078fef840e614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/39ebd5aa8644e0243cc3c292b44be9a29df39b6a",
-                "reference": "39ebd5aa8644e0243cc3c292b44be9a29df39b6a",
+                "url": "https://api.github.com/repos/jackalope/jackalope-jackrabbit/zipball/4c85b350a1fa5aeb59bc7d27e66078fef840e614",
+                "reference": "4c85b350a1fa5aeb59bc7d27e66078fef840e614",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-xml": "*",
-                "jackalope/jackalope": "~1.2.2",
+                "jackalope/jackalope": "~1.2.4",
                 "php": ">=5.3.3",
                 "phpcr/phpcr": "~2.1.2",
-                "phpcr/phpcr-utils": "~1.2,>=1.2.6"
+                "phpcr/phpcr-utils": "^1.2.8"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.1.0"
             },
             "require-dev": {
-                "phpcr/phpcr-api-tests": "2.1.6",
+                "phpcr/phpcr-api-tests": "2.1.10",
                 "psr/log": "~1.0",
                 "symfony/console": "~2.0"
             },
@@ -1985,7 +1985,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2015-08-15 14:19:41"
+            "time": "2015-10-18 16:25:35"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3367,17 +3367,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v3.0.31",
+            "version": "v3.0.32",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "3a900814bd57bf20f9453ae81ff8772bc95d7fff"
+                "reference": "e46293aa6dd94f054c500ef990538d822c763ebd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/3a900814bd57bf20f9453ae81ff8772bc95d7fff",
-                "reference": "3a900814bd57bf20f9453ae81ff8772bc95d7fff",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/e46293aa6dd94f054c500ef990538d822c763ebd",
+                "reference": "e46293aa6dd94f054c500ef990538d822c763ebd",
                 "shasum": ""
             },
             "require": {
@@ -3423,7 +3423,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-08-03 10:07:12"
+            "time": "2015-10-20 06:53:22"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3592,12 +3592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "0c2b9b08d661737c7dff81251e5fac09ad31d171"
+                "reference": "888c9d9e8e72661e1561d9320aa372dbbfab0b7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/0c2b9b08d661737c7dff81251e5fac09ad31d171",
-                "reference": "0c2b9b08d661737c7dff81251e5fac09ad31d171",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/888c9d9e8e72661e1561d9320aa372dbbfab0b7f",
+                "reference": "888c9d9e8e72661e1561d9320aa372dbbfab0b7f",
                 "shasum": ""
             },
             "require": {
@@ -3631,7 +3631,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-10-06 08:49:16"
+            "time": "2015-10-22 14:50:34"
         },
         {
             "name": "sulu/sulu",
@@ -3639,12 +3639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "a8e65b9f1ef570fea5f22fe46f2cdc432b5ade6d"
+                "reference": "b4ddbc4b9e03f14870acf55d3799d8e7b786cc4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a8e65b9f1ef570fea5f22fe46f2cdc432b5ade6d",
-                "reference": "a8e65b9f1ef570fea5f22fe46f2cdc432b5ade6d",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/b4ddbc4b9e03f14870acf55d3799d8e7b786cc4b",
+                "reference": "b4ddbc4b9e03f14870acf55d3799d8e7b786cc4b",
                 "shasum": ""
             },
             "require": {
@@ -3733,7 +3733,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-10-17 10:02:24"
+            "time": "2015-10-22 15:12:58"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5850,16 +5850,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.13",
+            "version": "4.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "be067d6105286b74272facefc2697038f8807b77"
+                "reference": "be8f7b9eacf8243940f8412f8b4a9a434c73dd7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be067d6105286b74272facefc2697038f8807b77",
-                "reference": "be067d6105286b74272facefc2697038f8807b77",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/be8f7b9eacf8243940f8412f8b4a9a434c73dd7b",
+                "reference": "be8f7b9eacf8243940f8412f8b4a9a434c73dd7b",
                 "shasum": ""
             },
             "require": {
@@ -5918,7 +5918,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-14 13:49:40"
+            "time": "2015-10-22 09:05:37"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
