@@ -20,6 +20,7 @@ massive_build:
                 phpcr: ~
                 fixtures: ~
                 phpcr_migrations: ~
+                system_collections: ~
         dev:
             dependencies:
                 database: ~
@@ -27,6 +28,7 @@ massive_build:
                 phpcr: ~
                 user: ~
                 phpcr_migrations: ~
+                system_collections: ~
         maintain:
             dependencies:
                 node_order:
