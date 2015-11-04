@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #550  [SULU-STANDARD]   Added translations and adapted SearchController
     * ENHANCEMENT #546  [SULU-STANDARD]   Track new .dist files in webspaces
     * ENHANCEMENT #548  [SULU-STANDARD]   Fixed usage of block property im example template
     * FEATURE     #547  [SULU-STANDARD]   Added system-collection build task
