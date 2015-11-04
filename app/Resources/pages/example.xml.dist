@@ -329,21 +329,13 @@
                             </meta>
 
                             <properties>
-                                <property name="article" type="text_editor">
+                                <property name="title" type="text_line">
                                     <meta>
-                                        <title lang="de">Artikel</title>
-                                        <title lang="en">Article</title>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
                                     </meta>
                                 </property>
-                            </properties>
-                        </type>
-                        <type name="images">
-                            <meta>
-                                <title lang="de">Block Typ Editor</title>
-                                <title lang="en">Block Type Editor</title>
-                            </meta>
 
-                            <properties>
                                 <property name="article" type="text_editor">
                                     <meta>
                                         <title lang="de">Artikel</title>
@@ -359,6 +351,13 @@
                             </meta>
 
                             <properties>
+                                <property name="title" type="text_line">
+                                    <meta>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
+                                    </meta>
+                                </property>
+
                                 <property name="article" type="text_area">
                                     <meta>
                                         <title lang="de">Artikel</title>
@@ -374,6 +373,13 @@
                             </meta>
 
                             <properties>
+                                <property name="title" type="text_line">
+                                    <meta>
+                                        <title lang="de">Titel</title>
+                                        <title lang="en">Title</title>
+                                    </meta>
+                                </property>
+
                                 <property name="article" type="text_line">
                                     <meta>
                                         <title lang="de">Artikel</title>
