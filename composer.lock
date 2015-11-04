@@ -313,16 +313,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f"
+                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/eb8a73619af4f1c8711e2ce482f5de3643258a1f",
-                "reference": "eb8a73619af4f1c8711e2ce482f5de3643258a1f",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
+                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
                 "shasum": ""
             },
             "require": {
@@ -379,7 +379,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-10-28 11:27:45"
+            "time": "2015-11-02 18:35:48"
         },
         {
             "name": "doctrine/collections",
@@ -2450,12 +2450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "6fdd3b817b408eb390a94f52df40b3798d56e150"
+                "reference": "d1ddbbccea4658fb316c394d0b7e3c97bbd090a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6fdd3b817b408eb390a94f52df40b3798d56e150",
-                "reference": "6fdd3b817b408eb390a94f52df40b3798d56e150",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/d1ddbbccea4658fb316c394d0b7e3c97bbd090a1",
+                "reference": "d1ddbbccea4658fb316c394d0b7e3c97bbd090a1",
                 "shasum": ""
             },
             "require": {
@@ -2504,7 +2504,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-10-27 10:39:47"
+            "time": "2015-10-28 15:43:43"
         },
         {
             "name": "monolog/monolog",
@@ -3589,12 +3589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "888c9d9e8e72661e1561d9320aa372dbbfab0b7f"
+                "reference": "427a55766ff48916b87eef77af5fd0fa63089f72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/888c9d9e8e72661e1561d9320aa372dbbfab0b7f",
-                "reference": "888c9d9e8e72661e1561d9320aa372dbbfab0b7f",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/427a55766ff48916b87eef77af5fd0fa63089f72",
+                "reference": "427a55766ff48916b87eef77af5fd0fa63089f72",
                 "shasum": ""
             },
             "require": {
@@ -3628,7 +3628,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-10-22 14:50:34"
+            "time": "2015-10-28 15:47:21"
         },
         {
             "name": "sulu/sulu",
@@ -3636,12 +3636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "32024d5fa2b6bb9de69efe9cc6e222fec8e0717f"
+                "reference": "808096bbeed3c19ff592cc8138128c9a03519b4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/32024d5fa2b6bb9de69efe9cc6e222fec8e0717f",
-                "reference": "32024d5fa2b6bb9de69efe9cc6e222fec8e0717f",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/808096bbeed3c19ff592cc8138128c9a03519b4b",
+                "reference": "808096bbeed3c19ff592cc8138128c9a03519b4b",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3730,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-10-28 13:41:36"
+            "time": "2015-11-04 07:27:47"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4326,16 +4326,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.22.3",
+            "version": "v1.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540"
+                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ebfc36b7e77b0c1175afe30459cf943010245540",
-                "reference": "ebfc36b7e77b0c1175afe30459cf943010245540",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5868cd822fd6cf626d5f805439575f9c323cee2a",
+                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a",
                 "shasum": ""
             },
             "require": {
@@ -4348,7 +4348,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.22-dev"
+                    "dev-master": "1.23-dev"
                 }
             },
             "autoload": {
@@ -4383,7 +4383,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-10-13 07:07:02"
+            "time": "2015-10-29 23:29:01"
         },
         {
             "name": "willdurand/hateoas",
@@ -5261,16 +5261,16 @@
         },
         {
             "name": "brianium/paratest",
-            "version": "0.12.3",
+            "version": "0.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "b107f324f01f1a5557589b946558a2a94e282c00"
+                "reference": "904a8c1a32631d72f4b82a8b8b3638258d2f01fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/b107f324f01f1a5557589b946558a2a94e282c00",
-                "reference": "b107f324f01f1a5557589b946558a2a94e282c00",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/904a8c1a32631d72f4b82a8b8b3638258d2f01fe",
+                "reference": "904a8c1a32631d72f4b82a8b8b3638258d2f01fe",
                 "shasum": ""
             },
             "require": {
@@ -5290,10 +5290,6 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "": [
-                        "test/unit",
-                        "test/functional"
-                    ],
                     "ParaTest": [
                         "src/"
                     ]
@@ -5319,7 +5315,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2015-03-29 16:09:17"
+            "time": "2015-11-02 20:41:38"
         },
         {
             "name": "dantleech/glob-finder",
