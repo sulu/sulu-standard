@@ -17,7 +17,7 @@
     <properties>
         <section name="highlight">
             <properties>
-                <property name="highlighted_element" type="text_line" mandatory="true">
+                <property name="highlighted_element" type="text_line">
                     <meta>
                         <title lang="de">Hervorgehobenes Element</title>
                         <title lang="en">Highlighted element</title>
@@ -33,7 +33,7 @@
             </meta>
 
             <properties>
-                <property name="title" type="text_line" mandatory="true">
+                <property name="title" type="text_line">
                     <meta>
                         <title lang="de">Text Zeile</title>
                         <title lang="en">Textline</title>
@@ -45,7 +45,7 @@
                     <tag name="sulu.search.field" role="description"/>
                 </property>
 
-                <property name="highlighted_element" type="text_line" mandatory="true">
+                <property name="headline" type="text_line">
                     <meta>
                         <title lang="de">Überschrift</title>
                         <title lang="en">Headline</title>
@@ -81,14 +81,14 @@
                     </params>
                 </property>
 
-                <property name="phone" type="phone" mandatory="true">
+                <property name="phone" type="phone">
                     <meta>
                         <title lang="de">Telefon Eingabefeld</title>
                         <title lang="en">Telefon input</title>
                     </meta>
                 </property>
 
-                <property name="password" type="password" mandatory="false">
+                <property name="password" type="password">
                     <meta>
                         <title lang="de">Passwort Eingabefeld</title>
                         <title lang="en">Password input</title>
@@ -102,7 +102,7 @@
                     </meta>
                 </property>
 
-                <property name="email" type="email" mandatory="false">
+                <property name="email" type="email">
                     <meta>
                         <title lang="de">Email Eingabefeld</title>
                         <title lang="en">Email input</title>
@@ -391,7 +391,7 @@
                     </types>
                 </block>
 
-                <property name="name" type="text_line" mandatory="false" minOccurs="2" maxOccurs="5">
+                <property name="name" type="text_line" minOccurs="2" maxOccurs="5">
                     <meta>
                         <title lang="de">Name</title>
                         <title lang="en">Name</title>
