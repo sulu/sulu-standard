@@ -650,16 +650,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "v1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "d63be7eb9a95d46720f7d6badac4e5bc2bcff2e3"
+                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/d63be7eb9a95d46720f7d6badac4e5bc2bcff2e3",
-                "reference": "d63be7eb9a95d46720f7d6badac4e5bc2bcff2e3",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
+                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-08-31 14:47:06"
+            "time": "2015-11-04 21:33:02"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3589,12 +3589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "427a55766ff48916b87eef77af5fd0fa63089f72"
+                "reference": "f8ce3593de6f63b36d8ae1b40325992b0a7727db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/427a55766ff48916b87eef77af5fd0fa63089f72",
-                "reference": "427a55766ff48916b87eef77af5fd0fa63089f72",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/f8ce3593de6f63b36d8ae1b40325992b0a7727db",
+                "reference": "f8ce3593de6f63b36d8ae1b40325992b0a7727db",
                 "shasum": ""
             },
             "require": {
@@ -3628,7 +3628,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-10-28 15:47:21"
+            "time": "2015-11-05 09:46:57"
         },
         {
             "name": "sulu/sulu",
@@ -3636,12 +3636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "808096bbeed3c19ff592cc8138128c9a03519b4b"
+                "reference": "1723e809fa31d652c830a5133de2bfcf4cb92f04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/808096bbeed3c19ff592cc8138128c9a03519b4b",
-                "reference": "808096bbeed3c19ff592cc8138128c9a03519b4b",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/1723e809fa31d652c830a5133de2bfcf4cb92f04",
+                "reference": "1723e809fa31d652c830a5133de2bfcf4cb92f04",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3730,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-11-04 07:27:47"
+            "time": "2015-11-05 13:02:04"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4326,16 +4326,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.0",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a"
+                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5868cd822fd6cf626d5f805439575f9c323cee2a",
-                "reference": "5868cd822fd6cf626d5f805439575f9c323cee2a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
+                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
                 "shasum": ""
             },
             "require": {
@@ -4383,7 +4383,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-10-29 23:29:01"
+            "time": "2015-11-05 12:49:06"
         },
         {
             "name": "willdurand/hateoas",
