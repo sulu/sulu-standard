@@ -109,10 +109,8 @@ sulu_content:
         mapping:
             Sulu\Bundle\ContentBundle\Document\PageDocument:
                 index: page
-                category: page
             Sulu\Bundle\SnippetBundle\Document\SnippetDocument:
                 index: snippet
-                category: snippet
 
 sulu_document_manager:
     mapping:
