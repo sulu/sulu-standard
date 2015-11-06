@@ -22,11 +22,12 @@ class SearchController extends WebsiteController
         /** @var RequestAnalyzerInterface $requestAnalyzer */
         $requestAnalyzer = $this->get('sulu_core.webspace.request_analyzer');
         $locale = $requestAnalyzer->getCurrentLocalization()->getLocalization();
+        $webspaceKey = $requestAnalyzer->getWebspace()->getKey();
 
         $hits = $searchManager
             ->createSearch(sprintf('state:published AND %s*', str_replace('"', '\\"', $query)))
             ->locale($locale)
-            ->index('page')
+            ->index('page_' . $webspaceKey)
             ->execute();
 
         $data = $this->getAttributes(
