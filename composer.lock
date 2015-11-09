@@ -869,16 +869,16 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604"
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/0bcb2e79d8571787f18b7eb036ed3d004908e604",
-                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
                 "shasum": ""
             },
             "require": {
@@ -890,7 +890,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -932,7 +932,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2014-12-20 21:24:13"
+            "time": "2015-11-06 14:35:42"
         },
         {
             "name": "doctrine/instantiator",
@@ -1807,16 +1807,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "4d3568c42af4132be31f4341c76ad9a1d17d4953"
+                "reference": "a7d15812d3bd2de39beccee86e1041b079a1284c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/4d3568c42af4132be31f4341c76ad9a1d17d4953",
-                "reference": "4d3568c42af4132be31f4341c76ad9a1d17d4953",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/a7d15812d3bd2de39beccee86e1041b079a1284c",
+                "reference": "a7d15812d3bd2de39beccee86e1041b079a1284c",
                 "shasum": ""
             },
             "require": {
@@ -1856,7 +1856,7 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-10-18 13:33:54"
+            "time": "2015-11-06 08:52:52"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
@@ -2450,12 +2450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "d1ddbbccea4658fb316c394d0b7e3c97bbd090a1"
+                "reference": "f01bdad06c64c48796ba91ec03f647d3d9fb44db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/d1ddbbccea4658fb316c394d0b7e3c97bbd090a1",
-                "reference": "d1ddbbccea4658fb316c394d0b7e3c97bbd090a1",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f01bdad06c64c48796ba91ec03f647d3d9fb44db",
+                "reference": "f01bdad06c64c48796ba91ec03f647d3d9fb44db",
                 "shasum": ""
             },
             "require": {
@@ -2504,7 +2504,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-10-28 15:43:43"
+            "time": "2015-11-06 09:15:25"
         },
         {
             "name": "monolog/monolog",
@@ -3479,20 +3479,20 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9"
+                "reference": "21696b0daa731064c23cfb694c60a2584a7b6e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/7735fd97ff7303d9df776b8dbc970f949399abc9",
-                "reference": "7735fd97ff7303d9df776b8dbc970f949399abc9",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/21696b0daa731064c23cfb694c60a2584a7b6e93",
+                "reference": "21696b0daa731064c23cfb694c60a2584a7b6e93",
                 "shasum": ""
             },
             "require": {
-                "symfony/console": "~2.0"
+                "symfony/console": "~2.0|~3.0"
             },
             "bin": [
                 "security-checker"
@@ -3519,7 +3519,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-08-11 12:11:25"
+            "time": "2015-11-07 08:07:40"
         },
         {
             "name": "stof/doctrine-extensions-bundle",
@@ -3636,12 +3636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "e34d7376da6d287a2275c25636b19e2e73947a4b"
+                "reference": "9ecf53ef2377b53b5b87e78cccc97d1f3804a437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/e34d7376da6d287a2275c25636b19e2e73947a4b",
-                "reference": "e34d7376da6d287a2275c25636b19e2e73947a4b",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/9ecf53ef2377b53b5b87e78cccc97d1f3804a437",
+                "reference": "9ecf53ef2377b53b5b87e78cccc97d1f3804a437",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3730,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-11-05 17:04:34"
+            "time": "2015-11-09 12:36:34"
         },
         {
             "name": "swiftmailer/swiftmailer",
