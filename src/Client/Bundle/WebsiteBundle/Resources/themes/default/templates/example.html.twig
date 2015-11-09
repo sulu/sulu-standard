@@ -211,29 +211,14 @@
         </div>
 
         <div class="row" property="block" typeof="collection">
-            {% set i = 0 %}
             {% for block in content.block %}
                 <div class="col-lg-4" rel="block" typeof="block">
-                    {% if block.type == 'editor' %}
-                        <h2 property="title">{{ block.title|default('') }}</h2>
+                    <h2 property="title">{{ block.title|default('') }}</h2>
 
-                        <b>{{ block.type }}</b>
-                        {% autoescape false %}
-                        <div property="article">{{ block.article|default('') }}</div>
-                        {% endautoescape %}
-                    {% elseif block.type == 'textarea' %}
-                        <h2 property="title">{{ block.title|default('') }}</h2>
-                        <b>{{ block.type }}</b>
+                    <p><b>{{ block.type }}</b></p>
 
-                        <p>
-                            {{ block.article|default('')|nl2br }}
-                        </p>
-                    {% elseif block.type == 'title_only' %}
-                        <h1 property="title">{{ block.title|default('') }}</h1>
-                        <b>{{ block.type }}</b>
-                    {% endif %}
+                    <div property="article">{{ block.article|default('')|raw }}</div>
                 </div>
-                {% set i = i+1 %}
             {% endfor %}
         </div>
     </div>

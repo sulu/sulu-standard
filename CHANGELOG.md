@@ -2,6 +2,10 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #550  [SULU-STANDARD]   Added translations and adapted SearchController
+    * ENHANCEMENT #546  [SULU-STANDARD]   Track new .dist files in webspaces
+    * ENHANCEMENT #548  [SULU-STANDARD]   Fixed usage of block property im example template
+    * FEATURE     #547  [SULU-STANDARD]   Added system-collection build task
     * FEATURE     #509  [SULU-STANDARD]   Added config for PHPCR types
     * BUGFIX      #535  [SULU-STANDARD]   Added naming strategy for serializer to handle it the same in both kernels
     * BUGFIX      #526  [SULU-STANDARD]   Fixed default template preview

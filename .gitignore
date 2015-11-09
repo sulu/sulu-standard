@@ -26,7 +26,7 @@
 .DS_Store
 
 # webspaces
-/app/Resources/webspaces
+/app/Resources/webspaces/*
 !/app/Resources/webspaces/*.dist
 
 # pages
