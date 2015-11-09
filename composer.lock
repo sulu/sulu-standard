@@ -2450,12 +2450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "f01bdad06c64c48796ba91ec03f647d3d9fb44db"
+                "reference": "ba2c88fae43a866c12aa9fd6d9f75184cb88f327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f01bdad06c64c48796ba91ec03f647d3d9fb44db",
-                "reference": "f01bdad06c64c48796ba91ec03f647d3d9fb44db",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/ba2c88fae43a866c12aa9fd6d9f75184cb88f327",
+                "reference": "ba2c88fae43a866c12aa9fd6d9f75184cb88f327",
                 "shasum": ""
             },
             "require": {
@@ -2504,7 +2504,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-11-06 09:15:25"
+            "time": "2015-11-09 13:39:32"
         },
         {
             "name": "monolog/monolog",
@@ -3636,12 +3636,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "89c50bd60dbb4217b3ad89b0e2d52d9ac39e3f2f"
+                "reference": "a990043344ae22d3b3e3c0d4859cbaa269b38119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/89c50bd60dbb4217b3ad89b0e2d52d9ac39e3f2f",
-                "reference": "89c50bd60dbb4217b3ad89b0e2d52d9ac39e3f2f",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/a990043344ae22d3b3e3c0d4859cbaa269b38119",
+                "reference": "a990043344ae22d3b3e3c0d4859cbaa269b38119",
                 "shasum": ""
             },
             "require": {
@@ -3730,7 +3730,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-11-09 12:55:42"
+            "time": "2015-11-09 13:51:30"
         },
         {
             "name": "swiftmailer/swiftmailer",
