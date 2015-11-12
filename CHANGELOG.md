@@ -1,6 +1,8 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.14 (2015-11-12)
+    * HOTFIX      #1771 [AdminBundle]    Fixed login translations if browser-locale is not transl    ated
 * 1.0.13 (2015-10-22)
     * HOTFIX      #1634 [SecurityBundle] Allow attribute overrides for user email field
     * HOTFIX      #1624 [ContentBundle]  Fixed nullable internal link and added server/clientside validation
