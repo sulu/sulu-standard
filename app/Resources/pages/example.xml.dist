@@ -277,6 +277,17 @@
                     </params>
                 </property>
 
+                <property name="medias" type="smart_content">
+                    <meta>
+                        <title lang="de">Smart-Content Medienauswahl</title>
+                        <title lang="en">Smart-Content media selection</title>
+                    </meta>
+
+                    <params>
+                        <param name="provider" value="media" />
+                    </params>
+                </property>
+
                 <property name="downloads" type="media_selection">
                     <tag name="sulu.search.field" role="image"/>
                     <meta>

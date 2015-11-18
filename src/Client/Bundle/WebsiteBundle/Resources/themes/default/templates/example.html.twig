@@ -178,6 +178,29 @@
             {% endfor %}
         </div>
 
+        {% if content.medias is defined %}
+            <h1>Medias</h1>
+
+            <div property="medias" class="row">
+                {% for media in content.medias %}
+                    <div class="col-xs-6 col-sm-3 col-md-3">
+                        <div class="thumbnail">
+                            {% if media.thumbnails['200x200'] is defined %}
+                                <img src="{{ media.thumbnails['200x200'] }}" alt="{{ media.title }}">
+                            {% endif %}
+                            <div class="caption">
+                                <h3>{{ media.title }}</h3>
+
+                                <p>{{ media.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    No media found ...
+                {% endfor %}
+            </div>
+        {% endif %}
+
         <h3>Images {% if view.images is not null %}(display-options: {{ view.images.displayOption }}){% endif %}</h3>
 
         <div class="row" property="images" typeof="collection">
