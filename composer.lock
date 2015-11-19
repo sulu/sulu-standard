@@ -2445,16 +2445,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.9.0",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "ba2c88fae43a866c12aa9fd6d9f75184cb88f327"
+                "reference": "7e3ca50945d33eed2e8b2d9aeb20ccdd406c63c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/ba2c88fae43a866c12aa9fd6d9f75184cb88f327",
-                "reference": "ba2c88fae43a866c12aa9fd6d9f75184cb88f327",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/7e3ca50945d33eed2e8b2d9aeb20ccdd406c63c6",
+                "reference": "7e3ca50945d33eed2e8b2d9aeb20ccdd406c63c6",
                 "shasum": ""
             },
             "require": {
@@ -2503,7 +2503,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-11-09 13:39:32"
+            "time": "2015-11-19 10:10:48"
         },
         {
             "name": "monolog/monolog",
@@ -3635,12 +3635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "f74b7fd62fe907a04cb41e0032f4c17812d44a30"
+                "reference": "030acdf77fc9b5a8ec0ce9fa09cc834d8c4c98e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/f74b7fd62fe907a04cb41e0032f4c17812d44a30",
-                "reference": "f74b7fd62fe907a04cb41e0032f4c17812d44a30",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/030acdf77fc9b5a8ec0ce9fa09cc834d8c4c98e9",
+                "reference": "030acdf77fc9b5a8ec0ce9fa09cc834d8c4c98e9",
                 "shasum": ""
             },
             "require": {
@@ -3654,7 +3654,7 @@
                 "guzzle/guzzle": "3.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.3.*",
-                "massive/search-bundle": "0.9.*",
+                "massive/search-bundle": "0.10.*",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "pulse00/ffmpeg-bundle": "^0.5.2",
@@ -3729,7 +3729,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-11-18 10:18:53"
+            "time": "2015-11-19 10:19:09"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4592,16 +4592,16 @@
         },
         {
             "name": "zendframework/zend-code",
-            "version": "2.5.2",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-code.git",
-                "reference": "a97ef49f82496fabc3b7379b37f6bbff925b58b8"
+                "reference": "2a69bd42bddf9a955f3747af9e06b6d26e7c41ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/a97ef49f82496fabc3b7379b37f6bbff925b58b8",
-                "reference": "a97ef49f82496fabc3b7379b37f6bbff925b58b8",
+                "url": "https://api.github.com/repos/zendframework/zend-code/zipball/2a69bd42bddf9a955f3747af9e06b6d26e7c41ba",
+                "reference": "2a69bd42bddf9a955f3747af9e06b6d26e7c41ba",
                 "shasum": ""
             },
             "require": {
@@ -4612,8 +4612,7 @@
                 "doctrine/common": ">=2.1",
                 "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "~4.0",
-                "zendframework/zend-stdlib": "~2.5",
-                "zendframework/zend-version": "~2.5"
+                "zendframework/zend-stdlib": "~2.5"
             },
             "suggest": {
                 "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
@@ -4641,7 +4640,7 @@
                 "code",
                 "zf2"
             ],
-            "time": "2015-07-21 22:40:59"
+            "time": "2015-11-18 18:22:37"
         },
         {
             "name": "zendframework/zend-eventmanager",
