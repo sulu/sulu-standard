@@ -24,8 +24,24 @@ class SearchController extends WebsiteController
         $locale = $requestAnalyzer->getCurrentLocalization()->getLocalization();
         $webspaceKey = $requestAnalyzer->getWebspace()->getKey();
 
+        $queryString = '';
+        if (strlen($query) < 3) {
+            $queryString .= '+("' . self::escapeDoubleQuotes($query) . '") ';
+        } else {
+            $queryValues = explode(' ', $query);
+            foreach ($queryValues as $queryValue) {
+                if (strlen($queryValue) > 2) {
+                    $queryString .= '+("' . self::escapeDoubleQuotes($queryValue) . '" OR ' .
+                        preg_replace('/([^\pL\s\d])/u', '?', $queryValue) . '* OR ' .
+                        preg_replace('/([^\pL\s\d])/u', '', $queryValue) . '~) ';
+                } else {
+                    $queryString .= '+("' . self::escapeDoubleQuotes($queryValue) . '") ';
+                }
+            }
+        }
+        echo $queryString;
         $hits = $searchManager
-            ->createSearch(sprintf('state:published AND %s*', str_replace('"', '\\"', $query)))
+            ->createSearch($queryString . ' +(state:published)')
             ->locale($locale)
             ->index('page_' . $webspaceKey)
             ->execute();
@@ -41,5 +57,10 @@ class SearchController extends WebsiteController
             'ClientWebsiteBundle:views:query.html.twig',
             $data
         );
+    }
+
+    private static function escapeDoubleQuotes($query)
+    {
+        return str_replace('"', '\\"', $query);
     }
 }
