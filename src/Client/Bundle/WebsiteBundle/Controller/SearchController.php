@@ -26,20 +26,20 @@ class SearchController extends WebsiteController
 
         $queryString = '';
         if (strlen($query) < 3) {
-            $queryString .= '+("' . self::escapeQueryString($query) . '") ';
+            $queryString .= '+("' . self::escapeDoubleQuotes($query) . '") ';
         } else {
             $queryValues = explode(' ', $query);
             foreach ($queryValues as $queryValue) {
                 if (strlen($queryValue) > 2) {
-                    $queryString .= '+("' . self::escapeQueryString($queryValue) . '" OR ' .
+                    $queryString .= '+("' . self::escapeDoubleQuotes($queryValue) . '" OR ' .
                         preg_replace('/([^\pL\s\d])/u', '?', $queryValue) . '* OR ' .
                         preg_replace('/([^\pL\s\d])/u', '', $queryValue) . '~) ';
                 } else {
-                    $queryString .= '+("' . self::escapeQueryString($queryValue) . '") ';
+                    $queryString .= '+("' . self::escapeDoubleQuotes($queryValue) . '") ';
                 }
             }
         }
-
+        echo $queryString;
         $hits = $searchManager
             ->createSearch($queryString . ' +(state:published)')
             ->locale($locale)
@@ -59,7 +59,7 @@ class SearchController extends WebsiteController
         );
     }
 
-    private static function escapeQueryString($query)
+    private static function escapeDoubleQuotes($query)
     {
         return str_replace('"', '\\"', $query);
     }
