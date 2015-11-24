@@ -24,8 +24,24 @@ class SearchController extends WebsiteController
         $locale = $requestAnalyzer->getCurrentLocalization()->getLocalization();
         $webspaceKey = $requestAnalyzer->getWebspace()->getKey();
 
+        $queryString = '';
+        if (strlen($query) < 3) {
+            $queryString .= '+("' . self::escapeQueryString($query) . '") ';
+        } else {
+            $queryValues = explode(' ', $query);
+            foreach ($queryValues as $queryValue) {
+                if (strlen($queryValue) > 2) {
+                    $queryString .= '+("' . self::escapeQueryString($queryValue) . '" OR ' .
+                        preg_replace('/([^\pL\s\d])/u', '?', $queryValue) . '* OR ' .
+                        preg_replace('/([^\pL\s\d])/u', '', $queryValue) . '~) ';
+                } else {
+                    $queryString .= '+("' . self::escapeQueryString($queryValue) . '") ';
+                }
+            }
+        }
+
         $hits = $searchManager
-            ->createSearch(sprintf('state:published AND %s*', str_replace('"', '\\"', $query)))
+            ->createSearch($queryString . ' +(state:published)')
             ->locale($locale)
             ->index('page_' . $webspaceKey)
             ->execute();
@@ -41,5 +57,10 @@ class SearchController extends WebsiteController
             'ClientWebsiteBundle:views:query.html.twig',
             $data
         );
+    }
+
+    private static function escapeQueryString($query)
+    {
+        return str_replace('"', '\\"', $query);
     }
 }
