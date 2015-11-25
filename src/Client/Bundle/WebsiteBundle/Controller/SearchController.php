@@ -39,7 +39,7 @@ class SearchController extends WebsiteController
                 }
             }
         }
-        
+
         $hits = $searchManager
             ->createSearch($queryString . ' +(state:published)')
             ->locale($locale)
