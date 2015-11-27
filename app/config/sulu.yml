@@ -54,7 +54,8 @@ cmf_core:
 
 # Massive Bundles
 massive_search:
-    localization_strategy: index
+    metadata:
+        prefix: sulu
     persistence:
         doctrine_orm:
             enabled: true
