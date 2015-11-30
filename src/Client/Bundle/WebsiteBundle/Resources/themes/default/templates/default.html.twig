@@ -48,7 +48,7 @@
                     <ul property="links">
                         {% for link in content.links %}
                             <li>
-                                <a href="{% if link.url is defined %}{{ sulu_content_path(link.url) }}{% else %}#{% endif %}">{{ link.title|default('No Title') }}</a>
+                                <a href="{% if link.url is defined %}{{ sulu_content_path(link.url, link.webspaceKey) }}{% else %}#{% endif %}">{{ link.title|default('No Title') }}</a>
                             </li>
                         {% endfor %}
                     </ul>
