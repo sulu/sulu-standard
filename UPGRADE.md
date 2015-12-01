@@ -1,5 +1,10 @@
 # Upgrade
 
+## dev-develop
+
+The example template has changed quite a lot, if you have previously used it,
+be aware that you have to copy the template again.
+
 ## 1.0.9
 
 The `sulu_meta_seo` twig method does not render the canonical tag for shadow pages. Therefore this method is deprecated
