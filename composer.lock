@@ -650,16 +650,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da"
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-11-04 21:33:02"
+            "time": "2015-11-16 17:11:46"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -1810,16 +1810,16 @@
         },
         {
             "name": "jackalope/jackalope",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope.git",
-                "reference": "a4bd18fee1d7d750fdba8bfa32aad1559da32b42"
+                "reference": "d908efddf111a97ad2c02a4e180cb23c8f0d0275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/a4bd18fee1d7d750fdba8bfa32aad1559da32b42",
-                "reference": "a4bd18fee1d7d750fdba8bfa32aad1559da32b42",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/d908efddf111a97ad2c02a4e180cb23c8f0d0275",
+                "reference": "d908efddf111a97ad2c02a4e180cb23c8f0d0275",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,7 @@
             "keywords": [
                 "phpcr"
             ],
-            "time": "2015-11-10 13:02:01"
+            "time": "2015-12-01 13:48:15"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
@@ -2452,12 +2452,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "18314cb7d99c3963759e629a970c80c5ad9fd85b"
+                "reference": "904a5c34a592ff7dc08e9fe96162f3fc7a29e295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/18314cb7d99c3963759e629a970c80c5ad9fd85b",
-                "reference": "18314cb7d99c3963759e629a970c80c5ad9fd85b",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/904a5c34a592ff7dc08e9fe96162f3fc7a29e295",
+                "reference": "904a5c34a592ff7dc08e9fe96162f3fc7a29e295",
                 "shasum": ""
             },
             "require": {
@@ -2506,7 +2506,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-12-01 08:52:32"
+            "time": "2015-12-01 15:04:18"
         },
         {
             "name": "monolog/monolog",
@@ -3638,12 +3638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "f3abcb4b99c7e7c92152870f3a9c738c3035b1ca"
+                "reference": "3af318898afa99bf92b4a1d10bfbfab3ff9f9b29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/f3abcb4b99c7e7c92152870f3a9c738c3035b1ca",
-                "reference": "f3abcb4b99c7e7c92152870f3a9c738c3035b1ca",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3af318898afa99bf92b4a1d10bfbfab3ff9f9b29",
+                "reference": "3af318898afa99bf92b4a1d10bfbfab3ff9f9b29",
                 "shasum": ""
             },
             "require": {
@@ -3732,7 +3732,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-12-01 13:01:34"
+            "time": "2015-12-01 15:00:09"
         },
         {
             "name": "swiftmailer/swiftmailer",
