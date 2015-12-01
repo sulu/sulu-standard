@@ -17,58 +17,46 @@
     <properties>
         <section name="highlight">
             <properties>
-                <property name="highlighted_element" type="text_line">
-                    <meta>
-                        <title lang="de">Hervorgehobenes Element</title>
-                        <title lang="en">Highlighted element</title>
-                    </meta>
-                </property>
-            </properties>
-        </section>
-
-        <section name="simple">
-            <meta>
-                <title lang="de">Einfache Content Typen</title>
-                <title lang="en">Simple Contenttypes</title>
-            </meta>
-
-            <properties>
                 <property name="title" type="text_line">
                     <meta>
-                        <title lang="de">Text Zeile</title>
-                        <title lang="en">Textline</title>
-                    </meta>
-
-                    <tag name="sulu.search.field" role="title"/>
-
-                    <tag name="sulu.rlp.part"/>
-                    <tag name="sulu.search.field" role="description"/>
-                </property>
-
-                <property name="headline" type="text_line">
-                    <meta>
-                        <title lang="de">Überschrift</title>
-                        <title lang="en">Headline</title>
+                        <title lang="de">Titel</title>
+                        <title lang="en">Title</title>
                     </meta>
                     <params>
                         <param name="headline" value="true"/>
                     </params>
-
-                    <tag name="sulu.highlight"/>
+                    <tag name="sulu.rlp.part"/>
+                    <tag name="sulu.search.field" role="title"/>
                 </property>
 
-                <property name="note" type="text_area">
-                    <tag name="sulu.search.field"/>
+                <property name="subtitle" type="text_line">
                     <meta>
-                        <title lang="de">Text Bereich</title>
-                        <title lang="en">Textarea</title>
+                        <title lang="de">Untertitel</title>
+                        <title lang="en">Subtitle</title>
                     </meta>
                 </property>
 
-                <property name="article" type="text_editor">
+                <property name="url" type="resource_locator">
                     <meta>
-                        <title lang="de">Text Editor</title>
-                        <title lang="en">Text editor</title>
+                        <title lang="de">Resource Locator</title>
+                        <title lang="en">Resource locator</title>
+                    </meta>
+                    <tag name="sulu.rlp"/>
+                </property>
+            </properties>
+        </section>
+
+        <section name="content">
+            <meta>
+                <title lang="de">Inhalt</title>
+                <title lang="en">Content</title>
+            </meta>
+
+            <properties>
+                <property name="teaser" type="text_editor">
+                    <meta>
+                        <title lang="de">Teaser</title>
+                        <title lang="en">Teaser</title>
                     </meta>
 
                     <params>
@@ -79,124 +67,79 @@
                         <param name="paste_from_word" value="true"/>
                         <param name="extra_allowed_content" value="img(*)[*]; span(*)[*]; div(*)[*]; iframe(*)[*]; script(*)[*]" />
                     </params>
+                    <tag name="sulu.search.field" role="description"/>
                 </property>
 
-                <property name="phone" type="phone">
+                <block name="blocks" default-type="editor">
                     <meta>
-                        <title lang="de">Telefon Eingabefeld</title>
-                        <title lang="en">Telefon input</title>
+                        <title lang="de">Inhalte</title>
+                        <title lang="en">Content</title>
                     </meta>
-                </property>
+                    <types>
+                        <type name="editor">
+                            <meta>
+                                <title lang="de">Editor</title>
+                                <title lang="en">Editor</title>
+                            </meta>
+                            <properties>
+                                <property name="article" type="text_editor">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                        <type name="editor_image">
+                            <meta>
+                                <title lang="de">Editor mit Bild</title>
+                                <title lang="en">Editor with image</title>
+                            </meta>
+                            <properties>
+                                <property name="images" type="media_selection" colspan="3">
+                                    <meta>
+                                        <title lang="de">Bilder</title>
+                                        <title lang="en">Images</title>
+                                    </meta>
+                                    <params>
+                                        <param name="type" value="image"/>
+                                        <param name="displayOptions" type="collection">
+                                            <param name="leftTop" value="false"/>
+                                            <param name="top" value="true"/>
+                                            <param name="rightTop" value="false"/>
+                                            <param name="left" value="true"/>
+                                            <param name="middle" value="false"/>
+                                            <param name="right" value="true"/>
+                                            <param name="leftBottom" value="false"/>
+                                            <param name="bottom" value="true"/>
+                                            <param name="rightBottom" value="false"/>
+                                        </param>
+                                    </params>
+                                </property>
 
-                <property name="password" type="password">
-                    <meta>
-                        <title lang="de">Passwort Eingabefeld</title>
-                        <title lang="en">Password input</title>
-                    </meta>
-                </property>
-
-                <property name="link" type="url">
-                    <meta>
-                        <title lang="de">Link Eingabefeld</title>
-                        <title lang="en">Link input</title>
-                    </meta>
-                </property>
-
-                <property name="email" type="email">
-                    <meta>
-                        <title lang="de">Email Eingabefeld</title>
-                        <title lang="en">Email input</title>
-                    </meta>
-                </property>
-
-                <property name="color" type="color">
-                    <meta>
-                        <title lang="de">Farb Eingabefeld</title>
-                        <title lang="en">Color input</title>
-                    </meta>
-                </property>
-
-                <property name="date" type="date">
-                    <meta>
-                        <title lang="de">Datum Eingabefeld</title>
-                        <title lang="en">Date input</title>
-                    </meta>
-                </property>
-
-                <property name="time" type="time">
-                    <meta>
-                        <title lang="de">Zeit Eingabefeld</title>
-                        <title lang="en">Time input</title>
-                    </meta>
-                </property>
-
-                <property name="checkbox" type="checkbox">
-                    <meta>
-                        <title lang="de">Checkbox</title>
-                        <title lang="en">Checkbox</title>
-                    </meta>
-                </property>
-
-                <property name="single_link" type="single_internal_link">
-                    <meta>
-                        <title lang="de">Einzelner Interner Link</title>
-                        <title lang="en">Single Internal links</title>
-                    </meta>
-                </property>
+                                <property name="article" type="text_editor" colspan="9">
+                                    <meta>
+                                        <title lang="de">Artikel</title>
+                                        <title lang="en">Article</title>
+                                    </meta>
+                                </property>
+                            </properties>
+                        </type>
+                    </types>
+                </block>
             </properties>
         </section>
 
-        <section name="complex">
+        <section name="references">
             <meta>
-                <title lang="de">Komplexe Content Typen</title>
-                <title lang="en">Complex Contenttypes</title>
+                <title lang="de">Referenzen</title>
+                <title lang="en">References</title>
             </meta>
-
             <properties>
-                <property name="url" type="resource_locator">
+                <property name="similar_pages" type="smart_content">
                     <meta>
-                        <title lang="de">Resource Locator</title>
-                        <title lang="en">Resource locator</title>
-                    </meta>
-
-                    <tag name="sulu.rlp"/>
-                </property>
-
-                <property name="snippets" type="snippet">
-                    <meta>
-                        <title lang="de">Schnipsel wählen</title>
-                        <title lang="en">Choose snippet</title>
-                    </meta>
-
-                    <params>
-                        <param name="snippetType" value="default"/>
-                    </params>
-                </property>
-
-                <property name="tags" type="tag_list">
-                    <meta>
-                        <title lang="de">Tag Auswahl</title>
-                        <title lang="en">Tag selection</title>
-                    </meta>
-                </property>
-                <property name="categories" type="category_list">
-                    <meta>
-                        <title lang="de">Kategorien</title>
-                        <title lang="en">Categories</title>
-                    </meta>
-                </property>
-
-                <property name="links" type="internal_links">
-                    <meta>
-                        <title lang="de">Interne Links</title>
-                        <title lang="en">Internal links</title>
-                    </meta>
-                </property>
-
-                <property name="pages" type="smart_content">
-                    <meta>
-                        <title lang="de">Smart-Content Seitenauswahl</title>
-                        <title lang="en">Smart-Content pages selection</title>
+                        <title lang="de">Ähnliche Seiten</title>
+                        <title lang="en">Similar pages</title>
                     </meta>
 
                     <params>
@@ -218,17 +161,84 @@
                     </params>
                 </property>
 
-                <property name="contactSelection" type="contact">
+                <property name="additional_information" type="internal_links">
                     <meta>
-                        <title lang="de">Kontakte</title>
-                        <title lang="en">Contacts</title>
+                        <title lang="de">Zusätzliche Informationen</title>
+                        <title lang="en">Additional Information</title>
                     </meta>
+                </property>
+
+                <property name="embedded_information" type="snippet">
+                    <meta>
+                        <title lang="de">Eingebettete Information</title>
+                        <title lang="en">Embedded information</title>
+                    </meta>
+
+                    <params>
+                        <param name="snippetType" value="default"/>
+                    </params>
+                </property>
+
+                <property name="internal_source" type="single_internal_link">
+                    <meta>
+                        <title lang="de">Interne Quelle</title>
+                        <title lang="en">Internal source</title>
+                    </meta>
+                </property>
+
+                <property name="tags" type="tag_list">
+                    <meta>
+                        <title lang="de">Tags</title>
+                        <title lang="en">Tags</title>
+                    </meta>
+                </property>
+
+                <property name="categories" type="category_list">
+                    <meta>
+                        <title lang="de">Kategorien</title>
+                        <title lang="en">Categories</title>
+                    </meta>
+                </property>
+
+                <property name="authors" type="contact">
+                    <meta>
+                        <title lang="de">Autoren</title>
+                        <title lang="en">Authors</title>
+                    </meta>
+                </property>
+
+                <property name="location" type="location">
+                    <meta>
+                        <title lang="de">Ort</title>
+                        <title lang="en">Location</title>
+                    </meta>
+                </property>
+
+                <property name="documents" type="media_selection">
+                    <meta>
+                        <title lang="de">Dokumente</title>
+                        <title lang="en">Documents</title>
+                    </meta>
+                    <params>
+                        <param name="types" value="document"/>
+                    </params>
+                </property>
+
+                <property name="downloads" type="smart_content">
+                    <meta>
+                        <title lang="de">Download Filter</title>
+                        <title lang="en">Download filter</title>
+                    </meta>
+
+                    <params>
+                        <param name="provider" value="media" />
+                    </params>
                 </property>
 
                 <property name="contacts" type="smart_content">
                     <meta>
-                        <title lang="de">Smart-Content Kontaktauswahl</title>
-                        <title lang="en">Smart-Content Contact selection</title>
+                        <title lang="de">Kontaktauswahl</title>
+                        <title lang="en">Contact selection</title>
                     </meta>
 
                     <params>
@@ -253,8 +263,8 @@
 
                 <property name="accounts" type="smart_content">
                     <meta>
-                        <title lang="de">Smart-Content Organizationsauswahl</title>
-                        <title lang="en">Smart-Content Organization selection</title>
+                        <title lang="de">Organizationsauswahl</title>
+                        <title lang="en">Organization selection</title>
                     </meta>
 
                     <params>
@@ -276,136 +286,75 @@
                         </param>
                     </params>
                 </property>
+            </properties>
+        </section>
 
-                <property name="medias" type="smart_content">
+        <section name="configuration">
+            <meta>
+                <title lang="de">Konfiguration</title>
+                <title lang="en">Configuration</title>
+            </meta>
+            <properties>
+                <property name="note" type="text_area">
                     <meta>
-                        <title lang="de">Smart-Content Medienauswahl</title>
-                        <title lang="en">Smart-Content media selection</title>
-                    </meta>
-
-                    <params>
-                        <param name="provider" value="media" />
-                    </params>
-                </property>
-
-                <property name="downloads" type="media_selection">
-                    <tag name="sulu.search.field" role="image"/>
-                    <meta>
-                        <title lang="de">Downloads</title>
-                        <title lang="en">Downloads</title>
+                        <title lang="de">Notiz</title>
+                        <title lang="en">Note</title>
                     </meta>
                 </property>
 
-                <property name="images" type="media_selection">
+                <property name="phone" type="phone">
                     <meta>
-                        <title lang="de">Bilder</title>
-                        <title lang="en">Images</title>
-                    </meta>
-                    <params>
-                        <param name="types" value="image"/>
-                    </params>
-                </property>
-
-                <property name="multimedia" type="media_selection">
-                    <meta>
-                        <title lang="de">Video, Audio</title>
-                        <title lang="en">Video, Audio</title>
-                    </meta>
-                    <params>
-                        <param name="types" value="video,audio"/>
-                    </params>
-                </property>
-
-                <property name="location" type="location">
-                    <meta>
-                        <title lang="de">Ort</title>
-                        <title lang="en">Place</title>
+                        <title lang="de">Telefon</title>
+                        <title lang="en">Phone</title>
                     </meta>
                 </property>
 
-                <block name="block"
-                       default-type="editor"
-                       minOccurs="2"
-                       maxOccurs="10">
+                <property name="password" type="password">
                     <meta>
-                        <title lang="de">Block</title>
-                        <title lang="en">Block</title>
+                        <title lang="de">Passwort</title>
+                        <title lang="en">Password</title>
                     </meta>
+                </property>
 
-                    <types>
-                        <type name="editor">
-                            <meta>
-                                <title lang="de">Block Typ Editor</title>
-                                <title lang="en">Block Type Editor</title>
-                            </meta>
-
-                            <properties>
-                                <property name="title" type="text_line">
-                                    <meta>
-                                        <title lang="de">Titel</title>
-                                        <title lang="en">Title</title>
-                                    </meta>
-                                </property>
-
-                                <property name="article" type="text_editor">
-                                    <meta>
-                                        <title lang="de">Artikel</title>
-                                        <title lang="en">Article</title>
-                                    </meta>
-                                </property>
-                            </properties>
-                        </type>
-                        <type name="textarea">
-                            <meta>
-                                <title lang="de">Block Typ Textarea</title>
-                                <title lang="en">Block Type Textarea</title>
-                            </meta>
-
-                            <properties>
-                                <property name="title" type="text_line">
-                                    <meta>
-                                        <title lang="de">Titel</title>
-                                        <title lang="en">Title</title>
-                                    </meta>
-                                </property>
-
-                                <property name="article" type="text_area">
-                                    <meta>
-                                        <title lang="de">Artikel</title>
-                                        <title lang="en">Article</title>
-                                    </meta>
-                                </property>
-                            </properties>
-                        </type>
-                        <type name="input">
-                            <meta>
-                                <title lang="de">Block Typ Eingabefeld</title>
-                                <title lang="en">Block Type Input</title>
-                            </meta>
-
-                            <properties>
-                                <property name="title" type="text_line">
-                                    <meta>
-                                        <title lang="de">Titel</title>
-                                        <title lang="en">Title</title>
-                                    </meta>
-                                </property>
-
-                                <property name="article" type="text_line">
-                                    <meta>
-                                        <title lang="de">Artikel</title>
-                                        <title lang="en">Article</title>
-                                    </meta>
-                                </property>
-                            </properties>
-                        </type>
-                    </types>
-                </block>
-
-                <property name="name" type="text_line" minOccurs="2" maxOccurs="5">
+                <property name="source" type="url">
                     <meta>
-                        <title lang="de">Name</title>
-                        <title lang="en">Name</title>
+                        <title lang="de">Quelle</title>
+                        <title lang="en">Source</title>
+                    </meta>
+                </property>
+
+                <property name="email" type="email">
+                    <meta>
+                        <title lang="de">Email</title>
+                        <title lang="en">Email</title>
+                    </meta>
+                </property>
+
+                <property name="color" type="color">
+                    <meta>
+                        <title lang="de">Farbe</title>
+                        <title lang="en">Color</title>
+                    </meta>
+                </property>
+
+                <property name="date" type="date">
+                    <meta>
+                        <title lang="de">Datum</title>
+                        <title lang="en">Date</title>
+                    </meta>
+                </property>
+
+                <property name="time" type="time">
+                    <meta>
+                        <title lang="de">Zeit</title>
+                        <title lang="en">Time</title>
+                    </meta>
+                </property>
+
+                <property name="discussion" type="checkbox">
+                    <meta>
+                        <title lang="de">Dikussion erlaubt</title>
+                        <title lang="en">Discussion allowed</title>
                     </meta>
                 </property>
             </properties>

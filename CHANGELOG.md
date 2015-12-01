@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #566  [SULU-STANDARD]   Updated example template
     * BUGFIX      #561  [SULU-STANDARD]   Fixed special character search 
     * FEATURE     #562  [SULU-STANDARD]   Added prefixes to search indexes
     * ENHANCEMENT #550  [SULU-STANDARD]   Added translations and adapted SearchController

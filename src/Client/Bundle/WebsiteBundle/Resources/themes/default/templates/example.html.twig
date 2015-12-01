@@ -7,13 +7,227 @@
 
         <div class="jumbotron">
             <h1 property="title">{{ content.title }}</h1>
-            {% autoescape false %}
-            <div class="lead" property="article">{{ content.article }}</div>
-            {% endautoescape %}
+            <h2 property="subtitle">{{ content.subtitle }}</h2>
+            <div class="lead" property="teaser">
+                {{ content.teaser|raw }}
+            </div>
         </div>
+
+        <div property="blocks" typeof="collection">
+            {% for block in content.blocks %}
+                <div rel="blocks" typeof="block">
+                    {% if block.type == 'editor_image' %}
+                        {% set viewBlock = view.blocks[loop.index - 1] %}
+                        {% if viewBlock.images is not null %}
+                            {% if viewBlock.images.displayOption == 'top' %}
+                                {% set float = 'none' %}
+                            {% elseif viewBlock.images.displayOption == 'left' %}
+                                {% set float = 'left' %}
+                            {% elseif viewBlock.images.displayOption == 'right' %}
+                                {% set float = 'right' %}
+                            {% endif %}
+
+                            {% if float is defined %}
+                                {% for image in block.images %}
+                                    {% if float is defined %}
+                                        <img src="{{ image.thumbnails['170x170'] }}"
+                                             alt="{{ image.name }}"
+                                             style="float: {{ float }}"/>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endif %}
+                        <div property="article">{{ block.article|default('')|raw }}</div>
+                        {% if viewBlock.images is not null and float is not defined %}
+                            {% for image in block.images %}
+                                <img src="{{ image.thumbnails['170x170'] }}"
+                                     alt="{{ image.name }}"/>
+                            {% endfor %}
+                        {% endif %}
+                    {% else %}
+                        <div property="article">{{ block.article|default('')|raw }}</div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>Similar pages</h2>
+        <ul property="similar_pages">
+            {% for link in content.similar_pages %}
+                <li>
+                    <a href="{{ sulu_content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h2>Additional Information</h2>
+
+        <div property="additional_information">
+            {% for page in content.additional_information %}
+                <h3><a href="{{ sulu_content_path(page.url) }}">{{ page.title }}</a></h3>
+                {% if page.article is defined %}
+                    {% autoescape false %}
+                        {{ page.article }}
+                    {% endautoescape %}
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <h2>Embedded Information</h2>
+
+        <div property="embedded_information">
+            {% for snippet in content.embedded_information %}
+                <h3>{{ snippet.title }}</h3>
+
+                {% autoescape false %}
+                {{ snippet.description }}
+                {% endautoescape %}
+
+                <h4>Links</h4>
+
+                <ul>
+                    {% for link in snippet.internalLinks %}
+                        <li>
+                            <a href="{{ sulu_content_path(link.url, link.webspaceKey) }}">{{ link.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                {% for image in snippet.images %}
+                    <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.title }}"/>
+                {% endfor %}
+            {% endfor %}
+        </div>
+
+        <h2>Internal source</h2>
+        {% if content.internal_source is not empty %}
+            {% set internal_source = sulu_content_load(content.internal_source).content %}
+            <a href="{{ sulu_content_path(internal_source.url) }}" property="internal_source">{{ internal_source.title }}</a>
+        {% endif %}
+
+        <h2>Tags</h2>
+
+        <ul property="tags">
+            {% for tag in content.tags %}
+                <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Categories</h2>
+
+        <ul property="categories">
+            {% for category in content.categories %}
+                <li>{{ category.name }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Authors</h2>
+
+        <div property="authors">
+            <table width="100%">
+                <tr>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                </tr>
+                {% for author in content.authors %}
+                    <tr>
+                        <td>{{ author.fullName }}</td>
+                        <td>
+                            {% for email in author.emails %}
+                                <a href="mailto:{{ email.email }}">{{ email.email }}</a>
+                                {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <h2>Location</h2>
+
+        <div property="location">
+            <table width="100%">
+                <tr>
+                    <th>Title</th>
+                    <th>Address</th>
+                </tr>
+                <tr>
+                    <td>{{ content.location.title|default('') }}</td>
+                    <td>
+                        {{ content.location.street|default('') }} {{ content.location.number|default('') }}
+                        {{ content.location.code|default('') }} {{ content.location.town|default('') }}
+                        {{ content.location.country|default('') }}
+                    </td>
+                </tr>
+            </table>
+
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ content.location.street|default('') }},{{ content.location.number|default('') }},{{ content.location.code|default('') }} {{ content.location.town|default('') }},{{ content.location.country|default('') }}&zoom={{ content.location.zoom|default('') }}&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C{{ content.location.lat|default('') }},{{ content.location.long|default('') }}&sensor=false">
+        </div>
+
+        <h2>Documents</h2>
+
+        <div property="documents">
+            {% for document in content.documents %}
+                <a href="{{ document.url }}">{{ document.fileVersion.name }}</a>
+            {% endfor %}
+        </div>
+
+        <h2>Downloads</h2>
+
+        <div property="downloads" class="row">
+            {% for media in content.downloads %}
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div class="thumbnail">
+                        {% if media.thumbnails['200x200'] is defined %}
+                            <img src="{{ media.thumbnails['200x200'] }}" alt="{{ media.title }}">
+                        {% endif %}
+                        <div class="caption">
+                            <h3>{{ media.title }}</h3>
+
+                            <p>{{ media.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>Contacts</h2>
+
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.contacts.categoryRoot, parameter: view.contacts.categoriesParameter} %}
+
+        <div property="contacts" class="row">
+            {% for contact in content.contacts %}
+                <div class="col-lg-{{ view.contacts.presentAs }}">
+                    <h5>{{ contact.fullName }}</h5>
+
+                    <p>{{ contact.tags|join(', ') }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>Accounts</h2>
+
+        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.accounts.categoryRoot, parameter: view.accounts.categoriesParameter} %}
+
+        <div property="accounts" class="row">
+            {% for account in content.accounts %}
+                <div class="col-lg-{{ view.accounts.presentAs }}">
+                    <h5>{{ account.name }}</h5>
+
+                    <p>{{ account.tags|join(', ') }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>Configuration</h2>
 
         <table class="table">
             <tbody>
+                <tr>
+                    <td>Note</td>
+                    <td property="note">{{ content.note }}</td>
+                </tr>
                 <tr>
                     <td>Phone</td>
                     <td property="phone">{{ content.phone }}</td>
@@ -23,8 +237,8 @@
                     <td property="password">{{ content.password }}</td>
                 </tr>
                 <tr>
-                    <td>Link</td>
-                    <td property="link">{{ content.link }}</td>
+                    <td>Source</td>
+                    <td property="source">{{ content.source }}</td>
                 </tr>
                 <tr>
                     <td>Email</td>
@@ -42,207 +256,11 @@
                     <td>Time</td>
                     <td property="time">{{ content.time }}</td>
                 </tr>
+                <tr>
+                    <td>Discussion allowed</td>
+                    <td property="discussion">{{ content.discussion }}</td>
+                </tr>
             </tbody>
         </table>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h3>Note:</h3>
-
-                <p property="note">{{ content.note }}</p>
-            </div>
-        </div>
-        {% if content.links is defined %}
-            <h3>Links:</h3>
-            <ul property="links">
-                {% for link in content.links %}
-                    <li>
-                        <a href="{{ sulu_content_path(link.url) }}">{{ link.title|default('No Title') }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-
-        {% if content.snippets is defined %}
-            <h3>Snippets</h3>
-
-            <div property="snippets">
-                {% for snippet in content.snippets %}
-                    <h3>{{ snippet.title }}</h3>
-
-                    {% autoescape false %}
-                    {{ snippet.description }}
-                    {% endautoescape %}
-
-                    <h3>Links</h3>
-
-                    <ul>
-                        {% for link in snippet.internalLinks %}
-                            <li>
-                                <a href="{{ sulu_content_path(link.url, link.webspaceKey) }}">{{ link.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-
-                    {% for image in snippet.images %}
-                        <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.title }}"/>
-                    {% endfor %}
-                {% endfor %}
-            </div>
-        {% endif %}
-
-        {% if content.categories is defined %}
-            <h3>Categories</h3>
-
-            <ul property="categories">
-                {% for category in content.categories %}
-                    <li>{{ category.id }} - {{ category.name }}</li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-
-        <h1>Pages</h1>
-
-        <div property="pages" class="row">
-            {% for page in content.pages %}
-                <div class="col-lg-{{ view.pages.presentAs }}">
-                    <h2><a href="{{ sulu_content_path(page.url) }}">{{ page.title }}</a></h2>
-                    {% if page.article is defined %}
-                        {% autoescape false %}
-                            {{ page.article }}
-                        {% endautoescape %}
-                    {% endif %}
-                </div>
-            {% else %}
-                No page found ...
-            {% endfor %}
-        </div>
-
-        <h1>Contact Selection</h1>
-
-        <div property="contactSelection">
-            <table width="100%">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>E-Mail</th>
-                </tr>
-                {% for contact in content.contactSelection %}
-                    <tr>
-                        <td>{{ loop.index }}</td>
-                        <td>{{ contact.type == 'contact' ? contact.fullName : contact.name }}</td>
-                        <td>
-                            {% for email in contact.emails %}
-                                <a href="mailto:{{ email.email }}">{{ email.email }}</a>
-                                {% if not loop.last %}&nbsp;|&nbsp;{% endif %}
-                            {% endfor %}
-                        </td>
-                    </tr>
-                {% else %}
-                    <tr>
-                        <td colspan="3">No contact selected</td>
-                    </tr>
-                {% endfor %}
-            </table>
-        </div>
-
-        <h1>Contacts</h1>
-
-        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.contacts.categoryRoot, parameter: view.contacts.categoriesParameter} %}
-
-        <div property="contacts" class="row">
-            {% for contact in content.contacts %}
-                <div class="col-lg-{{ view.contacts.presentAs }}">
-                    <h5>{{ contact.fullName }}</h5>
-
-                    <p>{{ contact.tags|join(', ') }}</p>
-                </div>
-            {% else %}
-                No contact found ...
-            {% endfor %}
-        </div>
-
-        <h1>Accounts</h1>
-
-        {% include 'ClientWebsiteBundle:util:categories.html.twig' with {locale: request.locale, withChildren: true, root: view.accounts.categoryRoot, parameter: view.accounts.categoriesParameter} %}
-
-        <div property="accounts" class="row">
-            {% for account in content.accounts %}
-                <div class="col-lg-{{ view.accounts.presentAs }}">
-                    <h5>{{ account.name }}</h5>
-
-                    <p>{{ account.tags|join(', ') }}</p>
-                </div>
-            {% else %}
-                No account found ...
-            {% endfor %}
-        </div>
-
-        {% if content.medias is defined %}
-            <h1>Medias</h1>
-
-            <div property="medias" class="row">
-                {% for media in content.medias %}
-                    <div class="col-xs-6 col-sm-3 col-md-3">
-                        <div class="thumbnail">
-                            {% if media.thumbnails['200x200'] is defined %}
-                                <img src="{{ media.thumbnails['200x200'] }}" alt="{{ media.title }}">
-                            {% endif %}
-                            <div class="caption">
-                                <h3>{{ media.title }}</h3>
-
-                                <p>{{ media.description }}</p>
-                            </div>
-                        </div>
-                    </div>
-                {% else %}
-                    No media found ...
-                {% endfor %}
-            </div>
-        {% endif %}
-
-        <h3>Images {% if view.images is not null %}(display-options: {{ view.images.displayOption }}){% endif %}</h3>
-
-        <div class="row" property="images" typeof="collection">
-            {% for image in content.images %}
-                <div class="col-lg-4" rel="images" typeof="images">
-                    <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>
-
-                    <p class="text-primary">{{ image.title }}</p>
-                </div>
-            {% endfor %}
-        </div>
-
-        <h3>Location:</h3>
-
-        <div id="location" class="row" property="location">
-            <dl>
-                <dt>Title:</dt>
-                <dd>{{ content.location.title|default('') }}</dd>
-
-                <dt>Address:</dt>
-                <dd>
-                    {{ content.location.street|default('') }} {{ content.location.number|default('') }}<br/>
-                    {{ content.location.code|default('') }} {{ content.location.town|default('') }}<br/>
-                    {{ content.location.country|default('') }}
-                </dd>
-
-            </dl>
-
-            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ content.location.street|default('') }},{{ content.location.number|default('') }},{{ content.location.code|default('') }} {{ content.location.town|default('') }},{{ content.location.country|default('') }}&zoom={{ content.location.zoom|default('') }}&size=600x300&maptype=roadmap
-&markers=color:blue%7Clabel:S%7C{{ content.location.lat|default('') }},{{ content.location.long|default('') }}&sensor=false">
-        </div>
-
-        <div class="row" property="block" typeof="collection">
-            {% for block in content.block %}
-                <div class="col-lg-4" rel="block" typeof="block">
-                    <h2 property="title">{{ block.title|default('') }}</h2>
-
-                    <p><b>{{ block.type }}</b></p>
-
-                    <div property="article">{{ block.article|default('')|raw }}</div>
-                </div>
-            {% endfor %}
-        </div>
     </div>
 {% endblock %}
