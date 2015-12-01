@@ -10,7 +10,7 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 abstract class AbstractKernel extends SuluKernel
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function registerBundles()
     {
@@ -58,6 +58,7 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\WebsocketBundle\SuluWebsocketBundle(),
             new Sulu\Bundle\DocumentManagerBundle\SuluDocumentManagerBundle(),
             new DTL\Bundle\PhpcrMigrations\PhpcrMigrationsBundle(),
+            new Dubture\FFmpegBundle\DubtureFFmpegBundle(),
 
             // website
             new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
@@ -82,7 +83,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
@@ -96,7 +97,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getCacheDir()
     {
@@ -104,7 +105,7 @@ abstract class AbstractKernel extends SuluKernel
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getLogDir()
     {

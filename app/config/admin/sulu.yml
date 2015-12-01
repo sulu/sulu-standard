@@ -11,11 +11,6 @@ doctrine:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast
 
-# Just a dirty hack to get the jms serializer bundle correctly working
-# https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
-parameters:
-    jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
-
 # Massive Build Configuration
 massive_build:
     targets:
@@ -25,6 +20,7 @@ massive_build:
                 phpcr: ~
                 fixtures: ~
                 phpcr_migrations: ~
+                system_collections: ~
         dev:
             dependencies:
                 database: ~
@@ -32,6 +28,7 @@ massive_build:
                 phpcr: ~
                 user: ~
                 phpcr_migrations: ~
+                system_collections: ~
         maintain:
             dependencies:
                 node_order:

@@ -19,6 +19,13 @@
                 <h2>Smart-Content</h2>
             </div>
 
+            <div class="col-lg-6">
+                {% include "ClientWebsiteBundle:util:categories.html.twig" with {locale: request.locale, withChildren: true, root: view.smartcontent.categoryRoot, parameter: view.smartcontent.categoriesParameter} %}
+            </div>
+            <div class="col-lg-6">
+                {% include "ClientWebsiteBundle:util:tags.html.twig" with {parameter: view.smartcontent.tagsParameter} %}
+            </div>
+
             <ul class="pagination">
                 {% set page = view.smartcontent.page %}
 

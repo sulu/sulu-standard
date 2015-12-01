@@ -1,6 +1,5 @@
 #!/bin/bash
 
-SUITES=${BEHAT_SUITES:-""}
 PROFILE=${BEHAT_PROFILE:-"selenium"}
 LOGS_PATH=${LOGS_DIR:-"/tmp/sulu"}
 
@@ -15,24 +14,15 @@ logo
 header "Sulu CMF Functional Test Suite"
 
 
-info "Running Behat with profile \""$PROFILE"\" and suites: \"$SUITES\""
+info "Running Behat with profile \""$PROFILE"\""
 
-for SUITE in $SUITES; do
-    comment "Running suite: "$SUITE
-    NAME="Suite: "$SUITE
+export BEHAT_PARAMS=
 
-    if [ $PROFILE == 'sauce_labs' ]; then
-        export BEHAT_PARAMS='{"extensions":{"Behat\\MinkExtension":{ "sessions":{ "default":{"sauce_labs":{"capabilities":{"name": "'$NAME'"}}}}}}}'
-    else
-        export BEHAT_PARAMS=
-    fi
+php vendor/behat/behat/bin/behat --profile $PROFILE
 
-    php vendor/behat/behat/bin/behat --profile $PROFILE --suite="$SUITE"
-
-    if [ $? -ne 0 ]; then
-        echo $SUITE >> /tmp/failed.tests
-    fi
-    echo ""
-done
+if [ $? -ne 0 ]; then
+    echo $SUITE >> /tmp/failed.tests
+fi
+echo ""
 
 check_failed_tests

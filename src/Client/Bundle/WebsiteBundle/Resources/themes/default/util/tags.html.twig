@@ -1,0 +1,6 @@
+<ul>
+    <li><a href="{{ sulu_tag_url_clear(parameter|default(null)) }}">None</a></li>
+    {% for tag in sulu_tags() %}
+        <li><a href="{{ sulu_tag_url(tag, parameter|default(null)) }}">{{ tag.name }}</a></li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,12 @@
+<ul>
+    <li><a href="{{ sulu_category_url_clear(parameter|default(null)) }}">None</a></li>
+    {% for category in sulu_categories(locale, root|default(null)) %}
+        <li>
+            <a href="{{ sulu_category_url(category, parameter|default(null)) }}">{{ category.name }}</a>
+
+            {% if withChildren is defined and withChildren == true and category.children|length > 0 %}
+                {% include "ClientWebsiteBundle:util:sub-categories.html.twig" with {categories: category.children, withChildren: withChildren, parameter: (parameter|default(null))} %}
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
