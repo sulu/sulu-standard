@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "544c37f6d46ece1d0365cefc98160438",
-    "content-hash": "d43baecc9d41ab89e16cd5647a8344e7",
+    "hash": "d8b8f590ffd44297a5d1a0312889df99",
+    "content-hash": "2620180dcc658637232a939fb2e4f76c",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2448,16 +2448,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.11.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "c31e66c899e96195cd79534fea9d23098ba0d1e8"
+                "reference": "370c90a017076a3bf594094c7451f62e17047c6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/c31e66c899e96195cd79534fea9d23098ba0d1e8",
-                "reference": "c31e66c899e96195cd79534fea9d23098ba0d1e8",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/370c90a017076a3bf594094c7451f62e17047c6a",
+                "reference": "370c90a017076a3bf594094c7451f62e17047c6a",
                 "shasum": ""
             },
             "require": {
@@ -2506,7 +2506,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-12-01 15:10:53"
+            "time": "2015-12-01 15:30:19"
         },
         {
             "name": "monolog/monolog",
@@ -3587,16 +3587,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.5.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "f10792d374be3719a2be87b449fb7b197b084193"
+                "reference": "13e5e4c93c5de1da4b509644d55935b0771854cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/f10792d374be3719a2be87b449fb7b197b084193",
-                "reference": "f10792d374be3719a2be87b449fb7b197b084193",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/13e5e4c93c5de1da4b509644d55935b0771854cf",
+                "reference": "13e5e4c93c5de1da4b509644d55935b0771854cf",
                 "shasum": ""
             },
             "require": {
@@ -3630,20 +3630,20 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-12-01 15:16:04"
+            "time": "2015-12-01 15:31:22"
         },
         {
             "name": "sulu/sulu",
-            "version": "1.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "12f3bc6b63f16f515c916d7db4d3af963d492d91"
+                "reference": "4e4c0ac912771508877f5ff3abadff119158331a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/12f3bc6b63f16f515c916d7db4d3af963d492d91",
-                "reference": "12f3bc6b63f16f515c916d7db4d3af963d492d91",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/4e4c0ac912771508877f5ff3abadff119158331a",
+                "reference": "4e4c0ac912771508877f5ff3abadff119158331a",
                 "shasum": ""
             },
             "require": {
@@ -3657,13 +3657,13 @@
                 "guzzle/guzzle": "3.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.3.*",
-                "massive/search-bundle": "0.11.0",
+                "massive/search-bundle": "dev-develop",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "pulse00/ffmpeg-bundle": "^0.5.2",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "0.5.0",
+                "sulu/document-manager": "dev-develop",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3732,7 +3732,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-12-01 15:42:51"
+            "time": "2015-12-01 15:33:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6549,6 +6549,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "massive/search-bundle": 20,
