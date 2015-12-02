@@ -1,7 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* 1.1.0 (2015-12-01)
+* 1.1.0 (2015-12-02)
     * BUGFIX      #567  [SULU-STANDARD]   Fixed type map configuration parameter
     * ENHANCEMENT #566  [SULU-STANDARD]   Updated example template
     * BUGFIX      #561  [SULU-STANDARD]   Fixed special character search 
