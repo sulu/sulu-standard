@@ -17,6 +17,7 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #517  [SULU-STANDARD]   Ditched saucelabs for faster tests
     * BUGFIX      #474  [SULU-STANDARD]   Registered SuluGeneratorBundle
     * FEATURE     #500  [SULU-STANDARD]   Added tag list to overview template
+    * BUGFIX      #1849 [MediaBundle]     Fixed media-edit-overlay language changer
     * BUGFIX      #1846 [CoreBundle]      Fixed name of type map config parameter
     * BUGFIX      #1847 [ContentBundle]   Removed disabler from account form
     * BUGFIX      #1844 [ContactBundle]   Fixed dimensions and position of contact avatar
