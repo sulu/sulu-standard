@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "544c37f6d46ece1d0365cefc98160438",
-    "content-hash": "d43baecc9d41ab89e16cd5647a8344e7",
+    "hash": "b28cc0377cccdafffa0da1b17a18d405",
+    "content-hash": "45166b53296d4a16e136f7dfc9a73008",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3634,16 +3634,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "12f3bc6b63f16f515c916d7db4d3af963d492d91"
+                "reference": "e7ab4e387d190a957eb08449b2fe318a596e5618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/12f3bc6b63f16f515c916d7db4d3af963d492d91",
-                "reference": "12f3bc6b63f16f515c916d7db4d3af963d492d91",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/e7ab4e387d190a957eb08449b2fe318a596e5618",
+                "reference": "e7ab4e387d190a957eb08449b2fe318a596e5618",
                 "shasum": ""
             },
             "require": {
@@ -3657,13 +3657,13 @@
                 "guzzle/guzzle": "3.*",
                 "imagine/imagine": "~0.6.1",
                 "liip/theme-bundle": "1.3.*",
-                "massive/search-bundle": "0.11.0",
+                "massive/search-bundle": "0.11.*",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": ">=5.5",
                 "pulse00/ffmpeg-bundle": "^0.5.2",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "0.5.0",
+                "sulu/document-manager": "0.5.*",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "2.6.*",
@@ -3732,7 +3732,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-12-01 15:42:51"
+            "time": "2015-12-02 09:25:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6237,16 +6237,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44"
+                "reference": "6e7133793a8e5a5714a551a8324337374be209df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6324c907ce7a52478eeeaede764f48733ef5ae44",
-                "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6e7133793a8e5a5714a551a8324337374be209df",
+                "reference": "6e7133793a8e5a5714a551a8324337374be209df",
                 "shasum": ""
             },
             "require": {
@@ -6283,7 +6283,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2015-08-03 06:14:51"
+            "time": "2015-12-02 08:37:27"
         },
         {
             "name": "sebastian/exporter",
@@ -6549,6 +6549,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "massive/search-bundle": 20,
