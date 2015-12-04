@@ -1,6 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * BUGFIX      #1855 [ContactBundle]   Fixed displaying correct position when adding new person to organisation
+    * HOTFIX      #1856 [MediaBundle]     Fixed delete copyright from media
+    * HOTFIX      #1856 [All]             Changed datagrid-pagination to input field to avoid performance leaks 
+
 * 1.1.0 (2015-12-02)
     * BUGFIX      #567  [SULU-STANDARD]   Fixed type map configuration parameter
     * ENHANCEMENT #566  [SULU-STANDARD]   Updated example template
