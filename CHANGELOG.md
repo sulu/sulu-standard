@@ -1,6 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.1.2 (2015-12-11)
+    * HOTFIX      #1831 [MediaBundle]     Fixed query for retrieving entities to index
+    * HOTFIX      #1868 [ContentBundle]   Added date upgrade script for blocks
+    * HOTFIX      #1869 [CategoryBundle]  Fixed opened category tree on startup
+    * HOTFIX      #1799 [ContentBundle]   Added 'published' field to be indexed
+    * HOTFIX      #1866 [WebsiteBundle]   Added scheme to sitemap url generation
+    * HOTFIX      #1861 [ContentBundle]   Added upgrade script which removes non-translated properties
+    
 * 1.1.1 (2015-12-07)
     * HOTFIX      #1857 [ContentBundle]   Fixed open ghost overlay
     * HOTFIX      #1857 [WebsiteBundle]   Fixed sitemap xml generation to improve performance
