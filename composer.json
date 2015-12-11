@@ -19,10 +19,9 @@
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "dev-master",
+        "sulu/sulu": "1.1.*",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
-        "sulu/document-manager": "@dev",
 
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
@@ -31,7 +30,6 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
-        "massive/search-bundle": "dev-master as 0.11.2",
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.0",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
