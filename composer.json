@@ -23,6 +23,9 @@
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
+        "sulu/document-manager": "@dev",
+        "massive/search-bundle": "@dev",
+
         "nelmio/alice": "~1.7",
         "doctrine/doctrine-fixtures-bundle": "2.2.*",
 
