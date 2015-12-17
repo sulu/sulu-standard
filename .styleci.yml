@@ -14,5 +14,6 @@ disabled:
 
 finder:
     not-path:
+        - app/autoload.php
         - app/SymfonyRequirements.php
         - app/check.php

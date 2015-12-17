@@ -19,7 +19,8 @@ if (SULU_MAINTENANCE && file_exists($maintenanceFilePath)) {
     }
 }
 
-$loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
+$loader = require __DIR__ . '/../app/autoload.php';
+include_once __DIR__ . '/../app/bootstrap.php.cache';
 
 if (SYMFONY_DEBUG) {
     Debug::enable();

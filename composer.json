@@ -6,18 +6,17 @@
     "version": "dev-develop",
     "autoload": {
         "psr-0": {
-            "": "src/"
+            "": "src/",
+            "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
         }
     },
     "require": {
         "php": ">=5.5",
-        "symfony/symfony": "2.6.*",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
-        "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~3.0",
-        "sensio/framework-extra-bundle": "~3.0",
+        "sensio/distribution-bundle": "~5.0",
+        "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.2.*",
@@ -40,8 +39,8 @@
         "evenement/evenement": "2.0.0 as 1.0.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
-        "sauce/sausage": "0.9.*",
+        "sensio/generator-bundle": "~3.0",
+        "symfony/phpunit-bridge": "~2.7",
         "phpcr/phpcr-shell": "@beta",
         "behat/behat": "~3.0.0",
         "behat/mink-extension": "~2.0@dev",
@@ -55,6 +54,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ],
         "post-update-cmd": [
@@ -63,6 +63,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
         ]
     },
