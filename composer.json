@@ -10,12 +10,6 @@
             "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/cbastienbaron/sulu.git"
-        }
-    ],
     "require": {
         "php": ">=5.5",
         "twig/extensions": "~1.0",
@@ -24,7 +18,7 @@
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "dev-enhancement/upgrade-symfony",
+        "sulu/sulu": "dev-develop",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 

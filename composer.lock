@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5f4897ba9e19ad998250dfae601a5bff",
-    "content-hash": "05c14caf4c1f4ecb867551dc125d6eda",
+    "hash": "0310383b36883d8a0dc9455b0cfa0632",
+    "content-hash": "eb2f386c4293bf164dc64c1669ed1be1",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3723,16 +3723,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-enhancement/upgrade-symfony",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cbastienbaron/sulu.git",
-                "reference": "fc84b5c9d7457e5a3af4c2b6e923ce271d2c246c"
+                "url": "https://github.com/sulu-io/sulu.git",
+                "reference": "3b3e15d9658615326807b42961bf37bdbfe87cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cbastienbaron/sulu/zipball/fc84b5c9d7457e5a3af4c2b6e923ce271d2c246c",
-                "reference": "fc84b5c9d7457e5a3af4c2b6e923ce271d2c246c",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3b3e15d9658615326807b42961bf37bdbfe87cf2",
+                "reference": "3b3e15d9658615326807b42961bf37bdbfe87cf2",
                 "shasum": ""
             },
             "require": {
@@ -3806,11 +3806,7 @@
                     "Sulu\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-0": {
-                    "Sulu\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3825,10 +3821,7 @@
                 "core",
                 "sulu"
             ],
-            "support": {
-                "source": "https://github.com/cbastienbaron/sulu/tree/enhancement/upgrade-symfony"
-            },
-            "time": "2015-12-16 17:15:29"
+            "time": "2015-12-17 13:05:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
