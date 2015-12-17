@@ -5,6 +5,9 @@
 /app/config/parameters.yml
 /app/config/phpcr.yml
 /app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+/app/phpunit.xml
 /bin/
 /build/
 /composer.phar

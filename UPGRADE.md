@@ -1,6 +1,12 @@
 # Upgrade
 
-## 0.1.2
+## dev-develop
+
+### Symfony 2.8 Upgrade
+
+Sulu has upgrade to Symfony 2.8. See the [Symfony Upgrade Guide](https://github.com/symfony/symfony-standard/blob/2.8/UPGRADE-2.8.md) for more information.
+
+## 1.1.2
 
 ### Reindex-Command & Date Content-Type
 
