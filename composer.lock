@@ -3680,12 +3680,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "13e5e4c93c5de1da4b509644d55935b0771854cf"
+                "reference": "00c7fb2de024e2b7623c105f23194f198b5e559a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/13e5e4c93c5de1da4b509644d55935b0771854cf",
-                "reference": "13e5e4c93c5de1da4b509644d55935b0771854cf",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/00c7fb2de024e2b7623c105f23194f198b5e559a",
+                "reference": "00c7fb2de024e2b7623c105f23194f198b5e559a",
                 "shasum": ""
             },
             "require": {
@@ -3719,7 +3719,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-12-01 15:31:22"
+            "time": "2015-12-18 13:41:41"
         },
         {
             "name": "sulu/sulu",
@@ -3727,12 +3727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "3b3e15d9658615326807b42961bf37bdbfe87cf2"
+                "reference": "5d2964c6830af989375d24eca0328f2b05d689ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3b3e15d9658615326807b42961bf37bdbfe87cf2",
-                "reference": "3b3e15d9658615326807b42961bf37bdbfe87cf2",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/5d2964c6830af989375d24eca0328f2b05d689ff",
+                "reference": "5d2964c6830af989375d24eca0328f2b05d689ff",
                 "shasum": ""
             },
             "require": {
@@ -3821,7 +3821,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-12-17 13:05:13"
+            "time": "2015-12-18 13:26:50"
         },
         {
             "name": "swiftmailer/swiftmailer",
