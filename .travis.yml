@@ -14,6 +14,7 @@ env:
 script: ./tests/runtests.sh
 
 php:
+    - 5.5
     - 7.0
 
 before_script: ./tests/beforetests.sh
