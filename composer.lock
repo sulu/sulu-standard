@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "033fbac57e50c333fa199c0f801027c2",
-    "content-hash": "06b4f255c8271b3aa09bbb14976b2233",
+    "hash": "7bbf89c32c0ee23d0bfb7b0f547c7052",
+    "content-hash": "c0990cd723661331473d8ff2257942b1",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3424,16 +3424,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.0.13",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "bfa3e15d557b8e095c57a26de50ded67e547d84f"
+                "reference": "467656235407230d0075aea202dbb02b6b3ccb30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/bfa3e15d557b8e095c57a26de50ded67e547d84f",
-                "reference": "bfa3e15d557b8e095c57a26de50ded67e547d84f",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/467656235407230d0075aea202dbb02b6b3ccb30",
+                "reference": "467656235407230d0075aea202dbb02b6b3ccb30",
                 "shasum": ""
             },
             "require": {
@@ -3520,7 +3520,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2015-11-12 15:22:13"
+            "time": "2016-01-08 12:23:18"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4839,7 +4839,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/06e2b99d92e175719d7e841d5be16b7df1a233c5",
+                "url": "https://api.github.com/repos/Behat/MinkExtension/zipball/296445cec02e36836a6298452631be8e00b1e13a",
                 "reference": "06e2b99d92e175719d7e841d5be16b7df1a233c5",
                 "shasum": ""
             },
