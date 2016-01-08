@@ -1,6 +1,18 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.1.4 (2016-01-08)
+    * HOTFIX      #1917 [MediaBundle]     Changed version name to original filename
+
+* 1.1.3 (2015-12-18)
+    * HOTFIX      #1903 [ContentBundle]   Prohibited to follow empty or self internal link
+    * HOTFIX      #1900 [ContentBundle]   Prohibited to link page to itself
+    * HOTFIX      #1898 [MediaBundle]     Fixed dangling events of media-overlay
+    * HOTFIX      #1872 [ContentBundle]   Fixed sql generation for user roles in ContentRepository
+    * HOTFIX      #1888 [ContentBundle]   used auto_name in phpcr migrations
+    * HOTFIX      #1899 [ContentBundle]   Fixed directory separator for windows
+    * HOTFIX      #1895 [ResourceBundle]  Fixed error handling of filters.
+
 * 1.1.2 (2015-12-11)
     * HOTFIX      #1831 [MediaBundle]     Fixed query for retrieving entities to index
     * HOTFIX      #1868 [ContentBundle]   Added date upgrade script for blocks
@@ -233,9 +245,17 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #1365 [ContactBundle]   Fixed bug caused by new instance name of datagrid
     * BUGFIX      #1136 [MediaBundle]     Fixed image scale forceRatio parameter for none squared image formats
     * BUGFIX      #1785 [ContentBundle]   Fixed data returned for internal link in settings tab
+
+* 1.0.16 (2016-01-08)
+    * HOTFIX      #1919 [MediaBundle]    Fixed remove image description
+    * ENHANCEMENT #1919 [LocationBundle] Added de and ch to google maps selection
+
+* 1.0.15 (2015-11-13)
+    * BUGFIX      #1191 [AdminBundle]    Fixed unique Navigation ID
     
 * 1.0.14 (2015-11-12)
-    * HOTFIX      #1771 [AdminBundle]    Fixed login translations if browser-locale is not transl    ated
+    * HOTFIX      #1771 [AdminBundle]    Fixed login translations if browser-locale is not translated
+    
 * 1.0.13 (2015-10-22)
     * HOTFIX      #1634 [SecurityBundle] Allow attribute overrides for user email field
     * HOTFIX      #1624 [ContentBundle]  Fixed nullable internal link and added server/clientside validation
