@@ -13,10 +13,32 @@
             </div>
         </div>
 
+        <h2>Multiple Select</h2>
+
+        <ul property="multiple">
+            {% for value in content.multiple %}
+                <li>{{ value }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Single Select</h2>
+
+        <p property="single">{{ content.single }}</p>
+
+        <h2>Blocks</h2>
+
         <div property="blocks" typeof="collection">
             {% for block in content.blocks %}
                 <div rel="blocks" typeof="block">
-                    {% if block.type == 'editor_image' %}
+                    {% if block.type == 'selection' %}
+                        <ul property="multiple">
+                            {% for value in block.multiple %}
+                                <li>{{ value }}</li>
+                            {% endfor %}
+                        </ul>
+
+                        <p property="single">{{ block.single }}</p>
+                    {% elseif block.type == 'editor_image' %}
                         {% set viewBlock = view.blocks[loop.index - 1] %}
                         {% if viewBlock.images is not null %}
                             {% if viewBlock.images.displayOption == 'top' %}
@@ -257,8 +279,8 @@
                     <td property="time">{{ content.time }}</td>
                 </tr>
                 <tr>
-                    <td>Discussion allowed</td>
-                    <td property="discussion">{{ content.discussion }}</td>
+                    <td>Checkbox</td>
+                    <td property="checkbox">{{ content.checkbox }}</td>
                 </tr>
             </tbody>
         </table>

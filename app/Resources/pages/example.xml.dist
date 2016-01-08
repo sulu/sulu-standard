@@ -46,6 +46,52 @@
             </properties>
         </section>
 
+        <property name="multiple" type="multiple_select" colspan="4">
+            <meta>
+                <title lang="de">Multiple Auswahl</title>
+                <title lang="en">Multiple Select</title>
+            </meta>
+            <params>
+                <param name="values" type="collection">
+                    <param name="option1">
+                        <meta>
+                            <title lang="de">Option 1</title>
+                            <title lang="en">Option 1</title>
+                        </meta>
+                    </param>
+                    <param name="option2">
+                        <meta>
+                            <title lang="de">Option 2</title>
+                            <title lang="en">Option 2</title>
+                        </meta>
+                    </param>
+                </param>
+            </params>
+        </property>
+
+        <property name="single" type="single_select" colspan="4">
+            <meta>
+                <title lang="de">Einfache Auswahl</title>
+                <title lang="en">Single Select</title>
+            </meta>
+            <params>
+                <param name="values" type="collection">
+                    <param name="single_option1">
+                        <meta>
+                            <title lang="de">Option 1</title>
+                            <title lang="en">Option 1</title>
+                        </meta>
+                    </param>
+                    <param name="single_option2">
+                        <meta>
+                            <title lang="de">Option 2</title>
+                            <title lang="en">Option 2</title>
+                        </meta>
+                    </param>
+                </param>
+            </params>
+        </property>
+
         <section name="content">
             <meta>
                 <title lang="de">Inhalt</title>
@@ -70,12 +116,65 @@
                     <tag name="sulu.search.field" role="description"/>
                 </property>
 
-                <block name="blocks" default-type="editor">
+                <block name="blocks" default-type="editor" minOccurs="0">
                     <meta>
                         <title lang="de">Inhalte</title>
                         <title lang="en">Content</title>
                     </meta>
                     <types>
+                        <type name="selection">
+                            <meta>
+                                <title lang="de">Auswahl</title>
+                                <title lang="en">Selection</title>
+                            </meta>
+                            <properties>
+                                <property name="multiple" type="multiple_select" colspan="4">
+                                    <meta>
+                                        <title lang="de">Multiple Auswahl</title>
+                                        <title lang="en">Multiple Select</title>
+                                    </meta>
+                                    <params>
+                                        <param name="values" type="collection">
+                                            <param name="option1">
+                                                <meta>
+                                                    <title lang="de">Option 1</title>
+                                                    <title lang="en">Option 1</title>
+                                                </meta>
+                                            </param>
+                                            <param name="option2">
+                                                <meta>
+                                                    <title lang="de">Option 2</title>
+                                                    <title lang="en">Option 2</title>
+                                                </meta>
+                                            </param>
+                                        </param>
+                                    </params>
+                                </property>
+
+                                <property name="single" type="single_select" colspan="4">
+                                    <meta>
+                                        <title lang="de">Einfache Auswahl</title>
+                                        <title lang="en">Single Select</title>
+                                    </meta>
+                                    <params>
+                                        <param name="values" type="collection">
+                                            <param name="single_option1">
+                                                <meta>
+                                                    <title lang="de">Option 1</title>
+                                                    <title lang="en">Option 1</title>
+                                                </meta>
+                                            </param>
+                                            <param name="single_option2">
+                                                <meta>
+                                                    <title lang="de">Option 2</title>
+                                                    <title lang="en">Option 2</title>
+                                                </meta>
+                                            </param>
+                                        </param>
+                                    </params>
+                                </property>
+                            </properties>
+                        </type>
                         <type name="editor">
                             <meta>
                                 <title lang="de">Editor</title>
@@ -351,10 +450,10 @@
                     </meta>
                 </property>
 
-                <property name="discussion" type="checkbox">
+                <property name="checkbox" type="checkbox">
                     <meta>
-                        <title lang="de">Dikussion erlaubt</title>
-                        <title lang="en">Discussion allowed</title>
+                        <title lang="de">Checkbox</title>
+                        <title lang="en">Checkbox</title>
                     </meta>
                 </property>
             </properties>
