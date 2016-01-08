@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.0.16 (2016-01-08)
+    * HOTFIX      #1919 [MediaBundle]    Fixed remove image description
+    * ENHANCEMENT #1919 [LocationBundle] Added de and ch to google maps selection
+
+* 1.0.15 (2015-11-13)
+    * BUGFIX      #1191 [AdminBundle]    Fixed unique Navigation ID
+    
 * 1.0.14 (2015-11-12)
     * HOTFIX      #1771 [AdminBundle]    Fixed login translations if browser-locale is not translated
     
