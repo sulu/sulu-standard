@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0310383b36883d8a0dc9455b0cfa0632",
-    "content-hash": "eb2f386c4293bf164dc64c1669ed1be1",
+    "hash": "d361e7a919f99ec4e5ee4993ee247153",
+    "content-hash": "cc343aea79b961b2278ffab63179e029",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3722,16 +3722,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "dev-feature/php70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "6462044de0461ea0df99418df486ea804513c866"
+                "reference": "616b1ffbbda6653639239c34ca76979c380273df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/6462044de0461ea0df99418df486ea804513c866",
-                "reference": "6462044de0461ea0df99418df486ea804513c866",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/616b1ffbbda6653639239c34ca76979c380273df",
+                "reference": "616b1ffbbda6653639239c34ca76979c380273df",
                 "shasum": ""
             },
             "require": {
@@ -3784,7 +3784,7 @@
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
                 "phpunit/phpunit": "~4.5.0",
                 "sensio/framework-extra-bundle": "~3.0",
-                "symfony-cmf/testing": "~1.2",
+                "symfony-cmf/testing": "dev-master",
                 "symfony/monolog-bundle": "2.4.*",
                 "twig/twig": "~1.11",
                 "zendframework/zend-stdlib": "~2.3",
@@ -3820,7 +3820,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-08 10:55:41"
+            "time": "2016-01-11 13:21:22"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4888,16 +4888,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.1",
+            "version": "v1.23.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6"
+                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
-                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
+                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
                 "shasum": ""
             },
             "require": {
@@ -4945,7 +4945,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-11-05 12:49:06"
+            "time": "2016-01-11 13:20:06"
         },
         {
             "name": "willdurand/hateoas",
