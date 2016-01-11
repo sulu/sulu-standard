@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d361e7a919f99ec4e5ee4993ee247153",
-    "content-hash": "cc343aea79b961b2278ffab63179e029",
+    "hash": "0310383b36883d8a0dc9455b0cfa0632",
+    "content-hash": "eb2f386c4293bf164dc64c1669ed1be1",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3722,16 +3722,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-feature/php70",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "616b1ffbbda6653639239c34ca76979c380273df"
+                "reference": "3af19eecde732f7ab9b8c56cb4656ee662cca155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/616b1ffbbda6653639239c34ca76979c380273df",
-                "reference": "616b1ffbbda6653639239c34ca76979c380273df",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3af19eecde732f7ab9b8c56cb4656ee662cca155",
+                "reference": "3af19eecde732f7ab9b8c56cb4656ee662cca155",
                 "shasum": ""
             },
             "require": {
@@ -3784,7 +3784,7 @@
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
                 "phpunit/phpunit": "~4.5.0",
                 "sensio/framework-extra-bundle": "~3.0",
-                "symfony-cmf/testing": "dev-master",
+                "symfony-cmf/testing": "~1.2",
                 "symfony/monolog-bundle": "2.4.*",
                 "twig/twig": "~1.11",
                 "zendframework/zend-stdlib": "~2.3",
@@ -3820,7 +3820,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-11 13:21:22"
+            "time": "2016-01-11 06:40:09"
         },
         {
             "name": "swiftmailer/swiftmailer",
