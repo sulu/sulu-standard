@@ -3726,12 +3726,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "3af19eecde732f7ab9b8c56cb4656ee662cca155"
+                "reference": "310e120e9cd1f1390442bcba4e7b0963bae7ee7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3af19eecde732f7ab9b8c56cb4656ee662cca155",
-                "reference": "3af19eecde732f7ab9b8c56cb4656ee662cca155",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/310e120e9cd1f1390442bcba4e7b0963bae7ee7b",
+                "reference": "310e120e9cd1f1390442bcba4e7b0963bae7ee7b",
                 "shasum": ""
             },
             "require": {
@@ -3784,7 +3784,7 @@
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
                 "phpunit/phpunit": "~4.5.0",
                 "sensio/framework-extra-bundle": "~3.0",
-                "symfony-cmf/testing": "~1.2",
+                "symfony-cmf/testing": "dev-master",
                 "symfony/monolog-bundle": "2.4.*",
                 "twig/twig": "~1.11",
                 "zendframework/zend-stdlib": "~2.3",
@@ -3820,7 +3820,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-11 06:40:09"
+            "time": "2016-01-11 13:51:59"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3981,7 +3981,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -4888,16 +4888,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.2",
+            "version": "v1.23.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356"
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
-                "reference": "d07c53df79e0c7ff8d78e72d521d46ef0fd80356",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae53fc2c312fdee63773b75cb570304f85388b08",
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08",
                 "shasum": ""
             },
             "require": {
@@ -4945,7 +4945,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-11 13:20:06"
+            "time": "2016-01-11 14:02:19"
         },
         {
             "name": "willdurand/hateoas",
