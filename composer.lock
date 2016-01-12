@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "352e47f835cf1b1306effbfa92126c90",
-    "content-hash": "1dbd616c5f482338a84dc3adb2dc807d",
+    "hash": "8e3c8821a1ee975035f7c58f2bf4cd49",
+    "content-hash": "f3fb5cdc9a810ef01a285f4664537260",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2920,16 +2920,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.2.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "b3313b618f4edd76523572531d5d7e22fe747430"
+                "reference": "ff76e1a660669bb56ba74ba0583fd8d41417bf39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b3313b618f4edd76523572531d5d7e22fe747430",
-                "reference": "b3313b618f4edd76523572531d5d7e22fe747430",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/ff76e1a660669bb56ba74ba0583fd8d41417bf39",
+                "reference": "ff76e1a660669bb56ba74ba0583fd8d41417bf39",
                 "shasum": ""
             },
             "require": {
@@ -2964,7 +2964,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-03-11 19:54:08"
+            "time": "2016-03-17 16:11:57"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
@@ -3763,12 +3763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "0a63b9522444c757efeaf7771547fb3f86be715f"
+                "reference": "d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/0a63b9522444c757efeaf7771547fb3f86be715f",
-                "reference": "0a63b9522444c757efeaf7771547fb3f86be715f",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e",
+                "reference": "d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e",
                 "shasum": ""
             },
             "require": {
@@ -3802,7 +3802,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-02-29 11:41:57"
+            "time": "2016-03-18 12:16:04"
         },
         {
             "name": "sulu/sulu",
@@ -3810,12 +3810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "5aee70195bcbd3247c08f70201ac2e286c14cb6f"
+                "reference": "c98881963972b7d8036ee987c20550bc4d0eb43e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/5aee70195bcbd3247c08f70201ac2e286c14cb6f",
-                "reference": "5aee70195bcbd3247c08f70201ac2e286c14cb6f",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/c98881963972b7d8036ee987c20550bc4d0eb43e",
+                "reference": "c98881963972b7d8036ee987c20550bc4d0eb43e",
                 "shasum": ""
             },
             "require": {
@@ -3907,7 +3907,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-16 14:18:38"
+            "time": "2016-03-18 12:49:47"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4068,7 +4068,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
