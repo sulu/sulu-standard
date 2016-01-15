@@ -2814,6 +2814,54 @@
             "time": "2014-10-06 10:57:25"
         },
         {
+            "name": "paragonie/random_compat",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2016-01-06 13:31:20"
+        },
+        {
             "name": "php-ffmpeg/php-ffmpeg",
             "version": "0.5.1",
             "source": {
@@ -3635,16 +3683,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "63a242a54ea3395745e209d2e98935109b19e688"
+                "reference": "e97a6fb016349565be3b51c669ecfcd0c313ea4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/63a242a54ea3395745e209d2e98935109b19e688",
-                "reference": "63a242a54ea3395745e209d2e98935109b19e688",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/e97a6fb016349565be3b51c669ecfcd0c313ea4a",
+                "reference": "e97a6fb016349565be3b51c669ecfcd0c313ea4a",
                 "shasum": ""
             },
             "require": {
@@ -3733,7 +3781,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-08 12:41:31"
+            "time": "2016-01-15 06:37:26"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4160,20 +4208,21 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.12",
+            "version": "v2.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "9d1072d0706af30b5649fee3deb65bc536a08b2a"
+                "reference": "240e9648af3daa5ed19580fdec74d768e30692a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/9d1072d0706af30b5649fee3deb65bc536a08b2a",
-                "reference": "9d1072d0706af30b5649fee3deb65bc536a08b2a",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/240e9648af3daa5ed19580fdec74d768e30692a6",
+                "reference": "240e9648af3daa5ed19580fdec74d768e30692a6",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.3",
+                "paragonie/random_compat": "~1.0",
                 "php": ">=5.3.3",
                 "psr/log": "~1.0",
                 "twig/twig": "~1.12,>=1.12.3"
@@ -4273,7 +4322,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-11-23 11:39:53"
+            "time": "2016-01-14 10:11:35"
         },
         {
             "name": "twig/extensions",
@@ -5171,7 +5220,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/516d27dd9119a1d99a27244cd3dca1712e76d2c6",
+                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/e42e44cf80f4a12e50eec2af0b4fe28206b6c0f5",
                 "reference": "516d27dd9119a1d99a27244cd3dca1712e76d2c6",
                 "shasum": ""
             },
