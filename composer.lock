@@ -2500,12 +2500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "4a3a282acde2eccb9e60c9bb75bfc54fd35e4c9d"
+                "reference": "7a74d126629c1dbff4e6fc9e0ef663925db7b49f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/4a3a282acde2eccb9e60c9bb75bfc54fd35e4c9d",
-                "reference": "4a3a282acde2eccb9e60c9bb75bfc54fd35e4c9d",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/7a74d126629c1dbff4e6fc9e0ef663925db7b49f",
+                "reference": "7a74d126629c1dbff4e6fc9e0ef663925db7b49f",
                 "shasum": ""
             },
             "require": {
@@ -2521,11 +2521,12 @@
                 "doctrine/orm": "~2.4",
                 "elasticsearch/elasticsearch": "~1.3",
                 "matthiasnoback/symfony-dependency-injection-test": "0.7.1",
-                "phpbench/phpbench": "~1.0",
-                "symfony-cmf/testing": "~1.2",
+                "phpbench/phpbench": "~1.0@dev",
+                "phpbench/tabular": "@dev",
+                "symfony-cmf/testing": "dev-master",
                 "symfony/symfony": "~2.6",
                 "zendframework/zend-stdlib": "2.3.1 as 2.0.0rc5",
-                "zendframework/zendsearch": "2.*"
+                "zendframework/zendsearch": "2.*@dev"
             },
             "suggest": {
                 "elasticsearch/elasticsearch": "To use Elasticsearch",
@@ -2554,7 +2555,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2015-12-11 13:58:55"
+            "time": "2016-01-13 10:47:34"
         },
         {
             "name": "monolog/monolog",
@@ -3726,12 +3727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "310e120e9cd1f1390442bcba4e7b0963bae7ee7b"
+                "reference": "92927c0fae7ee236c324075a05aec0877aac2912"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/310e120e9cd1f1390442bcba4e7b0963bae7ee7b",
-                "reference": "310e120e9cd1f1390442bcba4e7b0963bae7ee7b",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/92927c0fae7ee236c324075a05aec0877aac2912",
+                "reference": "92927c0fae7ee236c324075a05aec0877aac2912",
                 "shasum": ""
             },
             "require": {
@@ -3820,7 +3821,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-11 13:51:59"
+            "time": "2016-01-15 10:30:45"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3981,7 +3982,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -4646,16 +4647,16 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.9",
+            "version": "v2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "3d21ada19f23631f558ad6df653b168e35362e78"
+                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/3d21ada19f23631f558ad6df653b168e35362e78",
-                "reference": "3d21ada19f23631f558ad6df653b168e35362e78",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
+                "reference": "de5a2ddcaf91d2e44c19161e0fe8ed88022ceb51",
                 "shasum": ""
             },
             "require": {
@@ -4699,20 +4700,20 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2015-11-28 10:59:29"
+            "time": "2016-01-14 10:25:38"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "8956ed50a44c5c4e02f2176c0773e24487477b09"
+                "reference": "f3e6a82bcbea4db3b56df08e491e20a1faae82b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/8956ed50a44c5c4e02f2176c0773e24487477b09",
-                "reference": "8956ed50a44c5c4e02f2176c0773e24487477b09",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/f3e6a82bcbea4db3b56df08e491e20a1faae82b5",
+                "reference": "f3e6a82bcbea4db3b56df08e491e20a1faae82b5",
                 "shasum": ""
             },
             "require": {
@@ -4832,7 +4833,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-12-26 15:56:52"
+            "time": "2016-01-14 12:01:11"
         },
         {
             "name": "twig/extensions",
@@ -5207,32 +5208,37 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "2.6.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "a03de810b99b0302059ab744c535d464b8dc4721"
+                "reference": "8c9917f1595ff260f289439bdeb1f46500c65d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/a03de810b99b0302059ab744c535d464b8dc4721",
-                "reference": "a03de810b99b0302059ab744c535d464b8dc4721",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/8c9917f1595ff260f289439bdeb1f46500c65d62",
+                "reference": "8c9917f1595ff260f289439bdeb1f46500c65d62",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5",
-                "zendframework/zend-stdlib": "~2.5"
+                "php": "^5.5 || ^7.0"
             },
             "require-dev": {
-                "athletic/athletic": "dev-master",
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "athletic/athletic": "^0.1",
+                "container-interop/container-interop": "^1.1.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^2.0",
+                "zendframework/zend-stdlib": "^2.7.3"
+            },
+            "suggest": {
+                "container-interop/container-interop": "^1.1.0, to use the lazy listeners feature",
+                "zendframework/zend-stdlib": "^2.7.3, to use the FilterChain feature"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev",
-                    "dev-develop": "3.0-dev"
+                    "dev-master": "3.0-dev",
+                    "dev-develop": "3.1-dev"
                 }
             },
             "autoload": {
@@ -5244,12 +5250,15 @@
             "license": [
                 "BSD-3-Clause"
             ],
+            "description": "Trigger and listen to events within a PHP application",
             "homepage": "https://github.com/zendframework/zend-eventmanager",
             "keywords": [
+                "event",
                 "eventmanager",
+                "events",
                 "zf2"
             ],
-            "time": "2015-10-06 11:53:40"
+            "time": "2016-01-12 23:27:48"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -5726,25 +5735,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Symfony2Extension.git",
-                "reference": "516d27dd9119a1d99a27244cd3dca1712e76d2c6"
+                "reference": "e619be17acf1679ebd562a7b3255a990ebb0d829"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/516d27dd9119a1d99a27244cd3dca1712e76d2c6",
-                "reference": "516d27dd9119a1d99a27244cd3dca1712e76d2c6",
+                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/e619be17acf1679ebd562a7b3255a990ebb0d829",
+                "reference": "e619be17acf1679ebd562a7b3255a990ebb0d829",
                 "shasum": ""
             },
             "require": {
                 "behat/behat": "~3.0,>=3.0.4",
                 "php": ">=5.3.3",
-                "symfony/framework-bundle": "~2.0"
+                "symfony/framework-bundle": "~2.0|~3.0"
             },
             "require-dev": {
                 "behat/mink-browserkit-driver": "~1.0",
                 "behat/mink-extension": "~2.0",
                 "phpspec/phpspec": "~2.0",
                 "phpunit/phpunit": "~4.0",
-                "symfony/symfony": "~2.1"
+                "symfony/symfony": "~2.1|~3.0"
             },
             "type": "behat-extension",
             "extra": {
@@ -5778,7 +5787,7 @@
                 "framework",
                 "symfony"
             ],
-            "time": "2015-09-29 15:54:16"
+            "time": "2016-01-15 08:20:16"
         },
         {
             "name": "dantleech/glob-finder",
@@ -6009,16 +6018,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.1",
+            "version": "v2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "2deb2ccbe184948ae4e85e7b99e962738d3d2d69"
+                "reference": "855dc0e829fad123966347612b4183e307338c11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/2deb2ccbe184948ae4e85e7b99e962738d3d2d69",
-                "reference": "2deb2ccbe184948ae4e85e7b99e962738d3d2d69",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/855dc0e829fad123966347612b4183e307338c11",
+                "reference": "855dc0e829fad123966347612b4183e307338c11",
                 "shasum": ""
             },
             "require": {
@@ -6060,7 +6069,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2015-12-11 08:57:52"
+            "time": "2016-01-06 09:59:23"
         }
     ],
     "aliases": [
