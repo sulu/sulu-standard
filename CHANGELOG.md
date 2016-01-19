@@ -3,6 +3,7 @@ CHANGELOG for Sulu CMF
 
 * dev-develop
     * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
+    * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
 
 * 1.1.7 (2016-01-26)
     * HOTFIX      #1952 [PersistenceBundle] Fixed mapped superclass inheritance
