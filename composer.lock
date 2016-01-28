@@ -728,16 +728,16 @@
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a"
+                "reference": "18c600a9b82f6454d2e81ca4957cdd56a1cf3504"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/030ff41ef1db66370b36467086bfb817a661fe6a",
-                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/18c600a9b82f6454d2e81ca4957cdd56a1cf3504",
+                "reference": "18c600a9b82f6454d2e81ca4957cdd56a1cf3504",
                 "shasum": ""
             },
             "require": {
@@ -751,6 +751,7 @@
                 "instaclick/object-calisthenics-sniffs": "dev-master",
                 "instaclick/symfony2-coding-standard": "dev-remaster",
                 "phpunit/phpunit": "~4",
+                "predis/predis": "~0.8",
                 "satooshi/php-coveralls": "~0.6.1",
                 "squizlabs/php_codesniffer": "~1.5",
                 "symfony/console": "~2.2|~3.0",
@@ -811,7 +812,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-11-27 04:59:07"
+            "time": "2016-01-26 17:28:51"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -5673,12 +5674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "bedbf1999c7ba1bc6921b30ee2eadf383e7ff5c9"
+                "reference": "943536170fe63e6a9ead12b7ac0b17560664d3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/bedbf1999c7ba1bc6921b30ee2eadf383e7ff5c9",
-                "reference": "bedbf1999c7ba1bc6921b30ee2eadf383e7ff5c9",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/943536170fe63e6a9ead12b7ac0b17560664d3cf",
+                "reference": "943536170fe63e6a9ead12b7ac0b17560664d3cf",
                 "shasum": ""
             },
             "require": {
@@ -5726,7 +5727,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2015-09-21 21:02:54"
+            "time": "2016-01-27 09:07:46"
         },
         {
             "name": "behat/symfony2-extension",
