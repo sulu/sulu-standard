@@ -21,9 +21,10 @@ abstract class AbstractKernel extends SuluKernel
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
-            new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             // symfony cmf
             new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
@@ -43,7 +44,6 @@ abstract class AbstractKernel extends SuluKernel
 
             // sulu
             new Sulu\Bundle\SearchBundle\SuluSearchBundle(),
-            new Sulu\Bundle\CoreBundle\SuluCoreBundle(),
             new Sulu\Bundle\PersistenceBundle\SuluPersistenceBundle(),
             new Sulu\Bundle\ContactBundle\SuluContactBundle(),
             new Sulu\Bundle\MediaBundle\SuluMediaBundle(),

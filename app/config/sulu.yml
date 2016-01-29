@@ -25,11 +25,18 @@ doctrine:
 
 # Doctrine cache providers
 doctrine_cache:
-   providers:
-       phpcr_meta:
-           type: %phpcr_cache%
-       phpcr_nodes:
-           type: %phpcr_cache%
+    providers:
+        phpcr_meta:
+            type: %phpcr_cache%
+        phpcr_nodes:
+            type: %phpcr_cache%
+        sulu_collaboration_entity:
+            file_system:
+                directory: %sulu.cache_dir%/collaboration/entity
+        sulu_collaboration_connection:
+            file_system:
+                directory: %sulu.cache_dir%/collaboration/connection
+
 
 # Doctrine Extension Configuration
 stof_doctrine_extensions:
@@ -113,6 +120,10 @@ sulu_content:
                 index: page
             Sulu\Bundle\SnippetBundle\Document\SnippetDocument:
                 index: snippet
+
+sulu_collaboration:
+    entity_cache: doctrine_cache.providers.sulu_collaboration_entity
+    connection_cache: doctrine_cache.providers.sulu_collaboration_connection
 
 sulu_document_manager:
     mapping:
