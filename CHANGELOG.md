@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
+
 * 1.1.7 (2016-01-26)
     * HOTFIX      #1952 [PersistenceBundle] Fixed mapped superclass inheritance
     * HOTFIX      #1950 [Rest]              Added possibility to disable the GROUP BY clause
