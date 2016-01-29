@@ -56,6 +56,7 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\LocationBundle\SuluLocationBundle(),
             new Sulu\Bundle\HttpCacheBundle\SuluHttpCacheBundle(),
             new Sulu\Bundle\WebsocketBundle\SuluWebsocketBundle(),
+            new Sulu\Bundle\TranslateBundle\SuluTranslateBundle(),
             new Sulu\Bundle\DocumentManagerBundle\SuluDocumentManagerBundle(),
             new DTL\Bundle\PhpcrMigrations\PhpcrMigrationsBundle(),
             new Dubture\FFmpegBundle\DubtureFFmpegBundle(),
