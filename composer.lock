@@ -2864,16 +2864,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7"
+                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
-                "reference": "dd8998b7c846f6909f4e7a5f67fabebfc412a4f7",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/e6f80ab77885151908d0ec743689ca700886e8b0",
+                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0",
                 "shasum": ""
             },
             "require": {
@@ -2908,7 +2908,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-01-06 13:31:20"
+            "time": "2016-01-29 16:19:52"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
@@ -3728,12 +3728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "19aefd9512778cb5ab243aa72bcc835e267e21cf"
+                "reference": "884a95bfb95b5cf849ee0ef0d4a1f6e5137b299f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/19aefd9512778cb5ab243aa72bcc835e267e21cf",
-                "reference": "19aefd9512778cb5ab243aa72bcc835e267e21cf",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/884a95bfb95b5cf849ee0ef0d4a1f6e5137b299f",
+                "reference": "884a95bfb95b5cf849ee0ef0d4a1f6e5137b299f",
                 "shasum": ""
             },
             "require": {
@@ -3821,7 +3821,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-01-26 14:10:40"
+            "time": "2016-02-01 07:36:35"
         },
         {
             "name": "swiftmailer/swiftmailer",
