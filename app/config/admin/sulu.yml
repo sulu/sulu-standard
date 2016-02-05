@@ -11,6 +11,19 @@ doctrine:
             string_functions:
                 CAST: Sulu\Component\Rest\DQL\Cast
 
+doctrine_cache:
+    providers:
+        sulu_collaboration_entity:
+            file_system:
+                directory: %sulu.cache_dir%/collaboration/entity
+        sulu_collaboration_connection:
+            file_system:
+                directory: %sulu.cache_dir%/collaboration/connection
+
+sulu_collaboration:
+    entity_cache: doctrine_cache.providers.sulu_collaboration_entity
+    connection_cache: doctrine_cache.providers.sulu_collaboration_connection
+
 # Massive Build Configuration
 massive_build:
     targets:
