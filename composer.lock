@@ -3086,16 +3086,16 @@
         },
         {
             "name": "phpcr/phpcr-migrations",
-            "version": "0.1",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-migrations.git",
-                "reference": "ed60530a330a9a148bea0ed1dbad7dba4a639f90"
+                "reference": "2d937771dde8bce19d198c6303c1da5a9e3af864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-migrations/zipball/ed60530a330a9a148bea0ed1dbad7dba4a639f90",
-                "reference": "ed60530a330a9a148bea0ed1dbad7dba4a639f90",
+                "url": "https://api.github.com/repos/phpcr/phpcr-migrations/zipball/2d937771dde8bce19d198c6303c1da5a9e3af864",
+                "reference": "2d937771dde8bce19d198c6303c1da5a9e3af864",
                 "shasum": ""
             },
             "require": {
@@ -3128,7 +3128,7 @@
                 }
             ],
             "description": "Migrations for PHPCR",
-            "time": "2015-04-29 14:00:32"
+            "time": "2016-02-04 09:39:59"
         },
         {
             "name": "phpcr/phpcr-utils",
@@ -3681,12 +3681,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu-document-manager.git",
-                "reference": "00c7fb2de024e2b7623c105f23194f198b5e559a"
+                "reference": "ff468000d374227ac5299d5241dcc5ecb0415a61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/00c7fb2de024e2b7623c105f23194f198b5e559a",
-                "reference": "00c7fb2de024e2b7623c105f23194f198b5e559a",
+                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/ff468000d374227ac5299d5241dcc5ecb0415a61",
+                "reference": "ff468000d374227ac5299d5241dcc5ecb0415a61",
                 "shasum": ""
             },
             "require": {
@@ -3700,7 +3700,7 @@
             "require-dev": {
                 "jackalope/jackalope-doctrine-dbal": "~1.2@dev",
                 "monolog/monolog": "~1.0",
-                "phpbench/phpbench": "~0.1",
+                "phpbench/phpbench": "~0.10",
                 "phpunit/phpunit": "~4.5"
             },
             "type": "library",
@@ -3720,7 +3720,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2015-12-18 13:41:41"
+            "time": "2016-02-04 16:17:58"
         },
         {
             "name": "sulu/sulu",
@@ -3728,12 +3728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "379b4137baeeaf320bac452a453d6c2b2bde4697"
+                "reference": "d9eb34705f9cd066faf39f6899fecd3d20b26dd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/379b4137baeeaf320bac452a453d6c2b2bde4697",
-                "reference": "379b4137baeeaf320bac452a453d6c2b2bde4697",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/d9eb34705f9cd066faf39f6899fecd3d20b26dd2",
+                "reference": "d9eb34705f9cd066faf39f6899fecd3d20b26dd2",
                 "shasum": ""
             },
             "require": {
@@ -3804,7 +3804,11 @@
             "autoload": {
                 "psr-0": {
                     "Sulu\\": "src/"
-                }
+                },
+                "exclude-from-classmap": [
+                    "src/Sulu/Component/*/Tests/",
+                    "src/Sulu/Bundle/*/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3821,7 +3825,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-02-02 10:03:42"
+            "time": "2016-02-05 12:49:08"
         },
         {
             "name": "swiftmailer/swiftmailer",
