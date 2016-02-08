@@ -2864,16 +2864,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "1.1.6",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0"
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/e6f80ab77885151908d0ec743689ca700886e8b0",
-                "reference": "e6f80ab77885151908d0ec743689ca700886e8b0",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b0e69d10852716b2ccbdff69c75c477637220790",
+                "reference": "b0e69d10852716b2ccbdff69c75c477637220790",
                 "shasum": ""
             },
             "require": {
@@ -2908,7 +2908,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-01-29 16:19:52"
+            "time": "2016-02-06 03:52:05"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
@@ -3728,12 +3728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "d9eb34705f9cd066faf39f6899fecd3d20b26dd2"
+                "reference": "5f9980946a89deda0ff54de8f539d7d64fcaf065"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/d9eb34705f9cd066faf39f6899fecd3d20b26dd2",
-                "reference": "d9eb34705f9cd066faf39f6899fecd3d20b26dd2",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/5f9980946a89deda0ff54de8f539d7d64fcaf065",
+                "reference": "5f9980946a89deda0ff54de8f539d7d64fcaf065",
                 "shasum": ""
             },
             "require": {
@@ -3825,7 +3825,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-02-05 12:49:08"
+            "time": "2016-02-05 14:22:14"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5739,12 +5739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Symfony2Extension.git",
-                "reference": "7fb32ea4bc3d8264a89eba4275c0c868acf7cb1c"
+                "reference": "e21aa731007fdafd0ba1c61f95f19460d27901e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/7fb32ea4bc3d8264a89eba4275c0c868acf7cb1c",
-                "reference": "7fb32ea4bc3d8264a89eba4275c0c868acf7cb1c",
+                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/e21aa731007fdafd0ba1c61f95f19460d27901e1",
+                "reference": "e21aa731007fdafd0ba1c61f95f19460d27901e1",
                 "shasum": ""
             },
             "require": {
@@ -5791,7 +5791,7 @@
                 "framework",
                 "symfony"
             ],
-            "time": "2016-01-18 13:40:54"
+            "time": "2016-02-07 12:20:29"
         },
         {
             "name": "dantleech/glob-finder",
