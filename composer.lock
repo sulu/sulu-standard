@@ -650,16 +650,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b"
+                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
-                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/e9c2ccf573b59b7cea566390f34254fed3c20ed9",
+                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9",
                 "shasum": ""
             },
             "require": {
@@ -675,6 +675,7 @@
                 "doctrine/orm": "~2.3",
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0",
                 "twig/twig": "~1.10"
@@ -724,7 +725,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-11-16 17:11:46"
+            "time": "2016-01-10 17:21:44"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3728,12 +3729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "5f9980946a89deda0ff54de8f539d7d64fcaf065"
+                "reference": "51e140c720161b8e0bec9996ac9bf79e81a1b7f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/5f9980946a89deda0ff54de8f539d7d64fcaf065",
-                "reference": "5f9980946a89deda0ff54de8f539d7d64fcaf065",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/51e140c720161b8e0bec9996ac9bf79e81a1b7f1",
+                "reference": "51e140c720161b8e0bec9996ac9bf79e81a1b7f1",
                 "shasum": ""
             },
             "require": {
@@ -3825,7 +3826,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-02-05 14:22:14"
+            "time": "2016-02-10 09:23:53"
         },
         {
             "name": "swiftmailer/swiftmailer",
