@@ -7,6 +7,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
     * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
     * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * ENHANCEMENT #574  [SULU-STANDARD]   Fixed Apache VHOST ENV variable 
 
 * 1.1.10 (2016-03-07)
     * ENHANCEMENT #611  [SULU-STANDARD]     Added oro doctrine extension for group-concat and other functions

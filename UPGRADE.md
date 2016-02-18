@@ -2,6 +2,15 @@
 
 ## dev-develop
 
+### Apache Dev Environment Variable
+
+The environment variable was deleted from the .htaccess, to use for all webserver the same default (prod).
+Configure your environment in your vhost(recommended) or web/.htaccess by add:
+
+```
+SetEnv SYMFONY_ENV dev
+```
+
 ### Symfony 2.8 Upgrade
 
 Sulu has upgrade to Symfony 2.8. See the [Symfony Upgrade Guide](https://github.com/symfony/symfony-standard/blob/2.8/UPGRADE-2.8.md) for more information.
