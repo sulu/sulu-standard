@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * ENHANCEMENT #611  [SULU-STANDARD]     Added oro doctrine extension for group-concat and other functions
+
 * 1.1.9 (2016-02-05)
     * ENHANCEMENT #1978 [SecurityBundle]    Made url for resetting password configurable via static variable
     * HOTFIX      #1976 [MediaBundle]       Moved delete collection to drop-down to avoid misunderstandings
