@@ -36,5 +36,5 @@ cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml
 
 php app/console sulu:build dev --no-interaction
 
-wget http://selenium-release.storage.googleapis.com/2.46/selenium-server-standalone-2.46.0.jar
-java -jar selenium-server-standalone-2.46.0.jar -browserSessionReuse -singleWindow 2> /dev/null &
+wget http://selenium-release.storage.googleapis.com/2.52/selenium-server-standalone-2.52.0.jar
+java -jar selenium-server-standalone-2.52.0.jar -browserSessionReuse -singleWindow 2> /dev/null &
