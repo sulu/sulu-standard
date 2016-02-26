@@ -1,10 +1,26 @@
 CHANGELOG for Sulu CMF
 ======================
 
+<<<<<<< HEAD
 * dev-develop
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
     * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
     * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+=======
+* dev-master
+    * ENHANCEMENT #611  [SULU-STANDARD]     Added oro doctrine extension for group-concat and other functions
+
+* 1.1.9 (2016-02-05)
+    * ENHANCEMENT #1978 [SecurityBundle]    Made url for resetting password configurable via static variable
+    * HOTFIX      #1976 [MediaBundle]       Moved delete collection to drop-down to avoid misunderstandings
+    * HOTFIX      #---  [AdminBundle]       Updated husky to fix rendering preselected bug
+
+* 1.1.8 (2016-02-01)
+    * HOTFIX      #1962 [ListBuilder]       Fixed search generation with case-field descriptors
+    * HOTFIX      #1962 [ContactBundle]     Fixed contact birthday trigger save-button
+    * HOTFIX      #1958 [SnippetBundle]     Fixed bug with snippet in snippet
+    * HOTFIX      #1953 [SecurityBundle]    Added UI to enable user in sulu admin
+>>>>>>> origin/master
 
 * 1.1.7 (2016-01-26)
     * HOTFIX      #1952 [PersistenceBundle] Fixed mapped superclass inheritance

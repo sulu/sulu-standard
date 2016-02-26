@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0310383b36883d8a0dc9455b0cfa0632",
-    "content-hash": "eb2f386c4293bf164dc64c1669ed1be1",
+    "hash": "f519a3eb7c679a624f8d1c4bc3d58626",
+    "content-hash": "1c833048092bb47a3a8823279aeacc1f",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2502,12 +2502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "7a74d126629c1dbff4e6fc9e0ef663925db7b49f"
+                "reference": "855ce8380094c7670150f17b83888a56a173b879"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/855ce8380094c7670150f17b83888a56a173b879",
-                "reference": "7a74d126629c1dbff4e6fc9e0ef663925db7b49f",
+                "reference": "855ce8380094c7670150f17b83888a56a173b879",
                 "shasum": ""
             },
             "require": {
@@ -2557,7 +2557,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-01-13 10:47:34"
+            "time": "2016-02-25 09:54:56"
         },
         {
             "name": "monolog/monolog",
@@ -3790,12 +3790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "ae5d812100d00ea9c73f4cab94500c742d8c386d"
+                "reference": "e7e6f546d1172340e546cc0bb21e539937ff3aa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/ae5d812100d00ea9c73f4cab94500c742d8c386d",
-                "reference": "ae5d812100d00ea9c73f4cab94500c742d8c386d",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/e7e6f546d1172340e546cc0bb21e539937ff3aa3",
+                "reference": "e7e6f546d1172340e546cc0bb21e539937ff3aa3",
                 "shasum": ""
             },
             "require": {
@@ -3888,7 +3888,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-02-25 11:27:59"
+            "time": "2016-02-26 10:10:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6036,16 +6036,16 @@
         },
         {
             "name": "sensio/generator-bundle",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "5274eafa251359087230bade2ff35dd6cec2e530"
+                "reference": "ac91535054d025937d897d78ebb5fc2da5e955a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/5274eafa251359087230bade2ff35dd6cec2e530",
-                "reference": "5274eafa251359087230bade2ff35dd6cec2e530",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/ac91535054d025937d897d78ebb5fc2da5e955a4",
+                "reference": "ac91535054d025937d897d78ebb5fc2da5e955a4",
                 "shasum": ""
             },
             "require": {
@@ -6084,7 +6084,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2016-01-05 16:30:36"
+            "time": "2016-02-26 04:36:01"
         },
         {
             "name": "symfony/phpunit-bridge",
