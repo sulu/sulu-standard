@@ -5744,12 +5744,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "943536170fe63e6a9ead12b7ac0b17560664d3cf"
+                "reference": "cddf497cbec8ab60897340802ab265beda9fdfa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/943536170fe63e6a9ead12b7ac0b17560664d3cf",
-                "reference": "943536170fe63e6a9ead12b7ac0b17560664d3cf",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/cddf497cbec8ab60897340802ab265beda9fdfa9",
+                "reference": "cddf497cbec8ab60897340802ab265beda9fdfa9",
                 "shasum": ""
             },
             "require": {
@@ -5797,7 +5797,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2016-01-27 09:07:46"
+            "time": "2016-02-26 10:48:44"
         },
         {
             "name": "behat/symfony2-extension",
