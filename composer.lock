@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f519a3eb7c679a624f8d1c4bc3d58626",
-    "content-hash": "1c833048092bb47a3a8823279aeacc1f",
+    "hash": "352e47f835cf1b1306effbfa92126c90",
+    "content-hash": "1dbd616c5f482338a84dc3adb2dc807d",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -1280,27 +1280,22 @@
         },
         {
             "name": "evenement/evenement",
-            "version": "v2.0.0",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
-                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
-                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -1317,12 +1312,11 @@
                     "homepage": "http://wiedler.ch/igor/"
                 }
             ],
-            "description": "Événement is a very simple event dispatching library for PHP",
+            "description": "Événement is a very simple event dispatching library for PHP 5.3",
             "keywords": [
-                "event-dispatcher",
-                "event-emitter"
+                "event-dispatcher"
             ],
-            "time": "2012-11-02 14:49:47"
+            "time": "2012-05-30 15:01:08"
         },
         {
             "name": "friendsofsymfony/http-cache",
@@ -6199,14 +6193,7 @@
             "time": "2016-01-21 09:24:53"
         }
     ],
-    "aliases": [
-        {
-            "alias": "1.0.0",
-            "alias_normalized": "1.0.0.0",
-            "version": "2.0.0.0",
-            "package": "evenement/evenement"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
