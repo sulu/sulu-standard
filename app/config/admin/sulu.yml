@@ -63,3 +63,9 @@ sulu_contact:
             id: 1
             name: female
             translation: contact.contacts.formOfAddress.female
+
+fos_rest:
+    view:
+        formats:
+            json: ~
+            csv: ~
