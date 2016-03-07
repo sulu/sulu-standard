@@ -1,5 +1,36 @@
 # Upgrade
 
+## 1.1.10
+
+### Filter
+
+Update the schema `app/console doctrine:schema:update --force` and run following SQL-Statement:
+
+```sql
+UPDATE re_conditions SET value = CONCAT('"', value, '"') WHERE value NOT LIKE '"%"';
+INSERT INTO `re_operators` (`id`, `operator`, `type`, `inputType`) VALUES
+    (16, 'and', 5, 'tags'),
+    (17, 'or', 5, 'tags'),
+    (18, '=', 6, 'auto-complete'),
+    (19, '!=', 6, 'auto-complete');
+INSERT INTO `re_operator_translations` (`id`, `name`, `locale`, `shortDescription`, `longDescription`, `idOperators`) VALUES
+    (35, 'gleich', 'de', NULL, NULL, 18),
+    (36, 'is', 'en', NULL, NULL, 18),
+    (37, 'ungleich', 'de', NULL, NULL, 19),
+    (38, 'is not', 'en', NULL, NULL, 19);
+```
+
+Additionally the filter by country has changed. Run following SQL script to update your filter conditions:
+
+```sql
+UPDATE `re_conditions` SET `field` = 'countryId', `type` = 6, `value` = CONCAT('"', (SELECT `id` FROM `co_countries` WHERE `code` = REPLACE(`re_conditions`. `value`, '"', '') LIMIT 1), '"') WHERE `field` = 'countryCode' AND `operator` != 'LIKE';
+
+DELETE FROM `re_filters` WHERE `re_filters`.`id` IN (SELECT `re_condition_groups`.`idFilters` FROM `re_condition_groups` LEFT JOIN `re_conditions` ON `re_condition_groups`.`id` = `re_conditions`.`idConditionGroups` WHERE `re_conditions`.`operator` = 'LIKE');
+```
+
+Filter with a "like" condition for country (account and contact) will be lost after the upgrade because there is no
+functionality for that anymore.
+
 ## 1.1.2
 
 ### Reindex-Command & Date Content-Type
