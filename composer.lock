@@ -3382,16 +3382,16 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/164799f73175e1c80bba92a220ea35df6ca371dd",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd",
                 "shasum": ""
             },
             "require": {
@@ -3405,12 +3405,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\EventLoop\\": ""
+                    "React\\EventLoop\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3419,9 +3419,10 @@
             ],
             "description": "Event loop abstraction layer that libraries can use for evented I/O.",
             "keywords": [
+                "asynchronous",
                 "event-loop"
             ],
-            "time": "2014-02-26 17:36:58"
+            "time": "2016-03-08 02:09:32"
         },
         {
             "name": "react/socket",
@@ -3785,12 +3786,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "14785618fd7a9099ac1c92e84fee6a50455afa5f"
+                "reference": "22579aa91105c5a844ee5a03ef656a007ae6a1f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/14785618fd7a9099ac1c92e84fee6a50455afa5f",
-                "reference": "14785618fd7a9099ac1c92e84fee6a50455afa5f",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/22579aa91105c5a844ee5a03ef656a007ae6a1f0",
+                "reference": "22579aa91105c5a844ee5a03ef656a007ae6a1f0",
                 "shasum": ""
             },
             "require": {
@@ -3882,7 +3883,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-07 11:10:27"
+            "time": "2016-03-09 14:04:31"
         },
         {
             "name": "swiftmailer/swiftmailer",
