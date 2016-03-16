@@ -1280,22 +1280,27 @@
         },
         {
             "name": "evenement/evenement",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
-                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d"
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
-                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
+                "reference": "f6e843799fd4f4184d54d8fc7b5b3551c9fa803e",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -1312,11 +1317,12 @@
                     "homepage": "http://wiedler.ch/igor/"
                 }
             ],
-            "description": "Événement is a very simple event dispatching library for PHP 5.3",
+            "description": "Événement is a very simple event dispatching library for PHP",
             "keywords": [
-                "event-dispatcher"
+                "event-dispatcher",
+                "event-emitter"
             ],
-            "time": "2012-05-30 15:01:08"
+            "time": "2012-11-02 14:49:47"
         },
         {
             "name": "friendsofsymfony/http-cache",
@@ -2555,16 +2561,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.0",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc"
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
-                "reference": "e19b764b5c855580e8ffa7e615f72c10fd2f99cc",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
                 "shasum": ""
             },
             "require": {
@@ -2629,7 +2635,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-01 18:00:40"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "nelmio/alice",
@@ -2914,16 +2920,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "f078eba3bcf140fd69b5fcc3ea5ac809abf729dc"
+                "reference": "b3313b618f4edd76523572531d5d7e22fe747430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/f078eba3bcf140fd69b5fcc3ea5ac809abf729dc",
-                "reference": "f078eba3bcf140fd69b5fcc3ea5ac809abf729dc",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b3313b618f4edd76523572531d5d7e22fe747430",
+                "reference": "b3313b618f4edd76523572531d5d7e22fe747430",
                 "shasum": ""
             },
             "require": {
@@ -2958,31 +2964,31 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-02-29 17:25:04"
+            "time": "2016-03-11 19:54:08"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
-            "version": "0.5.1",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-FFMpeg/PHP-FFMpeg.git",
-                "reference": "c8949fe3df89edd7692368cc110a51a27971f28a"
+                "reference": "7687be530c0bb22ee92ee8924cb0ff0e5edd5e5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/zipball/c8949fe3df89edd7692368cc110a51a27971f28a",
-                "reference": "c8949fe3df89edd7692368cc110a51a27971f28a",
+                "url": "https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/zipball/7687be530c0bb22ee92ee8924cb0ff0e5edd5e5d",
+                "reference": "7687be530c0bb22ee92ee8924cb0ff0e5edd5e5d",
                 "shasum": ""
             },
             "require": {
-                "alchemy/binary-driver": "~1.5",
-                "doctrine/cache": "~1.0",
-                "evenement/evenement": "~1.0",
-                "neutron/temporary-filesystem": "~2.1, >=2.1.1",
-                "php": ">=5.3.3"
+                "alchemy/binary-driver": "^1.5",
+                "doctrine/cache": "^1.0",
+                "evenement/evenement": "^2.0 || ^1.0",
+                "neutron/temporary-filesystem": "^2.1.1",
+                "php": "^5.3.9 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7",
+                "phpunit/phpunit": "^4.8",
                 "sami/sami": "~1.0",
                 "silex/silex": "~1.0"
             },
@@ -2992,7 +2998,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5-dev"
+                    "dev-master": "0.6-dev"
                 }
             },
             "autoload": {
@@ -3014,6 +3020,11 @@
                     "name": "Phraseanet Team",
                     "email": "info@alchemy.fr",
                     "homepage": "http://www.phraseanet.com/"
+                },
+                {
+                    "name": "Patrik Karisch",
+                    "email": "patrik@karisch.guru",
+                    "homepage": "http://www.karisch.guru"
                 }
             ],
             "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
@@ -3027,7 +3038,7 @@
                 "video",
                 "video processing"
             ],
-            "time": "2014-08-26 08:46:56"
+            "time": "2016-03-08 00:47:06"
         },
         {
             "name": "phpcollection/phpcollection",
@@ -3341,26 +3352,32 @@
         },
         {
             "name": "pulse00/ffmpeg-bundle",
-            "version": "0.5.2",
-            "target-dir": "Dubture/FFmpegBundle",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pulse00/ffmpeg-bundle.git",
-                "reference": "1169100c5f7e577abdab16506e2104aa2b54de86"
+                "reference": "43014797e87e5d79322e59973e9925a88d64f9e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pulse00/ffmpeg-bundle/zipball/1169100c5f7e577abdab16506e2104aa2b54de86",
-                "reference": "1169100c5f7e577abdab16506e2104aa2b54de86",
+                "url": "https://api.github.com/repos/pulse00/ffmpeg-bundle/zipball/43014797e87e5d79322e59973e9925a88d64f9e9",
+                "reference": "43014797e87e5d79322e59973e9925a88d64f9e9",
                 "shasum": ""
             },
             "require": {
-                "php-ffmpeg/php-ffmpeg": "0.5.*@dev"
+                "php": "^5.3.9 || ^7.0",
+                "php-ffmpeg/php-ffmpeg": "^0.5 || ^0.6",
+                "symfony/dependency-injection": "^2.3 || ^3.0",
+                "symfony/framework-bundle": "^2.3 || ^3.0"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-dependency-injection-test": "~0.7",
+                "phpunit/phpunit": "^4.8"
             },
             "type": "symfony-bundle",
             "autoload": {
-                "psr-0": {
-                    "Dubture\\FFmpegBundle": ""
+                "psr-4": {
+                    "Dubture\\FFmpegBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3375,10 +3392,17 @@
             ],
             "description": "Symfony bundle to provide PHP-FFmpeg as a Symfony service (https://github.com/alchemy-fr/PHP-FFmpeg)",
             "keywords": [
+                "audio",
+                "audio processing",
+                "avconv",
+                "avprobe",
                 "ffmpeg",
-                "multimedia"
+                "ffprobe",
+                "multimedia",
+                "video",
+                "video processing"
             ],
-            "time": "2014-08-27 19:29:04"
+            "time": "2016-03-07 09:47:04"
         },
         {
             "name": "react/event-loop",
@@ -3515,16 +3539,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.4",
+            "version": "v5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "2c167426fc24f9de116345195bc1697a748ee847"
+                "reference": "3a160355bb1364da55ed9e415c1aa1fa8d457b6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/2c167426fc24f9de116345195bc1697a748ee847",
-                "reference": "2c167426fc24f9de116345195bc1697a748ee847",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/3a160355bb1364da55ed9e415c1aa1fa8d457b6f",
+                "reference": "3a160355bb1364da55ed9e415c1aa1fa8d457b6f",
                 "shasum": ""
             },
             "require": {
@@ -3563,7 +3587,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-02-12 16:21:30"
+            "time": "2016-03-15 16:21:41"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3786,12 +3810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "22579aa91105c5a844ee5a03ef656a007ae6a1f0"
+                "reference": "5aee70195bcbd3247c08f70201ac2e286c14cb6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/22579aa91105c5a844ee5a03ef656a007ae6a1f0",
-                "reference": "22579aa91105c5a844ee5a03ef656a007ae6a1f0",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/5aee70195bcbd3247c08f70201ac2e286c14cb6f",
+                "reference": "5aee70195bcbd3247c08f70201ac2e286c14cb6f",
                 "shasum": ""
             },
             "require": {
@@ -3807,8 +3831,8 @@
                 "massive/search-bundle": "dev-develop",
                 "oro/doctrine-extensions": "^1.0",
                 "pagerfanta/pagerfanta": "~1.0",
-                "php": ">=5.5",
-                "pulse00/ffmpeg-bundle": "^0.5.2",
+                "php": "^5.5 || ^7.0",
+                "pulse00/ffmpeg-bundle": "^0.6",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
                 "sulu/document-manager": "dev-develop",
@@ -3839,8 +3863,8 @@
                 "guzzle/plugin-mock": "3.9.*",
                 "jackalope/jackalope-jackrabbit": "~1.2.0",
                 "massive/build-bundle": "0.2.*",
-                "matthiasnoback/symfony-config-test": "v0.1.1",
-                "matthiasnoback/symfony-dependency-injection-test": "v0.7.3",
+                "matthiasnoback/symfony-config-test": "^1.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^0.7.3",
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
                 "phpunit/phpunit": ">=4.8.0",
                 "sensio/framework-extra-bundle": "~3.0",
@@ -3883,7 +3907,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-09 14:04:31"
+            "time": "2016-03-16 14:18:38"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4044,7 +4068,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -4124,16 +4148,16 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.7.1",
+            "version": "v2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/assetic-bundle.git",
-                "reference": "d885ec8451d5a7b077bda81bb19ac9fbff9cdc76"
+                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/d885ec8451d5a7b077bda81bb19ac9fbff9cdc76",
-                "reference": "d885ec8451d5a7b077bda81bb19ac9fbff9cdc76",
+                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/aa5b4f8b712f38745928fa845ddb73300bb2af6d",
+                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d",
                 "shasum": ""
             },
             "require": {
@@ -4190,20 +4214,20 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-11-17 09:45:47"
+            "time": "2015-12-28 13:12:39"
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "v2.9.0",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "27c2e3eaec7a0ba3462f99ea92678cbfc7b146e4"
+                "reference": "82fd8f36e2cccbe94faf237403c48052d4d4b77e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/27c2e3eaec7a0ba3462f99ea92678cbfc7b146e4",
-                "reference": "27c2e3eaec7a0ba3462f99ea92678cbfc7b146e4",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/82fd8f36e2cccbe94faf237403c48052d4d4b77e",
+                "reference": "82fd8f36e2cccbe94faf237403c48052d4d4b77e",
                 "shasum": ""
             },
             "require": {
@@ -4215,6 +4239,7 @@
                 "symfony/monolog-bridge": "~2.3|~3.0"
             },
             "require-dev": {
+                "phpunit/phpunit": "^4.8",
                 "symfony/console": "~2.3|~3.0",
                 "symfony/yaml": "~2.3|~3.0"
             },
@@ -4249,20 +4274,20 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-03-01 17:53:42"
+            "time": "2016-03-13 15:55:56"
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "d1911e6caeb4b6a4c8e2d5c46b978a66b3745e4c"
+                "reference": "0c901e4e65a2f7ece68f0fd249b56d6ad3adc214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/d1911e6caeb4b6a4c8e2d5c46b978a66b3745e4c",
-                "reference": "d1911e6caeb4b6a4c8e2d5c46b978a66b3745e4c",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/0c901e4e65a2f7ece68f0fd249b56d6ad3adc214",
+                "reference": "0c901e4e65a2f7ece68f0fd249b56d6ad3adc214",
                 "shasum": ""
             },
             "require": {
@@ -4277,9 +4302,6 @@
             "autoload": {
                 "files": [
                     "bootstrap.php"
-                ],
-                "classmap": [
-                    "Resources/stubs"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4305,25 +4327,28 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-03-03 16:49:40"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "66b0bb4abda229bc073eff6bbc8f2685bdaac165"
+                "reference": "8328069d9f5322f0e7b3c3518485acfdc94c3942"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/66b0bb4abda229bc073eff6bbc8f2685bdaac165",
-                "reference": "66b0bb4abda229bc073eff6bbc8f2685bdaac165",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/8328069d9f5322f0e7b3c3518485acfdc94c3942",
+                "reference": "8328069d9f5322f0e7b3c3518485acfdc94c3942",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "symfony/intl": "~2.3|~3.0"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
             },
             "type": "library",
             "extra": {
@@ -4360,11 +4385,11 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-02-26 16:18:12"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -4423,16 +4448,16 @@
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "74663d5a2ff3c530c1bc0571500e0feec9094054"
+                "reference": "9ba741ca01c77282ecf5796c2c1d667f03454ffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/74663d5a2ff3c530c1bc0571500e0feec9094054",
-                "reference": "74663d5a2ff3c530c1bc0571500e0feec9094054",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/9ba741ca01c77282ecf5796c2c1d667f03454ffb",
+                "reference": "9ba741ca01c77282ecf5796c2c1d667f03454ffb",
                 "shasum": ""
             },
             "require": {
@@ -4477,11 +4502,11 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-20 09:13:37"
+            "time": "2016-01-25 19:13:00"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
@@ -4537,7 +4562,7 @@
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
@@ -4593,16 +4618,16 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "8428ceddbbaf102f2906769a8ef2438220c5cb95"
+                "reference": "386c1be9cad3ab531425211919e78c37971be4ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/8428ceddbbaf102f2906769a8ef2438220c5cb95",
-                "reference": "8428ceddbbaf102f2906769a8ef2438220c5cb95",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/386c1be9cad3ab531425211919e78c37971be4ce",
+                "reference": "386c1be9cad3ab531425211919e78c37971be4ce",
                 "shasum": ""
             },
             "require": {
@@ -4648,11 +4673,11 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-01-25 08:44:42"
+            "time": "2016-01-28 22:42:02"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
