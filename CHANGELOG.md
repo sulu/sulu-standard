@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #637  [SULU-STANDARD]   Added 503 status code to maintenance page
+
 * 1.2.1 (2016-04-26)
     * HOTFIX      #678  [SULU-STANDARD]       Use the new UserProvider for the security
     * HOTFIX      #669  [SULU-STANDARD]       Fixed new deprecations from YAML format

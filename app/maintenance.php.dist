@@ -33,9 +33,10 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 $locale = array_key_exists($lang, $translations) ? $lang : DEFAULT_LOCALE;
 
 header('Content-Type: text/html; charset=utf-8');
-?>
+http_response_code(503);
 
-<html>
+?><!doctype html>
+<html lang="<?php echo $locale; ?>">
 <head>
     <title><?php echo $translations[$locale]['title']; ?></title>
     <style type="text/css">
