@@ -1,11 +1,83 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-develop
+* 1.2.0-RC1 (2016-03-18)
     * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
     * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
     * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * FEATURE     #1288 [All]                 Added deep-links for selection content-types
+    * BUGFIX      #2131 [WebsiteBundle]       Fixed 'getTheme' error in ExceptionController
+    * ENHANCEMENT #2131 [CoreBundle]          Added request attributes to extract data from request
+    * ENHANCEMENT #2130 [MediaBundle]         Add support for newer symfony distributions with `bin/` directory
+    * BUGFIX      #2128 [All]                 Fix required version of PHP to support only ^5.5 and ^7.0
+    * BUGFIX      #2126 [ContactBundle]       Excluded recursion in accounts REST API
+    * BUGFIX      #2126 [All]                 Fixed firefox bug in label tick
+    * FEATURE     #1927 [CustomUrlBundle]     Added custom-url feature
+    * ENHANCEMENT #2122 [All]                 Disable xdebug on Travis to speed up composer and tests
+    * ENHANCEMENT #2120 [All]                 Change bundle tests to use their own phpunit config and move `SYMFONY_DEPRECATIONS_HELPER` var into
+    * BUGFIX      #2091 [MediaBundle]         Fixed routing when clicking of the data-navigation search-icon
+    * ENHANCEMENT #2121 [All]                 Cache composer cache dir and prefer dist downloads on Travis
+    * ENHANCEMENT #2114 [All]                 Update ffmpeg bundle and lib
+    * ENHANCEMENT #2116 [All]                 Made restart of jackrabbit between tests configureable
+    * ENHANCEMENT #2107 [WebsiteBundle]       Fixed portal redirect to local
+    * FEATURE     #2099 [AdminBundle]         Implemented tab-conditions
+    * BUGFIX      #2090 [MediaBundle]         Fixed fallback of media file-version meta
+    * BUGFIX      #2092 [ContactBundle]       Fixed new contact when creating a new contact in the account
+    * BUGFIX      #2103 [MediaBundle]         Fixed upload new version for media without thumbnail
+    * BUGFIX      #2100 [ContactBundle]       Fixed switching tab in contact and account after save
+    * ENHANCEMENT #2097 [TranslateBundle]     Fixed translation code length in database schema
+    * BUGIFX      #2093 [ContactBundle]       Fixed auto-select new position and title
+    * BUGFIX      #2094 [CategoryBundle]      Fixed maximum length of category-key
+    * BUGFIX      #2082 [ContentBundle]       Fixed block type don't triggers save-button
+    * ENHANCEMENT #2082 [All]                 Get rid of the aliased evenement composer constraint
+    * BUGFIX      #2088 [ContentBundle]       Fixed matrix for object permission tab
+    * ENHANCEMENT #2035 [ContentBundle]       Add structure type to index
+    * FEATURE     #2076 [All]                 Better content repository initialization, deprecated sulu:phpcr:init & sulu:webspaces:init
+    * FEATURE     #2032 [CategoryBundle]      Added category keywords
+    * BUGFIX      #2058 [ListBuilder]         Fixed cache for field-descriptor
+    * ENHANCEMENT #2034 [ContentBundle]       Improved content-bundle testcases
+    * ENHANCEMENT #2036 [SecurityBundle]      Introduced different permission types for different security contexts
+    * ENHANCEMENT #2014 [Content]             Allow `-` in webspace name.
+    * FEATURE     #1983 [ContentBundle]       Introduces hash check on save
+    * FEATURE     #1983 [SnippetBundle]       Introduces hash check on save
+    * ENHANCEMENT #1999 [SnippetBundle]       Snippet controller now uses DocumentManager and Serializer.
+    * ENHANCEMENT #2008 [ContactBundle]       Fixed sorting in contact selection content type
+    * ENHANCEMENT #1981 [ContentBundle]       Better search reindexing for structure content.
+    * FEATURE     #2001 [MediaBundle]         Clear local image cache via cache clear service and command
+    * BUGFIX      #1986 [All]                 Fixed naming of serializer properties
+    * BUGFIX      #2006 [ContentBundle]       Show loading button after validating form
+    * ENHANCEMENT #1987 [SecurityBundle]      Contact entity is required in User entity
+    * BUGFIX      #1985 [CollaborationBundle] Removed leaking connections
+    * ENHANCEMENT #1973 [All]                 Moved tests from /tests to component directories.
+    * ENHANCEMENT #1970 [ContentBundle]       Changed get and put from NodeController to use DocumentManager
+    * ENHANCEMENT #1956 [All]                 Removed Admin command registration
+    * ENHANCEMENT #1956 [TranslateBundle]     Removed entry in admin navigation
+    * BUGFIX      #1510 [Persistence]         Fetch user only if an entity with UserBlameInterface is detected
+    * FEATURE     #1233 [CollaborationBundle] Showing current collaborators of pages
+    * BUGFIX      #1944 [MediaBundle]         Removed wrong definition of indices
+    * FEATURE     #1921 [ContentBundle]       Added unset single internal link
+    * FEATURE     #1233 [ContentBundle]       Showing current collaborators of pages
+    * ENHANCEMENT #1936 [Webspace]            Cleanup of WebsiteRequestAnalyzer
+    * ENHANCEMENT #1937 [WebsiteBundle]       Removed unnecessary ob_clean in WebsiteController
+    * BUGFIX      #1931 [ContentBundle]       Fixed form deprecation messages   
+    * BUGFIX      #1930 [ContentBundle]       Fixed updating values in combination
+                                              with template change
+    * FEATURE     #1912 [WebsiteBundle]       Added analytics to webspace settings
+    * FEATURE     #1906 [All]                 Added PHP 7 support
+    * FEATURE     #1922 [ContentBundle]       Added parameter to show toggler instead of checkbox
+    * BUGFIX      #1926 [ContentBundle]       Fixed preview for non-standard page document
+    * BUGFIX      #1874 [ContentBundle]       Fixed preview selector for blocks
+    * FEATURE     #1777 [ContentBundle]       Added selection content types
+    * BUGFIX      #1911 [SecurityBundle]      Fixed default locale user builder
+    * BUGFIX      #1915 [All]                 Removed deprecations of initial admin request
+    * FEATURE     #1851 [SnippetBundle]       Added default snippets webspace-settings
+    * FEATURE     #1851 [ContentBundle]       Added webspace-settings
+    * FEATURE     #1905 [All]                 Added french translation
+    * BUGFIX      #1893 [ContentBundle]       Fixed resource locator deferred for edit
+    * BUGIFX      #1871 [ContentBundle]       Fixed url-generation and save button
+    * BUGFIX      #1873 [ContactBundle]       Fixed remove title and position
+    * BUGFIX      #1873 [ContactBundle]       Fixed remove contact birthday
 
 * 1.1.10 (2016-03-07)
     * ENHANCEMENT #611  [SULU-STANDARD]     Added oro doctrine extension for group-concat and other functions
