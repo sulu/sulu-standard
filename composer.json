@@ -33,7 +33,8 @@
 
         "massive/build-bundle": "0.2.*",
 
-        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "jackalope/jackalope-doctrine-dbal": "~1.2.5",
+        "doctrine/phpcr-bundle": "~1.2.0",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
         "doctrine/doctrine-cache-bundle": "~1.0",
         "oro/doctrine-extensions": "^1.0"
