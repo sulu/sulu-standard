@@ -20,9 +20,12 @@ doctrine_cache:
             file_system:
                 directory: %sulu.cache_dir%/collaboration/connection
 
-sulu_collaboration:
-    entity_cache: doctrine_cache.providers.sulu_collaboration_entity
-    connection_cache: doctrine_cache.providers.sulu_collaboration_connection
+# FOS REST Configuration
+fos_rest:
+    view:
+        formats:
+            json: ~
+            csv: ~
 
 # Massive Build Configuration
 massive_build:
@@ -64,8 +67,6 @@ sulu_contact:
             name: female
             translation: contact.contacts.formOfAddress.female
 
-fos_rest:
-    view:
-        formats:
-            json: ~
-            csv: ~
+sulu_collaboration:
+    entity_cache: doctrine_cache.providers.sulu_collaboration_entity
+    connection_cache: doctrine_cache.providers.sulu_collaboration_connection
