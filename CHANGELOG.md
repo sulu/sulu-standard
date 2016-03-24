@@ -1,6 +1,23 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.2.0-RC2 (2016-03-24)
+    * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
+    * BUGFIX      #2183 [ContentBundle]       Added missing locale for loading route document
+    * BUGIFX      #2178 [WebsiteBundle]       Added default IP anonymization for google analytics
+    * BUGFIX      #2171 [ContentBundle]       Fixed saving of homepage
+    * BUGFIX      #2172 [CustomUrlBundle]     Added check for custom-url placeholder
+    * BUGFIX      #2166 [WebsiteBundle]       Fixed analytics type change
+    * ENHANCEMENT #2168 [WebsiteBundle]       Changed request to purge cache from GET to DELETE
+    * BUGFIX      #2169 [CustomUrlBundle]     Fixed dropdown of custom-url target locales
+    * BUGFIX      #2152 [ContentBundle]       Fixed not empty request body for delete history url
+    * BUGIFX      #2141 [ContentBundle]       Fixed page gets immediately saved after generating URL
+    * BUGFIX      #2156 [SecurityBundle]      Fixed behat context to create correct roles
+    * BUGFIX      #2152 [ContentBundle]       Fixed not empty request body for delete history url
+    * BUGFIX      #2157 [CustomUrlBundle]     Fixed route-validation in request processor
+    * ENHANCEMENT #1288 [CoreBundle]          Introduced lazy initialization of request attributes
+    * ENHANCEMENT #2132 [Test]                Removed external classes from and refactored functional test class hierarchy
+
 * 1.2.0-RC1 (2016-03-18)
     * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle

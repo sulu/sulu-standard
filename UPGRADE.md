@@ -1,5 +1,12 @@
 # Upgrade
 
+## 1.2.0-RC2
+
+### New security permission for cache
+
+To be able to clear the cache the user need the permission LIVE in the
+webspace context.
+
 ## 1.2.0-RC1
 
 ### Symfony 2.8 Upgrade
