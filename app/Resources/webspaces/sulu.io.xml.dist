@@ -7,12 +7,8 @@
     <key>sulu_io</key>
 
     <localizations>
-        <localization language="en" shadow="auto">
-            <localization language="en" country="us" shadow="auto"/>
-        </localization>
-        <localization language="de">
-            <localization language="de" country="at"/>
-        </localization>
+        <localization language="en" default="true"/>
+        <localization language="de"/>
     </localizations>
 
     <theme>
@@ -36,12 +32,6 @@
                     <title lang="en">Mainnavigation</title>
                 </meta>
             </context>
-            <context key="footer">
-                <meta>
-                    <title lang="de">Footernavigation</title>
-                    <title lang="en">Footernavigation</title>
-                </meta>
-            </context>
         </contexts>
     </navigation>
 
@@ -53,30 +43,21 @@
                 <strategy>tree</strategy>
             </resource-locator>
 
-            <localizations>
-                <localization language="en" default="true"/>
-                <localization language="de"/>
-            </localizations>
-
             <environments>
                 <environment type="prod">
                     <urls>
-                        <url language="en">sulu.us</url>
-                        <url language="de">www.sulu.io</url>
                         <url>sulu.lo/{localization}</url>
                     </urls>
                     <custom-urls>
-                        <custom-url>*.sulu.lo</custom-url>
-                        <custom-url>*.sulu.io</custom-url>
+                        <custom-url>sulu.lo/*</custom-url>
                     </custom-urls>
                 </environment>
                 <environment type="stage">
                     <urls>
-                        <url>stage.sulu.lo/{localization}</url>
                         <url>sulu.lo/{localization}</url>
                     </urls>
                     <custom-urls>
-                        <custom-url>*.sulu.lo</custom-url>
+                        <custom-url>sulu.lo/*</custom-url>
                     </custom-urls>
                 </environment>
                 <environment type="dev">
@@ -85,7 +66,7 @@
                         <url language="en">localhost</url>
                     </urls>
                     <custom-urls>
-                        <custom-url>*.sulu.lo</custom-url>
+                        <custom-url>sulu.lo/*</custom-url>
                     </custom-urls>
                 </environment>
             </environments>
