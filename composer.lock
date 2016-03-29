@@ -2859,16 +2859,16 @@
         },
         {
             "name": "oro/doctrine-extensions",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orocrm/doctrine-extensions.git",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7"
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/068102e896c8739355b99b794d59d321dff655d7",
-                "reference": "068102e896c8739355b99b794d59d321dff655d7",
+                "url": "https://api.github.com/repos/orocrm/doctrine-extensions/zipball/2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
+                "reference": "2aab7d5f530d9bc115b6bdb4bf48fe3156453089",
                 "shasum": ""
             },
             "require": {
@@ -2909,7 +2909,7 @@
                 "postgresql",
                 "type"
             ],
-            "time": "2016-01-05 20:17:20"
+            "time": "2016-03-29 10:30:36"
         },
         {
             "name": "pagerfanta/pagerfanta",
@@ -3870,12 +3870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "abdfb1fb9664f9504471ad0e685e13f5f0917d33"
+                "reference": "53535554db3cbb681dfa674c142659d2802d5855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/abdfb1fb9664f9504471ad0e685e13f5f0917d33",
-                "reference": "abdfb1fb9664f9504471ad0e685e13f5f0917d33",
+                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/53535554db3cbb681dfa674c142659d2802d5855",
+                "reference": "53535554db3cbb681dfa674c142659d2802d5855",
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-29 09:28:27"
+            "time": "2016-03-29 11:48:47"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4129,7 +4129,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
