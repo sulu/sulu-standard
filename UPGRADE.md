@@ -1,5 +1,20 @@
 # Upgrade
 
+## 1.2.0-RC3
+
+### Twig function `sulu_resolve_user`
+
+This twig function returns now the user. To get the related contact use following code snippet:
+
+```twig
+{{ sulu_resolve_user(userId).contact.fullName }}
+```
+
+### Webspace validation
+
+Webspaces which have unused localizations by portals will now be not valid and ignored. Remove this
+localizations or add them to a portal.
+
 ## 1.2.0-RC2
 
 ### New security permission for cache
@@ -8,6 +23,15 @@ To be able to clear the cache the user need the permission LIVE in the
 webspace context.
 
 ## 1.2.0-RC1
+
+### Apache Dev Environment Variable
+
+The environment variable was deleted from the .htaccess, to use for all webserver the same default (prod).
+Configure your environment in your vhost(recommended) or web/.htaccess by add:
+
+```
+SetEnv SYMFONY_ENV dev
+```
 
 ### Symfony 2.8 Upgrade
 

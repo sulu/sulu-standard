@@ -1,8 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.2.0-RC3 (2016-03-29)
+    * ENHANCEMENT #574  [SULU-STANDARD]       Fixed Apache VHOST ENV variable
+    * BUGFIX      #2190 [WebsiteBundle]       Fixed wrong translator locale by decorating translator
+    * ENHANCEMENT #2192 [WebsiteBundle]       Added X-Generator HTTP header for Sulu website detection
+    * ENHANCEMENT #2086 [ContentBundle]       Improved presentation of info-text
+
 * 1.2.0-RC2 (2016-03-24)
-    * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
+    * BUGFIX      #640  [SULU-STANDARD]       Disable REST exception listener for the website
     * BUGFIX      #2183 [ContentBundle]       Added missing locale for loading route document
     * BUGIFX      #2178 [WebsiteBundle]       Added default IP anonymization for google analytics
     * BUGFIX      #2171 [ContentBundle]       Fixed saving of homepage
@@ -19,10 +25,10 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #2132 [Test]                Removed external classes from and refactored functional test class hierarchy
 
 * 1.2.0-RC1 (2016-03-18)
-    * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
-    * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
-    * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
-    * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * ENHANCEMENT #626  [SULU-STANDARD]       Get rid of the aliased evenement composer constraint
+    * BUGFIX      #618  [SULU-STANDARD]       Use the assetic integration of the LiipThemeBundle
+    * ENHANCEMENT #598  [SULU-STANDARD]       Added TranslateBundle for its commands
+    * FEATURE     #592  [SULU-STANDARD]       Added translation and configuration for collaboration feature
     * FEATURE     #1288 [All]                 Added deep-links for selection content-types
     * BUGFIX      #2131 [WebsiteBundle]       Fixed 'getTheme' error in ExceptionController
     * ENHANCEMENT #2131 [CoreBundle]          Added request attributes to extract data from request
