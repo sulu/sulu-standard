@@ -46,7 +46,7 @@
             <environments>
                 <environment type="prod">
                     <urls>
-                        <url>sulu.lo/{localization}</url>
+                        <url>{host}/{localization}</url>
                     </urls>
                     <custom-urls>
                         <custom-url>sulu.lo/*</custom-url>
@@ -54,7 +54,7 @@
                 </environment>
                 <environment type="stage">
                     <urls>
-                        <url>sulu.lo/{localization}</url>
+                        <url>{host}/{localization}</url>
                     </urls>
                     <custom-urls>
                         <custom-url>sulu.lo/*</custom-url>
@@ -62,8 +62,7 @@
                 </environment>
                 <environment type="dev">
                     <urls>
-                        <url>sulu.lo/{localization}</url>
-                        <url language="en">localhost</url>
+                        <url>{host}/{localization}</url>
                     </urls>
                     <custom-urls>
                         <custom-url>sulu.lo/*</custom-url>
