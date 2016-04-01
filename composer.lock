@@ -3819,12 +3819,12 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sulu-io/sulu-document-manager.git",
+                "url": "https://github.com/sulu/sulu-document-manager.git",
                 "reference": "d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e",
                 "reference": "d7cc13f8b5c627e644c1ddae4a2d9b4f5606706e",
                 "shasum": ""
             },
@@ -3866,13 +3866,13 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "485367624f07429c4ec267783f669278465fd033"
+                "url": "https://github.com/sulu/sulu.git",
+                "reference": "3b3c15ec28bff74128bcfe1f5fd33a4218cf68d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/485367624f07429c4ec267783f669278465fd033",
-                "reference": "485367624f07429c4ec267783f669278465fd033",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/3b3c15ec28bff74128bcfe1f5fd33a4218cf68d1",
+                "reference": "3b3c15ec28bff74128bcfe1f5fd33a4218cf68d1",
                 "shasum": ""
             },
             "require": {
@@ -3965,7 +3965,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-29 14:59:57"
+            "time": "2016-04-01 13:00:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
