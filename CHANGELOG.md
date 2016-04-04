@@ -9,6 +9,10 @@ CHANGELOG for Sulu CMF
     * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
     * ENHANCEMENT #574  [SULU-STANDARD]   Fixed Apache VHOST ENV variable 
 
+* 1.1.11 (2016-04-04)
+    * HOTFIX      #2143 [ContactBundle]     Fixed account cget filtering of ids
+    * HOTFIX      #2102 [ContactBundle]     Added filter for account tags
+
 * 1.1.10 (2016-03-07)
     * ENHANCEMENT #611  [SULU-STANDARD]     Added oro doctrine extension for group-concat and other functions
     * HOTFIX      #2029 [WebsiteBundle]     Removed single alternate link in sitemap.xml
