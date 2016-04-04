@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7eadc489faddc3fdac3f4a12d991eab8",
-    "content-hash": "b1a8bc4b26e8fe2b49141f40b6e226dc",
+    "hash": "056ea94587591870f23e97cf0f0780bb",
+    "content-hash": "899d819f31648f3b7a8440eeec63dd7a",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3693,12 +3693,12 @@
             "version": "0.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sulu-io/sulu-document-manager.git",
+                "url": "https://github.com/sulu/sulu-document-manager.git",
                 "reference": "b3f69c6f01733b569d78fcc88c35bb616a4b6821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu-document-manager/zipball/b3f69c6f01733b569d78fcc88c35bb616a4b6821",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/b3f69c6f01733b569d78fcc88c35bb616a4b6821",
                 "reference": "b3f69c6f01733b569d78fcc88c35bb616a4b6821",
                 "shasum": ""
             },
@@ -3737,16 +3737,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.1.10",
+            "version": "1.1.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sulu-io/sulu.git",
-                "reference": "3e02ec0b1b15af66a6a732aa0ad6a71ebccf36e6"
+                "url": "https://github.com/sulu/sulu.git",
+                "reference": "38e1732ed0cbbaa10f62595ffb3bb2e56cf90b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu-io/sulu/zipball/3e02ec0b1b15af66a6a732aa0ad6a71ebccf36e6",
-                "reference": "3e02ec0b1b15af66a6a732aa0ad6a71ebccf36e6",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/38e1732ed0cbbaa10f62595ffb3bb2e56cf90b8c",
+                "reference": "38e1732ed0cbbaa10f62595ffb3bb2e56cf90b8c",
                 "shasum": ""
             },
             "require": {
@@ -3836,7 +3836,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-03-07 09:35:18"
+            "time": "2016-04-04 13:00:17"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5214,7 +5214,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/473a9f3ebe0c134ee1e623ce8a9c852832020288",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/c903525202291889fffadde7d8fb4665dd8ac270",
                 "reference": "bedbf1999c7ba1bc6921b30ee2eadf383e7ff5c9",
                 "shasum": ""
             },
