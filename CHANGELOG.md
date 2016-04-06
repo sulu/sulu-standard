@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #659  [SULU-STANDARD]   Removed custom-urls from webspace dist files
     * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
     * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
     * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
