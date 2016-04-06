@@ -48,25 +48,16 @@
                     <urls>
                         <url>{host}/{localization}</url>
                     </urls>
-                    <custom-urls>
-                        <custom-url>sulu.lo/*</custom-url>
-                    </custom-urls>
                 </environment>
                 <environment type="stage">
                     <urls>
                         <url>{host}/{localization}</url>
                     </urls>
-                    <custom-urls>
-                        <custom-url>sulu.lo/*</custom-url>
-                    </custom-urls>
                 </environment>
                 <environment type="dev">
                     <urls>
                         <url>{host}/{localization}</url>
                     </urls>
-                    <custom-urls>
-                        <custom-url>sulu.lo/*</custom-url>
-                    </custom-urls>
                 </environment>
             </environments>
         </portal>
