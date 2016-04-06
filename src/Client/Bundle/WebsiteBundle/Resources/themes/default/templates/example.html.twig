@@ -41,11 +41,12 @@
                     {% elseif block.type == 'editor_image' %}
                         {% set viewBlock = view.blocks[loop.index - 1] %}
                         {% if viewBlock.images is not null %}
-                            {% if viewBlock.images.displayOption == 'top' %}
+                            {% set displayOption = viewBlock.images.displayOption|default('top') %}
+                            {% if displayOption == 'top' %}
                                 {% set float = 'none' %}
-                            {% elseif viewBlock.images.displayOption == 'left' %}
+                            {% elseif displayOption == 'left' %}
                                 {% set float = 'left' %}
-                            {% elseif viewBlock.images.displayOption == 'right' %}
+                            {% elseif displayOption == 'right' %}
                                 {% set float = 'right' %}
                             {% endif %}
 
