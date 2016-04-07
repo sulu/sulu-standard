@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "94be38f622ee895a6f7c6c1c096912e0",
+    "hash": "c258f2cdcf958f176e36464ef837c300",
     "content-hash": "ac3cc7c44f0960abd93b0ea77390b604",
     "packages": [
         {
@@ -1200,16 +1200,16 @@
         },
         {
             "name": "doctrine/phpcr-odm",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm.git",
-                "reference": "62bbd2f469c464ad6c300fb9fa7712c8e004396c"
+                "reference": "094accbb0c5e3394cde29b26ec1db8f7abeb08c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/62bbd2f469c464ad6c300fb9fa7712c8e004396c",
-                "reference": "62bbd2f469c464ad6c300fb9fa7712c8e004396c",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/094accbb0c5e3394cde29b26ec1db8f7abeb08c0",
+                "reference": "094accbb0c5e3394cde29b26ec1db8f7abeb08c0",
                 "shasum": ""
             },
             "require": {
@@ -1276,7 +1276,7 @@
                 "odm",
                 "phpcr"
             ],
-            "time": "2015-12-08 16:42:00"
+            "time": "2016-04-06 05:20:39"
         },
         {
             "name": "evenement/evenement",
@@ -2559,12 +2559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "855ce8380094c7670150f17b83888a56a173b879"
+                "reference": "e523b11ef0bf6c95107ed51547c05aa8e359a41f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/855ce8380094c7670150f17b83888a56a173b879",
-                "reference": "855ce8380094c7670150f17b83888a56a173b879",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/e523b11ef0bf6c95107ed51547c05aa8e359a41f",
+                "reference": "e523b11ef0bf6c95107ed51547c05aa8e359a41f",
                 "shasum": ""
             },
             "require": {
@@ -2580,7 +2580,7 @@
                 "doctrine/orm": "~2.4",
                 "elasticsearch/elasticsearch": "~1.3",
                 "matthiasnoback/symfony-dependency-injection-test": "0.7.1",
-                "phpbench/phpbench": "~1.0@dev",
+                "phpbench/phpbench": "~0.10.0",
                 "phpbench/tabular": "@dev",
                 "symfony-cmf/testing": "dev-master",
                 "symfony/symfony": "~2.6",
@@ -2589,6 +2589,7 @@
             },
             "suggest": {
                 "elasticsearch/elasticsearch": "To use Elasticsearch",
+                "sensio/distribution-bundle": "Required if the SearchScriptHandler is used",
                 "zendframework/zend-stdlib": "(dependency of zendsearch)",
                 "zendframework/zendsearch": "To use the PHP based Zend Search library (based on Lucene)"
             },
@@ -2614,7 +2615,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-02-25 09:54:56"
+            "time": "2016-04-07 14:12:38"
         },
         {
             "name": "monolog/monolog",
@@ -3867,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "3c50fbd97c53eeffb9c8c5005ed073b495ba45c0"
+                "reference": "d70c83aa9a43cb50534863b898acdb12d6453a16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/3c50fbd97c53eeffb9c8c5005ed073b495ba45c0",
-                "reference": "3c50fbd97c53eeffb9c8c5005ed073b495ba45c0",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/d70c83aa9a43cb50534863b898acdb12d6453a16",
+                "reference": "d70c83aa9a43cb50534863b898acdb12d6453a16",
                 "shasum": ""
             },
             "require": {
@@ -3965,7 +3966,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-04-04 16:24:12"
+            "time": "2016-04-07 12:01:08"
         },
         {
             "name": "swiftmailer/swiftmailer",

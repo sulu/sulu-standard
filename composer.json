@@ -55,7 +55,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
-            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
+            "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -64,7 +65,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
-            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
+            "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ]
     },
     "config": {
