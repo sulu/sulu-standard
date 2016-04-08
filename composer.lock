@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "d70c83aa9a43cb50534863b898acdb12d6453a16"
+                "reference": "9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/d70c83aa9a43cb50534863b898acdb12d6453a16",
-                "reference": "d70c83aa9a43cb50534863b898acdb12d6453a16",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c",
+                "reference": "9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c",
                 "shasum": ""
             },
             "require": {
@@ -3927,7 +3927,6 @@
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
                 "phpunit/phpunit": ">=4.8.0",
                 "sensio/framework-extra-bundle": "~3.0",
-                "symfony-cmf/testing": "dev-master",
                 "symfony/monolog-bundle": "2.4.*",
                 "twig/twig": "~1.11",
                 "zendframework/zend-stdlib": "~2.3",
@@ -3966,7 +3965,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-04-07 12:01:08"
+            "time": "2016-04-08 12:51:15"
         },
         {
             "name": "swiftmailer/swiftmailer",
