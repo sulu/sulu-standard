@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c"
+                "reference": "bbdf945409ed6b7e6ddb72c2f9b826b2ef6f820f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c",
-                "reference": "9fd92ac44bd61ed8d1c2d41b24df89e51062cb5c",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/bbdf945409ed6b7e6ddb72c2f9b826b2ef6f820f",
+                "reference": "bbdf945409ed6b7e6ddb72c2f9b826b2ef6f820f",
                 "shasum": ""
             },
             "require": {
@@ -3965,7 +3965,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-04-08 12:51:15"
+            "time": "2016-04-08 13:27:29"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4025,12 +4025,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/CoreBundle.git",
+                "url": "https://github.com/symfony-cmf/core-bundle.git",
                 "reference": "496e5f39c99afe41ab93f008586bdb8c3082ef82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/496e5f39c99afe41ab93f008586bdb8c3082ef82",
+                "url": "https://api.github.com/repos/symfony-cmf/core-bundle/zipball/496e5f39c99afe41ab93f008586bdb8c3082ef82",
                 "reference": "496e5f39c99afe41ab93f008586bdb8c3082ef82",
                 "shasum": ""
             },
@@ -4144,12 +4144,12 @@
             "target-dir": "Symfony/Cmf/Bundle/RoutingBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/RoutingBundle.git",
+                "url": "https://github.com/symfony-cmf/routing-bundle.git",
                 "reference": "46937814d7430e637940714abf1e48cea4996ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/46937814d7430e637940714abf1e48cea4996ea4",
+                "url": "https://api.github.com/repos/symfony-cmf/routing-bundle/zipball/46937814d7430e637940714abf1e48cea4996ea4",
                 "reference": "46937814d7430e637940714abf1e48cea4996ea4",
                 "shasum": ""
             },
