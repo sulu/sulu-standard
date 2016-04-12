@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b2c5b515e2057ffd7d344c731dea644b",
-    "content-hash": "bcf142175d8c8f966abdb81e9e35ae5e",
+    "hash": "136e81523ffcd56f27ca95d54f9d76fc",
+    "content-hash": "97d78ce2cb9f44437b1b482fc6fa75eb",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3864,16 +3864,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.2.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "49ec48b080f8b768bd1e746af1f4617ae46fffad"
+                "reference": "ab19f81cc2eb00eaa6a68b1fe2d319b08664e4f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/49ec48b080f8b768bd1e746af1f4617ae46fffad",
-                "reference": "49ec48b080f8b768bd1e746af1f4617ae46fffad",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/ab19f81cc2eb00eaa6a68b1fe2d319b08664e4f1",
+                "reference": "ab19f81cc2eb00eaa6a68b1fe2d319b08664e4f1",
                 "shasum": ""
             },
             "require": {
@@ -3965,7 +3965,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-04-12 06:59:30"
+            "time": "2016-04-12 07:07:43"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6276,6 +6276,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
