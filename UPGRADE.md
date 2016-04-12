@@ -1,5 +1,12 @@
 # Upgrade
 
+## 1.2.0
+
+### sulu_content_path
+
+The twig function `sulu_content_path('/path')` now always returning the full-qualified-domain
+`http://www.sulu.io/de/path`.
+
 ## 1.2.0-RC4
 
 ### Custom-Routes

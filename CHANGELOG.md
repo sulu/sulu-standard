@@ -1,7 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-develop
+* 1.2.0 (2016-04-12)
     * ENHANCEMENT #660  [SULU-STANDARD]   Added composer script handler from MassiveSearchBundle
     * ENHANCEMENT #659  [SULU-STANDARD]   Removed custom-urls from webspace dist files
     * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
