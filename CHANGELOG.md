@@ -1,6 +1,16 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #660  [SULU-STANDARD]   Added composer script handler from MassiveSearchBundle
+    * ENHANCEMENT #659  [SULU-STANDARD]   Removed custom-urls from webspace dist files
+    * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
+    * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
+    * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
+    * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
+    * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * ENHANCEMENT #574  [SULU-STANDARD]   Fixed Apache VHOST ENV variable 
+
 * 1.2.0-RC4 (2016-04-04)
     * BUGFIX      #2233 [ContentBundle]       Fixed resource locators for saving without locale
     * BUGFIX      #2232 [ContentBundle]       Updated condition to open ghost overlay

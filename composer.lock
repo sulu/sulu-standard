@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4d308a6d1b97c4d0a39a0603354ae783",
+    "hash": "4411336f109bd9b37d059505db98bb49",
     "content-hash": "075237aa76e21af2d0dc40dc2e0a8162",
     "packages": [
         {
@@ -1200,16 +1200,16 @@
         },
         {
             "name": "doctrine/phpcr-odm",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm.git",
-                "reference": "62bbd2f469c464ad6c300fb9fa7712c8e004396c"
+                "reference": "094accbb0c5e3394cde29b26ec1db8f7abeb08c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/62bbd2f469c464ad6c300fb9fa7712c8e004396c",
-                "reference": "62bbd2f469c464ad6c300fb9fa7712c8e004396c",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/094accbb0c5e3394cde29b26ec1db8f7abeb08c0",
+                "reference": "094accbb0c5e3394cde29b26ec1db8f7abeb08c0",
                 "shasum": ""
             },
             "require": {
@@ -1276,7 +1276,7 @@
                 "odm",
                 "phpcr"
             ],
-            "time": "2015-12-08 16:42:00"
+            "time": "2016-04-06 05:20:39"
         },
         {
             "name": "evenement/evenement",
@@ -4025,12 +4025,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/CoreBundle.git",
+                "url": "https://github.com/symfony-cmf/core-bundle.git",
                 "reference": "496e5f39c99afe41ab93f008586bdb8c3082ef82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/496e5f39c99afe41ab93f008586bdb8c3082ef82",
+                "url": "https://api.github.com/repos/symfony-cmf/core-bundle/zipball/496e5f39c99afe41ab93f008586bdb8c3082ef82",
                 "reference": "496e5f39c99afe41ab93f008586bdb8c3082ef82",
                 "shasum": ""
             },
@@ -4144,12 +4144,12 @@
             "target-dir": "Symfony/Cmf/Bundle/RoutingBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/RoutingBundle.git",
+                "url": "https://github.com/symfony-cmf/routing-bundle.git",
                 "reference": "46937814d7430e637940714abf1e48cea4996ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/46937814d7430e637940714abf1e48cea4996ea4",
+                "url": "https://api.github.com/repos/symfony-cmf/routing-bundle/zipball/46937814d7430e637940714abf1e48cea4996ea4",
                 "reference": "46937814d7430e637940714abf1e48cea4996ea4",
                 "shasum": ""
             },
