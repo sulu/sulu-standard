@@ -3,23 +3,22 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "1.1.11",
+    "version": "1.2.0",
     "autoload": {
         "psr-0": {
-            "": "src/"
+            "": "src/",
+            "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
         }
     },
     "require": {
         "php": ">=5.5",
-        "symfony/symfony": "2.6.*",
         "twig/extensions": "~1.0",
         "symfony/assetic-bundle": "~2.3",
-        "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~3.0",
-        "sensio/framework-extra-bundle": "~3.0",
+        "sensio/distribution-bundle": "~5.0",
+        "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "1.1.*",
+        "sulu/sulu": "~1.2.0",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
@@ -31,15 +30,14 @@
 
         "massive/build-bundle": "0.2.*",
 
-        "jackalope/jackalope-doctrine-dbal": "~1.2.0",
+        "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
         "doctrine/doctrine-cache-bundle": "~1.0",
-        "evenement/evenement": "2.0.0 as 1.0.0",
         "oro/doctrine-extensions": "^1.0"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3",
-        "sauce/sausage": "0.9.*",
+        "sensio/generator-bundle": "~3.0",
+        "symfony/phpunit-bridge": "~2.7",
         "phpcr/phpcr-shell": "@beta",
         "behat/behat": "~3.0.0",
         "behat/mink-extension": "~2.0@dev",
@@ -53,7 +51,9 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
+            "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ],
         "post-update-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
@@ -61,7 +61,9 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
+            "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ]
     },
     "config": {

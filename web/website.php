@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of Sulu.
+ *
+ * (c) MASSIVE ART WebServices GmbH
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
@@ -19,7 +28,8 @@ if (SULU_MAINTENANCE && file_exists($maintenanceFilePath)) {
     }
 }
 
-$loader = require_once __DIR__ . '/../app/bootstrap.php.cache';
+$loader = require __DIR__ . '/../app/autoload.php';
+include_once __DIR__ . '/../app/bootstrap.php.cache';
 
 if (SYMFONY_DEBUG) {
     Debug::enable();

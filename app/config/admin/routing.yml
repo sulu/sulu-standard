@@ -54,6 +54,7 @@ sulu_category:
     prefix: /admin/category
 
 sulu_category_api:
+    type: rest
     resource: "@SuluCategoryBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
@@ -70,6 +71,11 @@ sulu_website:
     resource: "@SuluWebsiteBundle/Resources/config/routing.yml"
     prefix: /admin/website
 
+sulu_website_api:
+    resource: "@SuluWebsiteBundle/Resources/config/routing_api.yml"
+    type: rest
+    prefix: /admin/api
+
 sulu_websocket:
     type: rest
     resource: "@SuluWebsocketBundle/Resources/config/routing.yml"
@@ -78,6 +84,11 @@ sulu_websocket:
 sulu_core:
     type: rest
     resource: "@SuluCoreBundle/Resources/config/routing_api.xml"
+    prefix: /admin/api
+
+sulu_custom_urls_api:
+    type: rest
+    resource: "@SuluCustomUrlBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
 # for preview

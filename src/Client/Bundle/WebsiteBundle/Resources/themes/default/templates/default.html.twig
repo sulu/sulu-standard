@@ -32,7 +32,7 @@
 
                 <h3>Images</h3>
 
-                <div class="row {{ view.images.displayOption }}" property="images" typeof="collection">
+                <div class="row {{ view.images.displayOption|default('') }}" property="images" typeof="collection">
                     {% for image in content.images %}
                         <div class="col-lg-4" rel="images" typeof="images">
                             <img src="{{ image.thumbnails['170x170'] }}" alt="{{ image.name }}"/>

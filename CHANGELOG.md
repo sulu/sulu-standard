@@ -1,6 +1,166 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.2.0 (2016-04-12)
+    * BUGFIX      #2280 [ContentBundle]       Removed scrollbar from categories in overlay
+    * BUGFIX      #2281 [ContentBundle]       Use correct link for content tab in page form
+    * BUGFIX      #2273 [ContentBundle]       Fixed link generation for internal link type without webspace
+    * BUGFIX      #2274 [WebsiteBundle]       Fixed sulu-content-path with different webspace
+    * BUGFIX      #2269 [WebsiteBundle]       Added query string to redirect for internal links
+    * ENHANCEMENT #2189 [Travis]              Cache jackrabbit download
+    * BUGFIX      #2272 [ContentBundle]       Fixed ordering of pages for columns including ghosts
+    * BUGFIX      #2269 [WebsiteBundle]       Fixed domain switching in sulu-content path
+    * BUGFIX      #2271 [ContentBundle]       Fixed internal link webspace locale bug
+    * BUGFIX      #2267 [CategoryBundle]      Fixed collaboration component
+    * BUGFIX      #2255 [WebsocketBundle]     Introduced own websocket app to avoid connecting to port 8843
+    * BUGFIX      #2258 [WebsiteBundle]       Added validation of analytic type
+    * BUGFIX      #2251 [MediaBundle]         Fixed filter media by symstem-collection and type
+    * BUGFIX      #2252 [ContentBundle]       Fixed webspace in permission check
+    * BUGFIX      #2244 [AdminBundle]         Fixed login with enter for Safari and IE
+    * BUGFIX      #2245 [CustomUrlBundle]     Removed double wildcard for custom-url
+    * BUGFIX      #2242 [MediaBundle]         Fixed leaking events after uploading new media version
+    * BUGFIX      #2235 [ContentBundle]       Fixed validation of resource-segments
+    * BUGFIX      #2238 [ContentBundle]       Fixed URL in SEO tab
+    * BUGFIX      #2237 [MediaBundle]         Added locale to request for adding new media version
+    * BUGFIX      #2236 [ContentBundle]       Fixed preview js errors
+    * ENHANCEMENT #660  [SULU-STANDARD]   Added composer script handler from MassiveSearchBundle
+    * ENHANCEMENT #659  [SULU-STANDARD]   Removed custom-urls from webspace dist files
+    * BUGFIX      #640  [SULU-STANDARD]   Disable REST exception listener for the website
+    * ENHANCEMENT #626  [SULU-STANDARD]   Get rid of the aliased evenement composer constraint
+    * BUGFIX      #618  [SULU-STANDARD]   Use the assetic integration of the LiipThemeBundle
+    * ENHANCEMENT #598  [SULU-STANDARD]   Added TranslateBundle for its commands
+    * FEATURE     #592  [SULU-STANDARD]   Added translation and configuration for collaboration feature
+    * ENHANCEMENT #574  [SULU-STANDARD]   Fixed Apache VHOST ENV variable
+
+* 1.2.0-RC4 (2016-04-04)
+    * BUGFIX      #2233 [ContentBundle]       Fixed resource locators for saving without locale
+    * BUGFIX      #2232 [ContentBundle]       Updated condition to open ghost overlay
+    * BUGFIX      #2229 [WebsiteBundle]       Fixed escaping of seo tags
+    * BUGFIX      #2233 [CustomUrlBundle]     Fixed remove selected webspace-locale
+    * ENHANCEMENT #2220 [ContentBundle]       Removed routable behavior and moved logic route-subscriber
+    * BUGFIX      #2219 [ContentBundle]       Fixed changing template when disabling shadow page
+    * ENHANCEMENT #2216 [ContentBundle]       Fixed hide add button if user has no add permission for webspace
+    * ENHANCEMENT #2216 [All]                 Added KernelTestCase::assertHttpStatusCode method
+    * BUGFIX      #2217 [MediaBundle]         Fixed ui-bugs in media-collections
+    * ENHANCEMENT #2214 [WebsiteBundle]       Added website default locale providers
+    * ENHANCEMENT #2208 [AdminBundle]         Added require-js url args to avoid wrong cache hits
+    * ENHANCEMENT #2206 [WebsiteBundle]       Added security contexts to webspace settings
+    * ENHANCEMENT #2206 [SnippetBundle]       Added security contexts to webspace settings
+    * ENHANCEMENT #2206 [CustomUrlBundle]     Added security contexts to webspace settings
+    * ENHANCEMENT #2209 [ContentBundle]       Added open-ghost overlay on change-locale in content-form
+    * ENHANCEMENT #2211 [ContentBundle]       Improved translations and UI of seo tab
+    * ENHANCEMENT #1980 [MediaBundle]         Sort assets by created date descending in lists
+    * BUGFIX      #2193 [ContentBundle]       Ignore required properties on homepages during initialization.
+    * BUGFIX      #2199 [SnippetBundle]       Fixed syntax mistake in snippet-controller
+    * ENHANCEMENT #2204 [WebsiteBundle]       Enhanced custom-route creation
+    * FEATURE     #2201 [All]                 Added collaboration message to all sulu core-bundles
+    * ENHANCEMENT #2196 [AdminBundle]         Restructured admin-navigation
+    * FEATURE     #2197 [MediaBundle]         Added media field credits
+    * FEATURE     #2203 [WebsiteBundle]       Added host replacer to portal routes to support wildcard-urls
+    * FEATURE     #2155 [MediaBundle]         Added media formats to masonry-view and edit-overlay
+    * FEATURE     #2191 [All]                 Appveyor build for windows
+
+* 1.2.0-RC3 (2016-03-29)
+    * ENHANCEMENT #574  [SULU-STANDARD]       Fixed Apache VHOST ENV variable
+    * BUGFIX      #2190 [WebsiteBundle]       Fixed wrong translator locale by decorating translator
+    * ENHANCEMENT #2192 [WebsiteBundle]       Added X-Generator HTTP header for Sulu website detection
+    * ENHANCEMENT #2086 [ContentBundle]       Improved presentation of info-text
+
+* 1.2.0-RC2 (2016-03-24)
+    * BUGFIX      #640  [SULU-STANDARD]       Disable REST exception listener for the website
+    * BUGFIX      #2183 [ContentBundle]       Added missing locale for loading route document
+    * BUGIFX      #2178 [WebsiteBundle]       Added default IP anonymization for google analytics
+    * BUGFIX      #2171 [ContentBundle]       Fixed saving of homepage
+    * BUGFIX      #2172 [CustomUrlBundle]     Added check for custom-url placeholder
+    * BUGFIX      #2166 [WebsiteBundle]       Fixed analytics type change
+    * ENHANCEMENT #2168 [WebsiteBundle]       Changed request to purge cache from GET to DELETE
+    * BUGFIX      #2169 [CustomUrlBundle]     Fixed dropdown of custom-url target locales
+    * BUGFIX      #2152 [ContentBundle]       Fixed not empty request body for delete history url
+    * BUGIFX      #2141 [ContentBundle]       Fixed page gets immediately saved after generating URL
+    * BUGFIX      #2156 [SecurityBundle]      Fixed behat context to create correct roles
+    * BUGFIX      #2152 [ContentBundle]       Fixed not empty request body for delete history url
+    * BUGFIX      #2157 [CustomUrlBundle]     Fixed route-validation in request processor
+    * ENHANCEMENT #1288 [CoreBundle]          Introduced lazy initialization of request attributes
+    * ENHANCEMENT #2132 [Test]                Removed external classes from and refactored functional test class hierarchy
+
+* 1.2.0-RC1 (2016-03-18)
+    * ENHANCEMENT #626  [SULU-STANDARD]       Get rid of the aliased evenement composer constraint
+    * BUGFIX      #618  [SULU-STANDARD]       Use the assetic integration of the LiipThemeBundle
+    * ENHANCEMENT #598  [SULU-STANDARD]       Added TranslateBundle for its commands
+    * FEATURE     #592  [SULU-STANDARD]       Added translation and configuration for collaboration feature
+    * FEATURE     #1288 [All]                 Added deep-links for selection content-types
+    * BUGFIX      #2131 [WebsiteBundle]       Fixed 'getTheme' error in ExceptionController
+    * ENHANCEMENT #2131 [CoreBundle]          Added request attributes to extract data from request
+    * ENHANCEMENT #2130 [MediaBundle]         Add support for newer symfony distributions with `bin/` directory
+    * BUGFIX      #2128 [All]                 Fix required version of PHP to support only ^5.5 and ^7.0
+    * BUGFIX      #2126 [ContactBundle]       Excluded recursion in accounts REST API
+    * BUGFIX      #2126 [All]                 Fixed firefox bug in label tick
+    * FEATURE     #1927 [CustomUrlBundle]     Added custom-url feature
+    * ENHANCEMENT #2122 [All]                 Disable xdebug on Travis to speed up composer and tests
+    * ENHANCEMENT #2120 [All]                 Change bundle tests to use their own phpunit config and move `SYMFONY_DEPRECATIONS_HELPER` var into
+    * BUGFIX      #2091 [MediaBundle]         Fixed routing when clicking of the data-navigation search-icon
+    * ENHANCEMENT #2121 [All]                 Cache composer cache dir and prefer dist downloads on Travis
+    * ENHANCEMENT #2114 [All]                 Update ffmpeg bundle and lib
+    * ENHANCEMENT #2116 [All]                 Made restart of jackrabbit between tests configureable
+    * ENHANCEMENT #2107 [WebsiteBundle]       Fixed portal redirect to local
+    * FEATURE     #2099 [AdminBundle]         Implemented tab-conditions
+    * BUGFIX      #2090 [MediaBundle]         Fixed fallback of media file-version meta
+    * BUGFIX      #2092 [ContactBundle]       Fixed new contact when creating a new contact in the account
+    * BUGFIX      #2103 [MediaBundle]         Fixed upload new version for media without thumbnail
+    * BUGFIX      #2100 [ContactBundle]       Fixed switching tab in contact and account after save
+    * ENHANCEMENT #2097 [TranslateBundle]     Fixed translation code length in database schema
+    * BUGIFX      #2093 [ContactBundle]       Fixed auto-select new position and title
+    * BUGFIX      #2094 [CategoryBundle]      Fixed maximum length of category-key
+    * BUGFIX      #2082 [ContentBundle]       Fixed block type don't triggers save-button
+    * ENHANCEMENT #2082 [All]                 Get rid of the aliased evenement composer constraint
+    * BUGFIX      #2088 [ContentBundle]       Fixed matrix for object permission tab
+    * ENHANCEMENT #2035 [ContentBundle]       Add structure type to index
+    * FEATURE     #2076 [All]                 Better content repository initialization, deprecated sulu:phpcr:init & sulu:webspaces:init
+    * FEATURE     #2032 [CategoryBundle]      Added category keywords
+    * BUGFIX      #2058 [ListBuilder]         Fixed cache for field-descriptor
+    * ENHANCEMENT #2034 [ContentBundle]       Improved content-bundle testcases
+    * ENHANCEMENT #2036 [SecurityBundle]      Introduced different permission types for different security contexts
+    * ENHANCEMENT #2014 [Content]             Allow `-` in webspace name.
+    * FEATURE     #1983 [ContentBundle]       Introduces hash check on save
+    * FEATURE     #1983 [SnippetBundle]       Introduces hash check on save
+    * ENHANCEMENT #1999 [SnippetBundle]       Snippet controller now uses DocumentManager and Serializer.
+    * ENHANCEMENT #2008 [ContactBundle]       Fixed sorting in contact selection content type
+    * ENHANCEMENT #1981 [ContentBundle]       Better search reindexing for structure content.
+    * FEATURE     #2001 [MediaBundle]         Clear local image cache via cache clear service and command
+    * BUGFIX      #1986 [All]                 Fixed naming of serializer properties
+    * BUGFIX      #2006 [ContentBundle]       Show loading button after validating form
+    * ENHANCEMENT #1987 [SecurityBundle]      Contact entity is required in User entity
+    * BUGFIX      #1985 [CollaborationBundle] Removed leaking connections
+    * ENHANCEMENT #1973 [All]                 Moved tests from /tests to component directories.
+    * ENHANCEMENT #1970 [ContentBundle]       Changed get and put from NodeController to use DocumentManager
+    * ENHANCEMENT #1956 [All]                 Removed Admin command registration
+    * ENHANCEMENT #1956 [TranslateBundle]     Removed entry in admin navigation
+    * BUGFIX      #1510 [Persistence]         Fetch user only if an entity with UserBlameInterface is detected
+    * FEATURE     #1233 [CollaborationBundle] Showing current collaborators of pages
+    * BUGFIX      #1944 [MediaBundle]         Removed wrong definition of indices
+    * FEATURE     #1921 [ContentBundle]       Added unset single internal link
+    * FEATURE     #1233 [ContentBundle]       Showing current collaborators of pages
+    * ENHANCEMENT #1936 [Webspace]            Cleanup of WebsiteRequestAnalyzer
+    * ENHANCEMENT #1937 [WebsiteBundle]       Removed unnecessary ob_clean in WebsiteController
+    * BUGFIX      #1931 [ContentBundle]       Fixed form deprecation messages
+    * BUGFIX      #1930 [ContentBundle]       Fixed updating values in combination
+                                              with template change
+    * FEATURE     #1912 [WebsiteBundle]       Added analytics to webspace settings
+    * FEATURE     #1906 [All]                 Added PHP 7 support
+    * FEATURE     #1922 [ContentBundle]       Added parameter to show toggler instead of checkbox
+    * BUGFIX      #1926 [ContentBundle]       Fixed preview for non-standard page document
+    * BUGFIX      #1874 [ContentBundle]       Fixed preview selector for blocks
+    * FEATURE     #1777 [ContentBundle]       Added selection content types
+    * BUGFIX      #1911 [SecurityBundle]      Fixed default locale user builder
+    * BUGFIX      #1915 [All]                 Removed deprecations of initial admin request
+    * FEATURE     #1851 [SnippetBundle]       Added default snippets webspace-settings
+    * FEATURE     #1851 [ContentBundle]       Added webspace-settings
+    * FEATURE     #1905 [All]                 Added french translation
+    * BUGFIX      #1893 [ContentBundle]       Fixed resource locator deferred for edit
+    * BUGIFX      #1871 [ContentBundle]       Fixed url-generation and save button
+    * BUGFIX      #1873 [ContactBundle]       Fixed remove title and position
+    * BUGFIX      #1873 [ContactBundle]       Fixed remove contact birthday
+
 * 1.1.11 (2016-04-04)
     * HOTFIX      #2143 [ContactBundle]     Fixed account cget filtering of ids
     * HOTFIX      #2102 [ContactBundle]     Added filter for account tags
@@ -52,7 +212,7 @@ CHANGELOG for Sulu CMF
 * 1.1.5 (2016-01-15)
     * HOTFIX      #---  [SULU-STANDARD]   Updated symfony/symfony to 2.6.13
     * HOTFIX      #1933 [AdminBundle]     Fixed password reset twig template
-    
+
 * 1.1.4 (2016-01-08)
     * HOTFIX      #1917 [MediaBundle]     Changed version name to original filename
 
@@ -72,19 +232,19 @@ CHANGELOG for Sulu CMF
     * HOTFIX      #1799 [ContentBundle]   Added 'published' field to be indexed
     * HOTFIX      #1866 [WebsiteBundle]   Added scheme to sitemap url generation
     * HOTFIX      #1861 [ContentBundle]   Added upgrade script which removes non-translated properties
-    
+
 * 1.1.1 (2015-12-07)
     * HOTFIX      #1857 [ContentBundle]   Fixed open ghost overlay
     * HOTFIX      #1857 [WebsiteBundle]   Fixed sitemap xml generation to improve performance
     * HOTFIX      #1859 [MediaBundle]     Fixed media-query if no search isset
     * BUGFIX      #1855 [ContactBundle]   Fixed displaying correct position when adding new person to organisation
     * HOTFIX      #1856 [MediaBundle]     Fixed delete copyright from media
-    * HOTFIX      #1856 [All]             Changed datagrid-pagination to input field to avoid performance leaks 
+    * HOTFIX      #1856 [All]             Changed datagrid-pagination to input field to avoid performance leaks
 
 * 1.1.0 (2015-12-02)
     * BUGFIX      #567  [SULU-STANDARD]   Fixed type map configuration parameter
     * ENHANCEMENT #566  [SULU-STANDARD]   Updated example template
-    * BUGFIX      #561  [SULU-STANDARD]   Fixed special character search 
+    * BUGFIX      #561  [SULU-STANDARD]   Fixed special character search
     * FEATURE     #562  [SULU-STANDARD]   Added prefixes to search indexes
     * ENHANCEMENT #550  [SULU-STANDARD]   Added translations and adapted SearchController
     * ENHANCEMENT #546  [SULU-STANDARD]   Track new .dist files in webspaces
@@ -132,7 +292,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #1793 [TagBundle]       Fixed tag-list preview update
     * BUGFIX      #1793 [CategoryBundle]  Fixed category-list preview update
     * BUGFIX      #1790 [MediaBundle]     Fixed collection twice after edit collection
-    * BUGFIX      #1792 [WebsiteBundle]   Fixed alternate links with custom x-default locale and remove links to 
+    * BUGFIX      #1792 [WebsiteBundle]   Fixed alternate links with custom x-default locale and remove links to
                                           homepage
     * FEATURE     #1712 [MediaBundle]     Added media data-provider
     * ENHANCEMENT #1779 [ContactBundle]   Added title to address list and fixed style of title
@@ -204,7 +364,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #1656 [ContentBundle]   Fixed preview nested properties
     * BUGFIX      #1656 [ContentBundle]   Fixed preview property attributes
     * BUGFIX      #1649 [ContentBundle]   Fixed floating of block type select
-    * BUGFIX      #1650 [LocationBundle]  Fixed configure overlay open multiple times 
+    * BUGFIX      #1650 [LocationBundle]  Fixed configure overlay open multiple times
     * BUGFIX      #1650 [ContentBundle]   Fixed serialization of null values
     * BUGFIX      #1650 [ContentBundle]   Fixed show ghost and shadow toggler in content column view
     * BUGFIX      #1646 [ContactBundle]   Fixed upload of contact-avatar when a position is applied to the contact
@@ -304,10 +464,10 @@ CHANGELOG for Sulu CMF
 
 * 1.0.15 (2015-11-13)
     * BUGFIX      #1191 [AdminBundle]    Fixed unique Navigation ID
-    
+
 * 1.0.14 (2015-11-12)
     * HOTFIX      #1771 [AdminBundle]    Fixed login translations if browser-locale is not translated
-    
+
 * 1.0.13 (2015-10-22)
     * HOTFIX      #1634 [SecurityBundle] Allow attribute overrides for user email field
     * HOTFIX      #1624 [ContentBundle]  Fixed nullable internal link and added server/clientside validation
@@ -322,7 +482,7 @@ CHANGELOG for Sulu CMF
 * 1.0.11 (2015-09-17)
     * HOTFIX      #1594 [Website] Fixed website request analyzer
     * HOTFIX      #1594 [Website] Fixed trailing slash for homepage
-    
+
 * 1.0.10 (2015-09-14)
     * HOTFIX      #1572 [ContentBundle]         Fixed select overlay for internal link node type
     * HOTFIX      #1567 [Document]              Fixed localized property for url property
@@ -396,7 +556,7 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #1260 [All]            Removed or renamed all old update commands
     * ENHANCEMENT #1090 [All]            Introduced DocumentManager
     * BUGFIX      #1295 [ContentBundle]  Fixed call of changed event from MassiveSearchBundle
-    * ENHANCEMENT #1230 [ContactBundle]  Introduced the new `PersistenceBundle` which makes entities easy replaceable. 
+    * ENHANCEMENT #1230 [ContactBundle]  Introduced the new `PersistenceBundle` which makes entities easy replaceable.
                                          Added this functionality for the contact entity.
 
 * 1.0.0-RC2 (2015-06-17)
@@ -426,7 +586,7 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #1159 [SecurityBundle] Change role naming to keep symfony2 conventions.
     * BUGFIX      #1156 [MediaBundle]    Fix mimetype check for ghostscript
     * BUGFIX      #1163 [ContentBundle]  Set existing default for content language
-    
+
 * 1.0.0-RC1 (2015-05-29)
     * ENHANCEMENT #1148 [SecurityBundle] Moved user specific code from UserController to UserManager
     * BUGFIX      #1147 [MediaBUndle]    Fixes fileVersion created date
@@ -467,7 +627,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #1065 [AdminBundle]    Second try: Fixed 1Password css bug on login screen
     * BUGFIX      #--   [AdminBundle]    Fixed login for IE see [commit](https://github.com/sulu-io/sulu/commit/a50e48aa83d360b93b5db0a63300c2799d3bc8ab)
     * BUGFIX      #1045 [MediaBundle]    Fixed upload new media version
-    * FEATURE     #496  [ContentBundle]  SmartContent: change default tag filter to OR operation and user can decide to use OR or AND    
+    * FEATURE     #496  [ContentBundle]  SmartContent: change default tag filter to OR operation and user can decide to use OR or AND
     * ENHANCEMENT #1039 [ContactBundle]  Auto select new title or positions in contact form
     * ENHANCEMENT #--   [MediaBundle]    Added function to get base media types
     * ENHANCEMENT #1031 [MediaBundle]    Fixed success label for collection delete
@@ -475,12 +635,12 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #945  [WebsiteBundle]  Fix Redirect url with query string correctly and trailing slash
     * ENHANCEMENT #1029 [All]            Removed prefixes from content navigation providers and admins
     * FEATURE     #1014 [MediaBundle]    Added media preview in edit overlay
-    * BUGFIX      #1026 [MediaBundle]    Fixed collection and category behat tests 
+    * BUGFIX      #1026 [MediaBundle]    Fixed collection and category behat tests
     * BUGFIX      #1030 [WebsiteBundle]  Fixed exception-controller to resolve parameters like website-controller
     * FEATURE     #1030 [WebsiteBundle]  Added configuration for error templates to webspace-config
 
 * 0.17.0 (2015-04-20)
-    * ENHANCEMENT #437 [MediaBundle]     Delete response_headers and ghostscript path from config, working defaults added 
+    * ENHANCEMENT #437 [MediaBundle]     Delete response_headers and ghostscript path from config, working defaults added
     * FEATURE     #931 [MediaBundle]     Add Media Version History Tab
     * ENHANCEMENT #428 [sulu-standard]   Removed ladybug bundle
     * FEATURE     #919 [ContentBundle]   Add Text editor option enable iframe, script tag and delete godMode
@@ -503,7 +663,7 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #951 [MediaBundle]     Made path to image-formats.xml configurateable
     * BUGFIX      #968 [MediaBundle]     Add wildcard support for media type check
     * ENHANCEMENT #988 [ContentBundle]   Set locale on render request
-    * BUGFIX      #994 [CategoryBundle]  Fixed category search  
+    * BUGFIX      #994 [CategoryBundle]  Fixed category search
     * ENHANCEMENT #988 [MediaBundle]     Set working defaults for ghostscript and caching headers
     * BUGFIX      #976 [MediaBundle]     Fix media scale mode parameter
     * FEATURE     #975 [MediaBundle]     Make Storage path and segments configurateable

@@ -37,7 +37,6 @@
                     </meta>
 
                     <tag name="sulu.rlp"/>
-                    <tag name="sulu.search.field" role="description"/>
                 </property>
             </properties>
         </section>

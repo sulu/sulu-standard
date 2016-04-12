@@ -6,7 +6,7 @@
         <description>{{ content.article }}</description>
         <language>{{ request.locale }}</language>
         {% set user = sulu_resolve_user(changer) %}
-        <copyright>{% if user != null %}{{ user.fullName }}{% endif %}</copyright>
+        <copyright>{% if user != null %}{{ user.contact.fullName }}{% endif %}</copyright>
         <pubDate>{{ changed|date('Y.m.d') }}</pubDate>
         {% for page in content.smartcontent %}
             <item>

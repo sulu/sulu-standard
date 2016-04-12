@@ -25,11 +25,11 @@ doctrine:
 
 # Doctrine cache providers
 doctrine_cache:
-   providers:
-       phpcr_meta:
-           type: %phpcr_cache%
-       phpcr_nodes:
-           type: %phpcr_cache%
+    providers:
+        phpcr_meta:
+            type: %phpcr_cache%
+        phpcr_nodes:
+            type: %phpcr_cache%
 
 # Doctrine Extension Configuration
 stof_doctrine_extensions:
@@ -65,8 +65,9 @@ sulu_core:
     locales:
         de: Deutsch
         en: English
+        fr: Français
     fallback_locale: 'en'
-    translations: ['de', 'en']
+    translations: ['de', 'en', 'fr']
     phpcr:
         backend:    "%phpcr_backend%"
         workspace:  "%phpcr_workspace%"
@@ -157,5 +158,5 @@ doctrine:
 
 # Just a dirty hack to get the jms serializer bundle correctly working
 # https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
-parameters:
-    jms_serializer.cache_naming_strategy.class: JMS\Serializer\Naming\IdenticalPropertyNamingStrategy
+services:
+    jms_serializer.cache_naming_strategy: @sulu_core.serialize_caching_strategy
