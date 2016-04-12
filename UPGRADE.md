@@ -1,6 +1,69 @@
 # Upgrade
 
-## dev-develop
+## 1.2.0
+
+### sulu_content_path
+
+The twig function `sulu_content_path('/path')` now always returning the full-qualified-domain
+`http://www.sulu.io/de/path`.
+
+## 1.2.0-RC4
+
+### Custom-Routes
+
+The naming of the custom-routes with `type: portal` has changed. You can use now the configured name
+and pass the host and prefix in the parameter. The current parameter will be populated in the variable
+`request.routeParameters`.
+
+__before:__
+```
+{{ path(request.portalUrl ~'.'~ request.locale ~ '.website_search') }}
+```
+
+__after:__
+```
+{{ path('website_search', request.routeParameters) }}
+```
+
+### Admin
+
+The navigation entry with the empty name wont be used in sulu anymore. It should be replaced by:
+
+__before:__
+
+```php
+    $section = new NavigationItem('');
+```
+
+__after:__
+
+```php
+    $section = new NavigationItem('navigation.modules');
+```
+
+## 1.2.0-RC3
+
+### Twig function `sulu_resolve_user`
+
+This twig function returns now the user. To get the related contact use following code snippet:
+
+```twig
+{{ sulu_resolve_user(userId).contact.fullName }}
+```
+
+### Webspace validation
+
+Webspaces which have unused localizations by portals will now be not valid and ignored. Remove this
+localizations or add them to a portal.
+
+## 1.2.0-RC2
+
+### New security permission for cache
+
+To be able to clear the cache the user need the permission LIVE in the
+webspace context.
+
+## 1.2.0-RC1
 
 ### Apache Dev Environment Variable
 
@@ -14,6 +77,167 @@ SetEnv SYMFONY_ENV dev
 ### Symfony 2.8 Upgrade
 
 Sulu has upgrade to Symfony 2.8. See the [Symfony Upgrade Guide](https://github.com/symfony/symfony-standard/blob/2.8/UPGRADE-2.8.md) for more information.
+
+### Document-Manager
+
+The Behaviors `TimestampBehavior` and `BlameBehavior` now save the values in the non-localized
+properties. To keep the old behavior use the `LocalizedTimestampBehavior` and
+`LocalizedBlameBehavior` instead.
+
+### Custom-URLS
+
+Additional system nodes added by the custom-url feature. Run following command to add
+them.
+
+```bash
+app/console sulu:document:initialize
+```
+
+### Deprecated sulu:phpcr:init and sulu:webspace:init
+
+The `sulu:phpcr:init` and `sulu:webspace:init` commands are now deprecated.
+Use the `sulu:document:initialize` command instead.
+
+### Translation Code
+
+The maximum length of the translation code was extended run the following
+command to update your database schema.
+
+### Category-Key
+
+Length of category-key column was extended. Use following command to update the schema definition.
+
+```bash
+app/console doctrine:schema:update --force
+```
+
+The name of symfony-routes which are loaded by the portal-loader has changed (e.g. the `website_search` route). The old
+keeps to work but are deprecated. If you want to use the custom-urls you have to upgrade your route generation in the
+twig-templates.
+
+__Before:__
+
+```twig
+{{ path(request.portalUrl ~ '.website_search') }}
+```
+
+__After:__
+
+```twig
+{{ path(request.portalUrl ~ '.' ~ request.locale ~ '.website_search') }}
+```
+
+### Definition of security contexts
+
+The definition of security contexts in the `Admin` classes has changed. They
+used to look like the following example:
+
+```php
+public function getSecurityContexts()
+{
+    return [
+        'Sulu' => [
+            'Media' => [
+                'sulu.media.collections',
+            ],
+        ],
+    ];
+}
+```
+
+Now you should also pass the permission types that you want to enable in the
+context:
+
+```php
+public function getSecurityContexts()
+{
+    return [
+        'Sulu' => [
+            'Media' => [
+                'sulu.media.collections' => [
+                    PermissionTypes::VIEW,
+                    PermissionTypes::ADD,
+                    PermissionTypes::EDIT,
+                    PermissionTypes::DELETE,
+                    PermissionTypes::SECURITY,
+                ],
+            ],
+        ],
+    ];
+}
+```
+
+By default, we will enable the permission types `VIEW`, `ADD`, `EDIT`, `DELETE`
+and `SECURITY` in your context.
+
+### Page search index
+
+The metadata for pages has changed. Run following command to update your search index
+
+```bash
+app/console massive:search:index:rebuild
+```
+
+### Media uploads
+
+Write permissions for the webserver must be set on `web/uploads` instead of
+`web/uploads/media` alone to support simple cache clearing.
+
+### BlameSubscriber
+
+The BlameBehavior has been moved from the DocumentManager component to the
+Sulu Content component. Documents which implemented
+`Sulu\Component\DocumentManager\Behavior\Audit\BlameBehavior` should now
+implement `Sulu\Component\Content\Document\Behavior\BlameBehavior` instead.
+
+### Contact Entity is required for User
+
+When you create new `User` entities in your application it is required now
+that this user has a `Contact` entity. The following SQL will return you
+all users which have no contact entity. You need to update them manually.
+
+```sql
+SELECT * FROM se_users WHERE se_users.idContacts IS NULL
+```
+
+### Admin Commands
+
+The method `getCommands` on the Admin has been removed, because Symfony can
+autodetect Commands in the `Command` directory of each bundle anyway. This only
+affects you, if you have not followed the Symfony standards and located your
+commands somewhere else.
+
+### Preview
+
+Clear the preview cache to avoid wrong cached data.
+
+```bash
+app/console cache:clear
+```
+
+### WebsiteRequestAnalyzer
+
+The `Current`-part of all setters have been removed, because they have already
+been removed from the getters. This only affects you if you have overridden the
+`WebsiteRequestAnalyzer` and have called or overridden these methods.
+
+### Webspace Settings
+
+A new phpcr namespace was added. To register it run following command:
+
+```bash
+app/console sulu:phpcr:init
+```
+
+### ContentNavigation & Navigation
+
+The ContentNavigationItems & NavigationItems will be sorted by their position. If there is no position set, the item
+will be placed behind all other items.
+
+```php
+$item = new ContentNavigationItem('content-navigation.entry');
+$item->setPosition(10);
+```
 
 ## 1.1.10
 
@@ -115,7 +339,7 @@ app/console phpcr:migrations:migrate
 
 ### Media View Settings
 
-The media collection thumbnailLarge view was removed from the media, 
+The media collection thumbnailLarge view was removed from the media,
 to avoid an error, remove all `collectionEditListView` from the user settings table.
 
 ```sql
@@ -129,7 +353,7 @@ To index multiple fields (and `category_list` content-type) you have to add the 
 
 ### Category Content-Type
 
-The category content-type converts the selected ids into category data only for website rendering now. 
+The category content-type converts the selected ids into category data only for website rendering now.
 
 ### System Collections
 
@@ -231,7 +455,7 @@ values wont be supported anymore.
 
 ### Preview
 The preview can now handle attributes and nested properties. To differentiate blocks and nested properties, it is now
-necessary to add the property `typeof="collection"` to the root of a block `<div>` and 
+necessary to add the property `typeof="collection"` to the root of a block `<div>` and
 `typeof="block" rel="name of block property"` to each child - see example.
 
 __block:__
@@ -360,7 +584,7 @@ Also the call for `disable`, `enable` and `loading` state of the `save` button h
 ``` js
 this.sandbox.emit('sulu.header.toolbar.state.change', 'edit', false); // enable
 this.sandbox.emit('sulu.header.toolbar.state.change', 'edit', true, true); // disabled
-this.sandbox.emit('sulu.header.toolbar.item.loading', 'save-button'); // loading 
+this.sandbox.emit('sulu.header.toolbar.item.loading', 'save-button'); // loading
 ```
 
 **After:**
@@ -368,7 +592,7 @@ this.sandbox.emit('sulu.header.toolbar.item.loading', 'save-button'); // loading
 ``` js
 this.sandbox.emit('sulu.header.toolbar.item.enable', 'save', false); // enable
 this.sandbox.emit('sulu.header.toolbar.item.disable', 'save', true); // disabled
-this.sandbox.emit('sulu.header.toolbar.item.loading', 'save'); // loading 
+this.sandbox.emit('sulu.header.toolbar.item.loading', 'save'); // loading
 ```
 
 #### Tabs
@@ -478,7 +702,7 @@ sulu_core:
 ### External link
 
 If you have external-link pages created before 1.0.0 you should run the following command to fix them.
- 
+
 ```
 app/console phpcr:migrations:migrate
 ```
@@ -520,7 +744,7 @@ app/console doctrine:phpcr:nodes:update --query="SELECT * FROM [nt:unstructured]
 
 1. The tag `sulu.rlp` is now mandatory for page templates.
 2. Page templates will now be filtered: only implemented templates in the theme will be displayed in the dropdown.
- 
+
 To find pages with not implemented templates run following command:
 
 ```bash
@@ -531,7 +755,7 @@ To fix that pages, you could implement the template in the theme or save the pag
 
 ### Webspaces
 
-1. The default-template config moved from global configuration to webspace config. For that it is needed to add this config to each webspace. 
+1. The default-template config moved from global configuration to webspace config. For that it is needed to add this config to each webspace.
 2. The excluded xml tag has been removed from the webspace configuration file, so you have to remove this tag from all these files.
 
 After that your webspace theme config should look like this:
@@ -722,7 +946,7 @@ do
 done
 ```
 
-After running this script please check the changed files for conflicts and wrong replaces! 
+After running this script please check the changed files for conflicts and wrong replaces!
 
 ### Website Navigation
 
@@ -750,7 +974,7 @@ The params for the texteditor content type where changed.
 ## Search index rebuild
 
 Old data in search index can cause problems. You should clear the folder `app/data` and rebuild the index.
- 
+
 ```bash
 rm -rf app/data/*
 app/console massive:search:index:rebuild
@@ -799,7 +1023,7 @@ app/console sulu:upgrade:0.18.0:smart-content-operator tag and
 
 ### Media Format Cache Public Folder
 
-If you use the `sulu_media.format_cache.public_folder` parameter, 
+If you use the `sulu_media.format_cache.public_folder` parameter,
 the following configuration update need to be done,
 because the parameter does not longer exists:
 
@@ -832,7 +1056,7 @@ To be sure that it is possible to generate a preview image you should check if t
 
 Variables of exception template `ClientWebsiteBundle:error404.html.twig` has changed.
 
-* `status_code`: response code 
+* `status_code`: response code
 * `status_text`: response text
 * `exception`: whole exception object
 * `currentContent`: content which was rendered before exception was thrown
@@ -864,16 +1088,16 @@ To keep the backward compatibility you have to add following lines to your websp
 ```xml
 <webspace>
     ...
-    
+
     <theme>
         ...
-        
+
         <error-templates>
             <error-template code="404">ClientWebsiteBundle:views:error404.html.twig</error-template>
             <error-template default="true">ClientWebsiteBundle:views:error.html.twig</error-template>
         </error-templates>
     </theme>
-    
+
     ...
 </webspace>
 ```
@@ -882,7 +1106,7 @@ To keep the backward compatibility you have to add following lines to your websp
 
 If a page has no url for a specific locale, it returns now the resource-locator to the index page (`'/'`) instead of a
 empty string (`''`).
- 
+
 __Before:__
 ```
 urls = array(
@@ -952,7 +1176,7 @@ CRM-Components moved to a new bundle. If you enable the new Bundle everything sh
 BC-Breaks are:
 
  * AccountCategory replaced with standard Categories here is a migration needed
- 
+
 For a database upgrade you have to do following steps:
 
 * The Account has no `type` anymore. This column has to be removed from `co_accounts` table.
@@ -1116,7 +1340,7 @@ We are now using the `SYMFONY_ENV` instead of the `APP_ENV` environment variable
 * config: default_type has now a sub-properties `page` and `snippet`
   - change `default_type: <name>` to `default_type: page: <name>`
 * config: replace `sulu_core.content.templates` with `sulu_core.content.structure`
-* PHPCR Node-types: Additional node types added 
+* PHPCR Node-types: Additional node types added
   - run `app/console sulu:phpcr:init`
   - and `app/console sulu:webspaces:init`
   - and `app/console doctrine:phpcr:nodes:update --query="SELECT * FROM [nt:base] AS c WHERE [jcr:mixinTypes]='sulu:content'" --apply-closure="\$node->addMixin('sulu:page');"`
