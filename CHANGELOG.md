@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #669  [SULU-STANDARD]       Fixed new deprecations from YAML format
+
 * 1.2.0 (2016-04-12)
     * BUGFIX      #2280 [ContentBundle]       Removed scrollbar from categories in overlay
     * BUGFIX      #2281 [ContentBundle]       Use correct link for content tab in page form
