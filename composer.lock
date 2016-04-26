@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "59b62b285b1c00489200156ecde74dd7",
-    "content-hash": "8734199c0e7c798829482611b40f4459",
+    "hash": "138bb0267bb26f2d6348c301cb593bbd",
+    "content-hash": "346a6109475ccd74985c6ba16f232174",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3864,7 +3864,7 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-master",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
@@ -6276,7 +6276,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
