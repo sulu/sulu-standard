@@ -165,6 +165,9 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #1873 [ContactBundle]       Fixed remove title and position
     * BUGFIX      #1873 [ContactBundle]       Fixed remove contact birthday
 
+* 1.1.12 (2016-04-26)
+    * HOTFIX      #2285 [SecurityBundle]    Made ResettingController translations more configurable
+
 * 1.1.11 (2016-04-04)
     * HOTFIX      #2143 [ContactBundle]     Fixed account cget filtering of ids
     * HOTFIX      #2102 [ContactBundle]     Added filter for account tags
