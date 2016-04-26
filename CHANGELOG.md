@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-master
+    * HOTFIX      #678  [SULU-STANDARD]       Use the new UserProvider for the security
     * HOTFIX      #669  [SULU-STANDARD]       Fixed new deprecations from YAML format
 
 * 1.2.0 (2016-04-12)
