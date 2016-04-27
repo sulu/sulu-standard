@@ -8,17 +8,20 @@ assetic:
     write_to: "%kernel.root_dir%/../web"
     filters:
         cssrewrite:
-            apply_to: "\.(css)$"
+            apply_to: "\\.(css)$"
 
 doctrine:
     orm:
         mappings:
             gedmo_tree:
                 type: "xml"
-                prefix: "Gedmo\Tree\Entity"
+                prefix: "Gedmo\\Tree\\Entity"
                 dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
                 alias: "GedmoTree" # this one is optional and will default to the name set for the mapping
                 is_bundle: false
+        dql:
+            string_functions:
+                group_concat: Oro\ORM\Query\AST\Functions\String\GroupConcat
         resolve_target_entities:
             Sulu\Bundle\MediaBundle\Entity\CollectionInterface: Sulu\Bundle\MediaBundle\Entity\Collection
             Sulu\Bundle\ContactBundle\Entity\AccountInterface: Sulu\Bundle\ContactBundle\Entity\Account
@@ -27,9 +30,9 @@ doctrine:
 doctrine_cache:
     providers:
         phpcr_meta:
-            type: %phpcr_cache%
+            type: "%phpcr_cache%"
         phpcr_nodes:
-            type: %phpcr_cache%
+            type: "%phpcr_cache%"
 
 # Doctrine Extension Configuration
 stof_doctrine_extensions:
@@ -45,7 +48,7 @@ fos_rest:
 # JMS Serializer
 jms_serializer:
     metadata:
-        debug: %kernel.debug%
+        debug: "%kernel.debug%"
 
 # Symfony CMF Configuration
 cmf_core:
@@ -81,8 +84,8 @@ sulu_core:
                 snippet: "default"
             paths:
                 homepage:
-                    path: %kernel.root_dir%/Resources/pages
-                    type: home
+                    path: "%kernel.root_dir%/Resources/pages"
+                    type: "home"
                 page:
                     path: "%kernel.root_dir%/Resources/pages"
                     type: "page"
@@ -103,8 +106,8 @@ sulu_media:
 
 sulu_websocket:
     server:
-        http_host: %websocket_url%
-        port: %websocket_port%
+        http_host: "%websocket_url%"
+        port: "%websocket_port%"
 
 sulu_content:
     search:
@@ -150,13 +153,7 @@ dubture_f_fmpeg:
     binary_timeout: 300 # Use 0 for infinite
     threads_count: 4
 
-doctrine:
-    orm:
-        dql:
-            string_functions:
-                group_concat: Oro\ORM\Query\AST\Functions\String\GroupConcat
-
 # Just a dirty hack to get the jms serializer bundle correctly working
 # https://github.com/schmittjoh/JMSSerializerBundle/pull/270#issuecomment-21171800
 services:
-    jms_serializer.cache_naming_strategy: @sulu_core.serialize_caching_strategy
+    jms_serializer.cache_naming_strategy: "@sulu_core.serialize_caching_strategy"
