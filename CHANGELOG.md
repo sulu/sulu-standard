@@ -1,6 +1,21 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.2.2 (2016-05-09)
+    * HOTFIX      #2375 [SecurityBundle]      Fixed visibility of entries in language dropdown
+    * ENHANCEMENT #2373 [MediaBundle]         Added batch indexing for medias
+    * HOTFIX      #2371 [MediaBundle]         Fixed appveyor tests for collections
+    * HOTFIX      #2365                       Fixed missing and wrong method mocks
+    * ENHANCEMENT #2359 [MediaBundle]         Added ability to sort medias
+    * HOTFIX      #2368 [ContentBundle]       Fixed copying shadow properties
+    * HOTFIX      #2362 [Website]             Fixed hreflang-tag for homepage
+    * BUGFIX      #2364 [CoreBundle]          DependencyInjection: Throw exception when locales/translations are misconfigured
+    * BUGFIX      #2364 [ResourceBundle]      Moved fixtures from de_CH to de_ch
+    * HOTFIX      #2363 [WebsiteBundle]       Fixed sulu-content-path for webspaces with different domains for locales
+    * ENHANCEMENT #2346 [ResourceBundle]      Added fixtures for de_CH
+    * ENHANCEMENT #2346 [AdminBundle]         Use always users locale for globalize culture
+    * HOTFIX      #2347 [ContentBundle]       Fixed ghost children loading
+
 * 1.2.1 (2016-04-26)
     * HOTFIX      #678  [SULU-STANDARD]       Use the new UserProvider for the security
     * HOTFIX      #669  [SULU-STANDARD]       Fixed new deprecations from YAML format

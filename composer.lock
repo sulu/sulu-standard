@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "138bb0267bb26f2d6348c301cb593bbd",
-    "content-hash": "346a6109475ccd74985c6ba16f232174",
+    "hash": "7fe5f4deac64a7a407abda47fb2a8a44",
+    "content-hash": "4212a2c287a756c34f267d0c7e4e6c85",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2551,16 +2551,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.13.0",
+            "version": "0.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "eb02b37159abbd9f3544bde49d548a1987ede501"
+                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/eb02b37159abbd9f3544bde49d548a1987ede501",
-                "reference": "eb02b37159abbd9f3544bde49d548a1987ede501",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f041cd057bde2f4df383b78fb7e06c66f829f61f",
+                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2611,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-04-11 15:58:20"
+            "time": "2016-05-10 08:04:53"
         },
         {
             "name": "monolog/monolog",
@@ -3860,16 +3860,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "13f0c6719a9be499da1c3976b044acb42cd55141"
+                "reference": "5922f9f6cd0d89b28ee80fb2994212ec4a7f1421"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/13f0c6719a9be499da1c3976b044acb42cd55141",
-                "reference": "13f0c6719a9be499da1c3976b044acb42cd55141",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/5922f9f6cd0d89b28ee80fb2994212ec4a7f1421",
+                "reference": "5922f9f6cd0d89b28ee80fb2994212ec4a7f1421",
                 "shasum": ""
             },
             "require": {
@@ -3961,7 +3961,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-04-27 09:34:36"
+            "time": "2016-05-10 07:53:57"
         },
         {
             "name": "swiftmailer/swiftmailer",
