@@ -2551,16 +2551,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.13.0",
+            "version": "0.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "eb02b37159abbd9f3544bde49d548a1987ede501"
+                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/eb02b37159abbd9f3544bde49d548a1987ede501",
-                "reference": "eb02b37159abbd9f3544bde49d548a1987ede501",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f041cd057bde2f4df383b78fb7e06c66f829f61f",
+                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2611,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-04-11 15:58:20"
+            "time": "2016-05-10 08:04:53"
         },
         {
             "name": "monolog/monolog",
@@ -3864,12 +3864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "e9f8ecbbc31c90f10f3658e45382da9936bc9d04"
+                "reference": "c1809cddf2264af2c6ac48e1d539cf1a3507b46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/e9f8ecbbc31c90f10f3658e45382da9936bc9d04",
-                "reference": "e9f8ecbbc31c90f10f3658e45382da9936bc9d04",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/c1809cddf2264af2c6ac48e1d539cf1a3507b46b",
+                "reference": "c1809cddf2264af2c6ac48e1d539cf1a3507b46b",
                 "shasum": ""
             },
             "require": {
@@ -3963,7 +3963,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-05-08 08:05:13"
+            "time": "2016-05-11 06:02:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4124,7 +4124,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -4903,16 +4903,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.5",
+            "version": "v2.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2"
+                "reference": "8408816780215fae055599d100b5385d9a247151"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2",
-                "reference": "39ddd2383f4113cf67f8b28cde2c9d3fa340c3c2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/8408816780215fae055599d100b5385d9a247151",
+                "reference": "8408816780215fae055599d100b5385d9a247151",
                 "shasum": ""
             },
             "require": {
@@ -5033,7 +5033,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-04-29 15:34:08"
+            "time": "2016-05-09 21:45:54"
         },
         {
             "name": "twig/extensions",
@@ -6221,7 +6221,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.5",
+            "version": "v2.8.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
