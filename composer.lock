@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "136e81523ffcd56f27ca95d54f9d76fc",
-    "content-hash": "97d78ce2cb9f44437b1b482fc6fa75eb",
+    "hash": "be4e4d32dc0881912bc5522cb9309cea",
+    "content-hash": "d8610374dcc2b9bb941617c9923eff39",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3813,16 +3813,16 @@
         },
         {
             "name": "sulu/document-manager",
-            "version": "0.6.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "e1a6c20a6fdcd1b66933c47bbbb519a845d81baf"
+                "reference": "6a26c917514012b7b0e097db9189c824921553a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/e1a6c20a6fdcd1b66933c47bbbb519a845d81baf",
-                "reference": "e1a6c20a6fdcd1b66933c47bbbb519a845d81baf",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/6a26c917514012b7b0e097db9189c824921553a4",
+                "reference": "6a26c917514012b7b0e097db9189c824921553a4",
                 "shasum": ""
             },
             "require": {
@@ -3836,7 +3836,7 @@
             "require-dev": {
                 "jackalope/jackalope-doctrine-dbal": "~1.2@dev",
                 "monolog/monolog": "~1.0",
-                "phpbench/phpbench": "~0.10",
+                "phpbench/phpbench": "0.10.*",
                 "phpunit/phpunit": "~4.5"
             },
             "type": "library",
@@ -3856,7 +3856,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-04-11 16:04:37"
+            "time": "2016-05-12 12:09:36"
         },
         {
             "name": "sulu/sulu",
@@ -3864,12 +3864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "c1809cddf2264af2c6ac48e1d539cf1a3507b46b"
+                "reference": "a0cae9ca5bec5cffca1c05a7f6b96a9bdd225bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/c1809cddf2264af2c6ac48e1d539cf1a3507b46b",
-                "reference": "c1809cddf2264af2c6ac48e1d539cf1a3507b46b",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/a0cae9ca5bec5cffca1c05a7f6b96a9bdd225bbe",
+                "reference": "a0cae9ca5bec5cffca1c05a7f6b96a9bdd225bbe",
                 "shasum": ""
             },
             "require": {
@@ -3890,7 +3890,7 @@
                 "pulse00/ffmpeg-bundle": "^0.6",
                 "sensio/framework-extra-bundle": "3.0.*",
                 "stof/doctrine-extensions-bundle": "1.1.*",
-                "sulu/document-manager": "0.6.*",
+                "sulu/document-manager": "dev-develop",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
                 "symfony/symfony": "~2.8",
@@ -3963,7 +3963,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-05-11 06:02:52"
+            "time": "2016-05-13 07:15:57"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4124,7 +4124,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -6279,6 +6279,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "sulu/sulu": 20,
+        "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
