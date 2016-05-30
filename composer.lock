@@ -150,16 +150,16 @@
         },
         {
             "name": "cboden/ratchet",
-            "version": "v0.3.4",
+            "version": "v0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ratchetphp/Ratchet.git",
-                "reference": "a177819dd0e6eb1d7e4192aeafadfa43a84867f1"
+                "reference": "b5ccecad9390db85d2c8df7cbeb047292fbbf4b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/a177819dd0e6eb1d7e4192aeafadfa43a84867f1",
-                "reference": "a177819dd0e6eb1d7e4192aeafadfa43a84867f1",
+                "url": "https://api.github.com/repos/ratchetphp/Ratchet/zipball/b5ccecad9390db85d2c8df7cbeb047292fbbf4b8",
+                "reference": "b5ccecad9390db85d2c8df7cbeb047292fbbf4b8",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "server",
                 "sockets"
             ],
-            "time": "2015-12-23 15:06:48"
+            "time": "2016-05-25 12:55:03"
         },
         {
             "name": "dantleech/phpcr-migrations-bundle",
@@ -3864,12 +3864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "b216772469d0fb65762d03e0a9ae62c7fcb468c6"
+                "reference": "fcd8d1e230983feec22bc33828790f21145426fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/b216772469d0fb65762d03e0a9ae62c7fcb468c6",
-                "reference": "b216772469d0fb65762d03e0a9ae62c7fcb468c6",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/fcd8d1e230983feec22bc33828790f21145426fc",
+                "reference": "fcd8d1e230983feec22bc33828790f21145426fc",
                 "shasum": ""
             },
             "require": {
@@ -3963,7 +3963,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-05-24 07:36:55"
+            "time": "2016-05-30 05:59:30"
         },
         {
             "name": "swiftmailer/swiftmailer",
