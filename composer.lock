@@ -650,16 +650,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9"
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/e9c2ccf573b59b7cea566390f34254fed3c20ed9",
-                "reference": "e9c2ccf573b59b7cea566390f34254fed3c20ed9",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fd51907c6c76acaa8a5234822a4f901c1500afc1",
+                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1",
                 "shasum": ""
             },
             "require": {
@@ -676,13 +676,14 @@
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "~0.6.1",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/property-info": "~2.8|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0",
                 "twig/twig": "~1.10"
             },
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
-                "symfony/web-profiler-bundle": "to use the data collector"
+                "symfony/web-profiler-bundle": "To use the data collector."
             },
             "type": "symfony-bundle",
             "extra": {
@@ -725,7 +726,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-01-10 17:21:44"
+            "time": "2016-04-21 19:55:56"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2551,16 +2552,16 @@
         },
         {
             "name": "massive/search-bundle",
-            "version": "0.13.1",
+            "version": "0.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f"
+                "reference": "eace8c07375bf71a3ac0987b881aa31e3d3fd70c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/f041cd057bde2f4df383b78fb7e06c66f829f61f",
-                "reference": "f041cd057bde2f4df383b78fb7e06c66f829f61f",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/eace8c07375bf71a3ac0987b881aa31e3d3fd70c",
+                "reference": "eace8c07375bf71a3ac0987b881aa31e3d3fd70c",
                 "shasum": ""
             },
             "require": {
@@ -2611,7 +2612,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-05-10 08:04:53"
+            "time": "2016-06-01 12:54:41"
         },
         {
             "name": "monolog/monolog",
@@ -3817,12 +3818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "17b60a37b2a5d15cfb13f2663b9778aba18168b1"
+                "reference": "52b7b2a41ce16bfa56ebea8c2d0149c736349ddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/17b60a37b2a5d15cfb13f2663b9778aba18168b1",
-                "reference": "17b60a37b2a5d15cfb13f2663b9778aba18168b1",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/52b7b2a41ce16bfa56ebea8c2d0149c736349ddc",
+                "reference": "52b7b2a41ce16bfa56ebea8c2d0149c736349ddc",
                 "shasum": ""
             },
             "require": {
@@ -3856,7 +3857,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-05-23 09:56:46"
+            "time": "2016-06-01 12:55:38"
         },
         {
             "name": "sulu/sulu",
@@ -3864,12 +3865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "40f2bfd4175fd7d6fcced15144759aeceb91ec58"
+                "reference": "7be73c07fce75faf23ea17d2489940d67ed486bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/40f2bfd4175fd7d6fcced15144759aeceb91ec58",
-                "reference": "40f2bfd4175fd7d6fcced15144759aeceb91ec58",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/7be73c07fce75faf23ea17d2489940d67ed486bf",
+                "reference": "7be73c07fce75faf23ea17d2489940d67ed486bf",
                 "shasum": ""
             },
             "require": {
@@ -3963,7 +3964,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-05-31 09:41:50"
+            "time": "2016-06-01 14:24:10"
         },
         {
             "name": "swiftmailer/swiftmailer",
