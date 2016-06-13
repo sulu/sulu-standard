@@ -9,19 +9,29 @@
  * with this source code in the file LICENSE.
  */
 
-require_once __DIR__ . DIRECTORY_SEPARATOR . 'AbstractKernel.php';
-
 /**
  * The admin kernel is for the backend.
  */
 class AdminKernel extends \AbstractKernel
 {
+    /**
+     * {@inheritdoc}
+     */
+    protected $name = 'admin';
+
+    /**
+     * @param string $environment
+     * @param bool $debug
+     */
     public function __construct($environment, $debug)
     {
         parent::__construct($environment, $debug);
         $this->setContext(self::CONTEXT_ADMIN);
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function registerBundles()
     {
         $bundles = parent::registerBundles();

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be4e4d32dc0881912bc5522cb9309cea",
+    "hash": "5bf84ba6ef4c13c48b4d035e07a9d224",
     "content-hash": "d8610374dcc2b9bb941617c9923eff39",
     "packages": [
         {
@@ -1967,16 +1967,16 @@
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
-                "reference": "121c087f4ebda828be178dc3cc92fab2e9ffaab6"
+                "reference": "2116bbe24e72a9c4cd22eeb6d7e857ce62de094a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/121c087f4ebda828be178dc3cc92fab2e9ffaab6",
-                "reference": "121c087f4ebda828be178dc3cc92fab2e9ffaab6",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/2116bbe24e72a9c4cd22eeb6d7e857ce62de094a",
+                "reference": "2116bbe24e72a9c4cd22eeb6d7e857ce62de094a",
                 "shasum": ""
             },
             "require": {
@@ -2027,7 +2027,7 @@
                 "phpcr",
                 "transport implementation"
             ],
-            "time": "2016-04-25 06:11:48"
+            "time": "2016-06-09 06:33:29"
         },
         {
             "name": "jackalope/jackalope-jackrabbit",
@@ -3818,12 +3818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "52b7b2a41ce16bfa56ebea8c2d0149c736349ddc"
+                "reference": "b4a4368c0e7b36cbf50e8a2585da052e3e743781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/52b7b2a41ce16bfa56ebea8c2d0149c736349ddc",
-                "reference": "52b7b2a41ce16bfa56ebea8c2d0149c736349ddc",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/b4a4368c0e7b36cbf50e8a2585da052e3e743781",
+                "reference": "b4a4368c0e7b36cbf50e8a2585da052e3e743781",
                 "shasum": ""
             },
             "require": {
@@ -3857,7 +3857,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-06-01 12:55:38"
+            "time": "2016-06-07 05:51:25"
         },
         {
             "name": "sulu/sulu",
@@ -3865,12 +3865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "587a07e3848e2bfa2ee09ea378517737d8cc9508"
+                "reference": "5f2db54de1e5824877675ca5881ae2033300e7fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/587a07e3848e2bfa2ee09ea378517737d8cc9508",
-                "reference": "587a07e3848e2bfa2ee09ea378517737d8cc9508",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/5f2db54de1e5824877675ca5881ae2033300e7fb",
+                "reference": "5f2db54de1e5824877675ca5881ae2033300e7fb",
                 "shasum": ""
             },
             "require": {
@@ -3894,7 +3894,7 @@
                 "sulu/document-manager": "dev-develop",
                 "symfony-cmf/routing-bundle": "1.2.*",
                 "symfony/swiftmailer-bundle": "~2.3",
-                "symfony/symfony": "~2.8",
+                "symfony/symfony": "~2.8.7",
                 "willdurand/hateoas-bundle": "0.3.*"
             },
             "replace": {
@@ -3964,7 +3964,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-06-02 09:40:00"
+            "time": "2016-06-13 07:57:50"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4904,16 +4904,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "8408816780215fae055599d100b5385d9a247151"
+                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/8408816780215fae055599d100b5385d9a247151",
-                "reference": "8408816780215fae055599d100b5385d9a247151",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/663b2d6202c3149515b39cfe50a174a130acb8e2",
+                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2",
                 "shasum": ""
             },
             "require": {
@@ -5034,7 +5034,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-05-09 21:45:54"
+            "time": "2016-06-06 16:05:37"
         },
         {
             "name": "twig/extensions",
@@ -6222,7 +6222,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",

@@ -1,5 +1,11 @@
 # Upgrade
 
+## dev-develo
+
+### Composer autoloader
+
+Run `composer update` to rebuild the autoloader.
+
 ## 1.2.1
 
 ### UserRepository

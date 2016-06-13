@@ -6,4 +6,4 @@ imports:
 
 # Assetic Configuration
 assetic:
-    bundles:        [ ClientWebsiteBundle ]
+    bundles: []

@@ -70,12 +70,10 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\HashBundle\SuluHashBundle(),
             new Sulu\Bundle\CustomUrlBundle\SuluCustomUrlBundle(),
             new Sulu\Bundle\RouteBundle\SuluRouteBundle(),
-            new Sulu\Bundle\MarkupBundle\SuluMarkupBundle(),
             new DTL\Bundle\PhpcrMigrations\PhpcrMigrationsBundle(),
             new Dubture\FFmpegBundle\DubtureFFmpegBundle(),
 
             // website
-            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
 
             // tools

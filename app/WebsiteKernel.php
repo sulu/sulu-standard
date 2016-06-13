@@ -9,20 +9,32 @@
  * with this source code in the file LICENSE.
  */
 
-require_once __DIR__ . DIRECTORY_SEPARATOR . 'AbstractKernel.php';
-
 class WebsiteKernel extends \AbstractKernel
 {
+    /**
+     * {@inheritdoc}
+     */
+    protected $name = 'website';
+
+    /**
+     * @param string $environment
+     * @param bool $debug
+     */
     public function __construct($environment, $debug)
     {
         parent::__construct($environment, $debug);
         $this->setContext(self::CONTEXT_WEBSITE);
     }
 
+    /**
+     * {@inheritdoc}
+     */
     public function registerBundles()
     {
         $bundles = parent::registerBundles();
         $bundles[] = new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle();
+        $bundles[] = new Client\Bundle\WebsiteBundle\ClientWebsiteBundle();
+        $bundles[] = new Sulu\Bundle\MarkupBundle\SuluMarkupBundle();
 
         return $bundles;
     }

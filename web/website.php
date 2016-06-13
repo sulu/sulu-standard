@@ -43,15 +43,12 @@ if (SYMFONY_DEBUG) {
 // $loader->unregister();
 // $apcLoader->register(true);
 
-require_once __DIR__ . '/../app/WebsiteKernel.php';
-
 $kernel = new WebsiteKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
 
 // Comment this line if you want to use the "varnish" http
 // caching strategy. See http://sulu.readthedocs.org/en/latest/cookbook/caching-with-varnish.html
 if (SYMFONY_ENV != 'dev') {
-    require_once __DIR__ . '/../app/WebsiteCache.php';
     $kernel = new WebsiteCache($kernel);
 
     // When using the HttpCache, you need to call the method in your front controller

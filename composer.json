@@ -6,9 +6,14 @@
     "version": "dev-develop",
     "autoload": {
         "psr-0": {
-            "": "src/",
-            "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
-        }
+            "": "src/"
+        },
+        "classmap": [
+            "app/AbstractKernel.php",
+            "app/WebsiteKernel.php",
+            "app/WebsiteCache.php",
+            "app/AdminKernel.php"
+        ]
     },
     "require": {
         "php": ">=5.5",
