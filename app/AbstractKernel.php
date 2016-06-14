@@ -74,6 +74,7 @@ abstract class AbstractKernel extends SuluKernel
             new Dubture\FFmpegBundle\DubtureFFmpegBundle(),
 
             // website
+            new Sulu\Bundle\ThemeBundle\SuluThemeBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
 
             // tools
