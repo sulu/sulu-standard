@@ -1,6 +1,16 @@
 # Upgrade
 
-## dev-develo
+## dev-develop
+
+### Twig variable `request.routeParameters` removed
+
+The `request.routeParameters` variable has been removed because it is not longer required when generate an url.
+
+**Before**
+
+```twig
+{{ path('client_website.search', request.routeParameters) }}
+```
 
 ### Composer autoloader
 
