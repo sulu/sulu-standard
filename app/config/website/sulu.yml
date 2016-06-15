@@ -17,9 +17,3 @@ cmf_routing:
     dynamic:
         enabled: true
         route_provider_service_id: sulu_website.provider.content
-
-# FOS REST Configuration
-# Remove after https://github.com/FriendsOfSymfony/FOSRestBundle/issues/1402 is fixed
-fos_rest:
-    exception:
-        enabled: false

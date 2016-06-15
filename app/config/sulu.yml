@@ -40,11 +40,6 @@ stof_doctrine_extensions:
         default:
             tree: true
 
-# FOS REST Configuration
-fos_rest:
-    routing_loader:
-        default_format: "json"
-
 # JMS Serializer
 jms_serializer:
     metadata:

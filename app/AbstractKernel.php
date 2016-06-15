@@ -44,9 +44,7 @@ abstract class AbstractKernel extends SuluKernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
 
             // rest
-            new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
-            new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
 
             // massive
             new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
