@@ -3865,12 +3865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "370d795254f3dbeecf2af88a3f3bd32fb30a6d50"
+                "reference": "f3779b2058b7f52b78a3d7535bf9aa0d7b439493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/370d795254f3dbeecf2af88a3f3bd32fb30a6d50",
-                "reference": "370d795254f3dbeecf2af88a3f3bd32fb30a6d50",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/f3779b2058b7f52b78a3d7535bf9aa0d7b439493",
+                "reference": "f3779b2058b7f52b78a3d7535bf9aa0d7b439493",
                 "shasum": ""
             },
             "require": {
@@ -3948,7 +3948,11 @@
                     "src/Sulu/Bundle/*/Tests/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-0": {
+                    "Sulu\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -3963,7 +3967,10 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-06-15 12:23:02"
+            "support": {
+                "source": "https://github.com/sulu/sulu/tree/feature/prepend-config"
+            },
+            "time": "2016-06-15 14:51:40"
         },
         {
             "name": "sulu/theme-bundle",
