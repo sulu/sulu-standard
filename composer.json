@@ -26,6 +26,7 @@
         "sulu/sulu": "dev-develop",
         "sulu/theme-bundle": "dev-develop",
         "sulu/document-manager": "@dev",
+        "massive/search-bundle": "@dev",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
