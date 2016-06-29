@@ -16,6 +16,14 @@ The `request.routeParameters` variable has been removed because it is not longer
 
 Run `composer update` to rebuild the autoloader.
 
+## 1.2.4
+
+### ContactRepository
+
+A Interface for the ContactRepository has been created. Due to the refactoring
+the function `appendJoins` has been changed from public to protected.
+Therefore this function cannot be called anymore.
+
 ## 1.2.1
 
 ### UserRepository

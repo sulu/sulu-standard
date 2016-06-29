@@ -2557,12 +2557,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "a5e655c8e407c07b9339f371e93d88707faff796"
+                "reference": "6eb258f08d5bdb6b2e71f1156598c84398dcd1d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/a5e655c8e407c07b9339f371e93d88707faff796",
-                "reference": "a5e655c8e407c07b9339f371e93d88707faff796",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6eb258f08d5bdb6b2e71f1156598c84398dcd1d3",
+                "reference": "6eb258f08d5bdb6b2e71f1156598c84398dcd1d3",
                 "shasum": ""
             },
             "require": {
@@ -2615,7 +2615,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-06-27 08:04:38"
+            "time": "2016-06-28 11:06:54"
         },
         {
             "name": "monolog/monolog",
@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "2693c575181cb096ef1244881bcf46f03dac2a1a"
+                "reference": "abe1ac1eed28cc489fe27fbf6208a4a621cc7e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/2693c575181cb096ef1244881bcf46f03dac2a1a",
-                "reference": "2693c575181cb096ef1244881bcf46f03dac2a1a",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/abe1ac1eed28cc489fe27fbf6208a4a621cc7e88",
+                "reference": "abe1ac1eed28cc489fe27fbf6208a4a621cc7e88",
                 "shasum": ""
             },
             "require": {
@@ -3926,6 +3926,7 @@
                 "matthiasnoback/symfony-config-test": "^1.0",
                 "matthiasnoback/symfony-dependency-injection-test": "^0.7.3",
                 "phpcr/phpcr-shell": "~1.0.0@alpha",
+                "phpdocumentor/reflection-docblock": "~3.0.3",
                 "phpunit/phpunit": ">=4.8.0",
                 "sensio/framework-extra-bundle": "~3.0",
                 "symfony/monolog-bundle": "2.4.*",
@@ -3967,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-06-27 09:08:57"
+            "time": "2016-06-28 16:21:34"
         },
         {
             "name": "sulu/theme-bundle",
