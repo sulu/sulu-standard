@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d371ea92ac4ab6aab96ef377a8e6d037",
-    "content-hash": "4560bf69a9fae96c4f6e2c616fc68f0e",
+    "hash": "ee34a557f43688ed1cd9ccb2bdafb89b",
+    "content-hash": "8b2fd89b80c89900dcd2a9dc37d49efb",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3862,16 +3862,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "d0257ca2ce8fcfdbc4f10329a59fb2f491a95a61"
+                "reference": "110dfa0c7b8d2ecd5e4c55eee80c4dc920c33bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/d0257ca2ce8fcfdbc4f10329a59fb2f491a95a61",
-                "reference": "d0257ca2ce8fcfdbc4f10329a59fb2f491a95a61",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/110dfa0c7b8d2ecd5e4c55eee80c4dc920c33bdb",
+                "reference": "110dfa0c7b8d2ecd5e4c55eee80c4dc920c33bdb",
                 "shasum": ""
             },
             "require": {
@@ -3964,7 +3964,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-06-28 15:40:59"
+            "time": "2016-06-30 12:53:02"
         },
         {
             "name": "swiftmailer/swiftmailer",
