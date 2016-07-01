@@ -3821,12 +3821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "b4a4368c0e7b36cbf50e8a2585da052e3e743781"
+                "reference": "2044def7567ef4ab247051965b6493e5eb7c15f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/b4a4368c0e7b36cbf50e8a2585da052e3e743781",
-                "reference": "b4a4368c0e7b36cbf50e8a2585da052e3e743781",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/2044def7567ef4ab247051965b6493e5eb7c15f6",
+                "reference": "2044def7567ef4ab247051965b6493e5eb7c15f6",
                 "shasum": ""
             },
             "require": {
@@ -3860,7 +3860,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-06-07 05:51:25"
+            "time": "2016-07-01 07:09:43"
         },
         {
             "name": "sulu/sulu",
@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "06563eb39e6817524bba7315fc11a36aa21dd0e1"
+                "reference": "789c9d477b4c05c14dc00736a911d28f768d2789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/06563eb39e6817524bba7315fc11a36aa21dd0e1",
-                "reference": "06563eb39e6817524bba7315fc11a36aa21dd0e1",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/789c9d477b4c05c14dc00736a911d28f768d2789",
+                "reference": "789c9d477b4c05c14dc00736a911d28f768d2789",
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-06-29 15:40:49"
+            "time": "2016-07-01 07:07:29"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4958,16 +4958,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.7",
+            "version": "v2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2"
+                "reference": "038d13264f732f9bba850c423e374dc72874d1a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/663b2d6202c3149515b39cfe50a174a130acb8e2",
-                "reference": "663b2d6202c3149515b39cfe50a174a130acb8e2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/038d13264f732f9bba850c423e374dc72874d1a6",
+                "reference": "038d13264f732f9bba850c423e374dc72874d1a6",
                 "shasum": ""
             },
             "require": {
@@ -5041,7 +5041,7 @@
                 "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "~2.4,>=2.4.5",
-                "egulias/email-validator": "~1.2",
+                "egulias/email-validator": "~1.2,>=1.2.1",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
                 "phpdocumentor/reflection": "^1.0.7"
@@ -5088,7 +5088,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-06-06 16:05:37"
+            "time": "2016-06-30 15:42:24"
         },
         {
             "name": "twig/extensions",
@@ -6276,16 +6276,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.7",
+            "version": "v2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "9d30940765450ccc58bc39f4bda30cc412101b4b"
+                "reference": "bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/9d30940765450ccc58bc39f4bda30cc412101b4b",
-                "reference": "9d30940765450ccc58bc39f4bda30cc412101b4b",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0",
+                "reference": "bc61b781fa7f07f9a2ed4e69b15d5c2238695fc0",
                 "shasum": ""
             },
             "require": {
@@ -6327,7 +6327,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2016-04-05 16:36:54"
+            "time": "2016-06-29 05:31:50"
         }
     ],
     "aliases": [],
