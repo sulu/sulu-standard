@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.2.6 (2016-07-05)
+    * BUGFIX      #2530 [AdminBundle]         Included husky build which fixes the login translat    ion issue
+
 * 1.2.5 (2016-06-30)
     * HOTFIX #---- [AdminBundle] Fixed loading of user localization
 
