@@ -3821,12 +3821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "2044def7567ef4ab247051965b6493e5eb7c15f6"
+                "reference": "e412844ec3e16fe72357374199a31476eba8af04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/2044def7567ef4ab247051965b6493e5eb7c15f6",
-                "reference": "2044def7567ef4ab247051965b6493e5eb7c15f6",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/e412844ec3e16fe72357374199a31476eba8af04",
+                "reference": "e412844ec3e16fe72357374199a31476eba8af04",
                 "shasum": ""
             },
             "require": {
@@ -3860,7 +3860,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-07-01 07:09:43"
+            "time": "2016-07-13 13:23:17"
         },
         {
             "name": "sulu/sulu",
@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "9381f5d2111d5984cf34d3b3c17615ff2c0111de"
+                "reference": "1d2b53f9d5240a8c14b3ff52e590b602f1fc0903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/9381f5d2111d5984cf34d3b3c17615ff2c0111de",
-                "reference": "9381f5d2111d5984cf34d3b3c17615ff2c0111de",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/1d2b53f9d5240a8c14b3ff52e590b602f1fc0903",
+                "reference": "1d2b53f9d5240a8c14b3ff52e590b602f1fc0903",
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-11 14:59:15"
+            "time": "2016-07-13 15:41:28"
         },
         {
             "name": "sulu/theme-bundle",

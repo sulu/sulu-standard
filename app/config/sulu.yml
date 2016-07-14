@@ -66,11 +66,6 @@ sulu_core:
         fr: Français
     fallback_locale: 'en'
     translations: ['de', 'en', 'fr']
-    phpcr:
-        backend:    "%phpcr_backend%"
-        workspace:  "%phpcr_workspace%"
-        username:   "%phpcr_user%"
-        password:   "%phpcr_pass%"
     webspace:
         config_dir: "%kernel.root_dir%/Resources/webspaces"
     content:
@@ -113,6 +108,17 @@ sulu_content:
                 index: snippet
 
 sulu_document_manager:
+    sessions:
+        default:
+            backend: "%phpcr_backend%"
+            workspace: "%phpcr_workspace%"
+            username: "%phpcr_user%"
+            password: "%phpcr_pass%"
+        live:
+            backend: "%phpcr_backend%"
+            workspace: "%phpcr_workspace%_live"
+            username: "%phpcr_user%"
+            password: "%phpcr_pass%"
     mapping:
         page:
             class: Sulu\Bundle\ContentBundle\Document\PageDocument

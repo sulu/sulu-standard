@@ -2,8 +2,8 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
-    * ENHANCEMENT #2484 [WebsiteBundle]   Add host and prefix automatically for route generator
-    * ENHANCEMENT #637  [SULU-STANDARD]   Added 503 status code to maintenance page
+    * FEATURE     #695  [SULU-STANDARD]       Added configuration for publishing
+    * ENHANCEMENT #637  [SULU-STANDARD]       Added 503 status code to maintenance page
 
 * 1.2.4 (2016-06-28)
     * HOTFIX      #2498 [TestBundle]          Fixed TestUserProvider to create accounts with repository to support
