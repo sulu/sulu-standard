@@ -19,6 +19,8 @@
 /web/css
 /web/js
 /web/uploads/media/*
+/web/admin/translations/*
+!/web/admin/translations/.gitkeep
 
 # IDEs
 .idea/*

@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #723  [SULU-STANDARD]       removed translations and added command to composer
     * FEATURE     #695  [SULU-STANDARD]       Added configuration for publishing
     * ENHANCEMENT #637  [SULU-STANDARD]       Added 503 status code to maintenance page
 
