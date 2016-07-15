@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d39e3232b4c7c38e1f44a76f90ed4980",
+    "hash": "e576e406a33fdf1ee7118dcc85487275",
     "content-hash": "13652e0f3560778d205b7816a20f2d0b",
     "packages": [
         {
@@ -1761,6 +1761,7 @@
                 "rest",
                 "web service"
             ],
+            "abandoned": "guzzlehttp/guzzle",
             "time": "2015-03-18 18:23:50"
         },
         {
@@ -3868,12 +3869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "53bad79f4a6dd2d73bc10d03513f2e33f949a215"
+                "reference": "3da968d3df0e49808081dff5234cc39c56004d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/53bad79f4a6dd2d73bc10d03513f2e33f949a215",
-                "reference": "53bad79f4a6dd2d73bc10d03513f2e33f949a215",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/3da968d3df0e49808081dff5234cc39c56004d38",
+                "reference": "3da968d3df0e49808081dff5234cc39c56004d38",
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-15 08:44:25"
+            "time": "2016-07-15 15:34:32"
         },
         {
             "name": "sulu/theme-bundle",
