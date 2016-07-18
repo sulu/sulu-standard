@@ -15,6 +15,12 @@ The `request.routeParameters` variable has been removed because it is not longer
 ### Composer autoloader
 
 Run `composer update` to rebuild the autoloader.
+## 1.2.7
+
+### Default Country
+
+The default country for addresses in the ContactBundle is set by the ISO 3166 country-code
+instead the of database-id now.
 
 ## 1.2.4
 

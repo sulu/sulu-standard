@@ -3869,12 +3869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "3da968d3df0e49808081dff5234cc39c56004d38"
+                "reference": "d48b5959471be8e97eb44f238624418f70017638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/3da968d3df0e49808081dff5234cc39c56004d38",
-                "reference": "3da968d3df0e49808081dff5234cc39c56004d38",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/d48b5959471be8e97eb44f238624418f70017638",
+                "reference": "d48b5959471be8e97eb44f238624418f70017638",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-15 15:34:32"
+            "time": "2016-07-18 12:49:47"
         },
         {
             "name": "sulu/theme-bundle",
