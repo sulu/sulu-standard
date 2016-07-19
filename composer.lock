@@ -3869,12 +3869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "d48b5959471be8e97eb44f238624418f70017638"
+                "reference": "5b0c26dc901e7e6bb0c00279c56a79dc6f076eea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/d48b5959471be8e97eb44f238624418f70017638",
-                "reference": "d48b5959471be8e97eb44f238624418f70017638",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/5b0c26dc901e7e6bb0c00279c56a79dc6f076eea",
+                "reference": "5b0c26dc901e7e6bb0c00279c56a79dc6f076eea",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-18 12:49:47"
+            "time": "2016-07-19 06:27:48"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4180,7 +4180,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -5994,12 +5994,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Symfony2Extension.git",
-                "reference": "e21aa731007fdafd0ba1c61f95f19460d27901e1"
+                "reference": "c59756034c0837e11f36806893c308fe27fe9c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/e21aa731007fdafd0ba1c61f95f19460d27901e1",
-                "reference": "e21aa731007fdafd0ba1c61f95f19460d27901e1",
+                "url": "https://api.github.com/repos/Behat/Symfony2Extension/zipball/c59756034c0837e11f36806893c308fe27fe9c4c",
+                "reference": "c59756034c0837e11f36806893c308fe27fe9c4c",
                 "shasum": ""
             },
             "require": {
@@ -6046,7 +6046,7 @@
                 "framework",
                 "symfony"
             ],
-            "time": "2016-02-07 12:20:29"
+            "time": "2016-07-18 19:22:02"
         },
         {
             "name": "dantleech/glob-finder",
