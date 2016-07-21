@@ -2558,12 +2558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/massiveart/MassiveSearchBundle.git",
-                "reference": "6eb258f08d5bdb6b2e71f1156598c84398dcd1d3"
+                "reference": "0b08bbb6cd376e05f9553911170d49a512cb99e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/6eb258f08d5bdb6b2e71f1156598c84398dcd1d3",
-                "reference": "6eb258f08d5bdb6b2e71f1156598c84398dcd1d3",
+                "url": "https://api.github.com/repos/massiveart/MassiveSearchBundle/zipball/0b08bbb6cd376e05f9553911170d49a512cb99e8",
+                "reference": "0b08bbb6cd376e05f9553911170d49a512cb99e8",
                 "shasum": ""
             },
             "require": {
@@ -2616,7 +2616,7 @@
                 }
             ],
             "description": "Massive Search Bundle",
-            "time": "2016-06-28 11:06:54"
+            "time": "2016-07-21 13:11:28"
         },
         {
             "name": "monolog/monolog",
@@ -3822,12 +3822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu-document-manager.git",
-                "reference": "2970ebc66e74eeb5f1c8161e5d39afb455810901"
+                "reference": "9cf444b737299667529cfe684571bba216e9d764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/2970ebc66e74eeb5f1c8161e5d39afb455810901",
-                "reference": "2970ebc66e74eeb5f1c8161e5d39afb455810901",
+                "url": "https://api.github.com/repos/sulu/sulu-document-manager/zipball/9cf444b737299667529cfe684571bba216e9d764",
+                "reference": "9cf444b737299667529cfe684571bba216e9d764",
                 "shasum": ""
             },
             "require": {
@@ -3861,7 +3861,7 @@
                 }
             ],
             "description": "Sulu Document Manager",
-            "time": "2016-07-15 08:23:40"
+            "time": "2016-07-21 12:55:12"
         },
         {
             "name": "sulu/sulu",
@@ -3869,12 +3869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "5b0c26dc901e7e6bb0c00279c56a79dc6f076eea"
+                "reference": "2dec681eb84f88a53eeb9f76441f3f61ed99f366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/5b0c26dc901e7e6bb0c00279c56a79dc6f076eea",
-                "reference": "5b0c26dc901e7e6bb0c00279c56a79dc6f076eea",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/2dec681eb84f88a53eeb9f76441f3f61ed99f366",
+                "reference": "2dec681eb84f88a53eeb9f76441f3f61ed99f366",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-19 06:27:48"
+            "time": "2016-07-21 14:15:36"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4180,7 +4180,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
