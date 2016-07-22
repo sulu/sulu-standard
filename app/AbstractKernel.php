@@ -44,9 +44,7 @@ abstract class AbstractKernel extends SuluKernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
 
             // rest
-            new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
-            new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
 
             // massive
             new Massive\Bundle\SearchBundle\MassiveSearchBundle(),
@@ -69,12 +67,15 @@ abstract class AbstractKernel extends SuluKernel
             new Sulu\Bundle\DocumentManagerBundle\SuluDocumentManagerBundle(),
             new Sulu\Bundle\HashBundle\SuluHashBundle(),
             new Sulu\Bundle\CustomUrlBundle\SuluCustomUrlBundle(),
+            new Sulu\Bundle\RouteBundle\SuluRouteBundle(),
+            new Sulu\Bundle\MarkupBundle\SuluMarkupBundle(),
             new DTL\Bundle\PhpcrMigrations\PhpcrMigrationsBundle(),
             new Dubture\FFmpegBundle\DubtureFFmpegBundle(),
 
             // website
-            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
+            new Sulu\Bundle\ThemeBundle\SuluThemeBundle(),
             new Liip\ThemeBundle\LiipThemeBundle(),
+            new Client\Bundle\WebsiteBundle\ClientWebsiteBundle(),
 
             // tools
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),

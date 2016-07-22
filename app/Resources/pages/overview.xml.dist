@@ -26,8 +26,6 @@
                         <param name="headline" value="true"/>
                     </params>
 
-                    <tag name="sulu.search.field" role="title"/>
-
                     <tag name="sulu.rlp.part"/>
                 </property>
 

@@ -50,9 +50,9 @@ class SearchController extends WebsiteController
         }
 
         $hits = $searchManager
-            ->createSearch($queryString . ' +(state:published)')
+            ->createSearch($queryString)
             ->locale($locale)
-            ->index('page_' . $webspaceKey)
+            ->index('page_' . $webspaceKey . '_published')
             ->execute();
 
         $data = $this->getAttributes(

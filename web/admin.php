@@ -45,8 +45,6 @@ $loader->unregister();
 $apcLoader->register(true);
 */
 
-require_once __DIR__ . '/../app/AdminKernel.php';
-
 $kernel = new AdminKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
 

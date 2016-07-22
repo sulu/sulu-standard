@@ -20,13 +20,6 @@ doctrine_cache:
             file_system:
                 directory: "%sulu.cache_dir%/collaboration/connection"
 
-# FOS REST Configuration
-fos_rest:
-    view:
-        formats:
-            json: ~
-            csv: ~
-
 # Massive Build Configuration
 massive_build:
     targets:
@@ -70,3 +63,7 @@ sulu_contact:
 sulu_collaboration:
     entity_cache: doctrine_cache.providers.sulu_collaboration_entity
     connection_cache: doctrine_cache.providers.sulu_collaboration_connection
+
+sulu_document_manager:
+    default_session: default
+    live_session: live

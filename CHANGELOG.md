@@ -1,6 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #723  [SULU-STANDARD]       removed translations and added command to composer
+    * FEATURE     #695  [SULU-STANDARD]       Added configuration for publishing
+    * ENHANCEMENT #637  [SULU-STANDARD]       Added 503 status code to maintenance page
+
 * 1.2.7 (2016-07-15)
     * HOTFIX      #2617 [ContactBundle]         Setting default country by country-code instead of id
     * HOTFIX      #2612 [CategoryBundle]        Added sort criteria for fallback test

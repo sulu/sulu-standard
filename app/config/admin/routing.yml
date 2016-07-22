@@ -91,11 +91,6 @@ sulu_custom_urls_api:
     resource: "@SuluCustomUrlBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
-# for preview
-client_website:
-    type: portal
-    resource: "@ClientWebsiteBundle/Resources/config/routing.yml"
-
 sulu_search:
     resource: "@SuluSearchBundle/Resources/config/routing.yml"
     prefix: /admin/search

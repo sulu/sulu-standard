@@ -3,12 +3,17 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "1.2.7",
+    "version": "dev-develop",
     "autoload": {
         "psr-0": {
-            "": "src/",
-            "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
-        }
+            "": "src/"
+        },
+        "classmap": [
+            "app/AbstractKernel.php",
+            "app/WebsiteKernel.php",
+            "app/WebsiteCache.php",
+            "app/AdminKernel.php"
+        ]
     },
     "require": {
         "php": ">=5.5",
@@ -18,7 +23,9 @@
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "1.2.*",
+        "sulu/sulu": "dev-develop",
+        "sulu/theme-bundle": "dev-develop",
+        "sulu/document-manager": "@dev",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
@@ -29,6 +36,7 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
+        "massive/search-bundle": "@dev",
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
@@ -52,6 +60,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Sulu\\Bundle\\TranslateBundle\\Composer\\TranslateScriptHandler::installTranslations",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
             "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ],
@@ -62,6 +71,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Sulu\\Bundle\\TranslateBundle\\Composer\\TranslateScriptHandler::installTranslations",
             "Sulu\\Bundle\\MediaBundle\\Composer\\MediaScriptHandler::initBundle",
             "Massive\\Bundle\\SearchBundle\\Composer\\SearchScriptHandler::initBundle"
         ]

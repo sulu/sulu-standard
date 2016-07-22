@@ -103,7 +103,7 @@
                 <h3>{{ snippet.title }}</h3>
 
                 {% autoescape false %}
-                {{ snippet.description }}
+                    {{ snippet.description }}
                 {% endautoescape %}
 
                 <h4>Links</h4>
@@ -124,8 +124,7 @@
 
         <h2>Internal source</h2>
         {% if content.internal_source is not empty %}
-            {% set internal_source = sulu_content_load(content.internal_source).content %}
-            <a href="{{ sulu_content_path(internal_source.url) }}" property="internal_source">{{ internal_source.title }}</a>
+            <sulu:link href="{{ content.internal_source }}"/>
         {% endif %}
 
         <h2>Tags</h2>
