@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4a73ac67aec90bd93053cde2be9d5585",
-    "content-hash": "6d937fb8742f693d5a6644e8f75086c8",
+    "hash": "01836330fae02b3d71279fa2916e1fe0",
+    "content-hash": "2455b57c1626fa202ff00422ca68fa72",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3865,16 +3865,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.3.0-RC1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "35ccc5c9c1c58a14728202e9a8435925ab239e2f"
+                "reference": "338dcf15ba150bfc1e147da8bc3715fd762944de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/35ccc5c9c1c58a14728202e9a8435925ab239e2f",
-                "reference": "35ccc5c9c1c58a14728202e9a8435925ab239e2f",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/338dcf15ba150bfc1e147da8bc3715fd762944de",
+                "reference": "338dcf15ba150bfc1e147da8bc3715fd762944de",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-22 08:32:35"
+            "time": "2016-07-27 08:59:31"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4180,7 +4180,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
@@ -6334,7 +6334,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 5,
+        "sulu/sulu": 20,
         "sulu/document-manager": 20,
         "zendframework/zendsearch": 20,
         "massive/search-bundle": 20,
