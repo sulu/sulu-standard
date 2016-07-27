@@ -19,6 +19,7 @@
     </default-templates>
 
     <templates>
+        <template type="search">ClientWebsiteBundle:views:query.html.twig</template>
         <template type="error">ClientWebsiteBundle:views:error.html.twig</template>
         <template type="error-404">ClientWebsiteBundle:views:error404.html.twig</template>
     </templates>
