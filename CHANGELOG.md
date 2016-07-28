@@ -1,6 +1,22 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.0-RC2 (2016-07-28)
+    * BUGFIX      #2692 [PreviewBundle]       Fixed the generation of log and cache directory when context is part of path
+    * BUGFIX      #2697 [ContentBundle]       Deindex page after unpublishing
+    * BUGFIX      #2684 [ContentBundle]       Disabled options in toolbar item which are not avialable when editing a page
+    * FEATURE     #2689 [ContentBundle]       Added functionality to delete a draft
+    * FEATURE     #2559 [CoreBundle]          Renamed parameters.yml to parameters.yml.dist so you can use a local version
+    * BUGFIX      #2678 [ContentBundle]       Fixed error caused by draft label when opening a ghost page
+    * BUGFIX      #2668 [ContentBundle]       Fixed resource locator generation for pages with unpublished parents
+    * BUGFIX      #2675 [ContactBundle]       Fixed findGetAll-method of ContactRepository
+    * ENHANCEMENT #2674 [SearchBundle]        Added a WebsiteSearchController
+    * BUGFIX      #2524 [ContactBundle]       Fixed contact-serialization for smart-content
+    * BUGFIX      #2632 [ContentBundle]       prevent item select when ordering a column (husky)
+    * BUGFIX      #2663 [MediaBundle]         made masonry view work for media with no thumbnail
+    * ENHANCEMENT #2665 [Webspace]            Introduced DelegatingFileLoader for webspace configurations
+    * FEATURE     #2669 [RouteBundle]         Added is-published method for route-defaults-provider
+
 * 1.3.0-RC1 (2016-07-22)
     * HOTFIX      #2632 [Content]             Fix usage of document inspector in StructureBridge
     * BUGFIX      #2655 [MediaBundle]         Fixed media selection for none images and selected media list
@@ -46,7 +62,7 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #2530 [AdminBundle]         Included husky build which fixes the login translation issue
     * FEATURE     #2528 [AdminBundle]         Added form-abstraction for simple data-mapper forms
     * ENHANCEMENT #2526 [SearchBundle]        Introduced contexts for indexes to restrict selections
-    * BUGFIX      #2104 [ContentBundle]       Show Webspace node on 'copy' and 'move' overlays  
+    * BUGFIX      #2104 [ContentBundle]       Show Webspace node on 'copy' and 'move' overlays
     * ENHANCEMENT #2520 [ContentBundle]       Delete routes using the DocumentManager
     * BUGFIX      #2523 [SecurityBundle]      Fixed error with non-visible permission types in matrix
     * ENHANCEMENT #2522 [All]                 Use correct default phpcr session
@@ -98,15 +114,15 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #2379 [MediaBundle]         Inject CategoryRepository in MediaManager to avoid using removed constant
     * BUGFIX      #2370 [TestBundle]          Use Doctrine DBAL as default PHPCR-Backend
     * BUGFIX      #2369 [All]                 Install the symfony phpunit bridge again
-    * ENHANCEMENT #2356 [PreviewBundle]       Added default error message 
-    * BUGFIX      #2354 [ContentBundle]       Fixed javascript error preview is null for new page form 
+    * ENHANCEMENT #2356 [PreviewBundle]       Added default error message
+    * BUGFIX      #2354 [ContentBundle]       Fixed javascript error preview is null for new page form
     * ENHANCEMENT #2338 [MarkupBundle]        Implemented markup bundle
-    * FEATURE     #2333 [PreviewBundle]       Added preview render error templates 
-    * ENHANCEMENT #2353 [WebsocketBundle]     Changed configuration to default disable websocket 
-    * BUGFIX      #2351 [ContentBundle]       Removed strange condition for data-changed 
+    * FEATURE     #2333 [PreviewBundle]       Added preview render error templates
+    * ENHANCEMENT #2353 [WebsocketBundle]     Changed configuration to default disable websocket
+    * BUGFIX      #2351 [ContentBundle]       Removed strange condition for data-changed
     * BUGFIX      #2352 [CoreBundle]          Fixed RequestAnalyzer for use with ESI
-    * FEATURE     #2349 [RouteBundle]         Added route-bundle 
-    * FEATURE     #2299 [PreviewBundle]       Implemented preview bundle 
+    * FEATURE     #2349 [RouteBundle]         Added route-bundle
+    * FEATURE     #2299 [PreviewBundle]       Implemented preview bundle
     * ENHANCEMENT #2289 [ContentBundle]       Added display options support to date content type
     * ENHANCEMENT #2316 [Symfony]             Added collector compiler pass
     * ENHANCEMENT #2279 [Webspace]            Do not hide invalid webspace exceptions
@@ -143,7 +159,7 @@ CHANGELOG for Sulu CMF
     * HOTFIX      #2498 [TestBundle]          Fixed TestUserProvider to create accounts with repository to support
                                               sulu inheritance
     * BUGFIX      #2389 [MediaBundle]         Removed twice adding of navigation item
-    * HOTFIX      #2481 [WebsiteBundle]       Fixed handling of non-default formats in error pages 
+    * HOTFIX      #2481 [WebsiteBundle]       Fixed handling of non-default formats in error pages
     * HOTFIX      #2467 [MediaBundle]         Fixed media-selection-overlay missing locale
     * HOTFIX      #2460 [MediaBundle]         Fixed deprecation of getEntityManager in MediaPreviewController
     * HOTFIX      #2454 [MediaBundle]         Fixed inset image scale image-size 0
@@ -162,7 +178,7 @@ CHANGELOG for Sulu CMF
     * HOTFIX      #2376 [ContentBundle]       Added cleanup for structure reindex provider
     * HOTFIX      #2382 [ResourceBundle]      Added column definitions to resource-bundle
     * HOTFIX      #2384 [WebsiteBundle]       Added condition to custom-routes to match only full-matches
-    
+
 * 1.2.2 (2016-05-09)
     * HOTFIX      #2375 [SecurityBundle]      Fixed visibility of entries in language dropdown
     * ENHANCEMENT #2373 [MediaBundle]         Added batch indexing for medias
