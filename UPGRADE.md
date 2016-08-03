@@ -174,9 +174,6 @@ The `request.routeParameters` variable has been removed because it is not longer
 {{ path('client_website.search', request.routeParameters) }}
 ```
 
-### Composer autoloader
-
-Run `composer update` to rebuild the autoloader.
 ## 1.2.7
 
 ### Default Country
