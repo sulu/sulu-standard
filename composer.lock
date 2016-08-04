@@ -2620,16 +2620,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.20.0",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037"
+                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/55841909e2bcde01b5318c35f2b74f8ecc86e037",
-                "reference": "55841909e2bcde01b5318c35f2b74f8ecc86e037",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f42fbdfd53e306bda545845e4dbfd3e72edb4952",
+                "reference": "f42fbdfd53e306bda545845e4dbfd3e72edb4952",
                 "shasum": ""
             },
             "require": {
@@ -2694,7 +2694,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-02 14:02:10"
+            "time": "2016-07-29 03:23:52"
         },
         {
             "name": "nelmio/alice",
@@ -3869,12 +3869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "0418309445ca627df6408cf9b216169ca035e6de"
+                "reference": "2a664e59f094815979792289f2f8abd50de8c8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/0418309445ca627df6408cf9b216169ca035e6de",
-                "reference": "0418309445ca627df6408cf9b216169ca035e6de",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/2a664e59f094815979792289f2f8abd50de8c8a4",
+                "reference": "2a664e59f094815979792289f2f8abd50de8c8a4",
                 "shasum": ""
             },
             "require": {
@@ -3969,7 +3969,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-07-29 13:28:36"
+            "time": "2016-08-04 16:27:15"
         },
         {
             "name": "sulu/theme-bundle",
