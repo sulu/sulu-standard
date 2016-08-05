@@ -3867,12 +3867,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "7320efd269ea0afb61998bbc8b9fc0ab59eaf8cb"
+                "reference": "53d082aa3f24352fa3f30d3b852102f07f0d7636"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/7320efd269ea0afb61998bbc8b9fc0ab59eaf8cb",
-                "reference": "7320efd269ea0afb61998bbc8b9fc0ab59eaf8cb",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/53d082aa3f24352fa3f30d3b852102f07f0d7636",
+                "reference": "53d082aa3f24352fa3f30d3b852102f07f0d7636",
                 "shasum": ""
             },
             "require": {
@@ -3967,7 +3967,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-08-05 11:54:45"
+            "time": "2016-08-05 13:27:12"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4178,7 +4178,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
