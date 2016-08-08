@@ -1,6 +1,43 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.0-RC3 (2016-08-08)
+    * BUGFIX      #2760 [MediaBundle]         Added missing locale to media move action
+    * ENHANCEMENT #2759 [ContentBundle]       Fixed ok button translation for smart content overlay
+    * ENHANCEMENT #2755 [CoreBundle]          Extended path replacers
+    * BUGFIX      #2676 [CoreBundle]          Removed the user's system language as the default content language
+    * BUGFIX      #2754 [ContentBundle]       Fixed PHPCR illegal characters exception
+    * BUGFIX      #2757 [ContentBundle]       Deleting referenced pages also on public workspace
+    * BUGFIX      #2751 [ContentBundle]       Fixed publishing for the settings tab
+    * ENHANCEMENT #2687 [ContentBundle]       Made move- and copy-overlay width responsive
+    * BUGFIX      #2708 [CategoryBundle]      Fixed locale bug for category keywords
+    * BUGFIX      #2736 [ContentBundle]       Made column-navigation load even when selected item is not accessible
+    * BUGFIX      #2692 [AdminBundle]         Made url comparison in navigation use url parts an not characters (husky)
+    * BUGFIX      #2738 [ContentBundle]       Fixed using non-existent AbstractKernel
+    * ENHANCEMENT #2685 [ContentBundle]       Made internal links and smart content show unpublished nodes
+    * BUGFIX      #2661 [ContentBundle]       Fixed ck-editor internal link visualization
+    * BUGFIX      #2745 [All]                 Remove SYMFONY_DEPRECATIONS_HELPER environment from AppVeyor config
+    * ENHANCEMENT #2737 [TranslateBundle]     Remove symfony deprecations and don't allow them anymore
+    * FEATURE     #2681 [ContentBundle]       Fixed frontend resource locator generation for ghost pages
+    * BUGFIX      #2712 [MediaBundle]         Added search to media selection
+    * FEATURE     #2726 [PreviewBundle]       Don't allow symfony deprecations anymore
+    * FEATURE     #2717 [ContentBundle]       Removed or fixed some publishing translations
+    * ENHANCEMENT #2750 [WebsiteBundle]       Removed published checks from ContentRouteProvider
+    * ENHANCEMENT #2729 [Webpace]             Moved resource-locator node from portal to webspace
+    * FEATURE     #2704 [All]                 Ignore irrelevant files on composer dist installs
+    * FEATURE     #2720 [DocumentManagerBundle] Don't allow symfony deprecations anymore
+    * FEATURE     #2727 [RouteBundle]         Don't allow symfony deprecations anymore
+    * FEATURE     #2716 [ContentBundle]       Added params to smart-content-item-controller
+    * FEATURE     #2721 [GeneratorBundle]     Don't allow symfony deprecations anymore
+    * FEATURE     #2728 [WebsocketBundle]     Don't allow symfony deprecations anymore
+    * FEATURE     #2643 [WebsiteBundle]       Add Google Tag Manager to the webspace analytics settings
+    * BUGFIX      #2695 [MediaBundle]         Removed Paginator from CollectionRepository (mysql 5.7)
+    * FEATURE     #2722 [HttpCacheBundle]     Don't allow symfony deprecations anymore
+    * BUGFIX      #2695 [CategoryBundle]      Removed hasChildren field descriptor in categories (mysql 5.7)
+    * FEATURE     #2723 [MarkupBundle]        Don't allow symfony deprecations anymore
+    * ENHANCEMENT #2701 [PreviewBundle]       Replaced preview background-images with white background
+    * FEATURE     #2725 [PersistenceBundle]   Don't allow symfony deprecations anymore
+
 * 1.3.0-RC2 (2016-07-28)
     * BUGFIX      #2692 [PreviewBundle]       Fixed the generation of log and cache directory when context is part of path
     * BUGFIX      #2697 [ContentBundle]       Deindex page after unpublishing

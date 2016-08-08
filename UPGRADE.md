@@ -1,5 +1,26 @@
 # Upgrade
 
+## 1.3.0-RC3
+
+### Address country is nullable
+
+To make it easier to migrate data the country in the address entity is now nullable in sulu.
+
+```sql
+ALTER TABLE co_addresses CHANGE idCountries idCountries INT DEFAULT NULL;
+```
+
+### Databases
+
+#### ORM
+
+The mapping structure of analytic settings have changed.
+Use the following command to update:
+
+```bash
+app/console doctrine:schema:update --force
+```
+
 ## 1.3.0-RC2
 
 ### SearchController
