@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "1.3.0-RC1",
+    "version": "1.3.0-RC3",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -25,7 +25,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
         "sulu/theme-bundle": "1.0.*",
-        "sulu/document-manager": "@dev",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
@@ -36,7 +35,6 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
-        "massive/search-bundle": "@dev",
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",

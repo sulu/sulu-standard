@@ -1,5 +1,70 @@
 # Upgrade
 
+## 1.3.0-RC3
+
+### Address country is nullable
+
+To make it easier to migrate data the country in the address entity is now nullable in sulu.
+
+```sql
+ALTER TABLE co_addresses CHANGE idCountries idCountries INT DEFAULT NULL;
+```
+
+### Databases
+
+#### ORM
+
+The mapping structure of analytic settings have changed.
+Use the following command to update:
+
+```bash
+app/console doctrine:schema:update --force
+```
+
+## 1.3.0-RC2
+
+### SearchController
+
+The `SearchController` has been moved from sulu-standard to sulu. Therefore the
+new template type `search` has been introduced. Just define the twig template
+you want to use for the search in your webspace configuration:
+
+```xml
+<templates>
+    <template type="search">ClientWebsiteBundle:views:query.html.twig</template>
+</templates>
+```
+
+The name of the route also changed from `website_search` to
+`sulu_search.website_search`, because the controller is located in the
+SuluSearchBundle now.
+
+### Webspace Configuration
+
+The configuration schema for webspaces has changed. Instead of
+`error-templates` you have to define `templates` now with a certain type.
+For the error templates this type is `error` for the default error, and
+`error-<code>` for certain error codes.
+
+Before:
+```xml
+<error-templates>
+    <error-template code="404">SomeBundle:view:error404.html.twig</error-template>
+    <error-template default="true">SomeBundle:view:error.html.twig</error-template>
+</error-templates>
+```
+
+After:
+```xml
+<templates>
+    <template type="error-404">SomeBundle:views:error404.html.twig</template>
+    <template type="error">SomeBundle:views:error.html.twig</template>
+</templates>
+```
+
+This change only affects the files which use the 1.1 version of the webspace
+schema definition.
+
 ## 1.3.0-RC1
 
 ### PHPCR
@@ -22,7 +87,7 @@ The `orderBefore` method of the `NodeRepository` has been removed. Use the
 ### LocalizationProvider
 The core LocalizationProvider (which provided the system locales)
 got removed. At this point the WebspaceLocalizationProvider is the
-only LocalizationProvider in Sulu. If the system locales 
+only LocalizationProvider in Sulu. If the system locales
 (locales in which translations for the admin panel are available) are
 needed, please refer directly to the config `sulu_core.translations`.
 
@@ -112,22 +177,22 @@ indexed as title, although this value was already the default:
 
 ### Webspaces
 
-We have deprecated (1.0) the schema for webspaces and created a new version (1.1) of it. 
+We have deprecated (1.0) the schema for webspaces and created a new version (1.1) of it.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <webspace xmlns="http://schemas.sulu.io/webspace/webspace"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://schemas.sulu.io/webspace/webspace http://schemas.sulu.io/webspace/webspace-1.1.xsd">
-          
+
           ...
-          
+
 </webspace>
 ```
 
 You should update your webspace.xml files soonish. To do that you simply have to move the `default-templates` and
 `error-templates` from the `theme` node and put it into the `webspace` node after the `theme`.
- 
+
 The theme is now optional and can be used with a theme-bundle. Sulu has extracted this functionality to make it
 replaceable with any theming bundle you want. To keep the old directory-structure and functionality please read the
 next part of this file.
