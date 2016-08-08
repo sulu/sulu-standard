@@ -39,9 +39,6 @@
         <portal>
             <name>sulu.io</name>
             <key>sulu_io</key>
-            <resource-locator>
-                <strategy>tree</strategy>
-            </resource-locator>
 
             <environments>
                 <environment type="prod">
