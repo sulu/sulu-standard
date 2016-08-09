@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * BUGFIX      #726  [SULU-STANDARD]       Removed HTTP Cache PathsHandler configuration
+
 * 1.3.0-RC3 (2016-08-08)
     * BUGFIX      #2760 [MediaBundle]         Added missing locale to media move action
     * ENHANCEMENT #2759 [ContentBundle]       Fixed ok button translation for smart content overlay

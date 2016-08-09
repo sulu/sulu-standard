@@ -130,8 +130,6 @@ sulu_document_manager:
 
 sulu_http_cache:
     handlers:
-        paths:
-            enabled: true
         public:
             max_age: 240
             shared_max_age: 240
