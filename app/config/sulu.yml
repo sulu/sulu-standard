@@ -60,12 +60,7 @@ massive_search:
 
 # Sulu Bundles
 sulu_core:
-    locales:
-        de: Deutsch
-        en: English
-        fr: Français
     fallback_locale: 'en'
-    translations: ['de', 'en', 'fr']
     webspace:
         config_dir: "%kernel.root_dir%/Resources/webspaces"
     content:
