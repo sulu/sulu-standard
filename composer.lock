@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38a2d50685fc4431c6b1e6040c9b0b0d",
-    "content-hash": "a3ca77d53f98670ca868bbb181dd0b41",
+    "hash": "5b43b3c0e2d7b9f87a362c0ad4cf263e",
+    "content-hash": "fed7b2e1867e884d23b21e1394c548cb",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -4179,7 +4179,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF community",
+                    "name": "Symfony CMF Community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
