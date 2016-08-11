@@ -35,6 +35,7 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
+        "massive/search-bundle": "@dev",
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
