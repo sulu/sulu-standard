@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56d047b3ba2435f6b30921bc2f6db81a",
-    "content-hash": "d8398661bf2fe17c3c189ca9fdb83386",
+    "hash": "38a2d50685fc4431c6b1e6040c9b0b0d",
+    "content-hash": "a3ca77d53f98670ca868bbb181dd0b41",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -650,16 +650,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.3",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1"
+                "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/fd51907c6c76acaa8a5234822a4f901c1500afc1",
-                "reference": "fd51907c6c76acaa8a5234822a4f901c1500afc1",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/dd40b0a7fb16658cda9def9786992b8df8a49be7",
+                "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7",
                 "shasum": ""
             },
             "require": {
@@ -668,6 +668,7 @@
                 "jdorn/sql-formatter": "~1.1",
                 "php": ">=5.3.2",
                 "symfony/console": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3|~3.0",
                 "symfony/doctrine-bridge": "~2.2|~3.0",
                 "symfony/framework-bundle": "~2.3|~3.0"
             },
@@ -726,7 +727,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-04-21 19:55:56"
+            "time": "2016-08-10 15:35:22"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -3863,16 +3864,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.3.0-RC3",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "89980ffb1d7a9e81635da0d9f3f47fc8aa8d6378"
+                "reference": "ac4daa034a65d82487950251e45acb80f8349c17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/89980ffb1d7a9e81635da0d9f3f47fc8aa8d6378",
-                "reference": "89980ffb1d7a9e81635da0d9f3f47fc8aa8d6378",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/ac4daa034a65d82487950251e45acb80f8349c17",
+                "reference": "ac4daa034a65d82487950251e45acb80f8349c17",
                 "shasum": ""
             },
             "require": {
@@ -3967,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-08-08 07:47:54"
+            "time": "2016-08-11 09:24:14"
         },
         {
             "name": "sulu/theme-bundle",
@@ -6332,7 +6333,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 5,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
