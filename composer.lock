@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cbf1e19d76175df13b431a4dfdd1b1ae",
-    "content-hash": "1385da31a66a3eab74d0a53a039e5453",
+    "hash": "1a13d7c1f934f98a964319891b44709d",
+    "content-hash": "c86c9fd5c45524dea66ffea49771741f",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3868,12 +3868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "55ad06d27036d68fc667054f6bdb5b8109612f57"
+                "reference": "0c506d7dd874a4cc7d44f62627956804d45e4b42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/55ad06d27036d68fc667054f6bdb5b8109612f57",
-                "reference": "55ad06d27036d68fc667054f6bdb5b8109612f57",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/0c506d7dd874a4cc7d44f62627956804d45e4b42",
+                "reference": "0c506d7dd874a4cc7d44f62627956804d45e4b42",
                 "shasum": ""
             },
             "require": {
@@ -3968,7 +3968,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-08-11 11:35:45"
+            "time": "2016-08-17 06:18:11"
         },
         {
             "name": "sulu/theme-bundle",
@@ -4179,7 +4179,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
