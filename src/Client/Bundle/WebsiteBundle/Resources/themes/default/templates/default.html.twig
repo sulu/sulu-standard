@@ -8,11 +8,16 @@
             <div class="col-lg-12">
                 <h1 class="page-header" property="title">{{ content.title }}</h1>
 
-                Images (excerpt):
+                {% if content.headerimage|length > 0 %}
+                    <img src="{{ content.headerimage[0].thumbnails['640x480'] }}" alt="{{ content.headerimage[0].title }}"/>
+                {% endif %}
+
                 {% if extension.excerpt.images|length > 0 %}
+                    Images (excerpt):
                     <img src="{{ extension.excerpt.images[0].thumbnails['50x50'] }}" alt="{{ extension.excerpt.images[0].title }}"/>
                 {% endif %}
                 {% if extension.excerpt.icon|length > 0 %}
+                    Icons (excerpt):
                     <img src="{{ extension.excerpt.icon[0].thumbnails['50x50'] }}" alt="{{ extension.excerpt.icon[0].title }}"/>
                 {% endif %}
 

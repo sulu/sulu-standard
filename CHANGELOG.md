@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
     * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
 
 * 1.3.0 (2016-08-11)

@@ -3,6 +3,12 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://schemas.sulu.io/media/formats http://schemas.sulu.io/media/formats-1.1.xsd">
     <format key="640x480">
+        <meta>
+            <title lang="en">Header image</title>
+            <title lang="de">Headerbild</title>
+            <title lang="fr">Image l'en-tête</title>
+            <title lang="nl">Header afbeelding</title>
+        </meta>
         <scale x="640" y="480"/>
     </format>
 </formats>
