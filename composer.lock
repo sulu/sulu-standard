@@ -3593,16 +3593,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.11",
+            "version": "v5.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "fc3d3998527726761e140715e6e439780a31eec4"
+                "reference": "b6dcd04595e4db95ead22ddea58c397864e00c32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/fc3d3998527726761e140715e6e439780a31eec4",
-                "reference": "fc3d3998527726761e140715e6e439780a31eec4",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/b6dcd04595e4db95ead22ddea58c397864e00c32",
+                "reference": "b6dcd04595e4db95ead22ddea58c397864e00c32",
                 "shasum": ""
             },
             "require": {
@@ -3641,7 +3641,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-09-12 14:16:31"
+            "time": "2016-09-14 20:25:12"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3864,12 +3864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "204a38756e3ec737303e0ae11db65181460e5792"
+                "reference": "9f8c1a33f211d3fa5d8cc6c051b48eee92803bba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/204a38756e3ec737303e0ae11db65181460e5792",
-                "reference": "204a38756e3ec737303e0ae11db65181460e5792",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/9f8c1a33f211d3fa5d8cc6c051b48eee92803bba",
+                "reference": "9f8c1a33f211d3fa5d8cc6c051b48eee92803bba",
                 "shasum": ""
             },
             "require": {
@@ -3964,7 +3964,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-09-02 07:30:29"
+            "time": "2016-09-15 09:40:42"
         },
         {
             "name": "sulu/theme-bundle",
