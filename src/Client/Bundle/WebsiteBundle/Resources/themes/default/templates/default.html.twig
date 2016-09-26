@@ -25,11 +25,11 @@
                 <div property="article">{{ content.article }}</div>
                 {% endautoescape %}
 
-                {% if content.ext.excerpt.categories is defined %}
+                {% if extension.excerpt.categories is defined %}
                     <h3>Categories</h3>
 
                     <ul property="categories">
-                        {% for category in content.ext.excerpt.categories %}
+                        {% for category in extension.excerpt.categories %}
                             <li>{{ category.id }} - {{ category.name }}</li>
                         {% endfor %}
                     </ul>

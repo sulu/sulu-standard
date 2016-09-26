@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * BUGFIX      #751 [SULU-STANDARD]        Fixed category access in default twig template
     * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
     * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
 
