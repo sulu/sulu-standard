@@ -2453,29 +2453,29 @@
         },
         {
             "name": "layershifter/tld-database",
-            "version": "1.0.15",
+            "version": "1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/layershifter/TLDDatabase.git",
-                "reference": "eba49c0459f30dfe455ff105c79af41c636f520b"
+                "reference": "eb0840852339602e4f63a49f7f1f55d543350416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/eba49c0459f30dfe455ff105c79af41c636f520b",
-                "reference": "eba49c0459f30dfe455ff105c79af41c636f520b",
+                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/eb0840852339602e4f63a49f7f1f55d543350416",
+                "reference": "eb0840852339602e4f63a49f7f1f55d543350416",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "layershifter/tld-support": "^1.0.0",
-                "php": ">=5.5.0"
+                "php": "^5.5.0 || ^7.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "mikey179/vfsstream": "^1.6",
                 "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "4.8.*",
-                "squizlabs/php_codesniffer": "2.*"
+                "phpunit/phpunit": "^4.8 || ^5.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "autoload": {
@@ -2500,7 +2500,7 @@
                 "domain database",
                 "tld database"
             ],
-            "time": "2016-08-27 14:27:20"
+            "time": "2016-10-02 08:44:13"
         },
         {
             "name": "layershifter/tld-extract",
@@ -3519,22 +3519,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3548,12 +3556,13 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "pulse00/ffmpeg-bundle",
@@ -4011,12 +4020,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "a54431efa026eaaf6de738b4d230a022b170a101"
+                "reference": "9ed959284fc02e35a11b900f478e0b9c9f15c601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/a54431efa026eaaf6de738b4d230a022b170a101",
-                "reference": "a54431efa026eaaf6de738b4d230a022b170a101",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/9ed959284fc02e35a11b900f478e0b9c9f15c601",
+                "reference": "9ed959284fc02e35a11b900f478e0b9c9f15c601",
                 "shasum": ""
             },
             "require": {
@@ -4112,7 +4121,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-09-16 06:28:01"
+            "time": "2016-10-05 10:43:29"
         },
         {
             "name": "sulu/theme-bundle",
@@ -5102,16 +5111,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.11",
+            "version": "v2.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d"
+                "reference": "6a5bc3257b60098c28fc1bbcacd52000dd2801d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
-                "reference": "f588c92c3e263b2eaa2f96a7b1359199eb209b3d",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6a5bc3257b60098c28fc1bbcacd52000dd2801d1",
+                "reference": "6a5bc3257b60098c28fc1bbcacd52000dd2801d1",
                 "shasum": ""
             },
             "require": {
@@ -5127,7 +5136,7 @@
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/polyfill-util": "~1.0",
                 "symfony/security-acl": "~2.7|~3.0.0",
-                "twig/twig": "~1.23|~2.0"
+                "twig/twig": "~1.26|~2.0"
             },
             "conflict": {
                 "phpdocumentor/reflection": "<1.0.7"
@@ -5188,7 +5197,8 @@
                 "egulias/email-validator": "~1.2,>=1.2.1",
                 "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
-                "phpdocumentor/reflection": "^1.0.7"
+                "phpdocumentor/reflection": "^1.0.7",
+                "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
@@ -5232,20 +5242,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-09-07 02:04:25"
+            "time": "2016-10-03 18:44:12"
         },
         {
             "name": "twig/extensions",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig-extensions.git",
-                "reference": "449e3c8a9ffad7c2479c7864557275a32b037499"
+                "reference": "531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/449e3c8a9ffad7c2479c7864557275a32b037499",
-                "reference": "449e3c8a9ffad7c2479c7864557275a32b037499",
+                "url": "https://api.github.com/repos/twigphp/Twig-extensions/zipball/531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee",
+                "reference": "531eaf4b9ab778b1d7cdd10d40fc6aa74729dfee",
                 "shasum": ""
             },
             "require": {
@@ -5260,7 +5270,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -5284,20 +5294,20 @@
                 "i18n",
                 "text"
             ],
-            "time": "2015-08-22 16:38:35"
+            "time": "2016-09-22 16:50:57"
         },
         {
             "name": "twig/twig",
-            "version": "v1.24.2",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7"
+                "reference": "81c2b5fd36581370c7731387f05dcdb577050513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
-                "reference": "33093f6e310e6976baeac7b14f3a6ec02f2d79b7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/81c2b5fd36581370c7731387f05dcdb577050513",
+                "reference": "81c2b5fd36581370c7731387f05dcdb577050513",
                 "shasum": ""
             },
             "require": {
@@ -5310,7 +5320,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.24-dev"
+                    "dev-master": "1.26-dev"
                 }
             },
             "autoload": {
@@ -5345,7 +5355,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-09-01 17:50:53"
+            "time": "2016-10-02 16:19:13"
         },
         {
             "name": "willdurand/hateoas",
@@ -5897,16 +5907,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.4.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "d26757dc970e67b50ed0ee47b95273daeb84fea6"
+                "reference": "cf8cc94647101e02a33d690245896d83d880aea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/d26757dc970e67b50ed0ee47b95273daeb84fea6",
-                "reference": "d26757dc970e67b50ed0ee47b95273daeb84fea6",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/cf8cc94647101e02a33d690245896d83d880aea1",
+                "reference": "cf8cc94647101e02a33d690245896d83d880aea1",
                 "shasum": ""
             },
             "require": {
@@ -5952,7 +5962,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2016-09-03 07:28:57"
+            "time": "2016-09-18 12:16:14"
         },
         {
             "name": "behat/mink",
@@ -6077,12 +6087,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "22c10858e5204ac8dfe85f2d0b576cdb04cd2ec3"
+                "reference": "a9b40d510daeab6f145ef2b690dcda94cc0c3f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/22c10858e5204ac8dfe85f2d0b576cdb04cd2ec3",
-                "reference": "22c10858e5204ac8dfe85f2d0b576cdb04cd2ec3",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/a9b40d510daeab6f145ef2b690dcda94cc0c3f28",
+                "reference": "a9b40d510daeab6f145ef2b690dcda94cc0c3f28",
                 "shasum": ""
             },
             "require": {
@@ -6091,7 +6101,7 @@
                 "php": ">=5.3.1"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
+                "mink/driver-testsuite": "dev-master"
             },
             "type": "mink-driver",
             "extra": {
@@ -6130,7 +6140,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2016-06-16 19:33:17"
+            "time": "2016-10-01 10:11:17"
         },
         {
             "name": "behat/symfony2-extension",
@@ -6296,16 +6306,16 @@
         },
         {
             "name": "phpcr/phpcr-shell",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr-shell.git",
-                "reference": "8af797e455c433e95f0ffb66ee7f2efd02faf19e"
+                "reference": "e3ff8fb8d99b0b490d1c11dbff1f5bfc28049de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr-shell/zipball/8af797e455c433e95f0ffb66ee7f2efd02faf19e",
-                "reference": "8af797e455c433e95f0ffb66ee7f2efd02faf19e",
+                "url": "https://api.github.com/repos/phpcr/phpcr-shell/zipball/e3ff8fb8d99b0b490d1c11dbff1f5bfc28049de0",
+                "reference": "e3ff8fb8d99b0b490d1c11dbff1f5bfc28049de0",
                 "shasum": ""
             },
             "require": {
@@ -6361,7 +6371,7 @@
                 }
             ],
             "description": "Shell for PHPCR",
-            "time": "2016-08-23 16:07:50"
+            "time": "2016-09-28 19:44:08"
         },
         {
             "name": "sensio/generator-bundle",
@@ -6417,7 +6427,7 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.11",
+            "version": "v2.8.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
