@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3769131a7472bed5ed28cc6059f9e9f5",
-    "content-hash": "065c5636efd4861865398b0271f9a5c0",
+    "hash": "fb5fc49fd0f3ac20a202bf8e2419b202",
+    "content-hash": "fe16b9fdb240dbffbfacfe6be06e5c76",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -4016,16 +4016,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-develop",
+            "version": "1.4.0-RC1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "8bd4a2b05e7615cea8e409183731b3b8ab91749f"
+                "reference": "dd4c2888e9c817e8d783df09c1811eb718f928a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/8bd4a2b05e7615cea8e409183731b3b8ab91749f",
-                "reference": "8bd4a2b05e7615cea8e409183731b3b8ab91749f",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/dd4c2888e9c817e8d783df09c1811eb718f928a6",
+                "reference": "dd4c2888e9c817e8d783df09c1811eb718f928a6",
                 "shasum": ""
             },
             "require": {
@@ -4121,21 +4121,21 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-10-12 09:36:12"
+            "time": "2016-10-06 08:00:37"
         },
         {
             "name": "sulu/theme-bundle",
-            "version": "dev-develop",
+            "version": "1.1.0",
             "target-dir": "Sulu/Bundle/ThemeBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/SuluThemeBundle.git",
-                "reference": "13b427ca7d6e44550ca11983c71c113cd99789c2"
+                "reference": "62e1828982c86dcacded33a8c4b12d681887c730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/SuluThemeBundle/zipball/13b427ca7d6e44550ca11983c71c113cd99789c2",
-                "reference": "13b427ca7d6e44550ca11983c71c113cd99789c2",
+                "url": "https://api.github.com/repos/sulu/SuluThemeBundle/zipball/62e1828982c86dcacded33a8c4b12d681887c730",
+                "reference": "62e1828982c86dcacded33a8c4b12d681887c730",
                 "shasum": ""
             },
             "require": {
@@ -4171,7 +4171,7 @@
                 "sulu",
                 "theme"
             ],
-            "time": "2016-10-06 06:50:35"
+            "time": "2016-10-06 06:48:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -6484,8 +6484,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
-        "sulu/theme-bundle": 20,
+        "sulu/sulu": 5,
         "zendframework/zendsearch": 20,
         "massive/search-bundle": 20,
         "phpcr/phpcr-shell": 10,

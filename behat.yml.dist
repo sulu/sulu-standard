@@ -36,15 +36,6 @@ default:
                 - Sulu\Bundle\AdminBundle\Behat\AdminContext
                 - Sulu\Bundle\ContentBundle\Behat\ContentContext
             bundle: SuluContentBundle
-        core:
-            type: symfony_bundle
-            contexts:
-                - Behat\MinkExtension\Context\MinkContext
-                - Sulu\Bundle\TestBundle\Behat\DefaultContext
-                - Sulu\Bundle\SecurityBundle\Behat\SecurityContext
-                - Sulu\Bundle\AdminBundle\Behat\AdminContext
-                - Sulu\Bundle\ContentBundle\Behat\ContentContext
-            bundle: SuluCoreBundle
         location:
             type: symfony_bundle
             contexts:
