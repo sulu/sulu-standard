@@ -1,6 +1,35 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.0-RC2 (2016-11-03)
+    * BUGFIX      #3010 [MediaBundle]         Fixed background of media overlay for preview icons
+    * BUGFIX      #2899 [ContentBundle]       Disabled self referencing on internal links
+    * FEATURE     #2898 [CustomUrlBundle]     Added action button for ghost pages in custom url target selection
+    * BUGFIX      #3009 [ContentBundle]       Fixed skin of teaser-select overlay
+    * BUGFIX      #2977 [AdminBundle]         Fixed sulu.loadUserSettings() when key does not exist
+    * BUGFIX      #3001 [ContentBundle]       Fixed apostrophe bug in template
+    * BUGFIX      #2861 [ContentBundle]       Removed bug with displaced multifield remove icon
+    * BUGFIX      #2929 [MediaBundle]         Return system collection media only with granted permissions
+    * FEATURE     #3002 [MediaBundle]         Added config for choosing formats which can be cropped in media selection
+    * FEATURE     #2999 [MediaBundle]         Added correct mime type to image after editing with aviary
+    * BUGFIX      #2998 [MediaBundle]         Videos can now be uploaded without ffmpeg
+    * FEATURE     #2994 [HTTPCacheBundle]     Added cachelifetime types and introduced cron-expressions to calculate cachelifetime
+    * FEATURE     #3000 [MediaBundle]         Added paste media transformation
+    * BUGFIX      #2992 [ContentBundle]       Fixed page-link-provider without request
+    * BUGFIX      #2991 [MediaBundle]         Reintroduced media deep-link
+    * BUGFIX      #2988 [ContentBundle]       Fixed sulu-link if selection in ckeditor is empty
+    * BUGFIX      #2985 [ContentBundle]       Fixed link-provider overlay-spacing
+    * BUGFIX      #2983 [AdminBundle]         Removed default placeholder for datepicker
+    * FEATURE     #2979 [MediaBundle]         Hide internal formats in UI
+    * ENHANCEMENT #2982 [MediaBundle]         Added loader on preview image when crops have been changed
+    * BUGFIX      #2978 [ContentBundle]       Fixed proxy-factory configuration for smart-content
+    * FEATURE     #2972 [MediaBundle]         Focus point for media cropping
+    * BUGFIX      #2981 [WebsiteBundle]       Fixed dumping of sitemaps
+    * BUGFIX      #2970 [MediaBundle]         Resize image in media edit overlay
+    * FEATURE     #2967 [ContentBundle]       Refactored link-tag to allow extending over provider
+    * FEATURE     #2966 [MediaBundle]         Added warning when unsaved crop will be lost
+    * ENHANCEMENT #2948 [AdminBundle]         Replace colors and images by overwritable variables
+
 * 1.4.0-RC1 (2016-10-06)
     * ENHANCEMENT #2964 [RouteBundle]         Content type route: Added possibility to pass parameter 'inputType' to component
     * BUGFIX      #2962 [WebsiteBundle]       Removed nested-sitemapindex

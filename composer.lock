@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fb5fc49fd0f3ac20a202bf8e2419b202",
-    "content-hash": "fe16b9fdb240dbffbfacfe6be06e5c76",
+    "hash": "e7bc912711f0717b934b84145f849071",
+    "content-hash": "dea91e530d337817369aef5d2c73209e",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2453,16 +2453,16 @@
         },
         {
             "name": "layershifter/tld-database",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/layershifter/TLDDatabase.git",
-                "reference": "73845c6f9da229c8fd6683cc86ce6aa211395578"
+                "reference": "70f9ab3c25ef96d5abda62514d226f8e4df0bdd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/73845c6f9da229c8fd6683cc86ce6aa211395578",
-                "reference": "73845c6f9da229c8fd6683cc86ce6aa211395578",
+                "url": "https://api.github.com/repos/layershifter/TLDDatabase/zipball/70f9ab3c25ef96d5abda62514d226f8e4df0bdd5",
+                "reference": "70f9ab3c25ef96d5abda62514d226f8e4df0bdd5",
                 "shasum": ""
             },
             "require": {
@@ -2500,7 +2500,7 @@
                 "domain database",
                 "tld database"
             ],
-            "time": "2016-10-24 15:32:06"
+            "time": "2016-10-31 15:59:50"
         },
         {
             "name": "layershifter/tld-extract",
@@ -2843,6 +2843,50 @@
                 "psr-3"
             ],
             "time": "2016-07-29 03:23:52"
+        },
+        {
+            "name": "mtdowling/cron-expression",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mtdowling/cron-expression.git",
+                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
+                "reference": "c9ee7886f5a12902b225a1a12f36bb45f9ab89e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cron": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "time": "2016-01-26 21:23:30"
         },
         {
             "name": "nelmio/alice",
@@ -3749,16 +3793,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.13",
+            "version": "v5.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "7bc47dcfdbde6d567e1a834577d1c04ddb970281"
+                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/7bc47dcfdbde6d567e1a834577d1c04ddb970281",
-                "reference": "7bc47dcfdbde6d567e1a834577d1c04ddb970281",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/e64947de9ebc37732a62f5115164484a9bee7fa6",
+                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6",
                 "shasum": ""
             },
             "require": {
@@ -3797,7 +3841,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-08 18:50:33"
+            "time": "2016-10-30 23:18:01"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -4016,16 +4060,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.4.0-RC1",
+            "version": "1.4.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "dd4c2888e9c817e8d783df09c1811eb718f928a6"
+                "reference": "4bc62577792e6cbec44c12e6543bbf0e8f82eebf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/dd4c2888e9c817e8d783df09c1811eb718f928a6",
-                "reference": "dd4c2888e9c817e8d783df09c1811eb718f928a6",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/4bc62577792e6cbec44c12e6543bbf0e8f82eebf",
+                "reference": "4bc62577792e6cbec44c12e6543bbf0e8f82eebf",
                 "shasum": ""
             },
             "require": {
@@ -4041,6 +4085,7 @@
                 "imagine/imagine": "~0.6.1",
                 "layershifter/tld-extract": "^1.1",
                 "massive/search-bundle": "0.16.*",
+                "mtdowling/cron-expression": "^1.1",
                 "oro/doctrine-extensions": "^1.0",
                 "pagerfanta/pagerfanta": "~1.0",
                 "php": "^5.5 || ^7.0",
@@ -4121,7 +4166,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-10-06 08:00:37"
+            "time": "2016-11-03 08:57:26"
         },
         {
             "name": "sulu/theme-bundle",
