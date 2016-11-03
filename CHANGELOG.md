@@ -1,6 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.2 (2016-11-03)
+    * HOTFIX      #2995 [MediaBundle]         Fixed namespace collision in media entity
+    * HOTFIX      #2955 [ContentBundle]       Fixed changing block types when maxOccurs are reached
+    * HOTFIX      #2959 [All]                 Fixed compatibility for twig 1.26
+
 * 1.3.1 (2016-09-15)
     * HOTFIX      #2922 [WebsiteBundle]       Avoid seo information injected by url
     * HOTFIX      #2890 [Localization]        Reintroduced localization provider class
