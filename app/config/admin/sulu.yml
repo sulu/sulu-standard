@@ -63,7 +63,3 @@ sulu_contact:
 sulu_collaboration:
     entity_cache: doctrine_cache.providers.sulu_collaboration_entity
     connection_cache: doctrine_cache.providers.sulu_collaboration_connection
-
-sulu_document_manager:
-    default_session: default
-    live_session: live
