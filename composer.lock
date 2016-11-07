@@ -3863,16 +3863,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.2.8",
+            "version": "1.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "04cd5b7972d42188ce8d26e07cd7d9ca9eb4cf12"
+                "reference": "aa293d72a69f9913634040ba936318e92dca9653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/04cd5b7972d42188ce8d26e07cd7d9ca9eb4cf12",
-                "reference": "04cd5b7972d42188ce8d26e07cd7d9ca9eb4cf12",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/aa293d72a69f9913634040ba936318e92dca9653",
+                "reference": "aa293d72a69f9913634040ba936318e92dca9653",
                 "shasum": ""
             },
             "require": {
@@ -3965,7 +3965,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-10-03 08:36:25"
+            "time": "2016-11-07 13:40:29"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4126,7 +4126,7 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony CMF Community",
+                    "name": "Symfony CMF community",
                     "homepage": "https://github.com/symfony-cmf/Routing/contributors"
                 }
             ],
