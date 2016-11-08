@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
+
 * 1.3.2 (2016-11-03)
     * HOTFIX      #2995 [MediaBundle]         Fixed namespace collision in media entity
     * HOTFIX      #2955 [ContentBundle]       Fixed changing block types when maxOccurs are reached

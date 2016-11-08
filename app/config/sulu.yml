@@ -130,11 +130,6 @@ sulu_document_manager:
 
 sulu_http_cache:
     handlers:
-        public:
-            max_age: 240
-            shared_max_age: 240
-            use_page_ttl: true
-            enabled: true
         debug:
             enabled: %kernel.debug%
     proxy_client:
