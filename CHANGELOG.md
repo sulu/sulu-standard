@@ -1,6 +1,106 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.0-RC2 (2016-11-03)
+    * BUGFIX      #3010 [MediaBundle]         Fixed background of media overlay for preview icons
+    * BUGFIX      #2899 [ContentBundle]       Disabled self referencing on internal links
+    * FEATURE     #2898 [CustomUrlBundle]     Added action button for ghost pages in custom url target selection
+    * BUGFIX      #3009 [ContentBundle]       Fixed skin of teaser-select overlay
+    * BUGFIX      #2977 [AdminBundle]         Fixed sulu.loadUserSettings() when key does not exist
+    * BUGFIX      #3001 [ContentBundle]       Fixed apostrophe bug in template
+    * BUGFIX      #2861 [ContentBundle]       Removed bug with displaced multifield remove icon
+    * BUGFIX      #2929 [MediaBundle]         Return system collection media only with granted permissions
+    * FEATURE     #3002 [MediaBundle]         Added config for choosing formats which can be cropped in media selection
+    * FEATURE     #2999 [MediaBundle]         Added correct mime type to image after editing with aviary
+    * BUGFIX      #2998 [MediaBundle]         Videos can now be uploaded without ffmpeg
+    * FEATURE     #2994 [HTTPCacheBundle]     Added cachelifetime types and introduced cron-expressions to calculate cachelifetime
+    * FEATURE     #3000 [MediaBundle]         Added paste media transformation
+    * BUGFIX      #2992 [ContentBundle]       Fixed page-link-provider without request
+    * BUGFIX      #2991 [MediaBundle]         Reintroduced media deep-link
+    * BUGFIX      #2988 [ContentBundle]       Fixed sulu-link if selection in ckeditor is empty
+    * BUGFIX      #2985 [ContentBundle]       Fixed link-provider overlay-spacing
+    * BUGFIX      #2983 [AdminBundle]         Removed default placeholder for datepicker
+    * FEATURE     #2979 [MediaBundle]         Hide internal formats in UI
+    * ENHANCEMENT #2982 [MediaBundle]         Added loader on preview image when crops have been changed
+    * BUGFIX      #2978 [ContentBundle]       Fixed proxy-factory configuration for smart-content
+    * FEATURE     #2972 [MediaBundle]         Focus point for media cropping
+    * BUGFIX      #2981 [WebsiteBundle]       Fixed dumping of sitemaps
+    * BUGFIX      #2970 [MediaBundle]         Resize image in media edit overlay
+    * FEATURE     #2967 [ContentBundle]       Refactored link-tag to allow extending over provider
+    * FEATURE     #2966 [MediaBundle]         Added warning when unsaved crop will be lost
+    * ENHANCEMENT #2948 [AdminBundle]         Replace colors and images by overwritable variables
+
+* 1.4.0-RC1 (2016-10-06)
+    * ENHANCEMENT #2964 [RouteBundle]         Content type route: Added possibility to pass parameter 'inputType' to component
+    * BUGFIX      #2962 [WebsiteBundle]       Removed nested-sitemapindex
+    * BUGFIX      #2959 [MediaBundle]         Fixed length of underline in media selection overlay
+    * BUGFIX      #2959 [All]                 Fixed compatibility for twig 1.26
+    * BUGFIX      #2957 [MediaBundle]         Show missing image in media selection
+    * FEATURE     #2951 [MediaBundle]         Added adobe creative sdk to edit uploaded images
+    * FEATURE     #2947 [MediaBundle]         Redesign of media selection overlay
+    * BUGFIX      #2949 [MediaBundle]         Renamed toolbar entries in media section to avoid deleting collections by accident
+    * BUGFIX      #2936 [MediaBundle]         Fixed cutted media format toolbar dropdown
+    * BUGFIX      #2946 [MediaBundle]         Included collections in object count in media section
+    * BUGFIX      #2855 [ContentBundle]       Button when hovering ghost page added
+    * BUGFIX      #2889 [ContentBundle]       Added confirmation message when publishing a page
+    * BUGFIX      #2935 [ContentBundle]       Fixed click on toggle label to change toggler
+    * BUGFIX      #2797 [ContentBundle]       When removing resource locator in history now asks for conformation
+    * BUGFIX      #2934 [WebsiteBundle]       Fixed cache-clearer if using varnisch
+    * BUGFIX      #2900 [ContentBundle]       Improved bug with grid elements not floating correctly
+    * ENHANCEMENT #2927 [ContactBundle]       Enables the extensibility of matchings for contact-selection
+    * BUGFIX      #2925 [WebsiteBundle]       Fixed seo when no data is available
+    * FEATURE     #2920 [WebsiteBundle]       Seo info as twig template to make it rewriteable
+    * ENHANCEMENT #2915 [WebsiteBundle]       Refactored xml sitemap
+    * BUGFIX      #2923 [MediaBundle]         Fixes system collection creation for anon. authenticated users
+    * BUGFIX      #2915 [MediaBundle]         Fixed height of badges in media-selection
+    * ENHANCEMENT #2860 [ContentBundle]       Added url to internal links and smart-content
+    * FEATURE     #2914 [CategoryBundle]      Added description and medias to category
+    * FEATURE     #2908 [MediaBundle]         Created cropping-slide for media-edit-overlay
+    * FEATURE     #2877 [MediaBundle]         Rest-Api for image-formats and format options
+    * ENHANCEMENT #2910 [ContentBundle]       Updated husky and added placeholder param to date
+    * ENHANCEMENT #2909 [CategoryBundle]      Expand path to last visited category in category list
+    * BUGFIX      #2913 [CategoryBundle]      Changed doctrine mapping from entity to mapped-superclass for category-entities
+    * ENHANCEMENT #2913 [CategoryBundle]      Added DeprecationCompilerPassTest in CategoryBundle
+    * ENHANCEMENT #2912 [CategoryBundle]      Implemented category-bundle entities extensible
+    * ENHANCEMENT #2912 [CategoryBundle]      Refactored CategoryBundle backend
+    * ENHANCEMENT #2903 [RouteBundle]         Get class mapping configuration by class name or inheritance chain
+    * ENHANCEMENT #2904 [RouteBundle]         Added route-provider cache
+    * BUGFIX      #2893 [ContentBundle]       Fixed stop overlay-component for teaser-selection
+    * FEATURE     #2891 [MediaBundle]         Created area-selection frontend component in media-bundle
+    * BUGFIX      #2878 [ContentBundle]       Added instanceof check for shadow-behavior functions
+    * FEATURE     #2875 [RouteBundle]         Added route-content-type
+    * BUGFIX      #2513 [PersistanceBundle]   Fix doctrine generator commands
+    * BUGFIX      #2776 [MediaBundle]         Fixed upload of media without an extension
+    * BUGFIX      #2867 [ContentBundle]       Fixed navigation on removed template
+    * BUGFIX      #2850 [ContentBundle]       Ordered response of template action alphabetically
+    * BUGFIX      #2848 [ContentBundle]       Fixed preview serialization to include date and authors
+    * ENHANCEMENT #2782 [MediaBundle]         Cleaned up media selection overlay styling
+    * ENHANCEMENT #2845 [MediaBundle]         New version of of configuring image formats
+    * ENHANCEMENT #2843 [MediaBundle]         Limit bugfix and style fixes for collections
+    * BUGFIX      #2774 [SecurityBundle]      Added translations to settings user role for hovering single permission
+    * BUGFIX      #2798 [ContactBundle]       Contact cards are now ordered correctly and by fullName by default
+    * ENHANCEMENT #2835 [CoreBundle]          Used the delegating file loader from symfony instead of own implementation for loading webspace xml files
+    * ENHANCEMENT #2831 [RouteBundle]         Improved speed of route-update-command for lots of entities
+    * FEATURE     #2826 [AdminBundle]         Made the reset to the "show all" only happen, when the datagrid was in the "show selected" state before (husky)
+    * BUGFIX      #2830 [MediaBundle]         Fixed style issues in the masonry view (spacing, scaling of thumbnail images, dropdown logging)
+    * FEATURE     #2803 [MediaBundle]         Add breadcrumb to collection's edit
+    * ENHANCEMENT #2814 [MediaBundle]         Removed overlay from dropzone and implemented own overlay-style for dropzone (husky)
+    * BUGFIX      #2817 [MediaBundle]         Made collection edit redirect to root collection when passed an invalid id
+    * FEATURE     #2820 [RouteBundle]         Added possibility to implement custom route-generator
+    * FEATURE     #2799 [MediaBundle]         Implemented tiles view for navigating through collections
+    * FEATURE     #2715 [ContentBundle]       Implemented teaser content-type
+    * ENHANCEMENT #2846 [ContentBundle]       Added teaser-attributes
+    * FEATURE     #2768 [ContentBundle]       Implemented teaser-edit for content-type
+    * FEATURE     #2765 [MediaBundle]         Implemented new masonry-design for media
+    * ENHANCEMENT #2743 [CoreBundle]          Remove symfony deprecations and don't allow them anymore
+    * BUGFIX      #2810 [ContentBundle]       Add missing translation of Content navigation tab
+    * FEATURE     #2749 [Webspace]            Added resource-locator strategy tree_full_edit
+    * BUGFIX      #2885 [ContactBundle]       Fixed toArray-Function
+    * BUGFIX      #2896 [SearchBundle]        Fixed limit in query
+    * BUGFIX      #751 [SULU-STANDARD]        Fixed category access in default twig template
+    * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
+    * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
+
 * 1.3.3 (2016-11-10)
     * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
     * HOTFIX      #3021 [MediaBundle]         Added default locale to media selection overlay

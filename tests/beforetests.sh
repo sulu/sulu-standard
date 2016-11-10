@@ -29,7 +29,7 @@ sudo service apache2 restart
 
 mkdir -p $LOGS_DIR
 composer selfupdate
-composer install --no-interaction
+composer update --no-interaction
 cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
 cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
 cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml

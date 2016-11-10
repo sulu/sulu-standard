@@ -40,6 +40,14 @@
             </properties>
         </section>
 
+        <property name="headerimage" type="media_selection">
+            <tag name="sulu.search.field" role="image" index="false"/>
+            <meta>
+                <title lang="de">Headerbild</title>
+                <title lang="en">Header image</title>
+            </meta>
+        </property>
+
         <property name="links" type="internal_links">
             <meta>
                 <title lang="de">Interne Links</title>

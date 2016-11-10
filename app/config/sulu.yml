@@ -114,6 +114,7 @@ sulu_document_manager:
             workspace: "%phpcr_workspace%_live"
             username: "%phpcr_user%"
             password: "%phpcr_pass%"
+
     mapping:
         page:
             class: Sulu\Bundle\ContentBundle\Document\PageDocument
