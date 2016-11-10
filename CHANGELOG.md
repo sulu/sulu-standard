@@ -1,8 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-master
+* 1.3.3 (2016-11-10)
     * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
+    * HOTFIX      #3021 [MediaBundle]         Added default locale to media selection overlay
+    * HOTFIX      #2989 [ContentBundle]       Fixed internal-link-uuid in query-builder
+    * HOTFIX      #2989 [MediaBundle]         Added file-version name database-index
+    * HOTFIX      #3015 [HTTPCacheBundle]     Activate cache handlers only in prod-environment
+    * HOTFIX      #3017 [ContentBundle]       Changed content-type write handling
 
 * 1.3.2 (2016-11-03)
     * HOTFIX      #2995 [MediaBundle]         Fixed namespace collision in media entity
