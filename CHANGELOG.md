@@ -1,6 +1,19 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.0 (2016-11-10)
+    * BUGFIX      #3022 [ContentBundle]       Fix cases in navigation translations
+    * BUGFIX      #2997 [AdminBundle]         Disabled double click on ghost page in internal links
+    * BUGFIX      #2834 [SecurityBundle]      Fixed bug with set all/none button in settings/ user role
+    * ENHANCEMENT #3004 [ContentBundle]       Fixed last selected page after search
+    * BUGFIX      #3019 [WesbiteBundle]       Fixed redirect for double slash
+    * BUGFIX      #2969 [MediaBundle]         Fixed uncatchable exception when use sulu_media_resolve twig extension
+    * BUGFIX      #3018 [WebsiteBundle]       Fixed port handling for webspaces
+    * BUGFIX      #3012 [MediaBundle]         Update format url when subversion changes
+    * BUGFIX      #3014 [PreviewBundle]       Use the correct PHPCR session for the preview
+    * FEATURE     #1758 [ContentBundle]       Webspace xliff 1.2 Import
+    * FEATURE     #2466 [ContentBundle]       Webspace xliff 1.2 Export
+
 * 1.4.0-RC2 (2016-11-03)
     * BUGFIX      #3010 [MediaBundle]         Fixed background of media overlay for preview icons
     * BUGFIX      #2899 [ContentBundle]       Disabled self referencing on internal links
