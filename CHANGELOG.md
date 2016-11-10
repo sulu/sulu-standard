@@ -101,6 +101,19 @@ CHANGELOG for Sulu CMF
     * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
     * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
 
+* 1.3.3 (2016-11-10)
+    * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
+    * HOTFIX      #3021 [MediaBundle]         Added default locale to media selection overlay
+    * HOTFIX      #2989 [ContentBundle]       Fixed internal-link-uuid in query-builder
+    * HOTFIX      #2989 [MediaBundle]         Added file-version name database-index
+    * HOTFIX      #3015 [HTTPCacheBundle]     Activate cache handlers only in prod-environment
+    * HOTFIX      #3017 [ContentBundle]       Changed content-type write handling
+
+* 1.3.2 (2016-11-03)
+    * HOTFIX      #2995 [MediaBundle]         Fixed namespace collision in media entity
+    * HOTFIX      #2955 [ContentBundle]       Fixed changing block types when maxOccurs are reached
+    * HOTFIX      #2959 [All]                 Fixed compatibility for twig 1.26
+
 * 1.3.1 (2016-09-15)
     * HOTFIX      #2922 [WebsiteBundle]       Avoid seo information injected by url
     * HOTFIX      #2890 [Localization]        Reintroduced localization provider class
