@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "project",
     "description": "The sulu content management framework",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -35,7 +35,6 @@
         "zendframework/zendsearch": "@dev",
 
         "massive/build-bundle": "0.2.*",
-        "massive/search-bundle": "@dev",
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
