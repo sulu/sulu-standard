@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.4 (2016-11-14)
+    * HOTFIX      #3025 [ContentBundle]       Fixed null value for text-editor
+
 * 1.3.3 (2016-11-10)
     * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
     * HOTFIX      #3021 [MediaBundle]         Added default locale to media selection overlay
