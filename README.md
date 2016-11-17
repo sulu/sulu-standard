@@ -16,7 +16,7 @@ at the current stage.**
 
 For the install guide and reference, see:
 
-* [installation guide](http://docs.sulu.io/en/latest/book/getting-started/index.html)
+* [installation guide](http://docs.sulu.io/en/latest/book/getting-started.html)
 
 ## Contributing
 
