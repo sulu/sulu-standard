@@ -2453,41 +2453,42 @@
         },
         {
             "name": "liip/theme-bundle",
-            "version": "1.3.0",
-            "target-dir": "Liip/ThemeBundle",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipThemeBundle.git",
-                "reference": "4d1843cb3ad9eb491fe9700b4bb9d3b704a2152d"
+                "reference": "2071de99dab1cf431260c6612238698e4fdb0ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/4d1843cb3ad9eb491fe9700b4bb9d3b704a2152d",
-                "reference": "4d1843cb3ad9eb491fe9700b4bb9d3b704a2152d",
+                "url": "https://api.github.com/repos/liip/LiipThemeBundle/zipball/2071de99dab1cf431260c6612238698e4fdb0ba4",
+                "reference": "2071de99dab1cf431260c6612238698e4fdb0ba4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": "^5.3.9|^7.0",
                 "psr/log": "~1.0",
-                "symfony/framework-bundle": "~2.3"
+                "symfony/finder": "~2.3|~3.0",
+                "symfony/framework-bundle": "~2.3|~3.0"
             },
             "require-dev": {
                 "kriswallsmith/assetic": "~1.1",
-                "phpunit/php-code-coverage": "@stable",
+                "phpunit/php-code-coverage": "~2.2@stable",
                 "phpunit/phpunit": "~4.5@stable",
-                "symfony/console": "~2.0",
-                "symfony/expression-language": "~2.6",
-                "twig/twig": "~1.0"
+                "symfony/console": "~2.3|~3.0",
+                "symfony/expression-language": "~2.6|~3.0",
+                "symfony/templating": "~2.3|~3.0",
+                "twig/twig": "~1.4|~2.0@dev"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Liip\\ThemeBundle": ""
+                "psr-4": {
+                    "Liip\\ThemeBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2509,7 +2510,7 @@
                 "themes",
                 "theming"
             ],
-            "time": "2015-06-07 18:06:44"
+            "time": "2016-11-23 11:01:59"
         },
         {
             "name": "massive/build-bundle",
@@ -3869,16 +3870,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.3.4",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "11c56743dca75d8d91c6c6b0ef67c8f0f56501a6"
+                "reference": "0839f3055cbfbabef8779b8217a4f1e18ca481c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/11c56743dca75d8d91c6c6b0ef67c8f0f56501a6",
-                "reference": "11c56743dca75d8d91c6c6b0ef67c8f0f56501a6",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/0839f3055cbfbabef8779b8217a4f1e18ca481c8",
+                "reference": "0839f3055cbfbabef8779b8217a4f1e18ca481c8",
                 "shasum": ""
             },
             "require": {
@@ -3973,25 +3974,25 @@
                 "core",
                 "sulu"
             ],
-            "time": "2016-11-14 13:06:30"
+            "time": "2016-11-24 10:49:56"
         },
         {
             "name": "sulu/theme-bundle",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "target-dir": "Sulu/Bundle/ThemeBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/SuluThemeBundle.git",
-                "reference": "300e53ec9607771c59ec870124425dd426b08f9b"
+                "reference": "78ad3c3c443828afa1c46e6fb7f9ee9253f513a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/SuluThemeBundle/zipball/300e53ec9607771c59ec870124425dd426b08f9b",
-                "reference": "300e53ec9607771c59ec870124425dd426b08f9b",
+                "url": "https://api.github.com/repos/sulu/SuluThemeBundle/zipball/78ad3c3c443828afa1c46e6fb7f9ee9253f513a8",
+                "reference": "78ad3c3c443828afa1c46e6fb7f9ee9253f513a8",
                 "shasum": ""
             },
             "require": {
-                "liip/theme-bundle": "1.3.*",
+                "liip/theme-bundle": "1.4.*",
                 "php": "^5.5 || ^7.0"
             },
             "require-dev": {
@@ -4023,20 +4024,20 @@
                 "sulu",
                 "theme"
             ],
-            "time": "2016-07-22 08:47:40"
+            "time": "2016-11-24 10:34:01"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.3",
+            "version": "v5.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
                 "shasum": ""
             },
             "require": {
@@ -4076,7 +4077,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-07-08 11:51:25"
+            "time": "2016-11-24 01:01:23"
         },
         {
             "name": "symfony-cmf/core-bundle",
@@ -4264,20 +4265,20 @@
         },
         {
             "name": "symfony/assetic-bundle",
-            "version": "v2.8.0",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/assetic-bundle.git",
-                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d"
+                "reference": "0241b135ff64c6031048c6425cd833a8300da46b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/aa5b4f8b712f38745928fa845ddb73300bb2af6d",
-                "reference": "aa5b4f8b712f38745928fa845ddb73300bb2af6d",
+                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/0241b135ff64c6031048c6425cd833a8300da46b",
+                "reference": "0241b135ff64c6031048c6425cd833a8300da46b",
                 "shasum": ""
             },
             "require": {
-                "kriswallsmith/assetic": "~1.3",
+                "kriswallsmith/assetic": "~1.4",
                 "php": ">=5.3.0",
                 "symfony/console": "~2.3|~3.0",
                 "symfony/dependency-injection": "~2.3|~3.0",
@@ -4286,7 +4287,7 @@
             },
             "conflict": {
                 "kriswallsmith/spork": "<=0.2",
-                "twig/twig": "<1.20"
+                "twig/twig": "<1.27"
             },
             "require-dev": {
                 "kriswallsmith/spork": "~0.3",
@@ -4304,7 +4305,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -4330,7 +4331,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-12-28 13:12:39"
+            "time": "2016-11-22 11:42:57"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -4965,16 +4966,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.13",
+            "version": "v2.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "d04e2eb13ae63068fc8862530b403756e3702896"
+                "reference": "6ceca5b4154c80839270c38aa65373de76127df7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/d04e2eb13ae63068fc8862530b403756e3702896",
-                "reference": "d04e2eb13ae63068fc8862530b403756e3702896",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6ceca5b4154c80839270c38aa65373de76127df7",
+                "reference": "6ceca5b4154c80839270c38aa65373de76127df7",
                 "shasum": ""
             },
             "require": {
@@ -4990,7 +4991,7 @@
                 "symfony/polyfill-php70": "~1.0",
                 "symfony/polyfill-util": "~1.0",
                 "symfony/security-acl": "~2.7|~3.0.0",
-                "twig/twig": "~1.27|~2.0"
+                "twig/twig": "~1.28|~2.0"
             },
             "conflict": {
                 "phpdocumentor/reflection": "<1.0.7"
@@ -5096,7 +5097,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-10-27 02:18:45"
+            "time": "2016-11-21 02:24:51"
         },
         {
             "name": "twig/extensions",
@@ -5152,16 +5153,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.27.0",
+            "version": "v1.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97"
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
-                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
                 "shasum": ""
             },
             "require": {
@@ -5169,12 +5170,12 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "~3.2@dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.27-dev"
+                    "dev-master": "1.28-dev"
                 }
             },
             "autoload": {
@@ -5209,7 +5210,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-25 19:17:17"
+            "time": "2016-11-23 18:41:40"
         },
         {
             "name": "willdurand/hateoas",
@@ -6281,16 +6282,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.13",
+            "version": "v2.8.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd"
+                "reference": "3a1f8c81595f8f69e24cf03134996cb99a8537c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd",
-                "reference": "fc69aad7dba2ab3eed5cf90c8e3ede4fb961effd",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/3a1f8c81595f8f69e24cf03134996cb99a8537c1",
+                "reference": "3a1f8c81595f8f69e24cf03134996cb99a8537c1",
                 "shasum": ""
             },
             "require": {
@@ -6332,7 +6333,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2016-08-19 06:48:01"
+            "time": "2016-11-16 18:56:22"
         }
     ],
     "aliases": [],
