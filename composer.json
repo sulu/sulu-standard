@@ -23,7 +23,7 @@
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "sulu/sulu": "1.4.*",
+        "sulu/sulu": "dev-develop",
         "sulu/theme-bundle": "1.1.*",
         "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
@@ -39,7 +39,10 @@
         "jackalope/jackalope-doctrine-dbal": "~1.2.5",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
         "doctrine/doctrine-cache-bundle": "~1.0",
-        "oro/doctrine-extensions": "^1.0"
+        "oro/doctrine-extensions": "^1.0",
+
+        "php-task/task-bundle": "@dev",
+        "php-task/php-task": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

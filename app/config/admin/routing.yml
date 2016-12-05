@@ -76,6 +76,16 @@ sulu_website_api:
     type: rest
     prefix: /admin/api
 
+sulu_automation_api:
+    type: rest
+    resource: "@SuluAutomationBundle/Resources/config/routing_api.xml"
+    prefix: /admin/api
+
+sulu_automation:
+    type: rest
+    resource: "@SuluAutomationBundle/Resources/config/routing.xml"
+    prefix: /admin/automation
+
 sulu_websocket:
     type: rest
     resource: "@SuluWebsocketBundle/Resources/config/routing.yml"
