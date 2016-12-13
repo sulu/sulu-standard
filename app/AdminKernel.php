@@ -42,10 +42,6 @@ class AdminKernel extends \AbstractKernel
         $bundles[] = new Sulu\Bundle\CollaborationBundle\SuluCollaborationBundle();
         $bundles[] = new Sulu\Bundle\PreviewBundle\SuluPreviewBundle();
 
-        if (in_array($this->getEnvironment(), ['dev', 'test'])) {
-            $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
-        }
-
         return $bundles;
     }
 }
