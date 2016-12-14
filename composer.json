@@ -25,7 +25,6 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
         "sulu/theme-bundle": "1.1.*",
-        "symfony-cmf/core-bundle": "1.2.*",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
         "nelmio/alice": "~1.7",
