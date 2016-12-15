@@ -3,6 +3,7 @@ CHANGELOG for Sulu CMF
 
 * dev-develop
     * ENHANCEMENT #771  [SULU-STANDARD]         Removed generator-bundle
+    * BUGFIX      #773  [SULU-STANDARD]         Removed acl configuration
 
 * 1.4.2 (2016-11-24)
     * HOTFIX      #3032 [ContentBundle]         Fixed publishing for shadow page targeting drafts
