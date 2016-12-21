@@ -1,5 +1,28 @@
 # Upgrade
 
+## 1.4.3
+
+### Multiple properties in template
+
+There was a bug in the template definition for the `minOccurs` field. It was
+not working if the `minOccurs` field had a value of `1`. So if you have a field
+like the following and you don't want it to be a multiple field you have to
+remove the `minOccurs` property:
+
+```xml
+    <property name="test1" type="text_line" minOccurs="2"></property>
+```
+
+### Format cache
+
+To generate the correct file extension the `FormatManager::purge` interface
+has changed.
+
+```diff
+-    public function purge($idMedia, $fileName, $options)
++    public function purge($idMedia, $fileName, $mimeType, $options)
+```
+
 ## 1.4.2
 
 ### Webspace keys
