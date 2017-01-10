@@ -132,6 +132,16 @@ CHANGELOG for Sulu CMF
     * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
     * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
 
+* 1.3.6 (2017-01-10)
+    * HOTFIX      #3128 [All]                 Bumped twig version to ^1.11
+
+* 1.3.5 (2016-11-24)
+    * HOTFIX      #3033 [SnippetBundle]       Handle references to deleted snippets in snippet selection
+    * HOTFIX      #3032 [ContentBundle]       Fixed publishing for shadow page targeting drafts
+
+* 1.3.4 (2016-11-14)
+    * HOTFIX      #3025 [ContentBundle]       Fixed null value for text-editor
+
 * 1.3.3 (2016-11-10)
     * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
     * HOTFIX      #3021 [MediaBundle]         Added default locale to media selection overlay
