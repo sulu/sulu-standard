@@ -2,6 +2,7 @@ CHANGELOG for Sulu CMF
 ======================
 
 * dev-develop
+    * ENHANCEMENT #779  [SULU-STANDARD]         Removed exception-controller from config
     * ENHANCEMENT #771  [SULU-STANDARD]         Removed generator-bundle
     * BUGFIX      #773  [SULU-STANDARD]         Removed acl configuration
 

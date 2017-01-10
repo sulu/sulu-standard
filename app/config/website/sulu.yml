@@ -4,10 +4,6 @@ framework:
     session:
         save_path: "%kernel.cache_dir%/../../sessions/website/%kernel.environment%"
 
-# Twig Configuration
-twig:
-    exception_controller: sulu_website.exception.controller:showAction
-
 # Symfony CMF Configuration
 cmf_routing:
     chain:
