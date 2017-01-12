@@ -1,6 +1,15 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.4 (2016-01-12)
+    * HOTFIX      #3140 [MediaBundle]           Use https variant of adobe creative image editor
+    * HOTFIX      #3139 [MediaBundle]           Fixed scaling issues on crop overlay in page form
+    * HOTFIX      #3138 [MediaBundle]           Fixed cropping with only one given side
+    * HOTFIX      #3134 [MediaBundle]           Fixed default focus point to center
+    * HOTFIX      #3130 [ContentBundle]         Fixed moving of blocks without maxOccurs
+    * HOTFIX      #3131 [WebsiteBundle]         Fixed sulu_content_path for language-specific domains
+    * HOTFIX      #3127 [ContentBundle]         Fixed copy-locale for homepage
+
 * 1.4.3 (2016-12-21)
     * HOTFIX      #3108 [ContentBundle]         Fixed support for multiple properties with minOccurs of 1
     * HOTFIX      #3099 [ContentBundle]         Display draft internal link in test mode
