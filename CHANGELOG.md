@@ -7,6 +7,15 @@ CHANGELOG for Sulu CMF
     * ENHANCEMENT #771  [SULU-STANDARD]         Removed generator-bundle
     * BUGFIX      #773  [SULU-STANDARD]         Removed acl configuration
 
+* 1.4.4 (2016-01-12)
+    * HOTFIX      #3140 [MediaBundle]           Use https variant of adobe creative image editor
+    * HOTFIX      #3139 [MediaBundle]           Fixed scaling issues on crop overlay in page form
+    * HOTFIX      #3138 [MediaBundle]           Fixed cropping with only one given side
+    * HOTFIX      #3134 [MediaBundle]           Fixed default focus point to center
+    * HOTFIX      #3130 [ContentBundle]         Fixed moving of blocks without maxOccurs
+    * HOTFIX      #3131 [WebsiteBundle]         Fixed sulu_content_path for language-specific domains
+    * HOTFIX      #3127 [ContentBundle]         Fixed copy-locale for homepage
+
 * 1.4.3 (2016-12-21)
     * HOTFIX      #3108 [ContentBundle]         Fixed support for multiple properties with minOccurs of 1
     * HOTFIX      #3099 [ContentBundle]         Display draft internal link in test mode
@@ -137,6 +146,16 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #751 [SULU-STANDARD]        Fixed category access in default twig template
     * ENAHCNEMENT #745 [SULU-STANDARD]        Added title to header image format and made use of 640x480 format
     * ENAHCNEMENT #738 [SULU-STANDARD]        Refactored the image-formats of the default theme to meet new image-formats version
+
+* 1.3.6 (2017-01-10)
+    * HOTFIX      #3128 [All]                 Bumped twig version to ^1.11
+
+* 1.3.5 (2016-11-24)
+    * HOTFIX      #3033 [SnippetBundle]       Handle references to deleted snippets in snippet selection
+    * HOTFIX      #3032 [ContentBundle]       Fixed publishing for shadow page targeting drafts
+
+* 1.3.4 (2016-11-14)
+    * HOTFIX      #3025 [ContentBundle]       Fixed null value for text-editor
 
 * 1.3.3 (2016-11-10)
     * HOTFIX      #760 [SULU-STANDARD]       Deactivate public in dev/stage environment
