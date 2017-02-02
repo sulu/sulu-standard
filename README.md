@@ -8,6 +8,8 @@
 manage enterprise multi-sites or as a development environment to create reliable
 and high-performant web-apps.
 
+We use [Browserstack](https://www.browserstack.com/) for cross browser testing.
+
 **Although Sulu is stable and already used in production it is still under
 heavy development. Therefore we can not guarantee full backwards compatibility
 at the current stage.**
