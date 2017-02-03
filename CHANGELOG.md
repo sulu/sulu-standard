@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.9 (2017-02-03)
+    * HOTFIX      #3173 [ContentBundle]       Fixed generating of resource locator with missing parents
+
 * 1.3.8 (2017-01-30)
     * HOTFIX      #3155 [MediaBundle]         Fixed system collection creation for .anon user
 

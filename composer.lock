@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc303c9adfdb9d77d1a0058b9bf89400",
+    "content-hash": "1f1722fb0e2c7eda709dec3e8a5f682c",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -3150,20 +3150,23 @@
         },
         {
             "name": "phpcr/phpcr",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpcr/phpcr.git",
-                "reference": "fea1529685d7bc4290e2ad0683830263f502971e"
+                "reference": "1d6639ea36f849fca197a27d288a7bf6a5a24df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpcr/phpcr/zipball/fea1529685d7bc4290e2ad0683830263f502971e",
-                "reference": "fea1529685d7bc4290e2ad0683830263f502971e",
+                "url": "https://api.github.com/repos/phpcr/phpcr/zipball/1d6639ea36f849fca197a27d288a7bf6a5a24df2",
+                "reference": "1d6639ea36f849fca197a27d288a7bf6a5a24df2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.6|^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "extra": {
@@ -3201,7 +3204,7 @@
                 "contentrepository",
                 "phpcr"
             ],
-            "time": "2014-12-08T09:40:30+00:00"
+            "time": "2017-01-30T07:33:35+00:00"
         },
         {
             "name": "phpcr/phpcr-migrations",
@@ -3698,16 +3701,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.19",
+            "version": "v3.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "d57c2f297d17ee82baf8cae0b16dae34a9378784"
+                "reference": "ed86f6fb1753e76b39ff8b87f527045ca6b97169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/d57c2f297d17ee82baf8cae0b16dae34a9378784",
-                "reference": "d57c2f297d17ee82baf8cae0b16dae34a9378784",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/ed86f6fb1753e76b39ff8b87f527045ca6b97169",
+                "reference": "ed86f6fb1753e76b39ff8b87f527045ca6b97169",
                 "shasum": ""
             },
             "require": {
@@ -3762,7 +3765,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2017-01-10T19:42:56+00:00"
+            "time": "2017-02-02T15:31:23+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -3919,16 +3922,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.3.8",
+            "version": "1.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "969cde67a16ff7426a7f49df58c65045dd013c5d"
+                "reference": "9c24079a7bc075d75ea573f631543f645fc399c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/969cde67a16ff7426a7f49df58c65045dd013c5d",
-                "reference": "969cde67a16ff7426a7f49df58c65045dd013c5d",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/9c24079a7bc075d75ea573f631543f645fc399c7",
+                "reference": "9c24079a7bc075d75ea573f631543f645fc399c7",
                 "shasum": ""
             },
             "require": {
@@ -4023,7 +4026,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2017-01-30T09:55:08+00:00"
+            "time": "2017-02-03T09:37:57+00:00"
         },
         {
             "name": "sulu/theme-bundle",
