@@ -24,7 +24,7 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
         "sulu/sulu": "dev-develop",
-        "sulu/theme-bundle": "1.1.*",
+        "sulu/theme-bundle": "dev-develop",
         "dantleech/phpcr-migrations-bundle": "0.1.*",
 
         "nelmio/alice": "~1.7",

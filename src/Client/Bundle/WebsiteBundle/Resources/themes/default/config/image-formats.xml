@@ -11,4 +11,13 @@
         </meta>
         <scale x="640" y="480"/>
     </format>
+    <format key="50x50">
+        <meta>
+            <title lang="en">Small thumbnail</title>
+            <title lang="de">Kleines Thumbnail</title>
+            <title lang="fr">Image miniature</title>
+            <title lang="nl">Kleine thumbnail</title>
+        </meta>
+        <scale x="50" y="50"/>
+    </format>
 </formats>
