@@ -40,9 +40,7 @@
         "doctrine/doctrine-cache-bundle": "~1.0",
         "oro/doctrine-extensions": "^1.0",
 
-        "sulu/document-manager": "@dev",
-        "php-task/task-bundle": "@dev",
-        "php-task/php-task": "@dev"
+        "sulu/document-manager": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
