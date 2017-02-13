@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.7 (2017-02-13)
+    * HOTFIX      #3195 [MediaBundle]           Fixed media linking in texteditor overlay
+    * BUGFIX      #3186 [Cache]                 Fixed wrong cache key generation for MemoizeTwigExtensionTrait
+
 * 1.4.6 (2017-02-03)
     * HOTFIX      #3177 [WebsiteBundle]         Fixed wrong hreflang tag
     * HOTFIX      #3173 [ContentBundle]         Fixed generating of resource locator with missing parents
