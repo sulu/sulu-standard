@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.0-RC2 (2017-02-20)
+    * BUGFIX      #3216 [ContentBundle]       Added author and authored to reserved-property-names
+    * BUGFIX      #3210 [MediaBundle]         Allow same image format key if formats are identical
+    * BUGFIX      #3200 [SecurityBundle]      Fixed broken UserManager when used without Security
+    * BUGFIX      #3183 [ContentBundle]       Fixed Windows xinclude error
+
 * 1.5.0-RC1 (2017-02-13)
     * ENHANCEMENT #788  [SULU-STANDARD]         Updated example template
     * ENHANCEMENT #779  [SULU-STANDARD]         Removed exception-controller from config
