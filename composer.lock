@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ec4192d5ecaf67636590b9d45d4fd17",
+    "content-hash": "a722b1e983888745486d53542dba5513",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2981,16 +2981,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.4",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
                 "shasum": ""
             },
             "require": {
@@ -3025,7 +3025,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07T23:38:38+00:00"
+            "time": "2017-02-27T17:11:23+00:00"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
@@ -3925,16 +3925,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "dev-release/1.3",
+            "version": "1.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "3632f30d4d0ca1ecba3819173311b445ccf62fe2"
+                "reference": "165541f80335c34d718b08a21c00bf4ca16ac4dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/3632f30d4d0ca1ecba3819173311b445ccf62fe2",
-                "reference": "3632f30d4d0ca1ecba3819173311b445ccf62fe2",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/165541f80335c34d718b08a21c00bf4ca16ac4dc",
+                "reference": "165541f80335c34d718b08a21c00bf4ca16ac4dc",
                 "shasum": ""
             },
             "require": {
@@ -4029,7 +4029,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2017-02-27 14:31:20"
+            "time": "2017-02-28T07:11:17+00:00"
         },
         {
             "name": "sulu/theme-bundle",
@@ -6397,7 +6397,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sulu/sulu": 20,
         "zendframework/zendsearch": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
