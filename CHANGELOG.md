@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.0 (2017-03-06)
+    * BUGFIX      #3242 [ContentBundle]       Fixed set default author to creator contact-id
+
 * 1.5.0-RC3(2017-02-28)
     * BUGFIX      #3234 [HttpCacheBundle]     Added console terminate to flush-subscriber
     * BUGFIX      #3206 [SnippetBundle]       Corrected translations in copy locale and open ghost overlay
@@ -70,6 +73,18 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #3031 [AdminBundle]         Fixed defaultDisplayOption in media selectio content type
     * BUGFIX      #3075 [ContentComponent]    Fixed missing referenced UUIDs for contentTypes nested in a block
     * ENHANCEMENT #1686 [SnippetBundle]       Added XLIFF-Import/Export for Snippet-Documents.
+
+* 1.4.9 (2017-03-06)
+    * HOTFIX      #3247 [MediaBundle]           Fixed focus point calculation with double rounding error
+    * HOTFIX      #3244 [SecurityBundle]        Fixed breaking change in swiftmailer for tests
+    * HOTFIX      #3241 [SecurityBundle]        Fixed permission edit for newly added security contexts
+    * ENHANCEMENT #3243 [ListBuilder]           GroupConcatFieldDescriptor: Added possibility to set `DISTINCT` via attribute `orm:distinct`
+    * ENHANCEMENT #3246 [ListBuilder]           FieldDescriptor: Corrected implementation of attribute `display` with value `yes`
+    * ENHANCEMENT #3243 [ListBuilder]           GroupConcatFieldDescriptor: Added possibility to set `DISTINCT` via attribute `orm:distinct`
+
+* 1.4.8 (2017-02-28)
+    * HOTFIX      #3214 [AdminBundle]           Fixed save button of form-tab when validation fails.
+    * BUGFIX      #3231 [MediaBundle]           Show area selection in focus point slide
 
 * 1.4.7 (2017-02-13)
     * HOTFIX      #3195 [MediaBundle]           Fixed media linking in texteditor overlay
