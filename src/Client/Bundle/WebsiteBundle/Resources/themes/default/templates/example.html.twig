@@ -40,7 +40,7 @@
                         <p property="single">{{ block.single }}</p>
                     {% elseif block.type == 'editor_image' %}
                         {% set viewBlock = view.blocks[loop.index - 1] %}
-                        {% if viewBlock.images is not null %}
+                        {% if viewBlock.images.ids|length > 0 %}
                             {% set displayOption = viewBlock.images.displayOption|default('top') %}
                             {% if displayOption == 'top' %}
                                 {% set float = 'none' %}

@@ -17,7 +17,9 @@ php:
     - 5.5
     - 7.0
 
-before_script: ./tests/beforetests.sh
+before_script:
+    - echo "memory_limit=2048M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+    - ./tests/beforetests.sh
 
 after_script:
     - ./tests/travis_print_logs.sh

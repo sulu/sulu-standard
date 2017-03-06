@@ -11,6 +11,7 @@
 /bin/
 /build/
 /composer.phar
+composer.lock
 /jackrabbit
 /uploads/*
 /uploads/media/*

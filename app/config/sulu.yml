@@ -45,11 +45,6 @@ jms_serializer:
     metadata:
         debug: "%kernel.debug%"
 
-# Symfony CMF Configuration
-cmf_core:
-    publish_workflow:
-        enabled: false
-
 # Massive Bundles
 massive_search:
     metadata:

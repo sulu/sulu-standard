@@ -3,9 +3,6 @@ security:
         strategy: unanimous
         allow_if_all_abstain: true
 
-    acl:
-        connection: default
-
     encoders:
         Sulu\Bundle\SecurityBundle\Entity\User:
             algorithm: sha512

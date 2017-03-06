@@ -35,9 +35,6 @@ abstract class AbstractKernel extends SuluKernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Doctrine\Bundle\DoctrineCacheBundle\DoctrineCacheBundle(),
 
-            // symfony cmf
-            new Symfony\Cmf\Bundle\CoreBundle\CmfCoreBundle(),
-
             // doctrine extensions
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
