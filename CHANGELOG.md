@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.3.11 (2017-03-06)
+    * ENHANCEMENT #3246 [ListBuilder]         FieldDescriptor: Corrected implementation of attribute `display` with value `yes`
+    * ENHANCEMENT #3243 [ListBuilder]         GroupConcatFieldDescriptor: Added possibility to set `DISTINCT` via attribute `orm:distinct`
+
 * 1.3.10 (2017-02-28)
     * HOTFIX      #3214 [AdminBundle]         Fixed save button of form-tab when validation fails.
 
