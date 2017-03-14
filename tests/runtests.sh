@@ -9,4 +9,4 @@ fi
 touch /tmp/failed.tests
 
 export BEHAT_PARAMS=
-php vendor/behat/behat/bin/behat --profile $PROFILE
+php bin/behat --profile $PROFILE

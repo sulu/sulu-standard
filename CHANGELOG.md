@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-develop
+    * ENHANCEMENT #795  [SULU-STANDARD]         Updated dependencies and fixed symfony3 deprecations
+
 * 1.5.0 (2017-03-06)
     * BUGFIX      #3242 [ContentBundle]       Fixed set default author to creator contact-id
 
