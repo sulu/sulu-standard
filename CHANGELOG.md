@@ -82,6 +82,11 @@ CHANGELOG for Sulu CMF
     * BUGFIX      #3075 [ContentComponent]    Fixed missing referenced UUIDs for contentTypes nested in a block
     * ENHANCEMENT #1686 [SnippetBundle]       Added XLIFF-Import/Export for Snippet-Documents.
 
+* 1.4.11 (2017-03-22)
+    * HOTFIX      #3270 [Webspace]              Removed localization usage check in webspace's xml files
+    * HOTFIX      #3263 [SearchBundle]          Escape search terms
+    * HOTFIX      #3271 [MarkupBundle]          Fix request format in MarkupBundle listener
+
 * 1.4.10 (2017-03-15)
     * HOTFIX      #3261 [Webspace]              Fixed domain match for country specific domains
     * HOTFIX      #3262 [WebsiteBundle]         Fixed seo caninical tag with shadow.
