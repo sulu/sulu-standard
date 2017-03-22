@@ -1,6 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.2 (2017-03-22)
+    * HOTFIX      #3265 [ContentBundle]         Fixed internal-link selection for pages
+    * HOTFIX      #3273 [MarkupBundle]          Fixed multiline mismatch in HtmlExtractor
+    * ENHANCEMENT #3266 [ContentBundle]         Added locale parameter to teaser-selection-list
+    * HOTFIX      #3270 [Webspace]              Removed localization usage check in webspace's xml files
+    * HOTFIX      #3263 [SearchBundle]          Escape search terms
+    * HOTFIX      #3271 [MarkupBundle]          Fix request format in MarkupBundle listener
+
 * 1.5.1 (2017-03-16)
     * ENHANCEMENT #3256 [DocumentManagerBundle] Added VersionNotFoundException to fos_rest configuration
     * HOTFIX      #3261 [Webspace]              Fixed domain match for country specific domains

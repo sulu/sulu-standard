@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c952be184ba4daec5e2fb8e471a1f3fd",
+    "content-hash": "4f76048f71c3f925cb64384320038a46",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -4357,16 +4357,16 @@
         },
         {
             "name": "sulu/sulu",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sulu/sulu.git",
-                "reference": "0e28669de29af6b5a31d73c11bbc90862102ee80"
+                "reference": "d23afa6e9344e91ede0c7efd565f90c3d06e7f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sulu/sulu/zipball/0e28669de29af6b5a31d73c11bbc90862102ee80",
-                "reference": "0e28669de29af6b5a31d73c11bbc90862102ee80",
+                "url": "https://api.github.com/repos/sulu/sulu/zipball/d23afa6e9344e91ede0c7efd565f90c3d06e7f09",
+                "reference": "d23afa6e9344e91ede0c7efd565f90c3d06e7f09",
                 "shasum": ""
             },
             "require": {
@@ -4466,7 +4466,7 @@
                 "core",
                 "sulu"
             ],
-            "time": "2017-03-16T09:03:25+00:00"
+            "time": "2017-03-22T15:28:56+00:00"
         },
         {
             "name": "sulu/theme-bundle",
