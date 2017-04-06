@@ -1,9 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-master
+* 1.5.3 (2017-04-06)
     * HOTFIX      #3279 [CategoryBundle]        Add missing return statement.
     * HOTFIX      #3277 [PreviewBundle]         Added fake portal for preview when nothing matches
+    * HOTFIX      #3281 [ContentBundle]         Fixed index pages with redirect-behavior
+    * HOTFIX      #3297 [WebsiteBundle]         Fixed allDomains option for Analytics
+    * HOTFIX      #3295 [WebsiteBundle]         Removed analytics code from preview
+    * HOTFIX      #3289 [ContentBundle]         Fixed smart-content to use it without webspace
+    * HOTFIX      #3282 [ContentBundle]         Fixed teaser-selection locale
     * HOTFIX      #3281 [ContentBundle]         Fixed index pages with redirect-behavior
 
 * 1.5.2 (2017-03-22)
