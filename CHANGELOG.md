@@ -1,6 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.4.12 (2017-04-06)
+    * HOTFIX      #3279 [CategoryBundle]        Add missing return statement.
+    * HOTFIX      #3277 [PreviewBundle]         Added fake portal for preview when nothing matches
+    * HOTFIX      #3281 [ContentBundle]         Fixed index pages with redirect-behavior
+
 * 1.4.11 (2017-03-22)
     * HOTFIX      #3270 [Webspace]              Removed localization usage check in webspace's xml files
     * HOTFIX      #3263 [SearchBundle]          Escape search terms
