@@ -20,6 +20,7 @@
         "symfony/polyfill-apcu": "~1.0",
         "sensio/distribution-bundle": "~5.0",
         "incenteev/composer-parameter-handler": "~2.0",
+        "sulu/document-manager": "@dev",
         "sulu/sulu": "dev-develop as 1.5.0",
         "dantleech/phpcr-migrations-bundle": "~1.0",
         "sulu/theme-bundle": "~1.2",
