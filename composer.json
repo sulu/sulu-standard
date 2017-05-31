@@ -16,6 +16,7 @@
     },
     "require": {
         "php": "^5.5.9 || ~7.0",
+        "symfony/symfony": "^3.3",
         "symfony/monolog-bundle": "^2.8.7 || ^3.0",
         "symfony/polyfill-apcu": "~1.0",
         "sensio/distribution-bundle": "~5.0",

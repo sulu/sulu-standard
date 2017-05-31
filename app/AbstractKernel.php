@@ -83,6 +83,7 @@ abstract class AbstractKernel extends SuluKernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+            $bundles[] = new Symfony\Bundle\WebServerBundle\WebServerBundle();
 
             // debug enhancement
             $bundles[] = new Sulu\Bundle\TestBundle\SuluTestBundle();

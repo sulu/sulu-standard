@@ -1,5 +1,22 @@
 # Upgrade
 
+# dev-develop
+
+## Symfony 3.3
+
+Symfony 3.3 was released with some breaking changes, which also affect Sulu.
+If you want to use the `server:run` or `server:start` command, you have to add
+the new `Symfony\Bundle\WebServerBundle\WebServerBundle` to your kernel.
+
+Also, the `server` commands have now a single front controller, so the commands
+can be used for the website and admin at the same time.
+
+And the `framework.trusted_proxies` setting was removed, use
+`Request::setTrustedProxies` in the front controller instead.
+
+Also have a look at the
+[Symfony UPGRADE.md](https://github.com/symfony/symfony/blob/master/UPGRADE-3.3.md).
+
 ## 1.5.0-RC1
 
 ### Media formats uniqueness
