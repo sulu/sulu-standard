@@ -1,6 +1,11 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.4 (2017-05-31)
+    * HOTFIX      #3356 [AdminBundle]           Updated husky to fix issue with ckeditor plugins
+    * HOTFIX      #3314 [ContentBundle]         Fixed author migration script for removed users.
+    * BUGFIX      #3355 [ContentBundle]         Fixed sort-handler of teaser-selection
+
 * 1.5.3 (2017-04-06)
     * HOTFIX      #3279 [CategoryBundle]        Add missing return statement.
     * HOTFIX      #3277 [PreviewBundle]         Added fake portal for preview when nothing matches
