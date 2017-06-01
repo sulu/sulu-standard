@@ -1,6 +1,59 @@
 # Upgrade
 
-# dev-develop
+## dev-develop
+
+### Social media profile fixtures
+
+Add fixtures for social media profile of contacts. Run following command to
+add the fixtures:
+
+```bash
+INSERT INTO co_social_media_profile_types (id, name) VALUES ('1', 'Facebook'), ('2', 'Twitter'), ('3', 'Instagram');
+```
+
+### ProxyManager
+
+We had to update `ocramius/proxy-manager` in order to be compatible with PHP 7.
+In case you have defined your own proxies, you should check the
+[ProxyManager UPGRADE.md](https://github.com/Ocramius/ProxyManager/blob/master/UPGRADE.md).
+
+### ContentTypeInterface
+
+Following methods and constants was removed from `ContentTypeInterface`.
+
+* `PRE_SAVE`
+* `POST_SAVE`
+* `getType()`
+* `getReferenceUuids()`
+
+For replacement of `getReferenceUuids` we have introduced the 
+[reference-store](http://docs.sulu.io/en/latest/bundles/content/reference-store.html)
+and the `PreResolveContentTypeInterface::preResolve` method. 
+
+### Route-Table changed
+
+The route-table was extended with auditable information. Run following command to
+update the database schema.
+
+```bash
+bin/console doctrine:schema:update --force
+```
+
+### Highlight section styling changed
+
+To make the highlight section reusable the css not longer depend on the `#content-form`
+selector you should use now the `.form` class instead. 
+
+### Removed symfony/security-acl dependency
+
+The following deprecated classes was removed:
+
+* `Sulu\Component\Security\Authorization\AccessControl\PermissionMap`
+* `Sulu\Component\Security\Authorization\AccessControl\SymfonyAccessControlManager`
+
+Therefor the dependency `symfony/security-acl` was useless and removed.
+
+
 
 ## Symfony 3.3
 
