@@ -1,7 +1,6 @@
 {
     "name": "sulu/sulu-standard",
     "license": "MIT",
-    "version": "1.6.0-RC1",
     "type": "project",
     "description": "The sulu content management framework",
     "autoload": {
