@@ -91,6 +91,11 @@ sulu_custom_urls_api:
     resource: "@SuluCustomUrlBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
 
+sulu_route_api:
+    type: rest
+    resource: "@SuluRouteBundle/Resources/config/routing_api.xml"
+    prefix: /admin/api
+
 sulu_search:
     resource: "@SuluSearchBundle/Resources/config/routing.yml"
     prefix: /admin/search

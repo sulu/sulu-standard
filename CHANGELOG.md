@@ -1,6 +1,51 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.0-RC1 (2017-06-01)
+    * BUGFIX      #816  [SULU-STANDARD]         Added 'ClientWebsiteBundle' to default bundles of Assetic configuration.
+    * ENHANCEMENT #795  [SULU-STANDARD]         Updated dependencies and fixed symfony3 deprecations
+    * BUGFIX      #3381 [WebsiteBundle]         Fixed partial redirect
+    * BUGFIX      #3379 [All]                   Upgraded to Symfony 3.3
+    * BUGFIX      #3378 [ContentBundle]         Fixed smart-content-manager
+    * ENHANCEMENT #3359 [ContentBundle]         Added check for existence before redirect
+    * FEATURE     #3354 [ContactBundle]         Added social media profile field
+    * FEATURE     #3212 [CategoryBundle]        Added functionality to move categories
+    * BUGFIX      #3363 [MediaBundle]           Fixed compatibility with newest imagick version
+    * BUGFIX      #3369 [DocumentManagerBundle] Adapt to latest ProxyManager
+    * ENHANCEMENT #3361 [ContentBundle]         Replace "getReferencedUuids" with a reference-store 
+    * FEATURE     #3368 [ContentBundle]         Used reference-store to avoid duplicated content via smart-content 
+    * ENHANCEMENT #3360 [ContentBundle]         Removed get-type from content-type-interface 
+    * BUGFIX      #3350 [RouteBundle]           Fixed restore route when conflict resolver is disabled
+    * BUGFIX      #3352 [RouteBundle]           Added default value to route-created field
+    * ENHANCEMENT #3344 [ContentBundle]         Added possibility to add additional attributes to "sulu:link"-tag
+    * ENHANCEMENT #3345 [CustomUrlBundle]       Added redirect parameter of custom-url
+    * BUGFIX      #3342 [ContentBundle]         Fixed "sulu:content:types:dump" command
+    * BUGFIX      #3338 [ContentBundle]         Fixed overwrite data in content-serialization
+    * ENHANCEMENT #3329 [ContentBundle]         Added possibility to set the published date for documents
+    * ENHANCEMENT #3332 [RouteBundle]           Added parameter to disable conflict-resolver
+    * FEATURE     #3326 [RouteBundle]           Added auditable to route
+    * ENHANCEMENT #3310 [All]                   Fixed test setup to correct init all bundle tests correctly
+    * FEATURE     #3310 [ContentBundle]         Implemented `sulu:webspaces:copy` command
+    * BUGFIX      #3322 [ContentBundle]         Fixed validator for resource-locator 
+    * ENHANCEMENT #3312 [SecurityBundle]        Added configuration options to send reset password message 
+    * ENHANCEMENT #3317 [All]                   Fixed jackalope conflict in composer.json
+    * ENHANCEMENT #3315 [RouteBundle]           Added route-history controller
+    * ENHANCEMENT #3306 [DocumentManagerBundle] Adapted document-manager service definition for new NodeNameSlugifier
+    * ENHANCEMENT #3302 [ContentBundle]         Added metadata to configure remove-live
+    * FEATURE     #3300 [ContentBundle]         Added onInvalid flag with ignore option to properties
+    * BUGFIX      #3298 [WebsiteBundle]         Fixed sitemap index provider without items
+    * ENHANCEMENT #3299 [RouteBundle]           Added route-generator pool to combine different route-generators
+    * ENHANCEMENT #2944 [ContentBundle]         Added general class for sulu form highlight section
+    * BUGFIX      #3292 [WebsiteBundle]         Fixed visibility of our logo in the web developer toolbar
+    * ENHANCEMENT #3291 [TagBundle]             Added all parameters to tag manager
+    * BUGFIX      #3290 [TagBundle]             Fixed tag persistence with tag manager
+    * ENHANCEMENT #3284 [TagBundle]             Added persistence to tag-bundle
+    * ENHANCEMENT #3280 [AudienceTargetBundle]  Added rule evaluation
+    * ENHANCEMENT #3266 [ContentBundle]         Added locale parameter to teaser-selection-list
+    * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
+    * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
+    * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
 * 1.5.5 (2017-06-28)
     * HOTFIX      #3404 [DocumentManagerBundle] Remove exception for non-Sulu user
 

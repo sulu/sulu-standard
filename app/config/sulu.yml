@@ -127,7 +127,7 @@ sulu_document_manager:
 sulu_http_cache:
     handlers:
         debug:
-            enabled: %kernel.debug%
+            enabled: "%kernel.debug%"
     proxy_client:
         symfony:
             enabled: true
