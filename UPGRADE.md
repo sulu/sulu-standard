@@ -1,6 +1,39 @@
 # Upgrade
 
-## dev-develop
+## 1.6.0
+
+### Default Snippets
+
+Default snippets were replaced with snippet areas. To have the same behaviour as before replace the old twig extension:
+
+__Before:__
+
+```twig
+sulu_snippet_load_default('your_snippet_key')[0]
+```
+
+__After:__
+
+```twig
+sulu_snippet_load_by_area('your_snippet_key')
+```
+
+### Sitemap Localization
+
+The `build` method of the `SitemapProviderInterface` had a `$locale` parameter,
+which shouldn't be there, because the sitemaps need to be generated or all
+locales at once. If you have implemented this interface you have to adapt the
+implementation to remove the `$locale` parameter and return the URLs for all
+locales instead.
+
+### Snippet list
+
+Some field configuration has changed, so we need to delete the saved one in the database:
+```sql
+DELETE FROM `se_user_settings` WHERE `settingsKey` = 'snippetsFields';
+```
+
+## 1.6.0-RC1
 
 ### Social media profile fixtures
 

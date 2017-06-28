@@ -1,6 +1,26 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.0 (2017-06-28)
+    * ENHANCEMENT #3423 [ContentBundle]           Added config values for seo restrictions
+    * ENHANCEMENT #3416 [ContentBundle]           Changed skin of history-url to large
+    * BUGFIX      #3414 [MediaBundle]             Added check for null target-groups
+    * ENHANCEMENT #3411 [RouteBundle]             Allow to reset the route entity target to null
+    * FEATURE     #3385 [SnippetBundle]           Implement snippet areas to replace default snippets 
+    * BUGFIX      #3401 [WebsiteBundle]           Fixed localizatin of sitemaps
+    * FEATURE     #3410 [DocumentManagerBundle]   Added configuration for set-default-author
+    * BUGFIX      #3400 [PreviewBundle]           Added host to preview request
+    * BUGFIX      #3391 [SnippetBundle]           Snippet list: Changed field sortable; Fixed bug with copy locale functionality
+    * ENHANCEMENT #3393 [AudienceTargetingBundle] Added translations for frequencies
+    * BUGFIX      #3392 [ContentBundle]           Fixed smart-content out of range
+    * FEATURE     #3399 [MediaBundle]             Added support for audience targeting
+    * FEATURE     #3387 [AudienceTargetingBundle] Added rule for detecting device type
+    * BUGFIX      #3385 [SecurityBundle]          Fixed UserLocaleListener
+    * BUGFIX      #3384 [Webspace]                Fixed usage of Sulu with non-default HTTP port
+    * ENHANCEMENT #3343 [MediaBundle]             Use media disposition type config to serve media files
+    * ENHANCEMENT #3390 [RouteBundle]             Avoid BC break in content-type "route" form
+    * ENHANCEMENT #3383 [RouteBundle]             Added upgrade sql-statement to add changed and created column
+
 * 1.6.0-RC1 (2017-06-01)
     * BUGFIX      #816  [SULU-STANDARD]         Added 'ClientWebsiteBundle' to default bundles of Assetic configuration.
     * ENHANCEMENT #795  [SULU-STANDARD]         Updated dependencies and fixed symfony3 deprecations
