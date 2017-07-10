@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.1 (2017-07-10)
+    * HOTFIX      #3437 [AdminBundle]             Added save url to storage for update-url event
+    * HOTFIX      #3433 [ContentBundle]           Fixed url generation for domain root page
+    * HOTFIX      #3432 [SnippetBundle]           Fixed not working smart content in snippet bundle
+    * HOTFIX      #3431 [MediaBundle]             Fixed file download url filename encoding
+    * HOTFIX      #3430 [WebsiteBundle]           Fixed 404 page for none localized url
+
 * 1.6.0 (2017-06-28)
     * ENHANCEMENT #3423 [ContentBundle]           Added config values for seo restrictions
     * ENHANCEMENT #3416 [ContentBundle]           Changed skin of history-url to large
