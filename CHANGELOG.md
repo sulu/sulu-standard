@@ -1,6 +1,19 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.2 (2017-07-31)
+    * HOTFIX      #3444 [MediaBundle]             Fixed error when download of media without extension
+    * HOTFIX      #3441 [PreviewBundle]           Fixed bug in preview when running on https
+    * HOTFIX      #3451 [ContentBundle]           Index correct language of shadow document
+    * HOTFIX      #3425 [ContentBundle]           Fixed translations for seo restrictions in en/nl/fr
+
+* 1.6.1 (2017-07-10)
+    * HOTFIX      #3437 [AdminBundle]             Added save url to storage for update-url event
+    * HOTFIX      #3433 [ContentBundle]           Fixed url generation for domain root page
+    * HOTFIX      #3432 [SnippetBundle]           Fixed not working smart content in snippet bundle
+    * HOTFIX      #3431 [MediaBundle]             Fixed file download url filename encoding
+    * HOTFIX      #3430 [WebsiteBundle]           Fixed 404 page for none localized url
+
 * 1.6.0 (2017-06-28)
     * ENHANCEMENT #3423 [ContentBundle]           Added config values for seo restrictions
     * ENHANCEMENT #3416 [ContentBundle]           Changed skin of history-url to large
