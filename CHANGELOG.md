@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.7 (2017-10-12)
+    * HOTFIX      #3551 [SecurityBundle]        Fixed permissions for user with no role
+    * HOTFIX      #3553 [SecurityBundle]        Added system check for password reset
+
 * 1.5.6 (2017-09-14)
     * HOTFIX      #3511 [MediaBundle]           Fixed disappearing of selected medias
 
