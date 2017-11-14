@@ -1,6 +1,22 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.6 (2017-10-12)
+    * ENHANCEMENT #3557 [ContentBundle]           Added option to decorate index name for document types
+    * HOTFIX      #3555 [ContentBundle]           Fixed "awkward" state of documents after copy-locale
+    * ENHANCEMENT #3554 [WebsiteBundle]           Return webspaceKey on StructureResolver
+    * HOTFIX      #3551 [SecurityBundle]          Fixed permissions for user with no role
+    * HOTFIX      #3553 [SecurityBundle]          Added system check for password reset
+
+* 1.6.5 (2017-10-04)
+    * HOTFIX      #---- [Husky]                   Fixed bug in `escapeHtml` method
+    * HOTFIX      #3535 [Content]                 Fix bug in structure bridge when no document is available
+    * HOTFIX      #3514 [ContentBundle]           Fixed override route when using "tree_full_edit"
+    * HOTFIX      #3541 [CategoryBundle]          Fixed category-list for null selected value
+    * HOTFIX      #3543 [PreviewBundle]           Fixed rerender preview if html is the same
+    * HOTFIX      #3543 [ContentBundle]           Fixed update resource-locator with date content type
+    * ENHANCEMENT #3544 [SnippetBundle]           Added reference-store to snippet data-provider
+
 * 1.6.4 (2017-09-14)
     * HOTFIX      #3509 [MediaBundle]             Fixed deletion of tag when referenced in media fileversion
     * HOTFIX      #3504 [SnippetBundle]           Fixed snippet areas with uppercases
@@ -92,6 +108,10 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.7 (2017-10-12)
+    * HOTFIX      #3551 [SecurityBundle]        Fixed permissions for user with no role
+    * HOTFIX      #3553 [SecurityBundle]        Added system check for password reset
 
 * 1.5.6 (2017-09-14)
     * HOTFIX      #3511 [MediaBundle]           Fixed disappearing of selected medias
