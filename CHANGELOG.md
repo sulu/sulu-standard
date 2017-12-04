@@ -1,6 +1,15 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.9 (2017-12-04)
+    * ENHANCEMENT sulu/sulu#3665 [CategoryBundle]          Added keywords to category serialization
+    * HOTFIX      sulu/sulu#3671 [CoreBundle]              Remove cache builder from sulu:build command
+    * HOTFIX      sulu/sulu#3669 [PreviewBundle]           Fix cache clear command for preview
+    * HOTFIX      sulu/sulu#3664 [All]                     Fix regressions in Symfony 3.4
+    * HOTFIX      sulu/sulu#3647 [WebsiteBundle]           Fixed sulu_content_load throwing exception when reference was deleted
+    * HOTFIX      sulu/sulu#3646 [ContentBundle]           Fixed xss attack for seo description
+    * HOTFIX      sulu/sulu#3652 [RouteBundle]             Fixed bug with json routes for route-bundle
+
 * 1.6.8 (2017-11-21)
     * BUGFIX      sulu/sulu#3629 [WebsiteBundle]           home page route not matched
     * FEATURE     sulu/sulu#3602 [ContentBundle]           Editable time field in author-selection overlay
