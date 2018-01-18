@@ -147,6 +147,10 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
 
+* 1.5.9 (2018-01-18)
+    * HOTFIX      #3709 [CategoryBundle]        Category API: Fix bug when searching with rootKey parameter
+    * BUGFIX      #3693 [MediaBundle]           Fix retina flag in XmlFormatLoader11 & add tests for retina flag
+
 * 1.5.8 (2017-12-13)
     * HOTFIX      #3684 [SecurityBundle]        Fixed conflict between admin and website session cookie
     * HOTFIX      #3686 [ContentBundle]         Validate if ckeditor instances are not in source mode
