@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.13 (2017-01-18)
+    * ENHANCEMENT #3715 [RouteBundle]             RouteRepository: Added method 'findAllByEntity'
+    * HOTFIX      #3713 [WebsiteBundle]           Fixed redirect listener to allow trailing slashes for homepage
+    * HOTFIX      #3709 [CategoryBundle]          Category API: Fix bug when searching with rootKey parameter
+    * BUGFIX      #3693 [MediaBundle]             Fix retina flag in XmlFormatLoader11 & add tests for retina flag
+
 * 1.6.12 (2017-12-21)
     * ENHANCEMENT #3698 [ContentBundle]           SEO description length changed from 155 to 320
     * HOTFIX      #3695 [RouteBundle]             Added check for empty request format
