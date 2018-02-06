@@ -1,6 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.10 (2018-02-06)
+    * HOTFIX      #3739 [ContentBundle]         Added locale to content-teaser query
+    * ENHANCEMENT #3735 [DocumentManager]       Set proper default locale for document-manager
+    * ENHANCEMENT #3736 [WebsiteBundle]         Added exception when default_host is needed for sitemap generation
+    * HOTFIX      #3741 [ContentBundle]         Cleand-up xliff import/export component
+    * HOTFIX      #3730 [ContactBundle]         Fixed class parameter to load field-descriptor
+    * HOTFIX      #3720 [MediaBundle]           Added extension-guesser to fix wrong extensions on download
+
 * 1.5.9 (2018-01-18)
     * HOTFIX      #3709 [CategoryBundle]        Category API: Fix bug when searching with rootKey parameter
     * BUGFIX      #3693 [MediaBundle]           Fix retina flag in XmlFormatLoader11 & add tests for retina flag
