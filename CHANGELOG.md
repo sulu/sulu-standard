@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #837  [Sulu-Standard]           Remove deprecated apcu example in website.php and admin.php
+
 * 1.6.14 (2018-02-06)
     * ENHANCEMENT #3717 [ContentBundle]           ResourceLocator: Show whole url in history overlay
     * HOTFIX      #3739 [ContentBundle]           Added locale to content-teaser query
