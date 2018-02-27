@@ -1,6 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.11 (2018-02-27)
+    * HOTFIX      sulu/sulu-standard#844 [SULU-STANDARD] Fix home type in example webspace
+    * HOTFIX      sulu/sulu#3789         [MediaBundle]   Check if current user is sulu user to avoid errors
+    * BUGFIX      sulu/sulu#3639         [ContentBundle] Fix structure internal flag and add webspace validate command
+    * ENHANCEMENT sulu/sulu#3764         [Component]     Allow dynamic order of elements in webspace xml
+    * HOTFIX      sulu/sulu#3752         [ContentBundle] Overwrite 'doctrine:phpcr:workspace:import' set default to throw
+    * ENHANCEMENT sulu/sulu#3775         [Component]     Use is iterable instead of custom is_array twig function in webspace dumper
+
 * 1.5.10 (2018-02-06)
     * HOTFIX      #3739 [ContentBundle]         Added locale to content-teaser query
     * ENHANCEMENT #3735 [DocumentManager]       Set proper default locale for document-manager
