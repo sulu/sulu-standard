@@ -1,35 +1,49 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.15 (2018-02-27)
+    * HOTFIX      sulu/sulu-standard#837  [Sulu-Standard]           Remove deprecated apcu example in website.php and admin.php
+    * HOTFIX      sulu/sulu#3796          [HttpCache]               Increased priority of update-response-subscriber 
+    * HOTFIX      sulu/sulu#3793          [PreviewBundle]           Set context data (token, locale) before render can fail
+    * ENHANCEMENT sulu/sulu#3779          [ContentBundle]           Improved cache-invalidation for categories/tags in excerpt tab
+    * ENHANCEMENT sulu/sulu#3777          [ContentBundle]           Added tag/category reference-store
+    * ENHANCEMENT sulu/sulu#3778          [ContactBundle]           Improved cache-invalidation for media/contact/account
+    * ENHANCEMENT sulu/sulu#3778          [ContactBundle]           Added reference-store to contact/account
+    * ENHANCEMENT sulu/sulu#3778          [MediaBundle]             Added reference-store to media
+    * FEATURE     sulu/sulu#3028          [MediaBundle]             Added blur, grayscale, gamma, negative and sharpen transformation to media
+    * HOTFIX      sulu/sulu#3750          [PreviewBundle]           Fixed refresh preview
+    * HOTFIX      sulu/sulu#3747          [RouteBundle]             Added empty array as default value to histories property.
+    * BUGFIX      sulu/sulu#3755          [RouteBundle]             Fixed how the route provider strips format extensions from the path
+
 * 1.6.14 (2018-02-06)
-    * ENHANCEMENT #3717 [ContentBundle]           ResourceLocator: Show whole url in history overlay
-    * HOTFIX      #3739 [ContentBundle]           Added locale to content-teaser query
-    * ENHANCEMENT #3735 [DocumentManager]         Set proper default locale for document-manager
-    * ENHANCEMENT #3736 [WebsiteBundle]           Added exception when default_host is needed for sitemap generation
-    * HOTFIX      #3741 [ContentBundle]           Cleand-up xliff import/export component
-    * HOTFIX      #3730 [ContactBundle]           Fixed class parameter to load field-descriptor
-    * HOTFIX      #3720 [MediaBundle]             Added extension-guesser to fix wrong extensions on download
+    * ENHANCEMENT sulu/sulu#3717 [ContentBundle]           ResourceLocator: Show whole url in history overlay
+    * HOTFIX      sulu/sulu#3739 [ContentBundle]           Added locale to content-teaser query
+    * ENHANCEMENT sulu/sulu#3735 [DocumentManager]         Set proper default locale for document-manager
+    * ENHANCEMENT sulu/sulu#3736 [WebsiteBundle]           Added exception when default_host is needed for sitemap generation
+    * HOTFIX      sulu/sulu#3741 [ContentBundle]           Cleand-up xliff import/export component
+    * HOTFIX      sulu/sulu#3730 [ContactBundle]           Fixed class parameter to load field-descriptor
+    * HOTFIX      sulu/sulu#3720 [MediaBundle]             Added extension-guesser to fix wrong extensions on download
 
 * 1.6.13 (2017-01-18)
-    * ENHANCEMENT #3715 [RouteBundle]             RouteRepository: Added method 'findAllByEntity'
-    * HOTFIX      #3713 [WebsiteBundle]           Fixed redirect listener to allow trailing slashes for homepage
-    * HOTFIX      #3709 [CategoryBundle]          Category API: Fix bug when searching with rootKey parameter
-    * BUGFIX      #3693 [MediaBundle]             Fix retina flag in XmlFormatLoader11 & add tests for retina flag
+    * ENHANCEMENT sulu/sulu#3715 [RouteBundle]             RouteRepository: Added method 'findAllByEntity'
+    * HOTFIX      sulu/sulu#3713 [WebsiteBundle]           Fixed redirect listener to allow trailing slashes for homepage
+    * HOTFIX      sulu/sulu#3709 [CategoryBundle]          Category API: Fix bug when searching with rootKey parameter
+    * BUGFIX      sulu/sulu#3693 [MediaBundle]             Fix retina flag in XmlFormatLoader11 & add tests for retina flag
 
 * 1.6.12 (2017-12-21)
-    * ENHANCEMENT #3698 [ContentBundle]           SEO description length changed from 155 to 320
-    * HOTFIX      #3695 [RouteBundle]             Added check for empty request format
-    * HOTFIX      #3695 [WebsiteBundle]           Added check for empty request format
-    * HOTFIX      #3696 [MediaBundle]             Keep doctrine 2.5
+    * ENHANCEMENT sulu/sulu#3698 [ContentBundle]           SEO description length changed from 155 to 320
+    * HOTFIX      sulu/sulu#3695 [RouteBundle]             Added check for empty request format
+    * HOTFIX      sulu/sulu#3695 [WebsiteBundle]           Added check for empty request format
+    * HOTFIX      sulu/sulu#3696 [MediaBundle]             Keep doctrine 2.5
 
 * 1.6.11 (2017-12-13)
-    * HOTFIX      #3684 [SecurityBundle]          Fixed conflict between admin and website session cookie
-    * HOTFIX      #3686 [ContentBundle]           Validate if ckeditor instances are not in source mode
-    * HOTFIX      #3585 [PersistanceBundle]       Fixed exception of blame for none sulu users
-    * HOTFIX      #3676 [PreviewBundle]           Fixed preview update for property names with underscore
+    * HOTFIX      sulu/sulu#3684 [SecurityBundle]          Fixed conflict between admin and website session cookie
+    * HOTFIX      sulu/sulu#3686 [ContentBundle]           Validate if ckeditor instances are not in source mode
+    * HOTFIX      sulu/sulu#3585 [PersistanceBundle]       Fixed exception of blame for none sulu users
+    * HOTFIX      sulu/sulu#3676 [PreviewBundle]           Fixed preview update for property names with underscore
 
 * 1.6.10 (2017-12-07)
-    * HOTFIX      #3682 [CoreBundle]              Reintroduce cache builder for sulu:build command
+    * HOTFIX      sulu/sulu#3682 [CoreBundle]              Reintroduce cache builder for sulu:build command
 
 * 1.6.9 (2017-12-04)
     * ENHANCEMENT sulu/sulu#3665 [CategoryBundle]          Added keywords to category serialization
@@ -55,67 +69,67 @@ CHANGELOG for Sulu CMF
     * HOTFIX      sulu/sulu#3573 [CustomUrlBundle]         Added rawurldecode to decode path-info before searching for route
 
 * 1.6.6 (2017-10-12)
-    * ENHANCEMENT #3557 [ContentBundle]           Added option to decorate index name for document types
-    * HOTFIX      #3555 [ContentBundle]           Fixed "awkward" state of documents after copy-locale
-    * ENHANCEMENT #3554 [WebsiteBundle]           Return webspaceKey on StructureResolver
-    * HOTFIX      #3551 [SecurityBundle]          Fixed permissions for user with no role
-    * HOTFIX      #3553 [SecurityBundle]          Added system check for password reset
+    * ENHANCEMENT sulu/sulu#3557 [ContentBundle]           Added option to decorate index name for document types
+    * HOTFIX      sulu/sulu#3555 [ContentBundle]           Fixed "awkward" state of documents after copy-locale
+    * ENHANCEMENT sulu/sulu#3554 [WebsiteBundle]           Return webspaceKey on StructureResolver
+    * HOTFIX      sulu/sulu#3551 [SecurityBundle]          Fixed permissions for user with no role
+    * HOTFIX      sulu/sulu#3553 [SecurityBundle]          Added system check for password reset
 
 * 1.6.5 (2017-10-04)
-    * HOTFIX      #---- [Husky]                   Fixed bug in `escapeHtml` method
-    * HOTFIX      #3535 [Content]                 Fix bug in structure bridge when no document is available
-    * HOTFIX      #3514 [ContentBundle]           Fixed override route when using "tree_full_edit"
-    * HOTFIX      #3541 [CategoryBundle]          Fixed category-list for null selected value
-    * HOTFIX      #3543 [PreviewBundle]           Fixed rerender preview if html is the same
-    * HOTFIX      #3543 [ContentBundle]           Fixed update resource-locator with date content type
-    * ENHANCEMENT #3544 [SnippetBundle]           Added reference-store to snippet data-provider
+    * HOTFIX      sulu/sulu#---- [Husky]                   Fixed bug in `escapeHtml` method
+    * HOTFIX      sulu/sulu#3535 [Content]                 Fix bug in structure bridge when no document is available
+    * HOTFIX      sulu/sulu#3514 [ContentBundle]           Fixed override route when using "tree_full_edit"
+    * HOTFIX      sulu/sulu#3541 [CategoryBundle]          Fixed category-list for null selected value
+    * HOTFIX      sulu/sulu#3543 [PreviewBundle]           Fixed rerender preview if html is the same
+    * HOTFIX      sulu/sulu#3543 [ContentBundle]           Fixed update resource-locator with date content type
+    * ENHANCEMENT sulu/sulu#3544 [SnippetBundle]           Added reference-store to snippet data-provider
 
 * 1.6.4 (2017-09-14)
-    * HOTFIX      #3509 [MediaBundle]             Fixed deletion of tag when referenced in media fileversion
-    * HOTFIX      #3504 [SnippetBundle]           Fixed snippet areas with uppercases
-    * HOTFIX      #3501 [AdminBundle]             Updated husky to avoid html/js injection
-    * HOTFIX      #3492 [ContentBundle]           Fixed smart-content categories load
-    * HOTFIX      #3499 [MediaBundle]             Fixed deindex of medias
+    * HOTFIX      sulu/sulu#3509 [MediaBundle]             Fixed deletion of tag when referenced in media fileversion
+    * HOTFIX      sulu/sulu#3504 [SnippetBundle]           Fixed snippet areas with uppercases
+    * HOTFIX      sulu/sulu#3501 [AdminBundle]             Updated husky to avoid html/js injection
+    * HOTFIX      sulu/sulu#3492 [ContentBundle]           Fixed smart-content categories load
+    * HOTFIX      sulu/sulu#3499 [MediaBundle]             Fixed deindex of medias
 
 * 1.6.3 (2017-08-17)
-    * HOTFIX      #3484 [TestBundle]              Fix doctrine errors for mysql older than 5.7
-    * HOTFIX      #3475 [ContentBundle]           Added possibility to set default value for single-select
-    * HOTFIX      #3470 [DocumentManagerBundle]   Fixed document-manager load-fixtures command
-    * HOTFIX      #3465 [ContentBundle]           Fixed interpretation of code in block preview
-    * ENHANCEMENT #3464 [ContentBundle]           Added additional-slides configuration for teaser-provider
+    * HOTFIX      sulu/sulu#3484 [TestBundle]              Fix doctrine errors for mysql older than 5.7
+    * HOTFIX      sulu/sulu#3475 [ContentBundle]           Added possibility to set default value for single-select
+    * HOTFIX      sulu/sulu#3470 [DocumentManagerBundle]   Fixed document-manager load-fixtures command
+    * HOTFIX      sulu/sulu#3465 [ContentBundle]           Fixed interpretation of code in block preview
+    * ENHANCEMENT sulu/sulu#3464 [ContentBundle]           Added additional-slides configuration for teaser-provider
 
 * 1.6.2 (2017-07-31)
-    * HOTFIX      #3444 [MediaBundle]             Fixed error when download of media without extension
-    * HOTFIX      #3441 [PreviewBundle]           Fixed bug in preview when running on https
-    * HOTFIX      #3451 [ContentBundle]           Index correct language of shadow document
-    * HOTFIX      #3425 [ContentBundle]           Fixed translations for seo restrictions in en/nl/fr
+    * HOTFIX      sulu/sulu#3444 [MediaBundle]             Fixed error when download of media without extension
+    * HOTFIX      sulu/sulu#3441 [PreviewBundle]           Fixed bug in preview when running on https
+    * HOTFIX      sulu/sulu#3451 [ContentBundle]           Index correct language of shadow document
+    * HOTFIX      sulu/sulu#3425 [ContentBundle]           Fixed translations for seo restrictions in en/nl/fr
 
 * 1.6.1 (2017-07-10)
-    * HOTFIX      #3437 [AdminBundle]             Added save url to storage for update-url event
-    * HOTFIX      #3433 [ContentBundle]           Fixed url generation for domain root page
-    * HOTFIX      #3432 [SnippetBundle]           Fixed not working smart content in snippet bundle
-    * HOTFIX      #3431 [MediaBundle]             Fixed file download url filename encoding
-    * HOTFIX      #3430 [WebsiteBundle]           Fixed 404 page for none localized url
+    * HOTFIX      sulu/sulu#3437 [AdminBundle]             Added save url to storage for update-url event
+    * HOTFIX      sulu/sulu#3433 [ContentBundle]           Fixed url generation for domain root page
+    * HOTFIX      sulu/sulu#3432 [SnippetBundle]           Fixed not working smart content in snippet bundle
+    * HOTFIX      sulu/sulu#3431 [MediaBundle]             Fixed file download url filename encoding
+    * HOTFIX      sulu/sulu#3430 [WebsiteBundle]           Fixed 404 page for none localized url
 
 * 1.6.0 (2017-06-28)
-    * ENHANCEMENT #3423 [ContentBundle]           Added config values for seo restrictions
-    * ENHANCEMENT #3416 [ContentBundle]           Changed skin of history-url to large
-    * BUGFIX      #3414 [MediaBundle]             Added check for null target-groups
-    * ENHANCEMENT #3411 [RouteBundle]             Allow to reset the route entity target to null
-    * FEATURE     #3385 [SnippetBundle]           Implement snippet areas to replace default snippets 
-    * BUGFIX      #3401 [WebsiteBundle]           Fixed localizatin of sitemaps
-    * FEATURE     #3410 [DocumentManagerBundle]   Added configuration for set-default-author
-    * BUGFIX      #3400 [PreviewBundle]           Added host to preview request
-    * BUGFIX      #3391 [SnippetBundle]           Snippet list: Changed field sortable; Fixed bug with copy locale functionality
-    * ENHANCEMENT #3393 [AudienceTargetingBundle] Added translations for frequencies
-    * BUGFIX      #3392 [ContentBundle]           Fixed smart-content out of range
-    * FEATURE     #3399 [MediaBundle]             Added support for audience targeting
-    * FEATURE     #3387 [AudienceTargetingBundle] Added rule for detecting device type
-    * BUGFIX      #3385 [SecurityBundle]          Fixed UserLocaleListener
-    * BUGFIX      #3384 [Webspace]                Fixed usage of Sulu with non-default HTTP port
-    * ENHANCEMENT #3343 [MediaBundle]             Use media disposition type config to serve media files
-    * ENHANCEMENT #3390 [RouteBundle]             Avoid BC break in content-type "route" form
-    * ENHANCEMENT #3383 [RouteBundle]             Added upgrade sql-statement to add changed and created column
+    * ENHANCEMENT sulu/sulu#3423 [ContentBundle]           Added config values for seo restrictions
+    * ENHANCEMENT sulu/sulu#3416 [ContentBundle]           Changed skin of history-url to large
+    * BUGFIX      sulu/sulu#3414 [MediaBundle]             Added check for null target-groups
+    * ENHANCEMENT sulu/sulu#3411 [RouteBundle]             Allow to reset the route entity target to null
+    * FEATURE     sulu/sulu#3385 [SnippetBundle]           Implement snippet areas to replace default snippets 
+    * BUGFIX      sulu/sulu#3401 [WebsiteBundle]           Fixed localizatin of sitemaps
+    * FEATURE     sulu/sulu#3410 [DocumentManagerBundle]   Added configuration for set-default-author
+    * BUGFIX      sulu/sulu#3400 [PreviewBundle]           Added host to preview request
+    * BUGFIX      sulu/sulu#3391 [SnippetBundle]           Snippet list: Changed field sortable; Fixed bug with copy locale functionality
+    * ENHANCEMENT sulu/sulu#3393 [AudienceTargetingBundle] Added translations for frequencies
+    * BUGFIX      sulu/sulu#3392 [ContentBundle]           Fixed smart-content out of range
+    * FEATURE     sulu/sulu#3399 [MediaBundle]             Added support for audience targeting
+    * FEATURE     sulu/sulu#3387 [AudienceTargetingBundle] Added rule for detecting device type
+    * BUGFIX      sulu/sulu#3385 [SecurityBundle]          Fixed UserLocaleListener
+    * BUGFIX      sulu/sulu#3384 [Webspace]                Fixed usage of Sulu with non-default HTTP port
+    * ENHANCEMENT sulu/sulu#3343 [MediaBundle]             Use media disposition type config to serve media files
+    * ENHANCEMENT sulu/sulu#3390 [RouteBundle]             Avoid BC break in content-type "route" form
+    * ENHANCEMENT sulu/sulu#3383 [RouteBundle]             Added upgrade sql-statement to add changed and created column
 
 * 1.6.0-RC1 (2017-06-01)
     * BUGFIX      #816  [SULU-STANDARD]         Added 'ClientWebsiteBundle' to default bundles of Assetic configuration.
@@ -161,6 +175,14 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.11 (2018-02-27)
+    * HOTFIX      sulu/sulu-standard#844 [SULU-STANDARD] Fix home type in example webspace
+    * HOTFIX      sulu/sulu#3789         [MediaBundle]   Check if current user is sulu user to avoid errors
+    * BUGFIX      sulu/sulu#3639         [ContentBundle] Fix structure internal flag and add webspace validate command
+    * ENHANCEMENT sulu/sulu#3764         [Component]     Allow dynamic order of elements in webspace xml
+    * HOTFIX      sulu/sulu#3752         [ContentBundle] Overwrite 'doctrine:phpcr:workspace:import' set default to throw
+    * ENHANCEMENT sulu/sulu#3775         [Component]     Use is iterable instead of custom is_array twig function in webspace dumper
 
 * 1.5.10 (2018-02-06)
     * HOTFIX      #3739 [ContentBundle]         Added locale to content-teaser query

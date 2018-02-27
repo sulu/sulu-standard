@@ -9,7 +9,6 @@
  * with this source code in the file LICENSE.
  */
 
-use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -34,14 +33,6 @@ include_once __DIR__ . '/../app/bootstrap.php.cache';
 if (SYMFONY_DEBUG) {
     Debug::enable();
 }
-
-// Use APC for autoloading to improve performance.
-// Change 'sf2' to a unique prefix in order to prevent cache key conflicts
-// with other applications also using APC.
-//
-// $apcLoader = new ApcClassLoader('sf2', $loader);
-// $loader->unregister();
-// $apcLoader->register(true);
 
 $kernel = new WebsiteKernel(SYMFONY_ENV, SYMFONY_DEBUG);
 $kernel->loadClassCache();
