@@ -1,6 +1,14 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.12 (2018-03-19)
+    * ENHANCEMENT #3830 [All]                   Avoid duplicated run of composer update for travis
+    * BUGFIX      #3826 [ContentBundle]         Fix enabling of save button when toggler is changed
+    * HOTFIX      #3819 [MediaBundle]           Fix forgotten context binding for resetPreviewUrl method
+    * FEATURE     #3816 [All]                   Validate if grunt build was run for all bundles with circleci
+    * BUGFIX      #3806 [All]                   Fix compatibility on lowest and fix appveyor
+    * BUGFIX      #3351 [ContentBundle]         Fix spacing between rows and section in content template generation
+
 * 1.5.11 (2018-02-27)
     * HOTFIX      sulu/sulu-standard#844 [SULU-STANDARD] Fix home type in example webspace
     * HOTFIX      sulu/sulu#3789         [MediaBundle]   Check if current user is sulu user to avoid errors
