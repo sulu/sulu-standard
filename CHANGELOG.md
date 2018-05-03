@@ -7,6 +7,11 @@ CHANGELOG for Sulu CMF
     * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
     * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
 
+* 1.5.14 (2018-05-03)
+    * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
+    * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
+    * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
+
 * 1.6.17 (2018-04-23)
     * FEATURE     sulu/sulu#3906 [MediaBundle]             Add file version delete to media overlay
     * HOTFIX      sulu/sulu#3912 [ContentBundle]           Fixed content-query when a child is broken
@@ -215,6 +220,11 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.14 (2018-05-03)
+    * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
+    * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
+    * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
 
 * 1.5.13 (2018-04-23)
     * BUGFIX      sulu/sulu#3915 [ContactBundle]         Fix typehint in api ContactLocale constructor
