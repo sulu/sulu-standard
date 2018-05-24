@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.19 (2018-05-24)
+    * HOTFIX      #3980 [PreviewBundle]           Fix kernel.project_dir parameter for PreviewKernel
+    * BUGFIX      #3967 [AudienceTargetingBundle] Fixed loading of minified js files for production
+    * HOTFIX      #3950 [ContactBundle]           Fixed empty latitude and longitude
+    * HOTFIX      #3949 [ContentBundle]           Fixed security check for deleting draft
+
 * 1.6.18 (2018-05-03)
     * ENHANCEMENT #3930 [PreviewBundle]         Fixed preview style-link
     * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
