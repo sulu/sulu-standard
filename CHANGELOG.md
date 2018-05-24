@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.15 (2018-05-24)
+    * HOTFIX      #3988 [ContentBundle]         Date content type: Reading: Check if value is instance of DateTime
+    * HOTFIX      #3988 [BlockComponent]        Read: Ignore unknown types
+    * BUGFIX      #3967 [All]                   Fixed loading of minified js files for production
+    * HOTFIX      #3963 [ContentBundle]         Don't reload data when changing template in add form
+    * HOTFIX      #3953 [RouteBundle]           Fix route options with dash
+
 * 1.5.14 (2018-05-03)
     * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
     * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
