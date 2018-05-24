@@ -159,6 +159,10 @@ And the `framework.trusted_proxies` setting was removed, use
 Also have a look at the
 [Symfony UPGRADE.md](https://github.com/symfony/symfony/blob/master/UPGRADE-3.3.md).
 
+## 1.5.15
+
+Added method `hasType` to `Sulu\Component\Content\Compat\Block\BlockPropertyInterface`.
+
 ## 1.5.0-RC1
 
 ### Media formats uniqueness
