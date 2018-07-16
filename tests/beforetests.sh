@@ -29,7 +29,11 @@ sudo service apache2 restart
 
 mkdir -p $LOGS_DIR
 composer selfupdate
-composer update --no-interaction
+
+# FIXME hack for prefer-lowest bug: https://github.com/composer/composer/issues/7161
+if [[ $COMPOSER_FLAGS == *"--prefer-lowest"* ]]; then composer install; fi
+
+composer update $COMPOSER_FLAGS
 cp app/Resources/webspaces/sulu.io.xml.dist app/Resources/webspaces/sulu.io.xml
 cp app/Resources/pages/overview.xml.dist app/Resources/pages/overview.xml
 cp app/Resources/pages/default.xml.dist app/Resources/pages/default.xml

@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      sulu/sulu-standard#856  [Sulu-Standard]           Fix compatibility with php 5.5
+
 * 1.6.20 (2018-06-29)
     * BUGFIX      sulu/sulu#4042 [AudienceTargetingBundle] Add symfony 3.4.12 as conflict to fix caching tests
     * HOTFIX      sulu/sulu#4019 [Component]               Fix handling of authored date on safari
@@ -271,7 +274,6 @@ CHANGELOG for Sulu CMF
     * FEATURE     sulu/sulu#3816 [All]                   Validate if grunt build was run for all bundles with circleci
     * BUGFIX      sulu/sulu#3806 [All]                   Fix compatibility on lowest and fix appveyor
     * BUGFIX      sulu/sulu#3351 [ContentBundle]         Fix spacing between rows and section in content template generation
->>>>>>> 397593ad7f3ea56e5f77b2522516f682dd01667f
 
 * 1.5.11 (2018-02-27)
     * HOTFIX      sulu/sulu-standard#844 [SULU-STANDARD] Fix home type in example webspace
