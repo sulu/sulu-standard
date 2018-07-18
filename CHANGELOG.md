@@ -1,16 +1,46 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* dev-master
+    * HOTFIX      #856  [Sulu-Standard]         Fix compatibility with php 5.5
+    * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
+    * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
+    * HOTFIX      #5060 [MediaBundle]           Added escaping of media edit overlay title
+    * HOTFIX      #4067 [SmartContent]          Avoid returning the same id multiple times in filter query of smart content
+    * HOTFIX      #4058 [ContactBundle]         Added escaping of name in contact-list
+    * HOTFIX      #4058 [ContactBundle]         Added escaping for address and bank-accounts
+    * HOTFIX      #4058 [MediaBundle]           Added escaping of name in media-list
+    * HOTFIX      #4057 [SecurityBundle]        Removed password-hash from user-api
+
+* 1.6.20 (2018-06-29)
+    * BUGFIX      sulu/sulu#4042 [AudienceTargetingBundle] Add symfony 3.4.12 as conflict to fix caching tests
+    * HOTFIX      sulu/sulu#4019 [Component]               Fix handling of authored date on safari
+    * HOTFIX      sulu/sulu#4027 [PreviewBundle]           Fix correct url in preview
+    * HOTFIX      sulu/sulu#4017 [SnippetBundle]           Fix snippet conflict overlay
+    * BUGFIX      sulu/sulu#4044 [PreviewBundle]           Fixed support method for PageRouteDefaultsProvider
+    * HOTFIX      sulu/sulu#4044 [Webspace]                Fixed document creation in webspace-initializer
+    * ENHANCEMENT sulu/sulu#4028 [MediaBundle]             Log errors in image generation
+    * ENHANCEMENT sulu/sulu#3850 [SecurityBundle]          Allow user to be null for security config
+    * ENHANCEMENT sulu/sulu#3850 [MediaBundle]             Allow user to be null for security expression in service build
+    * BUGFIX      sulu/sulu#4018 [SnippetBundle]           Fix conflict when saving snippet in new language
+    * BUGFiX      sulu/sulu#3995 [TestBundle]              Fix tests for latest Symfony version
+
+* 1.6.19 (2018-05-24)
+    * HOTFIX      sulu/sulu#3980 [PreviewBundle]           Fix kernel.project_dir parameter for PreviewKernel
+    * BUGFIX      sulu/sulu#3967 [AudienceTargetingBundle] Fixed loading of minified js files for production
+    * HOTFIX      sulu/sulu#3950 [ContactBundle]           Fixed empty latitude and longitude
+    * HOTFIX      sulu/sulu#3949 [ContentBundle]           Fixed security check for deleting draft
+
 * 1.6.18 (2018-05-03)
-    * ENHANCEMENT #3930 [PreviewBundle]         Fixed preview style-link
-    * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
-    * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
-    * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
+    * ENHANCEMENT sulu/sulu#3930 [PreviewBundle]         Fixed preview style-link
+    * HOTFIX      sulu/sulu#3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
+    * HOTFIX      sulu/sulu#3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
+    * BUGFIX      sulu/sulu#3926 [WebsiteBundle]         Fix profiler for none sulu routes
 
 * 1.5.14 (2018-05-03)
-    * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
-    * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
-    * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
+    * HOTFIX      sulu/sulu#3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
+    * HOTFIX      sulu/sulu#3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
+    * BUGFIX      sulu/sulu#3926 [WebsiteBundle]         Fix profiler for none sulu routes
 
 * 1.6.17 (2018-04-23)
     * FEATURE     sulu/sulu#3906 [MediaBundle]             Add file version delete to media overlay
@@ -221,10 +251,41 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
 
+* 1.5.17 (2018-07-18)
+    * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
+    * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
+    * HOTFIX      #5060 [MediaBundle]           Added escaping of media edit overlay title
+    * HOTFIX      #4067 [SmartContent]          Avoid returning the same id multiple times in filter query of smart content
+    * HOTFIX      #4058 [ContactBundle]         Added escaping of name in contact-list
+    * HOTFIX      #4058 [ContactBundle]         Added escaping for address and bank-accounts
+    * HOTFIX      #4058 [MediaBundle]           Added escaping of name in media-list
+    * HOTFIX      #4057 [SecurityBundle]        Removed password-hash from user-api
+
+* 1.5.16 (2018-06-29)
+    * ENHANCEMENT #4028 [MediaBundle]           Log errors in image generation
+    * ENHANCEMENT #3850 [SecurityBundle]        Allow user to be null for security config
+    * ENHANCEMENT #3850 [MediaBundle]           Allow user to be null for security expression in service build
+    * BUGFIX      #4018 [SnippetBundle]         Fix conflict when saving snippet in new language
+    * BUGFiX      #3995 [TestBundle]            Fix tests for latest Symfony version
+
+* 1.5.16 (2018-06-29)
+    * ENHANCEMENT sulu/sulu#4028 [MediaBundle]           Log errors in image generation
+    * ENHANCEMENT sulu/sulu#3850 [SecurityBundle]        Allow user to be null for security config
+    * ENHANCEMENT sulu/sulu#3850 [MediaBundle]           Allow user to be null for security expression in service build
+    * BUGFIX      sulu/sulu#4018 [SnippetBundle]         Fix conflict when saving snippet in new language
+    * BUGFiX      sulu/sulu#3995 [TestBundle]            Fix tests for latest Symfony version
+
+* 1.5.15 (2018-05-24)
+    * HOTFIX      sulu/sulu#3988 [ContentBundle]         Date content type: Reading: Check if value is instance of DateTime
+    * HOTFIX      sulu/sulu#3988 [BlockComponent]        Read: Ignore unknown types
+    * BUGFIX      sulu/sulu#3967 [All]                   Fixed loading of minified js files for production
+    * HOTFIX      sulu/sulu#3963 [ContentBundle]         Don't reload data when changing template in add form
+    * HOTFIX      sulu/sulu#3953 [RouteBundle]           Fix route options with dash
+
 * 1.5.14 (2018-05-03)
-    * HOTFIX      #3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
-    * HOTFIX      #3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
-    * BUGFIX      #3926 [WebsiteBundle]         Fix profiler for none sulu routes
+    * HOTFIX      sulu/sulu#3946 [ContentBundle]         Single internal link: Clear selection when target doesn't exists
+    * HOTFIX      sulu/sulu#3941 [WebsiteBundle]         Fix hideInSitemap flag for sitemap twig extension
+    * BUGFIX      sulu/sulu#3926 [WebsiteBundle]         Fix profiler for none sulu routes
 
 * 1.5.13 (2018-04-23)
     * BUGFIX      sulu/sulu#3915 [ContactBundle]         Fix typehint in api ContactLocale constructor
@@ -238,7 +299,6 @@ CHANGELOG for Sulu CMF
     * FEATURE     sulu/sulu#3816 [All]                   Validate if grunt build was run for all bundles with circleci
     * BUGFIX      sulu/sulu#3806 [All]                   Fix compatibility on lowest and fix appveyor
     * BUGFIX      sulu/sulu#3351 [ContentBundle]         Fix spacing between rows and section in content template generation
->>>>>>> 397593ad7f3ea56e5f77b2522516f682dd01667f
 
 * 1.5.11 (2018-02-27)
     * HOTFIX      sulu/sulu-standard#844 [SULU-STANDARD] Fix home type in example webspace

@@ -1,5 +1,33 @@
 # Upgrade
 
+## 1.6.17
+
+### Address latitude/longitude
+
+The address of contact/account was extended by latitude and longitude - therefore the database has to be updated.
+Run the following command:
+
+```bash
+php bin/console doctrine:schema:update --force
+```
+
+or the following SQL statements on your database:
+
+```sql
+ALTER TABLE co_addresses ADD latitude DOUBLE PRECISION DEFAULT NULL, ADD longitude DOUBLE PRECISION DEFAULT NULL;
+```
+
+### SEO Title
+
+The default length for the title field in the SEO tab has changed from 55 to 70, because Google has expanded
+the max length. If you want to have a different length for some reason you can change it in the configuration:
+
+```yaml
+sulu_content:
+    seo:
+        max_title_length: 55
+```
+
 ## 1.6.16
 
 ### Page index extension
@@ -158,6 +186,10 @@ And the `framework.trusted_proxies` setting was removed, use
 
 Also have a look at the
 [Symfony UPGRADE.md](https://github.com/symfony/symfony/blob/master/UPGRADE-3.3.md).
+
+## 1.5.15
+
+Added method `hasType` to `Sulu\Component\Content\Compat\Block\BlockPropertyInterface`.
 
 ## 1.5.0-RC1
 

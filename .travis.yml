@@ -13,12 +13,17 @@ env:
 
 script: ./tests/runtests.sh
 
-php:
-    - 5.5
-    - 7.0
+matrix:
+  include:
+    - php: 5.5
+      env:
+        - COMPOSER_FLAGS="--prefer-dist --no-interaction --prefer-lowest"
+    - php: 7.0
+      env:
+        - COMPOSER_FLAGS="--prefer-dist --no-interaction"
 
 before_script:
-    - echo "memory_limit=2048M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+    - echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
     - ./tests/beforetests.sh
 
 after_script:
