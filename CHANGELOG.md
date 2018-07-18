@@ -1,6 +1,22 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.17 (2018-07-18)
+    * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
+    * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
+    * HOTFIX      #5060 [MediaBundle]           Added escaping of media edit overlay title
+    * HOTFIX      #4067 [SmartContent]          Avoid returning the same id multiple times in filter query of smart content
+    * HOTFIX      #4058 [ContactBundle]         Added escaping of name in contact-list
+    * HOTFIX      #4058 [ContactBundle]         Added escaping for address and bank-accounts
+    * HOTFIX      #4058 [MediaBundle]           Added escaping of name in media-list
+    * HOTFIX      #4057 [SecurityBundle]        Removed password-hash from user-api
+
+* 1.5.16 (2018-06-29)
+    * ENHANCEMENT #4028 [MediaBundle]           Log errors in image generation
+    * ENHANCEMENT #3850 [SecurityBundle]        Allow user to be null for security config
+    * ENHANCEMENT #3850 [MediaBundle]           Allow user to be null for security expression in service build
+    * BUGFIX      #4018 [SnippetBundle]         Fix conflict when saving snippet in new language
+    * BUGFiX      #3995 [TestBundle]            Fix tests for latest Symfony version
 * 1.5.16 (2018-06-29)
     * ENHANCEMENT sulu/sulu#4028 [MediaBundle]           Log errors in image generation
     * ENHANCEMENT sulu/sulu#3850 [SecurityBundle]        Allow user to be null for security config
