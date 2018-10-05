@@ -1,6 +1,12 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.22 (2018-10-05)
+    * HOTFIX      #4146 [PreviewBundle]         Fixed preview render preview attribute and XmlHttpRequest state
+    * BUGFIX      #4121 [HttpCache]             Set a timeout when purging caches
+    * BUGFIX      #4109 [ContentBundle]         Remove validation-state from rendered link
+    * HOTFIX      #4092 [TestBundle]            Fixed firewall in test website kernel for community bundle
+
 * 1.6.21 (2018-07-18)
     * HOTFIX      #856  [Sulu-Standard]         Fix compatibility with php 5.5
     * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
