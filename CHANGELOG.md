@@ -251,6 +251,9 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
 
+* 1.5.18 (2018-10-05)
+    * HOTFIX      #4092 [TestBundle]            Fixed firewall in test website kernel for community bundle
+
 * 1.5.17 (2018-07-18)
     * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
     * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
