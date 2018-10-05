@@ -1,6 +1,9 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.18 (2018-10-05)
+    * HOTFIX      #4092 [TestBundle]            Fixed firewall in test website kernel for community bundle
+
 * 1.5.17 (2018-07-18)
     * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
     * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
