@@ -21,3 +21,7 @@ doctrine:
         dbname: sulu_test
         user: root
         password:
+
+massive_search:
+    metadata:
+        prefix: test
