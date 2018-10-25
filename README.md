@@ -1,3 +1,5 @@
+> This repository is not longer the recommended way to start a [sulu](https://github.com/sulu/sulu) project have a look at the [documentation](http://docs.sulu.io/) how to start a new project using the new [sulu-minimal](https://github.com/sulu/sulu-minimal) edition.
+
 # Sulu - Content Management
 
 [![](https://travis-ci.org/sulu/sulu-standard.svg?branch=master)](https://travis-ci.org/sulu/sulu-standard)
