@@ -1,7 +1,7 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-master
+* 1.6.23(2018-12-03)
     * HOTFIX      #849  [Sulu-Standard]         Fix that test environment write into same index as live
     * HOTFIX      #4304 [DocumentManager]       Fix performance issue by removing redundant properties on Metadata
     * HOTFIX      #4263 [Content]               Fix param default value
