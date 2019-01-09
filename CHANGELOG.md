@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.24 (2019-01-09)
+    * BUGFIX      #4349 [ContentBundle]         Fix compatibility to symfony 3.4.21, 4.1.10 and 4.2.2
+    * ENHANCEMENT #4319 [MediaBundle]           Added possibility to have a image format configuration file without formats
+
 * 1.6.23(2018-12-03)
     * HOTFIX      #849  [Sulu-Standard]         Fix that test environment write into same index as live
     * HOTFIX      #4304 [DocumentManager]       Fix performance issue by removing redundant properties on Metadata
