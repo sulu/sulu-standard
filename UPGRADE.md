@@ -1,5 +1,13 @@
 # Upgrade
 
+## 1.6.24
+
+### Collection Repository count function changed
+
+For the php 7.3 compatibility we needed to upgrade doctrine/orm for this we needed to rename the following method:
+
+ * Sulu\Bundle\MediaBundle\Entity\CollectionRepositoryInterface::count => Sulu\Bundle\MediaBundle\Entity\CollectionRepositoryInterface::countCollections
+
 ## 1.6.17
 
 ### Address latitude/longitude
@@ -186,6 +194,13 @@ And the `framework.trusted_proxies` setting was removed, use
 
 Also have a look at the
 [Symfony UPGRADE.md](https://github.com/symfony/symfony/blob/master/UPGRADE-3.3.md).
+
+## 1.5.21
+
+### User API performance improvement
+
+The API at `/admin/api/users/{id}` does not contain the `permissions` field of the roles anymore, because it caused
+problems if many webspaces are configured.
 
 ## 1.5.15
 

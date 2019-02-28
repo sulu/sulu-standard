@@ -1,7 +1,34 @@
 CHANGELOG for Sulu CMF
 ======================
 
-* dev-master
+* 1.6.25 (2019-02-28)
+    * BUGFIX      #4434  [SnippetBundle]        Fix translation for snippet taxonomies
+    * BUGFIX      #4414  [SearchBundle]         Add massive search bundle 0.17 as allowed version
+    * FEATURE     #4394  [WebsiteBundle]        Add exception handling for breadcrumb function
+    * FEATURE     #4400  [All]                  Fix FieldJoinDescriptor without a relation
+    * ENHANCEMENT #4370  [WebsiteBundle]        Add attributes to sitemap-url
+    * FEATURE     #4357  [MediaBundle]          Added dimension properties to video media
+
+* 1.6.24 (2019-01-09)
+    * BUGFIX      #4349 [ContentBundle]         Fix compatibility to symfony 3.4.21, 4.1.10 and 4.2.2
+    * ENHANCEMENT #4319 [MediaBundle]           Added possibility to have a image format configuration file without formats
+
+* 1.6.23(2018-12-03)
+    * HOTFIX      #849  [Sulu-Standard]         Fix that test environment write into same index as live
+    * HOTFIX      #4304 [DocumentManager]       Fix performance issue by removing redundant properties on Metadata
+    * HOTFIX      #4263 [Content]               Fix param default value
+    * HOTFIX      #4240 [All]                   Fix travis timeout for PHP 5.5
+    * HOTFIX      #4207 [WebsiteBundle]         Redirect pages with trailing slashes were missing query paraamters
+    * HOTFIX      #4241 [SecurityBundle]        Set default locale for admin user to "en"
+    * HOTFIX      #4112 [SecurityBundle]        Added exception messages to user provider for enabled and locked
+
+* 1.6.22 (2018-10-05)
+    * HOTFIX      #4146 [PreviewBundle]         Fixed preview render preview attribute and XmlHttpRequest state
+    * BUGFIX      #4121 [HttpCache]             Set a timeout when purging caches
+    * BUGFIX      #4109 [ContentBundle]         Remove validation-state from rendered link
+    * HOTFIX      #4092 [TestBundle]            Fixed firewall in test website kernel for community bundle
+
+* 1.6.21 (2018-07-18)
     * HOTFIX      #856  [Sulu-Standard]         Fix compatibility with php 5.5
     * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
     * HOTFIX      #4056 [MediaBundle]           Added security-check for collection permission to media-controller
@@ -250,6 +277,24 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.21 (2019-02-28)
+    * ENHANCEMENT #4367 [WebsiteBundle]         Remove false deprecation of WebsiteController::renderStructure
+    * BUGFIX      #4376 [SecurityBundle]        Exclude role permissions in user API to improve performance
+
+* 1.5.20 (2019-01-09)
+    * ENHANCEMENT #4319 [MediaBundle]           Added possibility to have a image format configuration file without formats
+
+* 1.5.19 (2018-12-03)
+    * HOTFIX      #4304 [DocumentManager]       Fix performance issue by removing redundant properties on Metadata
+    * HOTFIX      #4263 [Content]               Fix param default value
+    * HOTFIX      #4240 [All]                   Fix travis timeout for PHP 5.5
+    * HOTFIX      #4207 [WebsiteBundle]         Redirect pages with trailing slashes were missing query paraamters
+    * HOTFIX      #4241 [SecurityBundle]        Set default locale for admin user to "en"
+    * HOTFIX      #4112 [SecurityBundle]        Added exception messages to user provider for enabled and locked
+
+* 1.5.18 (2018-10-05)
+    * HOTFIX      #4092 [TestBundle]            Fixed firewall in test website kernel for community bundle
 
 * 1.5.17 (2018-07-18)
     * HOTFIX      #4063 [ContentComponent]      Fixed copy language function, which didn't copy the extension data
