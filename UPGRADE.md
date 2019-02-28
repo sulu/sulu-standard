@@ -195,6 +195,13 @@ And the `framework.trusted_proxies` setting was removed, use
 Also have a look at the
 [Symfony UPGRADE.md](https://github.com/symfony/symfony/blob/master/UPGRADE-3.3.md).
 
+## 1.5.21
+
+### User API performance improvement
+
+The API at `/admin/api/users/{id}` does not contain the `permissions` field of the roles anymore, because it caused
+problems if many webspaces are configured.
+
 ## 1.5.15
 
 Added method `hasType` to `Sulu\Component\Content\Compat\Block\BlockPropertyInterface`.
