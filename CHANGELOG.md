@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.5.22 (2019-03-26)
+    * HOTFIX      #4491 [ContentBundle]        Set ghost-locale to first available-locale if locale not exists in webspace
+    * BUGFIX      #4433 [SecurityBundle]       Fix fresh User object comparison to the deserialized User object
+
 * 1.5.21 (2019-02-28)
     * ENHANCEMENT #4367 [WebsiteBundle]         Remove false deprecation of WebsiteController::renderStructure
     * BUGFIX      #4376 [SecurityBundle]        Exclude role permissions in user API to improve performance
