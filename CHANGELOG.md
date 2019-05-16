@@ -1,6 +1,19 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.27 (2019-05-16)
+    * BUGFIX      #4540  [ContentBundle]        Fix copying of teaser selection in WebspaceCopyCommand
+    * BUGFIX      #4562  [WebsiteBundle]        Fix BinaryFileResponse of html files.
+    * FEATURE     #4532  [MediaBundle]          Add command to remove format cache files which not longer exists
+    * HOTFIX      #4512  [Components]           Fix pathcleanup whitespace character problems
+    * FEATURE     #4504  [WebsiteBundle]        Dispatch an event after cache clear. 
+
+* 1.6.26 (2019-03-26)
+    * BUGFIX      #4343  [MediaBundle]          Fixed format manager types configuration cannot be changed
+    * BUGFIX      #4471  [AdminBundle]          Fix CKEditor preview for content that is not wrapped in an HTML tag
+    * HOTFIX      #4491  [ContentBundle]        Set ghost-locale to first available-locale if locale not exists in webspace
+    * BUGFIX      #4433  [SecurityBundle]       Fix fresh User object comparison to the deserialized User object
+
 * 1.6.25 (2019-02-28)
     * BUGFIX      #4434  [SnippetBundle]        Fix translation for snippet taxonomies
     * BUGFIX      #4414  [SearchBundle]         Add massive search bundle 0.17 as allowed version
@@ -277,6 +290,13 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Changed way to determine `sulu.version` to composer.lock
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
+
+* 1.5.23 (2019-05-16)
+    * BUGFIX      #4538 [Component]             Fixed Redirect- and SeoEnhancer to respect current request schema.
+
+* 1.5.22 (2019-03-26)
+    * HOTFIX      #4491 [ContentBundle]        Set ghost-locale to first available-locale if locale not exists in webspace
+    * BUGFIX      #4433 [SecurityBundle]       Fix fresh User object comparison to the deserialized User object
 
 * 1.5.21 (2019-02-28)
     * ENHANCEMENT #4367 [WebsiteBundle]         Remove false deprecation of WebsiteController::renderStructure
