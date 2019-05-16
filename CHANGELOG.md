@@ -1,6 +1,13 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.27 (2019-05-16)
+    * BUGFIX      #4540  [ContentBundle]        Fix copying of teaser selection in WebspaceCopyCommand
+    * BUGFIX      #4562  [WebsiteBundle]        Fix BinaryFileResponse of html files.
+    * FEATURE     #4532  [MediaBundle]          Add command to remove format cache files which not longer exists
+    * HOTFIX      #4512  [Components]           Fix pathcleanup whitespace character problems
+    * FEATURE     #4504  [WebsiteBundle]        Dispatch an event after cache clear. 
+
 * 1.6.26 (2019-03-26)
     * BUGFIX      #4343  [MediaBundle]          Fixed format manager types configuration cannot be changed
     * BUGFIX      #4471  [AdminBundle]          Fix CKEditor preview for content that is not wrapped in an HTML tag
