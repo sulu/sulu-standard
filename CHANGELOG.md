@@ -1,6 +1,15 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.28 (2019-08-08)
+    * BUGFIX      #4644  [CustomUrlBundle]         Fix loading custom url list if creator has been deleted
+    * BUGFIX      #4627  [WebsiteBundle]           Fix Routing when no prefix is Provided.
+    * BUGFIX      #4633  [AudienceTargetingBundle] Fixed conditions saving for Audience Targeting.
+    * BUGFIX      #4605  [Webspace]                Fix sulu document init routes generation
+    * BUGFIX      #4572  [WebsiteBundle]           Fix false 406 status code for controller InvalidArgumentExceptions
+    * BUGFIX      #4571  [WebsiteBundle]           Fix language switcher for static routes
+    * BUGFIX      #4579  [ContentBundle]           Fix controller reference validation with FQCN
+
 * 1.6.27 (2019-05-16)
     * BUGFIX      #4540  [ContentBundle]        Fix copying of teaser selection in WebspaceCopyCommand
     * BUGFIX      #4562  [WebsiteBundle]        Fix BinaryFileResponse of html files.
