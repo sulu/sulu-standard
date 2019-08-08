@@ -291,6 +291,12 @@ CHANGELOG for Sulu CMF
     * FEATURE     #3278 [Util]                  Introduced new parameter `app.version` read from composer.json
     * ENHANCEMENT #3154 [All]                   Upgrade symfony to ^3.0
 
+* 1.5.24 (2019-08-08)
+    * BUGFIX      #4605 [Webspace]              Fix sulu document init routes generation
+    * BUGFIX      #4572 [WebsiteBundle]         Fix false 406 status code for controller InvalidArgumentExceptions
+    * BUGFIX      #4571 [WebsiteBundle]         Fix language switcher for static routes
+    * BUGFIX      #4579 [ContentBundle]         Fix controller reference validation with FQCN
+
 * 1.5.23 (2019-05-16)
     * BUGFIX      #4538 [Component]             Fixed Redirect- and SeoEnhancer to respect current request schema.
 
