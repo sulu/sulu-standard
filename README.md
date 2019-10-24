@@ -1,4 +1,4 @@
-> This repository is not longer the recommended way to start a [sulu](https://github.com/sulu/sulu) project have a look at the [documentation](http://docs.sulu.io/) how to start a new project using the new [sulu-minimal](https://github.com/sulu/sulu-minimal) edition.
+> This repository is no longer the recommended way to start a [sulu](https://github.com/sulu/sulu) project. Please have a look at the [documentation](http://docs.sulu.io/) to find out how to start a new project using the new [sulu/skeleton](https://github.com/sulu/skeleton) repository.
 
 # Sulu - Content Management
 
