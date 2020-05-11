@@ -1,6 +1,10 @@
 CHANGELOG for Sulu CMF
 ======================
 
+* 1.6.33 (2020-05-11)
+    * BUGFIX      #5284  [MediaBundle]             Conflict doctrine/inflector 1.4.0 and 2.0.0 version to fix media routes
+    * BUGFIX      #5240  [Content]                 Fix copy language with different template
+
 * 1.6.32 (2020-03-26)
     * FEATURE     #5062  [MediaBundle]             Added download counter to list view of medias.
     * BUGFIX      #5109  [WebsiteBundle]           Fix disabled request analyzer for esi requests
